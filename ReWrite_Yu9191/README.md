@@ -10,7 +10,7 @@
 
 ## Revenuecat 合集
 
-总共有 10 个软件在这个合集中。
+总共有 11 个软件在这个合集中。
 
 脚本链接：[点击查看脚本](https://raw.githubusercontent.com/Yu9191/Rewrite/main/Revenuecat.js)
 
