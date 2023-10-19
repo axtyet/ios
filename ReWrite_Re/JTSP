@@ -1,0 +1,19 @@
+/******************************************
+
+脚本功能：加藤视频 会员+金币视频解锁
+
+下载地址：https://tgz.kx9x7.shop?invitationCode=CTB0X3
+官网 : https://jt01.live
+软件版本：所有
+脚本作者：伟人
+作者QQ:55749353
+更新时间：2023-05-07
+QQ会员群：没有
+TG反馈群：https://t.me/WeiRenOVO
+TG频道群：https://t.me/WeiRenQAQ
+使用声明：⚠️此脚本仅供学习与交流，请勿转载与贩卖！⚠️⚠️⚠️
+
+******************************************/
+[rewrite_remote]
+https://raw.githubusercontent.com/WeiRen0/Scripts/main/jtsp2.js, tag=by-伟人,加藤全屏播放, update-interval=172800, opt-parser=true, enabled=true
+https://raw.githubusercontent.com/WeiRen0/Scripts/main/jtsp.js, tag=by-伟人,加藤视频🚗, update-interval=172800, opt-parser=true, enabled=true
