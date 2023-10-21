@@ -18,7 +18,7 @@
 下载地址：chat smith  https://t.cn/A6OC5HGz
 下载地址：Miary: 记录你的日记和情绪
 下载地址：mindkit https://t.cn/A6WPOgAW
-
+下载地址：狸清照 商店6.9.3
 使用声明：⚠️仅供参考，🈲️转载与售卖！
 
 **************************************
@@ -61,6 +61,7 @@ var uaProductMapping = {
   'MoodTracker': {product_id: 'co.vulcanlabs.moodtracker.lifetime2'},
   'Miary': {product_id: 'lifetime_sub'},  
   'Mindkit': {product_id: 'mindkit_yearly'}, 
+  'EnhanceFox': {product_id: 'com.risingcabbage.enhancefox.yearlysubscribewithtreetrial'},
 };
 var receipt = {
   "quantity": "1",
