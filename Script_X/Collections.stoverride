@@ -9,7 +9,7 @@ desc: 作者：chxm1023
 
 # 使用方法：先开脚本再打开App，自动会生效，如果无效就关了重开或者按一下恢复购买，在还不行就卸载App重新安装！最后还不行的话就是脚本失效了！
 
-# 更新日期：2023-09-17
+# 更新日期：2023-10-26
 
 # 项目解锁App下载地址：https://too.st/chxm1023
 
@@ -43,6 +43,8 @@ http:
     - ^https:\/\/oxadmin\.cp\.com\.cn\/api\/(hot\/index|advertise\/banner) - reject-dict
     # iScreen小组件-辅助解锁
     - ^https?:\/\/pay\.kuso\.xyz\/pay\/pay-check - reject-200
+    # FT中文网AD
+    - ^https?:\/\/ftmailbox\.cn\/ad_impression\/.+ - reject-200
 
 
 
@@ -298,7 +300,7 @@ http:
       require-body: true
       timeout: 10
     # 极简汇率
-    - match: ^https?:\/\/explorer\.tratao\.com\/api\/client\/xtool\/vip
+    - match: ^https?:\/\/(xremit\.xcurrency|explorer.tratao)\.com\/api\/client\/xtool\/vip
       name: 极简汇率
       type: response
       require-body: true
@@ -442,7 +444,7 @@ http:
       require-body: true
       timeout: 10
     # 靓机汇
-    - match: ^https?:\/\/guapi\.liangjihui\.com\/front\/(quote\/look.+|user\/memberInfo)
+    - match: ^https?:\/\/guapi\.liangjihui\.com\/(front\/(quote\/look.+|user\/memberInfo)|api)
       name: 靓机汇
       type: response
       require-body: true
@@ -670,12 +672,12 @@ http:
       require-body: true
       timeout: 10
     # gg
-    - match: ^https:\/\/isi\..*\.g.*\.com\/.+\/(receipts$|subscribers\/?(.*?)*$)
+    - match: ^https:\/\/isi\..*\.g.*\.(com\..*|com)\/.+\/(receipts$|subscribers\/?(.*?)*$)
       name: gg
       type: response
       require-body: true
       timeout: 10
-    - match: ^https:\/\/isi\..*\.g.*\.com\/.+\/(receipts$|subscribers\/?(.*?)*$)
+    - match: ^https:\/\/isi\..*\.g.*\.(com\..*|com)\/.+\/(receipts$|subscribers\/?(.*?)*$)
       name: gg
       type: request
       require-body: false
@@ -705,7 +707,7 @@ http:
       require-body: true
       timeout: 10
     # 人人视频
-    - match: ^https?:\/\/api\.hujuvod\.com\/(user\/personal\/information|app\/drama\/page)
+    - match: ^https?:\/\/api\.(hujuvod\.com|qwapp\.top)\/(user\/personal\/information|app\/drama\/page)
       name: 人人视频
       type: response
       require-body: true
@@ -883,6 +885,106 @@ http:
       type: response
       require-body: true
       timeout: 10
+    # Noted录音笔记软件
+    - match: ^https:\/\/subscription-api\.notedapp\.io\/api\/verifyReceipt
+      name: Noted
+      type: response
+      require-body: true
+      timeout: 10
+    # 爱涂绘画
+    - match: ^https?:\/\/kkr-user\.tapque\.com\/kkruserapi\/userOrderInfo\/isVip
+      name: 爱涂绘画
+      type: response
+      require-body: true
+      timeout: 10
+    # 一起练琴
+    - match: ^https?:\/\/api\.(.*lianqin.*|mangofuture)\.(com|cn)\/client\/v\d\/(user_vip|my_info)
+      name: 一起练琴
+      type: response
+      require-body: true
+      timeout: 10
+    # Foodie/轻图/B612相机/甜盐相机
+    - match: ^https?:\/\/(purchase-.*-api|user-kaji-api)\.(yiruikecorp|b612kaji|tianyancam)\.com\/v\d\/purchase\/subscription\/subscriber\/status
+      name: 4gexj.response
+      type: response
+      require-body: true
+      timeout: 10
+    # 13个APP
+    - match: ^https?:\/\/(appss|standard)\.(rhinox.*|linhongshi)\.com\/.+\/account\/getAccountInfo
+      name: 13geapp.response
+      type: response
+      require-body: true
+      timeout: 10
+    # FT中文网/RainViewer天气预报
+    - match: ^https?:\/\/.*\.cloudfront\.net\/(index\.php\/jsapi\/(paywall|get_story_more_info)|mobile\/verify)
+      name: cloudfront.response
+      type: response
+      require-body: true
+      timeout: 10
+    # 水印宝/闪电水印/熊猫水印/水印全能王
+    - match: ^https?:\/\/water.*\.yunxiaoguo\.cn\/user\/info
+      name: shuiyin.response
+      type: response
+      require-body: true
+      timeout: 10
+    # 消防行
+    - match: ^https?:\/\/www\.xfx119\.com\/ksVRExamSystem\/validityTerm
+      name: xiaofangxing.response
+      type: response
+      require-body: true
+      timeout: 10
+    # Vista看天下
+    - match: ^https?:\/\/open3\.vistastory\.com\/v\d\/api\/(vip|my\/home\/get_home_center|user/pendant|poster\/share_poster|adm\/get_popup_ad|index\/loading_ad)
+      name: Vista看天下
+      type: response
+      require-body: true
+      timeout: 10
+    # 暴走P图
+    - match: ^https?:\/\/api\.intelimeditor\.com\/user\/loginByThirdPlatformApp
+      name: 暴走P图
+      type: response
+      require-body: true
+      timeout: 10
+    # Glass:摄影社区
+    - match: ^https:\/\/glass\.photo\/api\/(v2\/users\/[0-9a-zA-Z-]+$|v1\/account$|v3\/token$)
+      name: glass.response
+      type: response
+      require-body: true
+      timeout: 10
+    # 星题库
+    - match: ^https?:\/\/mb\.xinghengedu\.com\/api\/.+\/getUserByToken\.do
+      name: 星题库-会员
+      type: response
+      require-body: true
+      timeout: 10
+    - match: ^https?:\/\/cm15-c110-3\.play\.bokecc\.com\/flvs
+      name: 星题库-课程
+      type: request
+      require-body: false
+      timeout: 10
+    # 七天学堂
+    - match: ^https?:\/\/szone-my\.7net\.cc\/userInfo\/GetUserInfo
+      name: 七天学堂
+      type: response
+      require-body: true
+      timeout: 10
+    # MIX-滤镜大师
+    - match: ^https?:\/\/cdn-bm\.camera360\.com\/api\/(mix\/(getinfo|purchase|recovery)|iap\/check-receipt)
+      name: mix.response
+      type: response
+      require-body: true
+      timeout: 10
+    # 扫描宝
+    - match: ^https?:\/\/app\.yinxiang\.com\/third\/profile\/public\/restful\/public-user-profile
+      name: 扫描宝-资料
+      type: response
+      require-body: true
+      timeout: 10
+    - match: ^https?:\/\/app\.yinxiang\.com\/third\/scanner\/scanner\/app\/userInfo\/get
+      name: 扫描宝-会员
+      type: response
+      require-body: true
+      timeout: 10
 
 
 
@@ -937,6 +1039,7 @@ http:
     - 'api.open.loveclip.site'
     - 'iap.etm.tech'
     - 'top-widgets-api.xiaozujian.com'
+    - 'xremit.xcurrency.com'
     - 'explorer.tratao.com'
     - 'mobile-api.adguard.org'
     - 'ggs.manmeng168.com'
@@ -1001,12 +1104,13 @@ http:
     - 'diary-id.sumi.io'
     - 'firstclass.tripsy.app'
     - 'api.polaxiong.com'
-    - 'isi.*.g*.com'
+    - 'isi.*.g*.com*'
     - 'oxfordx.cp.com.cn'
     - 'mobile.flightradar24.com'
     - 'api.shouzhang.com'
     - 'api.weilaizhushou.com'
     - 'api.hujuvod.com'
+    - 'api.qwapp.top'
     - 'api.ankichinas.com'
     - 'api.995120.cn'
     - 'api.geefoo.cn'
@@ -1035,10 +1139,81 @@ http:
     - 'creaceed.com'
     - 'main-sciam-nature.content.pugpig.com'
     - '*.execute-api.ap-northeast-2.amazonaws.com'
+    - 'subscription-api.notedapp.io'
+    - 'kkr-user.tapque.com'
+    - 'api.*lianqin*.*'
+    - 'api.mangofuture.cn'
+    - 'purchase-*-api.*.com'
+    - 'user-kaji-api.b612kaji.com'
+    - '*.rhinox*.com'
+    - 'appss.linhongshi.com'
+    - '*.cloudfront.net'
+    - 'ftmailbox.cn'
+    - 'water*.yunxiaoguo.cn'
+    - 'www.xfx119.com'
+    - 'open3.vistastory.com'
+    - 'api.intelimeditor.com'
+    - 'glass.photo'
+    - 'cm15-c110-3.play.bokecc.com'
+    - 'mb.xinghengedu.com'
+    - 'szone-my.7net.cc'
+    - 'cdn-bm.camera360.com'
+    - 'app.yinxiang.com'
 
 
 
 script-providers:
+  扫描宝-会员:
+    url: https://raw.githubusercontent.com/Yu9191/Rewrite/main/saomiaobao2.js
+    interval: 86400
+  扫描宝-资料:
+    url: https://raw.githubusercontent.com/Yu9191/Rewrite/main/saomiaobao.js
+    interval: 86400
+  mix.response:
+    url: https://raw.githubusercontent.com/chxm1023/Rewrite/main/mix.js
+    interval: 86400
+  七天学堂:
+    url: https://raw.githubusercontent.com/Yu9191/Rewrite/main/Qitianxuetang.js
+    interval: 86400
+  星题库-课程:
+    url: https://raw.githubusercontent.com/Yu9191/Rewrite/main/Xingtikukecheng.js
+    interval: 86400
+  星题库-会员:
+    url: https://raw.githubusercontent.com/Yu9191/Rewrite/main/Xingtiku.js
+    interval: 86400
+  glass.response:
+    url: https://raw.githubusercontent.com/leey668/pyer/main/glass.js
+    interval: 86400
+  暴走P图:
+    url: https://raw.githubusercontent.com/chxm1023/Rewrite/main/baozouptu.js
+    interval: 86400
+  Vista看天下:
+    url: https://raw.githubusercontent.com/chxm1023/Rewrite/main/Vista.js
+    interval: 86400
+  xiaofangxing.response:
+    url: https://raw.githubusercontent.com/chxm1023/Rewrite/main/xiaofangxing.js
+    interval: 86400
+  shuiyin.response:
+    url: https://raw.githubusercontent.com/chxm1023/Rewrite/main/shuiyin.js
+    interval: 86400
+  cloudfront.response:
+    url: https://raw.githubusercontent.com/chxm1023/Rewrite/main/cloudfront.js
+    interval: 86400
+  13geapp.response:
+    url: https://raw.githubusercontent.com/chxm1023/Rewrite/main/13geapp.js
+    interval: 86400
+  4gexj.response:
+    url: https://raw.githubusercontent.com/chxm1023/Rewrite/main/4gexj.js
+    interval: 86400
+  一起练琴:
+    url: https://raw.githubusercontent.com/chxm1023/Rewrite/main/yiqilianqin.js
+    interval: 86400
+  爱涂绘画:
+    url: https://raw.githubusercontent.com/chxm1023/Rewrite/main/aituhuihua.js
+    interval: 86400
+  Noted:
+    url: https://raw.githubusercontent.com/chxm1023/Rewrite/main/Noted.js
+    interval: 86400
   DayMore:
     url: https://raw.githubusercontent.com/chxm1023/Rewrite/main/daymore.js
     interval: 86400
@@ -1328,7 +1503,7 @@ script-providers:
     url: https://raw.githubusercontent.com/chxm1023/Rewrite/main/AdGuard.js
     interval: 86400
   极简汇率:
-    url: https://raw.githubusercontent.com/chxm1023/Rewrite/main/jjhl.js
+    url: https://raw.githubusercontent.com/chxm1023/Rewrite/main/jijianhuilv.js
     interval: 86400
   TopWidgets:
     url: https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/widgets.js
