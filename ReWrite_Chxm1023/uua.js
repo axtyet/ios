@@ -9,10 +9,10 @@
 **************************************
 
 [rewrite_local]
-^https?:\/\/api\.uaa\.com url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/uua.js
+^https?:\/\/(api|m)\.uaa.*\.com url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/uua.js
 
 [mitm]
-hostname = api.uaa.com
+hostname = *.uaa*.com
 
 *************************************/
 
