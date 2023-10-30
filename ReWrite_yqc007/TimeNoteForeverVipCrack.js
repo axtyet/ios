@@ -12,7 +12,7 @@
 
 [rewrite_local]
 # > 指尖笔记解锁永久会员
-^https?:\/\/data\.ufbae\.com\/User\/GetUser url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/TimeNoteForeverVipCrack.js
+^https?:\/\/data\.ufbae\.com\/User\/GetUser url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/ReWrite_yqc007/TimeNoteForeverVipCrack.js
 
 [mitm] 
 hostname = data.ufbae.com
