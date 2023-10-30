@@ -9,7 +9,7 @@ desc: 作者：chxm1023
 
 # 使用方法：先开脚本再打开App，自动会生效，如果无效就关了重开或者按一下恢复购买，在还不行就卸载App重新安装！最后还不行的话就是脚本失效了！
 
-# 更新日期：2023-10-26
+# 更新日期：2023-10-30
 
 # 项目解锁App下载地址：https://too.st/chxm1023
 
@@ -1145,7 +1145,8 @@ http:
     - 'api.mangofuture.cn'
     - 'purchase-*-api.*.com'
     - 'user-kaji-api.b612kaji.com'
-    - '*.rhinox*.com'
+    - 'standard.rhinox*.com'
+    - 'appss.rhinox*.com'
     - 'appss.linhongshi.com'
     - '*.cloudfront.net'
     - 'ftmailbox.cn'
