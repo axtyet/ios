@@ -26,7 +26,7 @@ var objc = JSON.parse($response.body);
       "LevelActionUrl" : "QDReader://h5.if.qidian.com/statics/profile/scorelevel.html;QDReader://h5.if.qidian.com/statics/profile/vip.html?_viewmode=1",
       "Level" : "Lv.8",//等级
       "FrameUrl" : "",
-      "NickName" : "lovebabyforever"
+      "NickName" : "江上酒"
     },
     "AccountBalance" : {
       "QdWorthBalance" : 0,
