@@ -10,14 +10,14 @@
 
 # 使用方法：先开脚本再打开App，自动会生效，如果无效就关了重开或者按一下恢复购买，在还不行就卸载App重新安装！最后还不行的话就是脚本失效了！
 
-# 更新日期：2023-10-30
+# 更新日期：2023-10-31
 
 # 已解锁App下载地址：https://too.st/chxm1023
 
 #=============UserScript=============#
 [URL Rewrite]
 # 彩云天气去广告
-^https?:\/\/ad\.caiyunapp\.com - reject
+^https?:\/\/ad\.(caiyunapp|cyapi)\.(cn|com) - reject
 # 酷我音乐_AdBlock
 ^https?:\/\/rich\.kuwo\.cn\/AdService\/kaiping\/.+ - reject
 # 酷我音乐_AdBlock
@@ -85,7 +85,8 @@ Ps = type=http-response,pattern=^https?:\/\/lcs-mobile-cops\.adobe\.io\/mobile_p
 #************************************#
 # 彩云天气
 # hostname = *.cyapi.cn, *.caiyunapp.com, adx.sogaha.cn
-彩云天气 = type=http-response,pattern=^https?:\/\/(biz|wrapper)\.cyapi\.cn\/(.+\/(user.+|visitors|activity)|p\/v\d\/vip_info),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/chxm1023/Rewrite/main/caiyun.js
+彩云天气-SVIP会员 = type=http-response,pattern=^https?:\/\/(biz|wrapper|starplucker)\.(cyapi|caiyunapp)\.(cn|com)\/(.+\/(user\?app_name|activity\?app_name|visitors|operation\/banners)|p\/v\d\/(vip_info|user_info)),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/chxm1023/Rewrite/main/caiyuntianqi.js
+彩云天气-SVIP地图 = type=http-request,pattern=^https?:\/\/(api|wrapper)\.(cyapi|caiyunapp)\.(cn|com)\/v\d\/(satellite|nafp\/origin_images),requires-body=0,max-size=0,script-path=https://raw.githubusercontent.com/chxm1023/Rewrite/main/caiyuntianqi.js
 
 #************************************#
 # 一言
