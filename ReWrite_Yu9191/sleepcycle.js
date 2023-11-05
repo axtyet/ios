@@ -1,5 +1,5 @@
 /*
-sleep cycle
+sleep cycle 6.23.42
 登陆 购买取消 退后台 重新打开即可
 
 [rewrite_local]
