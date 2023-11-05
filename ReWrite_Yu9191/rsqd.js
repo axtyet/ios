@@ -1,7 +1,7 @@
 /*************************************
 
 项目名称：人生清单
-软件版本：1.1.2
+软件版本：2.0.3
 下载地址：https://is.gd/vI0aOe
 使用声明：⚠️仅供参考，🈲️转载与售卖！
 
@@ -14,6 +14,7 @@
 hostname = api.revenuecat.com
 
 ************************************/
+
 
 
 const anni = {};
@@ -36,8 +37,8 @@ if (typeof $response == "undefined") {
   };
 
   anni1.subscriber.subscriptions["com.metaorder.lifelist.premium"] = data;
-  anni1.subscriber.entitlements["premium"] = JSON.parse(JSON.stringify(data));
-  anni1.subscriber.entitlements["premium"].product_identifier = "com.metaorder.lifelist.premium";
+  anni1.subscriber.entitlements["pro"] = JSON.parse(JSON.stringify(data));
+  anni1.subscriber.entitlements["pro"].product_identifier = "com.metaorder.lifelist.premium";
 
   anni.body = JSON.stringify(anni1);
 }
