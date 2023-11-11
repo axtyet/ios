@@ -43,8 +43,8 @@ var baby = {
       { 
         "quantity": "1", 
         "purchase_date_ms": "666666666666666", 
-        "expires_date": "8888-08-08 08:08:08 Etc\/GMT", 
-        "expires_date_pst": "8888-08-08 08:08:08 America\/Los_Angeles", 
+        "expires_date": "9999-09-09 08:08:08 Etc\/GMT", 
+        "expires_date_pst": "9999-09-09 08:08:08 America\/Los_Angeles", 
         "is_in_intro_offer_period": "false", 
         "transaction_id": "666666666666666", 
         "is_trial_period": "false", 
