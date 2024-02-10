@@ -74,6 +74,7 @@ var uaProductMapping = {
   'Ever%20Play': {product_id: 'com.zhangchao.AudioPlayer.subscription.oneYear'},
   'Carbon%20VPN': {product_id: 'Prog_oneYear_auto'},
   'RealTuner': {product_id: 'com.gismart.tuner.weekly'},
+  'ShellBean': {product_id: 'com.ningle.shellbean.subscription.year'},
 
 
 
@@ -94,6 +95,7 @@ var uaProductMapping = {
   'Mindkit': {product_id: 'mindkit_yearly'}, 
   'EnhanceFox': {product_id: 'com.risingcabbage.enhancefox.yearlysubscribewithtreetrial'},
   'Snoring': {product_id: 'com.koshel.snore.premiumYearThreeDaysTria'},
+  'com.brother.pdfreaderprofree': {product_id: 'com.pdfreaderpro.free.member.all_access_pack_permanent_license.001'},
   
 
 
