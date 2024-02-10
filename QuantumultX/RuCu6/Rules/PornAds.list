@@ -1,0 +1,17 @@
+# 2023-12-05 14:40
+
+# General
+HOST, ads.exoclick.com, REJECT
+HOST, pv.vipads.cc, REJECT
+HOST, www.vipads.live, REJECT
+HOST-SUFFIX, adxadserv.com, REJECT
+HOST-SUFFIX, jads.co, REJECT
+HOST-SUFFIX, juicyads.com, REJECT
+
+# https://www.eporner.com/
+HOST, a.magsrv.com, REJECT
+HOST, s.magsrv.com, REJECT
+
+# https://www.xvideos.com/
+HOST, a.orbsrv.com, REJECT
+HOST, s.orbsrv.com, REJECT

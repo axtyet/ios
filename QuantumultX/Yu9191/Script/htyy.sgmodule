@@ -1,0 +1,8 @@
+#!name=dolphinmedia
+#!desc=dolphinmedia
+
+[Script]
+dolphinmedia = type=http-response, pattern=^http[s]?:\/\/english.dolphinmedia.cn, script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/dolphinmedia.js, requires-body=true, max-size=-1, timeout=60
+
+[MITM]
+hostname = %APPEND% english.dolphinmedia.cn

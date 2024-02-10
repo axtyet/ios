@@ -1,0 +1,26 @@
+# https://github.com/blackmatrix7/ios_rule_script/blob/release/rule/Loon/Lan/Lan.list
+# 2022-11-30 21:11:38
+
+# 修正广告拦截
+DOMAIN, ad.12306.cn
+DOMAIN, amdc.m.taobao.com
+DOMAIN, ca.iadsdk.apple.com
+
+# LAN
+IP-CIDR, 0.0.0.0/8, no-resolve
+IP-CIDR, 10.0.0.0/8, no-resolve
+IP-CIDR, 100.64.0.0/10, no-resolve
+IP-CIDR, 127.0.0.0/8, no-resolve
+IP-CIDR, 169.254.0.0/16, no-resolve
+IP-CIDR, 172.16.0.0/12, no-resolve
+IP-CIDR, 192.0.0.0/24, no-resolve
+IP-CIDR, 192.0.2.0/24, no-resolve
+IP-CIDR, 192.168.0.0/16, no-resolve
+IP-CIDR, 192.88.99.0/24, no-resolve
+IP-CIDR, 198.18.0.0/15, no-resolve
+IP-CIDR, 198.51.100.0/24, no-resolve
+IP-CIDR, 203.0.113.0/24, no-resolve
+IP-CIDR, 224.0.0.0/3, no-resolve
+IP-CIDR6, ::1/128, no-resolve
+IP-CIDR6, fc00::/7, no-resolve
+IP-CIDR6, fe80::/10, no-resolve
