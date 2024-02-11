@@ -13,7 +13,7 @@
 
 [rewrite_local]
 # > 问真八字解锁永久钻石会员
-^https?:\/\/bzpp2\.iwzbz\.com\/api\/v1\.1\/user\/getpwnewios url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/WzbzDiamondVipCrack.js
+^https?:\/\/bzpp2\.iwzbz\.com\/api\/v1\.1\/user\/getpwnewios url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yqc007/WzbzDiamondVipCrack.js
 
 [mitm] 
 hostname = bzpp2.iwzbz.com

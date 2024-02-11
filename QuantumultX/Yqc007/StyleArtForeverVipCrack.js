@@ -9,7 +9,7 @@
 *******************************
 [rewrite_local]
 # > StyleArt 解锁永久会员
-^https?:\/\/apidraw\.styleart\.cn\/v4\/aidraw\/user\/userInfo\/getUserInfoByToken url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/StyleArtForeverVipCrack.js
+^https?:\/\/apidraw\.styleart\.cn\/v4\/aidraw\/user\/userInfo\/getUserInfoByToken url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yqc007/StyleArtForeverVipCrack.js
 [mitm] 
 hostname = apidraw.styleart.cn
 

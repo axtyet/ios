@@ -17,7 +17,7 @@
 [rewrite_local]
 
 # PlaneVPN解锁订阅
-^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/PlaneVPNProCrack.js
+^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yqc007/PlaneVPNProCrack.js
 
 [mitm] 
 

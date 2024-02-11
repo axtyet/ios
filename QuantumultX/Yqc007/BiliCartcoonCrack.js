@@ -12,7 +12,7 @@
 *******************************
 [rewrite_local]
 # > 逼哩涩漫解锁付费动漫
-^https?:\/\/.*\/api\/app\/(user\/info|cartoon\/play|photo\/detail) url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/BiliCartcoonCrack.js
+^https?:\/\/.*\/api\/app\/(user\/info|cartoon\/play|photo\/detail) url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yqc007/BiliCartcoonCrack.js
 
 [mitm] 
 hostname = etryj.avjfph.com, zhfvd.rjxxqf.com, ryuhf.jmzkwt.com, ovhdo.cjppdp.com

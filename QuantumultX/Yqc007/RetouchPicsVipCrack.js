@@ -9,7 +9,7 @@
 *******************************
 [rewrite_local]
 # > 醒图解锁会员
-^https?:\/\/commerce-api\.faceu\.mobi\/commerce\/v1\/subscription\/user_info url script-request-header https://raw.githubusercontent.com/yqc007/QuantumultX/master/RetouchPicsVipCrack.js
+^https?:\/\/commerce-api\.faceu\.mobi\/commerce\/v1\/subscription\/user_info url script-request-header https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yqc007/RetouchPicsVipCrack.js
 [mitm] 
 hostname = commerce-api.faceu.mobi, api3-misc-lf.retouchpics.com
 

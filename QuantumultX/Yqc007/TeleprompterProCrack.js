@@ -13,7 +13,7 @@
 
 [rewrite_local]
 # > 爱提词解锁永久订阅
-^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/TeleprompterProCrack.js
+^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yqc007/TeleprompterProCrack.js
 
 [mitm] 
 hostname = buy.itunes.apple.com

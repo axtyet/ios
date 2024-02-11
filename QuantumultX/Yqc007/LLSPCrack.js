@@ -15,7 +15,7 @@
 [rewrite_local]
 
 # > 69萝莉解锁会员
-^https?:\/\/h5.*you.*\/h5\/login\/loginAccount$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/LLSPCrack.js
+^https?:\/\/h5.*you.*\/h5\/login\/loginAccount$ url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yqc007/LLSPCrack.js
 
 [mitm] 
 

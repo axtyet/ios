@@ -13,7 +13,7 @@
 
 [rewrite_local]
 # > Fimo 解锁永久会员
-^https?:\/\/server\.yoyiapp\.com\/fimo-user\/apple\/certificate$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/FimoCamVipCrack.js
+^https?:\/\/server\.yoyiapp\.com\/fimo-user\/apple\/certificate$ url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yqc007/FimoCamVipCrack.js
 
 [mitm] 
 hostname = server.yoyiapp.com

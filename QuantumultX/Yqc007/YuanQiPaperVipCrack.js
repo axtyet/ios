@@ -9,7 +9,7 @@
 *******************************
 [rewrite_local]
 # > 元气壁纸解锁永久会员
-^https?:\/\/mobile-ios-wallpaper-api\.zhhainiao\.com\/v1\/user\/info url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/YuanQiPaperVipCrack.js
+^https?:\/\/mobile-ios-wallpaper-api\.zhhainiao\.com\/v1\/user\/info url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yqc007/YuanQiPaperVipCrack.js
 [mitm] 
 hostname = mobile-ios-wallpaper-api.zhhainiao.com
 

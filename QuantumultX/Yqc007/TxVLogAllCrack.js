@@ -13,7 +13,7 @@
 
 [rewrite_local]
 # > 糖心VLog破解全部视频
-^https?:\/\/txh016\.com\/h5\/m3u8\?url=\/media2\/m3u8-preview\/.+ url script-request-header https://raw.githubusercontent.com/yqc007/QuantumultX/master/TxVLogAllCrack.js
+^https?:\/\/txh016\.com\/h5\/m3u8\?url=\/media2\/m3u8-preview\/.+ url script-request-header https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yqc007/TxVLogAllCrack.js
 
 [mitm] 
 hostname = txh016.com

@@ -13,7 +13,7 @@
 
 [rewrite_local]
 # > SparkMail解锁永久订阅
-^https?:\/\/api\.revenuecat\.com\/v1\/(receipts|subscribers\/.{36}|subscribers\/\w{14})$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/SparkMailProCrack.js
+^https?:\/\/api\.revenuecat\.com\/v1\/(receipts|subscribers\/.{36}|subscribers\/\w{14})$ url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yqc007/SparkMailProCrack.js
 
 [mitm] 
 hostname = api.revenuecat.com

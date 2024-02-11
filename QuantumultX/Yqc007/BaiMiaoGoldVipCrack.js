@@ -9,7 +9,7 @@
 *******************************
 [rewrite_local]
 # > 白描解锁黄金会员
-^https?:\/\/baimiao\.uzero\.cn\/api\/v2\.user\/appLaunchWithUser url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/BaiMiaoGoldVipCrack.js
+^https?:\/\/baimiao\.uzero\.cn\/api\/v2\.user\/appLaunchWithUser url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yqc007/BaiMiaoGoldVipCrack.js
 ^https?:\/\/baimiao\.uzero\.cn\/api\/v2\.user\/c(heckLoginClient|leanAccount) url reject-array
 [mitm] 
 hostname = baimiao.uzero.cn

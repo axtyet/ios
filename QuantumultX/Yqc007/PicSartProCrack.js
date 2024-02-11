@@ -13,7 +13,7 @@
 
 [rewrite_local]
 # > PicSart美易解锁永久订阅
-^https?:\/\/api\.(meiease|picsart)\.cn\/(users\/show\/me|shop\/subscription\/apple\/purchases) url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/PicSartProCrack.js
+^https?:\/\/api\.(meiease|picsart)\.cn\/(users\/show\/me|shop\/subscription\/apple\/purchases) url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yqc007/PicSartProCrack.js
 
 [mitm] 
 hostname = api.meiease.cn, api.picsart.cn

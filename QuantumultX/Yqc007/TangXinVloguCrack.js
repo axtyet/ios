@@ -10,8 +10,8 @@
 *******************************
 [rewrite_local]
 # > 糖心 Vlog 破解糖友至尊卡
-^https?:\/\/tx.*\.com\/h5\/user\/info$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/TangXinVloguCrack.js
-^https?:\/\/tx.*\.com\/h5\/movie\/detail$ url script-request-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/TangXinVlogmCrack.js
+^https?:\/\/tx.*\.com\/h5\/user\/info$ url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yqc007/TangXinVloguCrack.js
+^https?:\/\/tx.*\.com\/h5\/movie\/detail$ url script-request-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yqc007/TangXinVlogmCrack.js
 [mitm] 
 hostname = txh*.com, txk*.com, tx*.com
 

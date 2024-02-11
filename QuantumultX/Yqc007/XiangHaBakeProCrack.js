@@ -16,7 +16,7 @@
 [rewrite_local]
 
 # 烘焙小屋解锁会员
-^https?:\/\/apiios_dq\.xiangha\.com\/v4\/(dish\/info|User\/getUserData)$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/XiangHaBakeProCrack.js
+^https?:\/\/apiios_dq\.xiangha\.com\/v4\/(dish\/info|User\/getUserData)$ url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yqc007/XiangHaBakeProCrack.js
 
 [mitm] 
 

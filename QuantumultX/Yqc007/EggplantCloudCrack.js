@@ -12,7 +12,7 @@
 *******************************
 [rewrite_local]
 # > 茄子云盘解锁会员
-^https?:\/\/121\.199\.197\.35:9293\/api\/ios\/getAdClick$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/EggplantCloudCrack.js
+^https?:\/\/121\.199\.197\.35:9293\/api\/ios\/getAdClick$ url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yqc007/EggplantCloudCrack.js
 
 [mitm] 
 hostname = 121.199.197.35:9293

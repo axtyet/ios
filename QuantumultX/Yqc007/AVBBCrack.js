@@ -12,7 +12,7 @@
 *******************************
 [rewrite_local]
 # > 艾薇啵啵解锁会员
-^https?:\/\/s\..*\.com\/s2\/L2d3L3VzZXItc2VydmVyL3dlYi9sb2dpbj url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/AVBBCrack.js
+^https?:\/\/s\..*\.com\/s2\/L2d3L3VzZXItc2VydmVyL3dlYi9sb2dpbj url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yqc007/AVBBCrack.js
 
 [mitm] 
 hostname = s.*.com

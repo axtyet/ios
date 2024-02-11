@@ -13,7 +13,7 @@
 
 [rewrite_local]
 # > DarkRoom 解锁永久高级版
-^https?:\/\/api\.revenuecat\.com\/v1\/(receipts|subscribers\/\$RCAnonymousID%3A\w{32}) url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/DarkRoomPremiumCrack.js
+^https?:\/\/api\.revenuecat\.com\/v1\/(receipts|subscribers\/\$RCAnonymousID%3A\w{32}) url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yqc007/DarkRoomPremiumCrack.js
 
 [mitm] 
 hostname = api.revenuecat.com

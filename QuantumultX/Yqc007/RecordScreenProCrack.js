@@ -16,7 +16,7 @@
 [rewrite_local]
 
 # 录屏大师解锁会员
-^http?:\/\/luping\.cushuikeji\.cn\/api\/v1\.user\/info url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/RecordScreenProCrack.js
+^http?:\/\/luping\.cushuikeji\.cn\/api\/v1\.user\/info url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yqc007/RecordScreenProCrack.js
 
 [mitm] 
 

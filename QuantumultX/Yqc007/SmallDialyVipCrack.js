@@ -13,7 +13,7 @@
 
 [rewrite_local]
 # > 小习惯解锁永久会员
-^https?:\/\/xianbeikeji\.com\/daily\/app\/user\/query$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/SmallDialyVipCrack.js
+^https?:\/\/xianbeikeji\.com\/daily\/app\/user\/query$ url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yqc007/SmallDialyVipCrack.js
 
 [mitm] 
 hostname = xianbeikeji.com
