@@ -4,7 +4,7 @@
 2023.12.21
 [rewrite_local]
 
-http://donate-api.recorder.duapps.com/pay/checkAppleSubscribeReceipt? url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/xiaoxiongluping.js
+http://donate-api.recorder.duapps.com/pay/checkAppleSubscribeReceipt? url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yu9191/Rewrite/xiaoxiongluping.js
 
 
 [mitm]

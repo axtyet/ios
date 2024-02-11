@@ -10,7 +10,7 @@
 **************************************
 
 [rewrite_local]
-^http:\/\/luyintu\.cushuikeji\.cn\/tuv2\.(user\/info|order\/comboDuration|home\/activityAlert) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/luyinzhuanjia.js
+^http:\/\/luyintu\.cushuikeji\.cn\/tuv2\.(user\/info|order\/comboDuration|home\/activityAlert) url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Chxm1023/Rewrite/luyinzhuanjia.js
 
 [mitm]
 hostname = luyintu.cushuikeji.cn

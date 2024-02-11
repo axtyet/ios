@@ -9,7 +9,7 @@
 **************************************
 
 [rewrite_local]
-^https:\/\/piano-api\.quthing\.com\/vip\/state\/v2 url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/lygq.js
+^https:\/\/piano-api\.quthing\.com\/vip\/state\/v2 url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yu9191/Rewrite/lygq.js
 
 [mitm]
 hostname = piano-api.quthing.com

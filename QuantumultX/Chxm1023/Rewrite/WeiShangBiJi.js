@@ -9,7 +9,7 @@
 
 [rewrite_local]
 
-^https?:\/\/book\.wetapapp\.com url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/WeiShangBiJi.js
+^https?:\/\/book\.wetapapp\.com url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Chxm1023/Rewrite/WeiShangBiJi.js
 
 [mitm]
 

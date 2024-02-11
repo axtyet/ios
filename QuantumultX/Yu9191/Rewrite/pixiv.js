@@ -5,7 +5,7 @@ pixiv 7.9.13
 
 [rewrite_local]
 
-https:\/\/(?:app-api\.pixiv\.net\/v2\/user\/detail|oauth\.secure\.pixiv\.net\/auth\/token) url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/pixiv.js
+https:\/\/(?:app-api\.pixiv\.net\/v2\/user\/detail|oauth\.secure\.pixiv\.net\/auth\/token) url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yu9191/Rewrite/pixiv.js
 
 [mitm] 
 

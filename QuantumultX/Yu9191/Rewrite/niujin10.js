@@ -9,7 +9,7 @@
 
 
 [rewrite_local]
-^https:\/\/oxfordx\.cp\.com\.cn\/api\/pay\/apple_notify url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/niujin10.js
+^https:\/\/oxfordx\.cp\.com\.cn\/api\/pay\/apple_notify url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yu9191/Rewrite/niujin10.js
 #去除首页下方广告
 ^https:\/\/oxadmin\.cp\.com\.cn\/api\/hot\/index url reject-dict
 #去除首页下方广告

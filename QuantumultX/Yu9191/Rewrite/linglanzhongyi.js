@@ -4,7 +4,7 @@
 
 [rewrite_local]
 
-https://user.linglan.com/api/personCenter/getMyUser url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/linglanzhongyi.js
+https://user.linglan.com/api/personCenter/getMyUser url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yu9191/Rewrite/linglanzhongyi.js
 
 
 [mitm]

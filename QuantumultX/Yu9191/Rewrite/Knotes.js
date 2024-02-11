@@ -4,7 +4,7 @@ Knotes 1.0.2
 2023.12.19
 
 [rewrite_local]
-https://knotesapp.cn/api/v1/account/profile? url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/Knotes.js
+https://knotesapp.cn/api/v1/account/profile? url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yu9191/Rewrite/Knotes.js
 
 [mitm]
 hostname = knotesapp.cn

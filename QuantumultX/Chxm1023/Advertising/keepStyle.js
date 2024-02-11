@@ -26,15 +26,15 @@
 # > 屏蔽更新
 ^https?:\/\/api\.gotokeep\.com\/anno\/v\d\/upgrade\/check url reject
 # > 我的页面去推广
-^https?:\/\/api\.gotokeep\.com\/athena\/v\d\/people\/my url script-response-body https://raw.githubusercontent.com/chxm1023/Advertising/main/keepStyle.js
+^https?:\/\/api\.gotokeep\.com\/athena\/v\d\/people\/my url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Chxm1023/Advertising/keepStyle.js
 # > 底部栏净化
-^https?:\/\/api\.gotokeep\.com\/config\/v\d\/basic url script-response-body https://raw.githubusercontent.com/chxm1023/Advertising/main/keepStyle.js
+^https?:\/\/api\.gotokeep\.com\/config\/v\d\/basic url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Chxm1023/Advertising/keepStyle.js
 # > 发现页只保留顶部
-https://api.gotokeep.com/homepage/v7/tab/find url script-response-body https://raw.githubusercontent.com/chxm1023/Advertising/main/keepStyle.js
+https://api.gotokeep.com/homepage/v7/tab/find url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Chxm1023/Advertising/keepStyle.js
 # > 课程预览页广告
-https://api.gotokeep.com/nuocha/course/v2/\w+/preview url script-response-body https://raw.githubusercontent.com/chxm1023/Advertising/main/keepStyle.js
+https://api.gotokeep.com/nuocha/course/v2/\w+/preview url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Chxm1023/Advertising/keepStyle.js
 # > 我的运动页面去除下方推荐
-https://api.gotokeep.com/sportpage/sport/v3/mysport url script-response-body https://raw.githubusercontent.com/chxm1023/Advertising/main/keepStyle.js
+https://api.gotokeep.com/sportpage/sport/v3/mysport url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Chxm1023/Advertising/keepStyle.js
 
 [mitm]
 

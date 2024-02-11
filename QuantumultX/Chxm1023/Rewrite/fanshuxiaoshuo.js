@@ -9,7 +9,7 @@
 
 [rewrite_local]
 
-^https:\/\/ggs\.manmeng168\.com url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/fanshuxiaoshuo.js
+^https:\/\/ggs\.manmeng168\.com url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Chxm1023/Rewrite/fanshuxiaoshuo.js
 
 [mitm]
 

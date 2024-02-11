@@ -5,8 +5,8 @@
 2023.12.21
 
 [rewrite_local]
-https://www.notetech.org/mobile url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/yinke.js
-https://www.notetech.org/mobile url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/yinkedengji.js
+https://www.notetech.org/mobile url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yu9191/Rewrite/yinke.js
+https://www.notetech.org/mobile url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yu9191/Rewrite/yinkedengji.js
 
 [mitm]
 hostname = www.notetech.org

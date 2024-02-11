@@ -8,7 +8,7 @@
 
 
 [rewrite_local]
-^https:\/\/api\.ankichinas\.com\/api\/v1\/users\/vipInfo url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/Anki.js
+^https:\/\/api\.ankichinas\.com\/api\/v1\/users\/vipInfo url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yu9191/Rewrite/Anki.js
 
 [mitm]
 hostname = api.ankichinas.com

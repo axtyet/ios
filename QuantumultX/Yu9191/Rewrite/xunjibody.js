@@ -6,7 +6,7 @@
 使用说明：仅供学习 禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖
 特别说明：8.8号最新版修复bug,由于相关人员警告,不再更新
 [rewrite_local]
-^https:\/\/xunji\.gxzckj\.com\/(whole_user_info_v4|after310\/ios) url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/xunjibody.js
+^https:\/\/xunji\.gxzckj\.com\/(whole_user_info_v4|after310\/ios) url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yu9191/Rewrite/xunjibody.js
 [mitm]
 hostname = xunji.gxzckj.com
 

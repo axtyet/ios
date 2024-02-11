@@ -7,9 +7,9 @@
 特别说明：不显示会员 直接用功能 自己账号登陆 
 [rewrite_local]
 
-^https:\/\/api\.xunjiapp\.cn\/whole_user_info_v4 url script-echo-response https://raw.githubusercontent.com/Yu9191/Rewrite/main/xunji.js
+^https:\/\/api\.xunjiapp\.cn\/whole_user_info_v4 url script-echo-response https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yu9191/Rewrite/xunji.js
 #屏蔽更新
-#^https:\/\/xunji\.gxzckj\.com\/after310\/ios url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/xunji_no_update.js
+#^https:\/\/xunji\.gxzckj\.com\/after310\/ios url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yu9191/Rewrite/xunji_no_update.js
 [mitm]
 hostname = api.xunjiapp.cn
 */

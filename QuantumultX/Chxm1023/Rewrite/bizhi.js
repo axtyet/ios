@@ -11,7 +11,7 @@
 **************************************
 
 [rewrite_local]
-^https?:\/\/leancloud\.emotionwp\.com\/.+\/(classes|batch\/save) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/bizhi.js
+^https?:\/\/leancloud\.emotionwp\.com\/.+\/(classes|batch\/save) url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Chxm1023/Rewrite/bizhi.js
 
 [mitm]
 hostname = leancloud.emotionwp.com

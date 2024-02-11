@@ -7,7 +7,7 @@
 使用方法：账号：baby 密码：1
 
 [rewrite_local]
-^https?:\/\/cad\.glodon\.com\/(account|authorize\/query|alipay\/auth) url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/cad.js
+^https?:\/\/cad\.glodon\.com\/(account|authorize\/query|alipay\/auth) url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yu9191/Rewrite/cad.js
 
 
 [MITM]

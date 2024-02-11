@@ -3,7 +3,7 @@ cubox
 2023.12.19
 
 [rewrite_local]
-^https:\/\/cubox\.pro\/c\/api\/userInfo url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/cubox.js
+^https:\/\/cubox\.pro\/c\/api\/userInfo url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yu9191/Rewrite/cubox.js
 
 
 

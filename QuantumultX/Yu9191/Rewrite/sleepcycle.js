@@ -3,7 +3,7 @@ sleep cycle 6.23.42
 登陆 购买取消 退后台 重新打开即可
 
 [rewrite_local]
-https://ch.sleepcycle.com/(useraccountstats|api/v1/subscription/get$) url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/sleepcycle.js
+https://ch.sleepcycle.com/(useraccountstats|api/v1/subscription/get$) url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yu9191/Rewrite/sleepcycle.js
 
 [MITM]
 hostname = ch.sleepcycle.com

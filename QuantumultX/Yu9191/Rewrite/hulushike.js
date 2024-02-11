@@ -3,7 +3,7 @@
 
 [rewrite_local]
 
-https://api-search.hulusaas.com/api/user/ url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/hulushike.js
+https://api-search.hulusaas.com/api/user/ url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yu9191/Rewrite/hulushike.js
 
 
 [mitm]

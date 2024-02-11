@@ -9,7 +9,7 @@
 **************************************
 
 [rewrite_local]
-https?:\/\/api\.intelimeditor\.com\/user\/loginByThirdPlatformApp url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/baozouptu.js
+https?:\/\/api\.intelimeditor\.com\/user\/loginByThirdPlatformApp url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Chxm1023/Rewrite/baozouptu.js
 
 [mitm]
 hostname = api.intelimeditor.com

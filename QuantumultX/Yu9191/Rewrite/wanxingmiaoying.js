@@ -5,7 +5,7 @@
 
 [rewrite_local]
 
-https://api.300624.com/v3/plan/feature-code/auth url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/wanxingmiaoying.js
+https://api.300624.com/v3/plan/feature-code/auth url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yu9191/Rewrite/wanxingmiaoying.js
 
 [mitm] 
 

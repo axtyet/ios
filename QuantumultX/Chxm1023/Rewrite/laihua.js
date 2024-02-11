@@ -9,7 +9,7 @@
 **************************************
 
 [rewrite_local]
-^https?:\/\/laipicapp\.laihua\.com\/session\/new url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/laihua.js
+^https?:\/\/laipicapp\.laihua\.com\/session\/new url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Chxm1023/Rewrite/laihua.js
 
 [mitm]
 hostname = laipicapp.laihua.com

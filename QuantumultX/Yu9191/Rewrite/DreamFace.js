@@ -2,7 +2,7 @@
 DreamFace 3.0.0
 
 [rewrite_local]
-https://www.dreamfaceapp.com/df-server/user/save_user_login url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/DreamFace.js
+https://www.dreamfaceapp.com/df-server/user/save_user_login url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yu9191/Rewrite/DreamFace.js
 
 [mitm]
 hostname = www.dreamfaceapp.com

@@ -7,7 +7,7 @@ id：com.pdfreaderpro.free.member.all_access_pack_permanent_license.001
 [rewrite_local]
 
 
-^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/itunes/pdfReaderfree.js
+^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yu9191/Rewrite/itunes/pdfReaderfree.js
 
 [mitm] 
 

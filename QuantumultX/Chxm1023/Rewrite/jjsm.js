@@ -9,7 +9,7 @@
 **************************************
 
 [rewrite_local]
-^https:\/\/cn\.czur\.cc\/api\/v\d\/User\/info.+ url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/jjsm.js
+^https:\/\/cn\.czur\.cc\/api\/v\d\/User\/info.+ url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Chxm1023/Rewrite/jjsm.js
 
 [mitm]
 hostname = cn.czur.cc

@@ -9,7 +9,7 @@
 **************************************
 
 [rewrite_local]
-^https?:\/\/focos\.oracle\.bendingspoonsapps\.com\/v\d\/(users\/setup|purchases\/verify) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/Focos.js
+^https?:\/\/focos\.oracle\.bendingspoonsapps\.com\/v\d\/(users\/setup|purchases\/verify) url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Chxm1023/Rewrite/Focos.js
 
 [mitm]
 hostname = focos.oracle.bendingspoonsapps.com

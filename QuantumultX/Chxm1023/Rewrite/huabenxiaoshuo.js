@@ -9,7 +9,7 @@
 **************************************
 
 [rewrite_local]
-https?:\/\/.*\.ihuaben\.com\/(api\/userinfo|book\/app\/(vipReadWaitSeconds|book)|function\/bookservice\/authorInfo) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/huabenxiaoshuo.js
+https?:\/\/.*\.ihuaben\.com\/(api\/userinfo|book\/app\/(vipReadWaitSeconds|book)|function\/bookservice\/authorInfo) url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Chxm1023/Rewrite/huabenxiaoshuo.js
 
 [mitm]
 hostname = *.ihuaben.com

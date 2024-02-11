@@ -8,7 +8,7 @@
 [rewrite_local]
 
 
-http://dancefit.dailyyogac.com/dancefit url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/rehanwudao.js
+http://dancefit.dailyyogac.com/dancefit url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yu9191/Rewrite/rehanwudao.js
 
 
 **/

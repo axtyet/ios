@@ -8,17 +8,17 @@
 
 [rewrite_local]
 #我的photo
-https://open3.vistastory.com/v3/api/poster/share_poster? url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/Vista.js
+https://open3.vistastory.com/v3/api/poster/share_poster? url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yu9191/Rewrite/Vista.js
 #我的
-https://open3.vistastory.com/v3/api/my/home/get_home_center? url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/vistamy.js
+https://open3.vistastory.com/v3/api/my/home/get_home_center? url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yu9191/Rewrite/vistamy.js
 #vip
-https://open3.vistastory.com/v3/api/vip/get_vip url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/vistavip.js
+https://open3.vistastory.com/v3/api/vip/get_vip url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yu9191/Rewrite/vistavip.js
 #vip2
-https://open3.vistastory.com/v3/api/magazine url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/vistavip.js
+https://open3.vistastory.com/v3/api/magazine url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yu9191/Rewrite/vistavip.js
 #vip3
-https://open3.vistastory.com/v3/api/featured/column/get_content? url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/vistavip.js
+https://open3.vistastory.com/v3/api/featured/column/get_content? url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yu9191/Rewrite/vistavip.js
 #vip4
-https://open3.vistastory.com/v3/api/article/article_detail2? url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/vistavip.js
+https://open3.vistastory.com/v3/api/article/article_detail2? url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yu9191/Rewrite/vistavip.js
 
 ^https:\/\/open3\.vistastory\.com\/v3\/api\/notice\/need_read_notice_number? url reject
 

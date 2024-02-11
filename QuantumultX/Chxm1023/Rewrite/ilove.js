@@ -9,7 +9,7 @@
 **************************************
 
 [rewrite_local]
-^https:\/\/service\.ilovepdf\.com\/v1\/user url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/ilove.js
+^https:\/\/service\.ilovepdf\.com\/v1\/user url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Chxm1023/Rewrite/ilove.js
 
 [mitm]
 hostname = service.ilovepdf.com

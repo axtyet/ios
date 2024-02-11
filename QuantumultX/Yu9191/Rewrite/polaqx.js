@@ -8,8 +8,8 @@
  
 [rewrite_local]
 
-^https?:\/\/.*\/v1\/payments\/(appleiap\/receipts\/confirmation|profiles\/@me\/subscription) url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/polaqx.js
-# ^https?:\/\/.*\/v1\/payments\/(appleiap\/receipts\/confirmation|profiles\/@me\/subscription) url script-echo-response https://raw.githubusercontent.com/Yu9191/Rewrite/main/polaqx.js
+^https?:\/\/.*\/v1\/payments\/(appleiap\/receipts\/confirmation|profiles\/@me\/subscription) url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yu9191/Rewrite/polaqx.js
+# ^https?:\/\/.*\/v1\/payments\/(appleiap\/receipts\/confirmation|profiles\/@me\/subscription) url script-echo-response https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yu9191/Rewrite/polaqx.js
 
 [mitm]
 hostname = api.polaxiong.com

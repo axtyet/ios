@@ -2,7 +2,7 @@
 ‎FlipaClip2 2.8.0
 
 [rewrite_local]
-^https://api.purchasely.io/paab/user_purchases url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/‎FlipaClip.js
+^https://api.purchasely.io/paab/user_purchases url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yu9191/Rewrite/‎FlipaClip.js
 
 [mitm]
 hostname = api.purchasely.io

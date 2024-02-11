@@ -9,7 +9,7 @@
 **************************************
 
 [rewrite_local]
-^https?:\/\/play\.wo1wan\.com\/nextgame\/igwuser\/userinfo url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/changwan.js
+^https?:\/\/play\.wo1wan\.com\/nextgame\/igwuser\/userinfo url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Chxm1023/Rewrite/changwan.js
 
 [mitm]
 hostname = play.wo1wan.com

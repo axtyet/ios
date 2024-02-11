@@ -9,7 +9,7 @@
 **************************************
 
 [rewrite_local]
-https?:\/\/www\.luqijianggushi\.com\/api url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/luqijianggushi.js
+https?:\/\/www\.luqijianggushi\.com\/api url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Chxm1023/Rewrite/luqijianggushi.js
 
 [mitm]
 hostname = www.luqijianggushi.com

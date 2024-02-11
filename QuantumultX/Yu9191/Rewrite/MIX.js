@@ -10,7 +10,7 @@
 
 [rewrite_local]
 
-^https:\/\/cdn-bm\.camera360\.com\/api\/mix\/recovery url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/MIX.js
+^https:\/\/cdn-bm\.camera360\.com\/api\/mix\/recovery url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yu9191/Rewrite/MIX.js
 
 [mitm] 
 

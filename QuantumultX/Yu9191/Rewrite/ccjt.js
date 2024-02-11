@@ -3,7 +3,7 @@
 
 [rewrite_local]
 
-http://cc.lzjoy.com url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/ccjt.js
+http://cc.lzjoy.com url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yu9191/Rewrite/ccjt.js
 
 */
 

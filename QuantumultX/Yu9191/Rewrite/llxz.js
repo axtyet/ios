@@ -2,9 +2,9 @@
 2023.1.6 
 [rewrite_local] 
 #六六课字表 
-^https?:\/\/api\.liupinshuyuan\.com\/liuliuWriteV2\/api\/sync-course url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/llxz.js 
+^https?:\/\/api\.liupinshuyuan\.com\/liuliuWriteV2\/api\/sync-course url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yu9191/Rewrite/llxz.js 
 #六六课程 
-^https?:\/\/api\.liupinshuyuan\.com\/liuliuWriteV2\/api\/student\/course-detail url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/llxz.js 
+^https?:\/\/api\.liupinshuyuan\.com\/liuliuWriteV2\/api\/student\/course-detail url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yu9191/Rewrite/llxz.js 
  
 [mitm] 
 hostname = api.liupinshuyuan.com 

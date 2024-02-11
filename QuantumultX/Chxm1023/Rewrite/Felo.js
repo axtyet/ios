@@ -10,7 +10,7 @@
 **************************************
 
 [rewrite_local]
-^https?:\/\/translator\.felo\.me\/api\/plan\/current url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/Felo.js
+^https?:\/\/translator\.felo\.me\/api\/plan\/current url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Chxm1023/Rewrite/Felo.js
 
 [mitm]
 hostname = translator.felo.me

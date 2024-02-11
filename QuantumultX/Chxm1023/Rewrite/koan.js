@@ -9,7 +9,7 @@
 **************************************
 
 [rewrite_local]
-^https?:\/\/koan\.bopulab\.cn\/(user\/getBriefByUserIdV3|payment\/iosIap\/receipt) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/koan.js
+^https?:\/\/koan\.bopulab\.cn\/(user\/getBriefByUserIdV3|payment\/iosIap\/receipt) url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Chxm1023/Rewrite/koan.js
 
 [mitm]
 hostname = koan.bopulab.cn

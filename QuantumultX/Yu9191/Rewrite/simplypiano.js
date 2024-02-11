@@ -5,14 +5,14 @@ simply piano
 
 [rewrite_local]
 #simply piano
-^https:\/\/alicdn\.joytunescn\.com\/server\/asla\/accounts\/accountAuthenticate url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/simplypiano.js
+^https:\/\/alicdn\.joytunescn\.com\/server\/asla\/accounts\/accountAuthenticate url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yu9191/Rewrite/simplypiano.js
 [mitm]
 hostname = alicdn.joytunescn.com
 
 #小火箭本地模块 
 #[Script]
 # Simply Piano
-#simply piano = type=http-response,pattern=^https:\/\/alicdn\.joytunescn\.com\/server\/asla\/accounts\/accountAuthenticate,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/main/simplypiano.js,script-update-interval=0
+#simply piano = type=http-response,pattern=^https:\/\/alicdn\.joytunescn\.com\/server\/asla\/accounts\/accountAuthenticate,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yu9191/Rewrite/simplypiano.js,script-update-interval=0
 #[MITM]
 #hostname = %APPEND% alicdn.joytunescn.com
 

@@ -8,7 +8,7 @@
 **************************************
 
 [rewrite_local]
-^https:\/\/api\.panda\.boosters\.company\/v1\/subscription-status url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/Promova.js
+^https:\/\/api\.panda\.boosters\.company\/v1\/subscription-status url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yu9191/Rewrite/Promova.js
 
 [mitm]
 hostname = api.panda.boosters.company
