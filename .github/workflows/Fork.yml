@@ -93,7 +93,18 @@ jobs:
               echo "$file not found."
             fi
           done
-
+      # 修改脚本链接
+    - name: Edit QuantumultX/Yqc007
+      run: |
+        cd ios-repo/QuantumultX/Yqc007
+        for file in *.js; do
+            if [ "$file" ] ; then
+              # 修改脚本链接
+              sed -i 's/raw\.githubusercontent\.com\/yqc007\/QuantumultX\/master/raw.githubusercontent\.com\/axtyet\/ios\/main\/QuantumultX\/Yqc007/g' "$file"
+            else
+              echo "$file not found."
+            fi
+          done
 
 
     - name: Add and Commits
