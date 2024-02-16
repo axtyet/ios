@@ -43,7 +43,7 @@ $.notifyMsg = [];
 //bark推送
 $.barkKey = ($.isNode() ? process.env["bark_key"] : $.getdata("bark_key")) || '';
 //域名
-let host = 'ios.songshuyouxi.com';
+let host = 'iios.songshuyouxi.com';
 //---------------------- 自定义变量区域 -----------------------------------
 
 //脚本入口函数main()
