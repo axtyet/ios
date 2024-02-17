@@ -10,7 +10,7 @@
 **************************************
 
 [rewrite_local]
-^https?:\/\/gzfanyin\.com\/api\/ums\/getMember url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Chxm1023/Rewrite/fanyingangqin.js
+^https?:\/\/gzfanyin\.com\/api\/ums\/getMember url script-response-body https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Chxm1023/Rewrite/fanyingangqin.js
 
 [mitm]
 hostname = gzfanyin.com

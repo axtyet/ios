@@ -12,7 +12,7 @@
 *******************************
 [rewrite_local]
 # > 香蕉视频解锁无限次数
-^https?:\/\/.+\/(index|ucp\/index|vod\/(show|reqplay\/)|getGlobalData).+ url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yqc007/BananaVideoCrack.js
+^https?:\/\/.+\/(index|ucp\/index|vod\/(show|reqplay\/)|getGlobalData).+ url script-response-body https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Yqc007/BananaVideoCrack.js
 
 [mitm] 
 hostname = o0o0plpl11.xinai99.com

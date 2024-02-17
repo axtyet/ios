@@ -10,7 +10,7 @@
 *******************************
 [rewrite_local]
 # > 粉柚视频破解王者会员
-^https?:\/\/.*(lrg3z7t|quftbyp|rsly4ni).*\/api\/app\/(ping\/domain\/h5|vid\/(info|user\/count)|mine\/info|(sge|game)\/list) url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yqc007/PinkPomeloVideoCrack.js
+^https?:\/\/.*(lrg3z7t|quftbyp|rsly4ni).*\/api\/app\/(ping\/domain\/h5|vid\/(info|user\/count)|mine\/info|(sge|game)\/list) url script-response-body https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Yqc007/PinkPomeloVideoCrack.js
 [mitm] 
 hostname = *lrg3z7t*, *quftbyp*, *rsly4ni*
 

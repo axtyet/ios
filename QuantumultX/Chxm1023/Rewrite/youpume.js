@@ -10,7 +10,7 @@
 **************************************
 
 [rewrite_local]
-^https?:\/\/yopu\.co\/api\/user\/info url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Chxm1023/Rewrite/youpume.js
+^https?:\/\/yopu\.co\/api\/user\/info url script-response-body https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Chxm1023/Rewrite/youpume.js
 
 [mitm]
 hostname = yopu.co

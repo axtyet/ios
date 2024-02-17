@@ -9,7 +9,7 @@
 **************************************
 
 [rewrite_local]
-^https:\/\/music-knowledge-api\.quthing\.com\/vip\/state url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yu9191/Rewrite/ylsc.js
+^https:\/\/music-knowledge-api\.quthing\.com\/vip\/state url script-response-body https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Yu9191/Rewrite/ylsc.js
 
 [mitm]
 hostname = music-knowledge-api.quthing.com

@@ -9,7 +9,7 @@
 **************************************
 
 [rewrite_local]
-^https?:\/\/api\.expingworld\.com\/users url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Chxm1023/Rewrite/exping.js
+^https?:\/\/api\.expingworld\.com\/users url script-response-body https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Chxm1023/Rewrite/exping.js
 
 [mitm]
 hostname = api.expingworld.com

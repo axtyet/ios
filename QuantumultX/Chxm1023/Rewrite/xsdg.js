@@ -10,7 +10,7 @@
 **************************************
 
 [rewrite_local]
-^https?:\/\/api\.pixcakeai\.com\/v1\/api\/app\/user\/info url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Chxm1023/Rewrite/xsdg.js
+^https?:\/\/api\.pixcakeai\.com\/v1\/api\/app\/user\/info url script-response-body https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Chxm1023/Rewrite/xsdg.js
 
 [mitm]
 hostname = api.pixcakeai.com

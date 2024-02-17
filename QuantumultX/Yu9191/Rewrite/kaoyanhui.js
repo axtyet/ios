@@ -5,7 +5,7 @@
 
 [rewrite_local]
 
-^https:\/\/newapi\.kaoyanhui\.com\.cn\/index\.php url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yu9191/Rewrite/kaoyanhui.js
+^https:\/\/newapi\.kaoyanhui\.com\.cn\/index\.php url script-response-body https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Yu9191/Rewrite/kaoyanhui.js
 
 [mitm] 
 hostname = newapi.kaoyanhui.com.cn

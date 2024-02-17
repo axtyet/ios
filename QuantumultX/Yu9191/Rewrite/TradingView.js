@@ -4,9 +4,9 @@
 没开通试用的情况下请勿点击恢复购买
 [rewrite_local]
 #未开通试用
-https://cn.tradingview.com/api/v1/user/profile/me/ url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yu9191/Rewrite/TradingView.js
+https://cn.tradingview.com/api/v1/user/profile/me/ url script-response-body https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Yu9191/Rewrite/TradingView.js
 #开通试用或者会员未到期
-https://cn.tradingview.com/order/apple/receipt/ url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yu9191/Rewrite/TradingView.js
+https://cn.tradingview.com/order/apple/receipt/ url script-response-body https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Yu9191/Rewrite/TradingView.js
 
 [mitm]
 hostname = cn.tradingview.com

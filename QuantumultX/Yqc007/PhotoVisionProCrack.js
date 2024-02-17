@@ -13,7 +13,7 @@
 
 [rewrite_local]
 # > 轻图解锁永久专业版
-^https?:\/\/purchase-qingtu-api\.b612kaji\.com\/v1\/purchase\/subscription\/subscriber/status$ url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yqc007/PhotoVisionProCrack.js
+^https?:\/\/purchase-qingtu-api\.b612kaji\.com\/v1\/purchase\/subscription\/subscriber/status$ url script-response-body https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Yqc007/PhotoVisionProCrack.js
 
 [mitm] 
 hostname = purchase-qingtu-api.b612kaji.com

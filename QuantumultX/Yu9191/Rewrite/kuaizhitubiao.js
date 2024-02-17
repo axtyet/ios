@@ -6,7 +6,7 @@
 
 [rewrite_local]
 #修改
-https://api.revenuecat.com/v1/receipts url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yu9191/Rewrite/kuaizhitubiao.js
+https://api.revenuecat.com/v1/receipts url script-response-body https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Yu9191/Rewrite/kuaizhitubiao.js
 
 [mitm] 
 hostname = api.revenuecat.com

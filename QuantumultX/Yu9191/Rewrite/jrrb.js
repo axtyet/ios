@@ -6,7 +6,7 @@
 
 [rewrite_local]
 
-https://api2.tophub.app/account/sync url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yu9191/Rewrite/jrrb.js
+https://api2.tophub.app/account/sync url script-response-body https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Yu9191/Rewrite/jrrb.js
 
 [mitm] 
 

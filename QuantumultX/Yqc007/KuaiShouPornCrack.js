@@ -10,8 +10,8 @@
 *******************************
 [rewrite_local]
 # > 快手约炮解锁全部视频
-^https?:\/\/.*\/api\/app\/user\/info$ url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yqc007/KuaiShouPornCrack.js
-^https?:\/\/.*\/api\/app\/media\/m3u8\/.+\.m3u8 url script-request-header https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yqc007/KuaiShouPronCrack.js
+^https?:\/\/.*\/api\/app\/user\/info$ url script-response-body https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Yqc007/KuaiShouPornCrack.js
+^https?:\/\/.*\/api\/app\/media\/m3u8\/.+\.m3u8 url script-request-header https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Yqc007/KuaiShouPronCrack.js
 [mitm] 
 hostname = woqasdfe.uwkakpqkdc.com, jgtgjf.zhdffvwsq.com, ehgewjfg.wldfnjh.com, ifbgkeowq.keuaosld.com, qwezxjcjhsdf.cyyeshb.com, jhbnvd.zhmsyaenq.com
 

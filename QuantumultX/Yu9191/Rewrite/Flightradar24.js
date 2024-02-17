@@ -8,7 +8,7 @@
 
 
 [rewrite_local]
-^https://mobile.flightradar24.com/mobile/(user-session|subscribe) url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yu9191/Rewrite/Flightradar24.js
+^https://mobile.flightradar24.com/mobile/(user-session|subscribe) url script-response-body https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Yu9191/Rewrite/Flightradar24.js
 
 [mitm]
 hostname = mobile.flightradar24.com

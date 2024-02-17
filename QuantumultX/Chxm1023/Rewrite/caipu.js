@@ -13,7 +13,7 @@
 **************************************
 
 [rewrite_local]
-^https:\/\/api.*\.xiangha\.com url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Chxm1023/Rewrite/caipu.js
+^https:\/\/api.*\.xiangha\.com url script-response-body https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Chxm1023/Rewrite/caipu.js
 
 [mitm]
 hostname = *.xiangha.com

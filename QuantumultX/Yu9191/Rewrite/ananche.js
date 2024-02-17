@@ -5,7 +5,7 @@
 [rewrite_local]
 
 
-https://lifeserver.clifes.cn/exam/vip/info url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yu9191/Rewrite/ananche.js
+https://lifeserver.clifes.cn/exam/vip/info url script-response-body https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Yu9191/Rewrite/ananche.js
 
 [mitm] 
 

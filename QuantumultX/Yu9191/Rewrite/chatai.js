@@ -12,7 +12,7 @@
 
 (?<=vip=)false url 302 true
 
-https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yu9191/Rewrite/chatai.js
+https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Yu9191/Rewrite/chatai.js
 
 [mitm] 
 

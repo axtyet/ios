@@ -18,7 +18,7 @@
 [rewrite_local]
 
 # Huluwa解锁会员
-^https?:\/\/api(-hlw\.\d+|\.\w{8,9})\.com\/api\/web\/(video|member).+ url script-request-header https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yqc007/HLSPCrack.js
+^https?:\/\/api(-hlw\.\d+|\.\w{8,9})\.com\/api\/web\/(video|member).+ url script-request-header https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Yqc007/HLSPCrack.js
 
 [mitm] 
 

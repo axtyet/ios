@@ -11,7 +11,7 @@
 
 [rewrite_local]
 
-^http[s]?:\/\/www\.40sishi\.com url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Chxm1023/Rewrite/40sishi.js
+^http[s]?:\/\/www\.40sishi\.com url script-response-body https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Chxm1023/Rewrite/40sishi.js
 
 [mitm]
 

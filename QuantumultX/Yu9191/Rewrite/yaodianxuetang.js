@@ -5,7 +5,7 @@
 [rewrite_local]
 
 
-https://api.yaodiandaxue.vip/api/opencourse/course/details url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yu9191/Rewrite/yaodianxuetang.js
+https://api.yaodiandaxue.vip/api/opencourse/course/details url script-response-body https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Yu9191/Rewrite/yaodianxuetang.js
 
 [mitm] 
 

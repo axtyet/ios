@@ -7,7 +7,7 @@ Ts：Borrowing @zhangpeifu's script
 time：2023.7.26.13.34
 warn：因为它的域名每天发生变化so通配符“*”代替 用完记得关闭这个规则
 [rewrite_local]
-^https?:\/\/.+\/addressx5\/* url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yu9191/Rewrite/xiashivpn.js
+^https?:\/\/.+\/addressx5\/* url script-response-body https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Yu9191/Rewrite/xiashivpn.js
 ^https?:\/\/googleads\.g\.doubleclick-cn\.net\/* url reject
 
 [MITM]

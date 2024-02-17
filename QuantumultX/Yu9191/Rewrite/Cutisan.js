@@ -2,7 +2,7 @@
 cutisan 壁纸
 
 [rewrite_local]
-^https:\/\/cutisanapi\.imuuzi\.com\/api\/(Home\/index|Index\/index) url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yu9191/Rewrite/Cutisan.js
+^https:\/\/cutisanapi\.imuuzi\.com\/api\/(Home\/index|Index\/index) url script-response-body https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Yu9191/Rewrite/Cutisan.js
 
 [mitm]
 hostname = cutisanapi.imuuzi.com

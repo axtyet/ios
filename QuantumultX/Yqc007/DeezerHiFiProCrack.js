@@ -12,7 +12,7 @@
 *******************************
 [rewrite_local]
 # > Deezer解锁Hi-Fi订阅
-^https?:\/\/media\.deezer\.com\/v1\/get_url$ url script-request-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yqc007/DeezerHiFiProCrack.js
+^https?:\/\/media\.deezer\.com\/v1\/get_url$ url script-request-body https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Yqc007/DeezerHiFiProCrack.js
 
 [mitm] 
 hostname = media.deezer.com

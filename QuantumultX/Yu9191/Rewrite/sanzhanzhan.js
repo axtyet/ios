@@ -7,7 +7,7 @@
 **************************************
 
 [rewrite_local]
-https://jk.dmzgame.com/users/info url script-echo-response https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yu9191/Rewrite/sanzhanzhan.js
+https://jk.dmzgame.com/users/info url script-echo-response https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Yu9191/Rewrite/sanzhanzhan.js
 
 
 [mitm]

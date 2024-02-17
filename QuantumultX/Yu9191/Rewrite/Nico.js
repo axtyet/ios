@@ -4,13 +4,13 @@ Nico 多元人格交友
 
 [rewrite_local]
 #会员
-https://data.inicoapp.com/api/2.0/publicUser/detail? url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yu9191/Rewrite/Nico.js
+https://data.inicoapp.com/api/2.0/publicUser/detail? url script-response-body https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Yu9191/Rewrite/Nico.js
 #恋爱测试 解锁权限
-https://data.inicoapp.com/api/v4/testQuestions/getTestById url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yu9191/Rewrite/Nico.js
+https://data.inicoapp.com/api/v4/testQuestions/getTestById url script-response-body https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Yu9191/Rewrite/Nico.js
 #好物推荐
 https://data.inicoapp.com/api/v4/clientConfig/mallBannerConfig url reject-200
 #推广图片
-https://data.inicoapp.com/api/v4/personalActivity/getAppAc? url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yu9191/Rewrite/Nico.js
+https://data.inicoapp.com/api/v4/personalActivity/getAppAc? url script-response-body https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Yu9191/Rewrite/Nico.js
 [mitm]
 hostname = data.inicoapp.com
 

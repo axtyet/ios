@@ -13,20 +13,20 @@
 特别说明：部分域名只有QuanX才能匹配到,规则转换不一定有效
 [rewrite_local]
 #19个软件
-^https:\/\/iosapi\.yueshuian\.com(\/){1,2}front\/customer\/findById\.json\? url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yu9191/Rewrite/Tikuheji19.js
+^https:\/\/iosapi\.yueshuian\.com(\/){1,2}front\/customer\/findById\.json\? url script-response-body https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Yu9191/Rewrite/Tikuheji19.js
 #39个软件 66个软件 96个软件
-^https:\/\/question.*findById\.json\? url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yu9191/Rewrite/Tikuheji19.js
+^https:\/\/question.*findById\.json\? url script-response-body https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Yu9191/Rewrite/Tikuheji19.js
 #59个软件
-https://app.bftk.com.cn/front/customer/findById.json url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yu9191/Rewrite/Tikuheji19.js
+https://app.bftk.com.cn/front/customer/findById.json url script-response-body https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Yu9191/Rewrite/Tikuheji19.js
 #20个软件
-https://app.bftk.com.cn//common/guestLogin.json url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yu9191/Rewrite/Tikuheji19.js
-https://app.bftk.com.cn/common/guestLogin.json url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yu9191/Rewrite/Tikuheji19.js
-https://base.cmoe.top/common/passwordLogin.json url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yu9191/Rewrite/Tikuheji19.js
-https://base.cmoe.top//common/guestLogin.json url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yu9191/Rewrite/Tikuheji19.js
+https://app.bftk.com.cn//common/guestLogin.json url script-response-body https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Yu9191/Rewrite/Tikuheji19.js
+https://app.bftk.com.cn/common/guestLogin.json url script-response-body https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Yu9191/Rewrite/Tikuheji19.js
+https://base.cmoe.top/common/passwordLogin.json url script-response-body https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Yu9191/Rewrite/Tikuheji19.js
+https://base.cmoe.top//common/guestLogin.json url script-response-body https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Yu9191/Rewrite/Tikuheji19.js
 #24个软件
-https://yyapi.yayingtk.com/front/customer/findById.json url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yu9191/Rewrite/Tikuheji19.js
+https://yyapi.yayingtk.com/front/customer/findById.json url script-response-body https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Yu9191/Rewrite/Tikuheji19.js
 #27个软件
-^https://api\.sryx\.net.*vip/getValidTime url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yu9191/Rewrite/Tikuheji19.js
+^https://api\.sryx\.net.*vip/getValidTime url script-response-body https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Yu9191/Rewrite/Tikuheji19.js
 [mitm]
 hostname = iosapi.yueshuian.com, question.tiku.cqxcj.top, question.api.anjiazui.com, base.cmoe.top, app.bftk.com.cn, yyapi.yayingtk.com, question.civil.shaoeyy.com, api.sryx.net
 

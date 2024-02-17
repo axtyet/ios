@@ -3,7 +3,7 @@ ReadBot
 2024.01.06 
 [rewrite_local]
 
-https://api.readbot.tech/v1/vip/status url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yu9191/Rewrite/ReadBot.js
+https://api.readbot.tech/v1/vip/status url script-response-body https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Yu9191/Rewrite/ReadBot.js
 
 [mitm] 
 hostname = api.readbot.tech

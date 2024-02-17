@@ -13,7 +13,7 @@
 
 [rewrite_local]
 # > 91TV破解全部视频
-^https?:\/\/.*\/m\w{5}\/m\w{3}-\w{7}\/.*\/index.* url script-request-header https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yqc007/91TVideoAllCrack.js
+^https?:\/\/.*\/m\w{5}\/m\w{3}-\w{7}\/.*\/index.* url script-request-header https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Yqc007/91TVideoAllCrack.js
 
 [mitm] 
 hostname = chvtv.xcsxchen.xyz, oqxv.8r09phi.com, iwx68v.8gbhr.com

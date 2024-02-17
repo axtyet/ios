@@ -9,7 +9,7 @@ Mimic：Ai动态图片制作
 
 [rewrite_local]
 
-https://api.adapty.io/api/v1/sdk/in-apps/apple/receipt/validate/ url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yu9191/Rewrite/PlantApp.js
+https://api.adapty.io/api/v1/sdk/in-apps/apple/receipt/validate/ url script-response-body https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Yu9191/Rewrite/PlantApp.js
 
 [mitm] 
 

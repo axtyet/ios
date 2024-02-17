@@ -13,7 +13,7 @@
 
 [rewrite_local]
 # > QuarkVPN 解锁永久订阅
-^https?:\/\/.*api\.italianbooray\.com\/Api\/getAccountInfo$ url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yqc007/QuarkVpnProCrack.js
+^https?:\/\/.*api\.italianbooray\.com\/Api\/getAccountInfo$ url script-response-body https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Yqc007/QuarkVpnProCrack.js
 
 [mitm] 
 hostname = *api.italianbooray.com

@@ -16,7 +16,7 @@
 
 # > 蜜桃视频解锁无限次数
 \/t\w{4}\/\d\/t\/ url 307 /token/5d10208372cbd649de04b9731c1b55db/t/
-^https?:\/\/.*mt.*\.com\/api\/Video\/m3u8\/id.+ url script-request-header https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yqc007/MTSPCrack.js
+^https?:\/\/.*mt.*\.com\/api\/Video\/m3u8\/id.+ url script-request-header https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Yqc007/MTSPCrack.js
 
 [mitm] 
 

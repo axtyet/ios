@@ -9,7 +9,7 @@
 **************************************
 
 [rewrite_local]
-^https:\/\/scanner\.jianse\.tv\/api\/users url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Chxm1023/Rewrite/jssmy.js
+^https:\/\/scanner\.jianse\.tv\/api\/users url script-response-body https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Chxm1023/Rewrite/jssmy.js
 
 [mitm]
 hostname = scanner.jianse.tv

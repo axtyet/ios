@@ -10,7 +10,7 @@
 **************************************
 
 [rewrite_local]
-^https?:\/\/moyin-gateway\.moyin\.com\/moyin-account\/v\d\/vip\/status url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Chxm1023/Rewrite/mygf.js
+^https?:\/\/moyin-gateway\.moyin\.com\/moyin-account\/v\d\/vip\/status url script-response-body https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Chxm1023/Rewrite/mygf.js
 
 [mitm]
 hostname = moyin-gateway.moyin.com

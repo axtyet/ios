@@ -9,8 +9,8 @@
 *******************************
 [rewrite_local]
 # > 创客贴设计解锁会员
-^https?:\/\/.*\.chuangkit\.com\/(vip\/member\/getVipPackageInfo|team\/app\/(team|user)\/info|user\/getUserInfo) url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yqc007/ChuangKitMemberCrack.js
-^https?:\/\/.*\.chuangkit\.com\/.*(design|task|font|VipDetail|envelope|material|copyright|collector|cutout|authorization|judge|Status).* url script-request-header https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yqc007/ChuangKitDesignCrack.js
+^https?:\/\/.*\.chuangkit\.com\/(vip\/member\/getVipPackageInfo|team\/app\/(team|user)\/info|user\/getUserInfo) url script-response-body https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Yqc007/ChuangKitMemberCrack.js
+^https?:\/\/.*\.chuangkit\.com\/.*(design|task|font|VipDetail|envelope|material|copyright|collector|cutout|authorization|judge|Status).* url script-request-header https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Yqc007/ChuangKitDesignCrack.js
 [mitm] 
 hostname = *.chuangkit.com
 

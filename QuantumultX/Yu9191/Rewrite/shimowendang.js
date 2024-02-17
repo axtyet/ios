@@ -1,7 +1,7 @@
 /*
 石墨文档
 [rewrite_local]
-https://shimo.im/lizard-api/users/me url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yu9191/Rewrite/shimowendang.js
+https://shimo.im/lizard-api/users/me url script-response-body https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Yu9191/Rewrite/shimowendang.js
 
 [mitm]
 hostname = shimo.im

@@ -4,7 +4,7 @@ Umbra VPN
 下载地址 https://apps.apple.com/se/app/umbra-vpn-private-proxy/id1631206459?l=en-GB
 
 [rewrite_local]
-^https:\/\/api\.adapty\.io\/api\/v1\/sdk\/in-apps\/purchase-containers url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yu9191/Rewrite/umbra.js
+^https:\/\/api\.adapty\.io\/api\/v1\/sdk\/in-apps\/purchase-containers url script-response-body https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Yu9191/Rewrite/umbra.js
 
 [mitm]
 hostname = api.adapty.io

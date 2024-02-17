@@ -10,7 +10,7 @@
 **************************************
 
 [rewrite_local]
-^https?:\/\/receipt-verifier\.cdwapi\.com\/receipt url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Chxm1023/Rewrite/Pixelup.js
+^https?:\/\/receipt-verifier\.cdwapi\.com\/receipt url script-response-body https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Chxm1023/Rewrite/Pixelup.js
 
 [mitm]
 hostname = receipt-verifier.cdwapi.com

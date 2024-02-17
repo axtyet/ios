@@ -8,7 +8,7 @@ TG:@ios151 2023.8.30.13.58
 
 
 [rewrite_local]
-^https?:\/\/api\.(tuanleme|fengyunyizu|jianghumeng)\.(net|com)\/ url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yu9191/Rewrite/Anycats.js
+^https?:\/\/api\.(tuanleme|fengyunyizu|jianghumeng)\.(net|com)\/ url script-response-body https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Yu9191/Rewrite/Anycats.js
 
 
 [mitm]

@@ -15,7 +15,7 @@
 [rewrite_local]
 
 # > 鱿鱼视频解锁会员
-^https?:\/\/api\.youyu.*\/api\/account\/loginBy(Phone|Password)$ url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yqc007/YYSPCrack.js
+^https?:\/\/api\.youyu.*\/api\/account\/loginBy(Phone|Password)$ url script-response-body https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Yqc007/YYSPCrack.js
 
 [mitm] 
 

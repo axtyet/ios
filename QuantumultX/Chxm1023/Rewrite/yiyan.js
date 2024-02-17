@@ -9,7 +9,7 @@
 **************************************
 
 [rewrite_local]
-^https:\/\/app\.yiyan\.art\/yiyan url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Chxm1023/Rewrite/yiyan.js
+^https:\/\/app\.yiyan\.art\/yiyan url script-response-body https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Chxm1023/Rewrite/yiyan.js
 
 [mitm]
 hostname = app.yiyan.art

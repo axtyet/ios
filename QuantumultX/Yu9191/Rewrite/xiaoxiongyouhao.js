@@ -4,7 +4,7 @@
 
 [rewrite_local]
 
-https://www.xiaoxiongyouhao.com/api/vip/index.php url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yu9191/Rewrite/xiaoxiongyouhao.js
+https://www.xiaoxiongyouhao.com/api/vip/index.php url script-response-body https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Yu9191/Rewrite/xiaoxiongyouhao.js
 
 [mitm] 
 

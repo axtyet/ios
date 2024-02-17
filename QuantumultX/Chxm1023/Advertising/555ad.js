@@ -10,7 +10,7 @@
 
 [rewrite_local]
 ^https?:\/\/vpic\.cms\.qq\.com\/nj_vpic\/.+ url reject
-^https?:\/\/.*\.(weilai555\.com:1000|ecoliving168\.com)\/api\/v\d\/movie\/(index_recommend.+|detail) url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Chxm1023/Advertising/555ad.js
+^https?:\/\/.*\.(weilai555\.com:1000|ecoliving168\.com)\/api\/v\d\/movie\/(index_recommend.+|detail) url script-response-body https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Chxm1023/Advertising/555ad.js
 
 [mitm]
 hostname = a.weilai555.com, app-v1.ecoliving168.com, vpic.cms.qq.com

@@ -6,11 +6,11 @@
 [rewrite_local]
 
 #通用舞蹈视频
-^https:\/\/.*\.tangdou\.com\/(?:\w*\/)?\d+\/\d+_\w+\.mp4\?sign=[\w-]+&t=\w+$ url script-request-header https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yu9191/Rewrite/Tangdou.js
+^https:\/\/.*\.tangdou\.com\/(?:\w*\/)?\d+\/\d+_\w+\.mp4\?sign=[\w-]+&t=\w+$ url script-request-header https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Yu9191/Rewrite/Tangdou.js
 #舞蹈分类 16步舞蹈
-#^https:\/\/aqiniu\.tangdou\.com\/.*\.mp4 url script-request-header https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yu9191/Rewrite/Tangdou.js
+#^https:\/\/aqiniu\.tangdou\.com\/.*\.mp4 url script-request-header https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Yu9191/Rewrite/Tangdou.js
 #舞蹈分类 32步舞蹈
-#^https:\/\/acc\.tangdou\.com\/.*\.mp4 url script-request-header https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yu9191/Rewrite/Tangdou.js
+#^https:\/\/acc\.tangdou\.com\/.*\.mp4 url script-request-header https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Yu9191/Rewrite/Tangdou.js
 
 [mitm] 
 hostname = *.tangdou.com

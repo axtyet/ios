@@ -6,7 +6,7 @@
 2023.12.6
 
 [rewrite_local]
-^http:\/\/richapi\.yestiku\.com\/api\/(identity\/listData|questionset\/getInfo) url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yu9191/Rewrite/richapi.js
+^http:\/\/richapi\.yestiku\.com\/api\/(identity\/listData|questionset\/getInfo) url script-response-body https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Yu9191/Rewrite/richapi.js
 
 */
 

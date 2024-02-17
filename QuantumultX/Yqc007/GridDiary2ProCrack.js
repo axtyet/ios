@@ -13,7 +13,7 @@
 
 [rewrite_local]
 # > 格志日记解锁永久高级版
-^https?:\/\/diary-id\.sumi\.io\/api\/profile$ url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yqc007/GridDiary2ProCrack.js
+^https?:\/\/diary-id\.sumi\.io\/api\/profile$ url script-response-body https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Yqc007/GridDiary2ProCrack.js
 
 [mitm] 
 hostname = diary-id.sumi.io

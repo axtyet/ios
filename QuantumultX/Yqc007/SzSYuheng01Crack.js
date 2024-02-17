@@ -15,7 +15,7 @@ hostname = *sezse*
 
 [rewrite_local]
 # > 色中色破解至尊王者卡
-^https?:\/\/.*sezse.*\/api\/(media\/verifyPlay|user\/(wallet\/info|info))$ url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yqc007/SzSYuheng01Crack.js
+^https?:\/\/.*sezse.*\/api\/(media\/verifyPlay|user\/(wallet\/info|info))$ url script-response-body https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Yqc007/SzSYuheng01Crack.js
 
 *******************************/
 

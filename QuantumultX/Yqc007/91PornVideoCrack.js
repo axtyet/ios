@@ -14,7 +14,7 @@
 
 [rewrite_local]
 # > 91视频解锁会员权限
-^https?:\/\/.*\/m_user\/info url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yqc007/91PornVideoCrack.js
+^https?:\/\/.*\/m_user\/info url script-response-body https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Yqc007/91PornVideoCrack.js
 ^https?:\/\/.*\/m_sns\/(film|video|short_video)\/(film_detail|detail_list|apply_play) url request-header (\r\n)X-AUTH-TOKEN:.+(\r\n) request-header $1X-AUTH-TOKEN: eyJhbGciOiJIUzUxMiIsImlhdCI6MTY3MDg0MTYwMSwiZXhwIjoxNjg2MzkzNjAxfQ.eyJpZCI6MTEyNDM1MTY0fQ.cDXTx14EaNf1TJzihOxOoIB4lyfwKnNNSrXbDiBj43kXzkzkqfftQRAqE23WTCuxQ45VYB-1IadrwxG_t3QoNA$2
 ^https?:\/\/.*\/(common\/splash_config|m_user\/(check_phone|behavior_verification_code)) url reject-200
 

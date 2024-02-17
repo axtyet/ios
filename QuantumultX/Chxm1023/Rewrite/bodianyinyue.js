@@ -9,7 +9,7 @@
 **************************************
 
 [rewrite_local]
-https:\/\/bd-api\.kuwo\.cn url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Chxm1023/Rewrite/bodianyinyue.js
+https:\/\/bd-api\.kuwo\.cn url script-response-body https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Chxm1023/Rewrite/bodianyinyue.js
 
 [mitm]
 hostname = bd-api.kuwo.cn

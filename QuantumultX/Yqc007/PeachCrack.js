@@ -15,7 +15,7 @@
 [rewrite_local]
 
 # > 水蜜桃解锁会员
-^https?:\/\/api\.mtaoapi006\.\w{3,4}:\d{4}\/api\.php\/api\/users\/getBaseInfo url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yqc007/PeachCrack.js
+^https?:\/\/api\.mtaoapi006\.\w{3,4}:\d{4}\/api\.php\/api\/users\/getBaseInfo url script-response-body https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Yqc007/PeachCrack.js
 
 [mitm]
  

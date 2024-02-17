@@ -13,7 +13,7 @@
 
 [rewrite_local]
 # > 加藤视频破解全部视频
-^https?:\/\/api\.jttv01\.cc\/shorter\/video\/longvideoinfo\/info.+ url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yqc007/JiaTengVideoAllCrack.js
+^https?:\/\/api\.jttv01\.cc\/shorter\/video\/longvideoinfo\/info.+ url script-response-body https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Yqc007/JiaTengVideoAllCrack.js
 
 [mitm] 
 hostname = api.jttv01.cc

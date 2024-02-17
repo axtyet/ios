@@ -5,7 +5,7 @@
 说明：并不完善,仅供学习,请勿传播售卖
 
 [rewrite_local]
-^https:\/\/api-service\.tutusouti\.com\/appServiceApi\/(vip\/newUserPayVipData|video\/videoDetail) url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yu9191/Rewrite/kaotu.js
+^https:\/\/api-service\.tutusouti\.com\/appServiceApi\/(vip\/newUserPayVipData|video\/videoDetail) url script-response-body https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Yu9191/Rewrite/kaotu.js
 
 [mitm]
 hostname = api-service.tutusouti.com

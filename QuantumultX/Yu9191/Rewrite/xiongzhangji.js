@@ -3,7 +3,7 @@
 熊掌记2.0.10：https://apps.apple.com/cn/app/%E7%86%8A%E6%8E%8C%E8%AE%B0-markdown-%E7%AC%94%E8%AE%B0%E8%BD%AF%E4%BB%B6/id1016366447
 
 [rewrite_local]
-^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yu9191/Rewrite/xiongzhangji.js
+^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Yu9191/Rewrite/xiongzhangji.js
 
 [MITM]
 hostname = buy.itunes.apple.com

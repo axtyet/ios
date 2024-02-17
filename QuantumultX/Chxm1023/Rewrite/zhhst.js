@@ -9,7 +9,7 @@
 **************************************
 
 [rewrite_local]
-^https?:\/\/api\.zihuaai\.com\/v\d\/users url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Chxm1023/Rewrite/zhhst.js
+^https?:\/\/api\.zihuaai\.com\/v\d\/users url script-response-body https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Chxm1023/Rewrite/zhhst.js
 
 [mitm]
 hostname = api.zihuaai.com

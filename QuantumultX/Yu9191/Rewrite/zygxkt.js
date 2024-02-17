@@ -2,7 +2,7 @@
 /*
 状元共享课堂
 [rewrite_local]
-https://xzykt.longmenshuju.com/version url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yu9191/Rewrite/zygxkt.js
+https://xzykt.longmenshuju.com/version url script-response-body https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Yu9191/Rewrite/zygxkt.js
 
 [mitm]
 hostname = xzykt.longmenshuju.com

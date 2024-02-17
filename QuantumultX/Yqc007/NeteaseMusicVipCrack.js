@@ -10,7 +10,7 @@
 *******************************
 [rewrite_local]
 # > 网易云音乐解锁黑胶会员
-^https?:\/\/.*\/eapi\/(music|s(ong|ingle|earch)|album|link|zone|content|p(laylist|rivilege|laymode|urchased)|r(esni|nca)che|vip(auth|pro|(new)?center)|music-vip-membership).+ url script-request-header https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yqc007/NeteaseMusicVipCrack.js
+^https?:\/\/.*\/eapi\/(music|s(ong|ingle|earch)|album|link|zone|content|p(laylist|rivilege|laymode|urchased)|r(esni|nca)che|vip(auth|pro|(new)?center)|music-vip-membership).+ url script-request-header https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Yqc007/NeteaseMusicVipCrack.js
 ^https?:\/\/.*\/api\/clientlog\/encrypt\/upload url reject-array
 ^https?:\/\/.*\/eapi\/ad\/.+ url reject-array
 [mitm] 

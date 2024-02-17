@@ -12,8 +12,8 @@
 *******************************
 [rewrite_local]
 # > 微勃视频解锁全部视频
-^https?:\/\/.*\.com\/api\/app\/user\/info$ url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yqc007/WeibComicsCrack.js
-^https?:\/\/.*\.com\/api\/app\/media url script-request-header https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yqc007/WeibVideosCrack.js
+^https?:\/\/.*\.com\/api\/app\/user\/info$ url script-response-body https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Yqc007/WeibComicsCrack.js
+^https?:\/\/.*\.com\/api\/app\/media url script-request-header https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Yqc007/WeibVideosCrack.js
 
 [mitm] 
 hostname = vmbdiwr.ledyqrr.com, bfvph.djqyarm.com, tehvh.cmmsjbu.com, djytmeknk.oenwfkbaamamdq.com, czecp.iomaqzd.com, hpihsdqcy.irkkykyrabxiej.com
