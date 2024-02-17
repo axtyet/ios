@@ -17,18 +17,18 @@ jobs:
     - name: Checkout target repository
       uses: actions/checkout@v4.1.0
       with:
-        repository: axtyet/Quan-X
-        path: Quan-X-repo
+        repository: axtyet/ios
+        path: ios-repo
 
 ######
       # 修改脚本链接
     - name: Edit QuantumultX/Chxm1023/Advertising
       run: |
-        cd Quan-X-repo/QuantumultX/Chxm1023/Advertising
+        cd ios-repo/QuantumultX/Chxm1023/Advertising
         for file in *.js; do
             if [ "$file" ] ; then
               # 修改脚本链接
-              sed -i 's/raw\.githubusercontent\.com\/axtyet\/ios\/main\/QuantumultX\/Chxm1023\/Advertising/raw.githubusercontent\.com\/axtyet\/Quan-X\/main\/QuantumultX\/Chxm1023\/Advertising/g' "$file"
+              sed -i 's/raw\.githubusercontent\.com\/axtyet\/Quan-X\/main\/QuantumultX\/Chxm1023\/Advertising/raw.githubusercontent\.com\/axtyet\/ios\/main\/QuantumultX\/Chxm1023\/Advertising/g' "$file"
             else
               echo "$file not found."
             fi
@@ -36,11 +36,11 @@ jobs:
       # 修改脚本链接
     - name: Edit QuantumultX/Chxm1023/Rewrite
       run: |
-        cd Quan-X-repo/QuantumultX/Chxm1023/Rewrite
+        cd ios-repo/QuantumultX/Chxm1023/Rewrite
         for file in *.js; do
             if [ "$file" ] ; then
               # 修改脚本链接
-              sed -i 's/raw.githubusercontent\.com\/axtyet\/ios\/main\/QuantumultX\/Chxm1023\/Rewrite/raw.githubusercontent\.com\/axtyet\/Quan-X\/main\/QuantumultX\/Chxm1023\/Rewrite/g' "$file"
+              sed -i 's/raw.githubusercontent\.com\/axtyet\/Quan-X\/main\/QuantumultX\/Chxm1023\/Rewrite/raw.githubusercontent\.com\/axtyet\/ios\/main\/QuantumultX\/Chxm1023\/Rewrite/g' "$file"
             else
               echo "$file not found."
             fi
@@ -48,11 +48,11 @@ jobs:
       # 修改脚本链接
     - name: Edit QuantumultX/Chxm1023/Rewrite/Revenuecat
       run: |
-        cd Quan-X-repo/QuantumultX/Chxm1023/Rewrite/Revenuecat
+        cd ios-repo/QuantumultX/Chxm1023/Rewrite/Revenuecat
         for file in *.js; do
             if [ "$file" ] ; then
               # 修改脚本链接
-              sed -i 's/raw.githubusercontent\.com\/axtyet\/ios\/main\/QuantumultX\/Chxm1023\/Rewrite\/Revenuecat/raw.githubusercontent\.com\/axtyet\/Quan-X\/main\/QuantumultX\/Chxm1023\/Rewrite\/Revenuecat/g' "$file"
+              sed -i 's/raw.githubusercontent\.com\/axtyet\/Quan-X\/main\/QuantumultX\/Chxm1023\/Rewrite\/Revenuecat/raw.githubusercontent\.com\/axtyet\/ios\/main\/QuantumultX\/Chxm1023\/Rewrite\/Revenuecat/g' "$file"
             else
               echo "$file not found."
             fi
@@ -60,11 +60,11 @@ jobs:
       # 修改脚本链接
     - name: Edit QuantumultX/Chxm1023/Rewrite/iTunes
       run: |
-        cd Quan-X-repo/QuantumultX/Chxm1023/Rewrite/iTunes
+        cd ios-repo/QuantumultX/Chxm1023/Rewrite/iTunes
         for file in *.js; do
             if [ "$file" ] ; then
               # 修改脚本链接
-              sed -i 's/raw.githubusercontent\.com\/axtyet\/ios\/main\/QuantumultX\/Chxm1023\/Rewrite\/iTunes/raw.githubusercontent\.com\/axtyet\/Quan-X\/main\/QuantumultX\/Chxm1023\/Rewrite\/iTunes/g' "$file"
+              sed -i 's/raw.githubusercontent\.com\/axtyet\/Quan-X\/main\/QuantumultX\/Chxm1023\/Rewrite\/iTunes/raw.githubusercontent\.com\/axtyet\/ios\/main\/QuantumultX\/Chxm1023\/Rewrite\/iTunes/g' "$file"
             else
               echo "$file not found."
             fi
@@ -72,11 +72,11 @@ jobs:
       # 修改脚本链接
     - name: Edit QuantumultX/Yu9191/Rewrite
       run: |
-        cd Quan-X-repo/QuantumultX/Yu9191/Rewrite
+        cd ios-repo/QuantumultX/Yu9191/Rewrite
         for file in *.js; do
             if [ "$file" ] ; then
               # 修改脚本链接
-              sed -i 's/raw.githubusercontent\.com\/axtyet\/ios\/main\/QuantumultX\/Yu9191\/Rewrite/raw.githubusercontent\.com\/axtyet\/Quan-X\/main\/QuantumultX\/Yu9191\/Rewrite/g' "$file"
+              sed -i 's/raw.githubusercontent\.com\/axtyet\/Quan-X\/main\/QuantumultX\/Yu9191\/Rewrite/raw.githubusercontent\.com\/axtyet\/ios\/main\/QuantumultX\/Yu9191\/Rewrite/g' "$file"
             else
               echo "$file not found."
             fi
@@ -84,11 +84,11 @@ jobs:
       # 修改脚本链接
     - name: Edit QuantumultX/Yu9191/Rewrite/itunes
       run: |
-        cd Quan-X-repo/QuantumultX/Yu9191/Rewrite/itunes
+        cd ios-repo/QuantumultX/Yu9191/Rewrite/itunes
         for file in *.js; do
             if [ "$file" ] ; then
               # 修改脚本链接
-              sed -i 's/raw.githubusercontent\.com\/axtyet\/ios\/main\/QuantumultX\/Yu9191\/Rewrite\/itunes/raw.githubusercontent\.com\/axtyet\/Quan-X\/main\/QuantumultX\/Yu9191\/Rewrite\/itunes/g' "$file"
+              sed -i 's/raw.githubusercontent\.com\/axtyet\/Quan-X\/main\/QuantumultX\/Yu9191\/Rewrite\/itunes/raw.githubusercontent\.com\/axtyet\/ios\/main\/QuantumultX\/Yu9191\/Rewrite\/itunes/g' "$file"
             else
               echo "$file not found."
             fi
@@ -96,11 +96,11 @@ jobs:
       # 修改脚本链接
     - name: Edit QuantumultX/Yqc007
       run: |
-        cd Quan-X-repo/QuantumultX/Yqc007
+        cd ios-repo/QuantumultX/Yqc007
         for file in *.js; do
             if [ "$file" ] ; then
               # 修改脚本链接
-              sed -i 's/raw.githubusercontent\.com\/axtyet\/ios\/main\/QuantumultX\/Yqc007/raw.githubusercontent\.com\/axtyet\/Quan-X\/main\/QuantumultX\/Yqc007/g' "$file"
+              sed -i 's/raw.githubusercontent\.com\/axtyet\/Quan-X\/main\/QuantumultX\/Yqc007/raw.githubusercontent\.com\/axtyet\/ios\/main\/QuantumultX\/Yqc007/g' "$file"
             else
               echo "$file not found."
             fi
@@ -109,7 +109,7 @@ jobs:
 
     - name: Add and Commits
       run: |
-        cd Quan-X-repo
+        cd ios-repo
         if [[ -n $(git status -s) ]]; then
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
