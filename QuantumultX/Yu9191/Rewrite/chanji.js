@@ -3,7 +3,7 @@
 禅记：https://apps.apple.com/cn/app/zenjournal-stress-free-journal/id1399816360
 
 [rewrite_local]
-^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Yu9191/Rewrite/chanji.js
+^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yu9191/Rewrite/chanji.js
 
 [MITM]
 hostname = buy.itunes.apple.com

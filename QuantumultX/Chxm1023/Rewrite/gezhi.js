@@ -9,7 +9,7 @@
 **************************************
 
 [rewrite_local]
-^https?:\/\/diary-id\.sumi\.io\/api\/profile url script-response-body https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Chxm1023/Rewrite/gezhi.js
+^https?:\/\/diary-id\.sumi\.io\/api\/profile url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Chxm1023/Rewrite/gezhi.js
 
 [mitm]
 hostname = diary-id.sumi.io

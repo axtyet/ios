@@ -10,7 +10,7 @@
 
 [rewrite_local]
 
-^https:\/\/.*\.(intsig\.net|camscanner\.com) url script-response-body https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Yu9191/Rewrite/CamScanner.js
+^https:\/\/.*\.(intsig\.net|camscanner\.com) url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yu9191/Rewrite/CamScanner.js
 
 [mitm]
 

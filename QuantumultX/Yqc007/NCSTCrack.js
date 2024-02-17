@@ -17,7 +17,7 @@
 [rewrite_local]
 
 # 新春水堂解锁会员
-^https?:\/\/api\.(sumsun|gzbbcg|kjregister|klettdayeare)\.\w{3}\/api\/user\/profile\/$ url script-response-body https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Yqc007/NCSTCrack.js
+^https?:\/\/api\.(sumsun|gzbbcg|kjregister|klettdayeare)\.\w{3}\/api\/user\/profile\/$ url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yqc007/NCSTCrack.js
 ^https?:\/\/(time\.tfbeta\.top\/api\/app\/info|api\..+\/api\/(vip\/newshow|banner\/show|version\/show\/1))$ url reject-200
 
 [mitm] 

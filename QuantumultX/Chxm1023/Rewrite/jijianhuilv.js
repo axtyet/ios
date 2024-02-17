@@ -9,7 +9,7 @@
 **************************************
 
 [rewrite_local]
-^https?:\/\/(xremit\.xcurrency|explorer.tratao)\.com\/api\/client\/xtool\/vip url script-response-body https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Chxm1023/Rewrite/jijianhuilv.js
+^https?:\/\/(xremit\.xcurrency|explorer.tratao)\.com\/api\/client\/xtool\/vip url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Chxm1023/Rewrite/jijianhuilv.js
 
 [mitm]
 hostname = xremit.xcurrency.com, explorer.tratao.com

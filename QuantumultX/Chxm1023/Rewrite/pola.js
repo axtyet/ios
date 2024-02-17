@@ -10,7 +10,7 @@
 **************************************
 
 [rewrite_local]
-^https?:\/\/api\.polaxiong\.com\/.+\/payments\/(profiles\/.+\/subscription|appleiap\/receipts\/confirmation) url script-response-body https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Chxm1023/Rewrite/pola.js
+^https?:\/\/api\.polaxiong\.com\/.+\/payments\/(profiles\/.+\/subscription|appleiap\/receipts\/confirmation) url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Chxm1023/Rewrite/pola.js
 
 [mitm]
 hostname = api.polaxiong.com

@@ -16,7 +16,7 @@
 [rewrite_local]
 
 # > 有书解锁会员精读&付费精选
-^https?:\/\/(sc|gongdu)\.youshu\.cc\/(m|w|mp)\/(user\/count|media\/media_info|common\/elite_page_content|(page\/v2\/10010016|item\/subpage_pack_list).+)$ url script-response-body https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Yqc007/CellularBookProCrack.js
+^https?:\/\/(sc|gongdu)\.youshu\.cc\/(m|w|mp)\/(user\/count|media\/media_info|common\/elite_page_content|(page\/v2\/10010016|item\/subpage_pack_list).+)$ url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yqc007/CellularBookProCrack.js
 
 [mitm] 
 

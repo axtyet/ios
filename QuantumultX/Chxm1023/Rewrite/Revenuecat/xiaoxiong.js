@@ -10,8 +10,8 @@
 **************************************
 
 [rewrite_local]
-^https?:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/?(.*?)*$) url script-response-body https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Chxm1023/Rewrite/Revenuecat/xiaoxiong.js
-^https?:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/?(.*?)*$) url script-request-header https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Chxm1023/Rewrite/Revenuecat/xiaoxiong.js
+^https?:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/?(.*?)*$) url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Chxm1023/Rewrite/Revenuecat/xiaoxiong.js
+^https?:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/?(.*?)*$) url script-request-header https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Chxm1023/Rewrite/Revenuecat/xiaoxiong.js
 
 [mitm]
 hostname = api.revenuecat.com

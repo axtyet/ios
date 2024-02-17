@@ -9,7 +9,7 @@
 *******************************
 [rewrite_local]
 # > Wink 解锁永久会员
-^https?:\/\/api-sub\.meitu\.com\/v2\/user\/vip_info_by_group\.json url script-response-body https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Yqc007/WinkForeverVipCrack.js
+^https?:\/\/api-sub\.meitu\.com\/v2\/user\/vip_info_by_group\.json url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yqc007/WinkForeverVipCrack.js
 [mitm] 
 hostname = api-sub.meitu.com
 *******************************/

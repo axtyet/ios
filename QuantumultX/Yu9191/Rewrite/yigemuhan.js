@@ -4,7 +4,7 @@
 [rewrite_local]
 
 
-https://uapi.woobx.cn/user/profile url script-response-body https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Yu9191/Rewrite/yigemuhan.js
+https://uapi.woobx.cn/user/profile url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yu9191/Rewrite/yigemuhan.js
 
 [mitm] 
 

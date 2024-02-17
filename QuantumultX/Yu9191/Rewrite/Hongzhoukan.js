@@ -3,7 +3,7 @@
 
 [rewrite_local]
 
-^https:\/\/ssl\.zhoukan1992\.com\.cn\/wechat_xcx\/(info|zk_news_list)\.php url script-response-body https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Yu9191/Rewrite/Hongzhoukan.js
+^https:\/\/ssl\.zhoukan1992\.com\.cn\/wechat_xcx\/(info|zk_news_list)\.php url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yu9191/Rewrite/Hongzhoukan.js
 
 [mitm]
 hostname = ssl.zhoukan1992.com.cn

@@ -6,7 +6,7 @@ Faceswap funny Face replace 1.4.1
 **************************************
 
 [rewrite_local]
-^https?:\/\/api\.apphud\.com\/v1\/subscriptions url script-response-body https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Yu9191/Rewrite/Faceswap.js
+^https?:\/\/api\.apphud\.com\/v1\/subscriptions url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yu9191/Rewrite/Faceswap.js
 
 [mitm]
 hostname = api.apphud.com

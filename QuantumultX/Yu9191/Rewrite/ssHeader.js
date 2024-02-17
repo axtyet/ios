@@ -3,7 +3,7 @@
 脚本作者：PayNe
 
 [rewrite_local]
-^http[s]?:\/\/api\.x-storm\.com(:\d{2,5})?\/app/.+$ url script-request-header https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Yu9191/Rewrite/ssHeader.js
+^http[s]?:\/\/api\.x-storm\.com(:\d{2,5})?\/app/.+$ url script-request-header https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yu9191/Rewrite/ssHeader.js
 
 [mitm]
 hostname = *.x-storm.com

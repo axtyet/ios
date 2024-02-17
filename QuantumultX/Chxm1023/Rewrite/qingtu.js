@@ -9,7 +9,7 @@
 **************************************
 
 [rewrite_local]
-^http[s]s:\/\/purchase-qingtu-api\.b612kaji\.com\/v1\/purchase\/subscription\/subscriber\/status url script-response-body https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Chxm1023/Rewrite/qingtu.js
+^http[s]s:\/\/purchase-qingtu-api\.b612kaji\.com\/v1\/purchase\/subscription\/subscriber\/status url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Chxm1023/Rewrite/qingtu.js
 
 [mitm]
 hostname = purchase-qingtu-api.b612kaji.com

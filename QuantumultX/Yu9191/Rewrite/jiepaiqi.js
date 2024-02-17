@@ -9,7 +9,7 @@
 **************************************
 
 [rewrite_local]
-^https:\/\/metronome-api\.quthing\.com\/vip\/state url script-response-body https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Yu9191/Rewrite/jiepaiqi.js
+^https:\/\/metronome-api\.quthing\.com\/vip\/state url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yu9191/Rewrite/jiepaiqi.js
 
 [mitm]
 hostname = metronome-api.quthing.com

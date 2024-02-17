@@ -5,7 +5,7 @@
 
 
 [rewrite_local]
-^https:\/\/xunji\.gxzckj\.com\/after310\/ios url script-response-body https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Yu9191/Rewrite/xunji_no_update.js
+^https:\/\/xunji\.gxzckj\.com\/after310\/ios url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yu9191/Rewrite/xunji_no_update.js
 
 
 [mitm]

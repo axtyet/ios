@@ -9,7 +9,7 @@
 **************************************
 
 [rewrite_local]
-^https?:\/\/jz\.wacai\.com url script-response-body https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Chxm1023/Rewrite/wacaijizhang.js
+^https?:\/\/jz\.wacai\.com url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Chxm1023/Rewrite/wacaijizhang.js
 
 [mitm]
 hostname = jz.wacai.com

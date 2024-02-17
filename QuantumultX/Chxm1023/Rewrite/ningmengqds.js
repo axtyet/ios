@@ -9,7 +9,7 @@
 **************************************
 
 [rewrite_local]
-^https?:\/\/fast\.lmfasting\.cn\/api url script-response-body https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Chxm1023/Rewrite/ningmengqds.js
+^https?:\/\/fast\.lmfasting\.cn\/api url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Chxm1023/Rewrite/ningmengqds.js
 
 [mitm]
 hostname = fast.lmfasting.cn

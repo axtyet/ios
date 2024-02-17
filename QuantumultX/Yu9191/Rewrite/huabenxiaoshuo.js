@@ -4,7 +4,7 @@
 
 
 [rewrite_local]
-https://user.ihuaben.com/api/userinfo url script-response-body https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Yu9191/Rewrite/huabenxiaoshuo.js
+https://user.ihuaben.com/api/userinfo url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yu9191/Rewrite/huabenxiaoshuo.js
 
 
 [mitm] 

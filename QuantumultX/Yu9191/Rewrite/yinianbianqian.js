@@ -5,7 +5,7 @@
 
 
 [rewrite_local]
-^https?:\/\/yinian\.pro\/api\/user url script-response-body https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Yu9191/Rewrite/yinianbianqian.js
+^https?:\/\/yinian\.pro\/api\/user url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yu9191/Rewrite/yinianbianqian.js
 
 [MITM]
 hostname = yinian.pro

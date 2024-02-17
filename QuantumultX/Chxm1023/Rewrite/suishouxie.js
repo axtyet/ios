@@ -9,7 +9,7 @@
 **************************************
 
 [rewrite_local]
-http:\/\/www\.kkmop\.com\/vipMsg1 url script-response-body https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Chxm1023/Rewrite/suishouxie.js
+http:\/\/www\.kkmop\.com\/vipMsg1 url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Chxm1023/Rewrite/suishouxie.js
 
 [mitm]
 hostname = www.kkmop.com

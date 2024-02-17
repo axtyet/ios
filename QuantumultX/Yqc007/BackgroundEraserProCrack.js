@@ -15,7 +15,7 @@
 [rewrite_local]
 
 # > 傲软抠图解锁会员
-^https?:\/\/gw\.aoscdn\.com\/base\/vip\/client\/authorizations$ url script-response-body https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Yqc007/BackgroundEraserProCrack.js
+^https?:\/\/gw\.aoscdn\.com\/base\/vip\/client\/authorizations$ url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yqc007/BackgroundEraserProCrack.js
 
 [mitm] 
 

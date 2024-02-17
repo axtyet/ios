@@ -10,7 +10,7 @@
 **************************************
 
 [rewrite_local]
-^https?:\/\/.*\.cloudfront\.net\/(index\.php\/jsapi\/(paywall|get_story_more_info)|mobile\/verify) url script-response-body https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Chxm1023/Rewrite/cloudfront.js
+^https?:\/\/.*\.cloudfront\.net\/(index\.php\/jsapi\/(paywall|get_story_more_info)|mobile\/verify) url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Chxm1023/Rewrite/cloudfront.js
 ^https?:\/\/ftmailbox\.cn\/ad_impression\/.+ url reject-200
 
 [mitm]

@@ -2,7 +2,7 @@
 PDF文档扫描仪 2.8.9
 
 [rewrite_local]
-https://device.rsjxzl.com/api/v2/subscription/info url script-response-body https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Yu9191/Rewrite/PDFwdsmy.js
+https://device.rsjxzl.com/api/v2/subscription/info url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yu9191/Rewrite/PDFwdsmy.js
 
 [mitm]
 hostname = device.rsjxzl.com

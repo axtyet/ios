@@ -9,7 +9,7 @@
 **************************************
 
 [rewrite_local]
-^https?:\/\/.*\.cloudfront\.net\/index\.php\/jsapi\/(paywall|get_story_more_info) url script-response-body https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Chxm1023/Rewrite/FT.js
+^https?:\/\/.*\.cloudfront\.net\/index\.php\/jsapi\/(paywall|get_story_more_info) url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Chxm1023/Rewrite/FT.js
 ^https?:\/\/ftmailbox\.cn\/ad_impression\/.+ url reject-200
 
 [mitm]

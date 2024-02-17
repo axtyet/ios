@@ -6,7 +6,7 @@
 [rewrite_local]
 
 
-https://prodapi\.jiahuiku\.cn/api/content/v1/(kpoint/initSelectedKpoints|app/getKpointList|kpoint/appendKpoints|seminar/annex/getSeminarKpointListBySeminarId|seminar/annex/getSeminarCourseAnnexListBySeminarId) url script-response-body https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Yu9191/Rewrite/jiahuiku.js
+https://prodapi\.jiahuiku\.cn/api/content/v1/(kpoint/initSelectedKpoints|app/getKpointList|kpoint/appendKpoints|seminar/annex/getSeminarKpointListBySeminarId|seminar/annex/getSeminarCourseAnnexListBySeminarId) url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yu9191/Rewrite/jiahuiku.js
 
 [mitm] 
 

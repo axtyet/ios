@@ -9,7 +9,7 @@
 **************************************
 
 [rewrite_local]
-^https:\/\/subscription-api\.notedapp\.io\/api\/verifyReceipt url script-response-body https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Chxm1023/Rewrite/Noted.js
+^https:\/\/subscription-api\.notedapp\.io\/api\/verifyReceipt url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Chxm1023/Rewrite/Noted.js
 
 [mitm] 
 hostname = subscription-api.notedapp.io

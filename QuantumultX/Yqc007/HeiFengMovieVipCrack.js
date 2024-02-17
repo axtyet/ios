@@ -18,7 +18,7 @@
 [rewrite_local]
 
 # > 嘿锋影视解锁会员
-^https?:\/\/ios\.hfys8\.vip\/sk-api\/user\/get_user_info url script-response-body https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Yqc007/HeiFengMovieVipCrack.js
+^https?:\/\/ios\.hfys8\.vip\/sk-api\/user\/get_user_info url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yqc007/HeiFengMovieVipCrack.js
 
 [mitm] 
 

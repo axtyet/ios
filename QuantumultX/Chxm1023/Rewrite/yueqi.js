@@ -12,7 +12,7 @@
 **************************************
 
 [rewrite_local]
-^https:\/\/.*api\.quthing\.com\/(.+\/vip|vip|student|user|appearance|background|rest) url script-response-body https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Chxm1023/Rewrite/yueqi.js
+^https:\/\/.*api\.quthing\.com\/(.+\/vip|vip|student|user|appearance|background|rest) url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Chxm1023/Rewrite/yueqi.js
 
 [mitm]
 hostname = *api.quthing.com

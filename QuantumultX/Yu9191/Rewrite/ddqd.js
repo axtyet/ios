@@ -3,7 +3,7 @@
 滴答 7.0.21
 
 [rewrite_local]
-https://dida365.com/api/v2/user/status url script-response-body https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Yu9191/Rewrite/ddqd.js
+https://dida365.com/api/v2/user/status url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yu9191/Rewrite/ddqd.js
 
 [mitm] 
 hostname = dida365.com

@@ -5,7 +5,7 @@
 
 [rewrite_local]
 
-https://storybook.ifenghui.com/api url script-response-body https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Yu9191/Rewrite/gushifeichuan.js
+https://storybook.ifenghui.com/api url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yu9191/Rewrite/gushifeichuan.js
 
 #开屏广告需清理缓存
 https://storybook.ifenghui.com/api/ads/getIndexAds url reject

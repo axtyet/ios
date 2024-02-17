@@ -26,7 +26,7 @@
 ; 网页播放1：https://files.yuchenglw.com
 ; 网页播放2：https://files.honghufly.com
 ; hostname = files.*.com
-^https:\/\/files\.(yuchenglw|honghufly)\.com url script-response-body https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Chxm1023/Rewrite/sssp.js
+^https:\/\/files\.(yuchenglw|honghufly)\.com url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Chxm1023/Rewrite/sssp.js
 
 
 

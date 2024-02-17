@@ -8,7 +8,7 @@
 **************************************
 
 [rewrite_local]
-^https:\/\/prod\.api\.lambus\.io\/v1\.10\/subscriptions url script-response-body https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Yu9191/Rewrite/Lambus.js
+^https:\/\/prod\.api\.lambus\.io\/v1\.10\/subscriptions url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yu9191/Rewrite/Lambus.js
 
 [mitm] 
 hostname = prod.api.lambus.io

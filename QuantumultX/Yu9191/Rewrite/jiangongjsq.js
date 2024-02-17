@@ -8,7 +8,7 @@
 
 
 [rewrite_local]
-^https:\/\/calc\.kuaicad\.com\/authority\/verify_vip\? url script-response-body https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Yu9191/Rewrite/jiangongjsq.js
+^https:\/\/calc\.kuaicad\.com\/authority\/verify_vip\? url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yu9191/Rewrite/jiangongjsq.js
 
 [mitm]
 hostname = calc.kuaicad.com

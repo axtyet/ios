@@ -4,7 +4,7 @@ everyday-习惯养成
 2023.12.21
 
 [rewrite_local]
-https://api.everyday.app/users url script-response-body https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Yu9191/Rewrite/everyday.js
+https://api.everyday.app/users url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yu9191/Rewrite/everyday.js
 
 [mitm]
 hostname = api.everyday.app

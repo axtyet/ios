@@ -6,7 +6,7 @@ id：qtzs_vip_year
 [rewrite_local]
 
 
-^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Yu9191/Rewrite/itunes/ztqs.js
+^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yu9191/Rewrite/itunes/ztqs.js
 
 [mitm] 
 

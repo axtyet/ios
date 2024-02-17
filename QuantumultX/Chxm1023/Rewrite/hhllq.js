@@ -9,7 +9,7 @@
 **************************************
 
 [rewrite_local]
-^https?:\/\/social-api-public\.lemurbrowser\.com\/api\/payment\/getVIPInfo url script-response-body https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Chxm1023/Rewrite/hhllq.js
+^https?:\/\/social-api-public\.lemurbrowser\.com\/api\/payment\/getVIPInfo url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Chxm1023/Rewrite/hhllq.js
 
 [mitm]
 hostname = social-api-public.lemurbrowser.com

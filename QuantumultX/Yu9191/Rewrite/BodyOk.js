@@ -3,7 +3,7 @@ BodyOk 4.1.9
 间歇性断食追踪
 
 [rewrite_local]
-^https:\/\/api\.apphud\.com\/v1\/(subscriptions|customers)$ url script-response-body https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Yu9191/Rewrite/BodyOk.js
+^https:\/\/api\.apphud\.com\/v1\/(subscriptions|customers)$ url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yu9191/Rewrite/BodyOk.js
 
 [mitm]
 hostname = api.apphud.com

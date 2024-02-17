@@ -6,7 +6,7 @@
 
 [rewrite_local]
 #会员
-https://szone-my.7net.cc/userInfo/GetUserInfo url script-response-body https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Yu9191/Rewrite/Qitianxuetang.js
+https://szone-my.7net.cc/userInfo/GetUserInfo url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yu9191/Rewrite/Qitianxuetang.js
 
 [mitm]
 hostname = szone-my.7net.cc

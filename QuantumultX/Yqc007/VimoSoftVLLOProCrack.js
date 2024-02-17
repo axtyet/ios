@@ -16,7 +16,7 @@
 [rewrite_local]
 
 # VLLO解锁订阅
-^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Yqc007/VimoSoftVLLOProCrack.js
+^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yqc007/VimoSoftVLLOProCrack.js
 
 [mitm] 
 

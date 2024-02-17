@@ -3,7 +3,7 @@
 [rewrite_local]
 
 #完整视频
-https://(?:\w+\.)?xlzhao\.com/.*\.(?:m3u8|mp3) url script-request-header https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Yu9191/Rewrite/m3u8/xiongmaoboshibaike.js
+https://(?:\w+\.)?xlzhao\.com/.*\.(?:m3u8|mp3) url script-request-header https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yu9191/Rewrite/m3u8/xiongmaoboshibaike.js
 
 [mitm] 
 

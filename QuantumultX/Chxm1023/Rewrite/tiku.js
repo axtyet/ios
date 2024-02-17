@@ -23,7 +23,7 @@
 **************************************
 
 [rewrite_local]
-^https?:\/\/(iosapi\.yueshuian|question\.tiku\.cqxcj|base\.cmoe|yyapi\.yayingtk|learn\.cqrry|api\.sryx|api\.meigit|question\.api\.anjiazui|app\.bftk|question\.civil\.shaoeyy)\.(com|top|net).+(common|front\/customer|vip\/getValidTime) url script-response-body https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Chxm1023/Rewrite/tiku.js
+^https?:\/\/(iosapi\.yueshuian|question\.tiku\.cqxcj|base\.cmoe|yyapi\.yayingtk|learn\.cqrry|api\.sryx|api\.meigit|question\.api\.anjiazui|app\.bftk|question\.civil\.shaoeyy)\.(com|top|net).+(common|front\/customer|vip\/getValidTime) url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Chxm1023/Rewrite/tiku.js
 
 [mitm]
 hostname = iosapi.yueshuian.com, question.tiku.cqxcj.top, base.cmoe.top, yyapi.yayingtk.com, learn.cqrry.com, api.sryx.net, api.meigit.com, question.api.anjiazui.com, app.bftk.com.cn, question.civil.shaoeyy.com

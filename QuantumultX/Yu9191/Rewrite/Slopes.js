@@ -4,7 +4,7 @@ Slopes
 2023.12.5更新
 
 [rewrite_local]
-https://my.getslopes.com/api/v2/account url script-response-body https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Yu9191/Rewrite/Slopes.js
+https://my.getslopes.com/api/v2/account url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yu9191/Rewrite/Slopes.js
 
 [mitm] 
 hostname = my.getslopes.com

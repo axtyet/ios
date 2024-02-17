@@ -2,7 +2,7 @@
 遥忘
 2023.12.13
 [rewrite_local]
-^https:\/\/(mars-prod\.|ins-web\.whalean\.com\/(poseidon-service\/api\/user\/homeData|member\/userMemberHomePageV2|taskcenter\/getGrowthInfo|user\/getpersonalcenterlikecount)) url script-response-body https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Yu9191/Rewrite/yw.js
+^https:\/\/(mars-prod\.|ins-web\.whalean\.com\/(poseidon-service\/api\/user\/homeData|member\/userMemberHomePageV2|taskcenter\/getGrowthInfo|user\/getpersonalcenterlikecount)) url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yu9191/Rewrite/yw.js
 
 [mitm]
 hostname = mars-prod.whalean.com, ins-web.whalean.com

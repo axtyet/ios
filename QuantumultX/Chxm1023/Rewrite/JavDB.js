@@ -12,8 +12,8 @@
 **************************************
 
 [rewrite_local]
-^https?:\/\/api\.hechuangxinxi\.xyz\/api\/v\d\/(users|startup|ads) url script-response-body https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Chxm1023/Rewrite/JavDB.js
-^https?:\/\/api\.hechuangxinxi\.xyz\/api\/v\d\/(movies\/.*\/play|startup) url script-request-header https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Chxm1023/Rewrite/JavDB.js
+^https?:\/\/api\.hechuangxinxi\.xyz\/api\/v\d\/(users|startup|ads) url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Chxm1023/Rewrite/JavDB.js
+^https?:\/\/api\.hechuangxinxi\.xyz\/api\/v\d\/(movies\/.*\/play|startup) url script-request-header https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Chxm1023/Rewrite/JavDB.js
 
 [mitm]
 hostname = api.hechuangxinxi.xyz

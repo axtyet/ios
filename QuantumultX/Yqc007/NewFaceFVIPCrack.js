@@ -16,7 +16,7 @@
 [rewrite_local]
 
 # > NewFace解锁永久会员
-^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Yqc007/NewFaceFVIPCrack.js
+^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yqc007/NewFaceFVIPCrack.js
 
 [mitm] 
 

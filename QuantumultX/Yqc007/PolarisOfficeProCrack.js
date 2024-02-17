@@ -16,7 +16,7 @@
 [rewrite_local]
 
 # Polaris Office解锁订阅
-^https?:\/\/api\.polarisoffice\.com\/api\/1\/account\/userinfo$ url script-response-body https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Yqc007/PolarisOfficeProCrack.js
+^https?:\/\/api\.polarisoffice\.com\/api\/1\/account\/userinfo$ url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yqc007/PolarisOfficeProCrack.js
 
 [mitm] 
 

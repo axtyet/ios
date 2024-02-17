@@ -18,7 +18,7 @@
 [rewrite_local]
 
 # 健康视频解锁会员
-^https?:\/\/apiw\.9waquan\.com\/sw2\/.+ url script-request-header https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Yqc007/JKSPCrack.js
+^https?:\/\/apiw\.9waquan\.com\/sw2\/.+ url script-request-header https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yqc007/JKSPCrack.js
 
 [mitm] 
 

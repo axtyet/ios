@@ -6,11 +6,11 @@
 
 [rewrite_local]
 
-#https://api\.vistopia\.com\.cn/api/v\d/(user/profile|reader/section-detail) url script-request-header https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Yu9191/Rewrite/kanlixiang.js
+#https://api\.vistopia\.com\.cn/api/v\d/(user/profile|reader/section-detail) url script-request-header https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yu9191/Rewrite/kanlixiang.js
 
-https://api\.vistopia\.com\.cn/api/v\d/(user/profile|reader/section-detail) url script-response-body https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Yu9191/Rewrite/kanlixiangbd.js
+https://api\.vistopia\.com\.cn/api/v\d/(user/profile|reader/section-detail) url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yu9191/Rewrite/kanlixiangbd.js
 
-^https:\/\/api\.vistopia\.com\.cn\/api\/v\d\/(user\/profile|reader\/section-detail|content\/article_list) url script-request-header https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Yu9191/Rewrite/kanlixiang.js
+^https:\/\/api\.vistopia\.com\.cn\/api\/v\d\/(user\/profile|reader\/section-detail|content\/article_list) url script-request-header https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yu9191/Rewrite/kanlixiang.js
 #看理想 开屏广告
 ^https:\/\/api\.vistopia\.com\.cn\/api\/v2\/home\/advertisement url reject-dict
 [mitm] 

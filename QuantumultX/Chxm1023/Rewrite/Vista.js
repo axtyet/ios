@@ -9,7 +9,7 @@
 **************************************
 
 [rewrite_local]
-^https?:\/\/open3\.vistastory\.com\/v\d\/api\/(vip|my\/home\/get_home_center|user/pendant|poster\/share_poster|adm\/get_popup_ad|index\/loading_ad) url script-response-body https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Chxm1023/Rewrite/Vista.js
+^https?:\/\/open3\.vistastory\.com\/v\d\/api\/(vip|my\/home\/get_home_center|user/pendant|poster\/share_poster|adm\/get_popup_ad|index\/loading_ad) url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Chxm1023/Rewrite/Vista.js
 
 [mitm] 
 hostname = open3.vistastory.com

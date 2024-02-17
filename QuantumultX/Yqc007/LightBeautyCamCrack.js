@@ -10,7 +10,7 @@
 *******************************
 [rewrite_local]
 # > 轻颜相机解锁会员
-^https?:\/\/commerce-api\.faceu\.mobi\/commerce\/v1\/subscription\/user_info url script-request-header https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Yqc007/LightBeautyCamCrack.js
+^https?:\/\/commerce-api\.faceu\.mobi\/commerce\/v1\/subscription\/user_info url script-request-header https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yqc007/LightBeautyCamCrack.js
 [mitm] 
 hostname = commerce-api.faceu.mobi
 

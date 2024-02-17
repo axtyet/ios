@@ -7,7 +7,7 @@ Blinkist 8.20.0
 
 [rewrite_local]
 
-https://api.blinkist.com/v4/me/access url script-response-body https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Yu9191/Rewrite/Blinkist.js
+https://api.blinkist.com/v4/me/access url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yu9191/Rewrite/Blinkist.js
 
 [mitm] 
 hostname = api.blinkist.com

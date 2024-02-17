@@ -4,7 +4,7 @@
 脚本作者：ios151,三岁
 
 [rewrite_local]
-^https:\/\/api\.zihuaai\.com\/v1\/users\/accoun url script-response-body https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Yu9191/Rewrite/Zihuahuanshutu.js
+^https:\/\/api\.zihuaai\.com\/v1\/users\/accoun url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yu9191/Rewrite/Zihuahuanshutu.js
 
 
 

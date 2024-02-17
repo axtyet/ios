@@ -13,7 +13,7 @@
 
 [rewrite_local]
 # > 小明计算器解锁永久会员
-^https?:\/\/jsq\.mingcalc\.cn\/XMGetMeCount\.ashx$ url script-response-body https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Yqc007/XMCalculatorVipCrack.js
+^https?:\/\/jsq\.mingcalc\.cn\/XMGetMeCount\.ashx$ url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yqc007/XMCalculatorVipCrack.js
 
 [mitm] 
 hostname = jsq.mingcalc.cn

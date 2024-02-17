@@ -8,7 +8,7 @@
 
 
 [rewrite_local]
-^https:\/\/yopu\.co\/api\/user\/info url script-response-body https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Yu9191/Rewrite/youpume.js
+^https:\/\/yopu\.co\/api\/user\/info url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yu9191/Rewrite/youpume.js
 
 [MITM]
 hostname = yopu.co

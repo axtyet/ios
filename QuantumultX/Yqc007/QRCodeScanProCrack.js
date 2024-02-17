@@ -16,7 +16,7 @@
 [rewrite_local]
 
 # > QrScanner解锁订阅
-^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Yqc007/QRCodeScanProCrack.js
+^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yqc007/QRCodeScanProCrack.js
 
 [mitm] 
 

@@ -9,7 +9,7 @@
 **************************************
 
 [rewrite_local]
-^https?:\/\/api\.995120\.cn\/mini\/api\/appleplus\/ url script-response-body https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Chxm1023/Rewrite/xinzang.js
+^https?:\/\/api\.995120\.cn\/mini\/api\/appleplus\/ url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Chxm1023/Rewrite/xinzang.js
 
 [mitm]
 hostname = api.995120.cn

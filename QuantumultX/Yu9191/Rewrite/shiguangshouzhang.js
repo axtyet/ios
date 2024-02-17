@@ -9,7 +9,7 @@
 **************************************
 
 [rewrite_local]
-^https:\/\/api\.shouzhang\.com\/memcenterlk\/member\/firstpage\.do url script-response-body https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Yu9191/Rewrite/shiguangshouzhang.js
+^https:\/\/api\.shouzhang\.com\/memcenterlk\/member\/firstpage\.do url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yu9191/Rewrite/shiguangshouzhang.js
 
 [mitm]
 hostname = api.shouzhang.com

@@ -8,7 +8,7 @@
 
 
 [rewrite_local]
-^https:\/\/mid\.zineapi\.com\/@varlens\/api\/user\/info\/v3\/ url script-response-body https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Yu9191/Rewrite/Varlens.js
+^https:\/\/mid\.zineapi\.com\/@varlens\/api\/user\/info\/v3\/ url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yu9191/Rewrite/Varlens.js
 
 [mitm]
 hostname = mid.zineapi.com

@@ -10,7 +10,7 @@
 **************************************
 
 [rewrite_local]
-^https:\/\/server\.(yoyiapp|zbisq)\.com url script-response-body https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Chxm1023/Rewrite/fimo.js
+^https:\/\/server\.(yoyiapp|zbisq)\.com url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Chxm1023/Rewrite/fimo.js
 
 [mitm]
 hostname = server.*.com

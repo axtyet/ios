@@ -9,7 +9,7 @@
 **************************************
 
 [rewrite_local]
-^https?:\/\/splice\.oracle\.bendingspoonsapps\.com\/v\d\/(users\/setup|purchases\/verify) url script-response-body https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Chxm1023/Rewrite/splice.js
+^https?:\/\/splice\.oracle\.bendingspoonsapps\.com\/v\d\/(users\/setup|purchases\/verify) url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Chxm1023/Rewrite/splice.js
 
 [mitm]
 hostname = splice.oracle.bendingspoonsapps.com

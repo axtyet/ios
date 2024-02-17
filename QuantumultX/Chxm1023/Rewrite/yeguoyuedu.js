@@ -9,7 +9,7 @@
 **************************************
 
 [rewrite_local]
-^https?:\/\/yeguo\.236api\.com url script-response-body https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Chxm1023/Rewrite/yeguoyuedu.js
+^https?:\/\/yeguo\.236api\.com url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Chxm1023/Rewrite/yeguoyuedu.js
 
 [mitm]
 hostname = yeguo.236api.com

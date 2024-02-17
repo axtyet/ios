@@ -4,9 +4,9 @@
 
 [rewrite_local]
 #西窗烛,诗词之美
-^https?:\/\/lchttpapi\.xczim\.com\/1.1\/users url script-response-body https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Yu9191/Rewrite/Xcz.js
+^https?:\/\/lchttpapi\.xczim\.com\/1.1\/users url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yu9191/Rewrite/Xcz.js
 #汉字的故事
-^https?:\/\/avoscloud\.com\/1.1\/users url script-response-body https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Yu9191/Rewrite/Xcz.js
+^https?:\/\/avoscloud\.com\/1.1\/users url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yu9191/Rewrite/Xcz.js
 [MITM]
 hostname = lchttpapi.xczim.com, avoscloud.com
 

@@ -5,7 +5,7 @@ TG:@ios151 2023.8.30.0.24
 
 
 [rewrite_local]
-^http?:\/\/qqpyqapi\.app\.xinmaicard\.com\/user\/auth_userinfo.*? url script-response-body https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Yu9191/Rewrite/pyq.js
+^http?:\/\/qqpyqapi\.app\.xinmaicard\.com\/user\/auth_userinfo.*? url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yu9191/Rewrite/pyq.js
 
 
 [mitm]

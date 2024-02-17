@@ -9,7 +9,7 @@
 **************************************
 
 [rewrite_local]
-^https:\/\/explorer\.tratao\.com\/api\/client\/xtool\/vip url script-response-body https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Chxm1023/Rewrite/jjhl.js
+^https:\/\/explorer\.tratao\.com\/api\/client\/xtool\/vip url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Chxm1023/Rewrite/jjhl.js
 
 [mitm]
 hostname = explorer.tratao.com

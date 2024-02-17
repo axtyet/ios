@@ -3,7 +3,7 @@
 
 [rewrite_local]
 
-http://xw.jietuguanjia.com/api/app/userInfo url script-response-body https://raw.githubusercontent.com/axtyet/Quan-X/main/QuantumultX/Yu9191/Rewrite/xiaowaiweishang.js
+http://xw.jietuguanjia.com/api/app/userInfo url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/Yu9191/Rewrite/xiaowaiweishang.js
 
 [mitm] 
 
