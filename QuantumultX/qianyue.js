@@ -34,7 +34,7 @@ var objc = JSON.parse($response.body);
         "is_trial_period" : "false",
         "original_transaction_id" : "710001546987284",
         "purchase_date" : "2024-02-08 08:57:57 Etc/GMT",
-        "product_id" : "com.zct2.flreader.sub.l",
+        "product_id" : "com.zct2.flreader.sub.m",
         "original_purchase_date_pst" : "2024-02-08 00:57:58 America/Los_Angeles",
         "in_app_ownership_type" : "PURCHASED",
         "original_purchase_date_ms" : "1707382678000",
@@ -59,7 +59,7 @@ var objc = JSON.parse($response.body);
   },
   "pending_renewal_info": [
     {
-      "product_id" : "com.zct2.flreader.sub.l",
+      "product_id" : "com.zct2.flreader.sub.m",
       "original_transaction_id" : "710001546987284",
       "auto_renew_product_id" : "com.zct2.flreader.sub",
       "auto_renew_status" : "1"
@@ -77,7 +77,7 @@ var objc = JSON.parse($response.body);
       "is_trial_period" : "false",
       "original_transaction_id" : "710001546987284",
       "purchase_date" : "2024-02-08 08:57:57 Etc/GMT",
-      "product_id" : "com.zct2.flreader.sub.l",
+      "product_id" : "com.zct2.flreader.sub.m",
       "original_purchase_date_pst" : "2024-02-08 00:57:58 America/Los_Angeles",
       "in_app_ownership_type" : "PURCHASED",
       "subscription_group_identifier" : "21436894",
