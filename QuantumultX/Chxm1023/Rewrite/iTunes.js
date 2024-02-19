@@ -25,7 +25,14 @@ const ua = $request.headers['User-Agent'] || $request.headers['user-agent'];
 const bundle_id = chxm1023.receipt["bundle_id"] || chxm1023.receipt["Bundle_Id"];
 
 const list = {
-  'HRV': { cm: 'sjbla', hx: 'hxpdc', version: "1", id: "com.stress.test.record.yearly", latest: "chxm1023" },  //解压小橘子(需试用)
+  'NoteKeys': { cm: 'sjbla', hx: 'hxpda', id: "notekeys_access_weekly", latest: "chxm1023" },  //五线谱
+  'SheetMusicPro': { cm: 'sjbla', hx: 'hxpda', id: "sheetmusicpro.yearwithtrial", latest: "chxm1023" },  //乐谱吧
+  'ProtractorEdge': { cm: 'sjbla', hx: 'hxpda', id: "ProtracatorEdge.PremiumAccess", latest: "chxm1023" },  //量角器
+  'Piano%20Plus': { cm: 'sjbla', hx: 'hxpda', id: "kn_access_weekly", latest: "chxm1023" },  //Piano Plus
+  'Notation%20Pad': { cm: 'sjbla', hx: 'hxpda', id: "np_access_weekly", latest: "chxm1023" },  //Notation Pad
+  'Guitar%20Notation': { cm: 'sjbla', hx: 'hxpda', id: "gn_access_weekly", latest: "chxm1023" },  //Guitar Notation
+  'Piano%20Fantasy': { cm: 'sjbla', hx: 'hxpda', id: "com.lotuz.PianoFantasy.weekwithtrail", latest: "chxm1023" },  //钢琴幻想
+  'Piano%20Rush': { cm: 'sjbla', hx: 'hxpda', id: "com.lotuz.PianoPro.weekwithtrail", latest: "chxm1023" },  //钢琴大师
   'UniversTranslate': { cm: 'sjbla', hx: 'hxpda', id: "com.univers.translator.tool.year", latest: "chxm1023" },  //翻译官(需试用)
   'com.gostraight.smallAccountBook': { cm: 'sjblb', hx: 'hxpda', id: "ForeverVIPPayment", latest: "chxm1023" },  //iCost记账(需要购买)
   'ZJTBiaoGe': { cm: 'sjbla', hx: 'hxpda', id: "zhangjt.biaoge.monthvip", latest: "chxm1023" },  //表格手机版
@@ -241,7 +248,6 @@ const list = {
   'ProKnockOut': { cm: 'sjblb', hx: 'hxpda', version: "7", id: "com.knockout.SVIP.50off", latest: "chxm1023" },  //ProKnockOut
   'com.teadoku.flashnote': { cm: 'sjbla', hx: 'hxpda', version: "1", id: "pro_ios_ipad_mac", latest: "chxm1023" },  //AnkiNote
   'com.tapuniverse.texteditor': { cm: 'sjbla', hx: 'hxpda', version: "4", id: "com.tapuniverse.texteditor.w", latest: "chxm1023" }  //TextEditor
-  'com.zct2.flReader': { cm: 'sjbla', hx: 'hxpda', version: "1", id: "com.zct2.flReader.sub.m", latest: "chxm1023" }  //千阅 2.6.0
 };
 
 //核心内容处理
