@@ -44,7 +44,7 @@ jobs:
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git add .
-        git commit -m "Update image JSON file"
+        git commit -m "Update image json file"
         git push origin HEAD:main
       env:
         GITHUB_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
