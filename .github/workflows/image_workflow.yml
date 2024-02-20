@@ -3,10 +3,10 @@ name: Image Workflow
 on:
   push:
     paths:
-      - 'leviicons/**' # 监视 leviicons 文件夹及其子文件夹下的内容
+      - 'Icons/**' # 监视图标文件夹及其子文件夹下的内容
   pull_request:
     paths:
-      - 'leviicons/**' # 监视 leviicons 文件夹及其子文件夹下的内容
+      - 'Icons/**' # 监视图标文件夹及其子文件夹下的内容
   workflow_dispatch:
 
 jobs:
@@ -44,7 +44,7 @@ jobs:
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git add .
-        git commit -m "Update generated image JSON file"
+        git commit -m "Update image JSON file"
         git push origin HEAD:main
       env:
         GITHUB_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
