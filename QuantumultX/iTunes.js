@@ -241,7 +241,7 @@ const list = {
   'Focos': { cm: 'sjbla', hx: 'hxpda', version: "6054", id: "com.focos.1w_t4_1w", latest: "chxm1023" },  //Focos
   'ProKnockOut': { cm: 'sjblb', hx: 'hxpda', version: "7", id: "com.knockout.SVIP.50off", latest: "chxm1023" },  //ProKnockOut
   'com.teadoku.flashnote': { cm: 'sjbla', hx: 'hxpda', version: "1", id: "pro_ios_ipad_mac", latest: "chxm1023" },  //AnkiNote
-  'com.zct2.flReader': { cm: 'sjbla', hx: 'hxpda', version: "10", id: "com.zct2.flreader.sub.m", latest: "chxm1023" }  //千阅
+  'com.zct2.flReader': { cm: 'sjbla', hx: 'hxpda', version: "10", id: "com.zct2.flreader.sub.m", ids: "com.zct2.flreader.sub.m", latest: "chxm1023" }  //千阅
 };
 
 //核心内容处理
@@ -252,7 +252,7 @@ for (const i in list) {
   //识别数据，处理到期时间或永久，多重购买
   if (list[i].cm.indexOf('sjbla') != -1) {  sjbl = [Object.assign({}, receiptdata, {  "expires_date":"2099-09-09 09:09:09 Etc/GMT", "expires_date_pst":"2099-09-09 06:06:06 America/Los_Angeles", "is_in_intro_offer_period":"false", "web_order_line_item_id":"490000123456789", "expires_date_ms":"4092599349000",  })];} else if (list[i].cm.indexOf('sjblb') != -1) {  sjbl = [(receiptdata)];} else if (list[i].cm.indexOf('sjblc') != -1) {  sjbl = [];  } else if (list[i].cm.indexOf('sjbld') != -1) {  sjbl = [Object.assign({}, receiptdata, {  "product_id":(list[i].ids)}), Object.assign({}, receiptdata, {  "expires_date":"2099-09-09 09:09:09 Etc/GMT", "expires_date_pst":"2099-09-09 06:06:06 America/Los_Angeles", "is_in_intro_offer_period":"false", "web_order_line_item_id":"490000123456789", "expires_date_ms":"4092599349000", "product_id":(list[i].id)  })];}
   //常用数据核心(有到期时间)
-  if (list[i].hx.indexOf('hxpda') != -1) {  chxm1023["receipt"]["in_app"] = (sjbl); chxm1023["latest_receipt_info"] = (sjbl); chxm1023["pending_renewal_info"] = [{  "product_id" : (list[i].id), "original_transaction_id" : "490001314520000", "auto_renew_product_id" : (list[i].id), "auto_renew_status" : "1"  }]; chxm1023["latest_receipt"] = (list[i].latest);  }
+  if (list[i].hx.indexOf('hxpda') != -1) {  chxm1023["receipt"]["in_app"] = (sjbl); chxm1023["latest_receipt_info"] = (sjbl); chxm1023["pending_renewal_info"] = [{  "product_id" : (list[i].id), "original_transaction_id" : "490001314520000", "auto_renew_product_id" : (list[i].id), "auto_renew_status" : "0"  }]; chxm1023["latest_receipt"] = (list[i].latest);  }
   //永久数据核心(无到期时间)
   if (list[i].hx.indexOf('hxpdb') != -1) {  chxm1023["receipt"]["in_app"] = (sjbl);  }
   //通用数据(可有可无)
