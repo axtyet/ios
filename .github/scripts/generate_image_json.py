@@ -17,7 +17,7 @@ def generate_json():
             json_data["icons"].append(icon_data)
 
     # Set the output path relative to the repository root
-    output_path = os.path.join(os.getcwd(), 'levi.icons.json')
+    output_path = os.path.join(os.getcwd(), 'icons.json')
 
     with open(output_path, 'w', encoding='utf-8') as json_file:
         json.dump(json_data, json_file, ensure_ascii=False, indent=2)
