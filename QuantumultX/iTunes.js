@@ -241,7 +241,7 @@ const list = {
   'Focos': { cm: 'sjbla', hx: 'hxpda', version: "6054", id: "com.focos.1w_t4_1w", latest: "chxm1023" },  //Focos
   'ProKnockOut': { cm: 'sjblb', hx: 'hxpda', version: "7", id: "com.knockout.SVIP.50off", latest: "chxm1023" },  //ProKnockOut
   'com.teadoku.flashnote': { cm: 'sjbla', hx: 'hxpda', version: "1", id: "pro_ios_ipad_mac", latest: "chxm1023" },  //AnkiNote
-  'com.zct2.flReader': { cm: 'sjbla', hx: 'hxpda', version: "10", id: "com.zct2.flreader.sub.m", ids: "com.zct2.flreader.sub.m", latest: "chxm1023" }  //千阅
+  'com.zct2.flReader': { cm: 'sjbld', hx: 'hxpda', version: "10", id: "com.zct2.flreader.sub.m", ids: "com.zct2.flreader.sub.m", latest: "chxm1023" }  //千阅
 };
 
 //核心内容处理
