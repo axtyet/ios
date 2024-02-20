@@ -26,7 +26,7 @@ const ua = $request.headers['User-Agent'] || $request.headers['user-agent'];
 const bundle_id = chxm1023.receipt["bundle_id"] || chxm1023.receipt["Bundle_Id"];
 
 const list = {
-  'com.zct2.flReader': { cm: 'sjbla', hx: 'hxpda', version: "3", id: "com.zct2.flreader.sub.m", latest: "chxm1023" },  //千阅
+  'com.zct2.flReader': { cm: 'sjbla', hx: 'hxpda', id: "com.zct2.flreader.sub.m", latest: "chxm1023" },  //千阅
   'HRV': { cm: 'sjbla', hx: 'hxpdc', version: "1", id: "com.stress.test.record.yearly", latest: "chxm1023" },  //解压小橘子(需试用)
   'UniversTranslate': { cm: 'sjbla', hx: 'hxpda', id: "com.univers.translator.tool.year", latest: "chxm1023" },  //翻译官(需试用)
   'com.gostraight.smallAccountBook': { cm: 'sjblb', hx: 'hxpda', id: "ForeverVIPPayment", latest: "chxm1023" },  //iCost记账(需要购买)
