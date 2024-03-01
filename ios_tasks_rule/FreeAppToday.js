@@ -1,7 +1,7 @@
 const $ = new Xiaobai();
 
 // 填key就行
-const key = $prefs.valueForKey('freeAppsTodayKey');
+const key = $prefs.valueForKey('Limited-time Offers');
 
 const myRequest = {
   url: "https://api.gofans.cn/v1/m/app_records?page=1&limit=10",
