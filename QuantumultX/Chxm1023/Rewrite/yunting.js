@@ -58,9 +58,9 @@ if(ad.test($request.url)){
 if(user1.test($request.url)){
   chxm1023.data = {
     ...chxm1023.data,
-    "userName" : "江上酒",
+    "userName" : "江上酒゛",
     "vipFlag" : 1,
-    "nickName" : "江上酒",
+    "nickName" : "江上酒゛",
     "icon" : "http://yunting-bj-radio-client.oss-cn-beijing.aliyuncs.com/25010%2Fsc_upload%2F202301%2F22%2F09%2F4eL7lc2023012209974.JPEG",
     "vipExpireTime" : 4092599349000
   };
@@ -82,7 +82,7 @@ if(user2.test($request.url)){
   chxm1023.object.baseInfo = {
     "isVip" : 1,
     "vipTime" : "2099-09-09",
-    "nickName" : "江上酒",
+    "nickName" : "江上酒゛",
     "userIcon" : "http://yunting-bj-radio-client.oss-cn-beijing.aliyuncs.com/25010%2Fsc_upload%2F202301%2F22%2F09%2F4eL7lc2023012209974.JPEG"
   };
   body = JSON.stringify(chxm1023);
