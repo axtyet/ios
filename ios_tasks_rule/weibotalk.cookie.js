@@ -61,7 +61,7 @@
   【 QX 1.0.10+ 脚本配置 】 
   *************************
   [rewrite_local]
- ^https?://m?api\.weibo\.c(n|om)\/2\/push url script-request-header https://raw.githubusercontent.com/axtyet/ios/main/ios_tasks_rule/weibotalk.cookie.js
+ ^https?://m?api\.weibo\.c(n|om)\/2\/(cardlist|page\/button) url script-request-header https://raw.githubusercontent.com/axtyet/ios/main/ios_tasks_rule/weibotalk.cookie.js
 
   [task]
   5 0 * * * https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/weibo/weibotalk.js, tag=微博超话
