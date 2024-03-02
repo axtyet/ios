@@ -34,7 +34,7 @@ function s(e,t){var n,r=4-e.length%4;n=t?0==(3&e.length)?e.length>>>2:1+(e.lengt
 //************抠的算法
 
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-const $ = new Env("高德地图签到");
+const $ = new Env("高德打车签到");
 const _key = 'GD_Val';
 var gdVal = $.getdata(_key) || ($.isNode() ? process.env[_key] : '');
 $.is_debug = ($.isNode() ? process.env.IS_DEDUG : $.getdata('is_debug')) || 'false';//false-true
