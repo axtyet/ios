@@ -11,9 +11,9 @@ hostname = api.tipsoon.com
 */
 var guding = JSON.parse($response.body);
 if ($request.url.includes("/user/info")) {
-  guding.data.icon_url = "https:\/\/raw\.githubusercontent\.com\/Guding88\/iCon\/main\/png\/Guding\.png";
+  guding.data.icon_url = "https://raw.githubusercontent.com/axtyet/Magic-Icons/main/Icons/icon.png";
   guding.data.is_vip = true;
-  guding.data.name = "骨钉";
+  guding.data.name = "江上酒゛";
   guding.data.vip_expire_time = "6666-06-06 06:06:06";
   guding.data.user_id = "https:\/\/t\.me\/Guding88";
 } else if ($request.url.includes("/login/account")) {
