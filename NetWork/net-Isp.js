@@ -253,7 +253,7 @@ let content = ''
     const msg = `${$.lodash_get(e, 'message') || $.lodash_get(e, 'error') || e}`
     title = `❌`
     content = msg
-    await notify('网络信息 𝕏', title, content)
+    await notify('网络信息', title, content)
   })
   .finally(async () => {
     if (isRequest()) {
@@ -288,7 +288,7 @@ let content = ''
         .replace(/\n/g, '<br/>')}</div>`
       // $.log(html)
       $.done({
-        title: '网络信息 𝕏',
+        title: '网络信息',
         htmlMessage: html,
       })
     } else {
