@@ -11,7 +11,7 @@ hostname = judouapp.com
 */
 var guding = JSON.parse($response.body);
 guding.is_member = true;
-guding.nickname = "骨钉";
+guding.nickname = "江上酒゛";
 guding.member_expired_at = 148204937166;
-guding.avatar = "https:\/\/raw\.githubusercontent\.com\/Guding88\/iCon\/main\/png\/Guding\.png";
+guding.avatar = "https://raw.githubusercontent.com/axtyet/Magic-Icons/main/Icons/icon.png";
 $done({ body: JSON.stringify(guding) });
