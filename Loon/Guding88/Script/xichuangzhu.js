@@ -10,8 +10,8 @@ hostname = lchttpapi.xczim.com
 
 */
 var guding = JSON.parse($response.body);
-guding.username = "骨钉 https://t.me/Guding88";
+guding.username = "江上酒゛";
 guding.membership = true;
 guding.lifetimeMembership = true;
-guding.avatar.url = "https:\/\/raw\.githubusercontent\.com\/Guding88\/iCon\/main\/png\/Guding\.png";
+guding.avatar.url = "https://raw.githubusercontent.com/axtyet/Magic-Icons/main/Icons/icon.png";
 $done({ body: JSON.stringify(guding) });
