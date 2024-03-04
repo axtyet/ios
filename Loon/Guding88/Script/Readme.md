@@ -1,15 +1,4 @@
 
-### 解锁脚本合集
-
-Surge模块：https://raw.githubusercontent.com/Guding88/Script/main/APPheji_Guding.sgmodule
-
-Loon插件：https://raw.githubusercontent.com/Guding88/Script/main/APPheji_Guding.plugin
-
-Stash复写：https://raw.githubusercontent.com/Guding88/Script/main/APPheji_Guding.stoverride
-
-Shadowrocket模块：https://raw.githubusercontent.com/Guding88/Script/main/APPheji_Guding.sgmodule
-
-
 ### 已解锁APP及下载地址（不完整统计）
 
 <details>
