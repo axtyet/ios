@@ -3,7 +3,7 @@
 简讯 - 短阅读秒懂：https://apps.apple.com/app/id1160249028
 
 [rewrite_local]
-^https?:\/\/api\.tipsoon\.com/api\/v1\/(user\/info|login\/account) url script-response-body https://raw.githubusercontent.com/Guding88/Script/main/jianxun.js
+^https?:\/\/api\.tipsoon\.com/api\/v1\/(user\/info|login\/account) url script-response-body https://raw.githubusercontent.com/axtyet/ios/main/Loon/Guding88/Script/jianxun.js
 
 [MITM]
 hostname = api.tipsoon.com
@@ -15,7 +15,7 @@ if ($request.url.includes("/user/info")) {
   guding.data.is_vip = true;
   guding.data.name = "江上酒゛";
   guding.data.vip_expire_time = "6666-06-06 06:06:06";
-  guding.data.user_id = "https:\/\/t\.me\/Guding88";
+  guding.data.user_id = " ";
 } else if ($request.url.includes("/login/account")) {
   guding.data.items[0].mobile = "6";
 }
