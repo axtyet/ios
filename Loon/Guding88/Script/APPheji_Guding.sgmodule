@@ -11,35 +11,6 @@ iTunes合集= type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/
 Revenuecat合集= type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers\/[^\/]+$|receipts$),script-path=https://raw.githubusercontent.com/Guding88/Script/main/APPheji_Revenuecat.js
 Revenuecat清缓存= type=http-request,requires-body=0,pattern=^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers\/[^\/]+$|receipts$),script-path=https://raw.githubusercontent.com/Guding88/Script/main/APPheji_Revenuecat.js
 
-# CountThings from Photos
-CountThings= type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/my\.countingthings\.com\/api\/v2.0\/users\/GetUserAndSubscription,script-path=https://raw.githubusercontent.com/Guding88/Script/main/CountThings.js
-
-# Cubox
-Cubox= type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/cubox\.(cc|pro)\/c\/api\/userInfo,script-path=https://raw.githubusercontent.com/Guding88/Script/main/Cubox.js
-
-# NFC Scanner Tool for iPhone
-NFC= type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/api\.qonversion\.io\/v1\/user\/init,script-path=https://raw.githubusercontent.com/Guding88/Script/main/NFC.js
-
-# PocketLists
-PocketLists= type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/pocketlists\.com\/api\/v1\/pocketlists.me.get,script-path=https://raw.githubusercontent.com/Guding88/Script/main/PocketLists.js
-
-# Prisma&Lensa
-Prisma&Lensa= type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/(api|appapi)\.neuralprisma\.com\/receipt\/ios\/status\/(prisma|lensa),script-path=https://raw.githubusercontent.com/Guding88/Script/main/Prisma.js
-
-# Todo清单
-Todo清单= type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/www\.evestudio\.cn\/todoList\/getDetailUser,script-path=https://raw.githubusercontent.com/Guding88/Script/main/Todoqingdan.js
-
-# ToonMe
-ToonMe= type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/purchases\.ws\.pho\.to\/api\/v2\/apple\/verifyReceipt,script-path=https://raw.githubusercontent.com/Guding88/Script/main/ToonMe.js
-
-# 博树
-博树= type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/api\.busuu\.com\/users\/me,script-path=https://raw.githubusercontent.com/Guding88/Script/main/boshu.js
-
-# exping
-exping= type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/api\.expingworld\.com\/users,script-path=https://raw.githubusercontent.com/Guding88/Script/main/exping.js
-
-# 飞跃VPN
-飞跃VPN= type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/api\.leapmobile\.cloud\/users,script-path=https://raw.githubusercontent.com/Guding88/Script/main/feiyueVPN.js
 
 # 极简汇率
 极简汇率= type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/explorer\.tratao\.com\/api\/client\/xtool\/vip,script-path=https://raw.githubusercontent.com/Guding88/Script/main/jijianhuilv.js
@@ -97,7 +68,7 @@ Focos= type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/focos\.
 77= type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/19700\.com\/(todo|computer|clock)\/api\/v1\/o\/member\/getProfile,script-path=https://raw.githubusercontent.com/Guding88/Script/main/77.js
 
 # 简讯 - 短阅读秒懂
-简讯= type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/api\.tipsoon\.com/api\/v1\/(user\/info|login\/account),script-path=https://raw.githubusercontent.com/Guding88/Script/main/jianxun.js
+简讯= type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/api\.tipsoon\.com/api\/v1\/(user\/info|login\/account),script-path=https://raw.githubusercontent.com/axtyet/ios/main/Loon/Guding88/Script/jianxun.js
 
 # 画世界
 画世界= type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/app\.huashijie\.art\/api\/(user\/getPerson|level\/info),script-path=https://raw.githubusercontent.com/Guding88/Script/main/huashijie.js
@@ -115,7 +86,7 @@ Fomz= type=http-response,requires-body=1,max-size=0,pattern=^https:\/\/fz68resap
 收起来= type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/api\.shouqilai\.cn\/m\/receive\/account\/getAccountByToken,script-path=https://raw.githubusercontent.com/Guding88/Script/main/shouqilai.js
 
 # 西窗烛
-西窗烛= type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/lchttpapi\.xczim\.com\/1.1\/users,script-path=https://raw.githubusercontent.com/Guding88/Script/main/xichuangzhu.js
+西窗烛= type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/lchttpapi\.xczim\.com\/1.1\/users,script-path=https://raw.githubusercontent.com/axtyet/ios/main/Loon/Guding88/Script/xichuangzhu.js
 
 # 软眠眠
 软眠眠= type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/ruanmianmian\.xinzhi\.space\/api\/v1\/getUserByToken,script-path=https://raw.githubusercontent.com/Guding88/Script/main/ruanmianmian.js
@@ -136,7 +107,7 @@ Fomz= type=http-response,requires-body=1,max-size=0,pattern=^https:\/\/fz68resap
 Agenda= type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/accounts\.agenda\.com\/users,script-path=https://raw.githubusercontent.com/Guding88/Script/main/Agenda.js
 
 # 句读
-句读= type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/judouapp\.com\/api\/v2\/mine\/profile,script-path=https://raw.githubusercontent.com/Guding88/Script/main/judou.js
+句读= type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/judouapp\.com\/api\/v2\/mine\/profile,script-path=https://raw.githubusercontent.com/axtyet/ios/main/Loon/Guding88/Script/judou.js
 
 # 千瓜数据
 千瓜数据= type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/openapi.qian-gua.com\/v2\/(Login\/LoginByWechat|User\/GetUserInfo),script-path=https://raw.githubusercontent.com/Guding88/Script/main/qianguashuju.js
@@ -159,39 +130,13 @@ NeckGo= type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/neckgo
 # 飞鱼计划
 飞鱼计划= type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/getway-plan\.bjsybw\.cn\/api\/sync\/putNeedUpdateData,script-path=https://raw.githubusercontent.com/Guding88/Script/main/feiyujihua.js
 
-# 佐糖
-佐糖= type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/gw\.aoscdn\.com\/base\/vip\/v2\/vips,script-path=https://raw.githubusercontent.com/Guding88/Script/main/zuotang.js
-
-# 每记
-每记= type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/api\.wemore\.com\/mylogs\/users,script-path=https://raw.githubusercontent.com/Guding88/Script/main/meiji.js
-
-# 挖财记账
-挖财记账= type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/jz\.wacai\.com\/api\/vipmember\/v3\/index,script-path=https://raw.githubusercontent.com/Guding88/Script/main/wacaijizhang.js
-
-# Ease助眠
-Ease助眠= type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/api0\.easeprime\.com\/api\/(login\/loginByWeChatCode|memberInfo\/myInfo),script-path=https://raw.githubusercontent.com/Guding88/Script/main/Ease.js
-
-# CARROT Weather
-CARROT Weather= type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/carrotweather\.herokuapp\.com\/parse\/functions\/findSubscriptionsForUserId,script-path=https://raw.githubusercontent.com/Guding88/Script/main/CARROTWeather.js
-
-# PhotoGrid
-PhotoGrid= type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/pgapi\.ksmobile\.com\/v1\/ios\/auth,script-path=https://raw.githubusercontent.com/Guding88/Script/main/PhotoGrid.js
-
-# 青柠设计
-青柠设计= type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/api\.qingning6\.com\/api\/user\/getUserInfo,script-path=https://raw.githubusercontent.com/Guding88/Script/main/qingningsheji.js
-
-# FocosLive
-FocosLive= type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/focoslive\.oracle\.bendingspoonsapps\.com\/v2\/users\/setup,script-path=https://raw.githubusercontent.com/Guding88/Script/main/FocosLive.js
-
-
 
 
 
 
 [MITM]
 
-hostname = %APPEND% buy.itunes.apple.com, api.revenuecat.com, my.countingthings.com, cubox.cc, cubox.pro, api.qonversion.io, pocketlists.com, api.neuralprisma.com,appapi.neuralprisma.com, www.evestudio.cn, purchases.ws.pho.to, api.busuu.com, api.expingworld.com, api.leapmobile.cloud, explorer.tratao.com, www.1314zhilv.com, api.getdailyart.com, kc.xinli001.com, www.freshhome.top, api.stats.fm, api.boyasec.com, jietu6.com, 1jietu.com, app.yiyan.art, integral2.dasyibalang.com,www.zomoplan.com,yopu.co,diary-id.sumi.io, server.zbisq.com, focos.oracle.bendingspoonsapps.com, bingxiang.51wnl-cq.com, api.to-future.net, 19700.com, api.tipsoon.com, app.huashijie.art, storevalidator.easybrain.com, box.timeblocks.com, fz68resapi.imendon.com,api.shouqilai.cn, lchttpapi.xczim.com, ruanmianmian.xinzhi.space, *.duitang.com, xianbeikeji.com, sz.szsszykj.com, acs.m.taobao.com, accounts.agenda.com, judouapp.com, openapi.qian-gua.com, service-ei2k47mp-1251731618.bj.apigw.tencentcs.com, lengapp.com, newos.glassmarket.cn, neckgo.wedea.cn, getway-plan.bjsywb.cn, gw.aoscdn.com, api.wemore.com, jz.wacai.com, api0.easeprime.com, carrotweather.herokuapp.com, pgapi.ksmobile.com, api.qingning6.com, focoslive.oracle.bendingspoonsapps.com
-
+hostname = %APPEND% buy.itunes.apple.com, api.revenuecat.com, explorer.tratao.com, www.1314zhilv.com, api.getdailyart.com, kc.xinli001.com, www.freshhome.top, api.stats.fm, api.boyasec.com, jietu6.com, 1jietu.com, app.yiyan.art, integral2.dasyibalang.com,www.zomoplan.com,yopu.co,diary-id.sumi.io, server.zbisq.com, focos.oracle.bendingspoonsapps.com, bingxiang.51wnl-cq.com, api.to-future.net, 19700.com, api.tipsoon.com, app.huashijie.art, storevalidator.easybrain.com, box.timeblocks.com, fz68resapi.imendon.com,api.shouqilai.cn, lchttpapi.xczim.com, ruanmianmian.xinzhi.space, *.duitang.com, xianbeikeji.com, sz.szsszykj.com, acs.m.taobao.com, accounts.agenda.com, judouapp.com, openapi.qian-gua.com, service-ei2k47mp-1251731618.bj.apigw.tencentcs.com, lengapp.com, newos.glassmarket.cn, neckgo.wedea.cn, getway-plan.bjsywb.cn
 
 
 
