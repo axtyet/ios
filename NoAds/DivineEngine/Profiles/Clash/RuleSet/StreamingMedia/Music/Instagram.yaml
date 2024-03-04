@@ -1,5 +1,0 @@
-payload:
-  # > Instagram Music
-  - PROCESS-NAME,com.instagram.android
-  - DOMAIN-SUFFIX,cdninstagram.com
-  - DOMAIN-SUFFIX,instagram.com

@@ -1,5 +1,0 @@
-payload:
-  # > TVer
-  - PROCESS-NAME,jp.hamitv.hamiand1
-  - DOMAIN-SUFFIX,tver.jp
-  - DOMAIN,edge.api.brightcove.com

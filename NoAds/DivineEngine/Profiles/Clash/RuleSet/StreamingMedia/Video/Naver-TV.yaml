@@ -1,5 +1,0 @@
-payload:
-  # > Naver TV
-  - PROCESS-NAME,com.nhn.android.naverplayer
-  - DOMAIN-SUFFIX,naver.com
-  - DOMAIN-SUFFIX,smartmediarep.com
