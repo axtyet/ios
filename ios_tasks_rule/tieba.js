@@ -1,4 +1,4 @@
-const $ = new Env('百度签到')
+const $ = new Env('百度贴吧')
 $.VAL_cookies = $.getdata('chavy_cookie_tieba') || $.getdata('CookieTB')
 
 $.CFG_isOrderBars = $.getdata('CFG_tieba_isOrderBars') || 'false' // 1: 经验排序, 2: 连签排序
