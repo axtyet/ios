@@ -4,15 +4,6 @@
 脚本作者：@Sliverkiss
 更新日期：2024-01-24 13:13:56
 
-2024.01.29 
-- 修复好运瓶死循环bug
-- 移除垃圾回收机制 beta(如更新时发现领取时空间失败，请及时反馈)
-
-------------------------------------------
-脚本兼容：Surge、QuantumultX、Loon、Shadowrocket、Node.js
-只测试过QuantumultX，其它环境请自行尝试
-
-*************************
 【 签到脚本使用教程 】:
 *************************
 单账号&&多账号：
@@ -20,16 +11,6 @@
 2.打开阿里云盘，若提示获取ck成功，则可以使用该脚本
 3.获取成功后，关闭获取ck脚本，避免产生不必要的mitm
 
-QuantumultX配置如下：
-
-[task_local]
-0 7,11,17 * * * https://raw.githubusercontent.com/axtyet/ios/main/ios_tasks_rule/aliyun.js, tag=阿里云签到, img-url=https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/AliYunDrive.png, enabled=true
-
-[rewrite_local]
-^https:\/\/(auth|aliyundrive)\.alipan\.com\/v2\/account\/token url script-request-body https://raw.githubusercontent.com/axtyet/ios/main/ios_tasks_rule/aliyun.js
-
-[MITM]
-hostname = auth.alipan.com,auth.aliyundrive.com
 ------------------------------------------
 1、此脚本仅用于学习研究，不保证其合法性、准确性、有效性，请根据情况自行判断，本人对此不承担任何保证责任。
 2、由于此脚本仅用于学习研究，您必须在下载后 24 小时内将所有内容从您的计算机或手机或任何存储设备中完全删除，若违反规定引起任何事件本人对此均不负责。
