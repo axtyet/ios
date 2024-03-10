@@ -4,28 +4,7 @@
 环境变量：WB_TOKEN、WB_COOKIE（青龙）
 更新时间：2022-6-14
 脚本来源：https://github.com/Sunert/Script/blob/master/Task/weibo.js
-====================================================================================================
-配置 (Surge)
-[MITM]
-api.weibo.cn
 
-[Script]
-获取微博Token = type=http-request,pattern=^https:\/\/api\.weibo\.cn\/\d\/users\/show,requires-body=0,max-size=0,script-path=https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/weibo_sign.js
-获取微博Cookie = type=http-request,pattern=^https:\/\/api\.weibo\.cn\/2\/logservice\/attach,requires-body=0,max-size=0,script-path=https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/weibo_sign.js
-
-新浪微博 = type=cron,cronexp=15 8 * * *,timeout=60,script-path=https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/weibo_sign.js,script-update-interval=0
-----------------------------------------------------------------------------------------------------
-配置 (QuanX)
-[MITM]
-api.weibo.cn
-
-[rewrite_local]
-^https:\/\/api\.weibo\.cn\/\d\/users\/show url script-request-header https://raw.githubusercontent.com/axtyet/ios/main/ios_tasks_rule/weibo_sign.js
-^https:\/\/api\.weibo\.cn\/2\/logservice\/attach url script-request-header https://raw.githubusercontent.com/axtyet/ios/main/ios_tasks_rule/weibo_sign.js
-
-[task_local]
-15 8 * * * https://raw.githubusercontent.com/axtyet/ios/main/ios_tasks_rule/weibo_sign.js, tag=新浪微博, enabled=true
-====================================================================================================
 */
 
 const $ = new Env('新浪微博')
