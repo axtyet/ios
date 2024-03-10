@@ -14,7 +14,6 @@
 青龙：
 1.登录后抓包 webapi.qmai.cn域名下的Qm-User-Token，填写到hsay_data,多账号用 @ 分割
 2.可选推送：将bark的key填写到bark_key，不填默认使用青龙自带的推送
-
 Loon: 
 1.将获取Cookie脚本保存到本地
 2.打开小程序->我的，若提示获取Cookie成功则可以使用该脚本
