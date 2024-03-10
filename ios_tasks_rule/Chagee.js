@@ -4,25 +4,15 @@
 脚本作者：@Sliverkiss
 更新日期：2023-05-22 22:11:56     
 
-2024.01.01 修复更换接口导致签到失败的问题
-2024.01.09 增加签到接口，一次签到，双倍快乐 🙏感谢骨钉大佬提供帮助
-脚本兼容：Surge、QuantumultX、Loon、Shadowrocket、Node.js
-只测试过loon和青龙，其它环境请自行尝试
 
 *************************
 【 签到脚本使用教程 】:
 *************************
-Loon: 
 1.将获取Cookie脚本保存到本地
 2.打开小程序->进入我的页面，若提示获取Cookie成功则可以使用该脚本
 3.关闭获取ck脚本，避免产生不必要的mitm。
 
-[Script]
-cron "0 10 * * *" script-path=https://gist.githubusercontent.com/Sliverkiss/4984f7f34d6df8bcdd1e13ecac4bba51/raw/bwcj.js, timeout=300, tag=🥤霸王茶姬小程序签到
-http-request ^https:\/\/(webapi|qmwebapi)\.qmai\.cn\/web\/(catering|catering2-apiserver)\/crm\/points-info script-path=https://gist.githubusercontent.com/Sliverkiss/4984f7f34d6df8bcdd1e13ecac4bba51/raw/bwcj.js, timeout=10, tag=霸王茶姬获取token
 
-[MITM]
-hostname =qmwebapi.qmai.cn,webapi.qmai.cn
 ------------------------------------------
 1、此脚本仅用于学习研究，不保证其合法性、准确性、有效性，请根据情况自行判断，本人对此不承担任何保证责任。
 2、由于此脚本仅用于学习研究，您必须在下载后 24 小时内将所有内容从您的计算机或手机或任何存储设备中完全删除，若违反规定引起任何事件本人对此均不负责。
