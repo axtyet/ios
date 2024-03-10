@@ -15,16 +15,6 @@
         如通知成功获取cookie,则可以使用此签到脚本.
         获取Cookie后, 请将Cookie脚本禁用并移除主机名,以免产生不必要的MITM.
         脚本将在每天上午8点35执行,您可以修改执行时间.
-/***********************
-Surge 远程脚本配置:
-************************
-
-[Script]
-喜马拉雅签到任务 = type=cron,cronexp=35 8 * * *,script-path=https://raw.githubusercontent.com/ClydeTime/Surge/main/Script/Task/xmly.js,timeout=15,wake-system=1
-
-# 喜马拉雅获取Cookie
-「请在模块中添加,成功获取cookie后模块应去除勾选」
-https://raw.githubusercontent.com/ClydeTime/Surge/main/Task/GetCookie.sgmodule
 
 */
 
