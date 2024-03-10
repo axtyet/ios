@@ -4,9 +4,6 @@
 脚本作者：@Sliverkiss
 更新日期：2023.08.28 16:40:11
 
-脚本兼容：Surge、QuantumultX、Loon、Shadowrocket、Node.js
-只测试过loon和青龙，其它环境请自行尝试
-
 *************************
 【 签到脚本使用教程 】:
 *************************
@@ -19,11 +16,6 @@ Loon:
 2.打开小程序->我的，若提示获取Cookie成功则可以使用该脚本
 3.关闭获取ck脚本，避免产生不必要的mitm。
 
-[Script]
-cron "30 9 * * *" script-path=https://raw.githubusercontent.com/Sliverkiss/GoodNight/master/Script/hsay.js, timeout=300, tag=沪上阿姨
-http-request ^https:\/\/webapi.qmai.cn\/web\/catering\/crm\/points-info script-path=https://raw.githubusercontent.com/Sliverkiss/GoodNight/master/Script/hsay.js, timeout=10, tag=沪上阿姨获取token
-[MITM]
-hostname =webapi.qmai.cn
 
 
 ------------------------------------------
