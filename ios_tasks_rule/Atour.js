@@ -11,16 +11,6 @@
  2.打开亚朵酒店app手动签到一次，若提示获取cookie成功则可以使用签到脚本
  3.关闭获取token脚本
 
-【Loon】 :
-*************************
-[Script]
-cron "0 30 7 * * *" script-path=https://raw.githubusercontent.com/Sliverkiss/helloworld/master/Study/adjd.js, timeout=300, tag=亚朵酒店app
-http-request ^https:\/\/miniapp\.yaduo\.com\/atourlife\/signIn\/signIn.+ script-path=https://raw.githubusercontent.com/Sliverkiss/helloworld/master/Study/adjd.js, timeout=10, tag=亚朵酒店app获取token
-*************************
-
-[MITM]
-hostname =miniapp.yaduo.com
-
 *************************
 ⚠️【免责声明】
 ------------------------------------------
