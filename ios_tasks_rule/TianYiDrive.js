@@ -6,6 +6,7 @@
 ^https:\/\/api\.cloud\.189\.cn\/mkt\/userSign\.action? url script-request-header https://raw.githubusercontent.com/MCdasheng/QuantumultX/main/Scripts/myScripts/ty.cookie.js
 [MITM]
 hostname = api.cloud.189.cn
+
 ⏰定时任务:
 [task local]
 30 10 * * * https://raw.githubusercontent.com/MCdasheng/QuantumultX/main/Scripts/myScripts/ty.js, tag=天翼云盘, enabled=true
