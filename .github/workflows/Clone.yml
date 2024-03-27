@@ -104,7 +104,7 @@ jobs:
         for file in *.js; do
             if [ "$file" ] ; then
               # 修改脚本链接
-              sed -i 's/raw\.githubusercontent\.com\/Yu9191\/Rewrite\/main/raw.githubusercontent\.com\/axtyet\/iios\/main\/QuantumultX\/Yu9191\/Rewrite/g' "$file"
+              sed -i 's/raw\.githubusercontent\.com\/Yu9191\/Rewrite\/main/raw.githubusercontent\.com\/axtyet\/ios\/main\/QuantumultX\/Yu9191\/Rewrite/g' "$file"
             else
               echo "$file not found."
             fi
