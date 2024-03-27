@@ -126,7 +126,7 @@ jobs:
       run: |
         mkdir -p ios-repo/QuantumultX/Yu9191/Script
         git clone -b main https://github.com/Yu9191/Script.git  das_Tmp
-        cp -r das_Tmp/* Quan-X-repo/Yu9191/Script
+        cp -r das_Tmp/* ios-repo/QuantumultX/Yu9191/Script
         rm -rf das_Tmp
         # 修改脚本链接
     - name: Edit Yu9191/Script
