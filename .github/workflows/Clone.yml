@@ -171,7 +171,7 @@ jobs:
     # Fork yqc007
     - name: Fork yqc007
       run: |
-        mkdir -p Qios-repo/QuantumultX/yqc007
+        mkdir -p ios-repo/QuantumultX/yqc007
         git clone -b master https://github.com/yqc007/QuantumultX.git  ewq_Tmp
         cp -r ewq_Tmp/* ios-repo/QuantumultX/yqc007
         rm -rf ewq_Tmp
