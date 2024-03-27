@@ -1,0 +1,42 @@
+#!name = 番茄小说去广告
+#!desc = 过滤番茄小说底部和章末广告
+#!openUrl = 
+#!author = EAlyce
+#!homepage = https://gitlab.com/lodepuly/vpn_tool/-/tree/master/Tool/Loon/Plugin
+#!icon = https://gitlab.com/lodepuly/iconlibrary/-/raw/main/App_icon/120px/DragonRead.png
+#!date = 2024-03-11 14:10:52
+
+[Rule]
+DOMAIN-SUFFIX, bwlcpr.xyz, REJECT
+DOMAIN-SUFFIX, app-measurement.com, REJECT
+DOMAIN-SUFFIX, bdurl.net, REJECT
+DOMAIN-SUFFIX, pitaya.bytedance.com, REJECT
+DOMAIN-SUFFIX, feedback-c.zijieapi.com, REJECT
+DOMAIN-SUFFIX, app-measurement.com, REJECT
+DOMAIN-SUFFIX, lf3-pitaya.bytetos.com, REJECT
+DOMAIN-SUFFIX, ma.zijieapi.com, REJECT
+DOMAIN-SUFFIX, lf-webcast-gr-sourcecdn.bytegecko.com, REJECT
+DOMAIN-SUFFIX, tnc11-alisc1.zijieapi.com, REJECT
+DOMAIN-SUFFIX, gecko3-lq.zijieapi.com, REJECT
+DOMAIN-SUFFIX, timon.zijieapi.com, REJECT
+DOMAIN-SUFFIX, mon.zijieapi.com, REJECT
+DOMAIN-SUFFIX, gecko5-lq.zijieapi.com, REJECT
+DOMAIN-SUFFIX, tnc3-alisc1.zijieapi.com, REJECT
+DOMAIN-SUFFIX, ads3-normal-lq.zijieapi.com, REJECT
+DOMAIN-SUFFIX, imapi5-oth-hl.zijieapi.com, REJECT
+DOMAIN-SUFFIX, ads5-normal-lq.zijieapi.com, REJECT
+DOMAIN-SUFFIX, vcs.zijieapi.com, REJECT
+DOMAIN-SUFFIX, ugsdk.cn, REJECT
+DOMAIN-SUFFIX, ad.doubleclick.net, REJECT
+DOMAIN-SUFFIX, applog.zijieapi.com, REJECT
+DOMAIN-KEYWORD, snssdk, REJECT
+DOMAIN-KEYWORD, toutiao, REJECT
+DOMAIN-KEYWORD, 365yg, REJECT
+DOMAIN-KEYWORD, misc-l, REJECT
+DOMAIN-KEYWORD, mssdk, REJECT
+DOMAIN-KEYWORD, -alisc, REJECT
+DOMAIN-KEYWORD, -aliec, REJECT
+DOMAIN-KEYWORD, -bjlgy, REJECT
+DOMAIN-KEYWORD, -applog-lq.fqnovel.com, REJECT
+DOMAIN-KEYWORD, -applog-lq.fqnovel, REJECT
+DOMAIN-KEYWORD, -ad-sign.byteimg.com, REJECT

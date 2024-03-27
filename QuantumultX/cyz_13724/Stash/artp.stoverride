@@ -1,0 +1,24 @@
+name: |-
+  傲软投屏
+desc: |-
+  
+
+http:
+
+  mitm:
+    - "gw.aoscdn.com"
+
+  script:  
+  - match: ^https:\/\/gw\.aoscdn\.com\/base\/vip\/v2\/vips$
+    name: 傲软投屏_8
+    type: response
+    require-body: true
+    max-size: -1
+    timeout: 60
+
+
+script-providers:
+  "傲软投屏_8":
+    url: https://raw.githubusercontent.com/axtyet/ios/main/QuantumultX/cyz_13724/scripts/artp.js
+    interval: 86400
+
