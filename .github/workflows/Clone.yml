@@ -393,14 +393,14 @@ jobs:
       run: |
         mkdir -p ios-repo/QuantumultX/ddgksf2013/Rewrite
         git clone -b master https://github.com/ddgksf2013/Rewrite.git cds_Tmp
-        cp -r cds_Tmp/* Quan-X-repo/ddgksf2013/Rewrite
+        cp -r cds_Tmp/* ios-repo/QuantumultX/ddgksf2013/Rewrite
         rm -rf cds_Tmp
     # Fork 墨鱼
     - name: Fork ddgksf2013
       run: |
         mkdir -p ios-repo/QuantumultX/ddgksf2013/Scripts
         git clone -b master https://github.com/ddgksf2013/Scripts.git dcf_Tmp
-        cp -r dcf_Tmp/* Quan-X-repo/ddgksf2013/Scripts
+        cp -r dcf_Tmp/* ios-repo/QuantumultX/ddgksf2013/Scripts
         rm -rf cdf_Tmp
      # 修改脚本链接
     - name: Edit http
