@@ -23,7 +23,7 @@ jobs:
       # Fork Chxm1023
     - name: Fork Chxm1023/Rewrite
       run: |
-        mkdir -p ios-repo/QuantumultX/chxm1023
+        mkdir -p ios-repo/QuantumultX/chxm1023/Rewrite
         git clone -b main https://github.com/chxm1023/Rewrite.git  czy_Tmp
         cp -r czy_Tmp/* ios-repo/QuantumultX/chxm1023/Rewrite
         rm -rf czy_Tmp   
@@ -65,7 +65,7 @@ jobs:
           
     - name: Fork Chxm1023/Advertising
       run: |
-        mkdir -p ios-repo/QuantumultX/chxm1023
+        mkdir -p ios-repo/QuantumultX/chxm1023/Advertising
         git clone -b main https://github.com/chxm1023/Advertising.git  cyz_Tmp
         cp -r cyz_Tmp/* ios-repo/Quantumultx/chxm1023/Advertising
         rm -rf cyz_Tmp
@@ -93,7 +93,7 @@ jobs:
         # Fork Yu9191
     - name: Fork Yu9191/Rewrite
       run: |
-        mkdir -p ios-repo/QuantumultX/Yu9191
+        mkdir -p ios-repo/QuantumultX/Yu9191/Rewrite
         git clone -b main https://github.com/Yu9191/Rewrite.git  asd_Tmp
         cp -r asd_Tmp/* ios-repo/QuantumultX/Yu9191/Rewrite
         rm -rf asd_Tmp
@@ -124,7 +124,7 @@ jobs:
 
     - name: Fork Yu9191/Script
       run: |
-        mkdir -p ios-repo/QuantumultX/Yu9191
+        mkdir -p ios-repo/QuantumultX/Yu9191/Script
         git clone -b main https://github.com/Yu9191/Script.git  das_Tmp
         cp -r das_Tmp/* Quan-X-repo/Yu9191/Script
         rm -rf das_Tmp
@@ -155,7 +155,7 @@ jobs:
         
     - name: Fork Yu9191/-
       run: |
-        mkdir -p ios-repo/QuantumultX/Yu9191
+        mkdir -p ios-repo/QuantumultX/Yu9191/-
         git clone -b main https://github.com/Yu9191/-.git  sad_Tmp
         cp -r sad_Tmp/* ios-repo/QuantumultX/Yu9191/-
         rm -rf sad_Tmp
