@@ -67,7 +67,7 @@ jobs:
       run: |
         mkdir -p ios-repo/QuantumultX/chxm1023/Advertising
         git clone -b main https://github.com/chxm1023/Advertising.git  cyz_Tmp
-        cp -r cyz_Tmp/* ios-repo/Quantumultx/chxm1023/Advertising
+        cp -r cyz_Tmp/* ios-repo/QuantumultX/chxm1023/Advertising
         rm -rf cyz_Tmp
          # 修改脚本链接
     - name: Edit Advertising
