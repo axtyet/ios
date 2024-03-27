@@ -46,7 +46,7 @@ if ($request.url.indexOf(vipb) != -1){
   chxm1023["isVip"] = 1;
   chxm1023["level"] = 99;
   chxm1023["exp"] = 0;
-  chxm1023["info"] = " ";
+  chxm1023["info"] = "叮当猫の分享频道:@chxm1023";
 }
 
 if ($request.url.indexOf(guashi) != -1){
@@ -66,8 +66,8 @@ if ($request.url.indexOf(yaoqing) != -1){
       "status" : 1,
       "id" : 6,
       "title" : "                                                                ",
-      "imgUrl" : "https://raw.githubusercontent.com/axtyet/Magic-Icons/main/Icons/icon.png",
-      "imgPath" : "https://raw.githubusercontent.com/axtyet/Magic-Icons/main/Icons/icon.png",
+      "imgUrl" : "https://raw.githubusercontent.com/chxm1023/Script_X/main/icon/dlam.png",
+      "imgPath" : "https://raw.githubusercontent.com/chxm1023/Script_X/main/icon/dlam.png",
       "position" : 0
     }
   ];
