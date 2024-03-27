@@ -1,6 +1,0 @@
-payload:
-  # Privacy
-  # > Google
-  - DOMAIN,safebrowsing.googleapis.com
-  # > Tencent
-  - DOMAIN,safebrowsing.urlsec.qq.com
