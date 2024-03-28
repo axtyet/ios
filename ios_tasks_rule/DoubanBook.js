@@ -1,3 +1,8 @@
+/**
+脚本名称：新书速递
+
+**/
+
 var url = "https://book.douban.com/latest?tag";
 var headers = {
   "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36"
