@@ -6,7 +6,7 @@
 
 ******************************************/
 
-const scriptName = '豆瓣每日推荐'
+const scriptName = '豆瓣电影推荐'
 const $ = new Env(scriptName)
 
 !(async () => {
