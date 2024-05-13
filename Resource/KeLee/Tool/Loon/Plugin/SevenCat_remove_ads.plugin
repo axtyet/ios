@@ -4,7 +4,7 @@
 #!author = 可莉🅥
 #!homepage = https://gitlab.com/lodepuly/vpn_tool/-/tree/master/Tool/Loon/Plugin
 #!icon = https://gitlab.com/lodepuly/iconlibrary/-/raw/main/App_icon/120px/SevenCat.png
-#!date = 2024-05-11 14:44:08
+#!date = 2024-05-13 15:40:31
 
 [Rule]
 DOMAIN, cdn-ad.wtzw.com, REJECT
