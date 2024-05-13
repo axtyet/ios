@@ -4,7 +4,7 @@
 #
 # Clash Verg Rev Version ≥ 1.5.6
 #
-# 最后更新时间: 2024-04-27 16:52
+# 最后更新时间: 2024-05-13 18:10
 #
 # ================
 
@@ -84,7 +84,7 @@ pg: &pg {type: select, proxies: [手动切换, 香港节点, 美国节点, 狮�
 # 订阅更新和延迟测试相关参数
 p: &p {type: http, interval: 86400, health-check: {enable: true, url: http://latency-test.skk.moe/endpoint, interval: 1800}}
 # 自动选择策略组：选取延迟最低节点
-auto: &auto {type: url-test, lazy: true, tolerance: 0, url: http://latency-test.skk.moe/endpoint, interval: 300, use: [Subscribe1, Subscribe2, Subscribe3]}
+auto: &auto {type: url-test, lazy: true, tolerance: 0, url: http://latency-test.skk.moe/endpoint, interval: 300, tolerance: 0, use: [Subscribe1, Subscribe2, Subscribe3]}
 # 手动选择策略组：手动选择想要的节点/策略组
 select: &select {type: select, use: [Subscribe1, Subscribe2, Subscribe3]}
 # 故障回退策略组：策略组将按顺序选择你列表中第一个可用的节点
