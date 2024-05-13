@@ -4,11 +4,12 @@
 #!author = VirgilClyne 可莉🅥
 #!homepage = https://gitlab.com/lodepuly/vpn_tool/-/tree/master/Tool/Loon/Plugin
 #!icon = https://gitlab.com/lodepuly/iconlibrary/-/raw/main/Other_icon/120px/HTTPDNS.png
-#!date = 2024-05-12 21:11:06
+#!date = 2024-05-13 22:29:13
 
 [Rule]
 # YY语音
-DOMAIN, yyapp-httpdns.gslb.yy.com, REJECT // YY语音
+DOMAIN, yyapp-httpdns.gslb.yy.com, REJECT
+DOMAIN, httpdns-v6.gslb.yy.com, REJECT
 
 # 微信
 DOMAIN, dns.weixin.qq.com, REJECT
