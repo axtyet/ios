@@ -636,8 +636,11 @@ DOMAIN-SUFFIX,ads-api-o.api.leiniao.com
 DOMAIN-SUFFIX,ads-api.tiktok.com
 DOMAIN-SUFFIX,ads-api.twitter.com
 DOMAIN-SUFFIX,ads-img-qc.xhscdn.com
+DOMAIN-SUFFIX,ads-jp.tiktok.com
 DOMAIN-SUFFIX,ads-pixiv.net
+DOMAIN-SUFFIX,ads-sg.tiktok.com
 DOMAIN-SUFFIX,ads-twitter.com
+DOMAIN-SUFFIX,ads-us.tiktok.com
 DOMAIN-SUFFIX,ads-video-al.xhscdn.com
 DOMAIN-SUFFIX,ads-video-qc.xhscdn.com
 DOMAIN-SUFFIX,ads.95516.com
@@ -652,6 +655,7 @@ DOMAIN-SUFFIX,ads.linkedin.com
 DOMAIN-SUFFIX,ads.msn.com
 DOMAIN-SUFFIX,ads.music.126.net
 DOMAIN-SUFFIX,ads.oppomobile.com
+DOMAIN-SUFFIX,ads.pinterest.com
 DOMAIN-SUFFIX,ads.prd.ie.internal.unity3d.com
 DOMAIN-SUFFIX,ads.roku.com
 DOMAIN-SUFFIX,ads.service.kugou.com
@@ -749,6 +753,7 @@ DOMAIN-SUFFIX,analytics.126.net
 DOMAIN-SUFFIX,analytics.95516.com
 DOMAIN-SUFFIX,analytics.google.com
 DOMAIN-SUFFIX,analytics.pinterest.com
+DOMAIN-SUFFIX,analytics.query.yahoo.com
 DOMAIN-SUFFIX,analytics.rayjump.com
 DOMAIN-SUFFIX,analytics.tiktok.com
 DOMAIN-SUFFIX,analytics.woozooo.com
@@ -997,6 +1002,7 @@ DOMAIN-SUFFIX,gclick.cn
 DOMAIN-SUFFIX,gdfp.gifshow.com
 DOMAIN-SUFFIX,gdt.qq.com
 DOMAIN-SUFFIX,gemini.yahoo.com
+DOMAIN-SUFFIX,geo.yahoo.com
 DOMAIN-SUFFIX,ggsfq.com
 DOMAIN-SUFFIX,giocdn.com
 DOMAIN-SUFFIX,globalapi.ad.xiaomi.com
@@ -1192,6 +1198,7 @@ DOMAIN-SUFFIX,log.byteoversea.com
 DOMAIN-SUFFIX,log.fc.yahoo.com
 DOMAIN-SUFFIX,log.hunantv.com
 DOMAIN-SUFFIX,log.kuwo.cn
+DOMAIN-SUFFIX,log.pinterest.com
 DOMAIN-SUFFIX,log.snssdk.com
 DOMAIN-SUFFIX,log.stat.kugou.com
 DOMAIN-SUFFIX,log.tagtic.cn
@@ -1246,6 +1253,7 @@ DOMAIN-SUFFIX,metrics.data.hicloud.com
 DOMAIN-SUFFIX,metrics.icloud.com
 DOMAIN-SUFFIX,metrics.mzstatic.com
 DOMAIN-SUFFIX,metrics2.data.hicloud.com
+DOMAIN-SUFFIX,metrika.yandex.ru
 DOMAIN-SUFFIX,mi.gdt.qq.com
 DOMAIN-SUFFIX,miaozhen.com
 DOMAIN-SUFFIX,miav-cse.avlyun.com
@@ -1759,6 +1767,8 @@ DOMAIN-SUFFIX,u-ad.info
 DOMAIN-SUFFIX,u3.ucweb.com
 DOMAIN-SUFFIX,uapi.ads.heytapmobi.com
 DOMAIN-SUFFIX,uberads.com
+DOMAIN-SUFFIX,udc.yahoo.com
+DOMAIN-SUFFIX,udcm.yahoo.com
 DOMAIN-SUFFIX,udrig.com
 DOMAIN-SUFFIX,uimserv.net
 DOMAIN-SUFFIX,ulog-sdk.gifshow.com
@@ -1868,6 +1878,7 @@ DOMAIN-SUFFIX,webstat.qiumibao.com
 DOMAIN-SUFFIX,wedolook.com
 DOMAIN-SUFFIX,widespace.com
 DOMAIN-SUFFIX,widgets.amung.us
+DOMAIN-SUFFIX,widgets.pinterest.com
 DOMAIN-SUFFIX,wigetmedia.com
 DOMAIN-SUFFIX,win.gdt.qq.com
 DOMAIN-SUFFIX,wine-api.net

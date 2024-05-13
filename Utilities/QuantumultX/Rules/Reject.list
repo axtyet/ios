@@ -636,8 +636,11 @@ HOST-SUFFIX,ads-api-o.api.leiniao.com,REJECT
 HOST-SUFFIX,ads-api.tiktok.com,REJECT
 HOST-SUFFIX,ads-api.twitter.com,REJECT
 HOST-SUFFIX,ads-img-qc.xhscdn.com,REJECT
+HOST-SUFFIX,ads-jp.tiktok.com,REJECT
 HOST-SUFFIX,ads-pixiv.net,REJECT
+HOST-SUFFIX,ads-sg.tiktok.com,REJECT
 HOST-SUFFIX,ads-twitter.com,REJECT
+HOST-SUFFIX,ads-us.tiktok.com,REJECT
 HOST-SUFFIX,ads-video-al.xhscdn.com,REJECT
 HOST-SUFFIX,ads-video-qc.xhscdn.com,REJECT
 HOST-SUFFIX,ads.95516.com,REJECT
@@ -652,6 +655,7 @@ HOST-SUFFIX,ads.linkedin.com,REJECT
 HOST-SUFFIX,ads.msn.com,REJECT
 HOST-SUFFIX,ads.music.126.net,REJECT
 HOST-SUFFIX,ads.oppomobile.com,REJECT
+HOST-SUFFIX,ads.pinterest.com,REJECT
 HOST-SUFFIX,ads.prd.ie.internal.unity3d.com,REJECT
 HOST-SUFFIX,ads.roku.com,REJECT
 HOST-SUFFIX,ads.service.kugou.com,REJECT
@@ -749,6 +753,7 @@ HOST-SUFFIX,analytics.126.net,REJECT
 HOST-SUFFIX,analytics.95516.com,REJECT
 HOST-SUFFIX,analytics.google.com,REJECT
 HOST-SUFFIX,analytics.pinterest.com,REJECT
+HOST-SUFFIX,analytics.query.yahoo.com,REJECT
 HOST-SUFFIX,analytics.rayjump.com,REJECT
 HOST-SUFFIX,analytics.tiktok.com,REJECT
 HOST-SUFFIX,analytics.woozooo.com,REJECT
@@ -997,6 +1002,7 @@ HOST-SUFFIX,gclick.cn,REJECT
 HOST-SUFFIX,gdfp.gifshow.com,REJECT
 HOST-SUFFIX,gdt.qq.com,REJECT
 HOST-SUFFIX,gemini.yahoo.com,REJECT
+HOST-SUFFIX,geo.yahoo.com,REJECT
 HOST-SUFFIX,ggsfq.com,REJECT
 HOST-SUFFIX,giocdn.com,REJECT
 HOST-SUFFIX,globalapi.ad.xiaomi.com,REJECT
@@ -1192,6 +1198,7 @@ HOST-SUFFIX,log.byteoversea.com,REJECT
 HOST-SUFFIX,log.fc.yahoo.com,REJECT
 HOST-SUFFIX,log.hunantv.com,REJECT
 HOST-SUFFIX,log.kuwo.cn,REJECT
+HOST-SUFFIX,log.pinterest.com,REJECT
 HOST-SUFFIX,log.snssdk.com,REJECT
 HOST-SUFFIX,log.stat.kugou.com,REJECT
 HOST-SUFFIX,log.tagtic.cn,REJECT
@@ -1246,6 +1253,7 @@ HOST-SUFFIX,metrics.data.hicloud.com,REJECT
 HOST-SUFFIX,metrics.icloud.com,REJECT
 HOST-SUFFIX,metrics.mzstatic.com,REJECT
 HOST-SUFFIX,metrics2.data.hicloud.com,REJECT
+HOST-SUFFIX,metrika.yandex.ru,REJECT
 HOST-SUFFIX,mi.gdt.qq.com,REJECT
 HOST-SUFFIX,miaozhen.com,REJECT
 HOST-SUFFIX,miav-cse.avlyun.com,REJECT
@@ -1759,6 +1767,8 @@ HOST-SUFFIX,u-ad.info,REJECT
 HOST-SUFFIX,u3.ucweb.com,REJECT
 HOST-SUFFIX,uapi.ads.heytapmobi.com,REJECT
 HOST-SUFFIX,uberads.com,REJECT
+HOST-SUFFIX,udc.yahoo.com,REJECT
+HOST-SUFFIX,udcm.yahoo.com,REJECT
 HOST-SUFFIX,udrig.com,REJECT
 HOST-SUFFIX,uimserv.net,REJECT
 HOST-SUFFIX,ulog-sdk.gifshow.com,REJECT
@@ -1868,6 +1878,7 @@ HOST-SUFFIX,webstat.qiumibao.com,REJECT
 HOST-SUFFIX,wedolook.com,REJECT
 HOST-SUFFIX,widespace.com,REJECT
 HOST-SUFFIX,widgets.amung.us,REJECT
+HOST-SUFFIX,widgets.pinterest.com,REJECT
 HOST-SUFFIX,wigetmedia.com,REJECT
 HOST-SUFFIX,win.gdt.qq.com,REJECT
 HOST-SUFFIX,wine-api.net,REJECT
