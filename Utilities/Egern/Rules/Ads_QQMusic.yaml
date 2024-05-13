@@ -1,0 +1,27 @@
+no_resolve: true
+domain_set:
+- adstats.tencentmusic.com
+- ad.tencentmusic.com
+- adcdn.tencentmusic.com
+- adcdn6.tencentmusic.com
+- adexpo.tencentmusic.com
+- adclick.tencentmusic.com
+- otheve.beacon.qq.com
+- mazu.m.qq.com
+- monitor.music.qq.com
+- stat.y.qq.com
+- tmead.y.qq.com-NO
+- oth.str.mdt.qq.com
+- h.trace.qq.com
+- sdk.e.qq.com
+- p.l.qq.com
+- us.l.qq.com
+- tangram.e.qq.com
+domain_suffix_set:
+- imtmp.net
+domain_keyword_set:
+domain_regex_set:
+ip_cidr_set:
+ip_cidr6_set:
+asn_set:
+url_regex_set:

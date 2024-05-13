@@ -1,0 +1,83 @@
+name: " iRingo: 🔍 Siri & Search"
+desc: |-
+  全面自定义「Siri与搜索」的功能。
+  注：该覆写包含代理规则。"
+openUrl: "http://boxjs.com/#/app/iRingo.Siri"
+author: "VirgilClyne"
+homepage: "https://github.com/VirgilClyne"
+manual: "https://github.com/VirgilClyne/iRingo/wiki/🔍-Siri与搜索"
+icon: "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Siri.png"
+category: " iRingo"
+
+rules:
+  - DOMAIN,lookup-api.apple.com,PROXY
+  - DOMAIN,lookup-api.apple.com.edgekey.net,PROXY
+  - DOMAIN,e16991.b.akamaiedge.net,PROXY
+
+http:
+  mitm:
+    - "api*.smoot.apple.com"
+    - "api*.smoot.apple.cn"
+  script:
+    - match: ^https?:\/\/api(.*)\.smoot\.apple\.(com|cn)\/bag
+      name: Siri.request
+      type: request
+      require-body: false
+      timeout: 5
+      argument:
+    - match: ^https?:\/\/api(.*)\.smoot\.apple\.(com|cn)\/bag
+      name: Siri.response
+      type: response
+      require-body: true
+      timeout: 10
+      argument:
+    - match: ^https?:\/\/api(.*)\.smoot\.apple\.(com|cn)\/search
+      name: Siri.request
+      type: request
+      require-body: false
+      timeout: 5
+      argument:
+    - match: ^https?:\/\/api(.*)\.smoot\.apple\.(com|cn)\/search
+      name: Siri.response
+      type: response
+      require-body: true
+      timeout: 10
+      argument:
+    - match: ^https?:\/\/api(.*)\.smoot\.apple\.(com|cn)\/warm
+      name: Siri.request
+      type: request
+      require-body: false
+      timeout: 5
+      argument:
+    - match: ^https?:\/\/api(.*)\.smoot\.apple\.(com|cn)\/render
+      name: Siri.request
+      type: request
+      require-body: false
+      timeout: 5
+      argument:
+    - match: ^https?:\/\/api(.*)\.smoot\.apple\.(com|cn)\/flight
+      name: Siri.request
+      type: request
+      require-body: false
+      timeout: 5
+      argument:
+    - match: ^https?:\/\/api(.*)\.smoot\.apple\.(com|cn)\/card
+      name: Siri.request
+      type: request
+      require-body: false
+      timeout: 5
+      argument:
+    - match: ^https?:\/\/api(.*)\.smoot\.apple\.(com|cn)\/card
+      name: Siri.response
+      type: request
+      require-body: true
+      timeout: 10
+      argument:
+
+script-providers:
+  Siri.request:
+    url: https://raw.githubusercontent.com/VirgilClyne/iRingo/main/js/Siri.request.js
+    interval: 86400
+  Siri.response:
+    url: https://raw.githubusercontent.com/VirgilClyne/iRingo/main/js/Siri.response.js
+    interval: 86400

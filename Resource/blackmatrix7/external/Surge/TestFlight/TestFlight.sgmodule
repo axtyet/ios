@@ -1,0 +1,17 @@
+#!name=TestFlight
+#!desc=最后更新时间 2024-04-29 13:37:58
+#!author=NobyDa
+#!repo=https://github.com/NobyDa/Script/tree/master
+#!category=blackmatrix7
+#!mitm=1
+#!skip-proxy=1
+#!total=2
+
+[General]
+
+skip-proxy = %APPEND% iosapps.itunes.apple.com
+
+
+
+[MITM]
+hostname = %APPEND% testflight.apple.com

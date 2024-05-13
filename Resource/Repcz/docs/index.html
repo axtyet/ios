@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Lᴜᴄʏ's Tool</title>
+  <!-- 设置兼容性 -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <!-- 设置页面标题 -->
+  <meta name="Lᴜᴄʏ's Tool" content="How to Use?">
+  <!-- 设置页面在移动设备上的视口 -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <!-- 加载logo -->
+  <link rel="shortcut icon" href="https://github.com/Repcz/Tool/raw/X/docs/_media/lucy.ico">
+  <!-- 加载默认的主题样式 -->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/buble.css" id="theme">
+  <!-- 创建一个用于加载文档的 div -->
+  <div id="app">🏃‍🏃‍🏃‍💨加载中...</div>
+
+  <script>
+    // 检测设备是否支持 prefers-color-scheme 属性，并检查当前颜色模式是否为暗色模式
+    if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+      // 如果是暗色模式，则加载暗色主题样式
+      document.getElementById('theme').href = "https://cdn.jsdelivr.net/npm/docsify/lib/themes/dark.css";
+    }
+
+    // 设置 Docsify 配置
+    window.$docsify = {
+
+      homepage: 'index.md',
+      loadSidebar: 'sidebar.md',
+
+      // 封面
+      coverpage: true,
+
+      // 是否加载侧边栏
+      loadSidebar: true,
+
+      // 侧边栏最大级别
+      subMaxLevel: 4,
+
+      // 是否加载导航栏
+      loadNavbar: true,
+      
+      // 只有访问主页时加载封面
+      onlyCover: false,
+
+      // 复制按钮中文
+      copyCode: {
+        buttonText: '点我复制！',
+        errorText: '出错了！',
+        successText: 'OK!'
+      },
+
+      // 搜索框
+      search: {
+        paths: 'auto',
+        placeholder: '🔍 不是很好用的搜索',
+        noData: '😒 找不到结果',
+        // Headline depth, 1 - 6
+        depth: 6,
+        maxAge: 86400000, // 过期时间，单位毫秒，默认一天
+      },
+
+      // 滚动到指定的锚点时，距离页面顶部有一定空间
+      topMargin: 70, // default: 0
+
+      // 切换页面跳转顶部
+      auto2top: true,
+
+      // 章节按钮
+      pagination: {
+        previousText: '上一章节',
+        // or
+        nextText: {
+          '/': '下一章节'
+        },
+        crossChapter: true,
+        crossChapterText: true,
+      },
+
+    }
+  </script>
+  <!-- 引入 Docsify 核心库 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+
+  <!-- 引入 搜索 插件 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+
+  <!-- 引入 代码复制按钮 插件 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
+
+  <!-- 引入 章节按钮 插件 -->
+  <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
+
+  <!-- 引入 PC网页 回到顶部按钮 插件 -->
+  <script src="//cdn.jsdelivr.net/gh/wugenqiang/NoteBook@master/plugin/jquery.js"></script>
+  <script src="//cdn.jsdelivr.net/gh/wugenqiang/NoteBook@master/plugin/jquery.goup.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function () {
+      $.goup({
+        trigger: 100,
+        bottomOffset: 52,
+        locationOffset: 25,
+        //title: 'TOP',
+        titleAsText: true
+      });
+    });
+  </script>
+
+  <!-- 部署 PWA -->
+  <script>
+    if (typeof navigator.serviceWorker !== 'undefined') {
+      navigator.serviceWorker.register('sw.js')
+    }
+  </script>
+
+  </body>
+
+</html>

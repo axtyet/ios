@@ -1,0 +1,50 @@
+#!name=知乎净化+会员
+#!desc=解锁知乎会员,去除知乎广告
+#!author=莫离
+#!homepage=https://github.com/Moli-X/Resources/raw/main/Loon/Zhihu.plugin
+#!icon=https://github.com/Moli-X/Resources/raw/main/Icon/Image/Zhihu.png
+#!edit=https://github.com/Moli-X/Resources/edit/main/Loon/Zhihu.plugin
+
+
+[Rewrite]
+
+^http[s]?:\/\/api\.zhihu\.com\/commercial_api\/launch_v2 - reject-dict
+^http[s]?:\/\/api\.zhihu\.com\/commercial_api\/real_time_launch_v2 - reject-dict
+# 拦截知乎开屏广告
+URL-REGEX,^https?:\/\/api\.zhihu\.com\/commercial_api\/launch_v2\? - reject-dict
+# 知乎去除最常访问
+^https?:\/\/api\.zhihu\.com\/moments\/recent - reject-dict
+# 知乎去除回答下的广告
+^https?:\/\/www\.zhihu\.com\/api\/v4\/answers\/\d+\/recommendations - reject-dict
+# 知乎其他广告拦截
+^https?:\/\/api\.zhihu\.com\/(notifications\/v\d\/count|v\d\/package|me\/guides|drama\/living-info|ad|fringe|commercial|market\/popovers|.*featured-comment-ad|ad-style-service) - reject-dict
+# 知乎拦截部分预加载
+# ^https?:\/\/www\.zhihu\.com\/appview\/(p|v2\/answer|zvideo)\/.*entry=(preload-topstory|preload-search|preload-subscription) - reject-dict
+# 知乎网页版去广告
+^https?:\/\/www\.zhihu\.com\/api\/v4/(questions|anwsers)\/\d+/related-readings - reject-dict
+^https?:\/\/www\.zhihu\.com\/api\/v4\/hot_recommendation - reject-dict
+^https?:\/\/www\.zhihu\.com\/commercial_api\/banners_v3\/mobile_banner - reject-dict
+^https?:\/\/zhuanlan\.zhihu\.com\/api\/articles\/\d+\/recommendation - reject-dict
+# 知乎品牌提问广告
+^https?:\/\/api\.zhihu\.com\/brand\/question\/\d+/card\? - reject-dict
+^https?:\/\/www\.zhihu\.com\/api\/v\d+\/brand\/question/\d+/card\? - reject-dict
+# 屏蔽消息页面上拉的用户精选
+^https?:\/\/api\.zhihu\.com/moments/hybrid\? - reject-dict
+# 知乎下发的配置，如皮肤等
+^https?:\/\/api\.zhihu\.com\/ab\/api\/v1\/products\/zhihu\/platforms\/ios\/config - reject-200
+# 屏蔽知乎“我的”页面推荐开通会员的卡片
+^https?:\/\/api\.zhihu\.com\/people\/self\/new_user_card - reject-200
+# 知乎去除Tab页关注人头像
+^https?:\/\/api\.zhihu\.com\/moments\/tab_v2 - reject-dict
+# 屏蔽知乎8.3.0版本首页顶部的视频角标
+^https?:\/\/api\.zhihu\.com\/explore\/entry\/tips - reject
+
+[Script]
+
+http-response ^http[s]?:\/\/api\.zhihu\.com\/(people\/self|unlimited\/go\/my_card|sku\/reversion_sku_ext).*$ script-path=https://raw.githubusercontent.com/WeiRen0/Scripts/main/ZHVIP.js, requires-body=true, timeout=60 ,tag=ZHVIP_5
+
+http-request http[s]?:\/\/.*zhihu\.(com|cn)\/(appview\/v2\/answer|remix-web\/paid_columns.*manuscript|market\/paid_column|appview\/p|api\/v3\/books|books|market\/paid_magazine).*$ script-path=https://raw.githubusercontent.com/WeiRen0/Scripts/main/ZHTK.js, timeout=60 ,tag=ZHTK_6
+
+[MITM]
+
+hostname = 61.243.13.*,58.144.248.*,120.92.107.*,www.zhihu.com,api.zhihu.com,datahub.zhihu.com,sugar.zhihu.com,appcloud.zhihu.com,duga.zhihu.com,web-er.zhihu.com,lens.zhihu.com,103.41.167.237,58.144.248.94,14.204.51.105,103.41.167.236,103.41.167.234,103.41.167.226,103.41.167.235,113.62.116.232,103.41.167.*,113.62.116.232,103*,113.62.116.232,103.41.167.237,103.41.167.226,web-er.zhihu.com,103.41.167.234,www.zhihu.com,zhuanlan.zhihu.com,api.zhihu.com,api.zhihu.com,183.204.14.111,125.77.176*,27.148*,183.204*,122.224*,60.188.72*,120.220*,120.222*,103.41.167.236,150.109.91*,*.zhihu.*,103.41.167.*,www.zhihu.com,api.zhihu.com,datahub.zhihu.com,sugar.zhihu.com,appcloud.zhihu.com,duga.zhihu.com,web-er.zhihu.com,lens.zhihu.com,103.41.167.237,58.144.248.94,14.204.51.105,103.41.167.236,103.41.167.234,103.41.167.226,103.41.167.235,113.62.116.232,103.41.167.*,113.62.116.232

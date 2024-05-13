@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tool</title>
+  <!-- 设置兼容性 -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <!-- 设置页面标题 -->
+  <meta name="Lᴜᴄʏ's Tool" content="How to Use?">
+  <!-- 设置页面在移动设备上的视口 -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <!-- 加载默认的主题样式 -->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/buble.css" id="theme">
+  <!-- 设置网页图标 -->
+  <link rel="icon" href="https://raw.githubusercontent.com/Repcz/Tool/X/docs/lucy.ico" type="image/x-icon">
+</head>
+<body>
+  <!-- 创建一个用于加载文档的 div -->
+  <div id="app">🏃‍🏃‍🏃‍💨加载中...</div>
+  <script>
+    // 检测设备是否支持 prefers-color-scheme 属性，并检查当前颜色模式是否为暗色模式
+    if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+      // 如果是暗色模式，则加载暗色主题样式
+      document.getElementById('theme').href = "//cdn.jsdelivr.net/npm/docsify@4/lib/themes/dark.css";
+    }
+
+    // 设置 Docsify 配置
+    window.$docsify = {
+      // 是否加载侧边栏
+      loadSidebar: true,
+      // 侧边栏最大级别
+      subMaxLevel: 1,
+      // 网站名称
+      name: '',
+      // 仓库地址
+      repo: 'https://github.com/Repcz/Tool',
+
+      // 复制按钮中文
+      copyCode: {
+         buttonText: '点，复制！',
+         errorText: '出错了！',
+         successText: 'OK!'
+      },
+
+
+      // 设置搜索配置
+      search: 'auto', // 默认值
+
+      // 设置搜索路径
+      search : [
+        '/',            
+        '/clash/doc.md',
+        '/clash/clashverge-1.md',
+        '/clash/clashverge-2.md',
+        '/clash/clashverge-3.md',
+        '/clash/cfw.md',
+        '/egern/doc.md',
+        '/loon/Loon-book.md',
+        '/loon/doc.md',
+        '/loon/UI.md',
+        '/loon/node.md',
+        '/loon/nodefilter.md',
+        '/loon/chain.md',
+        '/loon/filter.md',
+        '/loon/policy.md',
+        '/loon/rewrite.md',
+        '/loon/script.md',
+        '/loon/script_api.md',
+        '/loon/plugin.md',
+        '/loon/dns.md',
+        '/loon/mitm.md',
+        '/loon/profile.md',
+        '/loon/general.md',
+        '/loon/more-set.md',
+        '/loon/url-scheme.md',
+        '/loon/authorize.md',
+        '/quantumutx/QX-book.md',
+        '/quantumutx/doc.md',
+        '/quantumutx/UI.md',
+        '/quantumutx/node.md',
+        '/quantumutx/filter.md',
+        '/quantumutx/policy.md',
+        '/quantumutx/dns.md',
+        '/quantumutx/mitm.md',
+        '/quantumutx/rewrite.md',
+        '/quantumutx/http-js.md',
+        '/quantumutx/other-set.md',
+        '/quantumutx/general.md',
+        '/quantumutx/profile.md',
+        '/quantumutx/parser.md',
+        '/quantumutx/icon.md',
+        '/shadowrocket/doc.md',
+        '/stash/doc.md',
+        '/surfboard/doc.md',
+        '/surge/doc.md',
+        '/surge/module.md',
+        '/regex/doc.md',
+        '/regex/use.md',
+        '/aff/aff.md'
+      ],
+
+      // 设置搜索的详细配置
+      search: {
+        // 搜索结果缓存时间，单位为毫秒，默认为一天
+        maxAge: 86400000,
+        // 搜索路径，为空时会自动匹配所有 .md 文件
+        paths: [],
+        // 搜索框占位符文本
+        placeholder: 'Type to search',
+
+        // 支持本地化的搜索框占位符文本
+        placeholder: {
+          '/zh-cn/': '搜索',
+          '/': '搜索不好用，建议直接找'
+        },
+
+        // 搜索无结果时的提示文本
+        noData: 'No Results!',
+
+        // 支持本地化的搜索无结果时的提示文本
+        noData: {
+          '/zh-cn/': '找不到结果',
+          '/': '找不到捏~(￣▽￣)~*'
+        },
+
+        // 搜索标题的最大层级，范围为 1 到 6
+        depth: 4,
+
+        // 是否隐藏其他侧边栏内容
+        hideOtherSidebarContent: true,
+
+        // 搜索命名空间，用于避免搜索索引冲突
+        namespace: 'website-1',
+
+        // 使用不同的索引作为路径前缀（命名空间）
+        pathNamespaces: ['/zh-cn', '/ru-ru', '/ru-ru/v1'],
+
+        // 通过正则表达式匹配路径前缀
+        pathNamespaces: /^(\/(zh-cn|ru-ru))?(\/(v1|v2))?/
+      }
+    }
+  </script>
+  <!-- 引入 Docsify 核心库 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <!-- 引入 Docsify 搜索插件 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+  <!-- 引入 Docsify 图片缩放插件 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+  <!-- 引入 Docsify 复制插件 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
+  <!-- 回到顶部功能 -->
+  <script src="https://cdn.jsdelivr.net/gh/wugenqiang/NoteBook@master/plugin/jquery.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/wugenqiang/NoteBook@master/plugin/jquery.goup.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function () {
+      $.goup({
+        trigger: 100,
+        bottomOffset: 52,
+        locationOffset: 25,
+        //title: 'TOP',
+        titleAsText: true
+      });
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+<!-- docs/_sidebar.md -->
+* [**Clash**](clash/doc.md)
+* [**Egern**](egern/doc.md)
+* [**Loon**](loon/doc.md)
+* [**Quantumut X**](quantumutx/doc.md)
+* [**Shadowrocket**](shadowrocket/doc.md)
+* [**Stash**](stash/doc.md)
+* [**Surfboard**](surfboard/doc.md)
+* [**Surge**](surge/doc.md)
+* [**SubStore**](substore/install.md)
+* [**正则表达式**](regex/doc.md)
+* [**广而告之**](aff/aff.md)

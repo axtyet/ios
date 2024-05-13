@@ -1,0 +1,15 @@
+
+COE私塾
+解锁部分付费课程及PDF课件
+PDF课件 以及 xmind课件 可以自己抓包获取 不做脚本
+[rewrite_local]
+
+^https:\/\/app\.hrcoe\.com\/app\/store\/(selectExtendListV2|queryCampList)$ url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/coess.js
+
+https://app.hrcoe.com/app/courseDetail/queryByAudiototalIdV2 url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/coess2.js
+
+
+^https:\/\/app\.hrcoe\.com\/(api\/order\/beforePayV2|app\/first\/authoringInfo|app\/courseDetail\/queryByAudiototalIdV2|api\/myStudyInfo\/queryVideoListV2)$ url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/coess3.js 
+
+[mitm]
+hostname = app.hrcoe.com

@@ -1,0 +1,347 @@
+# 🟢TG Channel：https://t.me/QuantX   
+# 🟢分流混合规则（自用）没弄清楚里面内容之前不要使用
+
+# ===================================
+# 🟢大陆服务
+
+
+# 微信
+HOST,dl.wechat.com,direct
+HOST,sgfindershort.wechat.com,direct
+HOST,sgilinkshort.wechat.com,direct
+HOST,sglong.wechat.com,direct
+HOST,sgminorshort.wechat.com,direct
+HOST,sgshort.wechat.com,direct
+HOST,tencentmap.wechat.com,direct
+HOST-SUFFIX,qlogo.cn,direct
+HOST-SUFFIX,qpic.cn,direct
+HOST-SUFFIX,servicewechat.com,direct
+HOST-SUFFIX,tenpay.com,direct
+HOST-SUFFIX,wechat.com,direct
+HOST-SUFFIX,wechatlegal.net,direct
+HOST-SUFFIX,wechatpay.com,direct
+HOST-SUFFIX,weixin.com,direct
+HOST-SUFFIX,weixin.qq.com,direct
+HOST-SUFFIX,weixinbridge.com,direct
+HOST-SUFFIX,weixinsxy.com,direct
+HOST-SUFFIX,wxapp.tc.qq.com,direct
+HOST-KEYWORD, wechat, direct
+HOST-KEYWORD,43.156.222.,direct
+USER-AGENT,MicroMessenger*,direct
+USER-AGENT,wechat*,direct
+
+IP-CIDR,101.32.104.4/32,direct
+IP-CIDR,101.32.104.41/32,direct
+IP-CIDR,101.32.104.56/32,direct
+IP-CIDR,101.32.118.25/32,direct
+IP-CIDR,101.32.133.16/32,direct
+IP-CIDR,101.32.133.209/32,direct
+IP-CIDR,101.32.133.53/32,direct
+IP-CIDR,129.226.107.244/32,direct
+IP-CIDR,129.226.3.47/32,direct
+# 抖音账单
+HOST-SUFFIX,snssdk.com,direct
+
+# 关于 App Store 下载卡转圈
+HOST, identity.ess.apple.com, direct
+HOST, p18-buy.itunes.apple.com, direct
+HOST, stats.gc.apple.com, direct
+HOST, p14-buy.itunes.apple.com, direct
+HOST, ocsp.apple.com, direct
+HOST, api.smoot.apple.com,direct
+HOST, apps.apple.com,direct
+HOST, itunes.apple.com,direct
+# Boxer
+host, login.windows.net, direct
+host, dl-hk5.steamdownload.top, direct
+host-keyword, microsoft, direct
+host, api.userstore.skype.com, direct
+host, api-apac.flightproxy.teams.microsoft.com, direct
+host-keyword, teams, direct
+host, api-apac.flightproxy.teams.microsoft.com, direct
+host, go.trouter.teams.microsoft.com, direct
+host, presence.teams.microsoft.com, direct
+host, login.microsoftonline.com, direct
+host, apac.ng.msg.teams.microsoft.com, direct
+host, teams.microsoft.com, direct
+host, teams.events.data.microsoft.com, direct
+host, signing.awmdm.com,direct
+host, ocsp.digicert.com,direct
+host, discovery.awmdm.com,direct
+host, discovery.awmdm.com,direct
+host, token.safebrowsing.apple, direct
+host-suffix, deltaww.com,direct
+host-suffix, deltaww.com.cn,direct
+host-suffix, ens-apj.getboxer.com,direct
+host-suffix, eventproxy.na1.data.vmwservices.com,direct
+host-suffix, scapi.vmware.com,direct
+host-suffix, gravatar.com,direct
+host-suffix, appcenter.ms,direct
+host-suffix, boxeravatars.getboxer.com,direct
+host-keyword, getboxer,direct
+host-keyword, gravatar,direct
+host-keyword, vmwservices,direct
+host-keyword, academy,direct
+host-keyword, deltaww,direct
+host-keyword, vmware,direct
+host-keyword, awmdm,direct
+host-keyword, teams,direct
+
+# local
+ip-cidr, 10.0.0.0/8, direct
+# ip-cidr, 127.0.0.0/8, direct
+ip-cidr, 172.16.0.0/12, direct
+ip-cidr, 192.168.0.0/16, direct
+ip-cidr, 224.0.0.0/24, direct
+ip-cidr, 182.254.116.0/24, direct
+
+
+# 比价脚本出现问题
+HOST-SUFFIX, cc.m.jd.com, direct
+# 其他
+host-keyword, apple.com, direct
+host-keyword, tantanapp, direct
+ip-asn,132203,direct
+host, duckduckgo.com, direct
+host, amdc.m.taobao.com, reject
+host-keyword, apple, direct
+host, search.itunes.apple.com, direct
+host-keyword, apps, direct
+host, bag.itunes.apple.com, direct
+host,amdc.m.taobao.com,reject
+host, token.safebrowsing.apple, direct
+GEOIP,CN, DIRECT
+
+
+# ===================================
+# 🟢 海外服务
+# > Others
+host-keyword,rocketgirls,海外服务
+HOST-KEYWORD, sunjianbo, 海外服务
+HOST-KEYWORD, jsdelivr, 海外服务
+HOST, ox.xmkczs.com, 海外服务
+HOST-SUFFIX, appstoreconnect.apple.com, 海外服务
+HOST, rss.teacat001.xyz, 海外服务
+HOST, www.google-analytics.com, 海外服务
+HOST-SUFFIX,jable.tvm,海外服务
+HOST-SUFFIX,qxzy.top,海外服务
+HOST-SUFFIX,qixinys.com,海外服务
+HOST-SUFFIX,javlib.com,海外服务
+HOST-SUFFIX,dwnews.com,海外服务
+HOST-SUFFIX,afreecatv.com,海外服务
+HOST-SUFFIX,play.afreecatv.com,海外服务
+HOST-SUFFIX,popkontv.com,海外服务
+HOST-SUFFIX,m1.mudvod.tv,海外服务
+HOST-SUFFIX,api.mudvod.tv,海外服务
+HOST-SUFFIX,plausible.io,海外服务
+IP-CIDR,172.67.5.189/22,海外服务
+IP-CIDR,104.22.3.179/22,海外服务
+IP-CIDR,104.22.2.179/22,海外服务
+IP-CIDR,91.108.56.123/22,海外服务
+IP-CIDR,101.32.104.41/22,海外服务
+HOST-SUFFIX,newpppp.com,海外服务
+HOST-SUFFIX,mudvod.tv,海外服务
+HOST-SUFFIX,biggggg.com,海外服务
+HOST-SUFFIX,telghub.com,海外服务
+host-keyword, 69av, 海外服务
+host, www.69av.live, 海外服务
+host-keyword, bing, 海外服务
+host, cn05.me, 海外服务
+
+
+# > Emby
+HOST-SUFFIX,emby-cf.plusmedia.site,海外服务
+HOST-SUFFIX,tv.emby.media,海外服务
+HOST-SUFFIX,emby.media,海外服务
+HOST-SUFFIX,emby.media,海外服务
+HOST-SUFFIX,emby.xeton.dev,海外服务
+HOST-SUFFIX,tv.emby.neko.re,海外服务
+HOST-SUFFIX,jellyfin.xeton.dev,海外服务
+HOST-SUFFIX,movie.xeton.dev,海外服务
+HOST-SUFFIX,servers.xeton.dev,海外服务
+IP-CIDR,38.94.111.242/32,海外服务
+IP-CIDR,38.94.111.242/22,海外服务
+
+
+# > UA
+USER-AGENT,%E7%BA%BD%E7%BA%A6%E6%97%B6%E6%8A%A5*,海外服务
+USER-AGENT,AwemeI18n*,海外服务
+USER-AGENT,Coinbase*,海外服务
+USER-AGENT,Instagram*,海外服务
+USER-AGENT,Resilio Sync*,海外服务
+USER-AGENT,WhatsApp*,海外服务
+
+# > Google Voice
+HOST,voice.telephony.goog,海外服务
+
+# > Line
+HOST-SUFFIX,lin.ee,海外服务
+HOST-SUFFIX,line.me,海外服务
+HOST-SUFFIX,line.naver.jp,海外服务
+HOST-SUFFIX,line-apps.com,海外服务
+HOST-SUFFIX,line-cdn.net,海外服务
+HOST-SUFFIX,line-scdn.net,海外服务
+HOST-SUFFIX,nhncorp.jp,海外服务
+
+# > Pornhub
+HOST-SUFFIX,phncdn.com,海外服务
+HOST-SUFFIX,phprcdn.com,海外服务
+HOST-SUFFIX,pornhub.com,海外服务
+HOST-SUFFIX,pornhubpremium.com,海外服务
+
+# > Spark
+HOST-SUFFIX,api.amplitude.com,海外服务
+HOST-SUFFIX,app.smartmailcloud.com,海外服务
+HOST-SUFFIX,gate.hockeyapp.net,海外服务
+HOST-SUFFIX,smartmailcloud.com,海外服务
+
+# > Steam
+HOST-SUFFIX,fanatical.com,海外服务
+HOST-SUFFIX,humblebundle.com,海外服务
+HOST-SUFFIX,steamcommunity.com,海外服务
+HOST-SUFFIX,steampowered.com,海外服务
+HOST-SUFFIX,steamstatic.com,海外服务
+
+# > TikTok
+HOST,p16-tiktokcdn-com.akamaized.net,海外服务
+HOST-SUFFIX,byteoversea.com,海外服务
+HOST-SUFFIX,ibytedtos.com,海外服务
+HOST-SUFFIX,ibyteimg.com,海外服务
+HOST-SUFFIX,ipstatp.com,海外服务
+HOST-SUFFIX,muscdn.com,海外服务
+HOST-SUFFIX,musical.ly,海外服务
+HOST-SUFFIX,sgpstatp.com,海外服务
+# HOST-SUFFIX,snssdk.com,海外服务
+HOST-SUFFIX,tik-tokapi.com,海外服务
+HOST-SUFFIX,tiktok.com,海外服务
+HOST-SUFFIX,tiktokcdn.com,海外服务
+HOST-SUFFIX,tiktokv.com,海外服务
+HOST-KEYWORD,-tiktokcdn-com,海外服务
+HOST-KEYWORD,musical.ly,海外服务
+HOST-KEYWORD,tiktok,海外服务
+HOST-KEYWORD,tiktokv,海外服务
+USER-AGENT,TikTok*,海外服务
+
+# > Zooba
+USER-AGENT,battleroyale*,海外服务
+
+
+#Discord
+HOST-SUFFIX,discord.co,海外服务
+HOST-SUFFIX,discord.com,海外服务
+HOST-SUFFIX,discord.gg,海外服务
+HOST-SUFFIX,discord.gift,海外服务
+HOST-SUFFIX,discord.gifts,海外服务
+HOST-SUFFIX,discord.media,海外服务
+HOST-SUFFIX,discord.new,海外服务
+HOST-SUFFIX,discordapp.com,海外服务
+HOST-SUFFIX,discordapp.net,海外服务
+HOST-SUFFIX,discordapp.page.link,海外服务
+
+# > Spotify
+HOST-SUFFIX,audio-ak-spotify-com.akamaized.net,美国服务
+HOST-SUFFIX,byspotify.com,美国服务
+HOST-SUFFIX,heads4-ak-spotify-com.akamaized.net,美国服务
+HOST-SUFFIX,pscdn.co,美国服务
+HOST-SUFFIX,scdn.co,美国服务
+HOST-SUFFIX,spoti.fi,美国服务
+HOST-SUFFIX,spotify-com.akamaized.net,美国服务
+HOST-SUFFIX,spotify-everywhere.com,美国服务
+HOST-SUFFIX,spotify.com,美国服务
+HOST-SUFFIX,spotify.design,美国服务
+HOST-SUFFIX,spotifycdn.com,美国服务
+HOST-SUFFIX,spotifycdn.net,美国服务
+HOST-SUFFIX,spotifycharts.com,美国服务
+HOST-SUFFIX,spotifycodes.com,美国服务
+HOST-SUFFIX,spotifyforbrands.com,美国服务
+HOST-SUFFIX,spotifyjobs.com,美国服务
+HOST-KEYWORD,-spotify-com,美国服务
+HOST-KEYWORD,spotify.com,美国服务
+USER-AGENT,*Spotify*,美国服务
+USER-AGENT,Spotify*,美国服务
+IP-CIDR,35.186.224.47/32,美国服务
+
+#Twitter
+HOST-SUFFIX,ads-twitter.com,海外服务
+HOST-SUFFIX,periscope.tv,海外服务
+HOST-SUFFIX,pscp.tv,海外服务
+HOST-SUFFIX,t.co,海外服务
+HOST-SUFFIX,tellapart.com,海外服务
+HOST-SUFFIX,tweetdeck.com,海外服务
+HOST-SUFFIX,twimg.co,海外服务
+HOST-SUFFIX,twimg.com,海外服务
+HOST-SUFFIX,twimg.org,海外服务
+HOST-SUFFIX,twitpic.com,海外服务
+HOST-SUFFIX,twitter.com,海外服务
+HOST-SUFFIX,twitter.jp,海外服务
+HOST-SUFFIX,twitterinc.com,海外服务
+HOST-SUFFIX,twitteroauth.com,海外服务
+HOST-SUFFIX,twitterstat.us,海外服务
+HOST-SUFFIX,twtrdns.net,海外服务
+HOST-SUFFIX,twttr.com,海外服务
+HOST-SUFFIX,vine.co,海外服务
+HOST-KEYWORD,twitter,海外服务
+IP-CIDR,104.244.42.0/21,海外服务
+IP-CIDR,192.133.76.0/22,海外服务
+IP-CIDR,199.16.156.0/22,海外服务
+IP-CIDR,199.59.148.0/22,海外服务
+IP-CIDR,199.96.56.0/21,海外服务
+IP-CIDR,202.160.128.0/22,海外服务
+IP-CIDR,209.237.192.0/19,海外服务
+IP-CIDR,69.195.160.0/19,海外服务
+
+# > Amazon
+IP-CIDR,13.32.0.0/16,海外服务
+IP-CIDR,13.33.0.0/16,海外服务
+IP-CIDR,13.35.0.0/17,海外服务
+IP-CIDR,18.184.0.0/15,海外服务
+IP-CIDR,18.194.0.0/15,海外服务
+IP-CIDR,18.208.0.0/13,海外服务
+IP-CIDR,18.232.0.0/14,海外服务
+IP-CIDR,52.200.0.0/13,海外服务
+IP-CIDR,52.58.0.0/15,海外服务
+IP-CIDR,52.74.0.0/16,海外服务
+IP-CIDR,52.77.0.0/16,海外服务
+IP-CIDR,52.84.0.0/15,海外服务
+IP-CIDR,54.156.0.0/14,海外服务
+IP-CIDR,54.226.0.0/15,海外服务
+IP-CIDR,54.230.156.0/22,海外服务
+IP-CIDR,54.93.0.0/16,海外服务
+
+# > Facebook
+IP-CIDR,103.4.96.0/22,海外服务
+IP-CIDR,129.134.0.0/17,海外服务
+IP-CIDR,157.240.0.0/17,海外服务
+IP-CIDR,173.252.64.0/19,海外服务
+IP-CIDR,173.252.96.0/19,海外服务
+IP-CIDR,179.60.192.0/22,海外服务
+IP-CIDR,185.60.216.0/22,海外服务
+IP-CIDR,204.15.20.0/22,海外服务
+IP-CIDR,31.13.24.0/21,海外服务
+IP-CIDR,31.13.64.0/18,海外服务
+IP-CIDR,45.64.40.0/22,海外服务
+IP-CIDR,66.220.144.0/20,海外服务
+IP-CIDR,69.171.224.0/19,海外服务
+IP-CIDR,69.63.176.0/20,海外服务
+IP-CIDR,74.119.76.0/22,海外服务
+
+# > Google
+IP-CIDR,173.194.0.0/16,海外服务
+IP-CIDR,74.125.0.0/16,海外服务
+
+# > LINE
+IP-CIDR,103.2.28.0/22,海外服务
+IP-CIDR,119.235.224.0/21,海外服务
+IP-CIDR,119.235.232.0/23,海外服务
+IP-CIDR,119.235.235.0/24,海外服务
+IP-CIDR,119.235.236.0/23,海外服务
+IP-CIDR,125.6.146.0/24,海外服务
+IP-CIDR,125.6.149.0/24,海外服务
+IP-CIDR,125.6.190.0/24,海外服务
+IP-CIDR,125.209.208.0/20,海外服务
+IP-CIDR,203.104.103.0/24,海外服务
+IP-CIDR,203.104.128.0/20,海外服务
+IP-CIDR,203.174.66.64/26,海外服务
+IP-CIDR,203.174.77.0/24,海外服务
+
+FINAL, 海外服务

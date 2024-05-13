@@ -1,0 +1,35 @@
+name: "📺 BiliBili: ⚙ Enhanced"
+desc: "哔哩哔哩：增强模式（中国站功能增强及UI自定义）"
+openUrl: "http://boxjs.com/#/app/BiliBili.Enhanced"
+author: VirgilClyne
+homepage: "https://enhanced.biliuniverse.io"
+manual: "https://manual.biliuniverse.io"
+icon: "https://github.com/BiliUniverse/Enhanced/raw/main/src/assets/icon_rounded.png"
+category: "📺 BiliUniverse"
+
+http:
+  mitm:
+    - "app.bilibili.com"
+    - "app.biliapi.net"
+  script:
+    - match: ^https?:\/\/app\.bili(bili\.com|api\.net)\/x\/resource\/show\/tab\/v2\?
+      name: BiliBili.Enhanced.response
+      type: response
+      require-body: true
+    - match: ^https?:\/\/app\.bili(bili\.com|api\.net)\/x\/v2\/account\/mine(\/ipad)?\?
+      name: BiliBili.Enhanced.response
+      type: response
+      require-body: true
+    - match: ^https?:\/\/app\.bili(bili\.com|api\.net)\/x\/v2\/region\/index\?
+      name: BiliBili.Enhanced.response
+      type: response
+      require-body: true
+    - match: ^https?:\/\/app\.bili(bili\.com|api\.net)\/x\/v2\/channel\/region\/list\?
+      name: BiliBili.Enhanced.response
+      type: response
+      require-body: true
+
+script-providers:
+  BiliBili.Enhanced.response:
+    url: https://raw.githubusercontent.com/BiliUniverse/Enhanced/main/js/BiliBili.Enhanced.response.js
+    interval: 86400

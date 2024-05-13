@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.autoSave": "onFocusChange",
+		"editor.renderWhitespace": "all",
+		"editor.formatOnPaste": false,
+		"editor.formatOnType": false,
+		"diffEditor.codeLens": true
+	}
+}

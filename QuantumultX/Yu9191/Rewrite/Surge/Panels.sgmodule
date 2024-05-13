@@ -1,0 +1,10 @@
+#!name= Panels3.4.1
+#!desc= 需要登录
+
+
+[Map Local]
+https://us-central1-snikt-ccad1.cloudfunctions.net/validateReceipt data-type=file data="https://raw.githubusercontent.com/Yu9191/Rewrite/main/Panels.json" status-code=200
+
+[MITM]
+
+hostname = %APPEND% us-central1-snikt-ccad1.cloudfunctions.net

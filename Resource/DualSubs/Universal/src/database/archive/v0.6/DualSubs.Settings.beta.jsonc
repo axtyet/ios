@@ -1,0 +1,49 @@
+{
+	"Verify": {
+		"GoogleCloud": {
+			"Method": "Part", // Part, Row
+			"Mode": "Key", // Token, Key
+			"Auth": null
+		},
+		"Azure": {
+			"Method": "Part", // Part, Row
+			"Version": "Azure", // Azure, AzureCN
+			"Region": null,
+			"Mode": "Key", // Token, Key
+			"Auth": null
+		},
+		"DeepL": {
+			"Method": "Part", // Part, Row
+			"Version": "Free", // Free, Pro
+			"Auth": null // DeepL API Authentication Key
+		}
+	},
+	"Advanced": {
+		"Translator": {
+			"Times": 3,
+			"Interval": 100,
+			"Exponential": true
+		}
+	},
+	"Default": {
+		"Switch": true, // true, false
+		"Types": [ // Official, Google, GoogleCloud, Azure, DeepL, External
+			"Official",
+			"Google"
+		],
+		"Type": "Google", // Official, Google, GoogleCloud, Azure, DeepL, External
+		"Languages": [
+			"ZH",
+			"EN"
+		],
+		"Language": "ZH",
+		"External": {
+			"URL": null,
+			"Offset": 0,
+			"ShowOnly": false
+		},
+		"Position": "Forward", // Forward, Reverse
+		"CacheSize": 6,
+		"Tolerance": 1000
+	}
+}

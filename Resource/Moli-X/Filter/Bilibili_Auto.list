@@ -1,0 +1,12 @@
+# bilibili
+HOST,api.biliapi.com,换区服务
+HOST,api.biliapi.net,换区服务
+HOST,api.bilibili.com,换区服务
+HOST,app.biliapi.com,换区服务
+HOST,app.biliapi.net,换区服务
+HOST,app.bilibili.com,换区服务
+HOST,grpc.biliapi.net,换区服务
+HOST,m.bilibili.com,换区服务
+HOST,upos-hz-mirrorakam.akamaized.net,换区服务
+HOST,www.bilibili.com,换区服务
+HOST-KEYWORD,cn-hk-eq-bcache-,换区服务

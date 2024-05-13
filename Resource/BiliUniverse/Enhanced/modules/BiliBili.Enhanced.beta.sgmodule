@@ -1,0 +1,17 @@
+#!name=📺 BiliBili: ⚙ Enhanced β
+#!desc=(BETA) 哔哩哔哩：增强模式（中国站功能增强及UI自定义）
+#!openUrl=http://boxjs.com/#/app/BiliBili.Enhanced.beta
+#!author=VirgilClyne
+#!homepage=https://enhanced.biliuniverse.io
+#!manual=https://manual.biliuniverse.io
+#!icon=https://github.com/BiliUniverse/Enhanced/raw/main/src/assets/icon_rounded.png
+#!category=📺 BiliUniverse
+
+[Script]
+BiliBili.Enhanced.x.resource.show.tab.v2 = type=http-response, pattern=^https?:\/\/app\.bili(bili\.com|api\.net)\/x\/resource\/show\/tab\/v2\?, requires-body=1, engine=jsc, debug=1, script-path=https://raw.githubusercontent.com/BiliUniverse/Enhanced/beta/js/BiliBili.Enhanced.response.beta.js, argument=
+BiliBili.Enhanced.x.v2.account.mine = type=http-response, pattern=^https?:\/\/app\.bili(bili\.com|api\.net)\/x\/v2\/account\/mine(\/ipad)?\?, requires-body=1, engine=jsc, debug=1, script-path=https://raw.githubusercontent.com/BiliUniverse/Enhanced/beta/js/BiliBili.Enhanced.response.beta.js, argument=
+BiliBili.Enhanced.x.v2.region.index = type=http-response, pattern=^https?:\/\/app\.bili(bili\.com|api\.net)\/x\/v2\/region\/index\?, requires-body=1, engine=jsc, debug=1, script-path=https://raw.githubusercontent.com/BiliUniverse/Enhanced/beta/js/BiliBili.Enhanced.response.beta.js, argument=
+BiliBili.Enhanced.x.v2.channel.region.list = type=http-response, pattern=^https?:\/\/app\.bili(bili\.com|api\.net)\/x\/v2\/channel\/region\/list\?, requires-body=1, engine=jsc, debug=1, script-path=https://raw.githubusercontent.com/BiliUniverse/Enhanced/beta/js/BiliBili.Enhanced.response.beta.js, argument=
+
+[MITM]
+hostname = %APPEND% app.bilibili.com, app.biliapi.net

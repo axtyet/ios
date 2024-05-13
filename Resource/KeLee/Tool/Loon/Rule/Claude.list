@@ -1,0 +1,6 @@
+# Author: 可莉🅥
+# 2024-04-19 16:03:21
+DOMAIN-SUFFIX, anthropic.com
+DOMAIN-SUFFIX, claude.ai
+IP-CIDR, 160.79.104.0/23, no-resolve
+IP-CIDR6, 2607:6bc0::/48, no-resolve

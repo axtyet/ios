@@ -1,0 +1,51 @@
+name: Image Workflow
+
+on:
+  push:
+    paths:
+      - 'Icons/**'
+  pull_request:
+    paths:
+      - 'Icons/**'
+  workflow_dispatch:
+
+
+jobs:
+  generate_json:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install requests
+
+    - name: Generate JSON
+      run: |
+        python .github/scripts/generate_image_json.py
+      env:
+        GITHUB_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
+
+    - name: Upload artifact
+      uses: actions/upload-artifact@v2
+      with:
+        name: json-artifact
+        path: ${{ github.workspace }}/icons.json
+
+    - name: Push to Icons Repository
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add .
+        git commit -m "Update icon json file"
+        git push origin HEAD:main
+      env:
+        GITHUB_TOKEN: ${{ secrets.PERSONAL_TOKEN }}

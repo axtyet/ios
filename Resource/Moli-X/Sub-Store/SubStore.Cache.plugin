@@ -1,0 +1,27 @@
+#!name = Sub-Store缓存版
+#!desc = 缓存版高级订阅管理工具
+#!openUrl = 
+#!author = 莫离
+#!homepage = https://github.com/Moli-X/Resources/raw/main/Sub-Store/Sub-Store.plugin
+#!icon = https://raw.githubusercontent.com/58xinian/icon/master/Sub-Store1.png
+#!select = 节点缓存有效期, 1分钟, 5分钟, 10分钟, 30分钟, 1小时, 2小时, 3小时, 6小时, 12小时, 24小时, 48小时, 72小时, 参数传入
+#!edit = https://github.com/Moli-X/Resources/edit/main/Sub-Store/Sub-Store.plugin
+
+# 修改自:https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Tool/Loon/Plugin/Sub-Store.plugin
+
+[Rule]
+DOMAIN, sub-store.vercel.app,Proxy
+DOMAIN, ip-api.com,Proxy
+
+[Script]
+http-request ^https?:\/\/sub\.store\/((download)|api\/(preview|sync|(utils\/node-info))) script-path = https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Script/Sub-Store/sub-store-1.min.js, requires-body = true, timeout = 120, tag = Sub-Store Cache Core
+
+http-request https?:\/\/sub\.store script-path = https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Script/Sub-Store/sub-store-0.min.js, requires-body = true, timeout = 120, tag = Sub-Store Cache Simple
+
+# cron "0 0 * * *" script-path = https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Script/Sub-Store/cron-sync-artifacts.min.js, tag = Sub-Store Sync
+
+[MITM]
+hostname = sub.store
+
+
+

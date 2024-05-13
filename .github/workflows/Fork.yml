@@ -1,0 +1,594 @@
+
+name: Fork & Edit 
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "45 * * * *"
+  
+jobs:
+  Fork-FLITER-list:
+    runs-on: ubuntu-latest
+    env:
+      TZ: 'Asia/Shanghai'
+    
+    steps: 
+    - name: Checkout target repository
+      uses: actions/checkout@v4.1.0
+      with:
+        repository: axtyet/Nebula
+        path: Nebula-repo
+
+######
+
+      # Fork Chxm1023 重写规则
+    - name: Fork Chxm1023 Rewrite
+      run: |
+        mkdir -p Nebula-repo/Resource/chxm1023/Rewrite
+        git clone -b main https://github.com/chxm1023/Rewrite.git  czy_Tmp
+        cp -r czy_Tmp/* Nebula-repo/Resource/chxm1023/Rewrite
+        rm -rf czy_Tmp 
+      # 修改脚本链接
+    - name: Edit Chxm1023/Rewrite
+      run: |
+        cd Nebula-repo/Resource/chxm1023/Rewrite
+        for file in *.js; do
+            if [ "$file" ] ; then
+              # 修改脚本链接
+              sed -i 's/raw\.githubusercontent\.com\/chxm1023\/Rewrite\/main/raw.githubusercontent\.com\/axtyet\/Nebula\/main\/Resource\/chxm1023\/Rewrite/g' "$file"
+            else
+              echo "$file not found."
+            fi
+          done
+      # 修改脚本链接
+    - name: Edit Rewrite/Revenuecat
+      run: |
+        cd Nebula-repo/Resource/chxm1023/Rewrite/Revenuecat
+        for file in *.js; do
+            if [ "$file" ] ; then
+              # 修改脚本链接
+              sed -i 's/raw\.githubusercontent\.com\/chxm1023\/Rewrite\/main\/Revenuecat/raw.githubusercontent\.com\/axtyet\/Nebula\/main\/Resource\/chxm1023\/Rewrite\/Revenuecat/g' "$file"
+            else
+              echo "$file not found."
+            fi
+          done
+      # 修改脚本链接
+    - name: Edit Rewrite/iTunes
+      run: |
+        cd Nebula-repo/Resource/chxm1023/Rewrite/iTunes
+        for file in *.js; do
+            if [ "$file" ] ; then
+              # 修改脚本链接
+              sed -i 's/raw\.githubusercontent\.com\/chxm1023\/Rewrite\/main\/iTunes/raw.githubusercontent\.com\/axtyet\/Nebula\/main\/Resource\/chxm1023\/Rewrite\/iTunes/g' "$file"
+            else
+              echo "$file not found."
+            fi
+          done
+
+      # Fork Chxm1023 去广告规则
+    - name: Fork Chxm1023 Advertising
+      run: |
+        mkdir -p Nebula-repo/Resource/chxm1023/Advertising
+        git clone -b main https://github.com/chxm1023/Advertising.git  cyz_Tmp
+        cp -r cyz_Tmp/* Nebula-repo/Resource/chxm1023/Advertising
+        rm -rf cyz_Tmp
+      # 修改脚本链接
+    - name: Edit Advertising
+      run: |
+        cd Nebula-repo/Resource/chxm1023/Advertising
+        for file in *.js; do
+            if [ "$file" ] ; then
+              # 修改脚本链接
+              sed -i 's/raw\.githubusercontent\.com\/chxm1023\/Advertising\/main/raw.githubusercontent\.com\/axtyet\/Nebula\/main\/Resource\/chxm1023\/Advertising/g' "$file"
+            else
+              echo "$file not found."
+            fi
+          done
+
+      # Fork Chxm1023 重写合集
+    - name: Fork Chxm1023 Script_X
+      run: |
+        mkdir -p Nebula-repo/Resource/chxm1023/Script_X
+        git clone -b main https://github.com/chxm1023/Script_X.git  yzc_Tmp
+        cp -r yzc_Tmp/* Nebula-repo/Resource/chxm1023/Script_X
+        rm -rf yzc_Tmp   
+
+
+      # Fork Yu9191 重写规则
+    - name: Fork Yu9191 Rewrite
+      run: |
+        mkdir -p Nebula-repo/Resource/Yu9191/Rewrite
+        git clone -b main https://github.com/Yu9191/Rewrite.git  asd_Tmp
+        cp -r asd_Tmp/* Nebula-repo/Resource/Yu9191/Rewrite
+        rm -rf asd_Tmp
+      # 修改脚本链接
+    - name: Edit Yu9191/Rewrite
+      run: |
+        cd Nebula-repo/Resource/Yu9191/Rewrite
+        for file in *.js; do
+            if [ "$file" ] ; then
+              # 修改脚本链接
+              sed -i 's/raw\.githubusercontent\.com\/Yu9191\/Rewrite\/main/raw.githubusercontent\.com\/axtyet\/Nebula\/main\/Resource\/Yu9191\/Rewrite/g' "$file"
+            else
+              echo "$file not found."
+            fi
+          done
+      # 修改脚本链接
+    - name: Edit Yu9191/Rewrite/itunes
+      run: |
+        cd Nebula-repo/Resource/Yu9191/Rewrite/itunes
+        for file in *.js; do
+            if [ "$file" ] ; then
+              # 修改脚本链接
+              sed -i 's/raw\.githubusercontent\.com\/Yu9191\/Rewrite\/main\/itunes/raw.githubusercontent\.com\/axtyet\/Nebula\/main\/Resource\/Yu9191\/Rewrite\/itunes/g' "$file"
+            else
+              echo "$file not found."
+            fi
+          done
+
+      # Fork Yu9191 重写脚本
+    - name: Fork Yu9191 Script
+      run: |
+        mkdir -p Nebula-repo/Resource/Yu9191/Script
+        git clone -b main https://github.com/Yu9191/Script.git  das_Tmp
+        cp -r das_Tmp/* Nebula-repo/Resource/Yu9191/Script
+        rm -rf das_Tmp
+      # 修改脚本链接
+    - name: Edit Yu9191/Script
+      run: |
+        cd Nebula-repo/Resource/Yu9191/Script
+        for file in *.sgmodule; do
+            if [ "$file" ] ; then
+              # 修改脚本链接
+              sed -i 's/raw\.githubusercontent\.com\/Yu9191\/Script\/main/raw.githubusercontent\.com\/axtyet\/Nebula\/main\/Resource\/Yu9191\/Script/g' "$file"
+            else
+              echo "$file not found."
+            fi
+          done
+      # 修改脚本链接
+    - name: Edit Yu9191/Script
+      run: |
+        cd Nebula-repo/Resource/Yu9191/Script
+        for file in *.js; do
+            if [ "$file" ] ; then
+              # 修改脚本链接
+              sed -i 's/raw\.githubusercontent\.com\/Yu9191\/Script\/main/raw.githubusercontent\.com\/axtyet\/Nebula\/main\/Resource\/Yu9191\/Script/g' "$file"
+            else
+              echo "$file not found."
+            fi
+          done
+
+      # Fork Yu9191 图标
+    - name: Fork Yu9191 -
+      run: |
+        mkdir -p Nebula-repo/Resource/Yu9191/-
+        git clone -b main https://github.com/Yu9191/-.git  sad_Tmp
+        cp -r sad_Tmp/* Nebula-repo/Resource/Yu9191/-
+        rm -rf sad_Tmp
+ 
+      # Fork RuCu6 分流规则&重写规则
+    - name: Fork RuCu6 Rules
+      run: |
+        mkdir -p Nebula-repo/Resource/RuCu6
+        git clone -b main https://github.com/RuCu6/QuanX.git  qwe_Tmp
+        cp -r qwe_Tmp/* Nebula-repo/Resource/RuCu6
+        rm -rf qwe_Tmp
+
+      # Fork yqc007 重写脚本
+    - name: Fork yqc007 Rewrite
+      run: |
+        mkdir -p Nebula-repo/Resource/yqc007
+        git clone -b master https://github.com/yqc007/QuantumultX.git  ewq_Tmp
+        cp -r ewq_Tmp/* Nebula-repo/Resource/yqc007
+        rm -rf ewq_Tmp
+      # 修改脚本链接
+    - name: Edit QuantumultX/yqc007
+      run: |
+        cd Nebula-repo/Resource/yqc007
+        for file in *.js; do
+            if [ "$file" ] ; then
+              # 修改脚本链接
+              sed -i 's/raw\.githubusercontent\.com\/yqc007\/QuantumultX\/master/raw.githubusercontent\.com\/axtyet\/Nebula\/main\/Resource\/yqc007/g' "$file"
+            else
+              echo "$file not found."
+            fi
+          done
+
+      # Fork 可莉插件、脚本
+    - name: Fork lodepuly Plugin&Script
+      run: |
+        mkdir -p Nebula-repo/Resource/KeLee
+        git clone https://gitlab.com/lodepuly/vpn_tool.git lodepuly_Tmp
+        cp -r lodepuly_Tmp/* Nebula-repo/Resource/KeLee
+        rm -rf lodepuly_Tmp
+      # 修改脚本链接
+    - name: Edit KeLee/QuantumultX
+      run: |
+        cd Nebula-repo/Resource/KeLee/Tool/QuantumultX/Rewrite
+        for file in *.snippet; do
+            if [ "$file" ] ; then
+              # 修改脚本链接
+              sed -i 's/gitlab\.com\/lodepuly\/vpn_tool\/-\/raw\/master\/Resource\/Script/raw.githubusercontent\.com\/axtyet\/Nebula\/main\/Resource\/KeLee\/Resource\/Script/g' "$file"
+            else
+              echo "$file not found."
+            fi
+          done
+      # 修改脚本链接
+    - name: Edit KeLee/Loon
+      run: |
+        cd Nebula-repo/Resource/KeLee/Tool/Loon/Plugin
+        for file in *.plugin; do
+            if [ "$file" ] ; then
+              # 修改脚本链接
+              sed -i 's/gitlab\.com\/lodepuly\/vpn_tool\/-\/raw\/master\/Resource\/Script/raw.githubusercontent\.com\/axtyet\/Nebula\/main\/Resource\/KeLee\/Resource\/Script/g' "$file"
+            else
+              echo "$file not found."
+            fi
+          done
+
+      # Fork Peng-YM 定时任务&重写规则
+    - name: Fork  Peng-YM Tasks&Rewrite
+      run: |
+        mkdir -p Nebula-repo/Resource/Peng-YM
+        git clone https://github.com/Peng-YM/QuanX.git asdf_Tmp
+        cp -r asdf_Tmp/* Nebula-repo/Resource/Peng-YM
+        rm -rf asdf_Tmp
+
+      # Fork NobyDa 脚本
+    - name: Fork NobyDa Script
+      run: |
+        mkdir -p Nebula-repo/Resource/NobyDa
+        git clone -b master https://github.com/NobyDa/Script.git qaz_Tmp
+        cp -r qaz_Tmp/* Nebula-repo/Resource/NobyDa
+        rm -rf qaz_Tmp
+
+      # Fork Guding88 重写规则
+    - name: Fork Guding88 Rewrite
+      run: |
+        mkdir -p Nebula-repo/Resource/Guding88/Script
+        git clone https://github.com/Guding88/Script.git qas_Tmp
+        cp -r qas_Tmp/* Nebula-repo/Resource/Guding88/Script
+        rm -rf qas_Tmp
+      # 修改脚本链接
+    - name: Edit Guding88/Script
+      run: |
+        cd Nebula-repo/Resource/Guding88/Script
+        for file in *.js; do
+            if [ "$file" ] ; then
+              # 修改脚本链接
+              sed -i 's/raw\.githubusercontent\.com\/Guding88\/Script\/main/raw.githubusercontent\.com\/axtyet\/Nebula\/main\/Resource\/Guding88\/Script/g' "$file"
+            else
+              echo "$file not found."
+            fi
+          done
+          
+      # Fork fmz200 脚本&去广告规则
+    - name: Fork fmz200 Script&Noads
+      run: |
+        mkdir -p Nebula-repo/Resource/wool_scripts
+        git clone https://github.com/fmz200/wool_scripts.git asf_Tmp
+        cp -r asf_Tmp/* Nebula-repo/Resource/wool_scripts
+        rm -rf asf_Tmp
+
+      # Fork DivineEngine 分流规则
+    - name: Fork DivineEngine Filter
+      run: |
+        mkdir -p Nebula-repo/Resource/DivineEngine
+        git clone -b master https://github.com/DivineEngine/Profiles.git qsd_Tmp
+        cp -r qsd_Tmp/* Nebula-repo/Resource/DivineEngine
+        rm -rf qsd_Tmp
+
+      # Fork zqzess 定时任务&分流规则
+    - name: Fork zqzess Task&Filter
+      run: |
+        mkdir -p Nebula-repo/Resource/zqzess
+        git clone -b master https://github.com/zqzess/rule_for_quantumultX.git sfa_Tmp
+        cp -r sfa_Tmp/* Nebula-repo/Resource/zqzess
+        rm -rf sfa_Tmp 
+
+      # Fork ACL4SSR 去广告规则
+    - name: Fork ACL4SSR Advertising
+      run: |
+        mkdir -p Nebula-repo/Resource/ACL4SSR
+        git clone -b master https://github.com/ACL4SSR/ACL4SSR.git sdf_Tmp
+        cp -r sdf_Tmp/* Nebula-repo/Resource/ACL4SSR
+        rm -rf sdf_Tmp
+
+      # Fork VirgilClyne iRingo苹果服务
+    - name: Fork VirgilClyne iRingo
+      run: |
+        mkdir -p Nebula-repo/Resource/VirgilClyne
+        git clone -b main https://github.com/VirgilClyne/iRingo.git sty_Tmp
+        cp -r sty_Tmp/* Nebula-repo/Resource/VirgilClyne
+        rm -rf sty_Tmp
+      # Fork VirgilClyne iRingo wiki
+    - name: Fork VirgilClyne Wiki
+      run: |
+        mkdir -p Nebula-repo/Resource/VirgilClyne/WiKi
+        git clone https://github.com/VirgilClyne/iRingo.wiki.git syt_Tmp
+        cp -r syt_Tmp/* Nebula-repo/Resource/VirgilClyne/WiKi
+        rm -rf syt_Tmp
+
+      # Fork BiliUniverse B站服务增强
+      # 自动识别番剧影视地区并自动分流，自定义搜索各地区结果
+    - name: Fork BiliUniverse Global
+      run: |
+        mkdir -p Nebula-repo/Resource/BiliUniverse/Global
+        git clone -b main https://github.com/BiliUniverse/Global.git yhn_Tmp
+        cp -r yhn_Tmp/* Nebula-repo/Resource/BiliUniverse/Global
+        rm -rf yhn_Tmp
+     # 哔哩哔哩流媒体平台功能增强系列模块
+    - name: Fork BiliUniverse Universe
+      run: |
+        mkdir -p Nebula-repo/Resource/BiliUniverse/Universe
+        git clone -b main https://github.com/BiliUniverse/Universe.git ynh_Tmp
+        cp -r ynh_Tmp/* Nebula-repo/Resource/BiliUniverse/Universe
+        rm -rf ynh_Tmp
+     # 全面自定义哔哩哔哩app主界面
+    - name: Fork BiliUniverse Enhanced
+      run: |
+        mkdir -p Nebula-repo/Resource/BiliUniverse/Enhanced
+        git clone -b main https://github.com/BiliUniverse/Enhanced.git hny_Tmp
+        cp -r hny_Tmp/* Nebula-repo/Resource/BiliUniverse/Enhanced
+        rm -rf hny_Tmp
+     # 通过公共解析服务器实现地区漫游，进而提供其他增强功能
+    - name: Fork BiliUniverse Roaming
+      run: |
+        mkdir -p Nebula-repo/Resource/BiliUniverse/Roaming
+        git clone -b main https://github.com/BiliUniverse/Roaming.git hyn_Tmp
+        cp -r hyn_Tmp/* Nebula-repo/Resource/BiliUniverse/Roaming
+        rm -rf hyn_Tmp
+      # 🪐 BiliUniverse: 🧰 BoxJs
+    - name: Fork BiliUniverse BoxJs
+      run: |
+        mkdir -p Nebula-repo/Resource/BiliUniverse/BoxJs
+        git clone -b main https://github.com/BiliUniverse/BoxJs.git nyh_Tmp
+        cp -r nyh_Tmp/* Nebula-repo/Resource/BiliUniverse/BoxJs
+        rm -rf nyh_Tmp
+      # 哔哩哔哩app去广告
+    - name: Fork BiliUniverse ADBlock
+      run: |
+        mkdir -p Nebula-repo/Resource/BiliUniverse/ADBlock
+        git clone -b main https://github.com/BiliUniverse/ADBlock.git nhy_Tmp
+        cp -r nhy_Tmp/* Nebula-repo/Resource/BiliUniverse/ADBlock
+        rm -rf nhy_Tmp
+      # Wiki
+    - name: Fork BiliUniverse Wiki
+      run: |
+        mkdir -p Nebula-repo/Resource/BiliUniverse/Wiki
+        git clone https://github.com/BiliUniverse/Universe.wiki.git erw_Tmp
+        cp -r erw_Tmp/* Nebula-repo/Resource/BiliUniverse/Wiki
+        rm -rf erw_Tmp
+
+      # Fork KOP-XIAO QX解析器
+    - name: Fork KOP-XIAO 
+      run: |
+        mkdir -p Nebula-repo/Resource/KOP-XIAO
+        git clone -b master https://github.com/KOP-XIAO/QuantumultX.git ewr_Tmp
+        cp -r ewr_Tmp/* Nebula-repo/Resource/KOP-XIAO
+        rm -rf ewr_Tmp
+
+      # Fork chavyleung 定时任务
+    - name: Fork chavyleung Task
+      run: |
+        mkdir -p Nebula-repo/Resource/chavyleung
+        git clone -b master https://github.com/chavyleung/scripts.git sdt_Tmp
+        cp -r sdt_Tmp/* Nebula-repo/Resource/chavyleung
+        rm -rf sdt_Tmp
+
+      # Fork Fokit 定时任务&脚本
+    - name: Fork Fokit Task&Script
+      run: |
+        mkdir -p Nebula-repo/Resource/Fokit
+        git clone -b main https://github.com/FoKit/Scripts.git hyu_Tmp
+        cp -r hyu_Tmp/* Nebula-repo/Resource/Fokit
+        rm -rf hyu_Tmp
+      # 修改脚本链接
+    - name: Edit Fokit/scripts
+      run: |
+        cd Nebula-repo/Resource/Fokit/scripts
+        for file in *.js; do
+            if [ "$file" ] ; then
+              # 修改脚本链接
+              sed -i 's/raw\.githubusercontent\.com\/FoKit\/Scripts\/main\/scripts/raw.githubusercontent\.com\/axtyet\/Nebula\/main\/Resource\/Fokit\/scripts/g' "$file"
+            else
+              echo "$file not found."
+            fi
+          done
+
+      # Fork 墨鱼 重写规则
+    - name: Fork ddgksf2013 Rewrite
+      run: |
+        mkdir -p Nebula-repo/Resource/ddgksf2013/Rewrite
+        git clone -b master https://github.com/ddgksf2013/Rewrite.git cds_Tmp
+        cp -r cds_Tmp/* Nebula-repo/Resource/ddgksf2013/Rewrite
+        rm -rf cds_Tmp
+   
+      # Fork 墨鱼 脚本
+    - name: Fork ddgksf2013 Script
+      run: |
+        mkdir -p Nebula-repo/Resource/ddgksf2013/Scripts
+        git clone -b master https://github.com/ddgksf2013/Scripts.git dcf_Tmp
+        cp -r dcf_Tmp/* Nebula-repo/Resource/ddgksf2013/Scripts
+        rm -rf cdf_Tmp
+      # 修改脚本链接
+    - name: Edit ddgksf2013/Scripts
+      run: |
+        cd Nebula-repo/Resource/ddgksf2013/Scripts
+        for file in *.js; do
+            if [ "$file" ] ; then
+              # 修改脚本链接
+              sed -i 's/github\.com\/ddgksf2013\/Scripts\/raw\/master/raw.githubusercontent\.com\/axtyet\/Nebula\/main\/Resource\/ddgksf2013\/Scripts/g' "$file"
+            else
+              echo "$file not found."
+            fi
+          done
+     
+      # Fork 墨鱼 分流规则
+    - name: Fork ddgksf2013 Filter
+      run: |
+        mkdir -p Nebula-repo/Resource/ddgksf2013/Filter
+        git clone -b master https://github.com/ddgksf2013/Filter.git ytu_Tmp
+        cp -r ytu_Tmp/* Nebula-repo/Resource/ddgksf2013/Filter
+        rm -rf ytu_Tmp
+    
+      # Fork 墨鱼 代理规则
+    - name: Fork ddgksf2013 Profile
+      run: |
+        mkdir -p Nebula-repo/Resource/ddgksf2013/Profile
+        git clone -b master https://github.com/ddgksf2013/Profile.git tyu_Tmp
+        cp -r tyu_Tmp/* Nebula-repo/Resource/ddgksf2013/Profile
+        rm -rf tyu_Tmp
+    
+      # Fork 墨鱼 重写
+    - name: Fork ddgksf2013 MoYu
+      run: |
+        mkdir -p Nebula-repo/Resource/ddgksf2013/MOYU
+        git clone -b master https://github.com/ddgksf2013/MoYu.git uyt_Tmp
+        cp -r uyt_Tmp/* Nebula-repo/Resource/ddgksf2013/MOYU
+        rm -rf uyt_Tmp
+      # 修改脚本链接
+    - name: Edit ddgksf2013/MOYU
+      run: |
+        cd Nebula-repo/Resource/ddgksf2013/MOYU
+        for file in *.js; do
+            if [ "$file" ] ; then
+              # 修改脚本链接
+              sed -i 's/github\.com\/ddgksf2013\/MoYu\/raw\/master/raw.githubusercontent\.com\/axtyet\/Nebula\/main\/Resource\/ddgksf2013\/MOYU/g' "$file"
+            else
+              echo "$file not found."
+            fi
+          done
+
+      # Fork evilbutcher 去广告&脚本
+    - name: Fork evilbutcher Advertising&Script
+      run: |
+        mkdir -p Nebula-repo/Resource/evilbutcher
+        git clone -b main https://github.com/evilbutcher/QuantumultX.git dfr_Tmp
+        cp -r dfr_Tmp/* Nebula-repo/Resource/evilbutcher
+        rm -rf dfr_Tmp
+
+      # Fork blackmatrix7 分流规则
+    - name: Fork blackmatrix7 filter
+      run: |
+        mkdir -p Nebula-repo/Resource/blackmatrix7
+        git clone -b master https://github.com/blackmatrix7/ios_rule_script.git xcv_Tmp
+        cp -r xcv_Tmp/* Nebula-repo/Resource/blackmatrix7
+        rm -rf xcv_Tmp
+
+      # fork 毒奶去广告
+    - name: Fork limbopro Advertising
+      run: |
+        mkdir -p Nebula-repo/Resource/limbopro
+        git clone -b main https://github.com/limbopro/Adblock4limbo.git  cxv_Tmp
+        cp -r cxv_Tmp/* Nebula-repo/Resource/limbopro
+        rm -rf cxv_Tmp
+
+      # fork app2smile 去广告
+    - name: Fork app2smile Advertising
+      run: |
+        mkdir -p Nebula-repo/Resource/app2smile
+        git clone -b master https://github.com/app2smile/rules.git  xvc_Tmp
+        cp -r xvc_Tmp/* Nebula-repo/Resource/app2smile
+        rm -rf xvc_Tmp   
+
+      # fork Repcz 分流规则
+    - name: Fork Repcz filter
+      run: |
+        mkdir -p Nebula-repo/Resource/Repcz
+        git clone https://github.com/Repcz/Tool.git  edc_Tmp
+        cp -r edc_Tmp/* Nebula-repo/Resource/Repcz
+        rm -rf edc_Tmp
+
+      # fork Cats-Team 去广告规则
+    - name: Fork Cats-Team Adblock
+      run: |
+        mkdir -p Nebula-repo/Resource/Cats-Team
+        git clone -b main https://github.com/Cats-Team/AdRules.git  dec_Tmp
+        cp -r dec_Tmp/* Nebula-repo/Resource/Cats-Team
+        rm -rf dec_Tmp  
+      #单独下载QX去广告规则
+    - name: Download files to Cats-Team/Adblock
+      run: |
+        mkdir -p Nebula-repo/Resource/Cats-Team/Adblock
+        curl -L -o Nebula-repo/Resource/Cats-Team/Adblock/ADRules.list "https://raw.githubusercontent.com/Cats-Team/AdRules/main/qx.conf"
+
+     # fork Moli-X script
+    - name: Fork Moli-X script
+      run: |
+        mkdir -p Nebula-repo/Resource/Moli-X
+        git clone -b main https://github.com/Moli-X/Resources.git  dce_Tmp
+        cp -r dce_Tmp/* Nebula-repo/Resource/Moli-X
+        rm -rf dce_Tmp
+
+     # fork Keywos rule
+    - name: Fork Keywos rule
+      run: |
+        mkdir -p Nebula-repo/Resource/Keywos
+        git clone -b main https://github.com/Keywos/rule.git  ecd_Tmp
+        cp -r ecd_Tmp/* Nebula-repo/Resource/Keywos
+        rm -rf ecd_Tmp  
+
+      # fork DualSubs YouTube字幕
+    - name: Fork DualSubs YouTube
+      run: |
+        mkdir -p Nebula-repo/Resource/DualSubs/YouTube
+        git clone -b main https://github.com/DualSubs/YouTube.git  cxz_Tmp
+        cp -r cxz_Tmp/* Nebula-repo/Resource/DualSubs/YouTube
+        rm -rf cxz_Tmp  
+    - name: Fork DualSubs Universal
+      run: |
+        mkdir -p Nebula-repo/Resource/DualSubs/Universal
+        git clone -b main https://github.com/DualSubs/Universal.git  czx_Tmp
+        cp -r czx_Tmp/* Nebula-repo/Resource/DualSubs/Universal
+        rm -rf czx_Tmp  
+      # WiKi
+    - name: Fork DualSubs WiKi
+      run: |
+        mkdir -p Nebula-repo/Resource/DualSubs/WiKi
+        git clone https://github.com/DualSubs/YouTube.wiki.git  zxc_Tmp
+        cp -r zxc_Tmp/* Nebula-repo/Resource/DualSubs/WiKi
+        rm -rf zxc_Tmp 
+    - name: Fork DualSubs WiKi
+      run: |
+        mkdir -p Nebula-repo/Resource/DualSubs/WiKi
+        git clone https://github.com/DualSubs/Universal.wiki.git  xzc_Tmp
+        cp -r xzc_Tmp/* Nebula-repo/Resource/DualSubs/WiKi
+        rm -rf xzc_Tmp 
+      # BoxJS
+    - name: Fork DualSubs BoxJS
+      run: |
+        mkdir -p Nebula-repo/Resource/DualSubs/BoxJS
+        git clone -b main https://github.com/DualSubs/BoxJs.git  zcx_Tmp
+        cp -r zcx_Tmp/* Nebula-repo/Resource/DualSubs/BoxJS
+        rm -rf zcx_Tmp 
+
+      # fork XPTV 
+    - name: Fork XPTV Source
+      run: |
+        mkdir -p Nebula-repo/XPTV
+        git clone -b main https://github.com/fangkuia/XPTV.git  mki_Tmp
+        cp -r mki_Tmp/* Nebula-repo/XPTV
+        rm -rf mki_Tmp  
+
+
+        
+
+      # 保存、推送   
+    - name: Add and Commits
+      run: |
+        cd Nebula-repo
+         if [[ -n $(git status -s) ]]; then
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add --all
+          git commit -m "$(TZ='Asia/Shanghai' date +'%Y-%m-%d %H:%M')"
+          git push origin HEAD
+        else
+          echo "No changes to commit."
+        fi
+
+    - name: Cleanup Workflow
+      uses: Mattraks/delete-workflow-runs@main
+      with:
+        retain_days: 0
+        keep_minimum_runs: 2

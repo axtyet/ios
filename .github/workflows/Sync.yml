@@ -1,0 +1,1227 @@
+# 2024-05-12 04:05
+
+name: Sync & Edit
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "15 * * * *"
+  
+jobs:
+  Fork-FLITER-list:
+    runs-on: ubuntu-latest
+    env:
+      TZ: 'Asia/Shanghai'
+    
+    steps: 
+    - name: Checkout target repository
+      uses: actions/checkout@v4.1.0
+      with:
+        repository: axtyet/Nebula
+        path: Nebula-repo
+
+######
+    - name: Download files to GeoIP
+      run: |
+        mkdir -p Nebula-repo/Utilities/GeoIP
+        curl -L -o Nebula-repo/Utilities/GeoIP/CN_Country.mmdb "https://raw.githubusercontent.com/Masaiki/GeoIP2-CN/release/Country.mmdb"
+        curl -L -o Nebula-repo/Utilities/GeoIP/Global_Country.mmdb "https://raw.githubusercontent.com/Masaiki/GeoIP2-CN/release/Country.mmdb"
+        curl -L -o Nebula-repo/Utilities/GeoIP/ChinaIPv4.list "https://raw.githubusercontent.com/soffchen/GeoIP2-CN/release/CN-ip-cidr.txt"
+        curl -L -o Nebula-repo/Utilities/GeoIP/ChinaIPv6.list "https://raw.githubusercontent.com/missuo/ASN-China/main/IPv6.China.list"
+
+######
+    - name: Download files to Surge
+      run: |
+        mkdir -p Nebula-repo/Utilities/Surge/Rules
+        # 苹果
+        curl -L -o Nebula-repo/Utilities/Surge/Rules/APNs.list "https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Rule/ApplePushNotificationService.list"
+        curl -L -o Nebula-repo/Utilities/Surge/Rules/Apple.list "https://raw.githubusercontent.com/NobyDa/Script/master/Surge/Apple.list"
+        curl -L -o Nebula-repo/Utilities/Surge/Rules/AppStore.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/rule/AppStore/AppStore.list"
+        curl -L -o Nebula-repo/Utilities/Surge/Rules/AppleID.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AppleID/AppleID.list"
+        curl -L -o Nebula-repo/Utilities/Surge/Rules/AppleMusic.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AppleMusic/AppleMusic.list"
+        curl -L -o Nebula-repo/Utilities/Surge/Rules/iCloud.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/iCloud/iCloud.list"
+        curl -L -o Nebula-repo/Utilities/Surge/Rules/TestFlight.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/TestFlight/TestFlight.list"
+        curl -L -o Nebula-repo/Utilities/Surge/Rules/AppleProxy.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AppleProxy/AppleProxy.list"
+        # OpenAI
+        curl -L -o Nebula-repo/Utilities/Surge/Rules/OpenAI.list "https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Rule/OpenAI.list"
+        curl -L -o Nebula-repo/Utilities/Surge/Rules/ChatGPT_Voice.list "https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Rule/ChatGPT_Voice.list"
+        # Claude AI
+        curl -L -o Nebula-repo/Utilities/Surge/Rules/Claude.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Claude.list"
+        # 社交媒体
+        curl -L -o Nebula-repo/Utilities/Surge/Rules/Twitter.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Twitter.list"
+        curl -L -o Nebula-repo/Utilities/Surge/Rules/Instagram.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Instagram.list"
+        curl -L -o Nebula-repo/Utilities/Surge/Rules/Facebook.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Facebook.list"
+        # 谷歌
+        curl -L -o Nebula-repo/Utilities/Surge/Rules/YouTube.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/YouTube.list"
+        curl -L -o Nebula-repo/Utilities/Surge/Rules/Google.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Google.list"
+        # 微软
+        curl -L -o Nebula-repo/Utilities/Surge/Rules/Copilot.list "https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Rule/Copilot.list"
+        curl -L -o Nebula-repo/Utilities/Surge/Rules/Github.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Github.list"
+        curl -L -o Nebula-repo/Utilities/Surge/Rules/OneDrive.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/OneDrive.list"
+        curl -L -o Nebula-repo/Utilities/Surge/Rules/Microsoft.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Microsoft.list"
+        # 流媒体
+        curl -L -o Nebula-repo/Utilities/Surge/Rules/TikTok.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/TikTok.list"
+        curl -L -o Nebula-repo/Utilities/Surge/Rules/Netflix.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Netflix.list"
+        curl -L -o Nebula-repo/Utilities/Surge/Rules/HBO.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/HBO/HBO.list"
+        curl -L -o Nebula-repo/Utilities/Surge/Rules/Disney.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Disney/Disney.list"
+        curl -L -o Nebula-repo/Utilities/Surge/Rules/Spotify.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Spotify/Spotify.list"
+        curl -L -o Nebula-repo/Utilities/Surge/Rules/PrimeVideo.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/PrimeVideo/PrimeVideo.list"
+        curl -L -o Nebula-repo/Utilities/Surge/Rules/FitnessPlus.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/FitnessPlus/FitnessPlus.list"
+        curl -L -o Nebula-repo/Utilities/Surge/Rules/AppleMedia.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AppleMedia/AppleMedia.list"
+        curl -L -o Nebula-repo/Utilities/Surge/Rules/Bahamut.list "https://github.com/ACL4SSR/ACL4SSR/raw/master/Clash/Ruleset/Bahamut.list"
+        curl -L -o Nebula-repo/Utilities/Surge/Rules/ProxyMedia.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list"
+        # PayPal
+        curl -L -o Nebula-repo/Utilities/Surge/Rules/PayPal.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/PayPal/PayPal.list"
+        # Cloudflare
+        curl -L -o Nebula-repo/Utilities/Surge/Rules/Cloudflare.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Cloudflare/Cloudflare.list"
+        # GFW
+        curl -L -o Nebula-repo/Utilities/Surge/Rules/ProxyGFW.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list"
+        # 游戏规则 
+        curl -L -o Nebula-repo/Utilities/Surge/Rules/Steam.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Steam/Steam.list"
+        curl -L -o Nebula-repo/Utilities/Surge/Rules/Epic.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Epic/Epic.list"
+        curl -L -o Nebula-repo/Utilities/Surge/Rules/Game.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Game/Game.list"
+        # 下载CDN
+        curl -L -o Nebula-repo/Utilities/Surge/Rules/DownloadCDN_Global.list "https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Rule/InternationalDownloadCDN.list"
+        curl -L -o Nebula-repo/Utilities/Surge/Rules/DownloadCDN_CN.list "https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Rule/ChinaDownloadCDN.list"
+        # 国内规则 
+        curl -L -o Nebula-repo/Utilities/Surge/Rules/Bilibili.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bilibili.list"
+        curl -L -o Nebula-repo/Utilities/Surge/Rules/WeChat.list "https://raw.githubusercontent.com/NobyDa/Script/master/Surge/WeChat.list"
+        curl -L -o Nebula-repo/Utilities/Surge/Rules/ChinaASN.list "https://raw.githubusercontent.com/VirgilClyne/GetSomeFries/main/ruleset/ASN.China.list"
+        curl -L -o Nebula-repo/Utilities/Surge/Rules/ChinaDomain.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list"
+        # 广告规则 
+        curl -L -o Nebula-repo/Utilities/Surge/Rules/Ads_RuCu6.list "https://raw.githubusercontent.com/RuCu6/QuanX/main/Rules/MyBlockAds.list"
+        curl -L -o Nebula-repo/Utilities/Surge/Rules/Ads_limbopro.list "https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/Surge/rule/Adblock4limbo_surge.list"
+        curl -L -o Nebula-repo/Utilities/Surge/Rules/Ads_EasyListChina.list "https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/rule/Surge/easylistchina_surge.list"
+        curl -L -o Nebula-repo/Utilities/Surge/Rules/Ads_EasyListPrivacy.list "https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/rule/Surge/easyprivacy_surge.list"
+        curl -L -o Nebula-repo/Utilities/Surge/Rules/Ads_Dlerio.list "https://raw.githubusercontent.com/dler-io/Rules/main/Surge/Surge%203/Provider/Reject.list"
+        curl -L -o Nebula-repo/Utilities/Surge/Rules/Ads_AWAvenue.list "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-Surge.txt"
+        curl -L -o Nebula-repo/Utilities/Surge/Rules/AdGuardChinese.list "https://raw.githubusercontent.com/geekdada/surge-list/master/domain-set/chinese-filter.txt"
+        # 自定义广告规则
+        curl -L -o Nebula-repo/Utilities/Surge/Rules/Reject.list "https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Customrules/Empty.list"
+        # fmz200
+        curl -L -o Nebula-repo/Utilities/Surge/Rules/Direct_fmz200.list "https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/filter/fenliuxiuzheng.list"
+        curl -L -o Nebula-repo/Utilities/Surge/Rules/Ads_fmz200.list "https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/filter/fenliu.list"
+        # ConnersHua
+        curl -L -o Nebula-repo/Utilities/Surge/Rules/Ads_ConnersHua.list "https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Extra/Reject/Advertising.list"
+        curl -L -o Nebula-repo/Utilities/Surge/Rules/Hijacking_ConnersHua.list "https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Extra/Reject/Hijacking.list"
+        curl -L -o Nebula-repo/Utilities/Surge/Rules/Tracking_ConnersHua.list "https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Extra/Reject/Tracking.list"
+        # AD-QQMusic
+        curl -L -o Nebula-repo/Utilities/Surge/Rules/Ads_QQMusic.list "https://raw.githubusercontent.com/Repcz/Tool/X/QuantumultX/Rules/Ads_QQMusic.list"
+
+
+      # 适配 Surge 规则
+    - name: Edit Surge/Rules
+      run: |
+        cd Nebula-repo/Utilities/Surge/Rules
+        for file in *.list; do
+          if [ "$file" != "Lan.list" ] ; then
+            # 适配
+            sed -i -e 's/, /,/g' \
+                   -e 's/;/# /g' \
+                   -e 's/host,/HOST,/g' \
+                   -e 's/host-/HOST-/g' \
+                   -e 's/-suffix/-SUFFIX/g' \
+                   -e 's/-keyword/-KEYWORD/g' \
+                   -e 's/ip-cidr/IP-CIDR/g' \
+                   -e 's/geoip/GEOIP/g' \
+                   -e 's/HOST,/DOMAIN,/g' \
+                   -e 's/HOST-/DOMAIN-/g' \
+                   -e 's/IP6-CIDR,/IP-CIDR6,/g' \
+                   -e 's/,REJECT$//g' \
+                   -e 's/,DIRECT$//g' \
+                   -e 's/,reject$//g' \
+                   -e 's/,direct$//g' \
+                   -e '/# 更新：/d' \
+                   -e '/# AUTHOR:/d' \
+                   -e '/# REPO:/d' \
+                   -e '/# UPDATED:/d' \
+                   -e '/# 数目: /d' \
+                   -e '/# 规则: /d' \
+                   "$file"
+            # 如果为IP规则且不包含no-resolve 则添加no-resolve
+            awk '/^IP-/ && !/,no-resolve/ {print $0",no-resolve"; next} {print}' "$file" > tmpfile
+            mv tmpfile "$file"
+          else
+            echo "$file not found."
+          fi
+        done
+
+      # 转换 domain-set 为 rule-set
+    - name: Edit Surge/Rules domain-set to rule-set
+      run: |
+        cd Nebula-repo/Utilities/Surge/Rules
+        for file in AdGuardChinese.list Ads_AWAvenue.list; do
+          if [ -f "$file" ]; then
+            # 将每一行的第一个.替换为 DOMAIN-SUFFIX,
+            sed -i 's/^\./DOMAIN-SUFFIX,/g' "$file"
+          else
+            echo "$file not found."
+          fi
+        done
+
+      # 追加规则
+    - name: Copy custom rules
+      run: |
+        if [ -f "Nebula-repo/Utilities/Surge/Rules/Reject.list" ] ; then
+          cat Nebula-repo/Utilities/Surge/Rules/Ads_RuCu6.list >> Nebula-repo/Utilities/Surge/Rules/Reject.list
+          cat Nebula-repo/Utilities/Surge/Rules/Ads_limbopro.list >> Nebula-repo/Utilities/Surge/Rules/Reject.list
+          cat Nebula-repo/Utilities/Surge/Rules/Ads_ConnersHua.list >> Nebula-repo/Utilities/Surge/Rules/Reject.list
+          cat Nebula-repo/Utilities/Surge/Rules/Hijacking_ConnersHua.list >> Nebula-repo/Utilities/Surge/Rules/Reject.list
+          cat Nebula-repo/Utilities/Surge/Rules/Tracking_ConnersHua.list >> Nebula-repo/Utilities/Surge/Rules/Reject.list
+          cat Nebula-repo/Utilities/Surge/Rules/Ads_AWAvenue.list >> Nebula-repo/Utilities/Surge/Rules/Reject.list
+        else
+          echo "$file not found."
+        fi
+
+      # 去重排序
+    - name: Remove duplicates and lines 
+      run: |
+        cd Nebula-repo/Utilities/Surge/Rules
+        shopt -s nullglob  # 避免没有匹配的文件时保留原始通配符
+        for file in Reject.list; do
+          if [ -f "$file" ]; then
+            sorted_file="sorted_${file}"
+            # 使用 grep 去掉包含 # 的行
+            grep -v '^\s*#' "$file" | grep -v '^\s*$' | sort | uniq > "$sorted_file"
+            mv "$sorted_file" "$file"
+          else
+            echo "$file not found."
+          fi
+        done
+      shell: bash         
+            
+######
+    - name: Download files to Clash
+      run: |
+        mkdir -p Nebula-repo/Utilities/Clash/Rules
+        # 流媒体
+        curl -L -o Nebula-repo/Utilities/Clash/Rules/Emby.list "https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Rules/Emby.list"
+        curl -L -o Nebula-repo/Utilities/Clash/Rules/TikTok.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/TikTok.list"
+        curl -L -o Nebula-repo/Utilities/Clash/Rules/Netflix.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Netflix/Netflix.list"
+        curl -L -o Nebula-repo/Utilities/Clash/Rules/HBO.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/HBO/HBO.list"
+        curl -L -o Nebula-repo/Utilities/Clash/Rules/Disney.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Disney/Disney.list"
+        curl -L -o Nebula-repo/Utilities/Clash/Rules/Spotify.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Spotify/Spotify.list"
+        curl -L -o Nebula-repo/Utilities/Clash/Rules/PrimeVideo.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/PrimeVideo/PrimeVideo.list"
+        curl -L -o Nebula-repo/Utilities/Clash/Rules/FitnessPlus.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/FitnessPlus/FitnessPlus.list"
+        curl -L -o Nebula-repo/Utilities/Clash/Rules/AppleMedia.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AppleMedia/AppleMedia.list"
+        curl -L -o Nebula-repo/Utilities/Clash/Rules/Bahamut.list "https://github.com/ACL4SSR/ACL4SSR/raw/master/Clash/Ruleset/Bahamut.list"
+        curl -L -o Nebula-repo/Utilities/Clash/Rules/ProxyMedia.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list"
+        # 下载规则
+        curl -L -o Nebula-repo/Utilities/Clash/Rules/Download.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Download/Download.list"
+        # 苹果
+        curl -L -o Nebula-repo/Utilities/Clash/Rules/Apple.list "https://raw.githubusercontent.com/NobyDa/Script/master/Surge/Apple.list"
+        # OpenAI
+        curl -L -o Nebula-repo/Utilities/Clash/Rules/OpenAI.list "https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Rule/OpenAI.list"
+        curl -L -o Nebula-repo/Utilities/Clash/Rules/ChatGPT_Voice.list "https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Rule/ChatGPT_Voice.list"
+        # Claude AI
+        curl -L -o Nebula-repo/Utilities/Clash/Rules/Claude.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Claude.list"
+        # 社交媒体
+        curl -L -o Nebula-repo/Utilities/Clash/Rules/Telegram.list "https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Rules/Telegram.list"
+        curl -L -o Nebula-repo/Utilities/Clash/Rules/Twitter.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Twitter.list"
+        curl -L -o Nebula-repo/Utilities/Clash/Rules/Instagram.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Instagram.list"
+        curl -L -o Nebula-repo/Utilities/Clash/Rules/Facebook.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Facebook.list"
+        # 谷歌
+        curl -L -o Nebula-repo/Utilities/Clash/Rules/YouTube.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/YouTube.list"
+        curl -L -o Nebula-repo/Utilities/Clash/Rules/Google.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Google.list"
+        # 微软
+        curl -L -o Nebula-repo/Utilities/Clash/Rules/Copilot.list "https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Rule/Copilot.list"
+        curl -L -o Nebula-repo/Utilities/Clash/Rules/Github.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Github.list"
+        curl -L -o Nebula-repo/Utilities/Clash/Rules/OneDrive.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/OneDrive.list"
+        curl -L -o Nebula-repo/Utilities/Clash/Rules/Microsoft.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Microsoft.list"
+        # Cloudflare
+        curl -L -o Nebula-repo/Utilities/Clash/Rules/Cloudflare.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Cloudflare/Cloudflare.list"
+        # GFW
+        curl -L -o Nebula-repo/Utilities/Clash/Rules/ProxyGFW.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list"
+        # Trust
+        curl -L -o Nebula-repo/Utilities/Clash/Rules/Trust.list "https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Rules/Trust.list"
+        # TronLink
+        curl -L -o Nebula-repo/Utilities/Clash/Rules/TronLink.list "https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Rules/TronLink.list"
+        # Talkatone
+        curl -L -o Nebula-repo/Utilities/Clash/Rules/Talkatone.list "https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Rules/Talkatone.list"
+        # PayPal
+        curl -L -o Nebula-repo/Utilities/Clash/Rules/PayPal.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/PayPal/PayPal.list"
+        # 国内规则 
+        curl -L -o Nebula-repo/Utilities/Clash/Rules/Bilibili.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bilibili.list"
+        curl -L -o Nebula-repo/Utilities/Clash/Rules/WeChat.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Wechat.list"
+        curl -L -o Nebula-repo/Utilities/Clash/Rules/ChinaDomain.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list"
+        curl -L -o Nebula-repo/Utilities/Clash/Rules/ChinaIPv4.list "https://raw.githubusercontent.com/soffchen/GeoIP2-CN/release/clash-ruleset.list"
+        curl -L -o Nebula-repo/Utilities/Clash/Rules/ChinaIPv6.list "https://raw.githubusercontent.com/missuo/ASN-China/main/IPv6.China.list"
+        # 游戏规则 
+        curl -L -o Nebula-repo/Utilities/Clash/Rules/Game.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Game/Game.list"
+        curl -L -o Nebula-repo/Utilities/Clash/Rules/Steam.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Steam/Steam.list"
+        curl -L -o Nebula-repo/Utilities/Clash/Rules/Epic.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Epic/Epic.list"
+        # 下载CDN
+        curl -L -o Nebula-repo/Utilities/Clash/Rules/DownloadCDN_Global.list "https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Rule/InternationalDownloadCDN.list"
+        curl -L -o Nebula-repo/Utilities/Clash/Rules/DownloadCDN_CN.list "https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Rule/ChinaDownloadCDN.list"
+        # 广告规则 
+        curl -L -o Nebula-repo/Utilities/Clash/Rules/Ads_EasyListChina.list "https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/rule/Surge/easylistchina_surge.list"
+        curl -L -o Nebula-repo/Utilities/Clash/Rules/Ads_EasyListPrivacy.list "https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/rule/Surge/easyprivacy_surge.list"
+        curl -L -o Nebula-repo/Utilities/Clash/Rules/Ads_Dlerio.list "https://raw.githubusercontent.com/dler-io/Rules/main/Surge/Surge%203/Provider/Reject.list"
+        curl -L -o Nebula-repo/Utilities/Clash/Rules/Anti-ad.list "https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-clash.yaml"
+        curl -L -o Nebula-repo/Utilities/Clash/Rules/AdGuardChinese.list "https://raw.githubusercontent.com/geekdada/surge-list/master/domain-set/chinese-filter.txt"
+        # ConnersHua
+        curl -L -o Nebula-repo/Utilities/Clash/Rules/Ads_ConnersHua.list "https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Extra/Reject/Advertising.list"
+        curl -L -o Nebula-repo/Utilities/Clash/Rules/Hijacking_ConnersHua.list "https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Extra/Reject/Hijacking.list"
+        curl -L -o Nebula-repo/Utilities/Clash/Rules/Tracking_ConnersHua.list "https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Extra/Reject/Tracking.list"
+        # Lan
+        curl -L -o Nebula-repo/Utilities/Clash/Rules/Lan.list "https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Rules/Lan.list"
+ 
+      # 适配 Clash 规则
+    - name: Edit Clash/Rules
+      run: |
+        cd Nebula-repo/Utilities/Clash/Rules
+        for file in *.list; do
+          if [ "$file" != "ChinaIPv4.list" ] && [ "$file" != "ChinaIPv6.list" ] && [ "$file" != "Lan.list" ]; then
+            # 适配
+            sed -i -e 's/, /,/g' \
+                   -e 's/;/# /g' \
+                   -e 's/host,/HOST,/g' \
+                   -e 's/host-/HOST-/g' \
+                   -e 's/-suffix/-SUFFIX/g' \
+                   -e 's/-keyword/-KEYWORD/g' \
+                   -e 's/ip-cidr/IP-CIDR/g' \
+                   -e 's/geoip/GEOIP/g' \
+                   -e 's/HOST,/DOMAIN,/g' \
+                   -e 's/HOST-/DOMAIN-/g' \
+                   -e 's/IP6-CIDR,/IP-CIDR6,/g' \
+                   -e 's/,REJECT$//g' \
+                   -e 's/,DIRECT$//g' \
+                   -e 's/,reject$//g' \
+                   -e 's/,direct$//g' \
+                   -e 's/,extended-matching$//g' \
+                   -e '/\(OR\|AND\|NOT\|USER-AGENT\|URL-REGEX\|IP-ASN\),/ s/^/#/' \
+                   -e '/# 内容：/d' \
+                   -e '/# 数量：/d' \
+                   -e '/# 更新：/d' \
+                   -e '/# NAME:/d' \
+                   -e '/# AUTHOR:/d' \
+                   -e '/# REPO:/d' \
+                   -e '/# UPDATED:/d' \
+                   "$file"
+            # 如果为IP规则且不包含no-resolve 则添加no-resolve
+            awk '/^IP-/ && !/,no-resolve/ {print $0",no-resolve"; next} {print}' "$file" > tmpfile
+            mv tmpfile "$file"
+          else
+            echo "$file not found."
+          fi
+        done
+    
+      # 适配IPv6规则
+    - name: Edit Clash/Rules IPv6
+      run: |
+        cd Nebula-repo/Utilities/Clash/Rules
+        for file in ChinaIPv6.list; do
+          if [ -f "$file" ]; then
+          # 添加IP-CIDR6
+          sed -i 's/^/IP-CIDR6,/g' "$file"
+          else
+            echo "$file not found."
+          fi
+        done
+
+      #  Clash 规则转换 domain-set 为 rule-set
+    - name: Edit Clash/Rules domain-set to rule-set
+      run: |
+        cd Nebula-repo/Utilities/Clash/Rules
+        for file in AdGuardChinese.list; do
+          if [ -f "$file" ]; then
+          # 将每一行的第一个.替换为 DOMAIN-SUFFIX,
+          sed -i 's/^\./DOMAIN-SUFFIX,/g' "$file"
+          else
+            echo "$file not found."
+          fi
+        done
+
+      #  Clash 规则转换 yaml 为 text
+    - name: Edit Clash/Rules yaml to text
+      run: |
+        cd Nebula-repo/Utilities/Clash/Rules
+        for file in Anti-ad.list ; do
+          if [ -f "$file" ]; then
+            # 删除payload
+            sed -i 's/payload://g' "$file"
+            # 删除 - 号和单引号
+            sed -i -e 's/#  - /# /g' -e 's/  # - /# /g' -e 's/  - //g' -e "s/'//g" "$file"
+          else
+            echo "$file not found."
+          fi
+        done
+
+######
+    - name: Download files to QuantumultX
+      run: |
+        mkdir -p Nebula-repo/Utilities/QuantumultX/Rules
+        # Apple规则
+        curl -L -o Nebula-repo/Utilities/QuantumultX/Rules/APNs.list "https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Rule/ApplePushNotificationService.list"
+        curl -L -o Nebula-repo/Utilities/QuantumultX/Rules/Lan.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list"
+        curl -L -o Nebula-repo/Utilities/QuantumultX/Rules/Apple.list "https://raw.githubusercontent.com/NobyDa/Script/master/Surge/Apple.list"
+        curl -L -o Nebula-repo/Utilities/QuantumultX/Rules/AppStore.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/rule/AppStore/AppStore.list"
+        curl -L -o Nebula-repo/Utilities/QuantumultX/Rules/AppleID.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AppleID/AppleID.list"
+        curl -L -o Nebula-repo/Utilities/QuantumultX/Rules/AppleMusic.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AppleMusic/AppleMusic.list"
+        curl -L -o Nebula-repo/Utilities/QuantumultX/Rules/TestFlight.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/TestFlight/TestFlight.list"
+        curl -L -o Nebula-repo/Utilities/QuantumultX/Rules/iCloud.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/iCloud/iCloud.list"
+        curl -L -o Nebula-repo/Utilities/QuantumultX/Rules/AppleProxy.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AppleProxy/AppleProxy.list"
+        # OpenAI
+        curl -L -o Nebula-repo/Utilities/QuantumultX/Rules/OpenAI.list "https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/QuantumultX/Rule/OpenAI.snippet"
+        curl -L -o Nebula-repo/Utilities/QuantumultX/Rules/ChatGPT_Voice.list "https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/QuantumultX/Rule/ChatGPT_Voice.snippet"
+        # Claude AI
+        curl -L -o Nebula-repo/Utilities/QuantumultX/Rules/Claude.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Claude.list"
+        # 社交媒体
+        curl -L -o Nebula-repo/Utilities/QuantumultX/Rules/Telegram.list "https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Rules/Telegram.list"
+        curl -L -o Nebula-repo/Utilities/QuantumultX/Rules/Twitter.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Twitter.list"
+        curl -L -o Nebula-repo/Utilities/QuantumultX/Rules/Instagram.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Instagram.list"
+        curl -L -o Nebula-repo/Utilities/QuantumultX/Rules/Facebook.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Facebook.list"
+        # 谷歌
+        curl -L -o Nebula-repo/Utilities/QuantumultX/Rules/YouTube.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/YouTube.list"
+        curl -L -o Nebula-repo/Utilities/QuantumultX/Rules/Google.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Google.list"
+        curl -L -o Nebula-repo/Utilities/QuantumultX/Rules/Github.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Github.list"
+        # 微软
+        curl -L -o Nebula-repo/Utilities/QuantumultX/Rules/Copilot.list "https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Rule/Copilot.list"
+        curl -L -o Nebula-repo/Utilities/QuantumultX/Rules/OneDrive.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/OneDrive.list"
+        curl -L -o Nebula-repo/Utilities/QuantumultX/Rules/Microsoft.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Microsoft.list"
+        # 流媒体
+        curl -L -o Nebula-repo/Utilities/QuantumultX/Rules/Emby.list "https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Rules/Emby.list"
+        curl -L -o Nebula-repo/Utilities/QuantumultX/Rules/TikTok.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/TikTok.list"
+        curl -L -o Nebula-repo/Utilities/QuantumultX/Rules/Netflix.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Netflix/Netflix.list"
+        curl -L -o Nebula-repo/Utilities/QuantumultX/Rules/HBO.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/HBO/HBO.list"
+        curl -L -o Nebula-repo/Utilities/QuantumultX/Rules/Disney.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Disney/Disney.list"
+        curl -L -o Nebula-repo/Utilities/QuantumultX/Rules/Spotify.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Spotify/Spotify.list"
+        curl -L -o Nebula-repo/Utilities/QuantumultX/Rules/PrimeVideo.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/PrimeVideo/PrimeVideo.list"
+        curl -L -o Nebula-repo/Utilities/QuantumultX/Rules/FitnessPlus.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/FitnessPlus/FitnessPlus.list"
+        curl -L -o Nebula-repo/Utilities/QuantumultX/Rules/AppleMedia.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AppleMedia/AppleMedia.list"
+        curl -L -o Nebula-repo/Utilities/QuantumultX/Rules/Bahamut.list "https://github.com/ACL4SSR/ACL4SSR/raw/master/Clash/Ruleset/Bahamut.list"
+        curl -L -o Nebula-repo/Utilities/QuantumultX/Rules/ProxyMedia.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list"
+        # PayPal
+        curl -L -o Nebula-repo/Utilities/QuantumultX/Rules/PayPal.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/PayPal/PayPal.list"
+        # Cloudflare
+        curl -L -o Nebula-repo/Utilities/QuantumultX/Rules/Cloudflare.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Cloudflare/Cloudflare.list"
+        # GFW
+        curl -L -o Nebula-repo/Utilities/QuantumultX/Rules/ProxyGFW.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list"
+        # Trust
+        curl -L -o Nebula-repo/Utilities/QuantumultX/Rules/Trust.list "https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Rules/Trust.list"
+        # TronLink
+        curl -L -o Nebula-repo/Utilities/QuantumultX/Rules/TronLink.list "https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Rules/TronLink.list"
+        # Talkatone
+        curl -L -o Nebula-repo/Utilities/QuantumultX/Rules/Talkatone.list "https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Rules/Talkatone.list"
+        # 国内规则
+        curl -L -o Nebula-repo/Utilities/QuantumultX/Rules/Bilibili.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bilibili.list"
+        curl -L -o Nebula-repo/Utilities/QuantumultX/Rules/WeChat.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Wechat.list"
+        curl -L -o Nebula-repo/Utilities/QuantumultX/Rules/ChinaDomain.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list"
+        curl -L -o Nebula-repo/Utilities/QuantumultX/Rules/ChinaASN.list "https://raw.githubusercontent.com/VirgilClyne/GetSomeFries/main/ruleset/ASN.China.list"
+        # 游戏规则
+        curl -L -o Nebula-repo/Utilities/QuantumultX/Rules/Steam.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Steam/Steam.list"
+        curl -L -o Nebula-repo/Utilities/QuantumultX/Rules/Epic.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Epic/Epic.list"
+        curl -L -o Nebula-repo/Utilities/QuantumultX/Rules/Game.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Game/Game.list"
+        # 防DNS泄漏
+        curl -L -o Nebula-repo/Utilities/QuantumultX/Rules/Prevent_DNS_Leaks.list "https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Rules/Prevent_DNS_Leaks.list"
+        # 广告规则
+        curl -L -o Nebula-repo/Utilities/QuantumultX/Rules/Ads_EasyListChina.list "https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/rule/Surge/easylistchina_surge.list"
+        curl -L -o Nebula-repo/Utilities/QuantumultX/Rules/Ads_EasyListPrivacy.list "https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/rule/QuantumultX/easyprivacy.list"
+        curl -L -o Nebula-repo/Utilities/QuantumultX/Rules/Ads_Dlerio.list "https://raw.githubusercontent.com/dler-io/Rules/main/Surge/Surge%203/Provider/Reject.list"
+        curl -L -o Nebula-repo/Utilities/QuantumultX/Rules/AdGuardChinese.list "https://raw.githubusercontent.com/geekdada/surge-list/master/domain-set/chinese-filter.txt"
+        curl -L -o Nebula-repo/Utilities/QuantumultX/Rules/Ads_limbopro.list "https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/Surge/rule/Adblock4limbo_surge.list"
+        # 自定义广告规则
+        curl -L -o Nebula-repo/Utilities/QuantumultX/Rules/Reject.list "https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Rules/Reject.list"
+        # ConnersHua
+        curl -L -o Nebula-repo/Utilities/QuantumultX/Rules/Ads_ConnersHua.list "https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Extra/Reject/Advertising.list"
+        curl -L -o Nebula-repo/Utilities/QuantumultX/Rules/Hijacking_ConnersHua.list "https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Extra/Reject/Hijacking.list"
+        curl -L -o Nebula-repo/Utilities/QuantumultX/Rules/Tracking_ConnersHua.list "https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Extra/Reject/Tracking.list"
+        # Lan
+        curl -L -o Nebula-repo/Utilities/QuantumultX/Rules/Lan.list "https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Rules/Lan.list"
+
+      # 适配 QuantumultX 规则
+    - name: Edit QuantumultX/Rules AdGuardChinese.list
+      run: |
+        cd Nebula-repo/Utilities/QuantumultX/Rules
+        for file in AdGuardChinese.list; do
+          if [ -f "$file" ]; then
+            # 将每一行的第一个.替换为 HOST-SUFFIX,
+            sed -i 's/^\./HOST-SUFFIX,/g' "$file"
+          else
+            echo "$file not found."
+          fi
+        done
+
+      # 适配 QuantumultX 规则
+    - name: Edit QuantumultX/Rules
+      run: |
+        cd Nebula-repo/Utilities/QuantumultX/Rules
+        for file in *.list; do
+          if [ -f "$file" ]; then
+            # 适配
+            sed -i -e 's/, /,/g' \
+                   -e 's/,REJECT$//g' \
+                   -e 's/,DIRECT$//g' \
+                   -e 's/,PROXY$//g' \
+                   -e 's/,reject$//g' \
+                   -e 's/,direct$//g' \
+                   -e 's/,proxy$//g' \
+                   -e 's/DOMAIN,/HOST,/g' \
+                   -e 's/DOMAIN-/HOST-/g' \
+                   -e 's/IP-CIDR6,/IP6-CIDR,/g' \
+                   -e 's/,no-resolve//g' \
+                   -e 's/,extended-matching$//g' \
+                   -e '/\(OR\|AND\|NOT\|PROCESS-NAME\|URL-REGEX\),/ s/^/#/' \
+                   -e 's| \{1,\}//.*$||' \
+                   -e '/# 更新：/d' \
+                   -e '/# AUTHOR:/d' \
+                   -e '/# REPO:/d' \
+                   -e '/# UPDATED:/d' \
+                   "$file"
+          else
+            echo "$file not found."
+          fi
+        done
+    
+    - name: Add policy
+      run: |
+        cd Nebula-repo/Utilities/QuantumultX/Rules
+        for file in *.list; do
+          if [ -f "$file" ]; then
+              sed -i '/^[[:space:]]*#/!s/\([^[:space:]]\)$/\1,PROXY/' "$file"
+              if echo "$file" | grep -qE "(Ads_|AdGuardChinese|ConnersHua|Reject)"; then
+                sed -i 's/,PROXY/,REJECT/g' "$file"
+              elif echo "$file" | grep -qE "(APNs|Bilibili|WeChat|China|Direct)"; then
+                sed -i 's/,PROXY/,DIRECT/g' "$file"
+              fi
+          else
+              echo "$file not found."
+          fi
+        done
+
+######
+    - name: Download files to Loon
+      run: |
+        mkdir -p Nebula-repo/Utilities/Loon/Rules
+        # Apple
+        curl -L -o Nebula-repo/Utilities/Loon/Rules/APNs.list "https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Rule/ApplePushNotificationService.list"
+        curl -L -o Nebula-repo/Utilities/Loon/Rules/Apple.list "https://raw.githubusercontent.com/NobyDa/Script/master/Surge/Apple.list"
+        curl -L -o Nebula-repo/Utilities/Loon/Rules/AppStore.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/rule/AppStore/AppStore.list"
+        curl -L -o Nebula-repo/Utilities/Loon/Rules/AppleID.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AppleID/AppleID.list"
+        curl -L -o Nebula-repo/Utilities/Loon/Rules/AppleMusic.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AppleMusic/AppleMusic.list"
+        curl -L -o Nebula-repo/Utilities/Loon/Rules/iCloud.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/iCloud/iCloud.list"
+        curl -L -o Nebula-repo/Utilities/Loon/Rules/TestFlight.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/TestFlight/TestFlight.list"
+        curl -L -o Nebula-repo/Utilities/Loon/Rules/AppleProxy.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AppleProxy/AppleProxy.list"
+        # OpenAI
+        curl -L -o Nebula-repo/Utilities/Loon/Rules/OpenAI.list "https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Rule/OpenAI.list"
+        curl -L -o Nebula-repo/Utilities/Loon/Rules/ChatGPT_Voice.list "https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Rule/ChatGPT_Voice.list"
+        # Claude AI
+        curl -L -o Nebula-repo/Utilities/Loon/Rules/Claude.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Claude.list"
+        # 社交媒体
+        curl -L -o Nebula-repo/Utilities/Loon/Rules/Telegram.list "https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Rules/Telegram.list"
+        curl -L -o Nebula-repo/Utilities/Loon/Rules/Twitter.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Twitter.list"
+        curl -L -o Nebula-repo/Utilities/Loon/Rules/Instagram.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Instagram.list"
+        curl -L -o Nebula-repo/Utilities/Loon/Rules/Facebook.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Facebook.list"
+        # 谷歌
+        curl -L -o Nebula-repo/Utilities/Loon/Rules/YouTube.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/YouTube.list"
+        curl -L -o Nebula-repo/Utilities/Loon/Rules/Google.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Google.list"
+        # 微软
+        curl -L -o Nebula-repo/Utilities/Loon/Rules/Copilot.list "https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Rule/Copilot.list"
+        curl -L -o Nebula-repo/Utilities/Loon/Rules/Github.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Github.list"
+        curl -L -o Nebula-repo/Utilities/Loon/Rules/OneDrive.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/OneDrive.list"
+        curl -L -o Nebula-repo/Utilities/Loon/Rules/Microsoft.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Microsoft.list"
+        # 流媒体
+        curl -L -o Nebula-repo/Utilities/Loon/Rules/TikTok.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/TikTok.list"
+        curl -L -o Nebula-repo/Utilities/Loon/Rules/Netflix.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Netflix/Netflix.list"
+        curl -L -o Nebula-repo/Utilities/Loon/Rules/HBO.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/HBO/HBO.list"
+        curl -L -o Nebula-repo/Utilities/Loon/Rules/Disney.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Disney/Disney.list"
+        curl -L -o Nebula-repo/Utilities/Loon/Rules/Spotify.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Spotify/Spotify.list"
+        curl -L -o Nebula-repo/Utilities/Loon/Rules/PrimeVideo.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/PrimeVideo/PrimeVideo.list"
+        curl -L -o Nebula-repo/Utilities/Loon/Rules/FitnessPlus.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/FitnessPlus/FitnessPlus.list"
+        curl -L -o Nebula-repo/Utilities/Loon/Rules/AppleMedia.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AppleMedia/AppleMedia.list"
+        curl -L -o Nebula-repo/Utilities/Loon/Rules/Bahamut.list "https://github.com/ACL4SSR/ACL4SSR/raw/master/Clash/Ruleset/Bahamut.list"
+        curl -L -o Nebula-repo/Utilities/Loon/Rules/ProxyMedia.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list"
+        curl -L -o Nebula-repo/Utilities/Loon/Rules/Emby.list "https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Rules/Emby.list"
+        # Cloudflare
+        curl -L -o Nebula-repo/Utilities/Loon/Rules/Cloudflare.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Cloudflare/Cloudflare.list"
+        # PayPal
+        curl -L -o Nebula-repo/Utilities/Loon/Rules/PayPal.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/PayPal/PayPal.list"
+        # GFW
+        curl -L -o Nebula-repo/Utilities/Loon/Rules/ProxyGFW.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list"
+        # Trust
+        curl -L -o Nebula-repo/Utilities/Loon/Rules/Trust.list "https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Rules/Trust.list"
+        # TronLink
+        curl -L -o Nebula-repo/Utilities/Loon/Rules/TronLink.list "https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Rules/TronLink.list"
+        # Talkatone
+        curl -L -o Nebula-repo/Utilities/Loon/Rules/Talkatone.list "https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Rules/Talkatone.list"
+        # 国内规则 
+        curl -L -o Nebula-repo/Utilities/Loon/Rules/Bilibili.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bilibili.list"
+        curl -L -o Nebula-repo/Utilities/Loon/Rules/WeChat.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Wechat.list"
+        curl -L -o Nebula-repo/Utilities/Loon/Rules/ChinaDomain.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list"
+        curl -L -o Nebula-repo/Utilities/Loon/Rules/ChinaASN.list "https://raw.githubusercontent.com/VirgilClyne/GetSomeFries/main/ruleset/ASN.China.list"
+        # 游戏规则 
+        curl -L -o Nebula-repo/Utilities/Loon/Rules/Game.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Game/Game.list"
+        curl -L -o Nebula-repo/Utilities/Loon/Rules/Steam.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Steam/Steam.list"
+        curl -L -o Nebula-repo/Utilities/Loon/Rules/Epic.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Epic/Epic.list"
+        # 广告规则 
+        curl -L -o Nebula-repo/Utilities/Loon/Rules/Ads_EasyListChina.list "https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/rule/Surge/easylistchina_surge.list"
+        curl -L -o Nebula-repo/Utilities/Loon/Rules/Ads_EasyListPrivacy.list "https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/rule/Surge/easyprivacy_surge.list"
+        curl -L -o Nebula-repo/Utilities/Loon/Rules/Ads_Dlerio.list "https://raw.githubusercontent.com/dler-io/Rules/main/Surge/Surge%203/Provider/Reject.list"
+        curl -L -o Nebula-repo/Utilities/Loon/Rules/Ads_RuCu6.list "https://raw.githubusercontent.com/RuCu6/QuanX/main/Rules/MyBlockAds.list"
+        curl -L -o Nebula-repo/Utilities/Loon/Rules/AdGuardChinese.list "https://raw.githubusercontent.com/geekdada/surge-list/master/domain-set/chinese-filter.txt"
+        curl -L -o Nebula-repo/Utilities/Loon/Rules/Ads_limbopro.list "https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/Surge/rule/Adblock4limbo_surge.list"
+        # 自定义广告规则
+        curl -L -o Nebula-repo/Utilities/Loon/Rules/Reject.list "https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Rules/Reject.list"
+        # fmz200
+        curl -L -o Nebula-repo/Utilities/Loon/Rules/Direct_fmz200.list "https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/filter/fenliuxiuzheng.list"
+        curl -L -o Nebula-repo/Utilities/Loon/Rules/Ads_fmz200.list "https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/filter/fenliu.list"
+        # ConnersHua
+        curl -L -o Nebula-repo/Utilities/Loon/Rules/Ads_ConnersHua.list "https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Extra/Reject/Advertising.list"
+        curl -L -o Nebula-repo/Utilities/Loon/Rules/Hijacking_ConnersHua.list "https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Extra/Reject/Hijacking.list"
+        curl -L -o Nebula-repo/Utilities/Loon/Rules/Tracking_ConnersHua.list "https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Extra/Reject/Tracking.list"
+        # Lan
+        curl -L -o Nebula-repo/Utilities/Loon/Rules/Lan.list "https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Rules/Lan.list"
+
+      # 适配 Loon 规则
+    - name: Edit Loon/Rules
+      run: |
+        cd Nebula-repo/Utilities/Loon/Rules
+        for file in *.list; do
+          if [ "$file" != "Lan.list" ] ; then
+            # 适配
+            sed -i -e 's/, /,/g' \
+                   -e 's/;/# /g' \
+                   -e 's/host,/HOST,/g' \
+                   -e 's/host-/HOST-/g' \
+                   -e 's/-suffix/-SUFFIX/g' \
+                   -e 's/-keyword/-KEYWORD/g' \
+                   -e 's/ip-cidr/IP-CIDR/g' \
+                   -e 's/geoip/GEOIP/g' \
+                   -e 's/HOST,/DOMAIN,/g' \
+                   -e 's/HOST-/DOMAIN-/g' \
+                   -e 's/IP6-CIDR,/IP-CIDR6,/g' \
+                   -e 's/,REJECT$//g' \
+                   -e 's/,DIRECT$//g' \
+                   -e 's/,reject$//g' \
+                   -e 's/,direct$//g' \
+                   -e 's/,extended-matching$//g' \
+                   -e '/\(OR\|AND\|NOT\|PROCESS-NAME\),/ s/^/#/' \
+                   -e '/# 更新：/d' \
+                   -e '/# AUTHOR:/d' \
+                   -e '/# REPO:/d' \
+                   -e '/# UPDATED:/d' \
+                   "$file"
+            # 如果为IP规则且不包含no-resolve 则添加no-resolve
+            awk '/^IP-/ && !/,no-resolve/ {print $0",no-resolve"; next} {print}' "$file" > tmpfile
+            mv tmpfile "$file"
+          else
+            echo "$file not found."
+          fi
+        done
+
+      # 适配 Loon 规则
+    - name: Edit Loon/Rules AdGuardChinese.list
+      run: |
+        cd Nebula-repo/Utilities/Loon/Rules
+        for file in AdGuardChinese.list; do
+          if [ -f "$file" ]; then
+            # 将每一行的第一个.替换为 DOMAIN-SUFFIX,
+            sed -i 's/^\./DOMAIN-SUFFIX,/g' "$file"
+          else
+            echo "$file not found."
+          fi
+        done
+
+      # Fork 可莉插件、脚本
+    - name: Fork lodepuly Plugin&Script
+      run: |
+        rm -rf Nebula-repo/Utilities/Loon/Plugin/lodepuly/*
+        rm -rf Nebula-repo/Utilities/Loon/Script/lodepuly/*
+        mkdir -p Nebula-repo/Utilities/Loon/Plugin/lodepuly
+        git clone https://gitlab.com/lodepuly/vpn_tool.git lodepuly_Tmp
+        cp -r lodepuly_Tmp/Tool/Loon/Plugin/* Nebula-repo/Utilities/Loon/Plugin/lodepuly
+        cp -r lodepuly_Tmp/Resource/Script/* Nebula-repo/Utilities/Loon/Script/lodepuly/
+        rm -rf lodepuly_Tmp   
+
+      # 修改脚本链接
+    - name: Edit Loon/Plugin
+      run: |
+        cd Nebula-repo/Utilities/Loon/Plugin/lodepuly
+        for file in *.plugin; do
+          if [ "$file" ] ; then
+            # 修改脚本链接
+            sed -i 's/gitlab\.com\/lodepuly\/vpn_tool\/-\/raw\/master\/Resource\/Script/raw.githubusercontent\.com\/axtyet\/Nebula\/main\/Utilities\/Loon\/Script\/lodepuly/g' "$file"
+          else
+            echo "$file not found."
+          fi
+        done
+
+######
+    - name: Download files to Shadowrocket
+      run: |
+        mkdir -p Nebula-repo/Utilities/Shadowrocket/Rules
+        # Apple
+        curl -L -o Nebula-repo/Utilities/Shadowrocket/Rules/APNs.list "https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Rule/ApplePushNotificationService.list"
+        curl -L -o Nebula-repo/Utilities/Shadowrocket/Rules/Apple.list "https://raw.githubusercontent.com/NobyDa/Script/master/Surge/Apple.list"
+        curl -L -o Nebula-repo/Utilities/Shadowrocket/Rules/AppStore.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/rule/AppStore/AppStore.list"
+        curl -L -o Nebula-repo/Utilities/Shadowrocket/Rules/AppleID.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AppleID/AppleID.list"
+        curl -L -o Nebula-repo/Utilities/Shadowrocket/Rules/AppleMusic.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AppleMusic/AppleMusic.list"
+        curl -L -o Nebula-repo/Utilities/Shadowrocket/Rules/iCloud.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/iCloud/iCloud.list"
+        curl -L -o Nebula-repo/Utilities/Shadowrocket/Rules/TestFlight.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/TestFlight/TestFlight.list"
+        curl -L -o Nebula-repo/Utilities/Shadowrocket/Rules/AppleProxy.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AppleProxy/AppleProxy.list"
+        # OpenAI
+        curl -L -o Nebula-repo/Utilities/Shadowrocket/Rules/OpenAI.list "https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Rule/OpenAI.list"
+        curl -L -o Nebula-repo/Utilities/Shadowrocket/Rules/ChatGPT_Voice.list "https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Rule/ChatGPT_Voice.list"
+        # Claude AI
+        curl -L -o Nebula-repo/Utilities/Shadowrocket/Rules/Claude.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Claude.list"
+        # 社交媒体
+        curl -L -o Nebula-repo/Utilities/Shadowrocket/Rules/Telegram.list "https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Rules/Telegram.list"
+        curl -L -o Nebula-repo/Utilities/Shadowrocket/Rules/Twitter.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Twitter.list"
+        curl -L -o Nebula-repo/Utilities/Shadowrocket/Rules/Instagram.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Instagram.list"
+        curl -L -o Nebula-repo/Utilities/Shadowrocket/Rules/Facebook.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Facebook.list"
+        # 谷歌
+        curl -L -o Nebula-repo/Utilities/Shadowrocket/Rules/YouTube.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/YouTube.list"
+        curl -L -o Nebula-repo/Utilities/Shadowrocket/Rules/Google.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Google.list"
+        # 微软
+        curl -L -o Nebula-repo/Utilities/Shadowrocket/Rules/Copilot.list "https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Rule/Copilot.list"
+        curl -L -o Nebula-repo/Utilities/Shadowrocket/Rules/Github.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Github.list"
+        curl -L -o Nebula-repo/Utilities/Shadowrocket/Rules/OneDrive.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/OneDrive.list"
+        curl -L -o Nebula-repo/Utilities/Shadowrocket/Rules/Microsoft.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Microsoft.list"
+        # 流媒体
+        curl -L -o Nebula-repo/Utilities/Shadowrocket/Rules/TikTok.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/TikTok.list"
+        curl -L -o Nebula-repo/Utilities/Shadowrocket/Rules/Netflix.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Netflix/Netflix.list"
+        curl -L -o Nebula-repo/Utilities/Shadowrocket/Rules/HBO.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/HBO/HBO.list"
+        curl -L -o Nebula-repo/Utilities/Shadowrocket/Rules/Disney.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Disney/Disney.list"
+        curl -L -o Nebula-repo/Utilities/Shadowrocket/Rules/Spotify.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Spotify/Spotify.list"
+        curl -L -o Nebula-repo/Utilities/Shadowrocket/Rules/PrimeVideo.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/PrimeVideo/PrimeVideo.list"
+        curl -L -o Nebula-repo/Utilities/Shadowrocket/Rules/FitnessPlus.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/FitnessPlus/FitnessPlus.list"
+        curl -L -o Nebula-repo/Utilities/Shadowrocket/Rules/AppleMedia.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AppleMedia/AppleMedia.list"
+        curl -L -o Nebula-repo/Utilities/Shadowrocket/Rules/Bahamut.list "https://github.com/ACL4SSR/ACL4SSR/raw/master/Clash/Ruleset/Bahamut.list"
+        curl -L -o Nebula-repo/Utilities/Shadowrocket/Rules/ProxyMedia.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list"
+        curl -L -o Nebula-repo/Utilities/Shadowrocket/Rules/Emby.list "https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Rules/Emby.list"
+        # PayPal
+        curl -L -o Nebula-repo/Utilities/Shadowrocket/Rules/PayPal.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/PayPal/PayPal.list"
+        # Cloudflare
+        curl -L -o Nebula-repo/Utilities/Shadowrocket/Rules/Cloudflare.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Cloudflare/Cloudflare.list"
+        # GFW
+        curl -L -o Nebula-repo/Utilities/Shadowrocket/Rules/ProxyGFW.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list"
+        # Trust
+        curl -L -o Nebula-repo/Utilities/Shadowrocket/Rules/Trust.list "https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Rules/Trust.list"
+        # TronLink
+        curl -L -o Nebula-repo/Utilities/Shadowrocket/Rules/TronLink.list "https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Rules/TronLink.list"
+        # Talkatone
+        curl -L -o Nebula-repo/Utilities/Shadowrocket/Rules/Talkatone.list "https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Rules/Talkatone.list"
+        # 国内规则 
+        curl -L -o Nebula-repo/Utilities/Shadowrocket/Rules/Bilibili.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bilibili.list"
+        curl -L -o Nebula-repo/Utilities/Shadowrocket/Rules/WeChat.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Wechat.list"
+        curl -L -o Nebula-repo/Utilities/Shadowrocket/Rules/ChinaDomain.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list"
+        curl -L -o Nebula-repo/Utilities/Shadowrocket/Rules/ChinaASN.list "https://raw.githubusercontent.com/VirgilClyne/GetSomeFries/main/ruleset/ASN.China.list"
+        # 游戏规则 
+        curl -L -o Nebula-repo/Utilities/Shadowrocket/Rules/Game.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Game/Game.list"
+        curl -L -o Nebula-repo/Utilities/Shadowrocket/Rules/Steam.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Steam/Steam.list"
+        curl -L -o Nebula-repo/Utilities/Shadowrocket/Rules/Epic.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Epic/Epic.list"
+        # 广告规则 
+        curl -L -o Nebula-repo/Utilities/Shadowrocket/Rules/Ads_EasyListChina.list "https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/rule/Surge/easylistchina_surge.list"
+        curl -L -o Nebula-repo/Utilities/Shadowrocket/Rules/Ads_EasyListPrivacy.list "https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/rule/Surge/easyprivacy_surge.list"
+        curl -L -o Nebula-repo/Utilities/Shadowrocket/Rules/Ads_Dlerio.list "https://raw.githubusercontent.com/dler-io/Rules/main/Surge/Surge%203/Provider/Reject.list"
+        curl -L -o Nebula-repo/Utilities/Shadowrocket/Rules/Ads_RuCu6.list "https://raw.githubusercontent.com/RuCu6/QuanX/main/Rules/MyBlockAds.list"
+        curl -L -o Nebula-repo/Utilities/Shadowrocket/Rules/AdGuardChinese.list "https://raw.githubusercontent.com/geekdada/surge-list/master/domain-set/chinese-filter.txt"
+        curl -L -o Nebula-repo/Utilities/Shadowrocket/Rules/Ads_limbopro.list "https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/Surge/rule/Adblock4limbo_surge.list"
+        # 自定义广告规则
+        curl -L -o Nebula-repo/Utilities/Shadowrocket/Rules/Reject.list "https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Rules/Reject.list"
+        # fmz200
+        curl -L -o Nebula-repo/Utilities/Shadowrocket/Rules/Direct_fmz200.list "https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/filter/fenliuxiuzheng.list"
+        curl -L -o Nebula-repo/Utilities/Shadowrocket/Rules/Ads_fmz200.list "https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/filter/fenliu.list"
+        # ConnersHua
+        curl -L -o Nebula-repo/Utilities/Shadowrocket/Rules/Ads_ConnersHua.list "https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Extra/Reject/Advertising.list"
+        curl -L -o Nebula-repo/Utilities/Shadowrocket/Rules/Hijacking_ConnersHua.list "https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Extra/Reject/Hijacking.list"
+        curl -L -o Nebula-repo/Utilities/Shadowrocket/Rules/Tracking_ConnersHua.list "https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Extra/Reject/Tracking.list"
+        # Lan
+        curl -L -o Nebula-repo/Utilities/Shadowrocket/Rules/Lan.list "https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Rules/Lan.list"
+        # AD-QQMusic
+        curl -L -o Nebula-repo/Utilities/Shadowrocket/Rules/Ads_QQMusic.list "https://raw.githubusercontent.com/Repcz/Tool/X/QuantumultX/Rules/Ads_QQMusic.list"
+
+
+      # 适配 Shadowrocket 规则
+    - name: Edit Shadowrocket/Rules/AdGuardChinese.list
+      run: |
+        cd Nebula-repo/Utilities/Shadowrocket/Rules
+        for file in AdGuardChinese.list; do
+          if [ -f "$file" ]; then
+          # 将每一行的第一个.替换为 DOMAIN-SUFFIX,
+          sed -i 's/^\./DOMAIN-SUFFIX,/g' "$file"
+          else
+            echo "$file not found."
+          fi
+        done
+
+      # 适配 Shadowrocket 规则
+    - name: Edit Shadowrocket/Rules
+      run: |
+        cd Nebula-repo/Utilities/Shadowrocket/Rules
+        for file in *.list; do
+          if [ "$file" != "Lan.list" ] ; then
+            sed -i -e 's/, /,/g' \
+                   -e 's/;/# /g' \
+                   -e 's/host,/HOST,/g' \
+                   -e 's/host-/HOST-/g' \
+                   -e 's/-suffix/-SUFFIX/g' \
+                   -e 's/-keyword/-KEYWORD/g' \
+                   -e 's/ip-cidr/IP-CIDR/g' \
+                   -e 's/geoip/GEOIP/g' \
+                   -e 's/HOST,/DOMAIN,/g' \
+                   -e 's/HOST-/DOMAIN-/g' \
+                   -e 's/IP6-CIDR,/IP-CIDR6,/g' \
+                   -e 's/,REJECT$//g' \
+                   -e 's/,DIRECT$//g' \
+                   -e 's/,reject$//g' \
+                   -e 's/,direct$//g' \
+                   -e 's/,extended-matching$//g' \
+                   -e '/\(PROCESS-NAME\),/ s/^/#/' \
+                   -e '/# 更新：/d' \
+                   -e '/# AUTHOR:/d' \
+                   -e '/# REPO:/d' \
+                   -e '/# UPDATED:/d' \
+                   "$file"
+            # 如果为IP规则且不包含no-resolve 则添加no-resolve
+            awk '/^IP-/ && !/,no-resolve/ {print $0",no-resolve"; next} {print}' "$file" > tmpfile
+            mv tmpfile "$file"
+          else
+            echo "$file not found."
+          fi
+        done
+    
+
+######
+    - name: Download files to Stash
+      run: |
+        mkdir -p Nebula-repo/Utilities/Stash/Rules
+
+        #### YAML ####
+        # 苹果
+        curl -L -o Nebula-repo/Utilities/Stash/Rules/APNs.yaml "https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Rule/ApplePushNotificationService.list"
+        curl -L -o Nebula-repo/Utilities/Stash/Rules/Apple.yaml "https://raw.githubusercontent.com/NobyDa/Script/master/Surge/Apple.list"
+        curl -L -o Nebula-repo/Utilities/Stash/Rules/AppStore.yaml "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/rule/AppStore/AppStore.list"
+        curl -L -o Nebula-repo/Utilities/Stash/Rules/AppleID.yaml "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AppleID/AppleID.list"
+        curl -L -o Nebula-repo/Utilities/Stash/Rules/AppleMusic.yaml "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AppleMusic/AppleMusic.list"
+        curl -L -o Nebula-repo/Utilities/Stash/Rules/iCloud.yaml "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/iCloud/iCloud.list"
+        curl -L -o Nebula-repo/Utilities/Stash/Rules/TestFlight.yaml "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/TestFlight/TestFlight.list"
+        curl -L -o Nebula-repo/Utilities/Stash/Rules/AppleProxy.yaml "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AppleProxy/AppleProxy.list"
+        # OpenAI
+        curl -L -o Nebula-repo/Utilities/Stash/Rules/OpenAI.yaml "https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Rule/OpenAI.list"
+        curl -L -o Nebula-repo/Utilities/Stash/Rules/ChatGPT_Voice.yaml "https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Rule/ChatGPT_Voice.list"
+        # Claude AI
+        curl -L -o Nebula-repo/Utilities/Stash/Rules/Claude.yaml "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Claude.list"
+        # 社交媒体
+        curl -L -o Nebula-repo/Utilities/Stash/Rules/Telegram.yaml "https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Rules/Telegram.list"
+        curl -L -o Nebula-repo/Utilities/Stash/Rules/Twitter.yaml "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Twitter.list"
+        curl -L -o Nebula-repo/Utilities/Stash/Rules/Instagram.yaml "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Instagram.list"
+        curl -L -o Nebula-repo/Utilities/Stash/Rules/Facebook.yaml "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Facebook.list"
+        # 谷歌
+        curl -L -o Nebula-repo/Utilities/Stash/Rules/YouTube.yaml "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/YouTube.list"
+        curl -L -o Nebula-repo/Utilities/Stash/Rules/Google.yaml "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Google.list"
+        # 微软
+        curl -L -o Nebula-repo/Utilities/Stash/Rules/Copilot.yaml "https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Rule/Copilot.list"
+        curl -L -o Nebula-repo/Utilities/Stash/Rules/Github.yaml "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Github.list"
+        curl -L -o Nebula-repo/Utilities/Stash/Rules/OneDrive.yaml "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/OneDrive.list"
+        curl -L -o Nebula-repo/Utilities/Stash/Rules/Microsoft.yaml "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Microsoft.list"
+        # 流媒体
+        curl -L -o Nebula-repo/Utilities/Stash/Rules/TikTok.yaml "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/TikTok.list"
+        curl -L -o Nebula-repo/Utilities/Stash/Rules/Netflix.yaml "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Netflix/Netflix.list"
+        curl -L -o Nebula-repo/Utilities/Stash/Rules/HBO.yaml "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/HBO/HBO.list"
+        curl -L -o Nebula-repo/Utilities/Stash/Rules/Disney.yaml "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Disney/Disney.list"
+        curl -L -o Nebula-repo/Utilities/Stash/Rules/Spotify.yaml "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Spotify/Spotify.list"
+        curl -L -o Nebula-repo/Utilities/Stash/Rules/PrimeVideo.yaml "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/PrimeVideo/PrimeVideo.list"
+        curl -L -o Nebula-repo/Utilities/Stash/Rules/FitnessPlus.yaml "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/FitnessPlus/FitnessPlus.list"
+        curl -L -o Nebula-repo/Utilities/Stash/Rules/AppleMedia.yaml "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AppleMedia/AppleMedia.list"
+        curl -L -o Nebula-repo/Utilities/Stash/Rules/Bahamut.yaml "https://github.com/ACL4SSR/ACL4SSR/raw/master/Clash/Ruleset/Bahamut.list"
+        curl -L -o Nebula-repo/Utilities/Stash/Rules/ProxyMedia.yaml "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list"
+        curl -L -o Nebula-repo/Utilities/Stash/Rules/Emby.yaml "https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Rules/Emby.list"
+        # 国内规则 
+        curl -L -o Nebula-repo/Utilities/Stash/Rules/Bilibili.yaml "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bilibili.list"
+        curl -L -o Nebula-repo/Utilities/Stash/Rules/WeChat.yaml "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Wechat.list"
+        curl -L -o Nebula-repo/Utilities/Stash/Rules/ChinaDomain.yaml "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list"
+        curl -L -o Nebula-repo/Utilities/Stash/Rules/ChinaASN.yaml "https://raw.githubusercontent.com/VirgilClyne/GetSomeFries/main/ruleset/ASN.China.list"
+        # PayPal
+        curl -L -o Nebula-repo/Utilities/Stash/Rules/PayPal.yaml "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/PayPal/PayPal.list"
+        # Cloudflare
+        curl -L -o Nebula-repo/Utilities/Stash/Rules/Cloudflare.yaml "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Cloudflare/Cloudflare.list"
+        # GFW
+        curl -L -o Nebula-repo/Utilities/Stash/Rules/ProxyGFW.yaml "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list"
+        # Trust
+        curl -L -o Nebula-repo/Utilities/Stash/Rules/Trust.yaml "https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Rules/Trust.list"
+        # TronLink
+        curl -L -o Nebula-repo/Utilities/Stash/Rules/TronLink.yaml "https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Rules/TronLink.list"
+        # Talkatone
+        curl -L -o Nebula-repo/Utilities/Stash/Rules/Talkatone.yaml "https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Rules/Talkatone.list"
+        # 游戏规则 
+        curl -L -o Nebula-repo/Utilities/Stash/Rules/Game.yaml "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Game/Game.list"
+        curl -L -o Nebula-repo/Utilities/Stash/Rules/Steam.yaml "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Steam/Steam.list"
+        curl -L -o Nebula-repo/Utilities/Stash/Rules/Epic.yaml "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Epic/Epic.list"
+        # 广告规则 
+        curl -L -o Nebula-repo/Utilities/Stash/Rules/Ads_EasyListChina.yaml "https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/rule/Surge/easylistchina_surge.list"
+        curl -L -o Nebula-repo/Utilities/Stash/Rules/Ads_EasyListPrivacy.yaml "https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/rule/Surge/easyprivacy_surge.list"
+        curl -L -o Nebula-repo/Utilities/Stash/Rules/Ads_Dlerio.yaml "https://raw.githubusercontent.com/dler-io/Rules/main/Surge/Surge%203/Provider/Reject.list"
+        curl -L -o Nebula-repo/Utilities/Stash/Rules/AdGuardChinese.yaml "https://raw.githubusercontent.com/geekdada/surge-list/master/domain-set/chinese-filter.txt"
+        curl -L -o Nebula-repo/Utilities/Stash/Rules/Ads_RuCu6.yaml "https://raw.githubusercontent.com/RuCu6/QuanX/main/Rules/MyBlockAds.list"
+        # 自定义广告规则
+        curl -L -o Nebula-repo/Utilities/Stash/Rules/Reject.yaml "https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Rules/Reject.list"
+        # ConnersHua
+        curl -L -o Nebula-repo/Utilities/Stash/Rules/Ads_ConnersHua.yaml "https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Extra/Reject/Advertising.list"
+        curl -L -o Nebula-repo/Utilities/Stash/Rules/Hijacking_ConnersHua.yaml "https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Extra/Reject/Hijacking.list"
+        curl -L -o Nebula-repo/Utilities/Stash/Rules/Tracking_ConnersHua.yaml "https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Extra/Reject/Tracking.list"
+        # fmz200
+        curl -L -o Nebula-repo/Utilities/Stash/Rules/Direct_fmz200.yaml "https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/filter/fenliuxiuzheng.list"
+        curl -L -o Nebula-repo/Utilities/Stash/Rules/Ads_fmz200.yaml "https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/filter/fenliu.list"
+        # Lan
+        curl -L -o Nebula-repo/Utilities/Stash/Rules/Lan.yaml "https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Rules/Lan.list"
+        # QQ音乐广告规则
+        curl -L -o Nebula-repo/Utilities/Stash/Rules/Ads_QQMusic.yaml "https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Rules/Ads_QQMusic.list"
+
+        #### TEXT ####
+        # 苹果
+        curl -L -o Nebula-repo/Utilities/Stash/Rules/APNs.list "https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Rule/ApplePushNotificationService.list"
+        curl -L -o Nebula-repo/Utilities/Stash/Rules/Apple.list "https://raw.githubusercontent.com/NobyDa/Script/master/Surge/Apple.list"
+        curl -L -o Nebula-repo/Utilities/Stash/Rules/AppStore.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/rule/AppStore/AppStore.list"
+        curl -L -o Nebula-repo/Utilities/Stash/Rules/AppleID.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AppleID/AppleID.list"
+        curl -L -o Nebula-repo/Utilities/Stash/Rules/AppleMusic.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AppleMusic/AppleMusic.list"
+        curl -L -o Nebula-repo/Utilities/Stash/Rules/iCloud.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/iCloud/iCloud.list"
+        curl -L -o Nebula-repo/Utilities/Stash/Rules/TestFlight.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/TestFlight/TestFlight.list"
+        curl -L -o Nebula-repo/Utilities/Stash/Rules/AppleProxy.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AppleProxy/AppleProxy.list"
+        # OpenAI
+        curl -L -o Nebula-repo/Utilities/Stash/Rules/OpenAI.list "https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Rule/OpenAI.list"
+        curl -L -o Nebula-repo/Utilities/Stash/Rules/ChatGPT_Voice.list "https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Rule/ChatGPT_Voice.list"
+        # Claude AI
+        curl -L -o Nebula-repo/Utilities/Stash/Rules/Claude.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Claude.list"
+        # 社交媒体
+        curl -L -o Nebula-repo/Utilities/Stash/Rules/Telegram.list "https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Rules/Telegram.list"
+        curl -L -o Nebula-repo/Utilities/Stash/Rules/Twitter.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Twitter.list"
+        curl -L -o Nebula-repo/Utilities/Stash/Rules/Instagram.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Instagram.list"
+        curl -L -o Nebula-repo/Utilities/Stash/Rules/Facebook.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Facebook.list"
+        # 谷歌
+        curl -L -o Nebula-repo/Utilities/Stash/Rules/YouTube.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/YouTube.list"
+        curl -L -o Nebula-repo/Utilities/Stash/Rules/Google.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Google.list"
+        # 微软
+        curl -L -o Nebula-repo/Utilities/Stash/Rules/Copilot.list "https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Rule/Copilot.list"
+        curl -L -o Nebula-repo/Utilities/Stash/Rules/Github.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Github.list"
+        curl -L -o Nebula-repo/Utilities/Stash/Rules/OneDrive.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/OneDrive.list"
+        curl -L -o Nebula-repo/Utilities/Stash/Rules/Microsoft.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Microsoft.list"
+        # 流媒体
+        curl -L -o Nebula-repo/Utilities/Stash/Rules/TikTok.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/TikTok.list"
+        curl -L -o Nebula-repo/Utilities/Stash/Rules/Netflix.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Netflix/Netflix.list"
+        curl -L -o Nebula-repo/Utilities/Stash/Rules/HBO.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/HBO/HBO.list"
+        curl -L -o Nebula-repo/Utilities/Stash/Rules/Disney.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Disney/Disney.list"
+        curl -L -o Nebula-repo/Utilities/Stash/Rules/Spotify.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Spotify/Spotify.list"
+        curl -L -o Nebula-repo/Utilities/Stash/Rules/PrimeVideo.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/PrimeVideo/PrimeVideo.list"
+        curl -L -o Nebula-repo/Utilities/Stash/Rules/FitnessPlus.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/FitnessPlus/FitnessPlus.list"
+        curl -L -o Nebula-repo/Utilities/Stash/Rules/AppleMedia.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AppleMedia/AppleMedia.list"
+        curl -L -o Nebula-repo/Utilities/Stash/Rules/Bahamut.list "https://github.com/ACL4SSR/ACL4SSR/raw/master/Clash/Ruleset/Bahamut.list"
+        curl -L -o Nebula-repo/Utilities/Stash/Rules/ProxyMedia.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list"
+        curl -L -o Nebula-repo/Utilities/Stash/Rules/Emby.list "https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Rules/Emby.list"
+        # 国内规则 
+        curl -L -o Nebula-repo/Utilities/Stash/Rules/Bilibili.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bilibili.list"
+        curl -L -o Nebula-repo/Utilities/Stash/Rules/WeChat.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Wechat.list"
+        curl -L -o Nebula-repo/Utilities/Stash/Rules/ChinaDomain.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list"
+        curl -L -o Nebula-repo/Utilities/Stash/Rules/ChinaASN.list "https://raw.githubusercontent.com/VirgilClyne/GetSomeFries/main/ruleset/ASN.China.list"
+        # PayPal
+        curl -L -o Nebula-repo/Utilities/Stash/Rules/PayPal.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/PayPal/PayPal.list"
+        # Cloudflare
+        curl -L -o Nebula-repo/Utilities/Stash/Rules/Cloudflare.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Cloudflare/Cloudflare.list"
+        # GFW
+        curl -L -o Nebula-repo/Utilities/Stash/Rules/ProxyGFW.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list"
+        # Trust
+        curl -L -o Nebula-repo/Utilities/Stash/Rules/Trust.list "https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Rules/Trust.list"
+        # TronLink
+        curl -L -o Nebula-repo/Utilities/Stash/Rules/TronLink.list "https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Rules/TronLink.list"
+        # Talkatone
+        curl -L -o Nebula-repo/Utilities/Stash/Rules/Talkatone.list "https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Rules/Talkatone.list"
+        # 游戏规则 
+        curl -L -o Nebula-repo/Utilities/Stash/Rules/Game.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Game/Game.list"
+        curl -L -o Nebula-repo/Utilities/Stash/Rules/Steam.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Steam/Steam.list"
+        curl -L -o Nebula-repo/Utilities/Stash/Rules/Epic.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Epic/Epic.list"
+        # 广告规则 
+        curl -L -o Nebula-repo/Utilities/Stash/Rules/Ads_EasyListChina.list "https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/rule/Surge/easylistchina_surge.list"
+        curl -L -o Nebula-repo/Utilities/Stash/Rules/Ads_EasyListPrivacy.list "https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/rule/Surge/easyprivacy_surge.list"
+        curl -L -o Nebula-repo/Utilities/Stash/Rules/Ads_Dlerio.list "https://raw.githubusercontent.com/dler-io/Rules/main/Surge/Surge%203/Provider/Reject.list"
+        curl -L -o Nebula-repo/Utilities/Stash/Rules/AdGuardChinese.list "https://raw.githubusercontent.com/geekdada/surge-list/master/domain-set/chinese-filter.txt"
+        curl -L -o Nebula-repo/Utilities/Stash/Rules/Ads_RuCu6.list "https://raw.githubusercontent.com/RuCu6/QuanX/main/Rules/MyBlockAds.list"
+        # 自定义广告规则
+        curl -L -o Nebula-repo/Utilities/Stash/Rules/Reject.list "https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Rules/Reject.list"
+        # QQ音乐广告规则
+        curl -L -o Nebula-repo/Utilities/Stash/Rules/Ads_QQMusic.list "https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Rules/Ads_QQMusic.list"
+        # ConnersHua
+        curl -L -o Nebula-repo/Utilities/Stash/Rules/Ads_ConnersHua.list "https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Extra/Reject/Advertising.list"
+        curl -L -o Nebula-repo/Utilities/Stash/Rules/Hijacking_ConnersHua.list "https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Extra/Reject/Hijacking.list"
+        curl -L -o Nebula-repo/Utilities/Stash/Rules/Tracking_ConnersHua.list "https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Extra/Reject/Tracking.list"
+        # fmz200
+        curl -L -o Nebula-repo/Utilities/Stash/Rules/Direct_fmz200.list "https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/filter/fenliuxiuzheng.list"
+        curl -L -o Nebula-repo/Utilities/Stash/Rules/Ads_fmz200.list "https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/filter/fenliu.list"
+        # Lan
+        curl -L -o Nebula-repo/Utilities/Stash/Rules/Lan.list "https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Rules/Lan.list"
+
+
+      # 适配 Stash 规则
+    - name: Edit Stash/Rules AdGuardChinese.yaml
+      run: |
+        cd Nebula-repo/Utilities/Stash/Rules
+        for file in AdGuardChinese.yaml AdGuardChinese.list; do
+          if [ -f "$file" ]; then
+            # 将每一行的第一个.替换为 DOMAIN-SUFFIX,
+            sed -i 's/^\./DOMAIN-SUFFIX,/g' "$file"
+          else
+            echo "$file not found."
+          fi
+        done
+
+      # 适配 Stash 规则 yaml
+    - name: Edit Stash/Rules 
+      run: |
+        cd Nebula-repo/Utilities/Stash/Rules
+        for file in *.yaml *.list; do
+          if [ "$file" != "Lan.yaml" ] && [ "$file" != "Lan.list" ]; then
+            # 适配
+            sed -i -e 's/, /,/g' \
+                   -e 's/;/# /g' \
+                   -e 's/host,/HOST,/g' \
+                   -e 's/host-/HOST-/g' \
+                   -e 's/-suffix/-SUFFIX/g' \
+                   -e 's/-keyword/-KEYWORD/g' \
+                   -e 's/ip-cidr/IP-CIDR/g' \
+                   -e 's/geoip/GEOIP/g' \
+                   -e 's/HOST,/DOMAIN,/g' \
+                   -e 's/HOST-/DOMAIN-/g' \
+                   -e 's/IP6-CIDR,/IP-CIDR6,/g' \
+                   -e 's/,extended-matching$//g' \
+                   -e 's/,REJECT$//g' \
+                   -e 's/,DIRECT$//g' \
+                   -e 's/,reject$//g' \
+                   -e 's/,direct$//g' \
+                   -e '/\(USER-AGENT\|URL-REGEX\|OR\|AND\|NOT\),/ s/^/#/' \
+                   -e 's| \{1,\}//.*$||' \
+                   -e '/# 更新：/d' \
+                   -e '/# AUTHOR:/d' \
+                   -e '/# REPO:/d' \
+                   -e '/# UPDATED:/d' \
+                   "$file"
+            # 如果为IP规则且不包含no-resolve 则添加no-resolve
+            awk '/^IP-/ && !/,no-resolve/ {print $0",no-resolve"; next} {print}' "$file" > tmpfile
+            mv tmpfile "$file"
+          else
+            echo "$file not found."
+          fi
+        done
+
+      # 
+    - name: Edit Stash/Rules yaml
+      run: |
+        cd Nebula-repo/Utilities/Stash/Rules
+        for file in *.yaml; do
+          if [ -f "$file" ]; then
+            # 修改注释
+            sed -i 's/^#/  #/g' "$file"
+            # 在首行添加 "payload:"
+            sed -i '1s/^/payload:\n/' "$file"
+            # 在非注释或空行前添加“  - ”
+            awk '!/\/\/|#|payload:|^ *$/ {print "  - " $0; next} {print}' "$file" > tmpfile
+            mv tmpfile "$file"
+          else
+            echo "$file not found."
+          fi
+        done
+
+######
+    - name: Download files to Egern
+      run: |
+        mkdir -p Nebula-repo/Utilities/Egern/Rules
+        # 苹果
+        curl -L -o Nebula-repo/Utilities/Egern/Rules/APNs.yaml "https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Rule/ApplePushNotificationService.list"
+        curl -L -o Nebula-repo/Utilities/Egern/Rules/Apple.yaml "https://raw.githubusercontent.com/NobyDa/Script/master/Surge/Apple.list"
+        curl -L -o Nebula-repo/Utilities/Egern/Rules/AppStore.yaml "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/rule/AppStore/AppStore.list"
+        curl -L -o Nebula-repo/Utilities/Egern/Rules/AppleID.yaml "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AppleID/AppleID.list"
+        curl -L -o Nebula-repo/Utilities/Egern/Rules/AppleMusic.yaml "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AppleMusic/AppleMusic.list"
+        curl -L -o Nebula-repo/Utilities/Egern/Rules/iCloud.yaml "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/iCloud/iCloud.list"
+        curl -L -o Nebula-repo/Utilities/Egern/Rules/TestFlight.yaml "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/TestFlight/TestFlight.list"
+        curl -L -o Nebula-repo/Utilities/Egern/Rules/AppleProxy.yaml "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AppleProxy/AppleProxy.list"
+        # OpenAI
+        curl -L -o Nebula-repo/Utilities/Egern/Rules/OpenAI.yaml "https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Rule/OpenAI.list"
+        curl -L -o Nebula-repo/Utilities/Egern/Rules/ChatGPT_Voice.yaml "https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Rule/ChatGPT_Voice.list"
+        # Claude AI
+        curl -L -o Nebula-repo/Utilities/Egern/Rules/Claude.yaml "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Claude.list"
+        # 社交媒体
+        curl -L -o Nebula-repo/Utilities/Egern/Rules/Telegram.yaml "https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Rules/Telegram.list"
+        curl -L -o Nebula-repo/Utilities/Egern/Rules/Twitter.yaml "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Twitter.list"
+        curl -L -o Nebula-repo/Utilities/Egern/Rules/Instagram.yaml "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Instagram.list"
+        curl -L -o Nebula-repo/Utilities/Egern/Rules/Facebook.yaml "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Facebook.list"
+        # 谷歌
+        curl -L -o Nebula-repo/Utilities/Egern/Rules/YouTube.yaml "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/YouTube.list"
+        curl -L -o Nebula-repo/Utilities/Egern/Rules/Google.yaml "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Google.list"
+        # 微软
+        curl -L -o Nebula-repo/Utilities/Egern/Rules/Copilot.yaml "https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Rule/Copilot.list"
+        curl -L -o Nebula-repo/Utilities/Egern/Rules/Github.yaml "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Github.list"
+        curl -L -o Nebula-repo/Utilities/Egern/Rules/OneDrive.yaml "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/OneDrive.list"
+        curl -L -o Nebula-repo/Utilities/Egern/Rules/Microsoft.yaml "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Microsoft.list"
+        # 流媒体
+        curl -L -o Nebula-repo/Utilities/Egern/Rules/TikTok.yaml "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/TikTok.list"
+        curl -L -o Nebula-repo/Utilities/Egern/Rules/Netflix.yaml "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Netflix/Netflix.list"
+        curl -L -o Nebula-repo/Utilities/Egern/Rules/HBO.yaml "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/HBO/HBO.list"
+        curl -L -o Nebula-repo/Utilities/Egern/Rules/Disney.yaml "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Disney/Disney.list"
+        curl -L -o Nebula-repo/Utilities/Egern/Rules/Spotify.yaml "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Spotify/Spotify.list"
+        curl -L -o Nebula-repo/Utilities/Egern/Rules/PrimeVideo.yaml "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/PrimeVideo/PrimeVideo.list"
+        curl -L -o Nebula-repo/Utilities/Egern/Rules/FitnessPlus.yaml "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/FitnessPlus/FitnessPlus.list"
+        curl -L -o Nebula-repo/Utilities/Egern/Rules/AppleMedia.yaml "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AppleMedia/AppleMedia.list"
+        curl -L -o Nebula-repo/Utilities/Egern/Rules/Bahamut.yaml "https://github.com/ACL4SSR/ACL4SSR/raw/master/Clash/Ruleset/Bahamut.list"
+        curl -L -o Nebula-repo/Utilities/Egern/Rules/ProxyMedia.yaml "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list"
+        curl -L -o Nebula-repo/Utilities/Egern/Rules/Emby.yaml "https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Rules/Emby.list"
+        # PayPal
+        curl -L -o Nebula-repo/Utilities/Egern/Rules/PayPal.yaml "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/PayPal/PayPal.list"
+        # Cloudflare
+        curl -L -o Nebula-repo/Utilities/Egern/Rules/Cloudflare.yaml "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Cloudflare/Cloudflare.list"
+        # GFW
+        curl -L -o Nebula-repo/Utilities/Egern/Rules/ProxyGFW.yaml "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list"
+        # Trust
+        curl -L -o Nebula-repo/Utilities/Egern/Rules/Trust.yaml "https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Rules/Trust.list"
+        # TronLink
+        curl -L -o Nebula-repo/Utilities/Egern/Rules/TronLink.yaml "https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Rules/TronLink.list"
+        # Talkatone
+        curl -L -o Nebula-repo/Utilities/Egern/Rules/Talkatone.yaml "https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Rules/Talkatone.list"
+        # 国内规则 
+        curl -L -o Nebula-repo/Utilities/Egern/Rules/Bilibili.yaml "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bilibili.list"
+        curl -L -o Nebula-repo/Utilities/Egern/Rules/WeChat.yaml "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Wechat.list"
+        curl -L -o Nebula-repo/Utilities/Egern/Rules/ChinaDomain.yaml "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list"
+        curl -L -o Nebula-repo/Utilities/Egern/Rules/ChinaASN.yaml "https://raw.githubusercontent.com/VirgilClyne/GetSomeFries/main/ruleset/ASN.China.list"
+        # 游戏规则 
+        curl -L -o Nebula-repo/Utilities/Egern/Rules/Game.yaml "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Game/Game.list"
+        curl -L -o Nebula-repo/Utilities/Egern/Rules/Steam.yaml "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Steam/Steam.list"
+        curl -L -o Nebula-repo/Utilities/Egern/Rules/Epic.yaml "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Epic/Epic.list"
+        # 广告规则 
+        curl -L -o Nebula-repo/Utilities/Egern/Rules/Ads_EasyListChina.yaml "https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/rule/Surge/easylistchina_surge.list"
+        curl -L -o Nebula-repo/Utilities/Egern/Rules/Ads_EasyListPrivacy.yaml "https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/rule/Surge/easyprivacy_surge.list"
+        curl -L -o Nebula-repo/Utilities/Egern/Rules/Ads_Dlerio.yaml "https://raw.githubusercontent.com/dler-io/Rules/main/Surge/Surge%203/Provider/Reject.list"
+        curl -L -o Nebula-repo/Utilities/Egern/Rules/Anti-ad.yaml "https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-surge.txt"
+        curl -L -o Nebula-repo/Utilities/Egern/Rules/AdGuardChinese.yaml "https://raw.githubusercontent.com/geekdada/surge-list/master/domain-set/chinese-filter.txt"
+        curl -L -o Nebula-repo/Utilities/Egern/Rules/Ads_RuCu6.yaml "https://raw.githubusercontent.com/RuCu6/QuanX/main/Rules/MyBlockAds.list"
+        # 自定义广告规则
+        curl -L -o Nebula-repo/Utilities/Egern/Rules/Reject.yaml "https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Rules/Reject.list"
+        # ConnersHua
+        curl -L -o Nebula-repo/Utilities/Egern/Rules/Ads_ConnersHua.yaml "https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Extra/Reject/Advertising.list"
+        curl -L -o Nebula-repo/Utilities/Egern/Rules/Hijacking_ConnersHua.yaml "https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Extra/Reject/Hijacking.list"
+        curl -L -o Nebula-repo/Utilities/Egern/Rules/Tracking_ConnersHua.yaml "https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Extra/Reject/Tracking.list"
+        # fmz200
+        curl -L -o Nebula-repo/Utilities/Egern/Rules/Direct_fmz200.yaml "https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/filter/fenliuxiuzheng.list"
+        curl -L -o Nebula-repo/Utilities/Egern/Rules/Ads_fmz200.yaml "https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/filter/fenliu.list"
+        # Lan
+        curl -L -o Nebula-repo/Utilities/Egern/Rules/Lan.yaml "https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Rules/Lan.list"
+        # AD-QQMusic
+        curl -L -o Nebula-repo/Utilities/Egern/Rules/Ads_QQMusic.yaml "https://raw.githubusercontent.com/Repcz/Tool/X/QuantumultX/Rules/Ads_QQMusic.list"
+
+
+      # 适配 egern 规则 yaml
+    - name: Edit Egern/Rules AdGuardChinese.yaml
+      run: |
+        cd Nebula-repo/Utilities/Egern/Rules
+        for file in AdGuardChinese.yaml; do
+          if [ -f "$file" ]; then
+            # 将每一行的第一个.替换为 DOMAIN-SUFFIX,
+            sed -i 's/^\./DOMAIN-SUFFIX,/g' "$file"
+          else
+            echo "$file not found."
+          fi
+        done
+          
+      # 适配 egern 规则 yaml
+    - name: Edit Egern/Rules
+      run: |
+        cd Nebula-repo/Utilities/Egern/Rules
+        for file in *.yaml; do
+          if [ -f "$file" ]; then
+            # 适配
+            sed -i -e 's/, /,/g' \
+                   -e 's/;/# /g' \
+                   -e 's/host,/HOST,/g' \
+                   -e 's/host-/HOST-/g' \
+                   -e 's/-suffix/-SUFFIX/g' \
+                   -e 's/-keyword/-KEYWORD/g' \
+                   -e 's/ip-cidr/IP-CIDR/g' \
+                   -e 's/geoip/GEOIP/g' \
+                   -e 's/HOST,/DOMAIN,/g' \
+                   -e 's/HOST-/DOMAIN-/g' \
+                   -e 's/IP6-CIDR,/IP-CIDR6,/g' \
+                   -e 's/,extended-matching$//g' \
+                   -e 's/,REJECT$//g' \
+                   -e 's/,DIRECT$//g' \
+                   -e 's/,reject$//g' \
+                   -e 's/,direct$//g' \
+                   -e '/\(USER-AGENT\|OR\|AND\|NOT\),/ s/^/#/' \
+                   -e 's| \{1,\}//.*$||' \
+                   -e 's/,\*/,.*/g' \
+                   -e '/# 更新：/d' \
+                   -e '/# AUTHOR:/d' \
+                   -e '/# REPO:/d' \
+                   -e '/# UPDATED:/d' \
+                   "$file"
+    
+            cp "$file" tmpfile
+
+            domain_set=""
+            domain_suffix_set=""
+            domain_keyword_set=""
+            domain_regex_set=""
+            ip_cidr_set=""
+            ip_cidr6_set=""
+            asn_set=""
+            url_regex_set=""
+            
+            # 处理规则，将匹配的行添加到相应的集合中
+            awk -F, '
+              /^DOMAIN,/ {domain_set = domain_set "\n- " $2}
+              /^DOMAIN-SUFFIX,/ {domain_suffix_set = domain_suffix_set "\n- " $2}
+              /^DOMAIN-KEYWORD,/ {domain_keyword_set = domain_keyword_set "\n- " $2}
+              /^DOMAIN-WILDCARD,/ {domain_regex_set = domain_regex_set "\n- " $2}
+              /^IP-CIDR,/ {ip_cidr_set = ip_cidr_set "\n- " $2}
+              /^IP-CIDR6,/ {ip_cidr6_set = ip_cidr6_set "\n- " $2}
+              /^IP-ASN,/ {asn_set = asn_set "\n- '\''" $2 "'\''"}
+              /^URL-REGEX,/ {url_regex_set = url_regex_set "\n- '\''" $2 "'\''"}
+            END {
+              # 输出集合
+              print "domain_set:" domain_set
+              print "domain_suffix_set:" domain_suffix_set
+              print "domain_keyword_set:" domain_keyword_set
+              print "domain_regex_set:" domain_regex_set
+              print "ip_cidr_set:" ip_cidr_set
+              print "ip_cidr6_set:" ip_cidr6_set
+              print "asn_set:" asn_set
+              print "url_regex_set:" url_regex_set
+            }
+            ' tmpfile > "$file"
+
+          else
+            echo "$file not found."
+          fi
+        done
+
+        # 循环结束后删除tmpfile
+        rm tmpfile
+
+      # 适配 egern 规则 yaml
+    - name: Edit Egern/Rules add no-resolve
+      run: |
+        cd Nebula-repo/Utilities/Egern/Rules
+        for file in *.yaml; do
+          if [ -f "$file" ]; then
+            # 检查文件名是否需要排除
+            if ! grep -E -q "(Lan|Bilibili|China|Direct|WeChat)" <<< "$file"; then
+              sed -i '1s/^/no_resolve: true\n/' "$file"
+            fi
+          else
+            echo "$file not found."
+          fi
+        done
+        
+    - name: Add and Commits
+      run: |
+        cd Nebula-repo
+        if [[ -n $(git status -s) ]]; then
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add .
+          git commit -m "$(TZ='Asia/Shanghai' date +'%Y-%m-%d %H:%M')"
+          git push origin HEAD
+        else
+          echo "No changes to commit."
+        fi
+
+    - name: Cleanup Workflow
+      uses: Mattraks/delete-workflow-runs@main
+      with:
+        retain_days: 0
+        keep_minimum_runs: 2
