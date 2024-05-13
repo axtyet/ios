@@ -590,8 +590,11 @@ domain_suffix_set:
 - ads-api.tiktok.com
 - ads-api.twitter.com
 - ads-img-qc.xhscdn.com
+- ads-jp.tiktok.com
 - ads-pixiv.net
+- ads-sg.tiktok.com
 - ads-twitter.com
+- ads-us.tiktok.com
 - ads-video-al.xhscdn.com
 - ads-video-qc.xhscdn.com
 - ads.95516.com
@@ -606,6 +609,7 @@ domain_suffix_set:
 - ads.msn.com
 - ads.music.126.net
 - ads.oppomobile.com
+- ads.pinterest.com
 - ads.prd.ie.internal.unity3d.com
 - ads.roku.com
 - ads.service.kugou.com
@@ -703,6 +707,7 @@ domain_suffix_set:
 - analytics.95516.com
 - analytics.google.com
 - analytics.pinterest.com
+- analytics.query.yahoo.com
 - analytics.rayjump.com
 - analytics.tiktok.com
 - analytics.woozooo.com
@@ -951,6 +956,7 @@ domain_suffix_set:
 - gdfp.gifshow.com
 - gdt.qq.com
 - gemini.yahoo.com
+- geo.yahoo.com
 - ggsfq.com
 - giocdn.com
 - globalapi.ad.xiaomi.com
@@ -1146,6 +1152,7 @@ domain_suffix_set:
 - log.fc.yahoo.com
 - log.hunantv.com
 - log.kuwo.cn
+- log.pinterest.com
 - log.snssdk.com
 - log.stat.kugou.com
 - log.tagtic.cn
@@ -1200,6 +1207,7 @@ domain_suffix_set:
 - metrics.icloud.com
 - metrics.mzstatic.com
 - metrics2.data.hicloud.com
+- metrika.yandex.ru
 - mi.gdt.qq.com
 - miaozhen.com
 - miav-cse.avlyun.com
@@ -1713,6 +1721,8 @@ domain_suffix_set:
 - u3.ucweb.com
 - uapi.ads.heytapmobi.com
 - uberads.com
+- udc.yahoo.com
+- udcm.yahoo.com
 - udrig.com
 - uimserv.net
 - ulog-sdk.gifshow.com
@@ -1822,6 +1832,7 @@ domain_suffix_set:
 - wedolook.com
 - widespace.com
 - widgets.amung.us
+- widgets.pinterest.com
 - wigetmedia.com
 - win.gdt.qq.com
 - wine-api.net
