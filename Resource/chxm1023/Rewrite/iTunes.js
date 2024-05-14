@@ -1,7 +1,7 @@
 /*************************************
 
 项目名称：iTunes-系列解锁合集
-更新日期：2024-05-07
+更新日期：2024-05-14
 脚本作者：chxm1023
 电报频道：https://t.me/chxm1023
 使用声明：⚠️仅供参考，🈲转载与售卖！
@@ -26,6 +26,9 @@ const ua = $request.headers['User-Agent'] || $request.headers['user-agent'];
 const bundle_id = chxm1023.receipt["bundle_id"] || chxm1023.receipt["Bundle_Id"];
 
 const list = {
+  'Muza': { cm: 'sjbla', hx: 'hxpda', id: "com.appmuza.premium_year", latest: "chxm1023" },  //Muza-修图APP
+  'StandbyWidget': { cm: 'sjbld', hx: 'hxpda', id: "com.standby.idream.year.68", ids: "standbyus.nonconsume.missingyou", latest: "chxm1023" },  //StandBy_Us-情侣定位
+  'Mango6Minute': { cm: 'sjbla', hx: 'hxpda', id: "576170870", latest: "chxm1023" },  //6分钟英语
   'Photo%20Cutout': { cm: 'sjbla', hx: 'hxpda', id: "com.icepine.allyear", latest: "chxm1023" },  //轻松扣图
   'cleanPhone': { cm: 'sjbla', hx: 'hxpda', id: "com.clean.year", latest: "chxm1023" },  //爱机清理
   'ppt': { cm: 'sjbla', hx: 'hxpda', id: "com.palmmob.pptios.yearly", latest: "chxm1023" },  //手机PPT制作
