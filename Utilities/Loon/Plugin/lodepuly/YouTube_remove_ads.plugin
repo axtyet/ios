@@ -4,16 +4,16 @@
 #!author = Maasea VirgilClyne Choler DivineEngine app2smile
 #!homepage = https://gitlab.com/lodepuly/vpn_tool/-/tree/master/Tool/Loon/Plugin
 #!icon = https://gitlab.com/lodepuly/iconlibrary/-/raw/main/App_icon/120px/YouTube.png
-#!date = 2024-05-13 17:21:02
+#!date = 2024-05-14 15:42:41
 #!select = 隐藏上传按钮, true, false
 #!select = 隐藏选段按钮, true, false
 #!select = 字幕翻译语言, zh-Hans, zh-Hant, ja, ko, en, off
 #!select = 歌词翻译语言, zh-Hans, zh-Hant, ja, ko, en, off
 #select = 启用调试模式, true, false
 
-# [Rule]
-AND, ((DOMAIN-SUFFIX, googlevideo.com), (DEST-PORT,443), (PROTOCOL, UDP)), REJECT
-AND, ((DOMAIN, youtubei.googleapis.com), (DEST-PORT,443), (PROTOCOL, UDP)), REJECT
+[Rule]
+AND, ((DOMAIN-SUFFIX, googlevideo.com),  (PROTOCOL, QUIC)), REJECT
+AND, ((DOMAIN-SUFFIX, googlevideo.com),  (PROTOCOL, QUIC)), REJECT
 
 [Rewrite]
 # 使用reject-dict方法以减少开销
