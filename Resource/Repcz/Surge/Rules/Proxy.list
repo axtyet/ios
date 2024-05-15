@@ -1,4 +1,4 @@
-# 2024-04-26 20:48
+# 2024-05-15 20:19
 
 # > 0-9
 
@@ -550,6 +550,7 @@ USER-AGENT,SpeedTest*
 DOMAIN-SUFFIX,stash.wiki
 
 # > Surge
+DOMAIN,sessions.bugsnag.com
 DOMAIN-SUFFIX,surge-activation.com
 DOMAIN-SUFFIX,nssurge.com
 
