@@ -4,8 +4,8 @@
 ! Powerd by Cats-Team
 ! Expires: 1 day (update frequency)
 ! Description: AdRules AdBlock List's Lite Version, And Remove Some Filters
-! ! Version: 2024-05-14 08:03:18(GMT+8) 
-! Total count: 33526
+! ! Version: 2024-05-15 08:03:34(GMT+8) 
+! Total count: 33542
  
 ###ADtip
 ###AdBlockDialog
@@ -7450,12 +7450,10 @@ bilibili.com##.banner-card
 bilibili.com##.bili-app
 bilibili.com##.bili-app-link-container
 bilibili.com##.bili-dyn-ads
-bilibili.com##.bili-video-card > div[class^="extension-tips"]
 bilibili.com##.bili-video-card:has(.bili-video-card__info--ad) > .bili-video-card__wrap
 bilibili.com##.bili-video-card:has(.bili-video-card__info--creative-ad) > .bili-video-card__wrap
 bilibili.com##.bili-video-card__wrap > a[href^="http"]:not([href*=".bilibili.com/"])
 bilibili.com##.btn-ctnr
-bilibili.com##.carousel-container > .carousel-transform > div[class^="carousel-slide"] > div[class^="extension-tips"]
 bilibili.com##.clearfix.h5-download-bar
 bilibili.com##.desktop-download-tip
 bilibili.com##.download-client-trigger.download-entry
@@ -7492,9 +7490,12 @@ bilibili.com##div[style*="height:"][data-loc-id]
 bilibili.com##span[style*="height:"][data-loc-id]
 bilibili.com#$#.bili-video-card:has(.bili-video-card__info--ad) > .bili-video-card__skeleton { visibility: visible !important; }
 bilibili.com#$#.bili-video-card:has(.bili-video-card__info--creative-ad) > .bili-video-card__skeleton { visibility: visible !important; }
+bilibili.com#$?#.bili-video-card > div[class]:only-child:matches-css(before, content: /Adblock/) { remove: true; }
+bilibili.com#$?#.carousel-container > .carousel-transform > div[class^="carousel-slide"] > div[class]:only-child:matches-css(before, content: /Adblock/) { remove: true; }
 bilibili.com#$?#.container > div.floor-single-card:has(> div.skeleton) { remove: true; }
 bilibili.com#$?#.ex-card-common:has(.gg-icon) { remove: true; }
 bilibili.com#$?#.van-slide > .item:has(.bypb-icon) { remove: true; }
+bilibili.com#%#//scriptlet('spoof-css', '.__adblockhidden > a', 'display', 'block')
 bilibili.com#?#.eva-extension-body > .bili-video-card:-abp-has(.bili-video-card__info--ad)
 bilibili.com#?#.van-popover__reference:contains(下载)
 bilibili.com#?#.video-card-common:-abp-has(>.card-pic>a[href*="cm.bilibili.com"][data-target-url])
@@ -13783,6 +13784,7 @@ ponlatv.com###divPanel
 ponlatv.com##[id^="total"]
 popart.hk###slideshow
 popbee.com##.adblocker
+popdaily.com.tw##div[class^="ad-delimiter-"]
 popeoftheplayers.eu###html4
 popeoftheplayers.eu###mask1
 popo.tw#@#.header_ad
@@ -15687,6 +15689,7 @@ up01.cc###popad
 up01.cc##div[style="position:fixed;width:468px;left: 50%;transform:translate(-50%,0);height:60px;background:#fff;bottom:0px;text-align:center;z-index:9"]
 upload.ee,ianimes.co,ianimes.top#$#abort-on-property-read adcashMacros
 upmedia.mg###divider_ad
+upsangel.com##a[href="https://upsangel.com/check/surfsharkvpn/"]
 uptobox.com#@##adblocktrap
 uptobox.com#@#.ad-leader
 uptobox.com#@#.ad-leader > div[id]
@@ -16085,6 +16088,7 @@ wenku8.net###adv300
 wenku8.net#@##adtop
 wenmi114.com###xiezuo
 wenxuecity.com###adt
+wenxuecity.com###gg_multitext
 wenxuecity.com###marquee
 wenxuecity.com##.otherposts > ul > li > a[target="_blank"]
 wenxuecity.com##.sidebar > .banners
@@ -17045,6 +17049,7 @@ zzzyk.com###Tinfo
 ||073img.com/*/|
 ||074adzx.com^
 ||0755rc.com^$third-party
+||07dy.cc^
 ||08088.top^
 ||080999.cn^
 ||085cczz.com^
@@ -20145,6 +20150,7 @@ zzzyk.com###Tinfo
 ||bphcrjth.xyz^
 ||bpimg.com/4851/19f7543667f26682.jpg
 ||bplrpf.xyz^
+||bpxbzps.xyz^
 ||bpyerxzn.xyz^
 ||bpztsxx.com^
 ||bqdyqq.com^
@@ -22247,6 +22253,7 @@ zzzyk.com###Tinfo
 ||efvsyhbf.xyz^
 ||egadfe.xyz^
 ||eghyahl.cn^
+||egidskiw.top^
 ||egipsbvlgn.xyz^
 ||eglizqf.cn^
 ||egmontassets.net/random.js$script,domain=euroman.dk
@@ -23829,6 +23836,7 @@ zzzyk.com###Tinfo
 ||hfqdipw.cn^
 ||hfresgtyytjncvvh.com^
 ||hfwld.cn^
+||hgcgnfe.icu^
 ||hgehse.site^
 ||hgf8hck.com^
 ||hgfutf.xyz^
@@ -25390,6 +25398,7 @@ zzzyk.com###Tinfo
 ||kbae.qiqqh.cn^
 ||kbayke.xyz^
 ||kbbrptv.xyz^
+||kbexos.xyz^
 ||kbneks00.online^
 ||kbomku.xyz^
 ||kc-valves.com^
@@ -26874,6 +26883,7 @@ zzzyk.com###Tinfo
 ||mqjqripb.xyz^
 ||mql5.com/rq?
 ||mqrupjsm.xyz^
+||mqsjzm.cn^
 ||mqsnce.xyz^
 ||mqxnid.cn^
 ||mqznjujv.xyz^
@@ -28156,6 +28166,7 @@ zzzyk.com###Tinfo
 ||propertypotato.com^$third-party
 ||proudprose.com^$third-party
 ||providentsopport.site^
+||prpmdp.xyz^
 ||przbzr.xyz^
 ||ps123.net/MyFile/
 ||ps557.com/link/
@@ -28246,6 +28257,7 @@ zzzyk.com###Tinfo
 ||pwuxnr.cn^
 ||px.ucweb.com^
 ||pxrs6.cn^
+||pxtjfmv.xyz^
 ||pxx.tnklrs.cn^$third-party
 ||pxxcyni.cn^
 ||pxxnejx.xyz^
@@ -28630,6 +28642,7 @@ zzzyk.com###Tinfo
 ||qwmamh.icu^
 ||qwnmfiti.xyz^
 ||qwrnkpow.com^
+||qwsanan.top^
 ||qxakzox.cn^
 ||qxrvmu.com^
 ||qxvp6.site^
@@ -29346,6 +29359,7 @@ zzzyk.com###Tinfo
 ||sgegie.fun^
 ||sgeth7.icu^
 ||sgg.southcn.com^
+||sgidskib.top^
 ||sgk.xyz/static/js/pc.js
 ||sglahyea.xyz^
 ||sglyd.cn^
@@ -31369,6 +31383,7 @@ zzzyk.com###Tinfo
 ||vfsdsdeq.xyz^
 ||vfsvv1.com^
 ||vfvad.top^
+||vfxrpl.xyz^
 ||vfzfrx.xyz^
 ||vgao.xyz/images/*.gif
 ||vggg5.space^
@@ -33234,6 +33249,7 @@ zzzyk.com###Tinfo
 ||zhengliyqq.com^
 ||zhengshaoze.com^
 ||zhengxiaoliu.top^
+||zhengzhou12.top^
 ||zhenjiang365.cn/*/ad_
 ||zhev.com.cn/file/weixin/
 ||zhflodsix.cn^
