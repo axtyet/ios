@@ -4,8 +4,8 @@
 ! Powerd by Cats-Team
 ! Expires: 1 day (update frequency)
 ! Description: AdRules AdBlock List's Lite Version, And Remove Some Filters
-! ! Version: 2024-05-15 08:03:34(GMT+8) 
-! Total count: 33542
+! ! Version: 2024-05-15 15:39:00(GMT+8) 
+! Total count: 33547
  
 ###ADtip
 ###AdBlockDialog
@@ -13711,6 +13711,7 @@ playerapp1.pw###divPanel
 playerapp1.pw##[id^="total"]
 playerhd1.pw,playerhd2.pw###divPanel
 playerhd1.pw,playerhd2.pw##[id^="total"]
+players.com.ua#$#abort-on-property-read localStorage
 playno1.com###frame8I822E
 playno1.com###m12
 playno1.com###m2
@@ -16797,12 +16798,14 @@ zhidao.baidu.com###feed-recommend
 zhidao.baidu.com###knowledge-answer-list
 zhidao.baidu.com###main-content > div[class]:first-child > a
 zhidao.baidu.com###qb-content div.businessvip-wrapper
+zhidao.baidu.com###wap-youx-change-asp
 zhidao.baidu.com##.daily-header-download
 zhidao.baidu.com##.doodle-container
 zhidao.baidu.com##.doodle-container,.feed-recommend,.wgt-recommend-business,[class*="-ads"],[class*="related-yxiao-item"],[class*="icon-bdad"],[class*="-youx"]
 zhidao.baidu.com##.icon-bdad
 zhidao.baidu.com##.singin-bubble
 zhidao.baidu.com##.zhidao-app.menu-right-list-item
+zhidao.baidu.com##[class$='-ecom-ads']
 zhidao.baidu.com##a[class="cur"][href^="/mobile/board?"] > img
 zhidao.baidu.com##div[class^="cms-slide"] > p[class="cms-link-title"]
 zhidao.baidu.com#?#.wgt-ads
@@ -27380,6 +27383,7 @@ zzzyk.com###Tinfo
 ||nutritiousbean.com^$third-party
 ||nuttyorganization.com^$third-party
 ||nuucmzuc.com^
+||nuxwlc.cn^
 ||nvdtdsd.xyz^
 ||nvjqtz.xyz^
 ||nvsheng.com/js/gg.js
@@ -30255,6 +30259,7 @@ zzzyk.com###Tinfo
 ||t6.china-xian.com^
 ||t7x22m7c.com^
 ||ta.trs.cn^$third-party
+||ta20k.xyz^
 ||taboola.com^$domain=spaste.com
 ||tad.suning.com^
 ||tae0t.site^
