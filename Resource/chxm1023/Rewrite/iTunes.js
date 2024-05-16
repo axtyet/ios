@@ -1,7 +1,7 @@
 /*************************************
 
 项目名称：iTunes-系列解锁合集
-更新日期：2024-05-15
+更新日期：2024-05-17
 脚本作者：chxm1023
 电报频道：https://t.me/chxm1023
 使用声明：⚠️仅供参考，🈲转载与售卖！
@@ -26,6 +26,7 @@ const ua = $request.headers['User-Agent'] || $request.headers['user-agent'];
 const bundle_id = chxm1023.receipt["bundle_id"] || chxm1023.receipt["Bundle_Id"];
 
 const list = {
+  'com.damon.dubbing': { cm: 'sjbla', hx: 'hxpda', id: "com.damon.dubbing.vip12", latest: "chxm1023" },  //有声英语绘本
   'film': { cm: 'sjbla', hx: 'hxpda', id: "pro_auto_subscribe_year_ovs", latest: "chxm1023" },  //胶卷相机
   'Muza': { cm: 'sjbla', hx: 'hxpda', id: "com.appmuza.premium_year", latest: "chxm1023" },  //Muza-修图APP
   'StandbyWidget': { cm: 'sjbld', hx: 'hxpda', id: "com.standby.idream.year.68", ids: "standbyus.nonconsume.missingyou", latest: "chxm1023" },  //StandBy_Us-情侣定位
