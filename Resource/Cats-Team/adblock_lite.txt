@@ -4,8 +4,8 @@
 ! Powerd by Cats-Team
 ! Expires: 1 day (update frequency)
 ! Description: AdRules AdBlock List's Lite Version, And Remove Some Filters
-! ! Version: 2024-05-16 08:03:07(GMT+8) 
-! Total count: 33558
+! ! Version: 2024-05-17 07:20:12(GMT+8) 
+! Total count: 33564
  
 ###ADtip
 ###AdBlockDialog
@@ -9233,8 +9233,6 @@ etest8.com##.subtop2right
 etextlib.ru##.head_bann
 etextlib.ru##.partners
 etnet.com.cn##.firstAD
-etoland.co.kr,javatpoint.com#$#abort-on-property-read atob;
-etoland.co.kr,javatpoint.com,picrew.me#$#override-property-read alert true; abort-on-property-read btoa; override-property-read onload noopFunc; override-property-read onerror noopFunc;
 etr.fr##.no_block
 etsy.com##a[href*="listing_page_ad_row"]
 etsy.com#$#hide-if-matches-xpath './/h2[@class][contains(text(),"By Etsy sellers")]/preceding::p[contains(text(),"Sponsored")]/ancestor-or-self::div[@data-appears-component-name="web_home_strv_ads"]'
@@ -9386,7 +9384,7 @@ feed.baidu.com##a[data-type="ec_ad"]
 feeds.qq.com,lenovo.com.cn##.game
 feiwan.net##div[id*="_"][style]
 feixiaohao.com##.TopHomeLink
-fembed.com,femax20.com,m.blogtruyenvn.org,viettoons.tv,vinaurl.net,animet2.net,anh.moe,truyenhentaivn.online,maclife.io,javfc2.net#$#abort-on-property-read open
+fembed.com,femax20.com,m.blogtruyenvn.org,viettoons.tv,vinaurl.net,animet1.net,anh.moe,truyenhentaivn.online,maclife.io,javfc2.net#$#abort-on-property-read open
 feng.com##.ad-aside
 feng.com##.dd305
 feng.com##.header
@@ -12081,7 +12079,6 @@ longzhu.com##.pop-up-button
 longzhu.com##.recommend-pop-up
 lookae.com##.zhongjian
 lostfilm.tv##div[class^="alarm"]
-lovefoodeat.com#$#abort-on-property-read adsRedirectPopups
 loveshang.com##div[class^="float-ad-"]
 lowes.com#$#hide-if-matches-xpath './/div[@class][contains(text(),"Sponsored")]/ancestor::div[@class="carousel-inner-container "]/preceding::h2[@class][@role][contains(text(),"Sponsored")]/ancestor-or-self::div[contains(@class,"recommended")][1]'
 lowes.com#$#hide-if-matches-xpath './/section[@id="listItems"]/div/div[@data-tile=//section[@id="listItems"]/div/div[@class]//span[text()="Sponsored"]/ancestor::div[@data-tile]/@data-tile]/*'; hide-if-matches-xpath './/div[contains(@class,"ekndGJ")]//div[@data-tile=//section[@id="listItems"]//span[text()="Sponsored"]/ancestor::div[@data-tile]/@data-tile]'
@@ -13420,6 +13417,7 @@ oops.udn.com#?##wrapper > #mainbar > .area:not(#story):not(#comments):has(> h3 >
 opdown.com##.cq-recom
 opdown.com##.gxxz-btn
 opdown.com##.listaddrs
+opendatafrance.net#$#abort-on-property-read adsRedirectPopups
 opitz-online.com#@#.adsbygoogle
 opticsky.cn###head > .tac
 opticsky.cn##.p83_gridC > .cc
@@ -20619,6 +20617,7 @@ zzzyk.com###Tinfo
 ||centurys.net/promo_
 ||ceodk.xyz^
 ||cergbtb36.shop^
+||cergbwa97.shop^
 ||ceshi1.ink^
 ||ceshi127722.obs.cn-north-4.myhuaweicloud.com^
 ||cfateu.xyz^
@@ -21919,6 +21918,7 @@ zzzyk.com###Tinfo
 ||dpijohb.icu^
 ||dpj0uvy.icu^
 ||dpjzzgw.cn^
+||dpzplb.xyz^
 ||dq06u9lt5akr2.cloudfront.net^
 ||dq95d35.com^$third-party
 ||dqazwsxd.xyz^
@@ -22869,6 +22869,7 @@ zzzyk.com###Tinfo
 ||franticroof.com^$third-party
 ||frantictrail.com^$third-party
 ||frcykpk.cn^
+||fredum.cn^
 ||free-cdn.oss-cn-shanghai.aliyuncs.com^
 ||free3dgame.xyz^
 ||freean.us/Webservices/jsParseLinks.aspx$script,third-party
@@ -24042,11 +24043,13 @@ zzzyk.com###Tinfo
 ||howbuy.com/subject/js/jquery.blockUI.js
 ||howbuy.com/subject/js/layer/layer.js
 ||howtoremoveadblock.com/js/adblock-detector.js$script
+||hoxdotye.icu^
 ||hozatr.xyz^
 ||hpcwwd.com^
 ||hpd.baidu.com^
 ||hpg786n.cn^
 ||hpgmkbt.icu^
+||hphvd.cn^
 ||hpiekt.cn^
 ||hpjzpn.xyz^
 ||hppmy.cn^
@@ -26668,6 +26671,7 @@ zzzyk.com###Tinfo
 ||mg.zgcqxjzny.cn^
 ||mg21.com/wp-content/uploads/ad/
 ||mggzah.icu^
+||mgidskix.top^
 ||mgivkqk.cn^
 ||mgzjin.cn^$third-party
 ||mh3666.com^*.jsonp
@@ -29363,6 +29367,7 @@ zzzyk.com###Tinfo
 ||sf2.net/a/index.
 ||sfbixfd.cn^
 ||sfg11rr.com^
+||sfkldbkldgdgh.com^
 ||sfnmt.com/dq/
 ||sfp.safe.baidu.com^
 ||sfqyck.xyz^
@@ -29899,6 +29904,7 @@ zzzyk.com###Tinfo
 ||ssb.ah499.com^
 ||ssdfgq7.com^
 ||ssdtour.com^
+||ssestherssa.com^
 ||ssgg.chazidian.com^
 ||ssh.*.com^*!$script,third-party
 ||ssh.q4hwkg.cn^
