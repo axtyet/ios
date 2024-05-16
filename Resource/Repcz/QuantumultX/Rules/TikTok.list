@@ -1,5 +1,5 @@
 # TikTok by 可莉
-# 2024-04-30 00:46:30
+# 2024-05-16 17:23:42
 HOST,api.snapkit.com,PROXY
 HOST,cocacola.co.jp,PROXY
 HOST,courses.snapsolve.com,PROXY
@@ -35,7 +35,6 @@ HOST,pull-rtmp-l1-hs.pstatp.com,PROXY
 HOST,pull-rtmp-l1-mus.pstatp.com,PROXY
 HOST,pull-rtmp-l6-hs.pstatp.com,PROXY
 HOST,roovza-launches.appsflyersdk.com,PROXY
-HOST,sessions.bugsnag.com,PROXY
 HOST-SUFFIX,bytedance.com,PROXY
 HOST-SUFFIX,bytedance.net,PROXY
 HOST-SUFFIX,bytedapm.com,PROXY

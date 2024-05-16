@@ -35,7 +35,6 @@ domain_set:
 - pull-rtmp-l1-mus.pstatp.com
 - pull-rtmp-l6-hs.pstatp.com
 - roovza-launches.appsflyersdk.com
-- sessions.bugsnag.com
 domain_suffix_set:
 - bytedance.com
 - bytedance.net

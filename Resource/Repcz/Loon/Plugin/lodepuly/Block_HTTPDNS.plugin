@@ -1,10 +1,10 @@
 #!name = 拦截HTTPDNS
 #!desc = 拦截常见的HTTPDNS服务，以确保这些请求都能够在Loon的DNS框架下工作。
 #!openUrl = 
-#!author = VirgilClyne 可莉🅥
+#!author = 可莉🅥 VirgilClyne
 #!homepage = https://gitlab.com/lodepuly/vpn_tool/-/tree/master/Tool/Loon/Plugin
 #!icon = https://gitlab.com/lodepuly/iconlibrary/-/raw/main/Other_icon/120px/HTTPDNS.png
-#!date = 2024-05-16 16:08:41
+#!date = 2024-05-16 17:15:14
 
 [Rule]
 # YY语音
@@ -12,94 +12,20 @@ DOMAIN, yyapp-httpdns.gslb.yy.com, REJECT
 DOMAIN, httpdns-v6.gslb.yy.com, REJECT
 
 # 抖音
-IP-CIDR, 101.36.166.16/32, REJECT
-IP-CIDR, 101.36.166.17/32, REJECT
-IP-CIDR, 101.36.166.18/32, REJECT
-IP-CIDR, 101.36.166.19/32, REJECT
-IP-CIDR, 122.14.229.102/32, REJECT
-IP-CIDR, 122.14.229.103/32, REJECT
-IP-CIDR, 122.14.229.125/32, REJECT
-IP-CIDR, 122.14.229.126/32, REJECT
-IP-CIDR, 122.14.229.133/32, REJECT
-IP-CIDR, 122.14.229.140/32, REJECT
-IP-CIDR, 122.14.229.141/32, REJECT
-IP-CIDR, 122.14.229.179/32, REJECT
-IP-CIDR, 122.14.229.7/32, REJECT
-IP-CIDR, 122.14.229.72/32, REJECT
-IP-CIDR, 122.14.230.128/32, REJECT
-IP-CIDR, 122.14.236.30/32, REJECT
-IP-CIDR, 122.14.236.35/32, REJECT
-IP-CIDR, 122.14.236.37/32, REJECT
-IP-CIDR, 122.14.236.46/32, REJECT
-IP-CIDR, 122.14.236.48/32, REJECT
-IP-CIDR, 122.14.236.74/32, REJECT
-IP-CIDR, 122.14.236.75/32, REJECT
-IP-CIDR, 123.58.9.84/32, REJECT
-IP-CIDR, 123.58.9.90/32, REJECT
-IP-CIDR, 220.243.141.131/32, REJECT
-IP-CIDR, 220.243.141.193/32, REJECT
-IP-CIDR, 220.243.141.194/32, REJECT
-IP-CIDR, 220.243.141.201/32, REJECT
-IP-CIDR, 220.243.141.205/32, REJECT
-IP-CIDR, 220.243.141.206/32, REJECT
-IP-CIDR, 220.243.141.215/32, REJECT
-IP-CIDR, 220.243.141.216/32, REJECT
-IP-CIDR, 220.243.141.217/32, REJECT
-IP-CIDR, 220.243.190.68/32, REJECT
-IP-CIDR, 220.243.190.72/32, REJECT
-IP-CIDR, 220.243.190.73/32, REJECT
-IP-CIDR, 220.243.190.74/32, REJECT
-IP-CIDR, 220.243.190.79/32, REJECT
-DOMAIN, api100-core-quic-hl.amemv.com, REJECT
-DOMAIN, api100-core-quic-lf.amemv.com, REJECT
-DOMAIN, api100-core-quic-lq.amemv.com, REJECT
-DOMAIN, api100-normal-quic-aweme-hl.amemv.com, REJECT
-DOMAIN, api100-normal-quic-aweme-lf.amemv.com, REJECT
-DOMAIN, api100-normal-quic-aweme-lq.amemv.com, REJECT
-DOMAIN, api100-normal-quic-hl.amemv.com, REJECT
-DOMAIN, api100-normal-quic-lf.amemv.com, REJECT
-DOMAIN, api100-normal-quic-lq.amemv.com, REJECT
-DOMAIN, api100-quic-core-hl.amemv.com, REJECT
-DOMAIN, api100-quic-core-lf.amemv.com, REJECT
-DOMAIN, api100-quic-core-lq.amemv.com, REJECT
-DOMAIN, api100-quic-normal-hl.amemv.com, REJECT
-DOMAIN, api100-quic-normal-lf.amemv.com, REJECT
-DOMAIN, api100-quic-normal-lq.amemv.com, REJECT
-DOMAIN, frontier-aweme-hl-ipa.snssdk.com, REJECT
-DOMAIN, frontier-aweme-hl-ipainner.amemv.com, REJECT
-DOMAIN, frontier-aweme-hl-ipainner.snssdk.com, REJECT
-DOMAIN, frontier-aweme-hl-origin.snssdk.com, REJECT
+AND, ((DOMAIN-KEYWORD, api100-core-quic-), (DOMAIN-SUFFIX, amemv.com)), REJECT
+AND, ((DOMAIN-KEYWORD, api100-normal-quic-), (DOMAIN-SUFFIX, amemv.com)), REJECT
+AND, ((DOMAIN-KEYWORD, api100-normal-quic-aweme-), (DOMAIN-SUFFIX, amemv.com)), REJECT
+AND, ((DOMAIN-KEYWORD, api100-quic-core-), (DOMAIN-SUFFIX, amemv.com)), REJECT
+AND, ((DOMAIN-KEYWORD, api100-quic-normal-), (DOMAIN-SUFFIX, amemv.com)), REJECT
+AND, ((DOMAIN-KEYWORD, frontier-aweme-), (AND, ((OR, ((DOMAIN-KEYWORD, -ipa.), (DOMAIN-KEYWORD, -ipainner.), (DOMAIN-KEYWORD, -origin.), (DOMAIN-KEYWORD, -ipainner-))), (OR, ((DOMAIN-SUFFIX, snssdk.com), (DOMAIN-SUFFIX, amemv.com)))))), REJECT
+AND, ((DOMAIN-KEYWORD, frontier100-aweme), (DOMAIN-SUFFIX, amemv.com)), REJECT
+AND, ((DOMAIN-KEYWORD, ma5-normal-), (DOMAIN-SUFFIX, zijieapi.com)), REJECT
+AND, ((DOMAIN-KEYWORD, polaris5-normal-), (DOMAIN-SUFFIX, zijieapi.com)), REJECT
+AND, ((DOMAIN-KEYWORD, webcast100-ws-c-), (DOMAIN-SUFFIX, amemv.com)), REJECT
+AND, ((OR, ((DOMAIN-KEYWORD, tnc3-bjlgy), (DOMAIN-KEYWORD, tnc11-bjlgy))), (OR, ((DOMAIN-SUFFIX, bytedance), (DOMAIN-SUFFIX, zijieapi.com)))), REJECT
 DOMAIN, frontier-aweme-hl.snssdk.com, REJECT
-DOMAIN, frontier-aweme-lf-ipa.snssdk.com, REJECT
-DOMAIN, frontier-aweme-lf-ipainner-nj.snssdk.com, REJECT
-DOMAIN, frontier-aweme-lf-ipainner-wh.snssdk.com, REJECT
-DOMAIN, frontier-aweme-lf-ipainner.amemv.com, REJECT
-DOMAIN, frontier-aweme-lf-ipainner.snssdk.com, REJECT
-DOMAIN, frontier-aweme-lf-origin.snssdk.com, REJECT
 DOMAIN, frontier-aweme.snssdk.com, REJECT
 DOMAIN, frontier-quic-test.bytedance.com, REJECT
-DOMAIN, frontier100-aweme-hl.amemv.com, REJECT
-DOMAIN, frontier100-aweme-lf.amemv.com, REJECT
-DOMAIN, frontier100-aweme-pro.amemv.com, REJECT
-DOMAIN, frontier100-aweme.amemv.com, REJECT
-DOMAIN, ma3-normal-hl.zijieapi.com, REJECT
-DOMAIN, ma3-normal-lf.zijieapi.com, REJECT
-DOMAIN, ma3-normal-lq.zijieapi.com, REJECT
-DOMAIN, ma5-normal-hl.zijieapi.com, REJECT
-DOMAIN, ma5-normal-lf.zijieapi.com, REJECT
-DOMAIN, ma5-normal-lq.zijieapi.com, REJECT
-DOMAIN, polaris3-normal-lf.zijieapi.com, REJECT
-DOMAIN, polaris3-normal-lq.zijieapi.com, REJECT
-DOMAIN, polaris5-normal-hl.zijieapi.com, REJECT
-DOMAIN, polaris5-normal-lf.zijieapi.com, REJECT
-DOMAIN, polaris5-normal-lq.zijieapi.com, REJECT
-DOMAIN, tnc11-bjlgy.bytedance.com, REJECT
-DOMAIN, tnc11-bjlgy.zijieapi.com, REJECT
-DOMAIN, tnc3-bjlgy.bytedance.com, REJECT
-DOMAIN, tnc3-bjlgy.zijieapi.com, REJECT
-DOMAIN, webcast100-ws-c-hl.amemv.com, REJECT
-DOMAIN, webcast100-ws-c-lf.amemv.com, REJECT
-DOMAIN, webcast100-ws-c-lq.amemv.com, REJECT
 
 # 微信
 DOMAIN, dns.weixin.qq.com, REJECT
