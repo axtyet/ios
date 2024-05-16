@@ -8,9 +8,9 @@
 
 [Rule]
 DOMAIN, dns.jd.com, REJECT
+URL-REGEX, ^http:\/\/\w{32}\.jddebug\.com\/diagnose\?, REJECT
 IP-CIDR, 101.124.19.122/32, REJECT, no-resolve
 IP-CIDR6, 2402:db40:5100:1011::5/128, REJECT, no-resolve
-URL-REGEX, ^http:\/\/\w{32}\.jddebug\.com\/diagnose\?, REJECT
 
 [Rewrite]
 ^https:\/\/api\.m\.jd\.com\/client\.action\?functionId=(searchBoxWord|stationPullService|uniformRecommend[06]) reject-dict
