@@ -4,7 +4,7 @@
 #!author = 可莉🅥 VirgilClyne
 #!homepage = https://gitlab.com/lodepuly/vpn_tool/-/tree/master/Tool/Loon/Plugin
 #!icon = https://gitlab.com/lodepuly/iconlibrary/-/raw/main/Other_icon/120px/HTTPDNS.png
-#!date = 2024-05-16 17:15:14
+#!date = 2024-05-16 20:16:26
 
 [Rule]
 # YY语音
@@ -26,6 +26,10 @@ AND, ((OR, ((DOMAIN-KEYWORD, tnc3-bjlgy), (DOMAIN-KEYWORD, tnc11-bjlgy))), (OR, 
 DOMAIN, frontier-aweme-hl.snssdk.com, REJECT
 DOMAIN, frontier-aweme.snssdk.com, REJECT
 DOMAIN, frontier-quic-test.bytedance.com, REJECT
+AND, ((IP-CIDR, 110.249.199.75/32, no-resolve), (DEST-PORT, 6443)), REJECT
+AND, ((IP-CIDR, 111.225.147.191/32, no-resolve), (DEST-PORT, 6443)), REJECT
+AND, ((IP-CIDR, 111.63.61.101/32, no-resolve), (DEST-PORT, 6443)), REJECT
+AND, ((IP-CIDR, 220.243.141.0/32, no-resolve), (DEST-PORT, 6443)), REJECT
 
 # 微信
 DOMAIN, dns.weixin.qq.com, REJECT
