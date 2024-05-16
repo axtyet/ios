@@ -191,6 +191,7 @@ domain:0x01n2ptpuz3.com
 domain:0xon2uo9s.com
 domain:0yzabcd.com
 domain:1-1ads.com
+domain:1-directshipmtdhlsexpress-order.help
 domain:1.07swz.com
 domain:1.1010pic.com
 domain:1.11467.com
@@ -1981,6 +1982,7 @@ domain:5wuefo9haif3.com
 domain:5xd3jfwl9e8v.com
 domain:5y9nfpes.52pk.com
 domain:5z0d3.cyou
+domain:6-partner.com
 domain:6001628d3d.com
 domain:600ad.com
 domain:600z.com
@@ -17861,6 +17863,7 @@ domain:azqqloborwwba.top
 domain:azrwwodreta.com
 domain:azscgj.penningtons.com
 domain:azskk.com
+domain:azsqkrc.icu
 domain:aztbeszelik.com
 domain:aztecash.com
 domain:azukgee.cn
@@ -21330,6 +21333,7 @@ domain:bqklioghtnqs.com
 domain:bqkwfioyd.xyz
 domain:bqlhwrgxoedsm.com
 domain:bqnmxza.cn
+domain:bqnxff.xyz
 domain:bqoulb.nowo.pt
 domain:bqpvduxtfhwsd.com
 domain:bqqvmupmcnjnbv.com
@@ -21574,7 +21578,6 @@ domain:bravospots.com
 domain:bravotrk.com
 domain:brawlperennialcalumny.com
 domain:brazenwholly.com
-domain:brazilanimalshelp.com
 domain:brazzers-hack.com
 domain:brazzersfreeaccount.net
 domain:brbristoltruckrentals.eccocar.com
@@ -35770,7 +35773,6 @@ domain:dl.oneworldonesai.com
 domain:dl.ops.baidu.com
 domain:dl.orders.accredo.com
 domain:dl.orders.express-scripts.com
-domain:dl.packetstormsecurity.net
 domain:dl.popclub.co.in
 domain:dl.purplle.com
 domain:dl.right2vote.in
@@ -46064,6 +46066,7 @@ domain:ganjituiguang.ganji.com
 domain:gannett.gcion.com
 domain:ganodusskunks.top
 domain:ganon.yahoo.com
+domain:gaochen12.top
 domain:gaoduan.cc
 domain:gaoguai.com
 domain:gaokao.asia
@@ -46371,6 +46374,7 @@ domain:gedozw.autoscout24.cz
 domain:geechaid.xyz
 domain:geede.info
 domain:geedoovu.net
+domain:geegleshoaph.com
 domain:geek-pc.net
 domain:geeksundigne.com
 domain:geerairu.net
@@ -76122,6 +76126,7 @@ domain:oacaighy.com
 domain:oacfxrqghamyaq.com
 domain:oachailo.net
 domain:oackoubs.com
+domain:oackoulimtoo.com
 domain:oaclrst.cn
 domain:oadrojoa.net
 domain:oads.cracked.com
@@ -78964,6 +78969,7 @@ domain:oyssqe.easyvoyage.com
 domain:oysterexhalereview.com
 domain:oysterfoxfoe.com
 domain:oyugspe.cn
+domain:oyuvcqmqjyrqd.com
 domain:oyuwkbk.top
 domain:oywzrri.com
 domain:oyxctgotabvk.com
@@ -85636,6 +85642,7 @@ domain:qo.enamelsdune.com
 domain:qoaaa.com
 domain:qobarmbghaiv.xyz
 domain:qodyldusxloinpn.com
+domain:qofik.location.oysterfloats.us
 domain:qofowyki.xyz
 domain:qogearh.com
 domain:qogilljcxwvrhj.com
@@ -113351,6 +113358,7 @@ domain:txzaazmdhtw.com
 domain:txzdbxtyhebo.com
 domain:txzepl.xyz
 domain:ty.soulackbooths.com
+domain:ty45dskohal1erz.com
 domain:ty8bz.com
 domain:tyawwj.cn
 domain:tybfxw.puma.com
@@ -117410,6 +117418,7 @@ domain:wabhrkynybk.com
 domain:wabsgz.studocu.com
 domain:wac.2ddcc.alphacdn.net
 domain:wachipho.net
+domain:wacisi.xyz
 domain:wackeerd.com
 domain:wackotracko.com
 domain:wacoloather.top
@@ -118624,6 +118633,7 @@ domain:wg.zaloapp.com
 domain:wgbwlgzthobp.com
 domain:wgchrrammzv.com
 domain:wghzbgmjpyig.com
+domain:wgidskie.top
 domain:wgkggub.com
 domain:wgnpq.com
 domain:wgnrrd.culturekings.com
@@ -119835,6 +119845,7 @@ domain:wqzqoobqpubx.com
 domain:wqzyxxrrep.com
 domain:wr.rugosehoarish.com
 domain:wr.yiyouliao.com
+domain:wranalytics.wildrocket.io
 domain:wrangleprickly.com
 domain:wrapacrylic.life
 domain:wrapdime.com
@@ -120718,6 +120729,7 @@ domain:www.info.dunnhumby.com
 domain:www.info.redhat.com
 domain:www.informationmoat.com
 domain:www.infos-experts.adp.com
+domain:www.ingonherbal.com
 domain:www.ins-cotizador.com
 domain:www.ins-mercadeo.com
 domain:www.ins-multiasistencia.com
@@ -123155,7 +123167,6 @@ domain:y.getmorelocalhelp.com
 domain:y.ibsys.com
 domain:y.ksl.com
 domain:y.photoint.net
-domain:y.shavsl.com
 domain:y.sphinxtube.com
 domain:y.topya.com
 domain:y0764.cn

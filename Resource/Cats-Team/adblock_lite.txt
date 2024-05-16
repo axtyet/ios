@@ -4,8 +4,8 @@
 ! Powerd by Cats-Team
 ! Expires: 1 day (update frequency)
 ! Description: AdRules AdBlock List's Lite Version, And Remove Some Filters
-! ! Version: 2024-05-16 00:26:19(GMT+8) 
-! Total count: 33553
+! ! Version: 2024-05-16 08:03:07(GMT+8) 
+! Total count: 33558
  
 ###ADtip
 ###AdBlockDialog
@@ -7638,7 +7638,7 @@ boke112.com##a[href^="https://dwz.cn/"]
 boke112.com,dzbhdm.net,mzh.ren,whsir.com##a[href*=".aliyun.com"]
 boke112.com,ruanyifeng.com##a[href^="http://t.cn/"]
 bol.com##section[data-group-name^="sponsored-products"]
-bol.com#$#debug; hide-if-contains-visible-text /Gesponsord/ 'ul[class][data-test="products"] li[class]' 'li[class] span[class]'
+bol.com#$#hide-if-contains-visible-text /Gesponsord/ 'ul[class][data-test="products"] li[class]' 'li[class] span[class]'
 bombardir.ru#$#abort-on-property-read alert
 bombaytimes.com##a[onclick*="click"][rel="nofollow,noindex"]
 bombaytimes.com#?#div:-abp-has(> h4 > span:-abp-contains(Ad: ))
@@ -19486,6 +19486,7 @@ zzzyk.com###Tinfo
 ||azhibo.*images/leisu.png
 ||aziekg.xyz^
 ||azkrya.xyz^
+||azsqkrc.icu^
 ||azukgee.cn^
 ||azureedge.net/wp-content/cache/minify/3c6d7.js
 ||azureedge.net/wp-content/cache/minify/d2299.js
@@ -20170,6 +20171,7 @@ zzzyk.com###Tinfo
 ||bqiapp.com/api/config/ad?
 ||bqjqripb.xyz^
 ||bqnmxza.cn^
+||bqnxff.xyz^
 ||bqsxqq.com^
 ||bqxexj.xyz^
 ||br.bendan.shop^
@@ -23054,6 +23056,7 @@ zzzyk.com###Tinfo
 ||ganjistatic1.com^*/adm/
 ||ganjituiguang.ganji.com^
 ||gansudaily.com.cn/2017zt/images/*gg
+||gaochen12.top^
 ||gaofen.com/source/plugin/gaofen_ad/
 ||gaofuwu.org/js/dd.js
 ||gaofuwu.org/js/dd2.js
@@ -31606,6 +31609,7 @@ zzzyk.com###Tinfo
 ||w94.1qlgi.top^
 ||w9f1r.top^
 ||wa.kuwo.cn/lyrics/img/kwgg/
+||wacisi.xyz^
 ||wacowla.com/wp-content/plugins/popover/js/
 ||wafmedia3.com^$script,domain=online.dramacafe.in
 ||waggishpig.com^$third-party
@@ -31761,6 +31765,7 @@ zzzyk.com###Tinfo
 ||wfpjeul.cn^
 ||wfqgfaa.cn^
 ||wftyehw.cn^
+||wgidskie.top^
 ||wgoeisdnlk.com^
 ||wgzgzmu.cn^
 ||whackyvidz.com/Webservices/jsParseLinks.aspx$script,third-party
