@@ -4,8 +4,8 @@
 ! Powerd by Cats-Team
 ! Expires: 1 day (update frequency)
 ! Description: AdRules AdBlock List's Lite Version, And Remove Some Filters
-! ! Version: 2024-05-17 07:20:12(GMT+8) 
-! Total count: 33564
+! ! Version: 2024-05-17 08:03:09(GMT+8) 
+! Total count: 33565
  
 ###ADtip
 ###AdBlockDialog
@@ -16216,6 +16216,7 @@ wuyong.fun##.riplus_ads_wrap
 wuyong.fun#?#.sidebar-innter > section[id^="b2-widget-html-"]:has(.adsbygoogle)
 wuzhuiso.com##.download-app
 www.123pan.com##.advBanner
+www.123pan.com##.banner-container-h5
 www.123pan.com##.btn_reward.hide
 www.123pan.com##DIV.app-adv-container
 www.123pan.com##IMG[src*='-banner'],.ant-carousel

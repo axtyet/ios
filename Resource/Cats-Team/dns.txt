@@ -4,8 +4,8 @@
 ! Powerd by Cats-Team
 ! Expires: 1 (update frequency)
 ! Description: The DNS Filters
-! Total count: 126012 
-! Update: 2024-05-17 07:20:13(GMT+8)
+! Total count: 126015 
+! Update: 2024-05-17 08:03:10(GMT+8)
 /^.+stat\.kugou\.com/
 /^admarvel\./
 /^admaster\./
@@ -23181,7 +23181,6 @@
 ||cajdldhaci.com^
 ||cajesa.uno^
 ||cajggfj.com^
-||cajgtus.com^
 ||cajipdiqqjijeh.xyz^
 ||cajqtygrudk.com^
 ||cajrijrhov.com^
@@ -36655,6 +36654,7 @@
 ||dowhatyouneed.com^
 ||dowlextff.com^
 ||down.nishuoa.com^
+||down.pcclear.com^
 ||down.sosoo.xyz^
 ||down.sosoz.xyz^
 ||down1oads.com^
@@ -73959,6 +73959,7 @@
 ||namimedia.com^
 ||namol.xyz^
 ||namrinfo.motorolasolutions.com^
+||namthaibinh.net^
 ||nan0cns.com^
 ||nan46ysangt28eec.com^
 ||nanaimostarkle.com^
@@ -114760,6 +114761,7 @@
 ||universaldev.taylormadegolf.com^
 ||universalflaskshrimp.com^
 ||universalhack.net^
+||universalmovies.top^
 ||universalsrc.com^
 ||universehacks.com^
 ||universeofhacks.com^
@@ -124779,6 +124781,7 @@
 ||yziwoidi.icu^
 ||yziwujuzq.live^
 ||yzjihang.cn^
+||yzkzixun.com^
 ||yzlfobyscos.com^
 ||yzllux.xyz^
 ||yzmcok.xyz^

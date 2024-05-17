@@ -23003,7 +23003,6 @@ domain:cajaro.ru
 domain:cajdldhaci.com
 domain:cajesa.uno
 domain:cajggfj.com
-domain:cajgtus.com
 domain:cajipdiqqjijeh.xyz
 domain:cajqtygrudk.com
 domain:cajrijrhov.com
@@ -36448,6 +36447,7 @@ domain:doweryacreak.website
 domain:dowhatyouneed.com
 domain:dowlextff.com
 domain:down.nishuoa.com
+domain:down.pcclear.com
 domain:down.sosoo.xyz
 domain:down.sosoz.xyz
 domain:down1oads.com
@@ -73664,6 +73664,7 @@ domain:namesakeoscilloscopemarquis.com
 domain:namimedia.com
 domain:namol.xyz
 domain:namrinfo.motorolasolutions.com
+domain:namthaibinh.net
 domain:nan0cns.com
 domain:nan46ysangt28eec.com
 domain:nanaimostarkle.com
@@ -114401,6 +114402,7 @@ domain:universaldatedimpress.com
 domain:universaldev.taylormadegolf.com
 domain:universalflaskshrimp.com
 domain:universalhack.net
+domain:universalmovies.top
 domain:universalsrc.com
 domain:universehacks.com
 domain:universeofhacks.com
@@ -124410,6 +124412,7 @@ domain:yzgid.cn
 domain:yziwoidi.icu
 domain:yziwujuzq.live
 domain:yzjihang.cn
+domain:yzkzixun.com
 domain:yzlfobyscos.com
 domain:yzllux.xyz
 domain:yzmcok.xyz
