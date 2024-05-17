@@ -1,7 +1,7 @@
 ## [Adblock Plus 1.1]
-## ! Version: 202405151336
+## ! Version: 202405171426
 ## ! Title: EasyPrivacy
-## ! Last modified: 15 May 2024 13:36 UTC
+## ! Last modified: 17 May 2024 14:26 UTC
 ## ! Expires: 4 days (update frequency)
 ## ! *** easylist:template_header.txt ***
 ## ! 
@@ -2853,6 +2853,7 @@ HOST-SUFFIX,iabusprivacy.pmc.com,REJECT
 HOST-SUFFIX,icu.getstorybox.com,REJECT
 HOST-SUFFIX,iddu1vvb7sk8-a.akamaihd.net,REJECT
 HOST-SUFFIX,identification.hotmart.com,REJECT
+HOST-SUFFIX,ihi.flowplayer.com,REJECT
 HOST-SUFFIX,imp.pvnsolutions.com,REJECT
 HOST-SUFFIX,impress.vcita.com,REJECT
 HOST-SUFFIX,impression.clickinc.com,REJECT
@@ -3318,6 +3319,7 @@ HOST-SUFFIX,track.td3x.com,REJECT
 HOST-SUFFIX,track.uc.cn,REJECT
 HOST-SUFFIX,track.untd.com,REJECT
 HOST-SUFFIX,track.uppromote.com,REJECT
+HOST-SUFFIX,track.us.org,REJECT
 HOST-SUFFIX,track.venatusmedia.com,REJECT
 HOST-SUFFIX,track.vscash.com,REJECT
 HOST-SUFFIX,track.yfret.com,REJECT
@@ -3699,6 +3701,7 @@ HOST-SUFFIX,trck.spoteffects.net,REJECT
 HOST-SUFFIX,trecker.aklamio.com,REJECT
 HOST-SUFFIX,vtrtl.de,REJECT
 HOST-SUFFIX,webcounter.goweb.de,REJECT
+HOST-SUFFIX,wranalytics.wildrocket.io,REJECT
 HOST-SUFFIX,x.bloggurat.net,REJECT
 HOST-SUFFIX,zs.dhl.de,REJECT
 HOST-SUFFIX,abs.proxistore.com,REJECT
@@ -3839,6 +3842,7 @@ HOST-SUFFIX,statistics.rbi-nl.com,REJECT
 HOST-SUFFIX,trkr.shoppingminds.net,REJECT
 HOST-SUFFIX,dnt-userreport.com,REJECT
 HOST-SUFFIX,tags.op-palvelut.fi,REJECT
+HOST-SUFFIX,analytics.palitra.ge,REJECT
 HOST-SUFFIX,links.boom.ge,REJECT
 HOST-SUFFIX,stats-real-clients.zentech.gr,REJECT
 HOST-SUFFIX,heartbeat.pmd.444.hu,REJECT
@@ -39387,6 +39391,7 @@ HOST-SUFFIX,stats.nhk.or.jp,REJECT
 HOST-SUFFIX,sy.amebame.com,REJECT
 HOST-SUFFIX,sy.ameblo.jp,REJECT
 HOST-SUFFIX,t.syosetu.org,REJECT
+HOST-SUFFIX,temp.twicomi.com,REJECT
 HOST-SUFFIX,track.buyma.com,REJECT
 HOST-SUFFIX,track.prod.smash.pet,REJECT
 HOST-SUFFIX,tracking.ai.rakuten.co.jp,REJECT
@@ -39506,6 +39511,7 @@ HOST-SUFFIX,sync.rambler.ru,REJECT
 HOST-SUFFIX,top-staging.mail.ru,REJECT
 HOST-SUFFIX,xray.mail.ru,REJECT
 HOST-SUFFIX,yast.rutube.ru,REJECT
+HOST-SUFFIX,harvester.cms.markiza.sk,REJECT
 HOST-SUFFIX,go-usertrack-importer.pub.24ur.si,REJECT
 HOST-SUFFIX,tracker.azet.sk,REJECT
 HOST-SUFFIX,analytics.bolavip.com,REJECT
