@@ -4,8 +4,8 @@
 ! Powerd by Cats-Team
 ! Expires: 1 day (update frequency)
 ! Description: AdRules AdBlock List's Lite Version, And Remove Some Filters
-! ! Version: 2024-05-17 08:03:09(GMT+8) 
-! Total count: 33565
+! ! Version: 2024-05-17 12:52:40(GMT+8) 
+! Total count: 33573
  
 ###ADtip
 ###AdBlockDialog
@@ -18193,6 +18193,7 @@ zzzyk.com###Tinfo
 ||88lm13.com^
 ||88lm15.com^
 ||88p2p.com^$popup
+||88tm6.cc^
 ||88ys.cc/js/abcd.js
 ||8961.jianbihua.com^
 ||89hdn.cn^
@@ -21143,6 +21144,7 @@ zzzyk.com###Tinfo
 ||cqbuchouhua.com^
 ||cqisam.xyz^
 ||cqmpigx.cn^
+||cqpph.cn^
 ||cqtlimi.cn^
 ||cqvip.com/viewserver/ViewAD
 ||cqygmb.com^
@@ -24435,6 +24437,7 @@ zzzyk.com###Tinfo
 ||illinvention.com^$third-party
 ||illustriousoatmeal.com^$third-party
 ||ilph0.icu^
+||ilvqyya.cn^
 ||ilxdh.com/navig/2020-09-08/1599538164_1474.png
 ||ilyf4amifh.com^
 ||im-x.jd.com^
@@ -24461,6 +24464,7 @@ zzzyk.com###Tinfo
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima3,domain=line.me
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima3,domain=now.com,important
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima3,important,domain=linetv.tw
+||imawwq.xyz^
 ||imbikh.icu^
 ||imedown.info/03.jpg
 ||imedown.info^*.gif
@@ -24927,6 +24931,7 @@ zzzyk.com###Tinfo
 ||jghklz.xyz^
 ||jgidskia.top^
 ||jgmywh.icu^
+||jgntjtyf.icu^
 ||jgsajfggv.xyz^
 ||jgstny.com^$third-party
 ||jgygtv.cn^
@@ -27138,6 +27143,7 @@ zzzyk.com###Tinfo
 ||ncgqmzm.cn^
 ||nchxzmhr.com^
 ||ncjpbv.xyz^
+||nclljn.xyz^
 ||ncmxwhf.icu^
 ||ncnfjasd.net^
 ||ncyksuw.xyz^
@@ -28368,6 +28374,7 @@ zzzyk.com###Tinfo
 ||qfcdgy.cn^
 ||qfdtqq.com^
 ||qfnoyix.cn^
+||qgidskiy.top^
 ||qgl27.xyz^
 ||qgrnyis.cn^
 ||qguwoq.cn^$third-party
@@ -30892,6 +30899,7 @@ zzzyk.com###Tinfo
 ||txbhhh.xyz^
 ||txcv68f.com^
 ||txjfso.com^
+||txmeeqz.icu^
 ||txscn.cn^
 ||txtyuzhaiwu.com/astyle/wap.js
 ||txxx.com/*x/*.js$domain=gaytxxx.com|transtxxx.com|txxx.com
