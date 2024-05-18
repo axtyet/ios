@@ -1,23 +1,31 @@
 ### 配置说明
 
-适用软件：所有使用[Clash Premium核心](https://github.com/Dreamacro/clash/releases/tag/premium)的程序
+适用软件：所有使用[mihome 核心](https://github.com/MetaCubeX/mihomo/tree/Meta)的程序
 
-配置作者：[可莉🅥](tg://user?id=259049671)
+核心文档：[https://wiki.metacubex.one](https://wiki.metacubex.one)
 
-更新日期：2023-02-13
+配置作者：可莉🅥
 
-配置地址：[https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Clash/Config/Clash_Sample_Configuration_By_iKeLee.yml](https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Clash/Config/Clash_Sample_Configuration_By_iKeLee.yml)
+更新日期：2024-05-18
+
+配置地址：[https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Clash/Config/Clash_Sample_Configuration_By_iKeLee.yaml](https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Clash/Config/Clash_Sample_Configuration_By_iKeLee.yaml)
 
 ### 使用说明
 
-暂时没空写使用说明，自行理解！
+暂时没空写使用说明
 
 策略组如图
 
-![](https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Clash/Config/Resource/01.png)
+![](https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Clash/Config/Resource/1.png)
 
-![](https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Clash/Config/Resource/02.png)
+![](https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Clash/Config/Resource/2.png)
 
-![](https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Clash/Config/Resource/03.png)
+![](https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Clash/Config/Resource/3.png)
 
-![](https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Clash/Config/Resource/04.png)
+![](https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Clash/Config/Resource/4.png)
+
+![](https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Clash/Config/Resource/5.png)
+
+![](https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Clash/Config/Resource/6.png)
+
+![](https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Clash/Config/Resource/7.png)
