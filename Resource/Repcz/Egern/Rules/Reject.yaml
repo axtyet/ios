@@ -504,6 +504,7 @@ domain_suffix_set:
 - ad.sohu.com
 - ad.tencentmusic.com
 - ad.toutiao.com
+- ad.vidverto.io
 - ad.winrar.com.cn
 - ad.xelements.cn
 - ad.xiaomi.com
@@ -766,6 +767,7 @@ domain_suffix_set:
 - axonix.com
 - azr.footprintdns.com
 - b1-data.ads.heytapmobi.com
+- b1sync.zemanta.com
 - b2pk.com
 - baiwanchuangyi.com
 - bartender.cc
@@ -885,6 +887,7 @@ domain_suffix_set:
 - domob.cn
 - dongmansoft.com
 - dotomi.com
+- double.net
 - doubleclick-cn.net
 - doubleclick.net
 - doubleverify.com
@@ -961,6 +964,7 @@ domain_suffix_set:
 - ggsfq.com
 - giocdn.com
 - globalapi.ad.xiaomi.com
+- gn01.top
 - go.mnaspm.com
 - go.myavlive.com
 - go2cloud.org
@@ -1579,6 +1583,7 @@ domain_suffix_set:
 - sprout-ad.com
 - stackadapt.com
 - startappservice.com
+- stat.gn01.top
 - stat.y.qq.com
 - stathat.com
 - static.ads-twitter.com

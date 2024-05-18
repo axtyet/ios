@@ -551,6 +551,7 @@ payload:
   - DOMAIN-SUFFIX,ad.sohu.com
   - DOMAIN-SUFFIX,ad.tencentmusic.com
   - DOMAIN-SUFFIX,ad.toutiao.com
+  - DOMAIN-SUFFIX,ad.vidverto.io
   - DOMAIN-SUFFIX,ad.winrar.com.cn
   - DOMAIN-SUFFIX,ad.xelements.cn
   - DOMAIN-SUFFIX,ad.xiaomi.com
@@ -813,6 +814,7 @@ payload:
   - DOMAIN-SUFFIX,axonix.com
   - DOMAIN-SUFFIX,azr.footprintdns.com
   - DOMAIN-SUFFIX,b1-data.ads.heytapmobi.com
+  - DOMAIN-SUFFIX,b1sync.zemanta.com
   - DOMAIN-SUFFIX,b2pk.com
   - DOMAIN-SUFFIX,baiwanchuangyi.com
   - DOMAIN-SUFFIX,bartender.cc
@@ -932,6 +934,7 @@ payload:
   - DOMAIN-SUFFIX,domob.cn
   - DOMAIN-SUFFIX,dongmansoft.com
   - DOMAIN-SUFFIX,dotomi.com
+  - DOMAIN-SUFFIX,double.net
   - DOMAIN-SUFFIX,doubleclick-cn.net
   - DOMAIN-SUFFIX,doubleclick.net
   - DOMAIN-SUFFIX,doubleverify.com
@@ -1008,6 +1011,7 @@ payload:
   - DOMAIN-SUFFIX,ggsfq.com
   - DOMAIN-SUFFIX,giocdn.com
   - DOMAIN-SUFFIX,globalapi.ad.xiaomi.com
+  - DOMAIN-SUFFIX,gn01.top
   - DOMAIN-SUFFIX,go.mnaspm.com
   - DOMAIN-SUFFIX,go.myavlive.com
   - DOMAIN-SUFFIX,go2cloud.org
@@ -1626,6 +1630,7 @@ payload:
   - DOMAIN-SUFFIX,sprout-ad.com
   - DOMAIN-SUFFIX,stackadapt.com
   - DOMAIN-SUFFIX,startappservice.com
+  - DOMAIN-SUFFIX,stat.gn01.top
   - DOMAIN-SUFFIX,stat.y.qq.com
   - DOMAIN-SUFFIX,stathat.com
   - DOMAIN-SUFFIX,static.ads-twitter.com
