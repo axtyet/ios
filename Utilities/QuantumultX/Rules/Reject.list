@@ -550,6 +550,7 @@ HOST-SUFFIX,ad.richmob.cn,REJECT
 HOST-SUFFIX,ad.sohu.com,REJECT
 HOST-SUFFIX,ad.tencentmusic.com,REJECT
 HOST-SUFFIX,ad.toutiao.com,REJECT
+HOST-SUFFIX,ad.vidverto.io,REJECT
 HOST-SUFFIX,ad.winrar.com.cn,REJECT
 HOST-SUFFIX,ad.xelements.cn,REJECT
 HOST-SUFFIX,ad.xiaomi.com,REJECT
@@ -812,6 +813,7 @@ HOST-SUFFIX,awaitcola.com,REJECT
 HOST-SUFFIX,axonix.com,REJECT
 HOST-SUFFIX,azr.footprintdns.com,REJECT
 HOST-SUFFIX,b1-data.ads.heytapmobi.com,REJECT
+HOST-SUFFIX,b1sync.zemanta.com,REJECT
 HOST-SUFFIX,b2pk.com,REJECT
 HOST-SUFFIX,baiwanchuangyi.com,REJECT
 HOST-SUFFIX,bartender.cc,REJECT
@@ -931,6 +933,7 @@ HOST-SUFFIX,domain.aishengji.com,REJECT
 HOST-SUFFIX,domob.cn,REJECT
 HOST-SUFFIX,dongmansoft.com,REJECT
 HOST-SUFFIX,dotomi.com,REJECT
+HOST-SUFFIX,double.net,REJECT
 HOST-SUFFIX,doubleclick-cn.net,REJECT
 HOST-SUFFIX,doubleclick.net,REJECT
 HOST-SUFFIX,doubleverify.com,REJECT
@@ -1007,6 +1010,7 @@ HOST-SUFFIX,geo.yahoo.com,REJECT
 HOST-SUFFIX,ggsfq.com,REJECT
 HOST-SUFFIX,giocdn.com,REJECT
 HOST-SUFFIX,globalapi.ad.xiaomi.com,REJECT
+HOST-SUFFIX,gn01.top,REJECT
 HOST-SUFFIX,go.mnaspm.com,REJECT
 HOST-SUFFIX,go.myavlive.com,REJECT
 HOST-SUFFIX,go2cloud.org,REJECT
@@ -1625,6 +1629,7 @@ HOST-SUFFIX,springserve.com,REJECT
 HOST-SUFFIX,sprout-ad.com,REJECT
 HOST-SUFFIX,stackadapt.com,REJECT
 HOST-SUFFIX,startappservice.com,REJECT
+HOST-SUFFIX,stat.gn01.top,REJECT
 HOST-SUFFIX,stat.y.qq.com,REJECT
 HOST-SUFFIX,stathat.com,REJECT
 HOST-SUFFIX,static.ads-twitter.com,REJECT
