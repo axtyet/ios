@@ -14,6 +14,7 @@
 DOMAIN-SUFFIX,asd8900.oss-*.aliyuncs.com, reject
 DOMAIN-SUFFIX,ky891.oss-*.aliyuncs.com, reject
 DOMAIN-SUFFIX,tupian888.*.bcebos.com, reject
+DOMAIN-SUFFIX,txhfgwgkwt*.asia, reject
 DOMAIN-SUFFIX,vns86.oss-*.aliyuncs.com, reject
 DOMAIN-SUFFIX,zhizhizhizhi.oss-*.aliyuncs.com, reject
 DOMAIN-SUFFIX,154.7.80.158, reject
@@ -975,6 +976,15 @@ DOMAIN-SUFFIX,ilvqyya.cn, reject
 DOMAIN-SUFFIX,88tm6.cc, reject
 DOMAIN-SUFFIX,jgntjtyf.icu, reject
 DOMAIN-SUFFIX,qpzegye.cn, reject
+DOMAIN-SUFFIX,uyohyy.xyz, reject
+DOMAIN-SUFFIX,999db.cn, reject
+DOMAIN-SUFFIX,tgidskii.top, reject
+DOMAIN-SUFFIX,mqcoycx.icu, reject
+DOMAIN-SUFFIX,ljdofz.xyz, reject
+DOMAIN-SUFFIX,zozwnv.xyz, reject
+DOMAIN-SUFFIX,txhfgwgkwt7.asia, reject
+DOMAIN-SUFFIX,txhfgwgkwt8.asia, reject
+DOMAIN-SUFFIX,xytcboyz.icu, reject
 DOMAIN-SUFFIX,cqpph.cn, reject
 DOMAIN-SUFFIX,hphvd.cn, reject
 DOMAIN-SUFFIX,bpxbzps.xyz, reject
