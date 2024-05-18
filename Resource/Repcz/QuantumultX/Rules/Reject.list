@@ -663,6 +663,7 @@ HOST-SUFFIX,ads.roku.com,REJECT
 HOST-SUFFIX,ads.service.kugou.com,REJECT
 HOST-SUFFIX,ads.sohu.com,REJECT
 HOST-SUFFIX,ads.superad.cc,REJECT
+HOST-SUFFIX,ads.vungle.com,REJECT
 HOST-SUFFIX,ads1.msn.com,REJECT
 HOST-SUFFIX,ads2.msn.com,REJECT
 HOST-SUFFIX,ads3-normal-hl.zijieapi.com,REJECT
