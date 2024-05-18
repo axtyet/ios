@@ -1,8 +1,9 @@
 no_resolve: true
 domain_set:
-- ossgw.alicdn.com
+- dns.alidns.com
 - ems.youku.com
 - hudong.alicdn.com
+- ossgw.alicdn.com
 - api.iqiyi.com
 - advertising.apple.com
 - api-adservices.apple.com
