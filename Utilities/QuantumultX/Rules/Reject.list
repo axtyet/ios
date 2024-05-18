@@ -190,6 +190,7 @@ HOST,data.mistat.xiaomi.com,REJECT
 HOST,de.as.pptv.com,REJECT
 HOST,dflow.bz.mgtv.com,REJECT
 HOST,dispatcher.360in.com,REJECT
+HOST,dns.alidns.com,REJECT
 HOST,dns.jd.com,REJECT
 HOST,dsp.fcbox.com,REJECT
 HOST,dsp.toutiao.com,REJECT

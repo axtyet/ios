@@ -191,6 +191,7 @@ DOMAIN,data.mistat.xiaomi.com
 DOMAIN,de.as.pptv.com
 DOMAIN,dflow.bz.mgtv.com
 DOMAIN,dispatcher.360in.com
+DOMAIN,dns.alidns.com
 DOMAIN,dns.jd.com
 DOMAIN,dsp.fcbox.com
 DOMAIN,dsp.toutiao.com
@@ -534,6 +535,7 @@ DOMAIN-SUFFIX,ad.g.daum.net
 DOMAIN-SUFFIX,ad.gt
 DOMAIN-SUFFIX,ad.pornimg.xyz
 DOMAIN-SUFFIX,ad.sohu.com
+DOMAIN-SUFFIX,ad.vidverto.io
 DOMAIN-SUFFIX,ad.youku.com
 DOMAIN-SUFFIX,ad1.ru
 DOMAIN-SUFFIX,ad120m.com
@@ -678,6 +680,7 @@ DOMAIN-SUFFIX,atplay.cn
 DOMAIN-SUFFIX,aty.sohu.com
 DOMAIN-SUFFIX,awaitcola.com
 DOMAIN-SUFFIX,axonix.com
+DOMAIN-SUFFIX,b1sync.zemanta.com
 DOMAIN-SUFFIX,b2pk.com
 DOMAIN-SUFFIX,baiwanchuangyi.com
 DOMAIN-SUFFIX,bartender.cc
@@ -753,6 +756,7 @@ DOMAIN-SUFFIX,disqusads.com
 DOMAIN-SUFFIX,domob.cn
 DOMAIN-SUFFIX,dongmansoft.com
 DOMAIN-SUFFIX,dotomi.com
+DOMAIN-SUFFIX,double.net
 DOMAIN-SUFFIX,doubleclick.net
 DOMAIN-SUFFIX,doubleverify.com
 DOMAIN-SUFFIX,dsaeerf.com
@@ -804,6 +808,7 @@ DOMAIN-SUFFIX,gdt.qq.com
 DOMAIN-SUFFIX,gemini.yahoo.com
 DOMAIN-SUFFIX,ggsfq.com
 DOMAIN-SUFFIX,giocdn.com
+DOMAIN-SUFFIX,gn01.top
 DOMAIN-SUFFIX,go.mnaspm.com
 DOMAIN-SUFFIX,go.myavlive.com
 DOMAIN-SUFFIX,go2cloud.org
@@ -1024,6 +1029,7 @@ DOMAIN-SUFFIX,overturechina.com
 DOMAIN-SUFFIX,owneriq.net
 DOMAIN-SUFFIX,ownlocal.com
 DOMAIN-SUFFIX,p242.plainwrk.name
+DOMAIN-SUFFIX,pagead2.googlesyndication.com
 DOMAIN-SUFFIX,pagefair.com
 DOMAIN-SUFFIX,pagefair.net
 DOMAIN-SUFFIX,pangle.io
@@ -1207,6 +1213,7 @@ DOMAIN-SUFFIX,springserve.com
 DOMAIN-SUFFIX,sprout-ad.com
 DOMAIN-SUFFIX,stackadapt.com
 DOMAIN-SUFFIX,startappservice.com
+DOMAIN-SUFFIX,stat.gn01.top
 DOMAIN-SUFFIX,stathat.com
 DOMAIN-SUFFIX,stats-locations.com
 DOMAIN-SUFFIX,steelhouse.com
