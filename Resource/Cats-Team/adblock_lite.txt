@@ -4,8 +4,8 @@
 ! Powerd by Cats-Team
 ! Expires: 1 day (update frequency)
 ! Description: AdRules AdBlock List's Lite Version, And Remove Some Filters
-! ! Version: 2024-05-18 08:03:17(GMT+8) 
-! Total count: 33586
+! ! Version: 2024-05-19 08:03:09(GMT+8) 
+! Total count: 33601
  
 ###ADtip
 ###AdBlockDialog
@@ -10604,6 +10604,7 @@ hupu.com##.topPub
 hupu.com##.voice-ad300-250
 hupu.com##.voteIndex
 hupu.com##DIV[class^="game-center-"]
+hupu.com##div[class*="-banner_"]
 hupu.com##div[class*="ad200-200"]
 hupu.com##div[class*="ad240-200"]
 hupu.com##div[class*="ad728-90"]
@@ -18326,6 +18327,7 @@ zzzyk.com###Tinfo
 ||999bb222ww.com^
 ||999d.com^$third-party
 ||999db.cn^
+||999fb.cn^
 ||999gg.net^
 ||999meiju.com/js/tj
 ||999pro.top^
@@ -21969,6 +21971,7 @@ zzzyk.com###Tinfo
 ||drydrum.com^$third-party
 ||drzgtli.com^
 ||ds1.kaijia.com^
+||dsa22.com^
 ||dsbfpt.xyz^
 ||dsbjdeh.cn^
 ||dsbqvj.xyz^
@@ -22837,6 +22840,7 @@ zzzyk.com###Tinfo
 ||fortunatemark.com^$third-party
 ||fortxfq.cn^
 ||forzubatr.com^
+||foscvbu.icu^
 ||fotao9.com^
 ||fotaxf.xyz^
 ||fotrbx.xyz^
@@ -26081,6 +26085,7 @@ zzzyk.com###Tinfo
 ||lizehuandian.top^
 ||lizijing12.top^
 ||ljarfvg.cn^
+||ljdofz.xyz^
 ||ljhbhy.cn^
 ||ljnrjt.xyz^
 ||ljpbtjq.xyz^
@@ -26143,6 +26148,7 @@ zzzyk.com###Tinfo
 ||lnifdlal.top^
 ||lniwe.xyz^
 ||lnpqqq.com^
+||lnxkrd.xyz^
 ||lnxpdj.xyz^
 ||lnzjlr.xyz^
 ||lnzqw.net/js/
@@ -26248,6 +26254,7 @@ zzzyk.com###Tinfo
 ||lsntzzy3.com/Runtime/js/psData.js
 ||lsnzxzy1.com/Runtime/js/psData.js
 ||ltbyw.top/data/images/*.gif
+||ltfpbp.xyz^
 ||lthmfx.xyz^
 ||ltht.tech^
 ||ltienll.top^
@@ -26698,6 +26705,7 @@ zzzyk.com###Tinfo
 ||mhzftye.xyz^
 ||mianbao99.com/a/mianbao
 ||mianwww.com/wp-content/uploads/2014/05/insigmaedu1.gif
+||mianyaojsj.com^
 ||miaoshangmanhua.com/template/pc/skin01/images/250_250.
 ||miaozhen.com^
 ||miaozhen.com^$third-party
@@ -27696,6 +27704,7 @@ zzzyk.com###Tinfo
 ||owyame.xyz^
 ||oxj8hcfg.xyz^
 ||oxkyaq.xyz^
+||oxmvcg.xyz^
 ||oxrvfsi.xyz^
 ||oxvlxwz.xyz^
 ||oyfnkle.cn^
@@ -30909,6 +30918,9 @@ zzzyk.com###Tinfo
 ||txahz.com/static/image/tp/
 ||txbhhh.xyz^
 ||txcv68f.com^
+||txhfgwgkwt*.asia^
+||txhfgwgkwt7.asia^
+||txhfgwgkwt8.asia^
 ||txjfso.com^
 ||txmeeqz.icu^
 ||txscn.cn^
@@ -31055,6 +31067,7 @@ zzzyk.com###Tinfo
 ||ug.snssdk.com^
 ||ugbjqwe.com^
 ||ugbler.icu^
+||ugidskit.top^
 ||ugkpsi.xyz^
 ||ugolue.xyz^
 ||ugpibtpk.xyz^
@@ -32611,6 +32624,7 @@ zzzyk.com###Tinfo
 ||xymahuxv.xyz^
 ||xyqmy.xyz^
 ||xyryjt.xyz^
+||xytcboyz.icu^
 ||xywy.com/gk?a=
 ||xywy.com/zhixing/
 ||xyzyqq.com^
@@ -33440,6 +33454,7 @@ zzzyk.com###Tinfo
 ||zoukankan.com^$csp=script-src 'self' * 'unsafe-eval'
 ||zouqiuyyds.com^
 ||zowralr.cn^
+||zozwnv.xyz^
 ||zp0737.com^
 ||zp365.com/newhousered/hb-index-pop-
 ||zpcj8.online^
