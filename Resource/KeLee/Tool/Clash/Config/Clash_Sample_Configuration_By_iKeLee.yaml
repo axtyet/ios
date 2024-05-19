@@ -1,5 +1,5 @@
 # mihomo 配置
-# 日期：2024-05-18 15:23:00
+# 日期：2024-05-19 18:43:41
 # 配置作者：https://t.me/iKeLee
 # 适用版本：所有使用 mihomo 核心的程序
 port: 7890
@@ -16,7 +16,6 @@ geodata-loader: standard
 geo-auto-update: true
 geo-update-interval: 24
 tcp-concurrent: true
-enable-process: true
 find-process-mode: strict
 global-client-fingerprint: chrome
 
