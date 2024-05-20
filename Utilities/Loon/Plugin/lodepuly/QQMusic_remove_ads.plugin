@@ -4,7 +4,7 @@
 #!author = 可莉🅥
 #!homepage = https://gitlab.com/lodepuly/vpn_tool/-/tree/master/Tool/Loon/Plugin
 #!icon = https://gitlab.com/lodepuly/iconlibrary/-/raw/main/App_icon/120px/QQMusic.png
-#!date = 2024-05-12 03:50:32
+#!date = 2024-05-20 22:12:34
 
 [Rule]
 DOMAIN, adstats.tencentmusic.com, REJECT
@@ -14,7 +14,6 @@ DOMAIN, adcdn6.tencentmusic.com, REJECT
 DOMAIN, adexpo.tencentmusic.com, REJECT
 DOMAIN, adclick.tencentmusic.com, REJECT
 DOMAIN, otheve.beacon.qq.com, REJECT
-DOMAIN, mazu.m.qq.com, REJECT
 DOMAIN, monitor.music.qq.com, REJECT
 DOMAIN, stat.y.qq.com, REJECT
 DOMAIN, tmead.y.qq.com, REJECT-NO-DROP

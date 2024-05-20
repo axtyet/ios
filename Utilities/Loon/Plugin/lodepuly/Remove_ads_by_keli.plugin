@@ -4,7 +4,7 @@
 #!author = 可莉🅥
 #!homepage = https://gitlab.com/lodepuly/vpn_tool/-/tree/master/Tool/Loon/Plugin
 #!icon = https://gitlab.com/lodepuly/iconlibrary/-/raw/main/Other_icon/120px/KeLee.png
-#!date = 2024-05-17 14:11:13
+#!date = 2024-05-20 22:13:02
 
 [Rule]
 # 广告联盟放行
@@ -44,7 +44,6 @@ DOMAIN-SUFFIX, union.baidu.cn, REJECT
 DOMAIN-SUFFIX, union.baidu.com, REJECT
 
 # 腾讯优量汇 - 广告服务商
-DOMAIN, mazu.m.qq.com, REJECT
 DOMAIN, sdk.e.qq.com, REJECT
 # DOMAIN-SUFFIX, gdt.qq.com, REJECT
 
