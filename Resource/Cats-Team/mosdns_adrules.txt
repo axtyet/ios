@@ -569,6 +569,7 @@ domain:1f84e33459.com
 domain:1f87527dc9.com
 domain:1f98dc1262.com
 domain:1fd92n6t8.de
+domain:1fkx796mw.com
 domain:1fluxx-strean.com
 domain:1freestyl3domain.com
 domain:1frozenthrone1.com
@@ -906,6 +907,7 @@ domain:2989f3f0ff.com
 domain:29apfjmg2.de
 domain:29d65cebb82ef9f.com
 domain:29s55bf2.de
+domain:29vpnmv4q.com
 domain:2a1b1657c6.com
 domain:2a2k3aom6.de
 domain:2a4snhmtm.de
@@ -1588,6 +1590,7 @@ domain:3p-geo.yahoo.com
 domain:3p-link.com
 domain:3p-udc.yahoo.com
 domain:3p8801.co
+domain:3pkf5m0gd.com
 domain:3plworldwide.actonservice.com
 domain:3prndxd.cn
 domain:3q1lsj.cn
@@ -1950,6 +1953,7 @@ domain:5ibanma.com
 domain:5icim50.de
 domain:5idxw.com
 domain:5ip9.com
+domain:5ivy3ikkt.com
 domain:5j.com
 domain:5j5k.com
 domain:5jgwflo4y935b8udrp.www.pmn-nerez.cz
@@ -7413,7 +7417,6 @@ domain:accessfreevpn.com
 domain:accesshomeinsurance.co
 domain:accessiblescopevisitor.com
 domain:accesstrade.net
-domain:accfiverif.com
 domain:accid.xyz
 domain:accidentalinfringementfat.com
 domain:accidentallyrussian.com
@@ -8881,6 +8884,7 @@ domain:adition.de
 domain:adition.net
 domain:aditms.me
 domain:aditsafeweb.com
+domain:aditude.prebid-server.com
 domain:adizio.com
 domain:adj.st
 domain:adjb.5nd.com
@@ -9936,6 +9940,7 @@ domain:ads.scott-sports.com
 domain:ads.scottusa.com
 domain:ads.seniorfriendfinder.com
 domain:ads.senmanga.com
+domain:ads.seovietnam.pro
 domain:ads.service.kugou.com
 domain:ads.sexier.com
 domain:ads.sexyland.vn
@@ -12279,6 +12284,7 @@ domain:ajjhtetv87.com
 domain:ajjkmoyjlbjj.top
 domain:ajjwuunaxq.com
 domain:ajkdtajpaw.com
+domain:ajkggo.xyz
 domain:ajkjbcjbaaaed.com
 domain:ajkoplopnza.com
 domain:ajkzd9h.com
@@ -12510,7 +12516,6 @@ domain:alerts.steadyapp.com
 domain:alerts.thedailystar.net
 domain:alerts.wolterskluwerfs.com
 domain:alertsatwork.americanexpress.com
-domain:alertsecurities.in
 domain:alesneogaea.com
 domain:alespeonor.com
 domain:aletrenhegenmi.com
@@ -12699,7 +12704,6 @@ domain:allmt.com
 domain:allmygoodlife.com
 domain:allnesskepped.com
 domain:allnews.chestertelegraph.org
-domain:allnewsready.com
 domain:allocatelacking.com
 domain:allocnie.fr
 domain:allodiafeveret.life
@@ -14539,7 +14543,6 @@ domain:aoxbbx.creditoseconomicos.com
 domain:aoxtyivjpt.com
 domain:aoyou2.top
 domain:aoyou4.top
-domain:aozeala.com
 domain:aozmpm.jwell.com
 domain:ap-srv.net
 domain:ap.bouncelargo.com
@@ -14847,6 +14850,7 @@ domain:apnpr.com
 domain:apnttuttej.com
 domain:apocarpdogdom.com
 domain:apochaeunanime.com
+domain:apoilpnwr.com
 domain:apoll-amp.com
 domain:apollo-us.com
 domain:apollo.plein.nl
@@ -17259,6 +17263,7 @@ domain:ausoafab.net
 domain:ausomsup.net
 domain:auspiceguile.com
 domain:auspipe.com
+domain:auspost.your-redelivery-au.com
 domain:aussiemethod.com
 domain:aussiesportfashion.com
 domain:aussieupload.com
@@ -17786,6 +17791,7 @@ domain:axzxkeawbo.com
 domain:ay.delivery
 domain:ay5u9w4jjc.com
 domain:ayads.co
+domain:ayads.io
 domain:ayaghlq.com
 domain:ayahspollent.top
 domain:ayalapma.com
@@ -18286,6 +18292,7 @@ domain:bakercommunications.actonservice.com
 domain:bakeronerousfollowing.com
 domain:bakertangiblebehaved.com
 domain:bakeryunprofessional.com
+domain:bakeryxswap.org
 domain:bakld.com
 domain:bakmid.ru
 domain:bakomcsmya.com
@@ -18880,6 +18887,7 @@ domain:bckqdynigv.com
 domain:bclicks.lyst.com
 domain:bclikeqt.com
 domain:bcloudhost.com
+domain:bcm8.shop
 domain:bcmediagroup.com
 domain:bcob.charlotte.edu
 domain:bcob.uncc.edu
@@ -19555,6 +19563,7 @@ domain:bestfreecodes.com
 domain:bestfreecounterstat.com
 domain:bestfreehacks.com
 domain:bestfreehacktools.com
+domain:bestfunnyads.com
 domain:bestgamehacks.info
 domain:bestgamesfiles.com
 domain:bestgameshack.info
@@ -22635,6 +22644,7 @@ domain:c-gtc.getui.net
 domain:c-nfa.jd.com
 domain:c-piscine.fr
 domain:c-t.topya.com
+domain:c-tozluxury.shop
 domain:c.28rv.com
 domain:c.adx.2345.com
 domain:c.anytrx.com
@@ -23008,6 +23018,7 @@ domain:cajaro.ru
 domain:cajdldhaci.com
 domain:cajesa.uno
 domain:cajggfj.com
+domain:cajgtus.com
 domain:cajipdiqqjijeh.xyz
 domain:cajqtygrudk.com
 domain:cajrijrhov.com
@@ -23930,6 +23941,7 @@ domain:cdn.buram.xyz
 domain:cdn.c-i.as
 domain:cdn.comedia.coccoc.com
 domain:cdn.constafun.com
+domain:cdn.counter.dev
 domain:cdn.crsope.com
 domain:cdn.dajkq.com
 domain:cdn.dashenya.com
@@ -24652,6 +24664,7 @@ domain:charmingblur.com
 domain:charmingresumed.com
 domain:charms.pugster.com
 domain:charmsection.com
+domain:charmshoist.com
 domain:charmstroy.info
 domain:charrewuzzer.com
 domain:charsubsistfilth.com
@@ -26644,6 +26657,7 @@ domain:cnc.nperm.net
 domain:cnc.pr333.ggm.kr
 domain:cnc.vmwall.me
 domain:cnc.voidnet.click
+domain:cnc.zaloweb.ink
 domain:cncnails.net
 domain:cndcfvmc.com
 domain:cndeccsqtmjyh.com
@@ -26668,7 +26682,6 @@ domain:cnna.io
 domain:cnnected.org
 domain:cnnx.io
 domain:cnnx.link
-domain:cnom.sante.gov.ml
 domain:cnomy.com
 domain:cnpc.infzm.com
 domain:cnpxwl.cheapcaribbean.com
@@ -33814,6 +33827,7 @@ domain:dd.nytimes.com
 domain:dd0122893e.com
 domain:dd1.diymianmo.com
 domain:dd112233dd.com
+domain:dd1xbevqx.com
 domain:dd2.ru
 domain:dd5889a9b4e234dbb210787.com
 domain:dd667788dd.com
@@ -33975,6 +33989,7 @@ domain:decidedlyenjoyableannihilation.com
 domain:decidedlylipstick.com
 domain:decidedmonsterfarrier.com
 domain:decidedrum.com
+domain:decimalediblegoose.com
 domain:decisionmark.com
 domain:decisionnews.com
 domain:decisivedrawer.com
@@ -35793,6 +35808,7 @@ domain:dl.oneworldonesai.com
 domain:dl.ops.baidu.com
 domain:dl.orders.accredo.com
 domain:dl.orders.express-scripts.com
+domain:dl.packetstormsecurity.net
 domain:dl.popclub.co.in
 domain:dl.purplle.com
 domain:dl.right2vote.in
@@ -36105,7 +36121,6 @@ domain:doge-elon.com
 domain:doge-event.net
 domain:doge-snl.org
 domain:dogecoin-snl.com
-domain:dogecoinevents.org
 domain:dogesnl.live
 domain:doggerycantlet.website
 domain:doggessmumped.com
@@ -37187,6 +37202,7 @@ domain:duiwai.baidu.com
 domain:dujcubbzog.com
 domain:dujgiq.trendhim.pl
 domain:dujzuwadpaqg.com
+domain:dukeenergyltd.top
 domain:dukesubsequent.com
 domain:dukicationan.org
 domain:dukingdraon.com
@@ -38376,6 +38392,7 @@ domain:edwate.com
 domain:edwfdhkgnx.com
 domain:edxfquupejhbrey.com
 domain:edxlewni.com
+domain:edzwmobmj.com
 domain:ee.impactextend.dk
 domain:ee.shixunwang.net
 domain:ee625e4b1d.com
@@ -38736,6 +38753,7 @@ domain:ektobedirectuklyec.info
 domain:eku365.vip
 domain:ekwpqoql.xyz
 domain:ekwzxay.com
+domain:ekyfoa.shop
 domain:ekzzed.icu
 domain:el.quizlet.com
 domain:elacapivi.com
@@ -42063,10 +42081,12 @@ domain:faze2.com
 domain:faze24.com
 domain:faze3.com
 domain:faze35.com
+domain:faze36.com
 domain:faze4.com
 domain:faze40.com
 domain:faze47.com
 domain:faze5.com
+domain:faze55.com
 domain:faze60.com
 domain:faze66.com
 domain:faze67.com
@@ -45401,6 +45421,7 @@ domain:furnitureapplicationberth.com
 domain:furnituredl.istaging.co
 domain:furoicmargot.com
 domain:furorshahdon.com
+domain:furoshop.com
 domain:furplay.net
 domain:furrowparabledisplay.com
 domain:furry-drop.net
@@ -47390,6 +47411,7 @@ domain:gk.sina.cn
 domain:gk1.582582.com
 domain:gk1.zjbiz.net
 domain:gk79a2oup.com
+domain:gkbhrj49a.com
 domain:gkbvnyk.com
 domain:gkcltxp.com
 domain:gkcqyo.aquazzura.com
@@ -50102,6 +50124,7 @@ domain:h4.helenrosi.com
 domain:h45pmx1.cn
 domain:h4aock41f.com
 domain:h4b0srs.cn
+domain:h4r7dvewa.com
 domain:h5.dzgsdswh5.xyz
 domain:h5.helenrosi.com
 domain:h5.isnssdk.com
@@ -53940,7 +53963,6 @@ domain:ihacks24.com
 domain:ihacksncodes.com
 domain:ihackz.biz
 domain:ihappymuttered.info
-domain:ihateciroparisi.serveminecraft.net
 domain:ihauvogh.com
 domain:ihavelearnat.xyz
 domain:ihavetohave.net
@@ -55279,6 +55301,7 @@ domain:infinitydownline.com
 domain:infinitydownline5k.com
 domain:infinityhacksclan.net
 domain:infinityid.condenastdigital.com
+domain:infinityto.com
 domain:infirmaryboss.com
 domain:inflameemanent.cam
 domain:inflateimpediment.com
@@ -56106,6 +56129,7 @@ domain:ingigalitha.com
 domain:ingivervidetur.uno
 domain:ingjymcmsqloxw.com
 domain:inglunewly.com
+domain:ingonherbal.com
 domain:ingotedbooze.com
 domain:ingotheremplo.info
 domain:ingotsmyopic.com
@@ -56608,6 +56632,7 @@ domain:interviewsore.com
 domain:interworks.cloud.actonservice.com
 domain:interyield.td573.com
 domain:intg.snapchat.com
+domain:intgblockchain.online
 domain:inticebolls.top
 domain:intimacyextinct.com
 domain:intimatediary.com
@@ -57249,6 +57274,7 @@ domain:itphanpytor.club
 domain:itponytaa.com
 domain:itpqdzs.com
 domain:itpuqgloekujg.com
+domain:itq.cuteclub.org
 domain:itrackerpro.com
 domain:itrdqbg.xyz
 domain:itrigra.ru
@@ -58071,7 +58097,6 @@ domain:jfoaxwbatlic.com
 domain:jfoowqditdf.com
 domain:jfp6.destinia.de
 domain:jfpltp.eyeforfashion.pl
-domain:jfremovals.com
 domain:jfsocqmvvqt.com
 domain:jfssblglhreubu.com
 domain:jfthhbvpryrvbs.com
@@ -58339,6 +58364,7 @@ domain:jkzlzx.com
 domain:jkzoac.headphones.com
 domain:jl-mag.de
 domain:jl368.cn
+domain:jl63v3fp1.com
 domain:jlbgyksbvdqj.com
 domain:jlcarral.com
 domain:jlcvoastmbsk.com
@@ -59322,6 +59348,7 @@ domain:jzxpxj.xyz
 domain:jzycnlq.com
 domain:k-09mobiles.com
 domain:k-cheats.com
+domain:k-tozluxury.shop
 domain:k.brandalley.be
 domain:k.brandalley.co.nl
 domain:k.brandalley.de
@@ -59763,6 +59790,7 @@ domain:ketxnl.getnewoffertoday.online
 domain:ketxseclk.megadealsofnow.online
 domain:keuktyouexpe.info
 domain:kevuci.ru
+domain:kewal.shop
 domain:kewhulawi.com
 domain:kewnemhpbmzkm.com
 domain:kexojito.com
@@ -59896,6 +59924,7 @@ domain:khhkfcf.com
 domain:khimxz.shoesforcrews.com
 domain:khnwnqmwmdttsd.com
 domain:khoacwzijg.com
+domain:khoazbffoac.com
 domain:khocixcadfuk.com
 domain:khoslo.com
 domain:khouribga.treker.fun
@@ -60941,6 +60970,7 @@ domain:kzjkexn.cn
 domain:kzkmmbrrzn.com
 domain:kzknjdlalls.com
 domain:kznizrhd.xyz
+domain:kzpizjp.cn
 domain:kzprugp.xyz
 domain:kzsha.com
 domain:kzsicw.chip.de
@@ -62268,6 +62298,7 @@ domain:licmiwot.com
 domain:licocojambamarketplace.com
 domain:licted.com
 domain:liczniki.org
+domain:lidburger.com
 domain:liddenlywilli.org
 domain:liddingremorse.digital
 domain:lidebo.com
@@ -63431,7 +63462,6 @@ domain:lisaa.fr
 domain:lisabuddy.com
 domain:lishibu.com
 domain:lishuaibin.cn
-domain:lisianstore.com
 domain:lispaircraftcraziness.com
 domain:list-ads.com
 domain:list.z.qingting.fm
@@ -72042,6 +72072,7 @@ domain:mongoose.scrumgenius.com
 domain:mongoose.thechocolatelife.com
 domain:monhax.com
 domain:monicaatron.com
+domain:moninediy.com
 domain:monismartlink.com
 domain:monitor-api.blackcrow.ai
 domain:monitor-frontend-collector.a.bybit-aws.com
@@ -73888,12 +73919,10 @@ domain:navi33.com
 domain:navi35.com
 domain:navi35.ru
 domain:navi36.ru
-domain:navi37.ru
 domain:navi38.ru
 domain:navi39.ru
 domain:navi4.com
 domain:navi40.com
-domain:navi42.ru
 domain:navi45.ru
 domain:navi47.com
 domain:navi5.com
@@ -73904,6 +73933,7 @@ domain:navi58.com
 domain:navi59.ru
 domain:navi6.com
 domain:navi61.com
+domain:navi62.ru
 domain:navi66.com
 domain:navi66.ru
 domain:navi67.com
@@ -73928,6 +73958,7 @@ domain:navi9.com
 domain:navi90.com
 domain:navi94.com
 domain:navi96.com
+domain:navi97.com
 domain:navi98.com
 domain:navi99.com
 domain:naviblue-team.com
@@ -75267,6 +75298,7 @@ domain:nodcaterercrochet.com
 domain:noddinglavish.com
 domain:node.aibeacon.jp
 domain:node.cdntxt.com
+domain:node.xevo-host.de
 domain:nodeclaim.com
 domain:nodouslover.com
 domain:nodreewy.net
@@ -75980,6 +76012,7 @@ domain:nv-ad.24hstatic.com
 domain:nv.5.p2l.info
 domain:nv.hirersnay.com
 domain:nv.inhaabit.com
+domain:nv3tosjqd.com
 domain:nvaepsns.com
 domain:nvane.com
 domain:nvchhzg.com
@@ -76177,6 +76210,7 @@ domain:o365diagtelemetry.trafficmanager.net
 domain:o398.trumbulltimes.com
 domain:o3gxzoewxl1x.cp.zomro.com
 domain:o3sndvzo25.com
+domain:o3sxhw5ad.com
 domain:o4nofsh6.de
 domain:o4uxrk33.com
 domain:o626b32etkg6.com
@@ -76661,6 +76695,7 @@ domain:oelwojattkd.xyz
 domain:oeokfmroaiuwo.xyz
 domain:oepce.xyz
 domain:oepnccxasww.com
+domain:oepz3iov3ycdiu7lnsrnpe9i2yxdl1ng6760527951839536392332869280909.de
 domain:oepz3iov3ycdiu7lnsrnpe9i2yxdl1ng6760527951839536392332869280909.one
 domain:oesonx.10000recipe.com
 domain:oessbi.yves-rocher.ru
@@ -76774,6 +76809,7 @@ domain:officialgiveaway.net
 domain:officiallyflabbyperch.com
 domain:officialraising.com
 domain:officialstovethemselves.com
+domain:officialyeti.com
 domain:offline-adv.oray.com
 domain:offloadingsite.com
 domain:offmachopor.com
@@ -76852,6 +76888,7 @@ domain:oggakmsumxa.com
 domain:ogghpaoxwv.com
 domain:oghqvffmnt.com
 domain:ogicatius.com
+domain:ogidskik.top
 domain:ogle-0740lb.com
 domain:ogmjhve.cn
 domain:ogniicbnb.ru
@@ -80476,7 +80513,6 @@ domain:pay-ads.com
 domain:pay-click.ru
 domain:pay.mobile.sina.cn
 domain:pay.truemoney.me
-domain:pay.www.avito.id90152861.com
 domain:pay4results24.eu
 domain:payae8moon9.com
 domain:paybackmodified.com
@@ -83312,6 +83348,7 @@ domain:prearmskabiki.com
 domain:prebid-cache.ifunny.co
 domain:prebid-server.newsbreak.com
 domain:prebid.adspro.it
+domain:prebid.lucead.com
 domain:prebid.org
 domain:precariousgrumpy.com
 domain:precedechampion.com
@@ -88668,7 +88705,6 @@ domain:riscati.com
 domain:riscil.com
 domain:riscitsolutions.actonservice.com
 domain:rise.constantsmiles.club
-domain:riseappbucket.s3.ap-southeast-1.amazonaws.com
 domain:risebeigehelium.com
 domain:risehack.com
 domain:risk.clearbit.com
@@ -88679,6 +88715,7 @@ domain:ritedn.com
 domain:ritzykey.com
 domain:riundo.bonprix.no
 domain:rivagesdoesnt.com
+domain:rivalbuffetdifferently.com
 domain:rivalpout.com
 domain:rivalsseasonpass.dlcodes.com
 domain:rivalthratch.com
@@ -88923,6 +88960,7 @@ domain:rocketplaintiff.com
 domain:rocketyield.com
 domain:rockfellertest.com
 domain:rockierfought.top
+domain:rockinlives.com
 domain:rockmostbet.com
 domain:rockpicky.com
 domain:rockpoint.xhaccess.com
@@ -90488,7 +90526,6 @@ domain:s2sterra.com
 domain:s3-analytics-events.easybrain.com
 domain:s3-ap-southeast-1-amazonaws.com
 domain:s3-ap-southeast-2-amazonaws.com
-domain:s3.filebin.net
 domain:s3.landing.ni.com
 domain:s3.market-search.online
 domain:s3.newsearches.online
@@ -93803,6 +93840,7 @@ domain:shinystat.com
 domain:shinystat.it
 domain:shinystat.shiny.it
 domain:shiowbafrrra.com
+domain:shipminttracking.net
 domain:shipostrich.com
 domain:shippingswimsuitflog.com
 domain:shipseaimpish.com
@@ -94253,6 +94291,7 @@ domain:simpletexting.com
 domain:simpletopay.americanexpress.co.uk
 domain:simpletopay.americanexpress.com
 domain:simplewebanalysis.com
+domain:simplewhales.com
 domain:simplexdrop.com
 domain:simpli.fi
 domain:simpli.top
@@ -99497,6 +99536,7 @@ domain:spixel.socy.es
 domain:spjysa.only.com
 domain:spklds.com
 domain:spklmis.com
+domain:spkoevngk.com
 domain:spl.ztvx8.com
 domain:splash-ad.classting.com
 domain:splash.appsgeyser.com
@@ -100665,6 +100705,7 @@ domain:starcardsnbulls.com
 domain:starchild.odencat.com
 domain:starchportraypub.com
 domain:starchytoxifer.top
+domain:starcountry.net
 domain:starcraftvip.com
 domain:stardatis.com
 domain:stardrop.fun
@@ -105669,6 +105710,7 @@ domain:tearnumeral.com
 domain:tearsincompetentuntidy.com
 domain:teasimilarman.com
 domain:teaspoondaffodilcould.com
+domain:teaspoonhumor.com
 domain:teatycacicus.com
 domain:teayeoutm.com
 domain:teazledbyes.com
@@ -107604,6 +107646,7 @@ domain:tommys.openapp.link
 domain:tommysbookmarks.com
 domain:tommysbookmarks.net
 domain:tomornpinjane.com
+domain:tomorroweducated.com
 domain:tomorrowtardythe.com
 domain:tomorrowwillbehotmaybe.com
 domain:tomscheats.com
@@ -113857,6 +113900,7 @@ domain:ufzanvc.com
 domain:ufzqrmflbnlze.com
 domain:ug-sg.byteoversea.com
 domain:ug.snssdk.com
+domain:ug5m.guru
 domain:ugahutoa.com
 domain:ugalia.com
 domain:ugandainarabic.com
@@ -114392,7 +114436,6 @@ domain:unicatethebe.org
 domain:uniclick.openv.com
 domain:uniconsent.com
 domain:unicornpride123.com
-domain:unicorpbrunei.com
 domain:unicume.com
 domain:unid.go.com
 domain:unidasg.top
@@ -116164,7 +116207,6 @@ domain:vghkncbu.xyz
 domain:vghnnh.xyz
 domain:vghuqs.pcaskin.com
 domain:vgjaxnuw.xyz
-domain:vgm.day.50adayplan.com
 domain:vgmnpjnrpj.com
 domain:vgo.vegaoo.com
 domain:vgo.vegaoo.de
@@ -117401,7 +117443,6 @@ domain:w.gdown.baidu.com
 domain:w.ilfattoquotidiano.it
 domain:w.inews.qq.com
 domain:w.nativery.com
-domain:w.oepz3iov3ycdiu7lnsrnpe9i2yxdl1ng6760527951839536392332869280909.de
 domain:w.uohz.cn
 domain:w.x.baidu.com
 domain:w.xiaopiaoyou.com
@@ -120398,6 +120439,7 @@ domain:www.ajalis.com
 domain:www.akiko.f9.co.uk
 domain:www.alda1mure.com
 domain:www.alea6badb.com
+domain:www.alertsecurities.in
 domain:www.alexrc.plus.com
 domain:www.alga9frog.com
 domain:www.algocashmaster.com
@@ -120834,7 +120876,6 @@ domain:www.info.dunnhumby.com
 domain:www.info.redhat.com
 domain:www.informationmoat.com
 domain:www.infos-experts.adp.com
-domain:www.ingonherbal.com
 domain:www.ins-cotizador.com
 domain:www.ins-mercadeo.com
 domain:www.ins-multiasistencia.com
@@ -121010,7 +121051,6 @@ domain:www.moat4shot.com
 domain:www.mon-com-01.com
 domain:www.mon-com-net.com
 domain:www.moneyziyouwm.com
-domain:www.moninediy.com
 domain:www.mown5gaze.com
 domain:www.mpression.net
 domain:www.mqhzdl.com
@@ -121309,7 +121349,6 @@ domain:www.srvtrkxx2.com
 domain:www.ssl2.in
 domain:www.ssquire.plus.com
 domain:www.star-cntr-5.com
-domain:www.starcountry.net
 domain:www.start-downloading.com
 domain:www.startnewtab.com
 domain:www.statcount.com
@@ -121763,6 +121802,7 @@ domain:wytxjmow.com
 domain:wytypowany-zwyciezca.com
 domain:wyunion.com
 domain:wyuwkbe.top
+domain:wywacua8.boats
 domain:wywvyf.discuss.com.hk
 domain:wywvyf.price.com.hk
 domain:wywvyf.uwants.com
@@ -123633,6 +123673,7 @@ domain:yhgumcr.xyz
 domain:yhhnjg.com
 domain:yhhrtgltcfta.com
 domain:yhhuzt.gintarine.lt
+domain:yhimpnr.icu
 domain:yhjccj.cn
 domain:yhjgjk.wemakeup.it
 domain:yhjhjwy.com

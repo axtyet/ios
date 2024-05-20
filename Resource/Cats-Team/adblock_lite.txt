@@ -4,8 +4,8 @@
 ! Powerd by Cats-Team
 ! Expires: 1 day (update frequency)
 ! Description: AdRules AdBlock List's Lite Version, And Remove Some Filters
-! ! Version: 2024-05-19 08:03:09(GMT+8) 
-! Total count: 33601
+! ! Version: 2024-05-20 08:03:19(GMT+8) 
+! Total count: 33606
  
 ###ADtip
 ###AdBlockDialog
@@ -8151,6 +8151,7 @@ cnbeta.com##.wdj_box
 cnbeta.com##DIV[style="display:block !important;position:fixed;bottom:0;margin-top:10px;width:100%;background:#c44;color:#fff;font-size:15px;z-index:99999"]
 cnbeta.com##div[id][style^="position: fixed; bottom: 0px;"]
 cnbeta.com##div[style^="display:block !important;"]
+cnbeta.com.tw##.article-global
 cnbeta.com.tw##.cbv:not(#cb_share) a
 cnbeta.com.tw##.tks
 cnbeta.com.tw##[class^="cbv"]
@@ -18927,6 +18928,7 @@ zzzyk.com###Tinfo
 ||ajfkwwpo.xyz^
 ||ajghca.xyz^
 ||ajijcy.xyz^
+||ajkggo.xyz^
 ||ajkjbcjbaaaed.com^
 ||ajtdumo.cn^
 ||ajzsa.xyz^
@@ -25773,6 +25775,7 @@ zzzyk.com###Tinfo
 ||kzgmpu.com^
 ||kzjkexn.cn^
 ||kznizrhd.xyz^
+||kzpizjp.cn^
 ||kzprugp.xyz^
 ||kzuxlydg.icu^
 ||l.glrcy.cn^
@@ -27516,6 +27519,7 @@ zzzyk.com###Tinfo
 ||og.zyzjpx.cn^$third-party
 ||oganilglk.cyou^
 ||oghqvffmnt.com^
+||ogidskik.top^
 ||ogmjhve.cn^
 ||ognujxj.cn^
 ||ogouawc.cn^
@@ -32768,6 +32772,7 @@ zzzyk.com###Tinfo
 ||yhgpuxim.xyz^
 ||yhgumcr.xyz^
 ||yhhnjg.com^
+||yhimpnr.icu^
 ||yhjccj.cn^
 ||yhlpshi.xyz^
 ||yhlzadr.xyz^
