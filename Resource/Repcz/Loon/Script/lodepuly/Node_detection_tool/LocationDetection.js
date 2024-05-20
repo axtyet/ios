@@ -1,7 +1,7 @@
 /* 测试 api
  * 地理位置查询
  * 感谢并修改自https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/geo_location.js
- * 脚本功能：检查节点是否支持Dazn/Discovery/Param/Disney/Netflix/ChatGPT/YouTube解锁服务
+ * 脚本功能：检查节点的地理位置
  * 原作者：XIAO_KOP
 */
 
