@@ -4,8 +4,8 @@
 ! Powerd by Cats-Team
 ! Expires: 1 day (update frequency)
 ! Description: AdRules AdBlock List's Lite Version, And Remove Some Filters
-! ! Version: 2024-05-20 08:03:19(GMT+8) 
-! Total count: 33606
+! ! Version: 2024-05-21 08:03:27(GMT+8) 
+! Total count: 33620
  
 ###ADtip
 ###AdBlockDialog
@@ -1687,7 +1687,7 @@ $popup,third-party,domain=76fengyun.com|avsdown.com|downdv.com|downdvs.com|downh
 $script,subdocument,third-party,domain=dlkoo.com
 $script,subdocument,third-party,websocket,xmlhttprequest,domain=bhshu.net|louzhong8.com|miwens.com
 $script,subdocument,~third-party,websocket,xmlhttprequest,domain=m.6666xsw.com|m.biqugee6.com|m.bqg99.cc|m.chenkuan.com|m.jmshuwu.net|wodexiaoshuoh.com
-$script,third-party,denyallow=fastly.net|statically.io|sharecast.ws|b-cdn.net|bunnycdn.ru|bootstrapcdn.com|cdn.ampproject.org|cloudflare.com|cdn.staticfile.org|disqus.com|disquscdn.com|dmca.com|ebacdn.com|facebook.net|fastlylb.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|googletagmanager.com|gstatic.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|polyfill.io|recaptcha.net|shrink.pe|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|vk.com|yastatic.net|ytimg.com|zencdn.net|youtube.com|cackle.me|googleoptimize.com|vuukle.com|chatango.com|twimg.com|google-analytics.com|hcaptcha.com|raincaptcha.com|media-imdb.com|blogger.com|hwcdn.net|instagram.com|wp.com|fastcomments.com|plyr.io|yhdmjx.com|yinghuazy.xyz|x.com,_____,domain=wap.dmwenku.com|m.wfxs.tw|h.fkxs.net|wap.ishuquge.la|m.91zww.com|592mh.top|dubuxiaoshuo.com|clm410.buzz|bookbl.com|shuku99.com|qiyoudy2.com|1yydstxt178.com|rouman5.com|feijisu20.com|iqb5.org|ntdm9.com|wap.xkushu.com|spoilertop.com|booktxts.com|bixia33.com|rouwenwu19.com
+$script,third-party,denyallow=fastly.net|statically.io|sharecast.ws|b-cdn.net|bunnycdn.ru|bootstrapcdn.com|cdn.ampproject.org|cloudflare.com|cdn.staticfile.org|disqus.com|disquscdn.com|dmca.com|ebacdn.com|facebook.net|fastlylb.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|googletagmanager.com|gstatic.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|polyfill.io|recaptcha.net|shrink.pe|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|vk.com|yastatic.net|ytimg.com|zencdn.net|youtube.com|cackle.me|googleoptimize.com|vuukle.com|chatango.com|twimg.com|google-analytics.com|hcaptcha.com|raincaptcha.com|media-imdb.com|blogger.com|hwcdn.net|instagram.com|wp.com|fastcomments.com|plyr.io|yhdmjx.com|yinghuazy.xyz|x.com,_____,domain=wap.dmwenku.com|m.wfxs.tw|h.fkxs.net|wap.ishuquge.la|m.91zww.com|592mh.top|dubuxiaoshuo.com|clm410.buzz|bookbl.com|shuku99.com|qiyoudy2.com|1yydstxt178.com|rouman5.com|feijisu20.com|iqb5.org|ntdm9.com|wap.xkushu.com|spoilertop.com|booktxts.com|bixia33.com|rouwenwu19.com|91porny.com
 $script,third-party,denyallow=myqcloud.com|bytecdntp.com|pddpic.com|googletagmanager.com,domain=yjys.me
 $script,third-party,domain=52movieba.com|audio699.com|kan-tv.com|m.supfree.net|movieffm.net|xiaoxintv.net
 $script,third-party,domain=cilimao.co|cilimao.one
@@ -4263,6 +4263,7 @@ $third-party,xmlhttprequest,domain=cocolamanhua.com|subhd.tv|subhdtw.com|xyg688.
 91porn.com##iframe[src$="/fans/ad.php"]
 91porny.com###playerJsvLayer.jsv-layer
 91porny.com##.mobile-jsv-bottom,.mb-3.p-0,.d-sm-none,.mb-0.p-0
+91porny.com##.row > div.colVideoList:has(> div.video-elem > a[target="_blank"])
 91porny.com##A.display.d-block[href^='http'],A.display.d-block[href^='http'] ~ *
 91porny.com,9s102.xyz,jiuse205.com,jiuse390.xyz,jiuse970.com##.container-fluid.p-0[class*="mb-"]
 91porny.com,9s102.xyz,jiuse205.com,jiuse390.xyz,jiuse970.com##.jsv-g1
@@ -8556,7 +8557,6 @@ dayanzai.me##.down_show_intro_first_box
 dayanzai.me##.rban1
 dayanzai.me##.stopban
 dayanzai.me,yuepuwang.com##.topban
-daybuy.tw##body .code-block
 daydaycook.com##.ad-mask
 daydayin.com###adbn_UMU
 dayoo.com###ad-xl
@@ -8763,6 +8763,7 @@ doupe.zive.cz#@##adblock-leaderboard
 douxie.com##.ndxBanner
 douxie.com##.ndxChdjBox
 douyin.com#?##douyin-right-container > div[class] > div[class]:has(> ul[class] > li[class] > a[href][target="_blank"] + div:contains(广告))
+douyin.com#?#.page-recommend-container:-abp-has(span[style^="background"]:-abp-contains(广告))
 douyu.com###FansFestival2003Tips
 douyu.com###douyu_room_normal_player_danmuDom > .ani-base-hover.DanmuEffectBC.ani-broadcast
 douyu.com###douyu_room_normal_player_proxy_box > .PlayerSuspendedBallAd
@@ -9632,6 +9633,7 @@ frauporno.com#$#abort-current-inline-script document.querySelectorAll popMagic
 frdic.com,godic.net##a[onclick*="/ads/"]
 free.com.tw###custom_html-11
 free.com.tw###custom_html-5
+free.com.tw,daybuy.tw##body .code-block
 freebitco.in,freedoge.co.in#@##box_ad_middle
 freebitco.in,freedoge.co.in#@##main_content_ad_left
 freebitco.in,freedoge.co.in#@#.ad-img
@@ -12880,6 +12882,7 @@ music.163.com##.m-homeft
 music.163.com##.m-moreLists
 music.163.com##.topfr
 music.163.com##.u-ft
+music.wandhi.com##.google-auto-placed
 music.yandex.by,music.yandex.kz,music.yandex.ru,music.yandex.uz##body > div[style^="min-height"] > .notify
 music.yandex.by,music.yandex.kz,music.yandex.ru,music.yandex.uz##body > div[style^="min-height"] > .notify *
 music.youtube.com#$#skip-video 'video.html5-main-video' './/div[contains(@class,"video-ads")]//div[@class="ytp-ad-player-overlay"]'; simulate-mouse-event 'button.ytp-ad-skip-button-modern$delay=0'
@@ -15939,6 +15942,7 @@ wandhi.com##.table img
 wandhi.com##.table-bordered
 wandhi.com##.unit-100
 wandhi.com##a[style="display: inline-block;position: relative"]
+wandhi.com#%#//scriptlet('prevent-fetch', '/googlesyndication\.com|doubleclick\.net/')
 wangfz.com##div[class^="my-ad-"]
 wanmeikk.me##a[href="http://qq.wanmeikk.me/index"]
 wanqu.co##.left-nav-panel:first-child
@@ -19469,6 +19473,7 @@ zzzyk.com###Tinfo
 ||ax1x.com/2020/06/14/NSoyHe.png
 ||ax1x.com^$domain=caibaojian.com|hktvyb.com|zzvips.com
 ||ax7fv.space^
+||axa123.com^
 ||axbdlox.cn^
 ||axcdt.cn^
 ||axcdy.cn^
@@ -20095,6 +20100,7 @@ zzzyk.com###Tinfo
 ||bngpt.com^
 ||bnhxxj.xyz^
 ||bnifdlav.top^
+||bnjovv.xyz^
 ||bnl2bii.icu^
 ||bnlbecm.xyz^
 ||bnnfvd.xyz^
@@ -25333,6 +25339,7 @@ zzzyk.com###Tinfo
 ||jy.zhongxues.com^
 ||jy135.com/js/pubuliu.
 ||jy135.com^$third-party
+||jy147a.com^
 ||jy8izgie.xyz^
 ||jyewkb.icu^
 ||jyfw.cn/gonggong/jiayu/cf_
@@ -25950,6 +25957,7 @@ zzzyk.com###Tinfo
 ||lfzk2cp.icu^
 ||lganilgll.cyou^
 ||lgecqrb.com^
+||lgidskil.top^
 ||lgjygg.com^
 ||lgmi.com/ggimg/
 ||lgmi.com/left_right_
@@ -26226,6 +26234,7 @@ zzzyk.com###Tinfo
 ||lovespenhas.com^
 ||lowadec.cn^
 ||lowlocket.com^$third-party
+||lozmtk.cn^
 ||lp3tdqle.com^$third-party
 ||lpasdfgwer.com^
 ||lpeolfa.top^
@@ -27016,6 +27025,7 @@ zzzyk.com###Tinfo
 ||mvcat.com/wx/follow.js
 ||mvevgi.xyz^
 ||mvgucp.com^
+||mvirkw.xyz^
 ||mvlkvth.cn^
 ||mvng.cn^
 ||mvpqrydt.xyz^
@@ -28766,6 +28776,7 @@ zzzyk.com###Tinfo
 ||ravzbd.xyz^
 ||rawmtft.cn^
 ||raxetyrw.xyz^
+||rayajmp.icu^
 ||rayli.com.cn^$third-party
 ||rayss.host^
 ||razlozhi.ru^$script,header=report-to
@@ -30310,6 +30321,7 @@ zzzyk.com###Tinfo
 ||tae0t.site^
 ||tafuzcxr.xyz^
 ||tafyeta.ru^$domain=pronpic.org
+||tagtoo.co^$third-party
 ||tahltanboutell.com^
 ||tahznx.xyz^
 ||taijuba.com/js/*_
@@ -30386,6 +30398,7 @@ zzzyk.com###Tinfo
 ||tcvmtp.xyz^
 ||tdavopl.icu^
 ||tdhlmto.cn^
+||tdhnxf.xyz^
 ||tdid.m.qq.com^
 ||tdigcw.com^
 ||tdjdpyrt.xyz^
@@ -31435,6 +31448,7 @@ zzzyk.com###Tinfo
 ||vexilorath.com^
 ||vezvpd.xyz^
 ||vfchm.cyou^
+||vfgajrk.cn^
 ||vfjsa6do.icu^
 ||vflorp.xyz^
 ||vfrdewsdg.xyz^
