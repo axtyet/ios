@@ -10,9 +10,9 @@
 
 ### 导入配置
 
-#### 点击下方链接后会立刻开始导入配置文件并询问你受否真的要导入，请务必确认后导入。
+##### 点击下方链接后会立刻开始导入配置文件并询问你受否真的要导入，请务必确认后导入。
 
-#### 你应该在导入前备份好你正在用的配置文件：点击[配置]→[导出]→[存储到“文件”]
+##### 你应该在导入前备份好你正在用的配置文件：点击[配置]→[导出]→[存储到“文件”]
 
 [点击导入最小配置文件](https://www.nsloon.com/openloon/import?sub=https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Config/Loon_Simple_Sample_Configuration_By_iKeLee.conf) - 新手推荐
 
