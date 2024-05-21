@@ -4,7 +4,7 @@
 #!author = 可莉🅥
 #!homepage = https://gitlab.com/lodepuly/vpn_tool/-/tree/master/Tool/Loon/Plugin
 #!icon = https://gitlab.com/lodepuly/iconlibrary/-/raw/main/Other_icon/120px/Switch.png
-#!select = 仓库源, Bitbucket, GitLab, GitHub
+#!select = 仓库源, Bitbucket - 四网直连, GitLab 电信联通直连, GitHub - 访问不畅
 #!date = 2024-04-21 02:37:51
 
 [Script]
