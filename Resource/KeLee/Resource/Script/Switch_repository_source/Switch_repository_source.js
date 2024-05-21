@@ -16,7 +16,7 @@ delete headers.Host
 
 if (changeTo == "Bitbucket - 四网直连") {
     headers["host"] = "bitbucket.org"
-} else if (changeTo == "GitLab 电信联通直连") {
+} else if (changeTo == "GitLab - 电信联通直连") {
     headers["host"] = "gitlab.com"
 } else if (changeTo == "GitHub - 访问不畅") {
     headers["host"] = "raw.githubusercontent.com"
@@ -25,7 +25,7 @@ if (changeTo == "Bitbucket - 四网直连") {
 if (url.startsWith(githubPrefix)) {
     if (changeTo == "Bitbucket - 四网直连") {
         url = url.replace(githubPrefix,gitbucketPrefix)
-    } else if (changeTo == "GitLab 电信联通直连") {
+    } else if (changeTo == "GitLab - 电信联通直连") {
         url = url.replace(githubPrefix,gitlabPrefix)
     }
 } else if (url.startsWith(gitlabPrefix)) {
@@ -35,7 +35,7 @@ if (url.startsWith(githubPrefix)) {
         url = url.replace(gitlabPrefix,githubPrefix)
     }
 } else if (url.startsWith(gitbucketPrefix)) {
-    if (changeTo == "GitLab 电信联通直连") {
+    if (changeTo == "GitLab - 电信联通直连") {
         url = url.replace(gitbucketPrefix,gitlabPrefix)
     } else if (changeTo == "GitHub - 访问不畅") {
         url = url.replace(gitbucketPrefix,githubPrefix)
