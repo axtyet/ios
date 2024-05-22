@@ -1,0 +1,8 @@
+#!name=dtk
+#!desc=dtk
+
+[Script]
+dtk = type=http-response, pattern=^https://admin\.dingtiku\.cn/app/(testinfo/listTestInfo|video/getVideoCourseDetails|testinfo/startTest|video/listVideoCourse|buy/getBuyDetails|user/getUserScore), script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/main/dtk.js, requires-body=true, max-size=-1, timeout=60
+
+[MITM]
+hostname = %APPEND% kadmin.dingtiku.cn
