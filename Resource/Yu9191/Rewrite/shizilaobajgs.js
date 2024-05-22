@@ -5,10 +5,10 @@
 
 [rewrite_local]
 
-^http:\/\/152\.136\.134\.81:8090\/wechat\/(weiXin\/queryUserById|classify\/(getClassifyInfoByIdList2|getIndexPlay2)|audio\/getList2) url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Yu9191/Rewrite/shizilaobajgs.js
+^https?:\/\/axs\.shizilaoba\.com\/wechat\/(weiXin\/queryUserById|classify\/(getClassifyInfoByIdList2|getIndexPlay2)|audio\/getList2) url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Yu9191/Rewrite/shizilaobajgs.js
 
 [mitm]
-hostname = 152.136.134.81:8090
+hostname = axs.shizilaoba.com
 */
 var body = $response.body;
 
