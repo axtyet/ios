@@ -1,7 +1,7 @@
 payload:
 
   # 来源： https://github.com/MisakaFxxk/MisakaF_Subconverter/blob/main/Sub/Emby.list
-  # 最后更新时间： 2024-05-16
+  # 最后更新时间： 2024-05-22 21:46
 
 
   ##### A #####
@@ -39,6 +39,7 @@ payload:
 
   # 飞跃彩虹
   - DOMAIN-SUFFIX,7777777.buzz
+  - DOMAIN-SUFFIX,581658.best
 
   ##### G #####
 
