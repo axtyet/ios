@@ -4,8 +4,8 @@
 ! Powerd by Cats-Team
 ! Expires: 1 (update frequency)
 ! Description: The DNS Filters
-! Total count: 126351 
-! Update: 2024-05-22 08:03:25(GMT+8)
+! Total count: 126340 
+! Update: 2024-05-22 11:20:24(GMT+8)
 /^.+stat\.kugou\.com/
 /^admarvel\./
 /^admaster\./
@@ -12673,7 +12673,6 @@
 ||alerts.thedailystar.net^
 ||alerts.wolterskluwerfs.com^
 ||alertsatwork.americanexpress.com^
-||alertsecurities.in^
 ||alesneogaea.com^
 ||alespeonor.com^
 ||aletrenhegenmi.com^
@@ -14795,7 +14794,6 @@
 ||aphid.thyself.me^
 ||aphidsapprend.top^
 ||aphidsclee.com^
-||aphqj.members.openarmscv.com^
 ||aphycolourses.info^
 ||api*.amplitude.com^
 ||api*.batmobi.net^
@@ -16448,6 +16446,7 @@
 ||ariesjagnivas.com^
 ||arigng.door.ac^
 ||arihtrkoxuvlm.xyz^
+||ariliri.com^
 ||arilsoaxie.xyz^
 ||arincol.arin-innovation.com^
 ||arioiandroner.top^
@@ -23430,7 +23429,6 @@
 ||canastagruff.com^
 ||canata.trekkww.fun^
 ||canberra.treker.fun^
-||canconsulting.in^
 ||candac.iridion.de^
 ||candid.zone^
 ||candidate.response.ingenovishealth.com^
@@ -26908,7 +26906,6 @@
 ||cnnected.org^
 ||cnnx.io^
 ||cnnx.link^
-||cnom.sante.gov.ml^
 ||cnomy.com^
 ||cnpc.infzm.com^
 ||cnpxwl.cheapcaribbean.com^
@@ -34399,7 +34396,6 @@
 ||deezusty.net^
 ||def-platform.com^
 ||def.5.p2l.info^
-||def.bestsup.su^
 ||def.dev-nano.com^
 ||defacebunny.com^
 ||defaulthacks.com^
@@ -39823,7 +39819,6 @@
 ||en-gb.siemensplmevents.com^
 ||en-sg.siemensplmevents.com^
 ||en-us.coloplastcare.com^
-||en.bestsup.su^
 ||en.btc-trader-app.club^
 ||en.btcprofit.we-trck.com^
 ||en.ultrex.ru^
@@ -43558,7 +43553,6 @@
 ||firebaselogging-*.googleapis.com^
 ||firebaselogging-pa.googleapis.com^
 ||firebaselogging.googleapis.com^
-||firebaseremoteconfig.googleapis.com^
 ||fireboxarborer.com^
 ||firecash.org^
 ||firecpa.com^
@@ -49033,7 +49027,6 @@
 ||goazlf.mytoys.de^
 ||gobacktothefuture.biz^
 ||gobanspagodas.com^
-||gobesitysurgery.com^
 ||gobetweencomment.com^
 ||gobetweengroan.com^
 ||gobetweensmartlyattic.com^
@@ -55627,6 +55620,7 @@
 ||indodrioor.com^
 ||indoeasia.edm.globalsources.com^
 ||indoleads.com^
+||indonesias.me^
 ||indooritalian.com^
 ||indraftcoft.digital^
 ||indratankman.com^
@@ -58569,7 +58563,6 @@
 ||jiagu.360.cn^
 ||jialiren.net^
 ||jializyw.com^
-||jialm.online^
 ||jianchajingmk.net^
 ||jiangjinmoa.cn^
 ||jiangmen.treker.fun^
@@ -60160,7 +60153,6 @@
 ||kesconti.com^
 ||kesevitamus.com^
 ||kesko.actonservice.com^
-||keskollc.top^
 ||kesmatic.com^
 ||kessagames.com^
 ||kesseolluck.com^
@@ -63827,6 +63819,7 @@
 ||linkus.buddybet.com^
 ||linkvet.insights.md^
 ||linkvetdev.insights.md^
+||linkvilleplayers.org^
 ||linkx.ix.tc^
 ||linkz.it^
 ||linostee.com^
@@ -65100,7 +65093,6 @@
 ||loutishsilents.com^
 ||louxoxo.com^
 ||love-world.me^
-||love.booter.cat^
 ||love.furenkeji.com^
 ||lovedcorrectionsuffix.com^
 ||lovedonesproducts.com^
@@ -69499,6 +69491,7 @@
 ||meqjjl.bubbleroom.dk^
 ||mer.stdout.cz^
 ||mercadeo.promerica.fi.cr^
+||merch-anim.fr^
 ||merchant-app.th3rdwave.coffee^
 ||merchant-businesses.com^
 ||merchant-mail.neosurf.com^
@@ -89603,6 +89596,7 @@
 ||ronm.top^
 ||roobbet.com^
 ||roobetaffiliates.com^
+||roofing.galacticleads.com^
 ||roofprison.com^
 ||rooglomitaiy.com^
 ||roohoozy.net^
@@ -89755,7 +89749,6 @@
 ||rowomo.ru^
 ||rowplates.com^
 ||rowskins.com^
-||rowtechequipments.com^
 ||rowthsti.com^
 ||roxasnxjruxnd.com^
 ||roxby.org^
@@ -100492,7 +100485,6 @@
 ||srv.tunefindforfans.com^
 ||srv001e.feja111.de^
 ||srv224.com^
-||srv451-files.hstgr.io^
 ||srvcs.tumblr.com^
 ||srvpcn.com^
 ||srvtrck.com^
@@ -101258,6 +101250,7 @@
 ||starchild.odencat.com^
 ||starchportraypub.com^
 ||starchytoxifer.top^
+||starcountry.net^
 ||starcraftvip.com^
 ||stardatis.com^
 ||stardrop.fun^
@@ -116226,6 +116219,7 @@
 ||valemedia.net^
 ||valencytecoma.top^
 ||valensoft.actonservice.com^
+||valentinaconfecciones.com^
 ||valeofoodsgroup.com^
 ||valepoking.com^
 ||valerieavisnba.com^
@@ -116864,6 +116858,7 @@
 ||viatepigan.com^
 ||vibber.download^
 ||vibeaconstr.onezapp.com^
+||vibrantbhutan.com^
 ||vibrantmedia.com^
 ||vibrantvale.com^
 ||vibrateapologiesshout.com^
@@ -121057,7 +121052,6 @@
 ||www.aran9midi.com^
 ||www.area043.com^
 ||www.arid5glop.com^
-||www.ariliri.com^
 ||www.armolipid.com.ru^
 ||www.asdfg23.com^
 ||www.atl-6-ga.com^
@@ -121613,7 +121607,6 @@
 ||www.meet3monk.com^
 ||www.megacounter.de^
 ||www.meipian7.cn^
-||www.merch-anim.fr^
 ||www.merijntjeaanderijn.nl^
 ||www.metaadserving.com^
 ||www.metrics.bankaustria.at^
@@ -121830,7 +121823,6 @@
 ||www.robm674.plus.com^
 ||www.rock5rice.com^
 ||www.romanticmaui.net^
-||www.roofing.galacticleads.com^
 ||www.rote8mino.com^
 ||www.roulettebotplus.com^
 ||www.rpepin.plus.com^
@@ -121934,7 +121926,6 @@
 ||www.ssl2.in^
 ||www.ssquire.plus.com^
 ||www.star-cntr-5.com^
-||www.starcountry.net^
 ||www.start-downloading.com^
 ||www.startnewtab.com^
 ||www.statcount.com^
@@ -122047,7 +122038,6 @@
 ||www.users.freenetname.co.uk^
 ||www.v61.com^
 ||www.valadygators.com^
-||www.valentinaconfecciones.com^
 ||www.vandenberghider.plus.com^
 ||www.vane3alga.com^
 ||www.vanguard-art.com^
@@ -122056,7 +122046,6 @@
 ||www.venture-enterprising.com^
 ||www.vetxanh.edu.vn^
 ||www.viatrisneuropathicpain.co.uk^
-||www.vibrantbhutan.com^
 ||www.vice4beek.com^
 ||www.vick6duty.com^
 ||www.videoconverterhd.com^
@@ -125309,6 +125298,7 @@
 ||zbx01.com^
 ||zbxtcwi.xyz^
 ||zbzbzb.xyz^
+||zca31.com^
 ||zcaadfl.com^
 ||zcbfjd.xyz^
 ||zcchyr*.xyz^
@@ -125435,7 +125425,6 @@
 ||zegaz.trekkeeee.fun^
 ||zegnoaft.com^
 ||zegrumse.net^
-||zej.members.openarmscv.com^
 ||zekeeksaita.com^
 ||zekiatagur.com^
 ||zekkdxt.com^

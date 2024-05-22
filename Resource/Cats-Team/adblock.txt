@@ -4,8 +4,8 @@
 ! Powerd by Cats-Team
 ! Expires: 1 day (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2024-05-22 08:03:24(GMT+8) 
-! Total count: 131953
+! ! Version: 2024-05-22 11:20:23(GMT+8) 
+! Total count: 131956
  
 ###ADtip
 ###AdBlockDialog
@@ -16028,6 +16028,7 @@ douguo.com##.mbs
 doupe.zive.cz#@##adblock-leaderboard
 douxie.com##.ndxBanner
 douxie.com##.ndxChdjBox
+douyin.com###videoSideBar iframe
 douyin.com#?##douyin-right-container > div[class] > div[class]:has(> ul[class] > li[class] > a[href][target="_blank"] + div:contains(广告))
 douyin.com#?#.xgplayer>div[class]:-abp-has(svg[height="16"][width="30"])
 douyu.com###FansFestival2003Tips
@@ -65196,7 +65197,7 @@ zzzyk.com###Tinfo
 ||chengdu.cn/acts/phoneqss/openCornerWin/
 ||chengtongled.com/gg/
 ||chengtu.com/api.php?mod=ad&adid=
-||chengzijianzhan.cc^$domain=douyin.com
+||chengzijianzhan.cc^$third-party,subdocument
 ||chenhaishan.info^
 ||chenjiayu.cn/gg.js
 ||chenyuzhou1.cn^
@@ -66115,6 +66116,7 @@ zzzyk.com###Tinfo
 ||cloudfunctions.net/trackEvent
 ||cloudfunctions.net/trackEvent|
 ||cloudfunctions.net/vanalytics
+||cloudfunctions.net/webtraffic$domain=eurocampings.nl
 ||cloudhosting-business.vodafone.com^
 ||cloudhosting.actonservice.com^
 ||cloudiq.com^$third-party
@@ -67257,6 +67259,7 @@ zzzyk.com###Tinfo
 ||contentinsights.com^$third-party
 ||contently.com/xdomain/
 ||contentpass.net/stats?$third-party
+||contentreveal.net/event/events.js
 ||contents-search-windows.com/api/v1/x^
 ||contents-tracking.beop.io^
 ||contents-tracking.beop.io^$third-party
