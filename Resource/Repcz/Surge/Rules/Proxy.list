@@ -1,4 +1,4 @@
-# 2024-05-15 20:19
+# 2024-05-23 07:40
 
 # > 0-9
 
@@ -6,6 +6,7 @@
 DOMAIN-SUFFIX,abc.com
 DOMAIN-SUFFIX,about.me
 DOMAIN-SUFFIX,adblockplus.org
+DOMAIN-SUFFIX,addr.tools
 DOMAIN-SUFFIX,adguard.com
 DOMAIN-SUFFIX,adguard.org
 DOMAIN-SUFFIX,adtidy.org
@@ -59,6 +60,7 @@ DOMAIN-SUFFIX,disqus.com
 DOMAIN-SUFFIX,disquscdn.com
 DOMAIN-SUFFIX,dlive.tv
 DOMAIN-SUFFIX,divineengine.net
+DOMAIN-SUFFIX,dnscheck.tools
 DOMAIN-SUFFIX,docofcard.com
 DOMAIN-SUFFIX,dowjones.com
 DOMAIN-SUFFIX,duckduckgo.com

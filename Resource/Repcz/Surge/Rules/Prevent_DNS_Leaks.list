@@ -6,6 +6,8 @@ DOMAIN-SUFFIX,edns.ip-api.com
 DOMAIN-SUFFIX,ipv4.surfsharkdns.com
 DOMAIN-SUFFIX,dnsleaktest.com
 DOMAIN-SUFFIX,dnsleak.com
+DOMAIN-SUFFIX,dnscheck.tools
+DOMAIN-SUFFIX,addr.tools
 DOMAIN-SUFFIX,expressvpn.com
 DOMAIN-SUFFIX,nordvpn.com
 DOMAIN-SUFFIX,surfshark.com
