@@ -1247,6 +1247,7 @@ HOST-SUFFIX,mc7clurd09pla4nrtat7ion.com,REJECT
 HOST-SUFFIX,mdfull.com,REJECT
 HOST-SUFFIX,measurementapi.com,REJECT
 HOST-SUFFIX,media.aso1.net,REJECT
+HOST-SUFFIX,media.dalysv.com,REJECT
 HOST-SUFFIX,medialytics.com,REJECT
 HOST-SUFFIX,mediav.com,REJECT
 HOST-SUFFIX,medproad.com,REJECT
@@ -1923,6 +1924,7 @@ HOST-SUFFIX,xlmzc.cnjp-exp.com,REJECT
 HOST-SUFFIX,xlog.jd.com,REJECT
 HOST-SUFFIX,xlviiirdr.com,REJECT
 HOST-SUFFIX,xlviirdr.com,REJECT
+HOST-SUFFIX,xlvirdr.com,REJECT
 HOST-SUFFIX,xmindchina.net,REJECT
 HOST-SUFFIX,xmlwizard.com,REJECT
 HOST-SUFFIX,xn--2qux23c9ziyrq.club,REJECT

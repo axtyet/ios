@@ -1248,6 +1248,7 @@ payload:
   - DOMAIN-SUFFIX,mdfull.com
   - DOMAIN-SUFFIX,measurementapi.com
   - DOMAIN-SUFFIX,media.aso1.net
+  - DOMAIN-SUFFIX,media.dalysv.com
   - DOMAIN-SUFFIX,medialytics.com
   - DOMAIN-SUFFIX,mediav.com
   - DOMAIN-SUFFIX,medproad.com
@@ -1924,6 +1925,7 @@ payload:
   - DOMAIN-SUFFIX,xlog.jd.com
   - DOMAIN-SUFFIX,xlviiirdr.com
   - DOMAIN-SUFFIX,xlviirdr.com
+  - DOMAIN-SUFFIX,xlvirdr.com
   - DOMAIN-SUFFIX,xmindchina.net
   - DOMAIN-SUFFIX,xmlwizard.com
   - DOMAIN-SUFFIX,xn--2qux23c9ziyrq.club
