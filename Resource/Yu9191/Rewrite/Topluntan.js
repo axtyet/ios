@@ -6,7 +6,7 @@ Top论坛
 [rewrite_local]
 
 
-https://super.toppps.com/app-api/v1/toppps/(live/getLiveSpaceDetailsV2|products) url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Yu9191/Rewrite/Topluntan.js
+https://super.toppps.com/app-api/v1/toppps/(live/getLiveSpaceDetailsV|products) url script-response-body https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Yu9191/Rewrite/Topluntan.js
 
 [mitm] 
 
@@ -18,7 +18,7 @@ const url = $request.url;
 
 let body = response_body;
 
-if (url.includes("https://super.toppps.com/app-api/v1/toppps/live/getLiveSpaceDetailsV2")) {
+if (url.includes("https://super.toppps.com/app-api/v1/toppps/live/getLiveSpaceDetailsV")) {
     // 空中课堂定制课程
     body = body.replace(/"tryRights":\s*false/g, '"tryRights": true')
                .replace(/"leftTryTime":\s*\d+/g, '"leftTryTime": 9000000')
