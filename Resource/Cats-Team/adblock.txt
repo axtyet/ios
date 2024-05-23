@@ -4,8 +4,8 @@
 ! Powerd by Cats-Team
 ! Expires: 1 day (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2024-05-23 08:03:20(GMT+8) 
-! Total count: 125722
+! ! Version: 2024-05-23 15:10:29(GMT+8) 
+! Total count: 125728
  
 ###ADtip
 ###AdBlockDialog
@@ -13545,7 +13545,7 @@ animespirit.*###CollapsiblePanel_Statistics
 animetaro.com#$#abort-on-property-read window.open
 animeunity.cc#$#abort-on-property-read zfgstorage; abort-current-inline-script document.documentElement break;case; abort-on-property-read decodeURI;
 animeunity.tv#$#abort-on-property-read localStorage
-animevietsub.fun#$#abort-current-inline-script document.documentElement break;case
+animevietsub.art#$#abort-current-inline-script document.documentElement break;case
 animewld.club##.header-img
 animeyt.tv##.ed-item > ul#filtro-letra-nuevo+div.bloque.bloque__descargas-centro.ed-container
 animezone.pl#@#.myTestAd
@@ -15417,6 +15417,7 @@ cnxz.cn##[class*="-ad"]
 cnyes.com###full_ad-popup
 cnyes.com###full_ad-screen
 cnyes.com##a[data-proj-ga-category="FloatingBTN"]
+cnys.tv#%#//scriptlet('set-constant', 'config.group', '')
 cnys.tv#@#.player-news > .news-list
 cnys.tv,4kya.com###player_pause
 co188.com##.suspen
@@ -16033,6 +16034,7 @@ doupe.zive.cz#@##adblock-leaderboard
 douxie.com##.ndxBanner
 douxie.com##.ndxChdjBox
 douyin.com###videoSideBar iframe
+douyin.com###videoSideBar:-abp-has(div:-abp-contains(/商品|商家|退款|店铺/))
 douyin.com#?##douyin-right-container > div[class] > div[class]:has(> ul[class] > li[class] > a[href][target="_blank"] + div:contains(广告))
 douyin.com#?#.xgplayer>div[class]:-abp-has(svg[height="16"][width="30"])
 douyu.com###FansFestival2003Tips
@@ -44737,7 +44739,7 @@ truyen2u.net#$#abort-current-inline-script eval
 truyen35.shop#$#abort-current-inline-script jQuery click_ads
 truyenqqvn.com,animehay.video#$#abort-current-inline-script document.addEventListener window.open
 truyensextv.com#$#abort-current-inline-script document.addEventListener popup
-truyensieuhay.com,quangcaoyenbai.com,khoaiphim.com,phimmoi.cx,sieudamtv.mobi,ephimchill.com,ophimhdvn3.net,thuvienhd.xyz,xemtv.tvhayhd.tv,www.khophim88s.com,nhentaivn.online,motphimtrung.net,mv.dailyphimz.com,mv.phimbathu.one#$#abort-on-property-read document.cookie
+truyensieuhay.com,quangcaoyenbai.com,khoaiphim.com,phimmoi.cx,sieudamtv.men,ephimchill.com,ophimhdvn3.net,thuvienhd.xyz,xemtv.tvhayhd.tv,www.khophim88s.com,nhentaivn.online,motphimtrung.net,mv.dailyphimz.com,mv.phimbathu.one#$#abort-on-property-read document.cookie
 truyentuan.xyz#$#abort-current-inline-script $ btpop
 tsdm.live###ts_sidebar_base
 tsdm39.com###ct > div > a[target="_blank"] > img
@@ -45220,7 +45222,7 @@ vidmoly.to###dos_vlock
 vidmoly.to#$#abort-current-inline-script addEventListener DOMContentLoaded
 vidshare.tv,govid.me,hdvid.tv,ovid.pro,gomovies.film,gomovies.sc,gomovies.es,gostream.nu,openloadmovies.net,openloadmovies.review,flashx.tv,cloudvideo.tv#$#abort-on-property-write Fingerprint2
 vidshare.tv,vidshar.tv,series.movie,gowatchseries.movie,gowatchseries.tv#$#abort-current-inline-script Object.defineProperty XMLHttpRequest
-viet69.kim,ungtycomicsvip.com,truyengihotqua.net,truyengihotqua.com,truyengihotdo.net,truyengihotnha.com,truyengihotnha.net,truyengihotnay.com,dualeotruyentop.com,yurineko.net,vlxyz.tube,javhay.click,phimsexhay669.pro,cliphot69.blog,doctruyen3qvi.pro,hentaizz.cc,animehay.video,vlxx.xxx,heo69.moe,top1sex.club,lenlut.tv,sexmup18.com,hentaivn.today,sexvn1.cc,cdn.streamvl.sbs,www.buomtv.app,truyenvn.lol,cdnstream.sbs,javtiful.com,sextuoi69.com,quatvn.zip,tenmientruyengi.net,topviet69.com,phim18hd.top,live.sexviet88.day,vnsextop.pro,demo.14412882.com,sexmupvl.pro#$#abort-current-inline-script WebAssembly instantiate
+viet69.ceo,ungtycomicsvip.com,truyengihotqua.net,truyengihotqua.com,truyengihotdo.net,truyengihotnha.com,truyengihotnha.net,truyengihotnay.com,dualeotruyentop.com,yurineko.net,vlxyz.tube,javhay.click,phimsexhay669.pro,cliphot69.blog,doctruyen3qvi.pro,hentaizz.cc,animehay.video,vlxx.xxx,heo69.moe,top1sex.club,lenlut.tv,sexmup18.com,hentaivn.today,sexvn1.cc,cdn.streamvl.sbs,www.buomtv.app,truyenvn.lol,cdnstream.sbs,javtiful.com,tuoi69.mom,quatvn.zip,tenmientruyengi.net,topviet69.com,phim18hd.top,live.sexviet88.tube,gai3x.vip,demo.14412882.com,sexphimhd.vip#$#abort-current-inline-script WebAssembly instantiate
 view.inews.qq.com##div[class^="bottom-bar_buttonWrap"]
 view.inews.qq.com##div[class^="infinite-comment-list_subText"]
 view.inews.qq.com##div[class^="interaction-bottom_interaction"]
@@ -55224,6 +55226,7 @@ zzzyk.com###Tinfo
 ||analytics.verfacto.com^
 ||analytics.verizon.com^
 ||analytics.verizonwireless.com^
+||analytics.vg^
 ||analytics.villagehouse.jp^
 ||analytics.virginaustralia.com^
 ||analytics.virginmobileusa.com^
@@ -80997,6 +81000,7 @@ zzzyk.com###Tinfo
 ||istrack.com^$third-party
 ||isu.kthlw.com^
 ||iswgnn.com^
+||isylieo.top^
 ||iszbxqps.com^
 ||it-business.vodafone.com^
 ||it-go.experian.com^
@@ -81131,6 +81135,7 @@ zzzyk.com###Tinfo
 ||iwa.iplsc.com^
 ||iwanad.baidu.com^
 ||iwandlo.top^
+||iwanshang8.asia^
 ||iwantglobal.actonservice.com^
 ||iwarship.net/wowsdb/static/img/banner.png
 ||iwatojc.cn^
@@ -91776,6 +91781,7 @@ zzzyk.com###Tinfo
 ||mwdwepok.xyz^
 ||mwed.jp/assets/packs/js/measurements/
 ||mwefgc.pazolini.com^
+||mweriox.top^
 ||mwfyab.icu^
 ||mwqucr.icu^
 ||mwrf.net/images/js/*mrf.js
@@ -95485,7 +95491,6 @@ zzzyk.com###Tinfo
 ||paruvendu.fr/*/stats/
 ||pasco.actonservice.com^
 ||pass-1234.com^$third-party
-||passeidireto.com/pd-tracking-lib/
 ||passengerpage.com^$third-party
 ||passivepolo.com^$third-party
 ||pasta.esfile.duapps.com^
@@ -120997,6 +121002,7 @@ zzzyk.com###Tinfo
 ||watch.vipa.me^
 ||watch32hd.org/adblock
 ||watch32hd.org/tracking
+||watchtower.graindata.com^
 ||water.tetrapak.com^
 ||waterboa.nighttrain.co^
 ||waterlooberlin.viessmann.ca^
