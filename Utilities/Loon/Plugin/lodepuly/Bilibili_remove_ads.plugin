@@ -4,7 +4,7 @@
 #!author = Maasea RuCu6 可莉🅥
 #!homepage = https://gitlab.com/lodepuly/vpn_tool/-/tree/master/Tool/Loon/Plugin
 #!icon = https://gitlab.com/lodepuly/iconlibrary/-/raw/main/App_icon/120px/Bilibili.png
-#!date = 2024-05-12 08:01:06
+#!date = 2024-05-23 13:25:06
 
 [Rule]
 # 开屏广告
@@ -13,7 +13,7 @@ URL-REGEX, ^http:\/\/[\d\.]+:8000\/v1\/resource\/\w{32}-1-SPLASH, REJECT-DICT
 
 [Rewrite]
 # 开屏广告
-^https:\/\/api\.bilibili\.com\/x\/mengqi\/v1\/resource\? reject-dict
+^https:\/\/(api\.bilibili\.com\/x\/mengqi\/v1\/resource|app\.bilibili\.com\/x\/resource\/peak\/download)\? reject-dict
 # 满意度调研
 ^https:\/\/api\.bilibili\.com\/x\/v2\/dm\/qoe\/show\? reject-dict
 # 移除搜索中的默认关键词
