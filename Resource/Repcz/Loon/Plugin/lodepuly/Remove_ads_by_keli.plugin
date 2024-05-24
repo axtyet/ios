@@ -4,7 +4,7 @@
 #!author = 可莉🅥
 #!homepage = https://gitlab.com/lodepuly/vpn_tool/-/tree/master/Tool/Loon/Plugin
 #!icon = https://gitlab.com/lodepuly/iconlibrary/-/raw/main/Other_icon/120px/KeLee.png
-#!date = 2024-05-20 22:13:02
+#!date = 2024-05-24 17:07:17
 
 [Rule]
 # 广告联盟放行
@@ -244,9 +244,7 @@ DOMAIN, waapdg.jd.com, REJECT
 ^https:\/\/dict\.youdao\.com\/dictusertask\/system reject-dict
 
 # 中国移动 - 开屏广告 //client.app.coc.10086.cn
-^https?:\/\/client\.app\.coc\.10086\.cn\/biz-orange\/DN\/init\/startInit reject
-^https?:\/\/client\.app\.coc\.10086\.cn\/biz-orange\/DN\/explorePage\/getAdverList reject
-# 多个悬浮窗 感谢#热心网友分享
+^https:\/\/client\.app\.coc\.10086\.cn\/biz-orange\/DN\/(explorePage\/getAdverList|init\/startInit) reject
 ^https:\/\/(client\.app\.coc|h\.app\.coc|app)\.10086\.cn\/biz-orange\/DN\/emotionMarket reject
 
 # 广东移动去开屏

@@ -39,6 +39,7 @@ payload:
 
   # JetBrains AI
   - DOMAIN-SUFFIX,grazie.ai
+  - DOMAIN-SUFFIX,grazie.aws.intellij.net
 
   # Meta
   - DOMAIN,imagine.meta.com

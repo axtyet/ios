@@ -12337,7 +12337,6 @@ domain:api-launcher-na.hismarttv.com
 domain:api-log-analytics.cloud.toast.com
 domain:api-logdev.sohatv.vn
 domain:api-mf1.meta.ndmdhs.com
-domain:api-ms.cobainaja.id
 domain:api-push.meizu.com
 domain:api-shoulei-ssl.xunlei.com
 domain:api-u-ssl.xunlei.com
@@ -19476,7 +19475,6 @@ domain:browser-update.org
 domain:browser-updater.yandex.net
 domain:browser.events.data.msn.cn
 domain:browser.events.data.msn.com
-domain:browser.pipe.aria.microsoft.com
 domain:browser.sentry-cdn.com
 domain:browserdownloadz.com
 domain:browsergames2018.com
@@ -20258,7 +20256,6 @@ domain:c.bazo.io
 domain:c.be.msn.com
 domain:c.bigmir.net
 domain:c.bigmuzzytrckr.com
-domain:c.bing.com
 domain:c.br.msn.com
 domain:c.ca.msn.com
 domain:c.cgmission.com
@@ -52570,6 +52567,7 @@ domain:inbornbird.pro
 domain:inbornsodcharms.com
 domain:inbound-analytics.pixlee.co
 domain:inbound-analytics.pixlee.com
+domain:inbound-step.heavenmedia.com
 domain:inbowedkittled.top
 domain:inbowedtroak.top
 domain:inboxdollars.com
@@ -52669,6 +52667,7 @@ domain:indney.com
 domain:indodrioor.com
 domain:indoeasia.edm.globalsources.com
 domain:indoleads.com
+domain:indonesias.me
 domain:indooritalian.com
 domain:indraftcoft.digital
 domain:indratankman.com
@@ -54177,6 +54176,7 @@ domain:invitewingorphan.com
 domain:invl.co
 domain:invoca.net
 domain:invoiceinformations.com
+domain:invoicetrycloudflare.com
 domain:invol.co
 domain:involuntarypity.com
 domain:involuntarysteadyartsy.com
@@ -58504,6 +58504,7 @@ domain:l5games2fan.com
 domain:l5kt1.icu
 domain:l74co.xyz
 domain:l7ghj.xyz
+domain:l7u3kf.cn
 domain:l80ays.com
 domain:l936.expressnews.com
 domain:l997.lmtonline.com
@@ -60817,6 +60818,7 @@ domain:linkur.org
 domain:linkus.buddybet.com
 domain:linkvet.insights.md
 domain:linkvetdev.insights.md
+domain:linkvilleplayers.org
 domain:linkx.ix.tc
 domain:linkz.it
 domain:linostee.com
@@ -61615,6 +61617,7 @@ domain:log.tiktokv.com
 domain:log.tinnhac.com
 domain:log.tinnhanhchungkhoan.vn
 domain:log.tinxe.vn
+domain:log.tossinvest.com
 domain:log.tpns.gz2.tencent.com
 domain:log.tpns.tencent.com
 domain:log.ttbc-hcm.gov.vn
