@@ -10,4 +10,4 @@ Xingtikukecheng = type=http-request,pattern=^https:\/\/cm15-c110-(2|3)\.play\.bo
 
 [MITM]
 
-hostname = %APPEND% cm15-c110-3.play.bokecc.com,mb.xinghengedu.com,cm15-c110-2.play.bokecc.com
+hostname = %APPEND% cm15-c110-3.play.bokecc.com,mb.xinghengedu.com,cm15-c110-2.play.bokecc.com, *.play.bokecc.com
