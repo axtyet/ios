@@ -1,5 +1,5 @@
 payload:
-  # 2024-05-22 22:21:14
+  # 2024-05-24 16:42:29
   # ChatGPT
   - AND,((DOMAIN-KEYWORD,chatgpt-async-webps-prod-eastus-),(DOMAIN-KEYWORD,.webpubsub.azure.com))
   - DOMAIN,chat.openai.com.cdn.cloudflare.net
@@ -26,6 +26,7 @@ payload:
   - DOMAIN,gemini.google.com
   - DOMAIN,generativelanguage.googleapis.com
   - DOMAIN,ai.google.dev
+  - DOMAIN,aida.googleapis.com
   - DOMAIN,aistudio.google.com
   - DOMAIN,alkalimakersuite-pa.clients6.google.com
   - DOMAIN,makersuite.google.com
