@@ -883,7 +883,6 @@ domain:2014hacks.com
 domain:2014tools.com
 domain:2016.bkill.net
 domain:2020mustang.com
-domain:2020workaffnew.top
 domain:2021.dxsbb.com
 domain:2022facaiabc9.xyz
 domain:2022welcome.com
@@ -3165,6 +3164,7 @@ domain:a0980490.xsph.ru
 domain:a0981250.xsph.ru
 domain:a0982904.xsph.ru
 domain:a0984042.xsph.ru
+domain:a0986569.xsph.ru
 domain:a0b22.com
 domain:a0c00.com
 domain:a0c11.com
@@ -11141,6 +11141,7 @@ domain:analytics.contents.by-fw.jp
 domain:analytics.convertlanguage.com
 domain:analytics.cookiefirst.dev
 domain:analytics.corusent.com
+domain:analytics.cosmonova.net
 domain:analytics.crazygames.com
 domain:analytics.crea.ca
 domain:analytics.crowdkeep.com
@@ -11490,6 +11491,7 @@ domain:analytics.proxer.me
 domain:analytics.prx.org
 domain:analytics.publitas.com
 domain:analytics.purelovers.com
+domain:analytics.qogita.com
 domain:analytics.qoqa.ch
 domain:analytics.qoqa.com
 domain:analytics.qoqa.ninja
@@ -11763,6 +11765,7 @@ domain:analytics2-meride-tv.akamaized.net
 domain:analytics3.dopool.com
 domain:analytics3.starschina.com
 domain:analyticsapi.bsbportal.com
+domain:analyticsapi.qogita.com
 domain:analyticsbusiness.ing.ro
 domain:analyticsehnwe.servicebus.windows.net
 domain:analyticsengine.s3.amazonaws.com
@@ -12337,6 +12340,7 @@ domain:api-launcher-na.hismarttv.com
 domain:api-log-analytics.cloud.toast.com
 domain:api-logdev.sohatv.vn
 domain:api-mf1.meta.ndmdhs.com
+domain:api-ms.cobainaja.id
 domain:api-push.meizu.com
 domain:api-shoulei-ssl.xunlei.com
 domain:api-u-ssl.xunlei.com
@@ -12409,7 +12413,6 @@ domain:api.hugemedia.cz
 domain:api.infinario.com
 domain:api.installer.xiaomi.com
 domain:api.intensifier.de
-domain:api.interfacehelper.com
 domain:api.inwemo.com
 domain:api.itaoxiaoshuo.com
 domain:api.iterable.com
@@ -12465,7 +12468,6 @@ domain:api.telemetry.watchabc.go.com
 domain:api.tf4srv.com
 domain:api.trafficfactory.com
 domain:api.trueaudience.io
-domain:api.trustedmode.com
 domain:api.ts.feedback.qy.net
 domain:api.tumra.com
 domain:api.tv.sohu.com
@@ -14508,7 +14510,6 @@ domain:aswbtobwiot.com
 domain:aswgwyrmyoh.com
 domain:aswpsdkeu.com
 domain:aswpsdkus.com
-domain:asx.sunaviat.com
 domain:asxeilpougog.com
 domain:asxjhqaey.com
 domain:asxxlo.interflora.es
@@ -14984,7 +14985,6 @@ domain:autoperplexturban.com
 domain:autopsycarrel.com
 domain:autopsyfowl.com
 domain:autotrack.studyquicks.com
-domain:autoupdate.com.ua
 domain:autovista-fi.autovistagroup.com
 domain:autovista-fr.autovistagroup.com
 domain:autovista-se.autovistagroup.com
@@ -15844,8 +15844,12 @@ domain:baelungilt.guru
 domain:baffae.alcott.eu
 domain:baffngyawtwc.com
 domain:bafuhotel.com
+domain:bafybeicnmx2fcaolinpdaiqjo7hgsourg3qzaxf57psdrbqic4qrm4pf3i.ipfs.dweb.link
+domain:bafybeicoo7kwhmnl6q7prd65aimf5byzrihrklgviebm2pkyzyepdaigf4.ipfs.dweb.link
+domain:bafybeidc67axv337ni24dprmx7f42twqeqrvahpmhogdtawzng5eytszme.ipfs.dweb.link
 domain:bafybeidravcab5p3acvthxtwosm4rfpl4yypwwm52s7sazgxaezfzn5xn4.ipfs.infura-ipfs.io
 domain:bafybeiet75enejvx6hqtpgzxcgbexjaz4joqkhy7cv42rfjvrtpqei537a.ipfs.dweb.link
+domain:bafybeigqatri6ure2nduxhe4yuifojinwkyt3ji5uvubdplxajhavdymau.ipfs.dweb.link
 domain:bafybeihztxwimpjrjtlr3djk5sxcxnyiubceso2zkoijuplsccegiceqya.ipfs.dweb.link
 domain:bagagescabine.fr
 domain:bagbgo.unitednude.eu
@@ -16992,6 +16996,7 @@ domain:beloveupcreep.com
 domain:belstat.com
 domain:belstat.nl
 domain:beltarklate.live
+domain:beltwaythrust.com
 domain:beludicolor.com
 domain:belwrite.com
 domain:belyyeusy.com
@@ -22622,7 +22627,6 @@ domain:chipmanksmochus.com
 domain:chipmunk.sqltoapi.com
 domain:chippedaugur.com
 domain:chipteeamz.com
-domain:chiptune.com
 domain:chirkacylal.com
 domain:chiroouterly.com
 domain:chirppronounceaccompany.com
@@ -24215,6 +24219,7 @@ domain:cnna.io
 domain:cnnected.org
 domain:cnnx.io
 domain:cnnx.link
+domain:cnom.sante.gov.ml
 domain:cnomy.com
 domain:cnpc.infzm.com
 domain:cnpxwl.cheapcaribbean.com
@@ -31470,7 +31475,6 @@ domain:debloque-ton-tel.com
 domain:debloquertoutdesuite.com
 domain:debonairseashore.com
 domain:debonairway.com
-domain:debrahinton.pro
 domain:debsis.com
 domain:debt.shengen.ru
 domain:debtbusterloans.com
@@ -32072,6 +32076,7 @@ domain:detox.shengen.ru
 domain:detroithardcore.com
 domain:deturbcordies.com
 domain:deupfpxwdzxs.com
+domain:deusmudoutudo.fuettertdasnetz.de
 domain:deut1.fdj.fr
 domain:deut2.fdj.fr
 domain:deut3.fdj.fr
@@ -32092,6 +32097,7 @@ domain:dev-push.m.youku.com
 domain:dev-share.beaconlearningapp.com
 domain:dev-share.haloedapp.com
 domain:dev-share.smartfashion.ai
+domain:dev-xlss.pantheonsite.io
 domain:dev.adforum.com
 domain:dev.email-signify.cjm.adobe.com
 domain:dev.getcontact.me
@@ -33973,7 +33979,6 @@ domain:dovictinian.com
 domain:doweralrostra.com
 domain:doweryacreak.website
 domain:dowhatyouneed.com
-domain:dowlextff.com
 domain:down.furnitureoptimal.com
 domain:down.nishuoa.com
 domain:down.pcclear.com
@@ -38703,7 +38708,6 @@ domain:exitexchange.com
 domain:exitfuel.com
 domain:exitlags.pro
 domain:exitussolution.com
-domain:exks.members.openarmscv.com
 domain:exlusepolly.com
 domain:exmovie.xyz
 domain:exmrwwt.com
@@ -39511,7 +39515,6 @@ domain:fastlnd.com
 domain:fastly-insights.com
 domain:fastmediasearcher.com
 domain:fastnativead.com
-domain:fastnewstream.com
 domain:fastpopunder.com
 domain:fastrade.net
 domain:fasts-downloads.com
@@ -44511,8 +44514,6 @@ domain:gg86.pinggu.org
 domain:gg88.bj.bcebos.com
 domain:ggaji.com
 domain:ggbet-bonus24.site
-domain:ggbet-casino.pl
-domain:ggbet-kasyno.pl
 domain:ggbet-online.pl
 domain:ggbet-polska.com
 domain:ggbet-polska.pl
@@ -44800,7 +44801,6 @@ domain:givenconserve.com
 domain:givesbnb.com
 domain:givesboranes.com
 domain:giveskins4you.fun
-domain:givetesla.org
 domain:giveway-st4ck.site
 domain:givide.com
 domain:givill.com
@@ -47365,6 +47365,7 @@ domain:gvbhae0.com
 domain:gvbta.icu
 domain:gvdetxlwcm.com
 domain:gvdqzy.milanoo.com
+domain:gveb.glue.oystergardening.net
 domain:gvfkzyq.com
 domain:gvhderjd.com
 domain:gvkmifcvr.com
@@ -51209,6 +51210,7 @@ domain:ie.exhumeaueto.com
 domain:ie3wisa4.com
 domain:ie8eamus.com
 domain:ieamsbpzu.com
+domain:ieapak.xyz
 domain:iebar.baidu.com
 domain:iebsmqevw.com
 domain:iedc.fitbit.com
@@ -52567,7 +52569,6 @@ domain:inbornbird.pro
 domain:inbornsodcharms.com
 domain:inbound-analytics.pixlee.co
 domain:inbound-analytics.pixlee.com
-domain:inbound-step.heavenmedia.com
 domain:inbowedkittled.top
 domain:inbowedtroak.top
 domain:inboxdollars.com
@@ -55075,6 +55076,7 @@ domain:jakahi.ru
 domain:jakescribble.com
 domain:jakeycorkage.digital
 domain:jakid.xyz
+domain:jalapamaro.com
 domain:jaletemetia.com
 domain:jalewaads.com
 domain:jalwhftxnl.com
@@ -56654,7 +56656,6 @@ domain:jwmhqs.fsk.ru
 domain:jwnmnnnzrebqa.top
 domain:jwnmnnnzreeyw.top
 domain:jwpltx.com
-domain:jwqr.members.openarmscv.com
 domain:jwqtuyjqxvsxy.com
 domain:jwrrwzrrwqmj.top
 domain:jwrrwzrrwqwr.top
@@ -56694,6 +56695,7 @@ domain:jxpbry.hometogo.at
 domain:jxpjlb.xyz
 domain:jxpjltwdeu.com
 domain:jxpsrh.casamundo.co.uk
+domain:jxqdl.cn
 domain:jxsmzz.mytrauringstore.de
 domain:jxtejf.xyz
 domain:jxuhurp.icu
@@ -57847,7 +57849,6 @@ domain:kodfn.xyz
 domain:kodu.neti.ee
 domain:koekd.xyz
 domain:kofirusy.pro
-domain:kog.day.50adayplan.com
 domain:kogaqmlci.com
 domain:kognoaka.net
 domain:kogtrmjz.xyz
@@ -59551,6 +59552,7 @@ domain:lfn.lfg.com
 domain:lfngqrtheim.com
 domain:lfnwqrghxqrqb.com
 domain:lfodybaft.com
+domain:lfon.glue.oystergardening.net
 domain:lfooldjzuyfhae.com
 domain:lfpmtibqwqre.com
 domain:lfrfzr.xyz
@@ -65547,7 +65549,6 @@ domain:maximumcash.com
 domain:maximumductpictorial.com
 domain:maximumimmortality.com
 domain:maximus-time.net
-domain:maxmoney.com
 domain:maxmusics.com
 domain:maxmydl.com
 domain:maxocdgras.com
@@ -66098,6 +66099,7 @@ domain:mediacategory.com
 domain:mediacdn.x1hub.com
 domain:mediacharger.com
 domain:mediaclick.com
+domain:mediaclubspot.com
 domain:mediacpc.com
 domain:mediacpm.com
 domain:mediad.asia
@@ -70227,6 +70229,7 @@ domain:mukhtarproving.com
 domain:mulan1.net.mydays.de
 domain:mulanphone.cn
 domain:mulato.info
+domain:mulaukso.com
 domain:mulberryay.com
 domain:mulberrydoubloons.com
 domain:mulberryresistoverwork.com
@@ -74411,6 +74414,7 @@ domain:okienamare.com
 domain:okjxihboesueh.com
 domain:okkbugnixajf.com
 domain:okkkk.com
+domain:okkolus.com
 domain:okktruogjc.com
 domain:oklahi.com
 domain:oklzdmdhqgxsu.com
@@ -76111,6 +76115,7 @@ domain:outyanmegaom.com
 domain:ouveelsa.xyz
 domain:ouvjnb.westernbikeworks.com
 domain:ouvrestance.com
+domain:ouwhejoacie.xyz
 domain:ouxvgihpkjfkhs.xyz
 domain:ouyhh.xyz
 domain:ouyoqudevfal.com
@@ -78900,6 +78905,7 @@ domain:pikecentreconfederate.com
 domain:pikedhelloed.com
 domain:pikeletkiyi.com
 domain:pikrumsi.net
+domain:piksrie.icu
 domain:pilaffskoniga.com
 domain:pilaryhurrah.com
 domain:piledannouncing.com
@@ -84073,6 +84079,7 @@ domain:rbqcg6g.de
 domain:rbqlbolklrvmk.top
 domain:rbrbr88p.cn
 domain:rbrightscarletcl.info
+domain:rbrmhz.xyz
 domain:rbrvifibj.com
 domain:rbs.redboostforsale.online
 domain:rbsodzgoy.xyz
@@ -87962,6 +87969,7 @@ domain:sadsecs.com
 domain:sadsoulo.net
 domain:saec-metrics.base.be
 domain:saec-metrics.telenet.be
+domain:saf-oil.ru
 domain:safarlysins.com
 domain:safe-cheats.com
 domain:safe-connection21.com
@@ -90242,6 +90250,7 @@ domain:server.iad.liveperson.net
 domain:server.japanbyrivercruise.com
 domain:server.m.pp.cn
 domain:server.olliehorn.com
+domain:server.qxej27mv7hud1uk03kj438ggzby0v7a8mgwwnmky2n9vn1tmcn1qpm8kax84ymn.ru
 domain:server.zmedia.vn
 domain:server1.opentracker.net
 domain:server10.opentracker.net
@@ -97863,6 +97872,7 @@ domain:startappexchange.com
 domain:startappservice.com
 domain:startd0wnload22x.com
 domain:starterblackened.com
+domain:startfinishthis.com
 domain:startgifts.com
 domain:startjacket.com
 domain:startlemanipulativedamaging.com
@@ -103786,7 +103796,6 @@ domain:threatenedfallenrueful.com
 domain:threateningeleven.com
 domain:threatotherwise.com
 domain:threechurch.com
-domain:threedayvi.com
 domain:threeinters.com
 domain:threeinvincible.com
 domain:threerfdfgourgold.com
@@ -110436,6 +110445,7 @@ domain:uaas.yandex.ru
 domain:uabpuwz.com
 domain:uads.cc
 domain:uads.digital
+domain:uads.guru
 domain:uads.info
 domain:uads.pw
 domain:uads.space
@@ -110892,6 +110902,7 @@ domain:ulmmmvjfbbmk.com
 domain:ulmoyc.com
 domain:ulmpyqgfqkffe.com
 domain:ulmujev.com
+domain:ulnaswotter.top
 domain:ulngjwvbhyyfkum.com
 domain:ulnhlnsw.com
 domain:ulnidkdlaxclpo.com
@@ -111656,6 +111667,7 @@ domain:upsizeyourbattery.com
 domain:upskittyan.com
 domain:upsmega.com
 domain:upsnap.com
+domain:upspewsafener.com
 domain:upspinarakor.com
 domain:upstagecarvers.cfd
 domain:upstandhurls.website
@@ -116719,6 +116731,7 @@ domain:wqvbuj.icu
 domain:wqweiog.xyz
 domain:wqytxm.kurly.com
 domain:wqzjfsmudvpct.com
+domain:wqzmed.cn
 domain:wqzqoobqpubx.com
 domain:wqzyxxrrep.com
 domain:wr.rugosehoarish.com
@@ -117743,6 +117756,7 @@ domain:www.maserati.info
 domain:www.mass1soma.com
 domain:www.masterspace.biz
 domain:www.mavic852.com
+domain:www.maxmoney.com
 domain:www.mbljpu9.com
 domain:www.mdfsbn.com
 domain:www.me1294hlx.com
@@ -117985,7 +117999,6 @@ domain:www.s5network1.com
 domain:www.sa44.net
 domain:www.saas-eue-1.com
 domain:www.saas-euw-1.com
-domain:www.saf-oil.ru
 domain:www.safecoprograms.com
 domain:www.said3page.com
 domain:www.sale0home.com
