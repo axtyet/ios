@@ -1,7 +1,7 @@
 ## [Adblock Plus 1.1]
-## ! Version: 202405231431
+## ! Version: 202405261617
 ## ! Title: EasyPrivacy
-## ! Last modified: 23 May 2024 14:31 UTC
+## ! Last modified: 26 May 2024 16:17 UTC
 ## ! Expires: 4 days (update frequency)
 ## ! *** easylist:template_header.txt ***
 ## ! 
@@ -754,6 +754,7 @@ HOST-SUFFIX,childlikeexample.com,REJECT
 HOST-SUFFIX,childlikeform.com,REJECT
 HOST-SUFFIX,chingovernment.com,REJECT
 HOST-SUFFIX,chinsnakes.com,REJECT
+HOST-SUFFIX,chipperisle.com,REJECT
 HOST-SUFFIX,chivalrouscord.com,REJECT
 HOST-SUFFIX,chubbycreature.com,REJECT
 HOST-SUFFIX,chunkycactus.com,REJECT
@@ -1103,6 +1104,7 @@ HOST-SUFFIX,flimsycircle.com,REJECT
 HOST-SUFFIX,flimsythought.com,REJECT
 HOST-SUFFIX,floodprincipal.com,REJECT
 HOST-SUFFIX,flourishingcollaboration.com,REJECT
+HOST-SUFFIX,flourishingpartnership.com,REJECT
 HOST-SUFFIX,flowersornament.com,REJECT
 HOST-SUFFIX,flowerstreatment.com,REJECT
 HOST-SUFFIX,flowerycreature.com,REJECT
@@ -1231,6 +1233,7 @@ HOST-SUFFIX,handyincrease.com,REJECT
 HOST-SUFFIX,haplesshydrant.com,REJECT
 HOST-SUFFIX,haplessland.com,REJECT
 HOST-SUFFIX,happenhistory.com,REJECT
+HOST-SUFFIX,happysponge.com,REJECT
 HOST-SUFFIX,harborcaption.com,REJECT
 HOST-SUFFIX,harborcub.com,REJECT
 HOST-SUFFIX,hardtofindmilk.com,REJECT
@@ -1523,12 +1526,14 @@ HOST-SUFFIX,observantice.com,REJECT
 HOST-SUFFIX,oldfashionedoffer.com,REJECT
 HOST-SUFFIX,omniscientfeeling.com,REJECT
 HOST-SUFFIX,omniscientspark.com,REJECT
+HOST-SUFFIX,onlywoofs.com,REJECT
 HOST-SUFFIX,opalquill.com,REJECT
 HOST-SUFFIX,operationchicken.com,REJECT
 HOST-SUFFIX,operationnail.com,REJECT
 HOST-SUFFIX,opinionsurprise.com,REJECT
 HOST-SUFFIX,oppositeoperation.com,REJECT
 HOST-SUFFIX,optimallimit.com,REJECT
+HOST-SUFFIX,opulentsylvan.com,REJECT
 HOST-SUFFIX,orangeoperation.com,REJECT
 HOST-SUFFIX,organizationdogs.com,REJECT
 HOST-SUFFIX,orientedargument.com,REJECT
@@ -1858,6 +1863,7 @@ HOST-SUFFIX,selectionship.com,REJECT
 HOST-SUFFIX,selectivesummer.com,REJECT
 HOST-SUFFIX,selfishsea.com,REJECT
 HOST-SUFFIX,selfishsnake.com,REJECT
+HOST-SUFFIX,sendingspire.com,REJECT
 HOST-SUFFIX,sensorsmile.com,REJECT
 HOST-SUFFIX,sentinelp.com,REJECT
 HOST-SUFFIX,separateshow.com,REJECT
@@ -3012,6 +3018,7 @@ HOST-SUFFIX,page-events-ustats.udemy.com,REJECT
 HOST-SUFFIX,pages-stats.rbl.ms,REJECT
 HOST-SUFFIX,pagesense-collect.zoho.com,REJECT
 HOST-SUFFIX,pagesocket.glam.com,REJECT
+HOST-SUFFIX,panorama.wixapps.net,REJECT
 HOST-SUFFIX,parallax.askmediagroup.com,REJECT
 HOST-SUFFIX,pbjs-stream.bydata.com,REJECT
 HOST-SUFFIX,pegasus.unifygroup.com,REJECT
@@ -3390,6 +3397,7 @@ HOST-SUFFIX,tracking.ads.global-fashion-group.com,REJECT
 HOST-SUFFIX,tracking.aegpresents.com,REJECT
 HOST-SUFFIX,tracking.americaneagle.com,REJECT
 HOST-SUFFIX,tracking.audio.thisisdax.com,REJECT
+HOST-SUFFIX,tracking.b-cdn.net,REJECT
 HOST-SUFFIX,tracking.bababam.com,REJECT
 HOST-SUFFIX,tracking.brandmentions.com,REJECT
 HOST-SUFFIX,tracking.buygoods.com,REJECT
@@ -3419,6 +3427,7 @@ HOST-SUFFIX,tracking.musixmatch.com,REJECT
 HOST-SUFFIX,tracking.olx-st.com,REJECT
 HOST-SUFFIX,tracking.pacharge.com,REJECT
 HOST-SUFFIX,tracking.plinga.de,REJECT
+HOST-SUFFIX,tracking.prepr.io,REJECT
 HOST-SUFFIX,tracking.quisma.com,REJECT
 HOST-SUFFIX,tracking.rapidape.com,REJECT
 HOST-SUFFIX,tracking.scenepass.com,REJECT
@@ -4229,6 +4238,7 @@ HOST-SUFFIX,analytics.oyorooms.com,REJECT
 HOST-SUFFIX,analytics.pgncs.notion.so,REJECT
 HOST-SUFFIX,analytics.plex.tv,REJECT
 HOST-SUFFIX,analytics.productreview.com.au,REJECT
+HOST-SUFFIX,analytics.qogita.com,REJECT
 HOST-SUFFIX,analytics.realestate.com.au,REJECT
 HOST-SUFFIX,analytics.send.cm,REJECT
 HOST-SUFFIX,analytics.silktide.com,REJECT
@@ -4238,6 +4248,7 @@ HOST-SUFFIX,analytics.tradedoubler.com,REJECT
 HOST-SUFFIX,analytics.vedantu.com,REJECT
 HOST-SUFFIX,analytics.wavebox.io,REJECT
 HOST-SUFFIX,analytics.yugen.to,REJECT
+HOST-SUFFIX,analyticsapi.qogita.com,REJECT
 HOST-SUFFIX,anon-stats.eff.org,REJECT
 HOST-SUFFIX,api-hotmart-tracking-manager.hotmart.com,REJECT
 HOST-SUFFIX,api-js.mixpanel.com,REJECT
@@ -39438,6 +39449,7 @@ HOST-SUFFIX,kyson.kakao.com,REJECT
 HOST-SUFFIX,l.m.naver.com,REJECT
 HOST-SUFFIX,log.etoday.co.kr,REJECT
 HOST-SUFFIX,log.kinolights.com,REJECT
+HOST-SUFFIX,log.tossinvest.com,REJECT
 HOST-SUFFIX,log.zdnet.co.kr,REJECT
 HOST-SUFFIX,nil.naver.com,REJECT
 HOST-SUFFIX,nlog.naver.com,REJECT
