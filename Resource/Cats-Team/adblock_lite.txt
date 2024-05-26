@@ -4,8 +4,8 @@
 ! Powerd by Cats-Team
 ! Expires: 1 day (update frequency)
 ! Description: AdRules AdBlock List's Lite Version, And Remove Some Filters
-! ! Version: 2024-05-25 08:03:18(GMT+8) 
-! Total count: 33684
+! ! Version: 2024-05-26 08:03:29(GMT+8) 
+! Total count: 33696
  
 ###ADtip
 ###AdBlockDialog
@@ -9162,6 +9162,7 @@ electric-house.ru##.blok_forum > div[style]
 element-plus.gitee.io##.sidebar > .page-content
 element-plus.gitee.io##.toc-content > .m-t-16px
 element-plus.gitee.io##aside > .page-content
+element-plus.org##.page-content-main-a
 element-plus.org##.toc-content > div[style="margin-top:16px;"]
 element-plus.org##aside > .page-content-main
 elhow.ru###b-info-wrapper
@@ -19224,6 +19225,7 @@ zzzyk.com###Tinfo
 ||aoakss.com^
 ||aobtwv.icu^
 ||aobuygo.com^
+||aogk88.asia^
 ||aojeet.icu^
 ||aoji.cn/default/looyu/
 ||aoji.cn/static/js/pushadv.js
@@ -20430,6 +20432,7 @@ zzzyk.com###Tinfo
 ||cadizer.com^
 ||cadke.xyz^
 ||cai110.com/js/2
+||cai75tp.com^
 ||caibaojian.com/d/uploads/*/atop-
 ||caibaojian.com/d/uploads/*0-
 ||caider.fun^
@@ -21390,6 +21393,7 @@ zzzyk.com###Tinfo
 ||d3.sina.com.cn^$object,script
 ||d37d9zbli5ytch.cloudfront.net^
 ||d3awx1l7oivs5m.cloudfront.net^$script,image
+||d3d7a0q05k6bvz.cloudfront.net^
 ||d3f3.xyz^
 ||d3g4a.cyou^
 ||d3iih5w7xp5hdg.cloudfront.net^
@@ -21691,6 +21695,7 @@ zzzyk.com###Tinfo
 ||di2y21.top/jian/jiansshu.js
 ||di2y21.top^
 ||diagnosis.ad.xiaomi.com^
+||diamiu.com/wp-content/uploads/1200-200.
 ||dian.brecm.xyz^
 ||dian500.com^$third-party
 ||dianassb.com^
@@ -22423,6 +22428,7 @@ zzzyk.com###Tinfo
 ||enthusiasticdad.com^$third-party
 ||entry.baidu.com/rp/home?
 ||entsnotesq.fun^
+||enviousinevitable.com^
 ||enviousshape.com^$third-party
 ||enviousthread.com^$third-party
 ||eo.chaungpin.top^
@@ -24328,6 +24334,7 @@ zzzyk.com###Tinfo
 ||iask.cn^*model.
 ||iask.sina.com.cn/s-b/mxbg
 ||ib3i33.cob.autojournal.fr^$script
+||ibaglhc.icu^
 ||ibf.tw/js/jquery.blockUI.js
 ||ibozys.cn^
 ||ibqkjbw.com^
@@ -25375,6 +25382,7 @@ zzzyk.com###Tinfo
 ||jxtest.bolecdn.com/player/*.gif
 ||jxuhurp.icu^
 ||jxvyrv.xyz^
+||jxwqu.cn^
 ||jy.zhongxues.com^
 ||jy135.com/js/pubuliu.
 ||jy135.com^$third-party
@@ -25721,6 +25729,7 @@ zzzyk.com###Tinfo
 ||kssolo.com^
 ||kstj.baidu.com^
 ||ksvkfwth.xyz^
+||ksylied.top^
 ||kszvmqo.cn^
 ||kszxqq.com^
 ||kt51.com/bjl666.gif
@@ -30018,6 +30027,7 @@ zzzyk.com###Tinfo
 ||sss777.net/Alove-A/
 ||sssvd.china.com^
 ||sssxwsry.com^
+||ssylieb.top^
 ||ssyy881.com/zz/
 ||st-fly.b-cdn.net^
 ||st.huliyinzi.com/ads_app_pic/^
@@ -31286,6 +31296,7 @@ zzzyk.com###Tinfo
 ||uqrcuxp.cn^
 ||uqueae.xyz^
 ||uqwbcm.xyz^
+||uqydcs.xyz^
 ||uraseszincy.com^
 ||urccncd.xyz^
 ||urimnugocfr.com^
@@ -33491,6 +33502,7 @@ zzzyk.com###Tinfo
 ||zlnmzc.top^
 ||zlongad.com^$third-party
 ||zlp6s.pw^$third-party
+||zltndp.xyz^
 ||zlvlciv.xyz^
 ||zlyhslx.icu^
 ||zlyk.com/Runtime/Js/footer.js

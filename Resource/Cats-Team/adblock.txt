@@ -4,8 +4,8 @@
 ! Powerd by Cats-Team
 ! Expires: 1 day (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2024-05-25 08:03:18(GMT+8) 
-! Total count: 125750
+! ! Version: 2024-05-26 08:03:29(GMT+8) 
+! Total count: 125768
  
 ###ADtip
 ###AdBlockDialog
@@ -6528,6 +6528,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /v1/pixel?
 /v1/stats/track
 /v1/tracker.js
+/v1/viewport_events
 /v2/pv-data?
 /v2/stats/1*/1*$third-party
 /v2/stats/9*$third-party
@@ -8253,6 +8254,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ://analytics.*/pageview/
 ://api.*.com/sh/*.js$script,third-party
 ://b.*/vanity/?
+://backstory.ebay.
 ://beacon.*/track
 ://blue.*/script.js
 ://btt*/Runtime/js/psData.
@@ -16521,6 +16523,7 @@ electric-house.ru##.blok_forum > div[style]
 element-plus.gitee.io##.sidebar > .page-content
 element-plus.gitee.io##.toc-content > .m-t-16px
 element-plus.gitee.io##aside > .page-content
+element-plus.org##.page-content-main-a
 element-plus.org##.toc-content > div[style="margin-top:16px;"]
 element-plus.org##aside > .page-content-main
 elhow.ru###b-info-wrapper
@@ -55489,6 +55492,7 @@ zzzyk.com###Tinfo
 ||aod.echovisuals.com^
 ||aod4.societegenerale.fr^
 ||aoelfb.nanouniverse.jp^
+||aogk88.asia^
 ||aojeet.icu^
 ||aojhzj.watch.co.uk^
 ||aoji.cn/default/looyu/
@@ -58052,6 +58056,7 @@ zzzyk.com###Tinfo
 ||backlink-test.de^$third-party
 ||backlinkdino.de^$third-party
 ||backoffice.verintsystemsinc.com^
+||backstory.ebay.
 ||backup-bar-navig.yandex.ru/u
 ||bacon.getcarro.com^$third-party
 ||bacon.section.io^
@@ -60432,6 +60437,7 @@ zzzyk.com###Tinfo
 ||cafirebreather.com^
 ||cahf4eed.mooo.com^
 ||cai110.com/js/2
+||cai75tp.com^
 ||caibaojian.com/d/uploads/*/atop-
 ||caibaojian.com/d/uploads/*0-
 ||caider.fun^
@@ -64679,6 +64685,7 @@ zzzyk.com###Tinfo
 ||d3c3cq33003psk.cloudfront.net^
 ||d3cgm8py10hi0z.cloudfront.net^
 ||d3cxv97fi8q177.cloudfront.net^
+||d3d7a0q05k6bvz.cloudfront.net^
 ||d3f3.xyz^
 ||d3fdp2ho8z9fyl.cloudfront.net/tracker.min.js
 ||d3g4a.cyou^
@@ -68384,6 +68391,7 @@ zzzyk.com###Tinfo
 ||dialogue.mazda.sk^
 ||dialogue.nl.mazda.be^
 ||diamages.carte-gr.total.fr^
+||diamiu.com/wp-content/uploads/1200-200.
 ||dian.brecm.xyz^
 ||dian500.com^$third-party
 ||dianassb.com^
@@ -70323,6 +70331,7 @@ zzzyk.com###Tinfo
 ||edgedc.falabella.com^
 ||edgeresolver001-bgp-02-sin6.net.mydays.de^
 ||edgesuite.net^*/googleanalyt
+||edgetrksvc.ebay.
 ||edgrmtracking.com^$third-party
 ||ediemidnightzombies.com^
 ||edigitalsurvey.com^$third-party
@@ -71397,6 +71406,7 @@ zzzyk.com###Tinfo
 ||entsnotesq.fun^
 ||envato.market^
 ||enviou.com.br^$third-party
+||enviousinevitable.com^
 ||enviousshape.com^$third-party
 ||enviousthread.com^$third-party
 ||envyderg.cosmind.online^
@@ -78210,6 +78220,7 @@ zzzyk.com###Tinfo
 ||ib-ibi.com^$third-party
 ||ib.snssdk.com^
 ||ib3i33.cob.autojournal.fr^$script
+||ibaglhc.icu^
 ||ibamolecular.actonservice.com^
 ||ibbmfq.decameron.com^
 ||ibbmly.moneymetals.com^
@@ -82139,6 +82150,7 @@ zzzyk.com###Tinfo
 ||jxvrhx.fotokoch.de^
 ||jxvyrv.xyz^
 ||jxwjla.breville-romania.ro^
+||jxwqu.cn^
 ||jxy6.evobanco.es^
 ||jy.zhongxues.com^
 ||jy135.com/js/pubuliu.
@@ -82891,6 +82903,7 @@ zzzyk.com###Tinfo
 ||ksta.met.vgwort.de^
 ||kstj.baidu.com^
 ||ksvkfwth.xyz^
+||ksylied.top^
 ||ksyrium0014.com^$third-party
 ||kszpsc.waschbaer.ch^
 ||kszuxn.snidel.com^
@@ -92323,6 +92336,7 @@ zzzyk.com###Tinfo
 ||nbycjpo.cn^
 ||nbyggk.jocee.jp^
 ||nc0.co^$third-party
+||ncadvertiser.com/413gkwMT/init.js
 ||ncaudienceexchange.com^$third-party
 ||ncbabz.hometogo.co.uk^
 ||ncbi.nlm.nih.gov/*/pinger.js
@@ -107699,6 +107713,7 @@ zzzyk.com###Tinfo
 ||speedyrhino.co^
 ||speee-ad.akamaized.net^
 ||speee-ad.jp^$third-party
+||speetals.com^$third-party
 ||spelar.org^$third-party
 ||spellsalsa.com^$third-party
 ||spencerfane.actonservice.com^
@@ -108672,6 +108687,7 @@ zzzyk.com###Tinfo
 ||sswmetrics.philippineairlines.com^
 ||sswmetrics.sabre.com^
 ||ssy7.destinia.com.ua^
+||ssylieb.top^
 ||ssyy881.com/zz/
 ||st-*.dynamicyield.com^
 ||st-5cva8vttppvjafpc7jvj.kodik.biz^
@@ -119495,6 +119511,7 @@ zzzyk.com###Tinfo
 ||uqrcuxp.cn^
 ||uqueae.xyz^
 ||uqwbcm.xyz^
+||uqydcs.xyz^
 ||ur.b.inhaabit.com^
 ||uraaka.com/analytics/
 ||uralweb.ru^$third-party
@@ -125425,6 +125442,7 @@ zzzyk.com###Tinfo
 ||zlnmzc.top^
 ||zlongad.com^$third-party
 ||zlp6s.pw^$third-party
+||zltndp.xyz^
 ||zlvlciv.xyz^
 ||zlvxiw.medicarelife.com^
 ||zlx.com.br^$third-party
