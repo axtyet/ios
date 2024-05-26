@@ -1,5 +1,6 @@
 payload:
   - DOMAIN,118.89.204.198
+  - DOMAIN,25e87c0802f91cf8cgg.6uzxtlv.cn
   - DOMAIN,a.cpic.com.cn
   - DOMAIN,a.wkanx.com
   - DOMAIN,a0.app.xiaomi.com
@@ -476,6 +477,7 @@ payload:
   - DOMAIN-SUFFIX,1xl.co.uk
   - DOMAIN-SUFFIX,206ads.com
   - DOMAIN-SUFFIX,22c.in
+  - DOMAIN-SUFFIX,2700.5mgrgsc.cn
   - DOMAIN-SUFFIX,285680.com
   - DOMAIN-SUFFIX,2qpqwkx.cn
   - DOMAIN-SUFFIX,2xmzazd.cn
@@ -493,9 +495,13 @@ payload:
   - DOMAIN-SUFFIX,520click.com
   - DOMAIN-SUFFIX,58mingri.cn
   - DOMAIN-SUFFIX,58mingtian.cn
+  - DOMAIN-SUFFIX,5e87c0802f91cf8cgg.6uzxtlv.cn
+  - DOMAIN-SUFFIX,5mgrgsc.cn
   - DOMAIN-SUFFIX,5rocks.io
   - DOMAIN-SUFFIX,5vl58stm.com
   - DOMAIN-SUFFIX,6d63d3.com
+  - DOMAIN-SUFFIX,6fi3bv9.cn
+  - DOMAIN-SUFFIX,6uzxtlv.cn
   - DOMAIN-SUFFIX,777.000123456789.space
   - DOMAIN-SUFFIX,7gg.cc
   - DOMAIN-SUFFIX,7tad.cn
@@ -877,6 +883,7 @@ payload:
   - DOMAIN-SUFFIX,cjmakeding.com
   - DOMAIN-SUFFIX,cjmkt.com
   - DOMAIN-SUFFIX,ck.ads.oppomobile.com
+  - DOMAIN-SUFFIX,clarity.ms
   - DOMAIN-SUFFIX,clog.miguvideo.com
   - DOMAIN-SUFFIX,clotfun.mobi
   - DOMAIN-SUFFIX,clotfun.online
@@ -1932,6 +1939,7 @@ payload:
   - DOMAIN-SUFFIX,xn--2qux23c9ziyrq.plus
   - DOMAIN-SUFFIX,xn--3bs795g.link
   - DOMAIN-SUFFIX,xn--3bs795g.zone
+  - DOMAIN-SUFFIX,xn--qrq171dxpq.com
   - DOMAIN-SUFFIX,xn--xhq9mt12cf5v.xn--io0a7i
   - DOMAIN-SUFFIX,xpanama.net
   - DOMAIN-SUFFIX,xshellcn.com
