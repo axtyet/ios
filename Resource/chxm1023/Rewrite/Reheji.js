@@ -2,7 +2,7 @@
 
 项目名称：Revenuecat 系列解锁合集
 下载地址：https://too.st/CollectionsAPP
-更新日期：2024-05-21
+更新日期：2024-05-27
 脚本作者：chxm1023
 电报频道：https://t.me/chxm1023
 使用声明：⚠️仅供参考，🈲转载与售卖！
@@ -41,6 +41,7 @@ const bundle = {
 
 //识别UA
 const list = {
+  'metaslip': { name: 'Pro', id: 'ms_lifetime', cm: 'sjb' },  //元思笔记
   'Pins': { name: 'customer', id: 'do.anh.Pins.Unlock.Standard', cm: 'sja' },  //Pins
   'Loora': { name: 'Yearly', id: 'yearly_free_ref_10usd_off', cm: 'sja' },  //Loora
   'PwDrawingPad': { name: 'pro', id: 'com.s132.app.supaintexchange.year', cm: 'sja' },  //全能画板2
