@@ -2134,6 +2134,7 @@ domain:7087092fd7.0881dd11d9.com
 domain:70950.com
 domain:70b25fad84.ecaecc3e17.com
 domain:70e.com
+domain:70r8fo5.com
 domain:70yst.com
 domain:71-177.net.jumia.ma
 domain:71.am
@@ -2292,6 +2293,7 @@ domain:7dd9b32ed6.65566a6ab6.com
 domain:7df1f04330.com
 domain:7dh26aja.com
 domain:7dlm.cn
+domain:7dqjgdk.com
 domain:7dshfewr-0ewfivjkys.xyz
 domain:7dusx.xyz
 domain:7e4a6fbed2.b14e96118f.com
@@ -2313,9 +2315,11 @@ domain:7i4dka.cn
 domain:7imtcjd21.com
 domain:7insight.com
 domain:7j2edrbxb.com
+domain:7j4tpio.com
 domain:7jkzmbd.cn
 domain:7jrahgc.de
 domain:7lbd4.armandthiery.fr
+domain:7li0ohd.com
 domain:7lyonline.com
 domain:7me0ssd6.de
 domain:7mediaxx-ai.com
@@ -9910,7 +9914,6 @@ domain:airdrop-coinbase.com
 domain:airdrop-manager.ru
 domain:airdrop-manager.su
 domain:airfiles.net
-domain:airhobi.com
 domain:airlessquotationtroubled.com
 domain:airlinerappetizingcoast.com
 domain:airlytics.airlock.twcmobile.weather.com
@@ -27710,7 +27713,6 @@ domain:cvbjctqs.xyz
 domain:cvcvotjyasdtil.com
 domain:cvda.17173.com
 domain:cvftv2.com
-domain:cvgh.collection.aixpirts.com
 domain:cvgrszkg.xyz
 domain:cvhefd.ixbt.com
 domain:cvi6.destinia.qa
@@ -35648,6 +35650,7 @@ domain:ec1e2c92b3.com
 domain:ec2-13-51-159-83.eu-north-1.compute.amazonaws.com
 domain:ec2-16-171-25-219.eu-north-1.compute.amazonaws.com
 domain:ec2-3-17-159-152.us-east-2.compute.amazonaws.com
+domain:ec2-3-227-136-78.compute-1.amazonaws.com
 domain:ec2-65-2-129-159.ap-south-1.compute.amazonaws.com
 domain:ec2867edc4.com
 domain:ecami.xyz
@@ -53584,6 +53587,7 @@ domain:ingigalitha.com
 domain:ingivervidetur.uno
 domain:ingjymcmsqloxw.com
 domain:inglunewly.com
+domain:ingonherbal.com
 domain:ingotedbooze.com
 domain:ingotheremplo.info
 domain:ingotsmyopic.com
@@ -91866,7 +91870,6 @@ domain:sklsnpqr.com
 domain:skluff.com
 domain:sklw.policy.donnafrey.com
 domain:sknkwpvrkz.com
-domain:sko.members.openarmscv.com
 domain:skocinxwocit.com
 domain:skocz.pl
 domain:skodfybmooz.com
@@ -100300,6 +100303,7 @@ domain:suitesdyed.space
 domain:suiteshowedlottery.com
 domain:suitetattoo.com
 domain:suitscodworm.com
+domain:suivie.niolbenef.com.do
 domain:sujcmsgdcyt.com
 domain:sukaq.ru
 domain:sukarmbzeqf.com
@@ -100363,6 +100367,7 @@ domain:sunflowerinformed.com
 domain:sungarnonsane.com
 domain:sunglassesinsular.com
 domain:sunglassesmentallyproficient.com
+domain:sunglassesninja.com
 domain:sunhe.jinr.ru
 domain:sunjianlong.com
 domain:sunkencurledexpanded.com
@@ -110577,6 +110582,7 @@ domain:ucheephu.com
 domain:uchiyama.net.anwalt.de
 domain:uchxtxel.com
 domain:uciservice.com
+domain:ucjcs.glue.oystergardening.net
 domain:ucjevgue.xyz
 domain:uckbcroqkb.com
 domain:uckgqa.xyz
@@ -110765,7 +110771,6 @@ domain:uhdokoq5ocmk.com
 domain:uhealth.care
 domain:uhedsplo.com
 domain:uhegarberetrof.com
-domain:uhfbncvzxasqwpolgkhbn.ydns.eu
 domain:uhfdsplo.com
 domain:uhhgaodcxckgvqs.xyz
 domain:uhjxitn.xyz
@@ -117657,7 +117662,6 @@ domain:www.infineon-community.com
 domain:www.info.redhat.com
 domain:www.informationmoat.com
 domain:www.infos-experts.adp.com
-domain:www.ingonherbal.com
 domain:www.ins-mercadeo.com
 domain:www.ins-multiasistencia.com
 domain:www.insightful-company-52.com
@@ -118143,7 +118147,6 @@ domain:www.subscriptions.nokiasiemensnetworks.com
 domain:www.subsitesadserver.co.uk
 domain:www.sugh8yami.com
 domain:www.sukigyik.xyz
-domain:www.sunglassesninja.com
 domain:www.svr-prc-01.com
 domain:www.svr007phz.com
 domain:www.sw-rail-7.com

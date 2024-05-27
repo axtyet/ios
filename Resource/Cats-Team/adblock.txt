@@ -4,8 +4,8 @@
 ! Powerd by Cats-Team
 ! Expires: 1 day (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2024-05-27 08:03:33(GMT+8) 
-! Total count: 125781
+! ! Version: 2024-05-27 12:22:05(GMT+8) 
+! Total count: 125785
  
 ###ADtip
 ###AdBlockDialog
@@ -47898,6 +47898,7 @@ zzzyk.com###Tinfo
 ||7011.stia.cn^
 ||704g8xh7qfzx.www.intercity.technology^
 ||70822.com/agfile/
+||70r8fo5.com^
 ||70url.com/aiaike/bood.js$domain=yingwangtv.com
 ||70url.com/paody/js/count.js$domain=yingwangtv.com
 ||71-177.net.jumia.ma^
@@ -47972,11 +47973,13 @@ zzzyk.com###Tinfo
 ||7daystodie.cn^$third-party
 ||7dh26aja.com^
 ||7down.com/static/js/foot_
+||7dqjgdk.com^
 ||7dusx.xyz^
 ||7eer.net^$third-party
 ||7gra.us/path-tracker-js/
 ||7hdl8dlfjm4g.www.cybernetman.com^
 ||7i4dka.cn^
+||7j4tpio.com^
 ||7jkzmbd.cn^
 ||7junshi.com/con/ad
 ||7junshi.com/static/red-envelopes.js
@@ -47987,6 +47990,7 @@ zzzyk.com###Tinfo
 ||7kankan.com/scripts/new/indext
 ||7kjiiu.cn^
 ||7lbd4.armandthiery.fr^
+||7li0ohd.com^
 ||7m.com.cn/b1/live_b
 ||7mmtv.tv/js/ad_js/
 ||7mmtv.tv/u_banner/
