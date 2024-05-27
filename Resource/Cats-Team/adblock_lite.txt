@@ -4,8 +4,8 @@
 ! Powerd by Cats-Team
 ! Expires: 1 day (update frequency)
 ! Description: AdRules AdBlock List's Lite Version, And Remove Some Filters
-! ! Version: 2024-05-26 08:03:29(GMT+8) 
-! Total count: 33696
+! ! Version: 2024-05-27 08:03:33(GMT+8) 
+! Total count: 33708
  
 ###ADtip
 ###AdBlockDialog
@@ -11190,6 +11190,9 @@ iqiyi.com##div[class="iqiyi-h5-empty header_app"]
 iqiyi.com##div[class="m-iqylink-guide"]
 iqiyi.com##div[class="vue-portal-target "]
 iqiyi.com##div[class^="ad-piclist-"]
+iqiyi.com##div[class^="video-slide_normal"]>a[href^="http"]:not([href*="iqiyi.com"]) div[class^="video-slide_row"]
+iqiyi.com##div[class^="video-slide_normal"]>a[href^="http"]:not([href*="iqiyi.com"])>div>img
+iqiyi.com##div[class^="video-slide_threeImagePages"]>a[href^="http"]:not([href*="iqiyi.com"])>div
 iqiyi.com##div[class^=style_appDownload]
 iqiyi.com##div[class^=style_toApp]
 iqiyi.com##div[class^=styles_openApp]
@@ -17619,6 +17622,7 @@ zzzyk.com###Tinfo
 ||360.cn/int/getadurls?
 ||360.cn/popup/popinfo/
 ||360114.xyz^
+||3601880.xyz^
 ||360640.com^
 ||360buyimg.com/babel/jfs/t1/209256/22/21888/60206/627b7a6aEa5f2d78b/219868beb169203f.jpg
 ||360buyimg.com/ddimg/jfs/t1/27218/8/19964/31194/636a1930E1de2ae78/e3ff134116579b95.jpg
@@ -17724,6 +17728,7 @@ zzzyk.com###Tinfo
 ||40wan.com/js/www2/
 ||415677.com^
 ||4199tv.com^
+||420909.cn^
 ||42yenxh.cn^
 ||4399.com/baiduad/
 ||4399.com/jss/*coup.js
@@ -20374,6 +20379,7 @@ zzzyk.com###Tinfo
 ||bzhanyy.com^*.gif
 ||bzhn9y.icu^
 ||bznizrhd.xyz^
+||bzqqftz.icu^
 ||bzthxv.xyz^
 ||bzverx.xyz^
 ||bzvhgbr.xyz^
@@ -22328,6 +22334,7 @@ zzzyk.com###Tinfo
 ||eheb8.cn^
 ||eheuye.xyz^
 ||ehfjup.xyz^
+||ehhjfgs.xyz^
 ||ehk.trenhdg.com^
 ||ehrhrrx.xyz^
 ||eht116.com^
@@ -22489,6 +22496,7 @@ zzzyk.com###Tinfo
 ||esqhsm.xyz^
 ||estcruden.biz^
 ||estixfl.cn^
+||esyliew.top^
 ||etadult.com*/images/20
 ||etahub.com^
 ||etest8.com/js/158/infojs/
@@ -23580,6 +23588,7 @@ zzzyk.com###Tinfo
 ||gvbhae0.com^
 ||gvbta.icu^
 ||gw1jvhs.com^
+||gw2cddpt2hao.asia^
 ||gwbnsh.net.cn/hd/unicom/ad.html
 ||gwdobvs.cn^
 ||gwertyuadf.com^
@@ -27670,6 +27679,7 @@ zzzyk.com###Tinfo
 ||onosyej.icu^
 ||onx8.com/theme/tange/add/
 ||onx8.com/zb_users/theme/ydgreen/style/ad/
+||onxeacj.cn^
 ||onxtxdm.xyz^
 ||oodcd.cn/pan/config/ad.json
 ||oodcd.cn/pan/config/copy.
@@ -27703,6 +27713,7 @@ zzzyk.com###Tinfo
 ||optimix.cn^$third-party
 ||optimizely.com^$third-party
 ||opwofty.cn^
+||opwoga.xyz^
 ||opzksyy.cn^
 ||oq6ry.com^
 ||oq8.top^
@@ -33606,6 +33617,7 @@ zzzyk.com###Tinfo
 ||zvnjvd.xyz^
 ||zvtnj.icu^
 ||zvvg678.xyz^
+||zvvlbf.xyz^
 ||zwdtvx.xyz^
 ||zwdu.com/getuserinfo.php
 ||zwfkxb.xyz^
