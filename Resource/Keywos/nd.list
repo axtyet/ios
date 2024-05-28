@@ -17,3 +17,11 @@ DOMAIN-SUFFIX,adashbc.ut.taobao.com
 DOMAIN-SUFFIX,adashxgc.ut.taobao.com
 DOMAIN-SUFFIX,h-adashx.ut.taobao.com
 #DOMAIN-KEYWORD,pangolin-sdk-toutiao
+DOMAIN,metrics-picture.d.meituan.net
+DOMAIN,maplocatesdksnapshot.d.meituan.net
+DOMAIN,al-log.d.meituan.net
+DOMAIN,babel-statistics-android.d.meituan.net
+DOMAIN,route-stats.d.meituan.net
+
+DOMAIN,o33249.ingest.sentry.io
+DOMAIN,gdt.qq.com
