@@ -4,8 +4,8 @@
 ! Powerd by Cats-Team
 ! Expires: 1 day (update frequency)
 ! Description: AdRules AdBlock List's Lite Version, And Remove Some Filters
-! ! Version: 2024-05-28 08:03:36(GMT+8) 
-! Total count: 33725
+! ! Version: 2024-05-29 08:03:15(GMT+8) 
+! Total count: 33732
  
 ###ADtip
 ###AdBlockDialog
@@ -5616,7 +5616,6 @@ $third-party,xmlhttprequest,domain=cocolamanhua.com|subhd.tv|subhdtw.com|xyg688.
 @@||liveadexchanger.com/a/display.php$script,domain=prem.link
 @@||livenewschat.eu^$generichide
 @@||livew.l.qq.com/livemsg?pf=H5&ad$domain=m.v.qq.com
-@@||livew.l.qq.com/livemsg?ty=web&ad_type=$domain=v.qq.com
 @@||lncn.org/ad.json
 @@||lnk2.cc/js/ad_code.js
 @@||lnk2.cc^$generichide
@@ -10877,8 +10876,8 @@ ifkdy.com,ilxdh.com##a[href*=".yhm11.com"]
 ifooday.cn##.myzs
 ifsp.tv##.video-page-right
 ifxtx.com##.ppsy_content758
-igg-games.com,pcgamestorrents.com,pcgamestorrents.org#$#abort-on-property-write advanced_ads_ready; prevent-listener DOMContentLoaded; prevent-listener iframe; abort-current-inline-script addEventListener document.createElement;
-igg-games.com,pcgamestorrents.com,pcgamestorrents.org#$#hide-if-matches-xpath './/a[@href][@aria-label]/img[@loading="lazy"][@width="662"]/ancestor-or-self::a[1]'
+igg-games.com,pcgamestorrents.com,pcgamestorrents.org#$#abort-on-property-write advanced_ads_ready; prevent-listener DOMContentLoaded; prevent-listener iframe; abort-current-inline-script addEventListener document.createElement; abort-on-property-read window.open; abort-current-inline-script document.documentElement break;case $.
+igg-games.com,pcgamestorrents.com,pcgamestorrents.org#$#hide-if-matches-xpath './/div/a[@href][@aria-label]/img[@loading="lazy"][@width="663" or @width="301"]/ancestor-or-self::div[1]'
 ign.com#$#abort-current-inline-script clearTimeout load
 ignboards.com#$#abort-current-inline-script JSON.stringify
 igo.cn###NewigoBox
@@ -14966,6 +14965,7 @@ sports.qq.com##.scr-login > .cnxh:has(> .videoDiv #hotvideo)
 sports.qq.com##.topBnaner
 sports.qq.com##a[href="http://teramont.svw-volkswagen.com/"]
 sports.qq.com##a[href^="http://market.1hai.cn/"]
+sports.qq.com#@#.txp_ad_center
 sports.ru#$#abort-on-property-read Sports.pageData.browserTime
 sports.sohu.com##.allsee-list > .bd-wrap
 sports4u.tv,sports4u.live#@##adblock
@@ -15372,7 +15372,7 @@ tingfm.com#%#//scriptlet('set-constant', 'can_run_ads', 'true')
 tingroom.com###ifram_563
 tingroom.com###play_ggr
 tingroom.com##a[href*="weidian.com"]
-tinsoikeo.ink#$#abort-on-property-read sessionStorage;abort-current-inline-script $ window.open
+tinsoikeo.cloud#$#abort-on-property-read sessionStorage;abort-current-inline-script $ window.open
 tirexo.day#$#debug; abort-on-property-read window.open
 tiscali.cz###desktop-square-top, #desktop-leader-top, .desktop-square-top, .desktop-leader-top
 tiscali.cz##.bs-hp
@@ -16013,7 +16013,7 @@ weather.com.cn##A[style="position:fixed;top:220px;left:50%;margin-left: -625px"]
 weather.com.cn##div[class^="adpos"]
 weather.com.cn##div[id^="adpos"]
 weather.com.cn,wed114.cn#@#.adpic
-web.motsex.net,clipsexvietnam.net,phimsexviet.io,phimsexvietnam.app,clipsex.xxx,web.phimsexnhanh.tv,gm.phimsexnhanh.tv,mobile.ditgaixinh.net,mobile.ditnhau.cc,phim.sexhayvl.org#$#override-property-read video.adVast ''
+web.motsex.net,clipsexvietnam.net,phimsexviet.io,phimsexvietnam.app,clipsex.xxx,web.phimsexnhanh.tv,gm.phimsexnhanh.tv,mobile.phimsexvip.cc,mobile.ditnhau.cc,phim.sexhayvl.org#$#override-property-read video.adVast ''
 webhd.top##.justify-content-center.pt-2
 webjx.com###middleimg
 webkaka.com##.pNavigateAd
@@ -17295,6 +17295,7 @@ zzzyk.com###Tinfo
 ||159i.com/video/usr/uploads/bd/$image
 ||159i.com^*.php|
 ||15hn.net/data/content
+||15huhu.cn^
 ||15tianqi.com^$third-party
 ||160.com/statics/statics/js/code_13.js
 ||160.com/statics/statics/js/code_15.js
@@ -18849,6 +18850,7 @@ zzzyk.com###Tinfo
 ||adyun.com^$third-party
 ||adzdgr-wadd2-f1d.com^
 ||adzp.cn^
+||aeaw.cn^
 ||aefmbeq.cn^
 ||aeletheacd.com^
 ||aerbgpn.xyz^
@@ -25094,6 +25096,7 @@ zzzyk.com###Tinfo
 ||jinti.com^*/aspx/*gg
 ||jintonghua.com^
 ||jinyici.com/qq.js
+||jinzige.cn^
 ||jioed.cyou^
 ||jiqgsh.com^
 ||jishulink.com/images/activity/invite_
@@ -26912,6 +26915,7 @@ zzzyk.com###Tinfo
 ||mnhknds.com^
 ||mnhncf.cn^
 ||mnifdlax.top^
+||mninoq.xyz^
 ||mnks.cn/jk/appAD_
 ||mnnmnn.com^
 ||mnorkc.xyz^
@@ -27003,6 +27007,7 @@ zzzyk.com###Tinfo
 ||mpn56e.cn^
 ||mps.wenkuzu.com^
 ||mpyerxzn.xyz^
+||mqaoweu.icu^
 ||mqcoycx.icu^
 ||mqjqripb.xyz^
 ||mql5.com/rq?
@@ -27402,6 +27407,7 @@ zzzyk.com###Tinfo
 ||njzyjy.cn^
 ||nkbkor.icu^
 ||nkbpft.xyz^
+||nkdgnsfsk.com^
 ||nkfith.xyz^
 ||nkvwvx.xyz^
 ||nlfbdgr.xyz^
@@ -29394,6 +29400,7 @@ zzzyk.com###Tinfo
 ||sdhuawen.cn^
 ||sdjbcjsbdjk.com^
 ||sdjbvjsbvjz.com^
+||sdjbvskjvds.com^
 ||sdjkbcjksbdsvv.com^
 ||sdjvbsjbvas.com^
 ||sdk.sipujia.cn^
@@ -33726,8 +33733,8 @@ zzzyk.com###Tinfo
 ~sinaimg.cn##a > img[src*=".sinaimg."][src$=".gif"][style*="width:960"]
 ~sinaimg.cn##a > img[width="960"][src*=".sinaimg."]
 ~sinaimg.cn##a > img[width="980"][src*=".sinaimg."]
+~sports.qq.com,~work.weixin.qq.com,qq.com#%#//scriptlet('json-prune', 'ad')
 ~taobao.com,~tmall.com##A[href="https://s.click.taobao.com/cTAwFvu"]
 ~umeng.com##a[href*=".umeng.com"]:not([href="http://www.umeng.com/"]) > img
 ~upupoo.com##a[href^="http://www.upupoo.com"]
 ~weibo.com##.con_ad
-~work.weixin.qq.com,qq.com#%#//scriptlet('json-prune', 'ad')
