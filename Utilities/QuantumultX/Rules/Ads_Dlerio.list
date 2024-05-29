@@ -6608,6 +6608,7 @@ HOST-SUFFIX,setting.rayjump.com,REJECT
 HOST-SUFFIX,setting.snswin.qq.com,REJECT
 HOST-SUFFIX,settings.crashlytics.com,REJECT
 HOST-SUFFIX,sezvc.com,REJECT
+HOST-SUFFIX,sf3-fe-tos.pglstatp-toutiao.com,REJECT
 HOST-SUFFIX,sfloushi.com,REJECT
 HOST-SUFFIX,sg536.cn,REJECT
 HOST-SUFFIX,sgbfjs.info,REJECT
