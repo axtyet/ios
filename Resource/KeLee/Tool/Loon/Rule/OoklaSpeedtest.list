@@ -11961,6 +11961,9 @@ DOMAIN, zgb-speedtest-1.tele2.net
 DOMAIN, zhukov.netspeed.net.nz
 DOMAIN, zrh.speedtest.gtt.net
 DOMAIN-SUFFIX, hosts.ooklaserver.net
+DOMAIN-SUFFIX, speedtest.net
+DOMAIN-KEYWORD, ookla-speedtest
+DOMAIN-KEYWORD, speedtest-ookla
 IP-CIDR, 103.17.181.162/32
 IP-CIDR, 103.219.60.229/32
 IP-CIDR, 103.23.233.18/32
