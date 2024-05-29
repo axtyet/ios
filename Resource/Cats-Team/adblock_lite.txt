@@ -4,8 +4,8 @@
 ! Powerd by Cats-Team
 ! Expires: 1 day (update frequency)
 ! Description: AdRules AdBlock List's Lite Version, And Remove Some Filters
-! ! Version: 2024-05-29 08:03:15(GMT+8) 
-! Total count: 33732
+! ! Version: 2024-05-29 10:23:56(GMT+8) 
+! Total count: 33730
  
 ###ADtip
 ###AdBlockDialog
@@ -24332,7 +24332,6 @@ zzzyk.com###Tinfo
 ||i.alipayobjects.com/i/ecmng/$image,domain=my.alipay.com
 ||i.cidianwang.com^
 ||i.imgur.com^$domain=av.movie
-||i1.go2yd.com^
 ||i100.cao-gao.xyz/aimgs/
 ||i140.ru/js/etxm*.js|$script
 ||i322.com/ad_avshow/
@@ -29626,7 +29625,6 @@ zzzyk.com###Tinfo
 ||shx11.xyz^
 ||shyseed.com^$third-party
 ||shzzzz.dftoutiao.com^
-||si1.go2yd.com^
 ||sibehgtq.xyz^
 ||sickflock.com^$third-party
 ||sicksmash.com^$third-party

@@ -885,7 +885,6 @@ domain:2006.5clo0xmbf.com
 domain:2007botclient.com
 domain:20091222.com
 domain:2011.l5eamr17d.com
-domain:2012.filemail.com
 domain:2012hacks.com
 domain:2012hacks.info
 domain:2013-hacks.net
@@ -3220,6 +3219,7 @@ domain:a0981250.xsph.ru
 domain:a0982904.xsph.ru
 domain:a0984042.xsph.ru
 domain:a0984086.xsph.ru
+domain:a0986499.xsph.ru
 domain:a0986569.xsph.ru
 domain:a0b22.com
 domain:a0c00.com
@@ -13776,7 +13776,6 @@ domain:appzeyland.com
 domain:appzjax.com
 domain:appzoneteam.com
 domain:apqmxf.curama.jp
-domain:apr.collection.aixpirts.com
 domain:apress.efscle.com
 domain:aprilineffective.com
 domain:apritifyapok.top
@@ -24316,7 +24315,6 @@ domain:cnna.io
 domain:cnnected.org
 domain:cnnx.io
 domain:cnnx.link
-domain:cnom.sante.gov.ml
 domain:cnomy.com
 domain:cnpc.infzm.com
 domain:cnpxwl.cheapcaribbean.com
@@ -31528,6 +31526,7 @@ domain:de.bca-news.com
 domain:de.contact.alphabet.com
 domain:de.healthandwellnessblog.za.com
 domain:de.linkai.click
+domain:de.musicproduction.ru.com
 domain:de.mywd.com
 domain:de.pandora.xiaomi.com
 domain:de.sevoly.de
@@ -51024,7 +51023,6 @@ domain:i.viafoura.co
 domain:i0.letvimg.com
 domain:i010b048d3e4a1e4b70aba72b169e70c90971f9.xyz
 domain:i0xz2.top
-domain:i1.go2yd.com
 domain:i1.ictorganisers.com
 domain:i1.market-search.online
 domain:i1.vaishnaviinterior.com
@@ -57097,7 +57095,6 @@ domain:karayarillock.cam
 domain:kareaumatzot.com
 domain:kareemovic22.webredirect.org
 domain:karep.ru
-domain:karer.by
 domain:kargo.com
 domain:karinart.de
 domain:karinot.ru
@@ -65687,6 +65684,7 @@ domain:maximumcash.com
 domain:maximumductpictorial.com
 domain:maximumimmortality.com
 domain:maximus-time.net
+domain:maxmoney.com
 domain:maxmusics.com
 domain:maxmydl.com
 domain:maxocdgras.com
@@ -68455,7 +68453,6 @@ domain:microngroup.pro
 domain:micronsecho.com
 domain:microscopeattorney.com
 domain:microscopeunderpants.com
-domain:microsecurityupdate.com
 domain:microsite.pbs.org
 domain:microsite.standardandpoors.com
 domain:microsoft-cnd.com
@@ -69587,6 +69584,7 @@ domain:mongoose.scrumgenius.com
 domain:mongoose.thechocolatelife.com
 domain:monhax.com
 domain:monicaatron.com
+domain:moninediy.com
 domain:monismartlink.com
 domain:monitor-api.blackcrow.ai
 domain:monitor-frontend-collector.a.bybit-aws.com
@@ -74492,6 +74490,7 @@ domain:oj.fapnow.xxx
 domain:oj.likewut.net
 domain:oj2q8.montecarlosbm.book-secure.com
 domain:ojafexcbndql.com
+domain:ojang.pe.kr
 domain:ojapanelm.xyz
 domain:ojbkmcsdx.xyz
 domain:ojbrtkrvew.com
@@ -85498,6 +85497,7 @@ domain:resonate.com
 domain:resource.baomihua.com
 domain:resourcebumper.com
 domain:resourcechasing.com
+domain:resourceedge.org
 domain:resourcefulauthorizeelevate.com
 domain:resourceisabellareligious.com
 domain:resources-it.opentext.com
@@ -97876,6 +97876,7 @@ domain:starcardsnbulls.com
 domain:starchild.odencat.com
 domain:starchportraypub.com
 domain:starchytoxifer.top
+domain:starcountry.net
 domain:starcraftvip.com
 domain:stardatis.com
 domain:stardrop.fun
@@ -100428,7 +100429,6 @@ domain:sunflowerinformed.com
 domain:sungarnonsane.com
 domain:sunglassesinsular.com
 domain:sunglassesmentallyproficient.com
-domain:sunglassesninja.com
 domain:sunhe.jinr.ru
 domain:sunjianlong.com
 domain:sunkencurledexpanded.com
@@ -108563,6 +108563,7 @@ domain:tradeexchanging.com
 domain:tradefastskin.com
 domain:tradego.pro
 domain:tradego.store
+domain:tradeinsights.net
 domain:tradelax.com
 domain:tradem.com
 domain:trademob.com
@@ -111401,6 +111402,7 @@ domain:universaldatedimpress.com
 domain:universaldev.taylormadegolf.com
 domain:universalflaskshrimp.com
 domain:universalhack.net
+domain:universalmovies.top
 domain:universalsrc.com
 domain:universehacks.com
 domain:universeofhacks.com
@@ -113711,7 +113713,6 @@ domain:vjnxpj.xyz
 domain:vjpgm.space
 domain:vjrlsgqjw.xyz
 domain:vjrpnv.xyz
-domain:vjsd.collection.aixpirts.com
 domain:vjsohgd.com
 domain:vjtskjg.com
 domain:vjvj.vj24co.com
@@ -117901,7 +117902,6 @@ domain:www.maserati.info
 domain:www.mass1soma.com
 domain:www.masterspace.biz
 domain:www.mavic852.com
-domain:www.maxmoney.com
 domain:www.mbljpu9.com
 domain:www.mdfsbn.com
 domain:www.me1294hlx.com
@@ -117936,7 +117936,6 @@ domain:www.moat4shot.com
 domain:www.mon-com-01.com
 domain:www.mon-com-net.com
 domain:www.moneyziyouwm.com
-domain:www.moninediy.com
 domain:www.mown5gaze.com
 domain:www.mpression.net
 domain:www.mqhzdl.com
@@ -118008,7 +118007,6 @@ domain:www.odyssey.on.ca
 domain:www.ofnsv69.com
 domain:www.ogrt80r65.com
 domain:www.oita4bali.com
-domain:www.ojang.pe.kr
 domain:www.okc-5190.com
 domain:www.okc-5191.com
 domain:www.on24-webinars.co.uk
@@ -118242,7 +118240,6 @@ domain:www.srvtrkxx2.com
 domain:www.ssl2.in
 domain:www.ssquire.plus.com
 domain:www.star-cntr-5.com
-domain:www.starcountry.net
 domain:www.start-downloading.com
 domain:www.startnewtab.com
 domain:www.statcount.com
@@ -118254,6 +118251,7 @@ domain:www.subscriptions.nokiasiemensnetworks.com
 domain:www.subsitesadserver.co.uk
 domain:www.sugh8yami.com
 domain:www.sukigyik.xyz
+domain:www.sunglassesninja.com
 domain:www.svr-prc-01.com
 domain:www.svr007phz.com
 domain:www.sw-rail-7.com
@@ -118447,7 +118445,6 @@ domain:www.yourfuckbook.com
 domain:www.yourplanprovisions.com
 domain:www.youzonggw.com
 domain:www.ypmate.com
-domain:www.ysbaojia.com
 domain:www.yueyuego.com
 domain:www.yuyue008.cn
 domain:www.yuzuni.com
@@ -120065,7 +120062,6 @@ domain:y.getmorelocalhelp.com
 domain:y.ibsys.com
 domain:y.ksl.com
 domain:y.photoint.net
-domain:y.shavsl.com
 domain:y.sphinxtube.com
 domain:y.topya.com
 domain:y0764.cn
@@ -120986,6 +120982,7 @@ domain:yrxmr.com
 domain:ys-log-upload-os.hoyoverse.com
 domain:ys.muhoujiemi.com
 domain:ys2000.cdn.bcebos.com
+domain:ysbaojia.com
 domain:yscfsmxrtcifye.com
 domain:yscntxil.com
 domain:ysemblyjusting.info
@@ -121487,7 +121484,6 @@ domain:zdd-9.com
 domain:zddpnf.xyz
 domain:zdf3q.xyz
 domain:zdfl.xyz
-domain:zdfmm.collection.aixpirts.com
 domain:zdftqc.xyz
 domain:zdg-bend.xyz
 domain:zdgbend.buzz

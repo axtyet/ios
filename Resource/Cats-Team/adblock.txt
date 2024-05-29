@@ -4,8 +4,8 @@
 ! Powerd by Cats-Team
 ! Expires: 1 day (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2024-05-29 08:03:15(GMT+8) 
-! Total count: 125982
+! ! Version: 2024-05-29 10:23:56(GMT+8) 
+! Total count: 125980
  
 ###ADtip
 ###AdBlockDialog
@@ -78438,7 +78438,6 @@ zzzyk.com###Tinfo
 ||i.toywords.games^
 ||i.upoker.net^
 ||i.viafoura.co^
-||i1.go2yd.com^
 ||i1.market-search.online^
 ||i100.cao-gao.xyz/aimgs/
 ||i140.ru/js/etxm*.js|$script
@@ -103231,7 +103230,6 @@ zzzyk.com###Tinfo
 ||si.com^$cookie=BCSessionID
 ||si.com^$cookie=last_visit_bc
 ||si.com^$cookie=muid
-||si1.go2yd.com^
 ||sia.internet.apps.samsung.com^
 ||siazlw.cetroloja.com.br^
 ||sibautomation.com^$third-party
@@ -107633,7 +107631,7 @@ zzzyk.com###Tinfo
 ||sooopu.com/asphtml/plnew.
 ||sooopu.com/js/*950.js
 ||sooopu.com/js/contentad330.js
-||sooqr.com^$third-party
+||sooqr.com/sooqr.js
 ||soorbka.cn^$third-party
 ||sootheside.com^$third-party
 ||soothingglade.com^$third-party
