@@ -4,7 +4,7 @@
 #
 # Stash Version ≥ 2.6.0 
 #
-# 最后更新时间: 2024-4-21 20:25
+# 最后更新时间: 2024-05-29 14:26
 #
 # ================
 
@@ -49,8 +49,6 @@ proxy-groups:
   - {name: AI, icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/OpenAI.png, type: select, proxies: [手动切换, 香港节点, 美国节点, 狮城节点, 日本节点, 台湾节点, 欧洲节点]}
 
   - {name: 游戏平台, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Game.png, type: select, proxies: [手动切换, 香港节点, 美国节点, 狮城节点, 日本节点, 台湾节点, 欧洲节点, DIRECT]}
-
-  - {name: 哔哩哔哩, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/bilibili.png, type: select, proxies: [DIRECT, 香港节点, 台湾节点]}
 
   - {name: Emby, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Emby.png, type: select, use: [Subscribe] ,proxies: [香港节点, 美国节点, 狮城节点, 日本节点, 台湾节点, 欧洲节点]}
 
@@ -99,9 +97,6 @@ rule-providers:
   # 推特消息
   Twitter: {type: http, behavior: classical, format: text, interval: 86400, url: https://github.com/Repcz/Tool/raw/X/Stash/Rules/Twitter.list}
 
-  # 哔哩哔哩
-  BiliBili: {type: http, behavior: classical, format: text, interval: 86400, url: https://github.com/Repcz/Tool/raw/X/Stash/Rules/Bilibili.list}
-
   # 游戏平台
   Steam: {type: http, behavior: classical, format: text, interval: 86400, url: https://github.com/Repcz/Tool/raw/X/Stash/Rules/Steam.list}
   Epic: {type: http, behavior: classical, format: text, interval: 86400, url: https://github.com/Repcz/Tool/raw/X/Stash/Rules/Epic.list}
@@ -139,7 +134,6 @@ rules:
   - RULE-SET,Steam,游戏平台
   - RULE-SET,Epic,游戏平台
   - RULE-SET,Emby,Emby
-  - RULE-SET,BiliBili,哔哩哔哩
   - RULE-SET,Bahamut,国际媒体
   - RULE-SET,Netflix,国际媒体
   - RULE-SET,Disney,国际媒体

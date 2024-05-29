@@ -6,7 +6,7 @@
 #
 # Egern Version ≥ 1.16.0
 #
-# 最后更新时间: 2024-4-21 16:40
+# 最后更新时间: 2024-05-29 14:33
 #
 # ================
 
@@ -140,14 +140,6 @@ policy_groups:
     flatten: true
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Emby.png
 - select:
-    name: 哔哩哔哩
-    policies:
-    - DIRECT
-    - 香港节点
-    - 台湾节点
-    - 手动选择
-    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/bilibili.png
-- select:
     name: 兜底分流
     policies:
     - 香港节点
@@ -271,9 +263,6 @@ rules:
 - rule_set:
     match: https://github.com/Repcz/Tool/raw/X/Egern/Rules/Apple.yaml
     policy: DIRECT
-- rule_set:
-    match: https://github.com/Repcz/Tool/raw/X/Egern/Rules/Bilibili.yaml
-    policy: 哔哩哔哩
 - rule_set:
     match: https://github.com/Repcz/Tool/raw/X/Egern/Rules/Lan.yaml
     policy: DIRECT

@@ -4,7 +4,7 @@
 #
 # Stash Version ≥ 2.6.0 
 #
-# 最后更新时间: 2024-4-21 20:25
+# 最后更新时间: 2024-05-29 14:27
 #
 # ================
 
@@ -50,8 +50,6 @@ proxy-groups:
 
   - {name: 游戏平台, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Game.png, type: select, proxies: [手动切换, 香港节点, 美国节点, 狮城节点, 日本节点, 台湾节点, 欧洲节点, DIRECT]}
 
-  - {name: 哔哩哔哩, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/bilibili.png, type: select, proxies: [DIRECT, 香港节点, 台湾节点]}
-
   - {name: Emby, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Emby.png, type: select, use: [Subscribe] ,proxies: [香港节点, 美国节点, 狮城节点, 日本节点, 台湾节点, 欧洲节点]}
 
   - {name: Spotify, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Spotify.png, type: select, proxies: [手动切换, 香港节点, 美国节点, 狮城节点, 日本节点, 台湾节点, 欧洲节点]}
@@ -73,7 +71,6 @@ proxy-groups:
   - {name: 欧洲节点, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/European_Union.png, type: url-test, lazy: true, interval: 300, use: [Subscribe], filter: "🇬🇧|🇫🇷|🇳🇱|🇮🇸|🇩🇪|🇺🇦|🇨🇭|🇪🇺"}
 
 rules:
-  - GEOSITE,category-ads-all,广告拦截
   - GEOSITE,openai,AI
   - GEOSITE,category-games,游戏平台
   - GEOSITE,netflix,国际媒体
@@ -93,8 +90,6 @@ rules:
   - GEOSITE,google,谷歌服务
   - GEOIP,google,谷歌服务,no-resolve
   - GEOSITE,geolocation-!cn,国外网站
-  - GEOSITE,bilibili,哔哩哔哩
-  - GEOIP,bilibili,📺 哔哩哔哩,no-resolve
   - GEOSITE,private,DIRECT
   - GEOIP,private,DIRECT,no-resolve
   - GEOSITE,cn,DIRECT
