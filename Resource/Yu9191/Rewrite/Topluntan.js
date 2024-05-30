@@ -12,7 +12,6 @@ https://super.toppps.com/app-api/v1/toppps/(live/getLiveSpaceDetailsV|products) 
 
 hostname = super.toppps.com
 */
-
 const response_body = $response.body;
 const url = $request.url;
 
@@ -61,5 +60,7 @@ function notifyPDFLink(link) {
         $notification.post("PDF 下载链接", "", link);
     }
 }
+
+
 
 
