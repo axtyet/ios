@@ -4,8 +4,8 @@
 ! Powerd by Cats-Team
 ! Expires: 1 day (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2024-05-30 08:26:53(GMT+8) 
-! Total count: 126008
+! ! Version: 2024-05-30 12:11:31(GMT+8) 
+! Total count: 126014
  
 ###ADtip
 ###AdBlockDialog
@@ -15460,7 +15460,6 @@ com.limbsaver.happycustomer.io$image
 com.mine.ubilab.me$image
 com.tw###space > a[target="_blank"] > img[width="160"]
 com.tw#$#img[width="960"][height="90"] { height: 0 !important; }
-com/js/lp365.js
 com:8891/c.php?s=*$third-party
 comedy-radio.ru,radioromantika.ru,veseloeradio.ru#$#abort-on-property-read yaContextCb
 comefromchina.com##.ad_navtext_11 > li:nth-child(n+2)
@@ -44171,7 +44170,6 @@ starmusiq.com###adblock-detector-popup-alert
 start.firefoxchina.cn##.mod-delay-resource
 start.firefoxchina.cn##.wrap > div[style]:last-child
 stat-nba.com###ad_video
-static/pull/qwe1021.js
 statistics.email.bellresidentialreturns.ca$image
 statistics.email.mdmgroup.ca$image
 statistiques.email.retoursdeservicesresidentielsbell.ca$image
@@ -48107,6 +48105,7 @@ zzzyk.com###Tinfo
 ||6slb0.cyou^
 ||6swu.cpa-france.org^
 ||6tofsu.com^
+||6uzxtlv.cn^
 ||6v4.cn^$third-party
 ||6v4.work^
 ||6v6.work^
@@ -67998,6 +67997,7 @@ zzzyk.com###Tinfo
 ||dblijd.xyz^
 ||dbmbfe.pegipegi.com^
 ||dbmp4.com/js/foot.
+||dbmp4.com/js/foot.js
 ||dbmyvl.apartmentfinder.com^
 ||dbnsd2viud.xyz^
 ||dbnwlp.xyz^
@@ -93724,6 +93724,7 @@ zzzyk.com###Tinfo
 ||obhnrw.furniturebox.se^
 ||obhxvb.tmktools.ru^
 ||objectpartners.actonservice.com^
+||obl74.xyz^
 ||obnrap.neimanmarcus.com^
 ||obooom.robinmaybag.com^
 ||obozrevatel.com/pixel.png
@@ -96625,6 +96626,7 @@ zzzyk.com###Tinfo
 ||pjh7.us.chantelle.com^
 ||pji.nu/libs/pjpixel/
 ||pjogndc8ixoidna.360doc.cn^
+||pjoo8.com^
 ||pjsbuhl.icu^
 ||pjstat.com^
 ||pjstat.com^$third-party
@@ -96970,6 +96972,7 @@ zzzyk.com###Tinfo
 ||pmavlz.bitebeauty.com^
 ||pmazpg.legalzoom.com^
 ||pmb*.tj.ali213.net/js/
+||pmblrt.xyz^
 ||pmbox.biz^$third-party
 ||pmensrl.cn^
 ||pmiskc.cn^
@@ -99755,6 +99758,7 @@ zzzyk.com###Tinfo
 ||retently.com/api/remote/tracking/
 ||rethink.adp.com^
 ||retinaesprent.com^
+||retintsmillion.com^
 ||retirement.aonunited.com^
 ||retirement.newyorklifeannuities.com^
 ||retirementliving.actsretirement.org^
@@ -119201,6 +119205,7 @@ zzzyk.com###Tinfo
 ||u652.myplainview.com^
 ||u68t5.icu^
 ||u78s.top^
+||u7em6.xyz^
 ||u7s546.com^
 ||u7u9.com^$third-party
 ||u833ij.com^
@@ -125458,6 +125463,7 @@ zzzyk.com###Tinfo
 ||zexfzson.icu^
 ||zf4.top^
 ||zfcdirf.icu^
+||zfcoin.cn^
 ||zfctrack.net^
 ||zfcumb.xyz^
 ||zfehvv.buzz^

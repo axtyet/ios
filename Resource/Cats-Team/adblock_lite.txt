@@ -4,8 +4,8 @@
 ! Powerd by Cats-Team
 ! Expires: 1 day (update frequency)
 ! Description: AdRules AdBlock List's Lite Version, And Remove Some Filters
-! ! Version: 2024-05-30 08:26:53(GMT+8) 
-! Total count: 33744
+! ! Version: 2024-05-30 12:11:31(GMT+8) 
+! Total count: 33750
  
 ###ADtip
 ###AdBlockDialog
@@ -8287,7 +8287,6 @@ colamanga.com#$#html { overflow: auto !important; }
 colamanga.com#%#//scriptlet("prevent-setTimeout", "loadErrorTip")
 com.tw###space > a[target="_blank"] > img[width="160"]
 com.tw#$#img[width="960"][height="90"] { height: 0 !important; }
-com/js/lp365.js
 com:8891/c.php?s=*$third-party
 comedy-radio.ru,radioromantika.ru,veseloeradio.ru#$#abort-on-property-read yaContextCb
 comefromchina.com##.ad_navtext_11 > li:nth-child(n+2)
@@ -15013,7 +15012,6 @@ starmusiq.com###adblock-detector-popup-alert
 start.firefoxchina.cn##.mod-delay-resource
 start.firefoxchina.cn##.wrap > div[style]:last-child
 stat-nba.com###ad_video
-static/pull/qwe1021.js
 stbemucode.com##DIV.header-ads
 stbemucode.com##IFRAME[frameborder='0'][marginheight='0']
 stc.gov.cn###mov
@@ -18070,6 +18068,7 @@ zzzyk.com###Tinfo
 ||6quspne.com^
 ||6slb0.cyou^
 ||6tofsu.com^
+||6uzxtlv.cn^
 ||6v4.cn^$third-party
 ||6v4.work^
 ||6v6.work^
@@ -21553,6 +21552,7 @@ zzzyk.com###Tinfo
 ||dbkdwe1.com^
 ||dblijd.xyz^
 ||dbmp4.com/js/foot.
+||dbmp4.com/js/foot.js
 ||dbnsd2viud.xyz^
 ||dbnwlp.xyz^
 ||dbpxivi.xyz^
@@ -27591,6 +27591,7 @@ zzzyk.com###Tinfo
 ||obertsiamw.fun^
 ||obgbok.com^
 ||obgekjz.icu^
+||obl74.xyz^
 ||obscenesidewalk.com^$third-party
 ||observantice.com^$third-party
 ||obturex.com^
@@ -28134,6 +28135,7 @@ zzzyk.com###Tinfo
 ||pj3f7.xyz^
 ||pjcn.org^$third-party
 ||pjogndc8ixoidna.360doc.cn^
+||pjoo8.com^
 ||pjsbuhl.icu^
 ||pjtime.com/js/show_ad
 ||pjvkhh.xyz^
@@ -28181,6 +28183,7 @@ zzzyk.com###Tinfo
 ||pluckyzone.com^$third-party
 ||pm.poqwua.cn^
 ||pmb*.tj.ali213.net/js/
+||pmblrt.xyz^
 ||pmensrl.cn^
 ||pmiskc.cn^
 ||pmnct63.shop^
@@ -28985,6 +28988,7 @@ zzzyk.com###Tinfo
 ||restrainstorm.com^$third-party
 ||restructureinvention.com^$third-party
 ||retinaesprent.com^
+||retintsmillion.com^
 ||retrieval-bd.duote.com^
 ||retrievemint.com^$third-party
 ||rett.top^
@@ -31127,6 +31131,7 @@ zzzyk.com###Tinfo
 ||u5nvu.xyz^
 ||u68t5.icu^
 ||u78s.top^
+||u7em6.xyz^
 ||u7s546.com^
 ||u7u9.com^$third-party
 ||u833ij.com^
@@ -33382,6 +33387,7 @@ zzzyk.com###Tinfo
 ||zexfzson.icu^
 ||zf4.top^
 ||zfcdirf.icu^
+||zfcoin.cn^
 ||zfcumb.xyz^
 ||zfehvv.buzz^
 ||zfehvv.xyz^

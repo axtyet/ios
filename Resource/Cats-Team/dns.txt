@@ -4,8 +4,8 @@
 ! Powerd by Cats-Team
 ! Expires: 1 (update frequency)
 ! Description: The DNS Filters
-! Total count: 122918 
-! Update: 2024-05-30 08:26:54(GMT+8)
+! Total count: 122920 
+! Update: 2024-05-30 12:11:32(GMT+8)
 /^.+stat\.kugou\.com/
 /^admarvel\./
 /^admaster\./
@@ -2235,6 +2235,7 @@
 ||6tofsu.com^
 ||6uc.cc^
 ||6ujk8x9soxhm.com^
+||6uzxtlv.cn^
 ||6v4.work^
 ||6v41p4bsq.com^
 ||6v6.work^
@@ -24508,7 +24509,6 @@
 ||cnnected.org^
 ||cnnx.io^
 ||cnnx.link^
-||cnom.sante.gov.ml^
 ||cnomy.com^
 ||cnpc.infzm.com^
 ||cnpxwl.cheapcaribbean.com^
@@ -32764,6 +32764,7 @@
 ||dicinging.co.in^
 ||dicknearbyaircraft.com^
 ||dickypommini.com^
+||diclegrup.org^
 ||diclotrans.com^
 ||dicolicbarrer.top^
 ||dicouksa.com^
@@ -41531,7 +41532,6 @@
 ||fluxads.com^
 ||fluxtowed.com^
 ||fluxy.cn^
-||flvkd.collection.aixpirts.com^
 ||flvvcqfmw.com^
 ||flw.camcaps.ac^
 ||fly-ads.net^
@@ -58241,7 +58241,6 @@
 ||knowseminar.com^
 ||knpkxgfp.xyz^
 ||knqpyaholceobc.com^
-||knrfr.collection.aixpirts.com^
 ||knsnyfpnbyakn.xyz^
 ||kntswafuos.com^
 ||knuaxfv.cn^
@@ -61589,7 +61588,6 @@
 ||llmxt.fun^
 ||llntrack.messe-duesseldorf.de^
 ||llnxdx.xyz^
-||llock.accounting.bridgemastersllc.com^
 ||llog.pl^
 ||llohkcllkalodrb.xyz^
 ||llozybovlkekk.top^
@@ -66001,7 +65999,6 @@
 ||maximumductpictorial.com^
 ||maximumimmortality.com^
 ||maximus-time.net^
-||maxmoney.com^
 ||maxmusics.com^
 ||maxmydl.com^
 ||maxocdgras.com^
@@ -69945,7 +69942,6 @@
 ||monkstars.co^
 ||monkstars.com^
 ||monnionyusdrum.com^
-||monoblocked.com^
 ||mononoteapp.firebaseio.com^
 ||monopolydecreaserelationship.com^
 ||monopolyswimsuit.com^
@@ -74277,6 +74273,7 @@
 ||objects.tremormedia.com^
 ||objectsentrust.com^
 ||obkgavorztij.com^
+||obl74.xyz^
 ||obligebuffaloirresolute.com^
 ||obligemadeuprough.com^
 ||obliterateminingarise.com^
@@ -77041,7 +77038,6 @@
 ||p2ro4u.trybawaryjny.pl^
 ||p2sdmkj6t.bkt.clouddn.com^
 ||p2trc.emv2.com^
-||p3-ad-sign.byteimg.com^
 ||p3.preppypm.com^
 ||p39-ubiquity-china.net.mydays.de^
 ||p3p.yahoo.com^
@@ -79778,6 +79774,7 @@
 ||pjoaeeajjxsc.com^
 ||pjogndc8ixoidna.360doc.cn^
 ||pjoibbc.com^
+||pjoo8.com^
 ||pjoqkmks.com^
 ||pjqchcfwtw.com^
 ||pjs.outlet.com^
@@ -80340,6 +80337,7 @@
 ||pmaosrgeieft.com^
 ||pmavlz.bitebeauty.com^
 ||pmazpg.legalzoom.com^
+||pmblrt.xyz^
 ||pmc1201.com^
 ||pmddby.com^
 ||pmdnditvte.com^
@@ -80529,6 +80527,7 @@
 ||polaritypresentimentasterisk.com^
 ||polarlootstairwell.com^
 ||polarmobile.com^
+||polatfamilyengine.com^
 ||pole.6rooms.com^
 ||poleaxefoamers.com^
 ||polelemploi.fr^
@@ -85867,6 +85866,7 @@
 ||resource.baomihua.com^
 ||resourcebumper.com^
 ||resourcechasing.com^
+||resourceedge.org^
 ||resourcefulauthorizeelevate.com^
 ||resourceisabellareligious.com^
 ||resources-it.opentext.com^
@@ -100824,6 +100824,7 @@
 ||sungarnonsane.com^
 ||sunglassesinsular.com^
 ||sunglassesmentallyproficient.com^
+||sunglassesninja.com^
 ||sunhe.jinr.ru^
 ||sunjianlong.com^
 ||sunkencurledexpanded.com^
@@ -100941,6 +100942,7 @@
 ||support-ip.com^
 ||support-v2.sweetwaternow.com^
 ||support-widget.userlocal.jp^
+||support.clz.kr^
 ||support.flex.com^
 ||support.panasonic.eu^
 ||support.ricoh.de^
@@ -101686,7 +101688,6 @@
 ||szgaikk.com^
 ||szhcyxtszb.com^
 ||szhgmd.com^
-||szhleq.bn.files.1drv.com^
 ||szhomes.net^
 ||szhszxfw.cn^
 ||szhyzkj.com^
@@ -110815,7 +110816,6 @@
 ||tykor.net^
 ||tylcpcikj.com^
 ||tylfgkf.com^
-||tylkodlazaufanych.pl^
 ||tylocintriones.com^
 ||tylosischewer.com^
 ||tymahuxv.xyz^
@@ -110953,6 +110953,7 @@
 ||u652.myplainview.com^
 ||u68t5.icu^
 ||u78s.top^
+||u7em6.xyz^
 ||u7s546.com^
 ||u7xjailbreak.com^
 ||u7z5fgj3k9c0vkah2v8zj1zj7v6gkm2f8zjc9j2vk6o9p2zks3a6sjc2mj6h.me^
@@ -111816,6 +111817,7 @@
 ||universaldev.taylormadegolf.com^
 ||universalflaskshrimp.com^
 ||universalhack.net^
+||universalmovies.top^
 ||universalsrc.com^
 ||universehacks.com^
 ||universeofhacks.com^
@@ -118325,6 +118327,7 @@
 ||www.mass1soma.com^
 ||www.masterspace.biz^
 ||www.mavic852.com^
+||www.maxmoney.com^
 ||www.mbljpu9.com^
 ||www.mdfsbn.com^
 ||www.me1294hlx.com^
@@ -118674,7 +118677,6 @@
 ||www.subsitesadserver.co.uk^
 ||www.sugh8yami.com^
 ||www.sukigyik.xyz^
-||www.sunglassesninja.com^
 ||www.svr-prc-01.com^
 ||www.svr007phz.com^
 ||www.sw-rail-7.com^
@@ -118869,7 +118871,6 @@
 ||www.yourplanprovisions.com^
 ||www.youzonggw.com^
 ||www.ypmate.com^
-||www.ysbaojia.com^
 ||www.yueyuego.com^
 ||www.yuyue008.cn^
 ||www.yuzuni.com^
@@ -120633,7 +120634,6 @@
 ||ybujfcuqya.com^
 ||ybwcvhcnulrgbvy.com^
 ||ybxkfivvpmofh.com^
-||ybxmx.collection.aixpirts.com^
 ||ybyrudhdnrxcbe.com^
 ||ybzcmz.momoshop.com.tw^
 ||yc-ads.s3.amazonaws.com^
@@ -121410,6 +121410,7 @@
 ||ys-log-upload-os.hoyoverse.com^
 ||ys.muhoujiemi.com^
 ||ys2000.cdn.bcebos.com^
+||ysbaojia.com^
 ||yscfsmxrtcifye.com^
 ||yscntxil.com^
 ||ysemblyjusting.info^
@@ -122101,6 +122102,7 @@
 ||zeypreland.com^
 ||zf4.top^
 ||zfcdirf.icu^
+||zfcoin.cn^
 ||zfctrack.net^
 ||zfcumb.xyz^
 ||zfeaubp.com^
