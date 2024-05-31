@@ -1,7 +1,7 @@
 /*************************************
 
 项目名称：iTunes-系列解锁合集
-更新日期：2024-05-25
+更新日期：2024-05-31
 脚本作者：chxm1023
 电报频道：https://t.me/chxm1023
 使用声明：⚠️仅供参考，🈲转载与售卖！
@@ -26,6 +26,7 @@ const ua = $request.headers['User-Agent'] || $request.headers['user-agent'];
 const bundle_id = chxm1023.receipt["bundle_id"] || chxm1023.receipt["Bundle_Id"];
 
 const list = {
+  'FancyCamPlus': { cm: 'sjbla', hx: 'hxpda', id: "com.alphaplus.fancycam.year.198", latest: "chxm1023" },  //悦颜相机
   'Again': { cm: 'sjblb', hx: 'hxpda', id: "com.owen.again.profession", latest: "chxm1023" },  //Again
   'remotelg': { cm: 'sjblb', hx: 'hxpda', id: "com.gqp.remotelg.lifetime", latest: "chxm1023" },  //UniversalRemoteTV+
   'Notebook': { cm: 'sjbla', hx: 'hxpda', id: "com.zoho.notebook.ios.personal.yearly", latest: "chxm1023" },  //Notebook
