@@ -63,6 +63,7 @@ if (typeof $response == "undefined") {
   var UA = $request.headers['user-agent'];
   const app = '1';
   const UAMappings = {
+    'XBListeningEnglish':{ name: 'enPro', id: 'com.shenming.newconceptvip.year'},
     'FretTrainer':{ name: 'pro', id: 'frettrainer.sub.yearly.pro'},//5.7
     '%E9%B2%B8%E8%90%BD%E6%96%87%E6%A1%88':{ name: 'vip', id: 'jl_year'},//2024.5.6
     'PeachTree':{ name: 'GoldMember', id: 'LifetimeGoldMembership'},//2024.5.5
