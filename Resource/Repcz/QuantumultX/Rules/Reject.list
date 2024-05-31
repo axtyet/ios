@@ -1,5 +1,8 @@
 HOST,118.89.204.198,REJECT
 HOST,25e87c0802f91cf8cgg.6uzxtlv.cn,REJECT
+HOST,3117kc.saigmpl.com,REJECT
+HOST,314240585f1fb7266kcc.fwxhvvd.com,REJECT
+HOST,314240585f1fb7266kg.oiocklg.com,REJECT
 HOST,a.cpic.com.cn,REJECT
 HOST,a.wkanx.com,REJECT
 HOST,a0.app.xiaomi.com,REJECT
@@ -379,6 +382,7 @@ HOST,tmead.y.qq.com,REJECT
 HOST,tmeadbak.y.qq.com,REJECT
 HOST,tmeadcomm.y.qq.com,REJECT
 HOST,token.safebrowsing.apple,REJECT
+HOST,tong.8888888888.bid,REJECT
 HOST,toots-a.akamaihd.net,REJECT
 HOST,tpns.qq.com,REJECT
 HOST,track.58.com,REJECT
