@@ -96,9 +96,6 @@ domain_set:
 - wxsnsdy.wxs.qq.com
 - wxsnsdythumb.wxs.qq.com
 - sdkconfig.ad.xiaomi.com
-- 3117kc.saigmpl.com
-- 314240585f1fb7266kcc.fwxhvvd.com
-- 314240585f1fb7266kg.oiocklg.com
 - tong.8888888888.bid
 - acs4baichuan.m.taobao.com
 - adsmind.ugdtimg.com
@@ -168,6 +165,9 @@ domain_keyword_set:
 - -adsystem.com
 - trace.qq.com
 - trace.video.qq.com
+- kc.saigmpl.com
+- kcc.fwxhvvd.com
+- kg.oiocklg.com
 domain_regex_set:
 ip_cidr_set:
 - 203.107.1.1/24
