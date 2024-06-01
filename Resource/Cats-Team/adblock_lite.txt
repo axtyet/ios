@@ -4,8 +4,8 @@
 ! Powerd by Cats-Team
 ! Expires: 1 day (update frequency)
 ! Description: AdRules AdBlock List's Lite Version, And Remove Some Filters
-! ! Version: 2024-06-01 08:03:11(GMT+8) 
-! Total count: 33774
+! ! Version: 2024-06-01 15:54:32(GMT+8) 
+! Total count: 33777
  
 ###ADtip
 ###AdBlockDialog
@@ -1001,6 +1001,7 @@
 ##A[href*='zbkrv.com']
 ##A[href="http://goo.gl/jQ9bcz"]
 ##A[href="http://t.cn/A6hQCVsv"]
+##A[href="javascript:;"][onclick^="todkjermyd"]
 ##A[href='/?'][target='_blank']
 ##A[href='/hth.html']
 ##A[href='/iwagbwfiwehaeyh/']
@@ -12984,7 +12985,7 @@ mydrivers.com##div[style^="position:fixed;left:50%;bottom:200px;"]
 mydrivers.com#?#.newslist > li:has(> span:contains(广 告))
 mydrivers.com#?#div[class^="news_info"] > ul.newslist > li:has(> span:contains(广告))
 mydrivers.com#?#li:-abp-has(>.titl+:-abp-contains(/广*告/))
-mydrivers.com#?#li:-abp-has(>.titl+:-abp-contains(推广))
+mydrivers.com#?#li:-abp-has(>.titl+:-abp-contains(/推*广/))
 mydrivers.com#@#.baidu, a[href^=http][target=_blank]
 mydrivers.com,wmzhe.com##a[href*=".jd.com/"]
 myexception.cn##.c_a_3
@@ -21198,6 +21199,7 @@ zzzyk.com###Tinfo
 ||cpdronhu.xyz^
 ||cped7.xyz^
 ||cpffkbpq.xyz^
+||cpgou.cn^
 ||cpkxahje.xyz^
 ||cpm.cm.kankan.com^
 ||cpmlwhra.xyz^
@@ -22070,6 +22072,7 @@ zzzyk.com###Tinfo
 ||dsp.ali213.net^
 ||dsp.lenovo.com.cn^*&clientType=api|
 ||dsqzk.cn^
+||dssdfsf.cn^
 ||dstbekdf.xyz^
 ||dstbunkfw.xyz^
 ||dswcrlf.cn^

@@ -4,8 +4,8 @@
 ! Powerd by Cats-Team
 ! Expires: 1 day (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2024-06-01 08:03:11(GMT+8) 
-! Total count: 126067
+! ! Version: 2024-06-01 15:54:32(GMT+8) 
+! Total count: 126071
  
 ###ADtip
 ###AdBlockDialog
@@ -1008,6 +1008,7 @@
 ##A[href*='zbkrv.com']
 ##A[href="http://goo.gl/jQ9bcz"]
 ##A[href="http://t.cn/A6hQCVsv"]
+##A[href="javascript:;"][onclick^="todkjermyd"]
 ##A[href='/?'][target='_blank']
 ##A[href='/hth.html']
 ##A[href='/iwagbwfiwehaeyh/']
@@ -8649,7 +8650,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||/template/conch/asset/js/hlhtml.js$domain=www.lldm.net|1anime.me
 @@||060s.com/images_ad/*.png
 @@||073img.com/*,*,
-@@||1.1.1.1/cdn-cgi/trace$xmlhttprequest,domain=myair.resmed.com
+@@||1.1.1.1/cdn-cgi/trace$xmlhttprequest,domain=myair.resmed.com|one.one.one.one
 @@||10010.cn^*/ad
 @@||10010.com/mall/common/js/fa.js?referer=
 @@||10010.com^$generichide
@@ -41523,7 +41524,7 @@ mydrivers.com##div[style^="position:fixed;left:50%;bottom:200px;"]
 mydrivers.com#?#.newslist > li:has(> span:contains(广 告))
 mydrivers.com#?#div[class^="news_info"] > ul.newslist > li:has(> span:contains(广告))
 mydrivers.com#?#li:-abp-has(>.titl+:-abp-contains(/广*告/))
-mydrivers.com#?#li:-abp-has(>.titl+:-abp-contains(推广))
+mydrivers.com#?#li:-abp-has(>.titl+:-abp-contains(/推*广/))
 mydrivers.com#@#.baidu, a[href^=http][target=_blank]
 mydrivers.com,wmzhe.com##a[href*=".jd.com/"]
 myexception.cn##.c_a_3
@@ -63989,6 +63990,7 @@ zzzyk.com###Tinfo
 ||cped7.xyz^
 ||cpffkbpq.xyz^
 ||cpgo.avatacar.com^
+||cpgou.cn^
 ||cph.credit-pret-hypothecaire.com^
 ||cpihrinfo.cpihr.com^
 ||cpiibb.top-office.com^
@@ -69799,6 +69801,7 @@ zzzyk.com###Tinfo
 ||dsptrack.mobshark.net^
 ||dspx.tv^
 ||dsqzk.cn^
+||dssdfsf.cn^
 ||dst05lp2.net.mydays.de^
 ||dstbekdf.xyz^
 ||dstbunkfw.xyz^
@@ -111373,6 +111376,7 @@ zzzyk.com###Tinfo
 ||sweeps.la-z-boy.com^
 ||sweepsheep.com^$third-party
 ||sweet-candy.jp/c.php?$third-party
+||sweetgum.io^$third-party
 ||sweetshow.com/r_log.php
 ||sweetwater.com/p2TBVNJZ/init.js
 ||swellstocking.com^$third-party
