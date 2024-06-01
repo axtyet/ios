@@ -58,10 +58,10 @@ if(ad.test($request.url)){
 if(user1.test($request.url)){
   chxm1023.data = {
     ...chxm1023.data,
-    "userName" : "叮当猫",
+    "userName" : "江上酒゛",
     "vipFlag" : 1,
-    "nickName" : "叮当猫",
-    "icon" : "http://yunting-bj-radio-client.oss-cn-beijing.aliyuncs.com/25010%2Fsc_upload%2F202301%2F22%2F09%2F4eL7lc2023012209974.JPEG",
+    "nickName" : "江上酒゛",
+    "icon" : "https://raw.githubusercontent.com/axtyet/Nebula/main/Icons/icon.png",
     "vipExpireTime" : 4092599349000
   };
   chxm1023.data.memberMarkVo = {
@@ -82,8 +82,8 @@ if(user2.test($request.url)){
   chxm1023.object.baseInfo = {
     "isVip" : 1,
     "vipTime" : "2099-09-09",
-    "nickName" : "叮当猫",
-    "userIcon" : "http://yunting-bj-radio-client.oss-cn-beijing.aliyuncs.com/25010%2Fsc_upload%2F202301%2F22%2F09%2F4eL7lc2023012209974.JPEG"
+    "nickName" : "江上酒゛",
+    "userIcon" : "https://raw.githubusercontent.com/axtyet/Nebula/main/Icons/icon.png"
   };
   body = JSON.stringify(chxm1023);
 }
