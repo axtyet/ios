@@ -4,8 +4,8 @@
 ! Powerd by Cats-Team
 ! Expires: 1 day (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2024-06-02 16:00:55(GMT+8) 
-! Total count: 126083
+! ! Version: 2024-06-02 16:59:17(GMT+8) 
+! Total count: 126085
  
 ###ADtip
 ###AdBlockDialog
@@ -1367,6 +1367,7 @@
 ##a[href*=".taobao.com"] > img[src*=".tucao."]
 ##a[href*=".tdchat.in"]
 ##a[href*=".umtrack.com/"]
+##a[href*=".uu2123sd.vip"]
 ##a[href*=".wzfqitm.com/"]
 ##a[href*=".xacg.info/"]
 ##a[href*=".xwrfr.com/"]
@@ -111091,6 +111092,7 @@ zzzyk.com###Tinfo
 ||sumome.com/apps/contentanalytics/
 ||sumome.com/apps/heatmaps/
 ||sumome.com^$third-party
+||sump4.cc/js/wcount.js
 ||sums.suning.com^$third-party
 ||sun66387567606.online^
 ||sun66387567606.site^

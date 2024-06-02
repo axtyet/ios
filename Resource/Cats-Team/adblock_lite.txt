@@ -4,8 +4,8 @@
 ! Powerd by Cats-Team
 ! Expires: 1 day (update frequency)
 ! Description: AdRules AdBlock List's Lite Version, And Remove Some Filters
-! ! Version: 2024-06-02 16:00:55(GMT+8) 
-! Total count: 33789
+! ! Version: 2024-06-02 16:59:17(GMT+8) 
+! Total count: 33791
  
 ###ADtip
 ###AdBlockDialog
@@ -1360,6 +1360,7 @@
 ##a[href*=".taobao.com"] > img[src*=".tucao."]
 ##a[href*=".tdchat.in"]
 ##a[href*=".umtrack.com/"]
+##a[href*=".uu2123sd.vip"]
 ##a[href*=".wzfqitm.com/"]
 ##a[href*=".xacg.info/"]
 ##a[href*=".xwrfr.com/"]
@@ -30292,6 +30293,7 @@ zzzyk.com###Tinfo
 ||sulkycook.com^$third-party
 ||summer5188.com^
 ||summerobject.com^$third-party
+||sump4.cc/js/wcount.js
 ||sums.suning.com^$third-party
 ||sun66387567606.online^
 ||sun66387567606.site^
