@@ -4,8 +4,8 @@
 ! Powerd by Cats-Team
 ! Expires: 1 day (update frequency)
 ! Description: AdRules AdBlock List's Lite Version, And Remove Some Filters
-! ! Version: 2024-06-02 08:03:21(GMT+8) 
-! Total count: 33787
+! ! Version: 2024-06-02 16:00:55(GMT+8) 
+! Total count: 33789
  
 ###ADtip
 ###AdBlockDialog
@@ -1875,6 +1875,7 @@ $third-party,xmlhttprequest,domain=cocolamanhua.com|subhd.tv|subhdtw.com|xyg688.
 .cz/*/area=adblock$script,popup,domain=auto.cz|autorevue.cz|maminka.cz|reflex.cz|blesk.cz|dama.cz|e15.cz|mojezdravi.cz|zeny.cz|zive.cz
 .cz/*/js/a.js|$script,domain=ahaonline.cz|info.cz|onetv.cz
 .cz/*/js/a.js|$script,domain=auto.cz|autorevue.cz|maminka.cz|reflex.cz|blesk.cz|dama.cz|e15.cz|mojezdravi.cz|zeny.cz|zive.cz
+.dajiahao*.top/getCodeDomain/
 .fun/*_*_rony.js
 .fun/ad/
 .gif$third-party,domain=1024pa.com
@@ -21218,7 +21219,6 @@ zzzyk.com###Tinfo
 ||cpro.zol.com.cn^
 ||cpro88.vip^
 ||cpt.9136.com/img/b_special/
-||cpt.9136.com^
 ||cpu.baidu.com^$third-party
 ||cpucdn.baidu.com^
 ||cpwlctfk.xyz^
@@ -21504,6 +21504,8 @@ zzzyk.com###Tinfo
 ||daiwofei2019.top^
 ||daiyanbao.com/flash/md
 ||dajiadu8.com/17.js
+||dajiahao10.top^
+||dajiahao9.top^
 ||dajiazhao.com/login/reg.js
 ||dakawm.cc^
 ||daliantong.com.cn^
