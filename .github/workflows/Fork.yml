@@ -268,15 +268,7 @@ jobs:
         git clone https://github.com/fmz200/wool_scripts.git asf_Tmp
         cp -r asf_Tmp/* Nebula-repo/Resource/wool_scripts
         rm -rf asf_Tmp
-
-      # Fork DivineEngine 分流规则
-    - name: Fork DivineEngine Filter
-      run: |
-        mkdir -p Nebula-repo/Resource/DivineEngine
-        git clone -b master https://github.com/DivineEngine/Profiles.git qsd_Tmp
-        cp -r qsd_Tmp/* Nebula-repo/Resource/DivineEngine
-        rm -rf qsd_Tmp
-
+        
       # Fork zqzess 定时任务&分流规则
     - name: Fork zqzess Task&Filter
       run: |
