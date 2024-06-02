@@ -4,8 +4,8 @@
 ! Powerd by Cats-Team
 ! Expires: 1 day (update frequency)
 ! Description: AdRules AdBlock List's Lite Version, And Remove Some Filters
-! ! Version: 2024-06-01 15:54:32(GMT+8) 
-! Total count: 33777
+! ! Version: 2024-06-02 08:03:21(GMT+8) 
+! Total count: 33787
  
 ###ADtip
 ###AdBlockDialog
@@ -18875,6 +18875,7 @@ zzzyk.com###Tinfo
 ||aeucyo.xyz^
 ||af29.com/banner/
 ||af31f.site^
+||af9dc9.xyz^
 ||afablca.cn^
 ||afafevk.com^
 ||afcav.com^
@@ -21814,6 +21815,7 @@ zzzyk.com###Tinfo
 ||divcss5.com*/liping/
 ||divehope.com^$third-party
 ||divergentoffer.com^$third-party
+||divxrj.xyz^
 ||diyifanwen.com/siteimages/jiqiren
 ||diyijjj.com/data/content
 ||dj09j5u.cn^
@@ -23099,6 +23101,7 @@ zzzyk.com###Tinfo
 ||fzlol.com/images/$script
 ||fznxvf.xyz^
 ||fzpchome.com/txt/$script
+||fzpzrqou.icu^
 ||fztyrv.xyz^
 ||fzxiaoshuo.com/source/
 ||g-years.com/gy/
@@ -23454,6 +23457,7 @@ zzzyk.com###Tinfo
 ||googletagmanager.com^
 ||googletagservices.com/tag/js/gpt.js$script,redirect=googletagservices-gpt,domain=ani.gamer.com.tw
 ||googletagservices.com/tag/js/gpt.js$script,redirect=googletagservices-gpt,domain=gamer.com.tw,important
+||goole20.shop^
 ||goproxy.cc/api.php
 ||gorgeousground.com^$third-party
 ||gorgon.youdao.com^
@@ -26949,6 +26953,7 @@ zzzyk.com###Tinfo
 ||mnnmnn.com^
 ||mnorkc.xyz^
 ||mnpbxjq.cn^
+||mnpkxgfp.xyz^
 ||mnpzrgz.xyz^
 ||mnrrk.com/yuhe/ote/js/pcgg.js
 ||mnvxdkd.xyz^
@@ -27799,6 +27804,7 @@ zzzyk.com###Tinfo
 ||ostjpig.cn^
 ||osusjsga.com^
 ||oswowg.xyz^
+||osyliek.top^
 ||otbeksf.cn^
 ||other.v.duowan.com^
 ||otienlk.top^
@@ -28836,6 +28842,7 @@ zzzyk.com###Tinfo
 ||qyoqeq.xyz^
 ||qyun.vip/pic/*.gif
 ||qyuwkby.top^
+||qywbslk.top^
 ||qyzyd.top^
 ||qzalsk.xyz^
 ||qzda.cc^
@@ -29989,6 +29996,7 @@ zzzyk.com###Tinfo
 ||soutubot.moe/static/airport
 ||sovelswpq.com^
 ||sowlettuce.com^$third-party
+||sowsuwm.icu^
 ||sozi.cn/images/tj/downad
 ||sozi.cn/images/tj/hukead.gif
 ||sozi.cn/images/tj/szdown
@@ -31581,6 +31589,7 @@ zzzyk.com###Tinfo
 ||verseballs.com^$third-party
 ||verstug.cn^
 ||verysadfun.com/assets/publish/jquery.*.js
+||vevhjj.xyz^
 ||vexilorath.com^
 ||vezvpd.xyz^
 ||vfchm.cyou^
@@ -33118,6 +33127,7 @@ zzzyk.com###Tinfo
 ||ysdm*.ys137.com.cn^
 ||yshlor.icu^
 ||ysjkbk.com^
+||yskicm.xyz^
 ||ysm.ezprice.net^$third-party
 ||ysont.cn^
 ||ysqlmpo.cn^

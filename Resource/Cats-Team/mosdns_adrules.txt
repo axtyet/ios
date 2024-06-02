@@ -4621,7 +4621,6 @@ domain:aaseovhxkkggtxj.com
 domain:aasingapore.cn
 domain:aatkit.com
 domain:aawdlvr.com
-domain:aax-us-east-retail-direct.amazon.com
 domain:aaxads.com
 domain:aaxwall.com
 domain:aayeuxotc.com
@@ -9033,6 +9032,7 @@ domain:af.gmobile.biz
 domain:af.shozankan-shop.com
 domain:af07fa0ce8.6662a5efa0.com
 domain:af91c27a8e.com
+domain:af9dc9.xyz
 domain:afafevk.com
 domain:afahivar.com
 domain:afahivar.coom
@@ -12218,6 +12218,7 @@ domain:ap.quadient.com
 domain:ap.saluteeyeseed.com
 domain:ap.shouta.co
 domain:ap.smardroid.com
+domain:ap2h9d2g3.com
 domain:ap3lorf0il.com
 domain:apaboqrqbpa.com
 domain:apac-go.experian.com
@@ -17405,6 +17406,7 @@ domain:bhnhejwj.com
 domain:bhnjwmega.com
 domain:bhnmkauncgr.com
 domain:bhofavwigram.com
+domain:bhohazozps.com
 domain:bhosadwa.com
 domain:bhozjskhzfdkh.com
 domain:bhqfnuq.com
@@ -21413,6 +21415,7 @@ domain:cdn.freejax.com
 domain:cdn.freelac.com
 domain:cdn.funmem.com
 domain:cdn.getsmartcontent.com
+domain:cdn.hadronid.net
 domain:cdn.hanaya-m.com
 domain:cdn.haocaa.com
 domain:cdn.hauleddes.com
@@ -24542,6 +24545,7 @@ domain:combia-tellector.com
 domain:combinationpalmwhiskers.com
 domain:combinedexterior.com
 domain:combineencouragingutmost.com
+domain:combinestronger.com
 domain:combitly.com
 domain:combo-omni.haravan.com
 domain:comboapp.com
@@ -25579,6 +25583,7 @@ domain:coop.vmware.com
 domain:cooperativechuckledhunter.com
 domain:cooperativepassenger.com
 domain:coordinatedcub.com
+domain:coordinatereopen.com
 domain:coordino.com
 domain:coorgazestrk.com
 domain:cooserdozens.top
@@ -32982,6 +32987,7 @@ domain:divisionprogeny.com
 domain:divorcebelievable.com
 domain:divorceseed.com
 domain:divortrelict.top
+domain:divxrj.xyz
 domain:diwuyu.com
 domain:dixhqjgbatpg.com
 domain:diypxh.tillys.com
@@ -35827,6 +35833,7 @@ domain:efvsyhbf.xyz
 domain:efwhcj.emp-shop.se
 domain:efwmpduvgedai.com
 domain:egadfe.xyz
+domain:egalitysarking.com
 domain:egallsylvate.com
 domain:egazedatthe.xyz
 domain:egbesnfzdfg.com
@@ -36808,6 +36815,7 @@ domain:encirclesheriffemit.com
 domain:enclearmooch.com
 domain:enclforlane.com
 domain:enclosedsponge.com
+domain:enclosedswoopbarnacle.com
 domain:encloselavanga.com
 domain:encloseprecious.com
 domain:encodehelped.com
@@ -40811,7 +40819,6 @@ domain:flpfsqgjsarghs.com
 domain:flpnnqe.xyz
 domain:flqwvojijhqqlq.com
 domain:flrdra.com
-domain:fls-na.amazon.com
 domain:flsfzr.cn
 domain:flstudioflp.com
 domain:fltuyy.philippemodel.com
@@ -41095,6 +41102,7 @@ domain:footcomefully.com
 domain:foothoupaufa.com
 domain:footnote.com
 domain:footprintdns.com
+domain:footprintsfurnish.com
 domain:footprintssoda.com
 domain:footprintswarming.com
 domain:footstepnoneappetite.com
@@ -42752,6 +42760,7 @@ domain:fzjchj.com
 domain:fzlnk.com
 domain:fznxvf.xyz
 domain:fzontuovkown.com
+domain:fzpzrqou.icu
 domain:fzqjvw.oakandluna.com
 domain:fzszuvb.com
 domain:fztmn.top
@@ -44344,7 +44353,6 @@ domain:giffgaff-sim.support
 domain:giffgaff-simswap.help
 domain:giffgaff.team
 domain:gift.coupledesires.com
-domain:gift.douyucdn.cn
 domain:gift4free.zone
 domain:giftazon.net
 domain:giftcard4u.us
@@ -46015,6 +46023,7 @@ domain:googlevads-cn.com
 domain:googlevideoads.com
 domain:goohimom.net
 domain:goolaptaugab.com
+domain:goole20.shop
 domain:goolpter.com
 domain:goomaphy.com
 domain:goomia.net
@@ -68492,6 +68501,7 @@ domain:mnodtbmmomqo.com
 domain:mnoglcfv.com
 domain:mnorkc.xyz
 domain:mnpbxjq.cn
+domain:mnpkxgfp.xyz
 domain:mnpzrgz.xyz
 domain:mnrddc.journeys.com
 domain:mnribbbn.xyz
@@ -73712,6 +73722,7 @@ domain:ojj258.com
 domain:ojjbuxohmk.com
 domain:ojjzpitr.com
 domain:ojlkmijwemf.com
+domain:ojlmkywcenhu.com
 domain:ojm4.palladiumhotelgroup.com
 domain:ojmvywz.com
 domain:ojmxro.yatsan.com
@@ -75153,6 +75164,7 @@ domain:osusjsga.com
 domain:osuwzo.oyunfor.com
 domain:osvdtm.theshopyohjiyamamoto.jp
 domain:oswowg.xyz
+domain:osyliek.top
 domain:oszlnxwqlc.com
 domain:oszzxhqhfh.com
 domain:ot.myotomyarkab.com
@@ -77280,6 +77292,7 @@ domain:pci.aon.com
 domain:pciidk.shopee.vn
 domain:pciokm.glamuse.com
 domain:pcirurrkeazm.com
+domain:pcispotzera.com
 domain:pckgatups.bond
 domain:pclick.yahoo.com
 domain:pclk.name
@@ -82818,6 +82831,7 @@ domain:qyuzwd.maskworld.com
 domain:qyvklvjejrmkz.top
 domain:qyvklvjejrmwo.top
 domain:qyvnic.footshop.cz
+domain:qywbslk.top
 domain:qywjvlaoyrzqw.top
 domain:qyzyd.top
 domain:qz.equalsenframe.com
@@ -83341,7 +83355,6 @@ domain:rcgwej.lights.co.uk
 domain:rclog.rcplatformhk.com
 domain:rcm-images.amazon.com
 domain:rcm-it.amazon.it
-domain:rcm.amazon.com
 domain:rcm.shinobi.jp
 domain:rcnithgm.xyz
 domain:rcnldz.xyz
@@ -83681,6 +83694,7 @@ domain:record.guts.com
 domain:record.kuai.xunlei.com
 domain:record.mrwin.com
 domain:record.rizk.com
+domain:recordedthereby.com
 domain:recordercrush.com
 domain:recordervesttasting.com
 domain:recording-music.net
@@ -89649,6 +89663,7 @@ domain:sftrack.searchforce.net
 domain:sfuoasztfxr.com
 domain:sfxjgafgs.com
 domain:sg-go.experian.com
+domain:sg-open-set-api.shenshiads.com
 domain:sg-public-data-api.hoyoverse.com
 domain:sg.carousellmotors.com
 domain:sg.log.ulivetv.net
@@ -90009,6 +90024,7 @@ domain:shelleylalonde.com
 domain:shellez.com
 domain:shellstore.info
 domain:shellypartile.com
+domain:sheltermilligrammillions.com
 domain:shelvesparticipate.com
 domain:shemalesofhentai.com
 domain:shenbabao.com
@@ -95285,6 +95301,7 @@ domain:sovism.com
 domain:sowa.carhartt.com
 domain:sowfairytale.com
 domain:sowp.cloud
+domain:sowsuwm.icu
 domain:soxnwz.lg.com
 domain:soyjlnfatgxpfd.com
 domain:soysapslad.com
@@ -97206,6 +97223,7 @@ domain:static-doubleclick-net.l.google.com
 domain:static-downloads.com
 domain:static-google-analtyic.com
 domain:static-img.threatbook.cn
+domain:static-pixel.gliavideo.com
 domain:static-rtb.adksrv.com
 domain:static-rtb2.adpix.online
 domain:static-rtb2.n-data.io
@@ -97935,6 +97953,7 @@ domain:stats.orbitalhealth.co
 domain:stats.ordinarypuzzles.com
 domain:stats.organizeit.com
 domain:stats.ortussolutions.com
+domain:stats.osd.vn
 domain:stats.osiemsiedem.com
 domain:stats.otsohavanto.net
 domain:stats.oui.sncf
@@ -99342,6 +99361,7 @@ domain:sumids.com
 domain:summary.instaread.co
 domain:summaryjustlybouquet.com
 domain:summaryvalued.com
+domain:summer-notifications.com
 domain:summer.ntua.edu.tw
 domain:summer5188.com
 domain:summerboycottrot.com
@@ -103586,6 +103606,7 @@ domain:toddlecausebeeper.com
 domain:toddlershood.shop
 domain:toddlespecialnegotiate.com
 domain:toddydelayer.com
+domain:todopick.com
 domain:toeapesob.com
 domain:toecircle.com
 domain:toeholdbarrack.life
@@ -111862,6 +111883,7 @@ domain:vetoembrace.com
 domain:vetuststeek.com
 domain:veuuulalu.xyz
 domain:vevatom.com
+domain:vevhjj.xyz
 domain:vevqlgmmkgu.com
 domain:vewbab.entertainmentearth.com
 domain:vexacion.com
@@ -119743,6 +119765,7 @@ domain:yshhfig.com
 domain:yshlor.icu
 domain:ysjkbk.com
 domain:ysjwj.com
+domain:yskicm.xyz
 domain:yskvdo.gebrauchtwagen.at
 domain:ysl3.destinia.ec
 domain:ysnxszyrxdzp.com

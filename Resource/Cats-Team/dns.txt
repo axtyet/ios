@@ -4,8 +4,8 @@
 ! Powerd by Cats-Team
 ! Expires: 1 (update frequency)
 ! Description: The DNS Filters
-! Total count: 121578 
-! Update: 2024-06-01 15:54:33(GMT+8)
+! Total count: 121601 
+! Update: 2024-06-02 08:03:22(GMT+8)
 /^.+stat\.kugou\.com/
 /^admarvel\./
 /^admaster\./
@@ -4715,7 +4715,6 @@
 ||aasingapore.cn^
 ||aatkit.com^
 ||aawdlvr.com^
-||aax-us-east-retail-direct.amazon.com^
 ||aaxads.com^
 ||aaxwall.com^
 ||aayeuxotc.com^
@@ -9165,6 +9164,7 @@
 ||af.shozankan-shop.com^
 ||af07fa0ce8.6662a5efa0.com^
 ||af91c27a8e.com^
+||af9dc9.xyz^
 ||afafevk.com^
 ||afahivar.com^
 ||afahivar.coom^
@@ -12368,6 +12368,7 @@
 ||ap.saluteeyeseed.com^
 ||ap.shouta.co^
 ||ap.smardroid.com^
+||ap2h9d2g3.com^
 ||ap3lorf0il.com^
 ||apaboqrqbpa.com^
 ||apac-go.experian.com^
@@ -17575,6 +17576,7 @@
 ||bhnjwmega.com^
 ||bhnmkauncgr.com^
 ||bhofavwigram.com^
+||bhohazozps.com^
 ||bhosadwa.com^
 ||bhozjskhzfdkh.com^
 ||bhqfnuq.com^
@@ -21591,6 +21593,7 @@
 ||cdn.freelac.com^
 ||cdn.funmem.com^
 ||cdn.getsmartcontent.com^
+||cdn.hadronid.net^
 ||cdn.hanaya-m.com^
 ||cdn.haocaa.com^
 ||cdn.hauleddes.com^
@@ -24730,6 +24733,7 @@
 ||combinationpalmwhiskers.com^
 ||combinedexterior.com^
 ||combineencouragingutmost.com^
+||combinestronger.com^
 ||combitly.com^
 ||combo-omni.haravan.com^
 ||comboapp.com^
@@ -25767,6 +25771,7 @@
 ||cooperativechuckledhunter.com^
 ||cooperativepassenger.com^
 ||coordinatedcub.com^
+||coordinatereopen.com^
 ||coordino.com^
 ||coorgazestrk.com^
 ||cooserdozens.top^
@@ -33182,6 +33187,7 @@
 ||divorcebelievable.com^
 ||divorceseed.com^
 ||divortrelict.top^
+||divxrj.xyz^
 ||diwuyu.com^
 ||dixhqjgbatpg.com^
 ||diypxh.tillys.com^
@@ -36032,6 +36038,7 @@
 ||efwhcj.emp-shop.se^
 ||efwmpduvgedai.com^
 ||egadfe.xyz^
+||egalitysarking.com^
 ||egallsylvate.com^
 ||egazedatthe.xyz^
 ||egbesnfzdfg.com^
@@ -37014,6 +37021,7 @@
 ||enclearmooch.com^
 ||enclforlane.com^
 ||enclosedsponge.com^
+||enclosedswoopbarnacle.com^
 ||encloselavanga.com^
 ||encloseprecious.com^
 ||encodehelped.com^
@@ -41028,7 +41036,6 @@
 ||flqwvojijhqqlq.com^
 ||flrdra.com^
 ||fls-*.amazon.com^
-||fls-na.amazon.com^
 ||flsfzr.cn^
 ||flstudioflp.com^
 ||fltuyy.philippemodel.com^
@@ -41314,6 +41321,7 @@
 ||foothoupaufa.com^
 ||footnote.com^
 ||footprintdns.com^
+||footprintsfurnish.com^
 ||footprintssoda.com^
 ||footprintswarming.com^
 ||footstepnoneappetite.com^
@@ -42973,6 +42981,7 @@
 ||fzlnk.com^
 ||fznxvf.xyz^
 ||fzontuovkown.com^
+||fzpzrqou.icu^
 ||fzqjvw.oakandluna.com^
 ||fzszuvb.com^
 ||fztmn.top^
@@ -44574,7 +44583,6 @@
 ||giffgaff-simswap.help^
 ||giffgaff.team^
 ||gift.coupledesires.com^
-||gift.douyucdn.cn^
 ||gift4free.zone^
 ||giftazon.net^
 ||giftcard4u.us^
@@ -46245,6 +46253,7 @@
 ||googlevideoads.com^
 ||goohimom.net^
 ||goolaptaugab.com^
+||goole20.shop^
 ||goolpter.com^
 ||goomaphy.com^
 ||goomia.net^
@@ -68777,6 +68786,7 @@
 ||mnoglcfv.com^
 ||mnorkc.xyz^
 ||mnpbxjq.cn^
+||mnpkxgfp.xyz^
 ||mnpzrgz.xyz^
 ||mnrddc.journeys.com^
 ||mnribbbn.xyz^
@@ -74006,6 +74016,7 @@
 ||ojjbuxohmk.com^
 ||ojjzpitr.com^
 ||ojlkmijwemf.com^
+||ojlmkywcenhu.com^
 ||ojm4.palladiumhotelgroup.com^
 ||ojmvywz.com^
 ||ojmxro.yatsan.com^
@@ -75448,6 +75459,7 @@
 ||osuwzo.oyunfor.com^
 ||osvdtm.theshopyohjiyamamoto.jp^
 ||oswowg.xyz^
+||osyliek.top^
 ||oszlnxwqlc.com^
 ||oszzxhqhfh.com^
 ||ot.myotomyarkab.com^
@@ -77578,6 +77590,7 @@
 ||pciidk.shopee.vn^
 ||pciokm.glamuse.com^
 ||pcirurrkeazm.com^
+||pcispotzera.com^
 ||pckgatups.bond^
 ||pclick.yahoo.com^
 ||pclk.name^
@@ -83133,6 +83146,7 @@
 ||qyvklvjejrmkz.top^
 ||qyvklvjejrmwo.top^
 ||qyvnic.footshop.cz^
+||qywbslk.top^
 ||qywjvlaoyrzqw.top^
 ||qyzyd.top^
 ||qz.equalsenframe.com^
@@ -83656,7 +83670,6 @@
 ||rclog.rcplatformhk.com^
 ||rcm-images.amazon.com^
 ||rcm-it.amazon.it^
-||rcm.amazon.com^
 ||rcm.shinobi.jp^
 ||rcnithgm.xyz^
 ||rcnldz.xyz^
@@ -83997,6 +84010,7 @@
 ||record.kuai.xunlei.com^
 ||record.mrwin.com^
 ||record.rizk.com^
+||recordedthereby.com^
 ||recordercrush.com^
 ||recordervesttasting.com^
 ||recording-music.net^
@@ -89979,6 +89993,7 @@
 ||sfuoasztfxr.com^
 ||sfxjgafgs.com^
 ||sg-go.experian.com^
+||sg-open-set-api.shenshiads.com^
 ||sg-public-data-api.hoyoverse.com^
 ||sg.carousellmotors.com^
 ||sg.log.ulivetv.net^
@@ -90339,6 +90354,7 @@
 ||shellez.com^
 ||shellstore.info^
 ||shellypartile.com^
+||sheltermilligrammillions.com^
 ||shelvesparticipate.com^
 ||shemalesofhentai.com^
 ||shenbabao.com^
@@ -95616,6 +95632,7 @@
 ||sowa.carhartt.com^
 ||sowfairytale.com^
 ||sowp.cloud^
+||sowsuwm.icu^
 ||soxnwz.lg.com^
 ||soyjlnfatgxpfd.com^
 ||soysapslad.com^
@@ -97542,6 +97559,7 @@
 ||static-downloads.com^
 ||static-google-analtyic.com^
 ||static-img.threatbook.cn^
+||static-pixel.gliavideo.com^
 ||static-rtb.adksrv.com^
 ||static-rtb2.adpix.online^
 ||static-rtb2.n-data.io^
@@ -98274,6 +98292,7 @@
 ||stats.ordinarypuzzles.com^
 ||stats.organizeit.com^
 ||stats.ortussolutions.com^
+||stats.osd.vn^
 ||stats.osiemsiedem.com^
 ||stats.otsohavanto.net^
 ||stats.oui.sncf^
@@ -99682,6 +99701,7 @@
 ||summary.instaread.co^
 ||summaryjustlybouquet.com^
 ||summaryvalued.com^
+||summer-notifications.com^
 ||summer.ntua.edu.tw^
 ||summer5188.com^
 ||summerboycottrot.com^
@@ -103931,6 +103951,7 @@
 ||toddlershood.shop^
 ||toddlespecialnegotiate.com^
 ||toddydelayer.com^
+||todopick.com^
 ||toeapesob.com^
 ||toecircle.com^
 ||toeholdbarrack.life^
@@ -112224,6 +112245,7 @@
 ||vetuststeek.com^
 ||veuuulalu.xyz^
 ||vevatom.com^
+||vevhjj.xyz^
 ||vevqlgmmkgu.com^
 ||vewbab.entertainmentearth.com^
 ||vexacion.com^
@@ -120112,6 +120134,7 @@
 ||yshlor.icu^
 ||ysjkbk.com^
 ||ysjwj.com^
+||yskicm.xyz^
 ||yskvdo.gebrauchtwagen.at^
 ||ysl3.destinia.ec^
 ||ysnxszyrxdzp.com^

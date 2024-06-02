@@ -4,8 +4,8 @@
 ! Powerd by Cats-Team
 ! Expires: 1 day (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2024-06-01 15:54:32(GMT+8) 
-! Total count: 126071
+! ! Version: 2024-06-02 08:03:21(GMT+8) 
+! Total count: 126080
  
 ###ADtip
 ###AdBlockDialog
@@ -53375,6 +53375,7 @@ zzzyk.com###Tinfo
 ||af.shozankan-shop.com^
 ||af29.com/banner/
 ||af31f.site^
+||af9dc9.xyz^
 ||afablca.cn^
 ||afafevk.com^
 ||afcav.com^
@@ -69110,6 +69111,7 @@ zzzyk.com###Tinfo
 ||divehope.com^$third-party
 ||divergentoffer.com^$third-party
 ||divolution.com^$third-party
+||divxrj.xyz^
 ||diyifanwen.com/siteimages/jiqiren
 ||diyijjj.com/data/content
 ||diypxh.tillys.com^
@@ -74146,6 +74148,7 @@ zzzyk.com###Tinfo
 ||fzlol.com/images/$script
 ||fznxvf.xyz^
 ||fzpchome.com/txt/$script
+||fzpzrqou.icu^
 ||fzqjvw.oakandluna.com^
 ||fztyrv.xyz^
 ||fzu4.bysidecar.com^
@@ -76325,6 +76328,7 @@ zzzyk.com###Tinfo
 ||googletagservices.com/tag/js/gpt.js$xmlhttprequest,script,redirect=googletagservices-gpt
 ||googletagservices.com/tag/js/gpt.js$xmlhttprequest,script,redirect=googletagservices-gpt,domain=thedailybeast.com,badfilter
 ||googleusercontent.com/tracker/
+||goole20.shop^
 ||gooo.al^$third-party
 ||goose.accountsjs.com^
 ||goose.markerchase.com^
@@ -91460,6 +91464,7 @@ zzzyk.com###Tinfo
 ||mno.link^$third-party
 ||mnorkc.xyz^
 ||mnpbxjq.cn^
+||mnpkxgfp.xyz^
 ||mnpzrgz.xyz^
 ||mnrddc.journeys.com^
 ||mnrrk.com/yuhe/ote/js/pcgg.js
@@ -93652,7 +93657,6 @@ zzzyk.com###Tinfo
 ||nyt.com/ads/tpc-check.html$domain=nytimes.com
 ||nyt1.biosens-leanature.fr^
 ||nyt5j.cyou^
-||nytimes.com/ads/parakeet.min.js
 ||nytimes.com/v1/purr-cache
 ||nytimes.com^$removeparam=smid
 ||nytjyf.dholic.co.jp^
@@ -94752,6 +94756,7 @@ zzzyk.com###Tinfo
 ||osvdtm.theshopyohjiyamamoto.jp^
 ||oswegocounty.actonservice.com^
 ||oswowg.xyz^
+||osyliek.top^
 ||ot.ebis.ne.jp^
 ||ot.obi-baumarkt.ch^
 ||ot.obi-brico.ch^
@@ -98724,6 +98729,7 @@ zzzyk.com###Tinfo
 ||qyuwkby.top^
 ||qyuzwd.maskworld.com^
 ||qyvnic.footshop.cz^
+||qywbslk.top^
 ||qyzyd.top^
 ||qzalsk.xyz^
 ||qzcxtm.mango.com^
@@ -107763,6 +107769,7 @@ zzzyk.com###Tinfo
 ||sovetnik.net/count
 ||sowa.carhartt.com^
 ||sowlettuce.com^$third-party
+||sowsuwm.icu^
 ||soxnwz.lg.com^
 ||sozcu.com.tr/aip/aip2Analytics.js
 ||sozi.cn/images/tj/downad
@@ -120390,6 +120397,7 @@ zzzyk.com###Tinfo
 ||vesti.ru/counter/
 ||vestrumenttrk.com^
 ||vetsource.actonservice.com^
+||vevhjj.xyz^
 ||vevo.com/event/
 ||vewbab.entertainmentearth.com^
 ||vexilorath.com^
@@ -125028,6 +125036,7 @@ zzzyk.com###Tinfo
 ||ysdm*.ys137.com.cn^
 ||yshlor.icu^
 ||ysjkbk.com^
+||yskicm.xyz^
 ||yskvdo.gebrauchtwagen.at^
 ||ysl3.destinia.ec^
 ||ysm.ezprice.net^$third-party
