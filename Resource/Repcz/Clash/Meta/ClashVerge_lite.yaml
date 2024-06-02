@@ -2,9 +2,9 @@
 # TG:https://t.me/QVQ_Channel
 # 以 '#' 或 '//' 开头的配置文件行为注释行
 #
-# Clash Verg Rev Version ≥ 1.5.6
+# Clash Verg Rev Version ≥ 1.6.2
 #
-# 最后更新时间: 2024-06-02 21:45
+# 最后更新时间: 2024-06-02 21:50
 #
 # ================
 
@@ -102,8 +102,6 @@ proxy-providers:
   Subscribe: {<<: *p, path: ./proxy-providers/Sub.yaml, url: http://your-service-provider}
     # 在此将"http://your-service-provider"替换为你的机场订阅，推荐使用base64或者node list
     # Sub-Store生成的链接,可以直接替换上述url引号中的部分,具体见Sub-Store教程         
-               
-proxies: null
 
 proxy-groups:
 
