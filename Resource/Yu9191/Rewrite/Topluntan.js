@@ -1,7 +1,6 @@
 /*
 Top论坛
-课程全解锁
-仅测试Surge
+
 
 [rewrite_local]
 
@@ -12,55 +11,8 @@ https://super.toppps.com/app-api/v1/toppps/(live/getLiveSpaceDetailsV|products) 
 
 hostname = super.toppps.com
 */
-const response_body = $response.body;
-const url = $request.url;
 
-let body = response_body;
-
-if (url.includes("https://super.toppps.com/app-api/v1/toppps/live/getLiveSpaceDetailsV")) {
-    // 空中课堂定制课程
-    body = body.replace(/"tryRights":\s*false/g, '"tryRights": true')
-               .replace(/"leftTryTime":\s*\d+/g, '"leftTryTime": 9000000')
-               .replace(/"pdfRights":\s*false/g, '"pdfRights": true');
-
-    const pdfUrlMatch = body.match(/"pdfList":\s*\["([^"]+)"/);
-    if (pdfUrlMatch && pdfUrlMatch.length > 1) {
-        const pdfListEncoded = pdfUrlMatch[1];
-        const pdfListDecoded = decodeURIComponent(pdfListEncoded);
-        
-        // 发送通知
-        notifyPDFLink(pdfListDecoded);
-    }
-} else if (url.includes("https://super.toppps.com/app-api/v1/toppps/products")) {
-    // 空中课堂普通课程
-    const pdfUrlMatch = body.match(/"pdfUrl":\s*"([^"]+)"/);
-    if (pdfUrlMatch && pdfUrlMatch.length > 1) {
-        const pdfUrlEncoded = pdfUrlMatch[1];
-        const pdfUrlDecoded = decodeURIComponent(pdfUrlEncoded);
-        
-        // 发送通知
-        notifyPDFLink(pdfUrlDecoded);
-    }
-
-    body = body.replace(/"pdfFree":\s*\d+/g, '"pdfFree": 1')
-               .replace(/"videoFree":\s*\d+/g, '"videoFree": 1')
-               .replace(/"videoDownload":\s*\d+/g, '"videoDownload": 1')
-               .replace(/"audioFree":\s*\d+/g, '"audioFree": 1')
-               .replace(/"videoFileSize":\s*\d+/g, '"videoFileSize": 1');
-}
-
-$done({ body });
-
-function notifyPDFLink(link) {
-    if ('undefined' !== typeof $task) {
-        // 在 Quantumult X 环境下使用 $notify() 函数进行通知
-        $notify("PDF 下载链接", "", link);
-    } else {
-        // 在 Surge 环境下使用 $notification.post() 函数进行通知
-        $notification.post("PDF 下载链接", "", link);
-    }
-}
-
+var iｉl='jsjiami.com.v7';function Iii11l(){const IiiIl1=(function(){return[iｉl,'dQAjEhgstBjFliXOaymi.PGcBCoemb.GwdvkX7Ug==','nJa3oteZnxDNqxbIDa','suPAzMO','nK5vteLvua','Bwf0y2G','Bu1LrfO','mw52t29XyG','iNbKzLjPz2H0CYi6ihrYDwu','mJa2otC1m3zoBevVsG','iNzPzgvVrMLSzvnPEMuIoIaX','BgvUz3rO','mZaXnZiWnfHuDwvSsq','iNzPzgvVrg93BMXVywqIoIaX'].concat((function(){return['iNzPzgvVrNjLzsi6ide','uergios4I+I9VEMtVUAoPq','mte5otbMshfvBK4','nJKWmdC4vK5lr1rj','CMvWBgfJzq','mteZnJr1tgDcBK8','odeXmfnwD0jLrW','Dw5KzwzPBMvK','ogXdu21iDG','Ahr0Chm6lY9ZDxbLCI50B3bWChmUy29Tl2fWCc1HCgKVDJeVDg9WChbZl3bYB2r1y3rZ','iMXLzNruCNLuAw1LiJOGotaWmdaWma','6k6K5yEg5yY75A2M6lcO6zIY5ycs5y2wuerg6i635y+w5OIq5yQF','iMf1zgLVrNjLzsi6ide','nti1mtuWoeT6s3fSEa'].concat((function(){return['mty4mdnvEevREuG','yM9KEq','EeXvCKm','C2nwEum','iNrYEvjPz2H0CYi6ihrYDwu','Cg9ZDa','uK1gDhm','Aw5JBhvKzxm','DxjS','Ahr0Chm6lY9ZDxbLCI50B3bWChmUy29Tl2fWCc1HCgKVDJeVDg9WChbZl2XPDMuVz2v0tgL2zvnWywnLrgv0ywLSC1y','iNbKzKzYzwuIoIaX'];}()));}()));}());Iii11l=function(){return IiiIl1;};return Iii11l();};const II1li1=iii1II;if(function(I1llil,I1llii,lilIll,l1i111,iliII1,II11I1,Iii11I){return I1llil=I1llil>>0x9,II11I1='hs',Iii11I='hs',function(Iil1II,iIIl1I,I1iIli,lI1Ill,lI1Ili){const lIIilI=iii1II;lI1Ill='tfi',II11I1=lI1Ill+II11I1,lI1Ili='up',Iii11I+=lI1Ili,II11I1=I1iIli(II11I1),Iii11I=I1iIli(Iii11I),I1iIli=0x0;const IliilI=Iil1II();while(!![]&&--l1i111+iIIl1I){try{lI1Ill=-parseInt(lIIilI(0x12a))/0x1*(-parseInt(lIIilI(0x10a))/0x2)+-parseInt(lIIilI(0x10f))/0x3+parseInt(lIIilI(0x119))/0x4+parseInt(lIIilI(0x125))/0x5*(parseInt(lIIilI(0x127))/0x6)+parseInt(lIIilI(0x12c))/0x7*(-parseInt(lIIilI(0x114))/0x8)+-parseInt(lIIilI(0x11a))/0x9*(parseInt(lIIilI(0x112))/0xa)+parseInt(lIIilI(0x10e))/0xb*(-parseInt(lIIilI(0x111))/0xc);}catch(i1II1){lI1Ill=I1iIli;}finally{lI1Ili=IliilI[II11I1]();if(I1llil<=l1i111)I1iIli?iliII1?lI1Ill=lI1Ili:iliII1=lI1Ili:I1iIli=lI1Ili;else{if(I1iIli==iliII1['replace'](/[BghEAPQUkXOelydbwtGFC=]/g,'')){if(lI1Ill===iIIl1I){IliilI['un'+II11I1](lI1Ili);break;}IliilI[Iii11I](lI1Ili);}}}}}(lilIll,I1llii,function(iIIl11,l1l1I1,I1iIll,I1lliI,llIllI,I1ilI1,iillll){return l1l1I1='\x73\x70\x6c\x69\x74',iIIl11=arguments[0x0],iIIl11=iIIl11[l1l1I1](''),I1iIll='\x72\x65\x76\x65\x72\x73\x65',iIIl11=iIIl11[I1iIll]('\x76'),I1lliI='\x6a\x6f\x69\x6e',(0x16f6ab,iIIl11[I1lliI](''));});}(0x18200,0xeba72,Iii11l,0xc3),Iii11l){}const response_body=$response[II1li1(0x11b)],url=$request[II1li1(0x122)];function iii1II(_0x477cd8,_0x497da9){const _0x57e807=Iii11l();return iii1II=function(_0x1f1e6f,_0xe99d91){_0x1f1e6f=_0x1f1e6f-0x109;let _0x118b07=_0x57e807[_0x1f1e6f];if(iii1II['iAcVNV']===undefined){var _0x40183a=function(_0x3d95ea){const _0x2cf621='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let _0x4da43c='',_0x784a1e='';for(let _0x245448=0x0,_0x368698,_0x7ddd40,_0x2dd382=0x0;_0x7ddd40=_0x3d95ea['charAt'](_0x2dd382++);~_0x7ddd40&&(_0x368698=_0x245448%0x4?_0x368698*0x40+_0x7ddd40:_0x7ddd40,_0x245448++%0x4)?_0x4da43c+=String['fromCharCode'](0xff&_0x368698>>(-0x2*_0x245448&0x6)):0x0){_0x7ddd40=_0x2cf621['indexOf'](_0x7ddd40);}for(let _0x54426a=0x0,_0x5551b5=_0x4da43c['length'];_0x54426a<_0x5551b5;_0x54426a++){_0x784a1e+='%'+('00'+_0x4da43c['charCodeAt'](_0x54426a)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x784a1e);};iii1II['txwsyV']=_0x40183a,_0x477cd8=arguments,iii1II['iAcVNV']=!![];}const _0x530217=_0x57e807[0x0],_0x37201c=_0x1f1e6f+_0x530217,_0x7b3ad0=_0x477cd8[_0x37201c];return!_0x7b3ad0?(_0x118b07=iii1II['txwsyV'](_0x118b07),_0x477cd8[_0x37201c]=_0x118b07):_0x118b07=_0x7b3ad0,_0x118b07;},iii1II(_0x477cd8,_0x497da9);}let body=response_body;if(url[II1li1(0x121)](II1li1(0x123))){body=body[II1li1(0x110)](/"tryRights":\s*false/g,II1li1(0x11e))[II1li1(0x110)](/"leftTryTime":\s*\d+/g,II1li1(0x116))[II1li1(0x110)](/"pdfRights":\s*false/g,II1li1(0x12b));const pdfUrlMatch=body[II1li1(0x128)](/"pdfList":\s*\["([^"]+)"/);if(pdfUrlMatch&&pdfUrlMatch[II1li1(0x109)]>0x1){const pdfListEncoded=pdfUrlMatch[0x1],pdfListDecoded=decodeURIComponent(pdfListEncoded);notifyPDFLink(pdfListDecoded);}}else{if(url[II1li1(0x121)](II1li1(0x115))){const pdfUrlMatch=body[II1li1(0x128)](/"pdfUrl":\s*"([^"]+)"/);if(pdfUrlMatch&&pdfUrlMatch[II1li1(0x109)]>0x1){const pdfUrlEncoded=pdfUrlMatch[0x1],pdfUrlDecoded=decodeURIComponent(pdfUrlEncoded);notifyPDFLink(pdfUrlDecoded);}body=body[II1li1(0x110)](/"pdfFree":\s*\d+/g,II1li1(0x124))[II1li1(0x110)](/"videoFree":\s*\d+/g,II1li1(0x10c))[II1li1(0x110)](/"videoDownload":\s*\d+/g,II1li1(0x10b))[II1li1(0x110)](/"audioFree":\s*\d+/g,II1li1(0x118))[II1li1(0x110)](/"videoFileSize":\s*\d+/g,II1li1(0x12d));}}$done({'body':body});function notifyPDFLink(li1Ii){const l1lIlI=II1li1,Iliiii={'IJZfj':function(i1illI,i1IIl){return i1illI!==i1IIl;},'mMeDZ':l1lIlI(0x113),'RMFts':function(I1lll1,i1IIi,IIII1I,Iii111){return I1lll1(i1IIi,IIII1I,Iii111);},'xLUrC':l1lIlI(0x10d),'scVyC':l1lIlI(0x117)};Iliiii[l1lIlI(0x126)](Iliiii[l1lIlI(0x129)],typeof $task)?Iliiii[l1lIlI(0x120)]($notify,Iliiii[l1lIlI(0x11c)],'',li1Ii):$notification[l1lIlI(0x11f)](Iliiii[l1lIlI(0x11d)],'',li1Ii);}var version_ = 'jsjiami.com.v7';
 
 
 
