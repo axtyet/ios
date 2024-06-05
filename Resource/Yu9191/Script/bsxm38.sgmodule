@@ -1,0 +1,8 @@
+#!name=bsxm
+#!desc=bsxm
+
+[Script]
+bsxm = type=http-request, pattern=^http:\/\/\d{10}\.vod2\.myqcloud\.com\/[a-zA-Z0-9]+\/[a-zA-Z0-9]+\/video_\d+_\d+\.m3u8, script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/main/m3u8/bsxm.js, timeout=60
+
+[MITM]
+hostname = %APPEND% *.vod2.myqcloud.com
