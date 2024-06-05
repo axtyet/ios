@@ -1,4 +1,4 @@
-# 2024-05-30 12:35
+# 2024-06-05 16:25
 
 # > 0-9
 
@@ -476,6 +476,7 @@ DOMAIN,d19eijqb5qll1w.cloudfront.net
 # > Gitlab
 DOMAIN-SUFFIX,gitlab.com
 DOMAIN-SUFFIX,gitlab.io
+DOMAIN-SUFFIX,gitlab.net
 
 # > Goodnotes
 DOMAIN-SUFFIX,goodnotescloud.com
