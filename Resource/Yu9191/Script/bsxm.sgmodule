@@ -1,0 +1,8 @@
+#!name=bsxm
+#!desc=bsxm
+
+[Script]
+bsxm = type=http-response, pattern=http://yyy.bosum.com/enterprise/A00294/yqy-course/phone/courseLine/line/getCourseDetailsInfo, script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/main/bsxm.js, requires-body=true, max-size=-1, timeout=60
+
+[MITM]
+hostname = %APPEND% yyy.bosum.com
