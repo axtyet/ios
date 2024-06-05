@@ -4,7 +4,7 @@
 #
 # Stash Version ≥ 2.6.0 
 #
-# 最后更新时间: 2024-06-03 07:44
+# 最后更新时间: 2024-06-05 08:30
 #
 # ================
 
@@ -140,6 +140,7 @@ rules:
   - RULE-SET,PrimeVideo,国际媒体
   - RULE-SET,HBO,国际媒体
   - RULE-SET,TikTok,国际媒体
+  - RULE-SET,Spotify,Spotify
   - RULE-SET,ProxyGFW,国外网站
   - RULE-SET,AppleProxy,国外网站
   - RULE-SET,Apple,DIRECT

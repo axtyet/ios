@@ -4,7 +4,7 @@
 #
 # Clash Verg Rev Version ≥ 1.6.2
 #
-# 最后更新时间: 2024-06-02 21:50
+# 最后更新时间: 2024-06-05 08:20
 #
 # ================
 
@@ -71,7 +71,7 @@ dns:
   # 模式：redir-host或fake-ip
   enhanced-mode: fake-ip
   # DNS监听地址
-  listen: 0.0.0.0:1053
+  listen: :1053
   # Fake-IP解析地址池
   fake-ip-range: 198.18.0.1/16
   # fakeip 过滤，以下地址不会下发 fakeip 映射用于连接
@@ -84,7 +84,7 @@ pg: &pg {type: select, proxies: [手动切换, 香港节点, 美国节点, 狮�
 # 订阅更新和延迟测试相关参数
 p: &p {type: http, interval: 86400, health-check: {enable: true, url: http://latency-test.skk.moe/endpoint, interval: 1800}}
 # 自动选择策略组：选取延迟最低节点
-auto: &auto {type: url-test, lazy: true, url: http://latency-test.skk.moe/endpoint, interval: 300, tolerance: 0, include-all: true}
+url-test: &url-test {type: url-test, lazy: true, url: http://latency-test.skk.moe/endpoint, interval: 300, tolerance: 0, include-all: true}
 # 手动选择策略组：手动选择想要的节点/策略组
 select: &select {type: select, include-all: true}
 # 故障回退策略组：策略组将按顺序选择你列表中第一个可用的节点
@@ -92,11 +92,11 @@ fallback: &fallback {type: fallback, lazy: true, url: http://latency-test.skk.mo
 # 负载均衡策略组：不同的请求将使用不同的代理节点
 load-balance: &load-balance {type: load-balance, lazy: true, strategy: consistent-hashing, url: http://latency-test.skk.moe/endpoint, interval: 300, include-all: true}
 # classical规则相关
-c: &c {type: http, behavior: classical, interval: 86400}
+c: &c {type: http, behavior: classical, format: text, interval: 86400}
 # domain规则相关
-d: &d {type: http, behavior: domain, interval: 86400}
+d: &d {type: http, behavior: domain, format: text, interval: 86400}
 # ipcidr规则相关
-i: &i {type: http, behavior: ipcidr, interval: 86400}
+i: &i {type: http, behavior: ipcidr, format: text, interval: 86400}
 
 proxy-providers:
   Subscribe: {<<: *p, path: ./proxy-providers/Sub.yaml, url: http://your-service-provider}
@@ -126,8 +126,6 @@ proxy-groups:
   - {name: AI, <<: *pg, icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/AI.png}
 
   - {name: 游戏平台, <<: *pg, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Game.png}
-
-  - {name: 哔哩哔哩, type: select, proxies: [DIRECT, 香港节点, 台湾节点], icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/bilibili.png}
 
   - {name: 广告拦截, type: select, proxies: [REJECT, DIRECT], icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Advertising.png}
 
@@ -162,7 +160,6 @@ rules:
   - GEOSITE,microsoft,微软服务
   - GEOSITE,youtube,谷歌服务
   - GEOSITE,google,谷歌服务
-  - GEOSITE,bilibili,哔哩哔哩
   - GEOSITE,private,DIRECT
   - GEOSITE,cn,DIRECT
   - GEOSITE,geolocation-!cn,国外网站
@@ -172,7 +169,6 @@ rules:
   - GEOIP,twitter,推特消息
   - GEOIP,apple,苹果服务
   - GEOIP,google,谷歌服务
-  - GEOIP,bilibili,哔哩哔哩
   - GEOIP,private,DIRECT
   - GEOIP,lan,DIRECT
   - GEOIP,CN,DIRECT

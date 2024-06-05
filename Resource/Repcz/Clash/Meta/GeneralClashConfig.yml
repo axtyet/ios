@@ -2,9 +2,9 @@
 # TG:https://t.me/QVQ_Channel
 # 以 '#' 或 '//' 开头的配置文件行为注释行
 #
-# Clash Verg Rev Version ≥ 1.5.6
+# Clash Verg Rev Version ≥ 1.6.2
 #
-# 最后更新时间: 2024-04-17 21:05
+# 最后更新时间: 2024-06-05 08:20
 #
 # ================
 
@@ -18,7 +18,7 @@ allow-lan: true
 ipv6: false
 # 规则模式：rule/global/direct/script
 mode: rule
-# 设置日志输出级别 (silent/error/warning/info/debug）
+# 设置日志输出级别: silent/error/warning/info/debug
 log-level: info
 # 全局 TLS 指纹
 global-client-fingerprint: chrome
@@ -26,7 +26,11 @@ global-client-fingerprint: chrome
 find-process-mode: strict
 
 # 使用geoip.dat数据库
-geodata-mode: false
+geodata-mode: true
+geox-url:
+  geoip: "https://mirror.ghproxy.com/https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geoip-lite.dat"
+  geosite: "https://mirror.ghproxy.com/https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geosite.dat"
+  mmdb: "https://mirror.ghproxy.com/https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/country-lite.mmdb"
                          
 profile:
   # 存储 select 选择记录
@@ -67,7 +71,7 @@ dns:
   # 模式：redir-host或fake-ip
   enhanced-mode: fake-ip
   # DNS监听地址
-  listen: 0.0.0.0:1053
+  listen: :1053
   # Fake-IP解析地址池
   fake-ip-range: 198.18.0.1/16
   # fakeip 过滤，以下地址不会下发 fakeip 映射用于连接

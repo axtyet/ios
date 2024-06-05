@@ -4,7 +4,7 @@
 #
 # Clash Verg Rev Version ≥ 1.6.2
 #
-# 最后更新时间: 2024-06-02 21:50
+# 最后更新时间: 2024-06-05 08:20
 #
 # ================
 
@@ -71,7 +71,7 @@ dns:
   # 模式：redir-host或fake-ip
   enhanced-mode: fake-ip
   # DNS监听地址
-  listen: 0.0.0.0:1053
+  listen: :1053
   # Fake-IP解析地址池
   fake-ip-range: 198.18.0.1/16
   # fakeip 过滤，以下地址不会下发 fakeip 映射用于连接
@@ -84,7 +84,7 @@ pg: &pg {type: select, proxies: [手动切换, 香港节点, 美国节点, 狮�
 # 订阅更新和延迟测试相关参数
 p: &p {type: http, interval: 86400, health-check: {enable: true, url: http://latency-test.skk.moe/endpoint, interval: 1800}}
 # 自动选择策略组：选取延迟最低节点
-auto: &auto {type: url-test, lazy: true, url: http://latency-test.skk.moe/endpoint, interval: 300, tolerance: 0, include-all: true}
+url-test: &url-test {type: url-test, lazy: true, url: http://latency-test.skk.moe/endpoint, interval: 300, tolerance: 0, include-all: true}
 # 手动选择策略组：手动选择想要的节点/策略组
 select: &select {type: select, include-all: true}
 # 故障回退策略组：策略组将按顺序选择你列表中第一个可用的节点
@@ -92,16 +92,16 @@ fallback: &fallback {type: fallback, lazy: true, url: http://latency-test.skk.mo
 # 负载均衡策略组：不同的请求将使用不同的代理节点
 load-balance: &load-balance {type: load-balance, lazy: true, strategy: consistent-hashing, url: http://latency-test.skk.moe/endpoint, interval: 300, include-all: true}
 # classical规则相关
-c: &c {type: http, behavior: classical, interval: 86400}
+c: &c {type: http, behavior: classical, format: text, interval: 86400}
 # domain规则相关
-d: &d {type: http, behavior: domain, interval: 86400}
+d: &d {type: http, behavior: domain, format: text, interval: 86400}
 # ipcidr规则相关
-i: &i {type: http, behavior: ipcidr, interval: 86400}
+i: &i {type: http, behavior: ipcidr, format: text, interval: 86400}
 
 proxy-providers:
   Subscribe: {<<: *p, path: ./proxy-providers/Sub.yaml, url: http://your-service-provider}
-    # 在此将"http://your-service-provider"替换为你的机场订阅，推荐使用base64或者node list
-    # Sub-Store生成的链接,可以直接替换上述url引号中的部分,具体见Sub-Store教程         
+    # 在此将"http://your-service-provider"替换为你的机场订阅，推荐使用 base64 或者 node list
+    # Sub-Store生成的链接,可以直接替换上述 url 引号中的部分,具体见 Sub-Store 教程         
                
 proxy-groups:
 
@@ -129,76 +129,71 @@ proxy-groups:
 
   - {name: Emby, <<: *pg, include-all: true, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Emby.png}
 
-  - {name: 哔哩哔哩, type: select, proxies: [DIRECT, 香港节点, 台湾节点], icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/bilibili.png}
-
   - {name: 广告拦截, type: select, proxies: [REJECT, DIRECT], icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Advertising.png}
 
   - {name: 兜底分流, <<: *pg, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color//Final.png}
 
   #节点地区分组
 
-  - {name: 香港节点, <<: *auto, filter: "(?i)🇭🇰|香港|(\b(HK|Hong)\b)", icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Hong_Kong.png}
+  - {name: 香港节点, <<: *url-test, filter: "(?i)🇭🇰|香港|(\b(HK|Hong)\b)", icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Hong_Kong.png}
 
-  - {name: 美国节点, <<: *auto, filter: "(?i)🇺🇸|美国|洛杉矶|圣何塞|(\b(US|United States)\b)", icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/United_States.png}
+  - {name: 美国节点, <<: *url-test, filter: "(?i)🇺🇸|美国|洛杉矶|圣何塞|(\b(US|United States)\b)", icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/United_States.png}
 
-  - {name: 狮城节点, <<: *auto, filter: "(?i)🇸🇬|新加坡|狮|(\b(SG|Singapore)\b)", icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Singapore.png}
+  - {name: 狮城节点, <<: *url-test, filter: "(?i)🇸🇬|新加坡|狮|(\b(SG|Singapore)\b)", icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Singapore.png}
 
-  - {name: 日本节点, <<: *auto, filter: "(?i)🇯🇵|日本|东京|(\b(JP|Japan)\b)", icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Japan.png}
+  - {name: 日本节点, <<: *url-test, filter: "(?i)🇯🇵|日本|东京|(\b(JP|Japan)\b)", icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Japan.png}
 
-  - {name: 台湾节点, <<: *auto, filter: "(?i)🇨🇳|🇹🇼|台湾|(\b(TW|Tai|Taiwan)\b)", icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/China.png}
+  - {name: 台湾节点, <<: *url-test, filter: "(?i)🇨🇳|🇹🇼|台湾|(\b(TW|Tai|Taiwan)\b)", icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/China.png}
 
-  - {name: 欧洲节点, <<: *auto, filter: "🇬🇧|🇫🇷|🇳🇱|🇮🇸|🇩🇪|🇺🇦|🇨🇭|🇪🇺", icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/European_Union.png}
+  - {name: 欧洲节点, <<: *url-test, filter: "🇬🇧|🇫🇷|🇳🇱|🇮🇸|🇩🇪|🇺🇦|🇨🇭|🇪🇺", icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/European_Union.png}
 
 rule-providers:
 
   # 局域网   
-  Lan: {<<: *c, format: text, path: ./rule-providers/Lan.list,  url: https://github.com/Repcz/Tool/raw/X/Clash/Rules/Lan.list}
+  Lan: {<<: *c, path: ./rule-providers/Lan.list,  url: https://github.com/Repcz/Tool/raw/X/Clash/Rules/Lan.list}
 
   # 下载服务
-  Download: {<<: *c, format: text, path: ./rule-providers/Download.list,  url: https://github.com/Repcz/Tool/raw/X/Clash/Rules/Download.list}
+  Download: {<<: *c, path: ./rule-providers/Download.list,  url: https://github.com/Repcz/Tool/raw/X/Clash/Rules/Download.list}
       
   #广告拦截
-  AD: {<<: *d, format: text, path: ./rule-providers/AD.list, url: https://github.com/Repcz/Tool/raw/X/Clash/Rules/Reject.list}
+  AD: {<<: *c, path: ./rule-providers/AD.list, url: https://github.com/Repcz/Tool/raw/X/Clash/Rules/Reject.list}
 
   # 苹果服务
-  Apple: {<<: *c, format: text, path: ./rule-providers/Apple.list,  url: https://github.com/Repcz/Tool/raw/X/Clash/Rules/Apple.list}
+  Apple: {<<: *c, path: ./rule-providers/Apple.list,  url: https://github.com/Repcz/Tool/raw/X/Clash/Rules/Apple.list}
 
   # 微软服务 
-  OneDrive: {<<: *c, format: text, path: ./rule-providers/OneDrive.list,  url: https://github.com/Repcz/Tool/raw/X/Clash/Rules/OneDrive.list}
-  Github: {<<: *c, format: text, path: ./rule-providers/Github.list,  url: https://github.com/Repcz/Tool/raw/X/Clash/Rules/Github.list}
-  Microsoft: {<<: *c, format: text, path: ./rule-providers/Microsoft.list,  url: https://github.com/Repcz/Tool/raw/X/Clash/Rules/Microsoft.list}
+  OneDrive: {<<: *c, path: ./rule-providers/OneDrive.list,  url: https://github.com/Repcz/Tool/raw/X/Clash/Rules/OneDrive.list}
+  Github: {<<: *c, path: ./rule-providers/Github.list,  url: https://github.com/Repcz/Tool/raw/X/Clash/Rules/Github.list}
+  Microsoft: {<<: *c, path: ./rule-providers/Microsoft.list,  url: https://github.com/Repcz/Tool/raw/X/Clash/Rules/Microsoft.list}
 
   # 谷歌服务
-  YouTube: {<<: *c, format: text, path: ./rule-providers/YouTube.list,  url: https://github.com/Repcz/Tool/raw/X/Clash/Rules/YouTube.list}
-  Google: {<<: *c, format: text, path: ./rule-providers/Google.list,  url: https://github.com/Repcz/Tool/raw/X/Clash/Rules/Google.list}
+  YouTube: {<<: *c, path: ./rule-providers/YouTube.list,  url: https://github.com/Repcz/Tool/raw/X/Clash/Rules/YouTube.list}
+  Google: {<<: *c, path: ./rule-providers/Google.list,  url: https://github.com/Repcz/Tool/raw/X/Clash/Rules/Google.list}
 
   # 电报消息
-  Telegram: {<<: *c, format: text, path: ./rule-providers/Telegram.list,  url: https://github.com/Repcz/Tool/raw/X/Clash/Rules/Telegram.list}
+  Telegram: {<<: *c, path: ./rule-providers/Telegram.list,  url: https://github.com/Repcz/Tool/raw/X/Clash/Rules/Telegram.list}
 
   # 推特消息
-  Twitter: {<<: *c, format: text, path: ./rule-providers/Twitter.list,  url: https://github.com/Repcz/Tool/raw/X/Clash/Rules/Twitter.list}
-
-  # 哔哩哔哩
-  BiliBili: {<<: *c, format: text, path: ./rule-providers/BiliBili.list,  url: https://github.com/Repcz/Tool/raw/X/Clash/Rules/Bilibili.list}
+  Twitter: {<<: *c, path: ./rule-providers/Twitter.list,  url: https://github.com/Repcz/Tool/raw/X/Clash/Rules/Twitter.list}
 
   # 游戏平台
-  Steam: {<<: *c, format: text, path: ./rule-providers/steam.list,  url: https://github.com/Repcz/Tool/raw/X/Clash/Rules/Steam.list}
-  Epic: {<<: *c, format: text, path: ./rule-providers/Epic.list,  url: https://github.com/Repcz/Tool/raw/X/Clash/Rules/Epic.list}
+  Steam: {<<: *c, path: ./rule-providers/steam.list,  url: https://github.com/Repcz/Tool/raw/X/Clash/Rules/Steam.list}
+  Epic: {<<: *c, path: ./rule-providers/Epic.list,  url: https://github.com/Repcz/Tool/raw/X/Clash/Rules/Epic.list}
 
   # AI平台
-  AI: {<<: *c, format: text, path: ./rule-providers/AI.list,  url: https://github.com/Repcz/Tool/raw/X/Clash/Rules/AI.list}
+  AI: {<<: *c, path: ./rule-providers/AI.list,  url: https://github.com/Repcz/Tool/raw/X/Clash/Rules/AI.list}
 
   # 中国大陆
-  ChinaDomain: {<<: *c, format: text, path: ./rule-providers/ChinaDomain.list,  url: https://github.com/Repcz/Tool/raw/X/Clash/Rules/ChinaDomain.list}
+  ChinaDomain: {<<: *c, path: ./rule-providers/ChinaDomain.list,  url: https://github.com/Repcz/Tool/raw/X/Clash/Rules/ChinaDomain.list}
 
   # Emby
-  Emby: {<<: *c, format: text, path: ./rule-providers/Emby.list,  url: https://github.com/Repcz/Tool/raw/X/Clash/Rules/Emby.list}
+  Emby: {<<: *c, path: ./rule-providers/Emby.list,  url: https://github.com/Repcz/Tool/raw/X/Clash/Rules/Emby.list}
 
   # 国际媒体
-  ProxyMedia: {<<: *c, format: text, path: ./rule-providers/ProxyMedia.list,  url: https://github.com/Repcz/Tool/raw/X/Clash/Rules/ProxyMedia.list}
+  ProxyMedia: {<<: *c, path: ./rule-providers/ProxyMedia.list,  url: https://github.com/Repcz/Tool/raw/X/Clash/Rules/ProxyMedia.list}
 
   # 代理网站
-  ProxyGFW: {<<: *c, format: text, path: ./rule-providers/ProxyGFW.list,  url: https://github.com/Repcz/Tool/raw/X/Clash/Rules/ProxyGFW.list}
+  ProxyGFW: {<<: *c, path: ./rule-providers/ProxyGFW.list,  url: https://github.com/Repcz/Tool/raw/X/Clash/Rules/ProxyGFW.list}
  
 rules:
   #- SCRIPT,quic,REJECT
@@ -213,7 +208,6 @@ rules:
   - RULE-SET,Google,谷歌服务
   - RULE-SET,Telegram,电报消息
   - RULE-SET,Twitter,推特消息
-  - RULE-SET,BiliBili,哔哩哔哩
   - RULE-SET,Steam,游戏平台
   - RULE-SET,Epic,游戏平台
   - RULE-SET,Emby,Emby

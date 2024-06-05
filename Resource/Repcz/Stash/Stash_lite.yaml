@@ -4,7 +4,7 @@
 #
 # Stash Version ≥ 2.6.0 
 #
-# 最后更新时间: 2024-06-03 07:44
+# 最后更新时间: 2024-06-05 08:31
 #
 # ================
 
@@ -89,6 +89,7 @@ rules:
   - GEOSITE,youtube,谷歌服务
   - GEOSITE,google,谷歌服务
   - GEOIP,google,谷歌服务,no-resolve
+  - GEOSITE,Spotify,Spotify
   - GEOSITE,geolocation-!cn,国外网站
   - GEOSITE,private,DIRECT
   - GEOIP,private,DIRECT,no-resolve
