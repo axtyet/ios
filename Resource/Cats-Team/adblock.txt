@@ -4,8 +4,8 @@
 ! Powerd by Cats-Team
 ! Expires: 1 day (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2024-06-06 08:03:43(GMT+8) 
-! Total count: 124393
+! ! Version: 2024-06-06 12:19:02(GMT+8) 
+! Total count: 124396
  
 ###ADtip
 ###AdBlockDialog
@@ -80766,6 +80766,7 @@ zzzyk.com###Tinfo
 ||jszwxm.hometogo.nl^
 ||jtbaoo.belvini.de^
 ||jtbunh.xyz^
+||jtezxmpb.xyz^
 ||jtienla.top^
 ||jtjh.tw^
 ||jtosgk.123pneus.fr^
@@ -91742,6 +91743,7 @@ zzzyk.com###Tinfo
 ||nlvgxr.xyz^
 ||nlvnht.miror.jp^
 ||nlvwdlnhfnnw.com^
+||nlxgjwye.icu^
 ||nlyuuy.cn^
 ||nmdotj.xyz^
 ||nmetrics.samsung.com^
@@ -97003,6 +97005,7 @@ zzzyk.com###Tinfo
 ||qrjxween.com^
 ||qrkhwe.xyz^
 ||qrmccr.vernal.co.jp^
+||qrmozsc.icu^
 ||qrovwu.xyz^
 ||qrrhvh.propertyfinder.ae^
 ||qrtqsy.freshlycosmetics.com^
