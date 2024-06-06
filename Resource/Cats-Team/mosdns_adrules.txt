@@ -13808,6 +13808,7 @@ domain:ardruddigonan.com
 domain:ardsklangr.com
 domain:ardslediana.com
 domain:ardspalkiator.com
+domain:arduino.uk.eu.org
 domain:ardunorwest.life
 domain:arduousyeast.com
 domain:ardykffwpfx.xyz
@@ -17664,6 +17665,7 @@ domain:bitsoft360.io
 domain:bitsoft360.net
 domain:bitsoin.fr
 domain:bitsspiral.com
+domain:bitstenali.com
 domain:bittenlacygreater.com
 domain:bitterborder.pro
 domain:bitterdefeatmid.com
@@ -39072,7 +39074,6 @@ domain:faze3.com
 domain:faze35.com
 domain:faze4.com
 domain:faze40.com
-domain:faze44.com
 domain:faze47.com
 domain:faze5.com
 domain:faze60.com
@@ -40136,6 +40137,7 @@ domain:firehacks.eu
 domain:firehacks.net
 domain:firelnk.com
 domain:fireplaceroundabout.com
+domain:firersale.com
 domain:firesinfamous.com
 domain:fireskin.website
 domain:fireskins.net
@@ -41499,7 +41501,6 @@ domain:freedldz.com
 domain:freedom-5g.com
 domain:freedom-ca-5g.com
 domain:freedom-deposit.ca
-domain:freedomgift50.com
 domain:freedominfo.net
 domain:freedomofsoftware.com
 domain:freedomsaved.com
@@ -58307,6 +58308,7 @@ domain:lectureolympics.com
 domain:lecythleche.website
 domain:ledaoutrush.com
 domain:ledaren.cn
+domain:ledger-liveweb3app.com
 domain:ledger-wallet.us
 domain:ledger-web-wallet.com
 domain:ledger-web-wallet.net
@@ -62256,6 +62258,7 @@ domain:madebabysittingimperturbable.com
 domain:madeevacuatecrane.com
 domain:madehimalowbo.info
 domain:madehugeai.live
+domain:madeinusas.com
 domain:madeinvasionneedy.com
 domain:madeleinekrook.nl
 domain:mademadelavish.com
@@ -70186,7 +70189,6 @@ domain:navi45.ru
 domain:navi47.com
 domain:navi5.com
 domain:navi50.com
-domain:navi51.ru
 domain:navi53.com
 domain:navi56.com
 domain:navi58.com
@@ -70196,7 +70198,6 @@ domain:navi66.com
 domain:navi66.ru
 domain:navi67.com
 domain:navi67.ru
-domain:navi69.com
 domain:navi7.com
 domain:navi71.com
 domain:navi72.com
@@ -70217,6 +70218,7 @@ domain:navi9.com
 domain:navi90.com
 domain:navi94.com
 domain:navi96.com
+domain:navi97.com
 domain:navi98.com
 domain:navi99.com
 domain:naviblue-team.com
@@ -71265,7 +71267,7 @@ domain:nip24.com
 domain:nip26.com
 domain:nip28.com
 domain:nip3.com
-domain:nip35.com
+domain:nip30.com
 domain:nip4.com
 domain:nip44.com
 domain:nip5.com
@@ -87185,7 +87187,6 @@ domain:sbdhdq.zeeman.com
 domain:sbdvjsbjslkv.com
 domain:sbeaje.com
 domain:sbecashqjk.com
-domain:sberbank.avito.avito.sber.asdfasdf.id05196219.com
 domain:sbfrnq.naturalforme.fr
 domain:sbfsdvc.com
 domain:sbgsodufuosmmvsdf.info
@@ -107039,7 +107040,6 @@ domain:trendedsegged.com
 domain:trending-video.com
 domain:trendingnewstv.com
 domain:trendingpatrol.com
-domain:trendingtee.org
 domain:trendingviralvids.info
 domain:trendmd.com
 domain:trendmouthsable.com

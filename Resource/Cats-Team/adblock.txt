@@ -4,8 +4,8 @@
 ! Powerd by Cats-Team
 ! Expires: 1 day (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2024-06-06 12:19:02(GMT+8) 
-! Total count: 124396
+! ! Version: 2024-06-06 17:38:22(GMT+8) 
+! Total count: 124393
  
 ###ADtip
 ###AdBlockDialog
@@ -1160,7 +1160,6 @@
 ##SPAN.closebox1,SPAN.closebox2,SPAN.closebox3,SPAN.closebox4
 ##SPAN[style$='font-size: 6vw; color:#fff; text-align: center; transform: rotate(-90deg);']
 ##SPAN[style^="position: fixed; bottom: 30vh; z-index: 2147483647; right: 0px; margin-right: 6vw; padding: 0px; text-decoration: none; background-color: red; width: 7vw; height: 7vw; border-radius: 7vw; font-size: 6vw; color:"]
-##UL.myui-extra.clearfix
 ##UL[style='margin: 0px; padding: 0px; font-size: 0px; display: flex;']
 ##VIDEO[loop='true'][muted='true'][autoplay='true'][playsinline='true'][preload='auto']
 ##[ad_dot_url]
@@ -1499,7 +1498,6 @@
 ##body > div#bottommob.bottommob
 ##body > div[style="display:none;"] + div[style="display:none;"] + div[id][class][style^="background-color:"]
 ##body > div[style="width: 100% !important; margin: 0px !important; padding: 0px !important; display: flex !important; flex-flow: row wrap !important; background: rgb(255, 255, 255) !important; color: transparent !important; font-size: 0px !important; text-indent: -10000px !important; line-height: 0px !important;"]
-##body > h1 > strong > title > a
 ##body#nr_body a[href*="/?utm_source="]
 ##body#nr_body div.fixed ~ *
 ##body#nr_body font > [id]
@@ -1583,7 +1581,6 @@
 ##div.stui-player.col-pd DIV[style='text-align:center']
 ##div.swiper-slide > A[rel='nofollow noopenner']
 ##div.synopsisArea > a[id*='hudie_']
-##div.video-box > div.hf > a
 ##div:not(#video)[style^="width: 100%;"][style$="display: block;"] iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
 ##div[align="center"] > a[href^="/url/"] > img[src*=".alicdn.com"]
 ##div[align="center"] > a[href^="/url/"] > img[src*=".qpic.cn"]
@@ -1685,7 +1682,6 @@
 ##td[id^="td_"] > a[href^="/htmm/"]
 ##ul > li > A[href$='_list.html']
 ##ul#page-list.layui-clear.page-wz > ul > li:not([class])
-##ul.content-list > li.content-tb
 ##ul.thread_detail_ads
 ##vg-pause-ads
 ##vg-pause-d
@@ -13547,7 +13543,6 @@ animespirit.*###CollapsiblePanel_Statistics
 animetaro.com#$#abort-on-property-read window.open
 animeunity.cc#$#abort-on-property-read zfgstorage; abort-current-inline-script document.documentElement break;case; abort-on-property-read decodeURI;
 animeunity.tv#$#abort-on-property-read localStorage
-animevietsub.art,phimtuoitho.tv#$#abort-current-inline-script document.documentElement break;case
 animewld.club##.header-img
 animeyt.tv##.ed-item > ul#filtro-letra-nuevo+div.bloque.bloque__descargas-centro.ed-container
 animezone.pl#@#.myTestAd
@@ -16199,7 +16194,7 @@ dstar.pzk.pl#@#.adsbox
 dstar.pzk.pl#@#.adsbygoogle
 dtarihi.com#$#simulate-mouse-event 'xpath(.//div[@class][contains(@style,"display: block;")][@id]//following-sibling::div[@class]/div[contains(@class," ")][1])$delay=0'
 dtf.ru,vc.ru##.layout__right-column > div[class*=" "][style] > div[class*=" "] > div:only-child
-dualeotruyenj.com,m.blogtruyenmoi.com#$#abort-current-inline-script document.addEventListener popunder
+dualeotruyenbot.com,m.blogtruyenmoi.com#$#abort-current-inline-script document.addEventListener popunder
 duangks.com###a_d_sidebar
 duanwenxue.com##.qgzdwx
 duanwenxue.com##.shuang11_gg
@@ -35677,7 +35672,7 @@ ifooday.cn##.myzs
 ifsp.tv##.video-page-right
 ifxtx.com##.ppsy_content758
 igg-games.com,pcgamestorrents.com,pcgamestorrents.org#$#abort-on-property-write advanced_ads_ready; prevent-listener DOMContentLoaded; prevent-listener iframe; abort-current-inline-script addEventListener document.createElement; abort-on-property-read window.open; abort-current-inline-script document.documentElement break;case $.
-igg-games.com,pcgamestorrents.com,pcgamestorrents.org#$#hide-if-matches-xpath './/div/a[@href]/img[@loading="lazy"][@width="663" or @width="301"]/ancestor-or-self::div[1]'
+igg-games.com,pcgamestorrents.com,pcgamestorrents.org#$#hide-if-matches-xpath './/div/a[@href]/img[@loading="lazy"][@width="662" or @width="302" or @width="663" or @width="301"]/ancestor-or-self::div[1]'
 ign.com#$#abort-current-inline-script clearTimeout load
 ignboards.com#$#abort-current-inline-script JSON.stringify
 igo.cn###NewigoBox
@@ -38479,9 +38474,9 @@ live.bilibili.com##.container-wrapper[style="height:446px;min-width:1280px"]
 live.bilibili.com##div.pointer:contains(下载客户端)
 live.gtcaster.com###bbb
 live.gtcaster.com##[id^="adc"]
+live.thapcam6.net#$#simulate-mouse-event '#modalasd$continue,delay=300'
 live.townsquaremedia.info$image
 live.win007.com###notify > a[target="_blank"]
-live13.thapcam5.net#$#simulate-mouse-event '#modalasd$continue,delay=300'
 liveball.cc,liveball.uno#$#abort-on-property-read ABNS
 livedoor.biz,ldblog.jp#?#.plugin-memo > div.side > a[href$="ziyu.net/"]:upward(2)
 liveforums.ru#$#abort-on-property-read tnAdditionalParams
@@ -39321,6 +39316,7 @@ maxthon.cn##.feast-gift-search
 maxthon.cn##.tmall-nav-v2
 maxthon.cn##.top-right-pop-wrapper
 mayi.com###floatingLayer
+mb.heohay.com,vuasex.club,phimsexviet.io,phimsexvietnam.app,clipsex.xxx,gm.phimsexnhanh.tv,clipsex.cam,mobile.ditnhau.cc,phim.sexhayvl.org,xx.clipsexhot.net#$#override-property-read video.adVast ''
 mbd.baidu.com###content_wrapper + div + .default-container
 mbd.baidu.com##.related-news > section:first-child + div
 mbd.baidu.com##div[class^="_"][style="visibility: visible;"]
@@ -40751,10 +40747,11 @@ pharmnet.com.cn###img1
 pharmnet.com.cn##.ad9502
 phimdinhcao.net,phimlongtieng.net,phimdinhcao.com#$#abort-on-property-read localStorage
 phimgichill.net#$#abort-current-inline-script jQuery popurl
-phimgichill.net,hhhay.tv,hh3dhay.pro,truyengihotnha.com,truyengihotnha.net,3dchill.shop#$#abort-current-inline-script eval $._Eu
-phimhdcc.com,motchill.plus#$#abort-current-inline-script document.addEventListener linksToOpen
+phimgichill.net,hhhay.tv,hh3dhay.pro,truyengihotnha.com,truyengihotnha.net,3dchill.shop,animevietsub.life#$#abort-current-inline-script eval $._Eu
+phimhdcc.net,motchill.plus#$#abort-current-inline-script document.addEventListener linksToOpen
 phimmoi4s.com#$#json-prune ads;abort-current-inline-script setTimeout click_time
 phimtho.net#$#abort-current-inline-script $ p0pUpRandom
+phimtuoitho.tv#$#abort-current-inline-script document.documentElement break;case
 phimvietsub.pro,api.anime3s.com,subnhanh.xyz#$#override-property-read maxAds 0
 phimvuihd.org#$#override-property-read urlAds ''
 phoenix.tickets.com$image
@@ -41698,6 +41695,7 @@ sealfit.ontraport.net%2Fo%3F$image
 sealfit.ontraport.net/o?$image
 search.bilibili.com##.video-list > div.col_3:has(> div.bili-video-card > div.bili-video-card__wrap > a[href*="&csource="])
 search.bilibili.com#?#.video-list > div.col_3:has(> div.bili-video-card a[href*="//cm.bilibili.com/"])
+search.chongbuluo.com##.search > div > a[target="_blank"] > img
 search.seznam.cz#$#hide-if-matches-xpath './/div/h3[contains(@class,"bd037d")]/a[@data-dot-data]/ancestor::div[@data-e-b-n]'
 search.seznam.cz#$#hide-if-matches-xpath './/picture[@class]/img[contains(@src,"https://d25-a.sdn.cz")]/ancestor::div[@data-e-b-n][@data-n-id]/parent::div[@class][1]'
 search.seznam.cz#$#hide-if-matches-xpath './/picture[@class]/img[contains(@src,"https://d25-a.sdn.cz")]/ancestor::div[contains(@class,"SuperCarousel")]/ancestor::div[@data-e-b-n]'
@@ -43787,7 +43785,7 @@ vidmoly.to###dos_vlock
 vidmoly.to#$#abort-current-inline-script addEventListener DOMContentLoaded
 vidshare.tv,govid.me,hdvid.tv,ovid.pro,gomovies.film,gomovies.sc,gomovies.es,gostream.nu,openloadmovies.net,openloadmovies.review,flashx.tv,cloudvideo.tv#$#abort-on-property-write Fingerprint2
 vidshare.tv,vidshar.tv,series.movie,gowatchseries.movie,gowatchseries.tv#$#abort-current-inline-script Object.defineProperty XMLHttpRequest
-viet69.ceo,ungtycomicsvip.com,truyengihotqua.net,truyengihotqua.com,truyengihotdo.net,truyengihotnha.com,truyengihotnha.net,truyengihotnay.com,dualeotruyenj.com,yurineko.net,vlxyz.tube,javhay.click,phimsexhay669.pro,cliphot69.blog,doctruyen3qvi.pro,hentaizz.xyz,animehay.run,vlxx.xxx,heo69.moe,top1sex.club,lenlut.tv,sexmup18.com,hentaivn.today,sexvn1.cc,cdn.streamvl.sbs,www.buomtv.app,truyenvn.xyz,cdnstream.sbs,javtiful.com,tuoi69.guru,quatvn.pub,tenmientruyengi.net,topviet69.com,phim18hd.top,live.sexviet88.tube,gai3x.vip,demo.14412882.com,sexphimhd.vip,ungtycomicsvip.net#$#abort-current-inline-script WebAssembly instantiate
+viet69.tax,ungtycomicsvip.com,truyengihotqua.net,truyengihotqua.com,truyengihotdo.net,truyengihotnha.com,truyengihotnha.net,truyengihotnay.com,dualeotruyenbot.com,yurineko.net,vlxyz.tube,javhay.click,phimsexhay669.pro,cliphot69.blog,doctruyen3qx.pro,hentaizz.xyz,animehay.run,vlxx.xxx,heo69.moe,top1sex.club,lenlut.tv,sexmup18.com,hentaivn.today,sexvn1.cc,cdn.streamvl.sbs,www.buomtv.app,truyenvn.xyz,cdnstream.sbs,javtiful.com,tuoi69.guru,quatvn.pub,tenmientruyengi.net,topviet69.com,phim18hd.top,live.sexviet88.tube,gai3x.vip,demo.14412882.com,sexphimhd.vip,ungtycomicsvip.net#$#abort-current-inline-script WebAssembly instantiate
 view.inews.qq.com##div[class^="bottom-bar_buttonWrap"]
 view.inews.qq.com##div[class^="infinite-comment-list_subText"]
 view.inews.qq.com##div[class^="interaction-bottom_interaction"]
@@ -43982,7 +43980,6 @@ weather.com.cn##div[class^="adpos"]
 weather.com.cn##div[id^="adpos"]
 weather.com.cn,wed114.cn#@#.adpic
 web.frontapp.com/api$image
-web.motsex.net,vuasex.club,phimsexviet.io,phimsexvietnam.app,clipsex.xxx,gm.phimsexnhanh.tv,clipsex.cam,mobile.ditnhau.cc,phim.sexhayvl.org,xx.clipsexhot.net#$#override-property-read video.adVast ''
 webhd.top##.justify-content-center.pt-2
 webjx.com###middleimg
 webkaka.com##.pNavigateAd
@@ -44335,8 +44332,8 @@ www.sina.com.cn##.part-l
 www.sina.com.cn##.secondtj-wrapper
 www.sogou.com##.tgad-box + div
 www.thecasioshop.happycustomer.io$image
-www.toptruyenii.online#$#abort-current-inline-script Promise instance
-www.toptruyenii.online#$#abort-on-property-read setTimeout open
+www.toptruyenx.pro#$#abort-current-inline-script Promise instance
+www.toptruyenx.pro#$#abort-on-property-read setTimeout open
 www.verify.lash.ru$image
 www.wangjing.cn##.content > div[style*="980px;"]
 www.wenshushu.cn##A[href^='https://wenshushu.cn/ad/']
