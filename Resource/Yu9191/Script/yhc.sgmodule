@@ -1,0 +1,13 @@
+#!name=yhc
+#!desc=yhc
+
+[URL Rewrite]
+#AD
+^https:\/\/api\.fireflyau\.com\/apiApp\/pte\/other\/alertSet\/findOneByCode - reject
+
+[Script]
+#VIP
+yhc = type=http-response, pattern=https://api.fireflyau.com/apiApp/vip/userVip/isVip, script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/main/yhc.js, requires-body=true, max-size=-1, timeout=60
+
+[MITM]
+hostname = %APPEND% api.fireflyau.com
