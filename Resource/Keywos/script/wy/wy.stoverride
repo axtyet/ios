@@ -26,6 +26,7 @@ http:
   mitm:
     - "interface.music.163.com"
     - "interface3.music.163.com"
+    - "interface9.music.163.com"
     - "httpdns.n.netease.com"
     - "interface.music.163.com.163jiasu.com"
     - "interface3.music.163.com.163jiasu.com"
@@ -37,22 +38,22 @@ http:
     - >-
       ^https?:\/\/httpdns\.music\.163\.com - reject
     - >-
-      ^https?:\/\/(ipv4|interface3?)\.music\.163.com\/e?api\/ad - reject-dict
+      ^https?:\/\/(ipv4|interface\d?)\.music\.163.com\/e?api\/ad - reject-dict
 # 今日运势 商城 Beat专区 音乐收藏家 | type:ACTIVITY | 低至5.2折
     - >-
-      ^https?:\/\/interface3?\.music\.163\.com\/w?e?api\/(side-bar\/mini-program\/music-service\/account|delivery\/(batch-deliver|deliver)|moment\/tab\/info\/get|yunbei\/account\/entrance\/get) - reject-dict
+      ^https?:\/\/interface\d?\.music\.163\.com\/w?e?api\/(side-bar\/mini-program\/music-service\/account|delivery\/(batch-deliver|deliver)|moment\/tab\/info\/get|yunbei\/account\/entrance\/get) - reject-dict
 # 播放页歌名下方∶乐迷团｜关注｜播放页提示｜音乐应用红点｜播放提示?
     - >-
-      ^https?:\/\/interface3?\.music\.163\.com\/eapi\/(resource\/comments?\/musiciansaid|community\/friends\/fans-group\/artist\/group\/get|user\/sub\/artist|music\/songshare\/text\/recommend\/get|mine\/applet\/redpoint|resniche\/position\/play\/new\/get) - reject-dict
+      ^https?:\/\/interface\d?\.music\.163\.com\/eapi\/(resource\/comments?\/musiciansaid|community\/friends\/fans-group\/artist\/group\/get|user\/sub\/artist|music\/songshare\/text\/recommend\/get|mine\/applet\/redpoint|resniche\/position\/play\/new\/get) - reject-dict
 # 搜索页热搜卡片｜猜你喜欢｜我的应用下方提醒
     - >-
-      ^https?:\/\/interface3?\.music\.163.com\/w?e?api\/(search\/(chart|default|rcmd\/keyword|specialkeyword)|resource-exposure\/|activity\/bonus\/playpage\/time\/query) - reject-dict
+      ^https?:\/\/interface\d?\.music\.163.com\/w?e?api\/(search\/(chart|default|rcmd\/keyword|specialkeyword)|resource-exposure\/|activity\/bonus\/playpage\/time\/query) - reject-dict
     - >-
-      ^https?:\/\/interface3?\.music\.163.com\/eapi\/(mlivestream\/entrance\/playpage|link\/(position\/show\/strategy|scene\/show)|ios\/version|v\d\/content\/exposure\/comment\/banner) - reject-dict
+      ^https?:\/\/interface\d?\.music\.163.com\/eapi\/(mlivestream\/entrance\/playpage|link\/(position\/show\/strategy|scene\/show)|ios\/version|v\d\/content\/exposure\/comment\/banner) - reject-dict
 
   script:
 # mian | 热推、有话想说、分享一下、歌曲下的祝福等小提示去除 ｜ 评论区 乐迷、星评等级 关注 等 图标去除
-    - match: ^https?:\/\/(ipv4|interface3?)\.music\.163\.com\/e?api\/(batch|v\d\/resource\/comment\/floor\/get)
+    - match: ^https?:\/\/(ipv4|interface\d?)\.music\.163\.com\/e?api\/(batch|v\d\/resource\/comment\/floor\/get)
       name: "ne_mians"
       type: response
       require-body: true
@@ -60,7 +61,7 @@ http:
       timeout: 20
 
 # 伪vip
-    - match: ^https?:\/\/(ipv4|interface3?)\.music\.163\.com\/e?api\/(music-vip-membership\/client\/vip\/info|vipauth\/app\/auth\/recycle|vipnewcenter\/app\/resource\/newaccountpage)
+    - match: ^https?:\/\/(ipv4|interface\d?)\.music\.163\.com\/e?api\/(music-vip-membership\/client\/vip\/info|vipauth\/app\/auth\/recycle|vipnewcenter\/app\/resource\/newaccountpage)
       name: "ne_mians"
       type: response
       require-body: true
@@ -68,7 +69,7 @@ http:
       timeout: 20
 
 # tab
-    - match: ^https?:\/\/(ipv4|interface3?)\.music\.163\.com\/e?api\/link\/home\/framework\/tab
+    - match: ^https?:\/\/(ipv4|interface\d?)\.music\.163\.com\/e?api\/link\/home\/framework\/tab
       name: "ne_mians"
       type: response
       require-body: true
@@ -76,7 +77,7 @@ http:
       timeout: 20
 
 # 推荐 | home | 主页
-    - match: ^https?:\/\/(ipv4|interface3?)\.music\.163\.com\/e?api\/(homepage\/block\/page|link\/page\/rcmd\/(resource\/show|block\/resource\/multi\/refresh))
+    - match: ^https?:\/\/(ipv4|interface\d?)\.music\.163\.com\/e?api\/(homepage\/block\/page|link\/page\/rcmd\/(resource\/show|block\/resource\/multi\/refresh))
       name: "ne_mians"
       type: response
       require-body: true
@@ -84,7 +85,7 @@ http:
       timeout: 20
 
 # 发现
-    - match: ^https?:\/\/(ipv4|interface3?)\.music\.163\.com\/e?api\/link\/page\/discovery\/resource\/show
+    - match: ^https?:\/\/(ipv4|interface\d?)\.music\.163\.com\/e?api\/link\/page\/discovery\/resource\/show
       name: "ne_mians"
       type: response
       require-body: true
@@ -92,7 +93,7 @@ http:
       timeout: 20
 
 # effect
-    - match: ^https?:\/\/(ipv4|interface3?)\.music\.163\.com\/e?api\/song\/play\/more\/list\/v\d
+    - match: ^https?:\/\/(ipv4|interface\d?)\.music\.163\.com\/e?api\/song\/play\/more\/list\/v\d
       name: "ne_mians"
       type: response
       require-body: true
@@ -100,7 +101,7 @@ http:
       timeout: 20
 
 # 我的 MyPageBar ad
-    - match: ^https?:\/\/(ipv4|interface3?)\.music\.163\.com\/e?api\/link\/position\/show\/resource
+    - match: ^https?:\/\/(ipv4|interface\d?)\.music\.163\.com\/e?api\/link\/position\/show\/resource
       name: "ne_mians"
       type: response
       require-body: true
@@ -108,7 +109,7 @@ http:
       timeout: 20
 
 # 显示未关注你
-    - match: ^https?:\/\/(ipv4|interface3?)\.music\.163\.com\/e?api\/user\/follow\/users\/mixed\/get
+    - match: ^https?:\/\/(ipv4|interface\d?)\.music\.163\.com\/e?api\/user\/follow\/users\/mixed\/get
       name: "ne_mians"
       type: response
       require-body: true
