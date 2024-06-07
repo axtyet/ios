@@ -23631,6 +23631,7 @@ domain:cloudlessmajesty.com
 domain:cloudlessverticallyrender.com
 domain:cloudlogobox.com
 domain:cloudmade.com
+domain:cloudmetrics.xenforo.com
 domain:cloudmobi.net
 domain:cloudpsh.top
 domain:cloudpush.iqiyi.com
@@ -34189,6 +34190,7 @@ domain:dtmpub.com
 domain:dtmssl.bobcat.com
 domain:dtmvpkn.com
 domain:dtnacqswcieufy.com
+domain:dtnaximya.360doc.cn
 domain:dtnhjzl.xyz
 domain:dtnmyp.cocotorico.com
 domain:dtobyiiuktxvp.com
@@ -39087,6 +39089,7 @@ domain:faze66.com
 domain:faze67.com
 domain:faze70.com
 domain:faze71.com
+domain:faze74.com
 domain:faze76.com
 domain:faze80.com
 domain:faze88.com
@@ -58320,7 +58323,6 @@ domain:lectureolympics.com
 domain:lecythleche.website
 domain:ledaoutrush.com
 domain:ledaren.cn
-domain:ledger-liveweb3app.com
 domain:ledger-wallet.us
 domain:ledger-web-wallet.com
 domain:ledger-web-wallet.net
@@ -69291,6 +69293,7 @@ domain:muskbtc.io
 domain:muskgives.net
 domain:muskgives.org
 domain:muskox.appital.io
+domain:muskweb.net
 domain:musmentportal.com
 domain:musselchangeableskier.com
 domain:musselregimentcharles.com
@@ -70175,6 +70178,7 @@ domain:naverpa-phinf.pstatic.net
 domain:navfja.answear.hu
 domain:navi1.com
 domain:navi10.com
+domain:navi10.ru
 domain:navi100.com
 domain:navi12.com
 domain:navi18.com
@@ -70196,8 +70200,10 @@ domain:navi36.ru
 domain:navi38.ru
 domain:navi39.ru
 domain:navi4.com
+domain:navi4.ru
 domain:navi40.com
 domain:navi42.ru
+domain:navi43.com
 domain:navi45.ru
 domain:navi47.com
 domain:navi5.com
@@ -71280,7 +71286,6 @@ domain:nip24.com
 domain:nip26.com
 domain:nip28.com
 domain:nip3.com
-domain:nip30.com
 domain:nip4.com
 domain:nip44.com
 domain:nip5.com
@@ -76631,6 +76636,7 @@ domain:pay-ads.com
 domain:pay-click.ru
 domain:pay.mobile.sina.cn
 domain:pay.truemoney.me
+domain:pay.www.cdek.id19845672.info
 domain:pay4results24.eu
 domain:payae8moon9.com
 domain:paybackmodified.com
@@ -87203,6 +87209,7 @@ domain:sbdhdq.zeeman.com
 domain:sbdvjsbjslkv.com
 domain:sbeaje.com
 domain:sbecashqjk.com
+domain:sberbank.booking.id3410894.com
 domain:sbfrnq.naturalforme.fr
 domain:sbfsdvc.com
 domain:sbgsodufuosmmvsdf.info
@@ -101274,6 +101281,7 @@ domain:tedtug.com
 domain:tedxffemqblmk.xyz
 domain:tee24h.com
 domain:teearrow.com
+domain:teeboss.us
 domain:teechip.online
 domain:teedleeparchy.top
 domain:teedoping.com
@@ -109404,6 +109412,7 @@ domain:unique-skins.net
 domain:uniquecaptcha.com
 domain:uniquehack.com
 domain:uniquehacks.org
+domain:uniqueshirt.shop
 domain:unireceive.com
 domain:uniregistry.com
 domain:uniswaps.website
