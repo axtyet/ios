@@ -1,4 +1,4 @@
-# 2024-06-05 16:25
+# 2024-06-08 17:50
 
 # > 0-9
 
@@ -157,8 +157,9 @@ DOMAIN-SUFFIX,newstatesman.com
 DOMAIN-SUFFIX,newsweek.com
 DOMAIN-SUFFIX,newyorker.com
 DOMAIN-SUFFIX,nmnm.fun
-DOMAIN-SUFFIX,now.com
 DOMAIN-SUFFIX,nodeseek.com
+DOMAIN-SUFFIX,novaxns.one
+DOMAIN-SUFFIX,now.com
 DOMAIN-SUFFIX,nsloon.com
 
 # > O
@@ -288,6 +289,7 @@ DOMAIN-SUFFIX,wsj.net
 
 # > X
 DOMAIN-SUFFIX,x.co
+DOMAIN-SUFFIX,xns.one
 
 # > Y
 DOMAIN-SUFFIX,yandex.ru
