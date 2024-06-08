@@ -1,0 +1,8 @@
+#!name=qk
+#!desc=qk
+
+[Script]
+qk = type=http-response, pattern=^https:\/\/(www\.qker\.com\/qker2c\/v2\/course\/serial\/\d+\/children|console\.qker\.com\/linga\/api\/v1\/course\/serial\/\d+\/children|console\.qker\.com\/linga\/api\/v1\/user\/details), script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/main/qk.js, requires-body=true, max-size=-1, timeout=60
+
+[MITM]
+hostname = %APPEND% *.qker.com
