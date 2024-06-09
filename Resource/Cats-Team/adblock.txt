@@ -4,8 +4,8 @@
 ! Powerd by Cats-Team
 ! Expires: 1 day (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2024-06-08 08:04:36(GMT+8) 
-! Total count: 124439
+! ! Version: 2024-06-09 08:03:36(GMT+8) 
+! Total count: 124458
  
 ###ADtip
 ###AdBlockDialog
@@ -12085,6 +12085,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||rappers.in/js/antiadblock.js$script
 @@||rawstory.com/decor/javascript/magnify_stats.js
 @@||razem.tv/Scripts/InsysPlayer.v0.1.0/adTest.png$image,domain=razem.tv
+@@||reactandshare.com^$domain=maanmittauslaitos.fi
 @@||readmoo.com/images/social/
 @@||real.de/fileadmin/template/javascript/emos2.js
 @@||realclearpolitics.com/esm/assets/js/admiral.js
@@ -12523,6 +12524,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||stats.pusher.com/timeline/$script,domain=bringatrailer.com
 @@||stats.sports.bellmedia.ca^$domain=rds.ca|tsn.ca
 @@||stats.statbroadcast.com/interface/webservice/event/$~third-party
+@@||stats.wnba.com/templates/angular/tables/events/$~third-party
 @@||staty.portalradiowy.pl/wstats/$script,third-party
 @@||steamcn.com/source/plugin/steamcn_gift/template/images/*steam.png
 @@||steamstatic.com/steam/apps/$image,domain=store.steampowered.com
@@ -15003,6 +15005,7 @@ chongbuluo.com###add
 chongbuluo.com###add + a
 chongbuluo.com###dzrid > .frame:nth-child(n+2)
 chongbuluo.com##.postright
+chongbuluo.com##.search > div[style="width: 607px;margin-top:30px;"]
 chongbuluo.com##a[href^="https://cn.udacity.com/"]
 chongdiantou.com##.nice-sales
 chrissmoove.com#@##adserver
@@ -57681,6 +57684,7 @@ zzzyk.com###Tinfo
 ||bing001.shop^
 ||bing003.shop^
 ||bing005.shop^
+||bing007.shop^
 ||binga01.shop^
 ||binocule21c.merriam-webster.com^
 ||bint.openapp.link^
@@ -66896,6 +66900,7 @@ zzzyk.com###Tinfo
 ||develenv.com^$third-party
 ||developer.mozilla.org/submit/
 ||developers.google.com/_d/analytics-iframe
+||developers.miro.com/pageview
 ||development.me.thequad.com^
 ||developpez.com/public/js/log.js
 ||developpez.com/template/*.jpg$xmlhttprequest
@@ -71365,6 +71370,7 @@ zzzyk.com###Tinfo
 ||fctms.fidelitycharitable.org^
 ||fculcz.joann.com^
 ||fcw45.com/js/layer1.js^
+||fczunn.xyz^
 ||fd.bawag.at^
 ||fd.nl/pixel/
 ||fdbs.actonservice.com^
@@ -71498,6 +71504,7 @@ zzzyk.com###Tinfo
 ||fgetmzx.icu^
 ||fgfecw.rebelle.com^
 ||fgfukd.sakazen.co.jp^
+||fghghh.cn^
 ||fghhbp.xyz^
 ||fgjfwz.legami.com^
 ||fglrgt.ruggable.com^
@@ -90915,6 +90922,7 @@ zzzyk.com###Tinfo
 ||mymix.mixdevelopment.com^
 ||mymix.mixtel.com^
 ||mymix.mixtelematics.com^
+||mymqcy.xyz^
 ||mynewcounter.com^$third-party
 ||mynsystems.com^$third-party
 ||myntelligence.com^$third-party
@@ -96334,6 +96342,7 @@ zzzyk.com###Tinfo
 ||pubdream.com^$third-party
 ||pubexchange.com^$third-party
 ||pubfuture.com^$third-party
+||pubgifs.com/pixel.gif
 ||public.cobrowse.oraclecloud.com/rely/storage/
 ||public.fbot.me/track/
 ||public.profitwell.com^
@@ -98705,6 +98714,7 @@ zzzyk.com###Tinfo
 ||rover.ebay.com.au^*&cguid=
 ||rowsrm.atasunoptik.com.tr^
 ||roxewwq.cn^
+||roxfrv.xyz^
 ||roxtec.actonservice.com^
 ||royalcount.de^$third-party
 ||royalfamily.royalchaga.sk^
@@ -99068,6 +99078,7 @@ zzzyk.com###Tinfo
 ||rvlgrb.xyz^
 ||rvo-cohesion.healthline.com^
 ||rvreuxi.cn^
+||rvtfwryz.icu^
 ||rvtwqp.winparts.se^
 ||rvv.emol.com^
 ||rvvji.online^
@@ -109758,6 +109769,10 @@ zzzyk.com###Tinfo
 ||supfree.net^$xmlhttprequest
 ||supleks.jp/action/log/
 ||support.flex.com^
+||support.github.com/_event
+||support.github.com/_stats
+||support.github.com/session/event
+||support.github.com/session/user
 ||support.huawei.com/enterprisesearch/3rdParty/opensource/analytics/
 ||support.panasonic.eu^
 ||support.ricoh.de^
@@ -112097,6 +112112,7 @@ zzzyk.com###Tinfo
 ||thewindrun.com^
 ||thewise.com^$third-party
 ||thezbpe5*.xyz^
+||thgthgfg.cn^
 ||thhesw.tre.it^
 ||thialfi.net.anwalt.de^
 ||thickticket.com^$third-party
@@ -116396,6 +116412,7 @@ zzzyk.com###Tinfo
 ||trck.blogfeelgood.com^
 ||trck.charmingmatches.com^
 ||trck.comms.watlow.com^
+||trck.coomeet.com^
 ||trck.copeland.com^
 ||trck.cyberport.de^
 ||trck.e.atradius.com^
@@ -116475,6 +116492,7 @@ zzzyk.com###Tinfo
 ||trendmicro.com.tw/wp-content/uploads/*Banner
 ||trends.com.cn/k.js
 ||trends.newsmaxwidget.com^
+||trends.privacywall.org^
 ||trendyol.com/Resources/Scripts/Libs/EventCollector/eventcollector
 ||trendyol.com/__gc.gif?
 ||trenhdg.com^$third-party
@@ -122487,6 +122505,7 @@ zzzyk.com###Tinfo
 ||xn--wxtr9fwyxk9c.xn--fiqs8s^
 ||xn--wxtr9fwyxk9c.xn--io0a7i^
 ||xn--wxtr9fwyxk9co4hbua.xn--fiqs8s^
+||xn--xhq326apqhcx0d.cn^
 ||xn--xhq9mt12cf5v.ren^
 ||xn--zw0autp42d.cn^
 ||xnbwsp.c-and-a.com^
