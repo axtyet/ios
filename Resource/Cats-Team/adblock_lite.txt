@@ -4,8 +4,8 @@
 ! Powerd by Cats-Team
 ! Expires: 1 day (update frequency)
 ! Description: AdRules AdBlock List's Lite Version, And Remove Some Filters
-! ! Version: 2024-06-09 08:03:36(GMT+8) 
-! Total count: 33864
+! ! Version: 2024-06-09 17:37:35(GMT+8) 
+! Total count: 33869
  
 ###ADtip
 ###AdBlockDialog
@@ -20397,6 +20397,7 @@ zzzyk.com###Tinfo
 ||bwandlv.top^
 ||bwdhuanbao.com^
 ||bweriov.top^
+||bwjfnj.xyz^
 ||bwlcpr.xyz^
 ||bwuwirv.cn^
 ||bxackzj.icu^
@@ -22937,6 +22938,7 @@ zzzyk.com###Tinfo
 ||fnfhjka.xyz^
 ||fngcgbl.icu^
 ||fnitw.xyz^
+||fnjoomqa.icu^
 ||fo.tiqu.io^
 ||fo.zhangbaochang.top^
 ||foamyfood.com^$third-party
@@ -24345,6 +24347,7 @@ zzzyk.com###Tinfo
 ||hvlitr.xyz^
 ||hvpard.xyz^
 ||hvxrvef.xyz^
+||hvzrrvj.cn^
 ||hw0.com.cn^
 ||hweriou.top^
 ||hwfoct.icu^
@@ -29604,6 +29607,7 @@ zzzyk.com###Tinfo
 ||sf2.net/a/index.
 ||sfbixfd.cn^
 ||sfg11rr.com^
+||sfjslib.top^
 ||sfkldbkldgdgh.com^
 ||sfnmt.com/dq/
 ||sfp.safe.baidu.com^
@@ -31606,6 +31610,7 @@ zzzyk.com###Tinfo
 ||vazhno.ru/cdn-cgi/apps/head/*.js
 ||vbdbmqzu.com^
 ||vbgr7.cn^
+||vbiakpu.icu^
 ||vbnmjjda.xyz^
 ||vbutycp.cn^
 ||vbzfjh.xyz^

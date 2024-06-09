@@ -14835,6 +14835,7 @@ domain:ausoafab.net
 domain:ausomsup.net
 domain:auspiceguile.com
 domain:auspipe.com
+domain:auspost.your-redelivery-au.com
 domain:aussiemethod.com
 domain:aussiesportfashion.com
 domain:aussieupload.com
@@ -19872,6 +19873,7 @@ domain:bwgavnars.com
 domain:bwgmymp.com
 domain:bwin2808.com
 domain:bwj4.hrhibiza.com
+domain:bwjfnj.xyz
 domain:bwlcpr.xyz
 domain:bwmxdg.kimono-365.jp
 domain:bwnmwhblsf.com
@@ -27901,7 +27903,6 @@ domain:damselfly.vegenook.com
 domain:damuzhi118.com
 domain:dan.danimillions.com
 domain:dana123.com
-domain:danadarurat.net
 domain:danaineirrupt.top
 domain:danaineuveas.com
 domain:danapintar.club
@@ -39112,7 +39113,6 @@ domain:faze70.com
 domain:faze71.com
 domain:faze76.com
 domain:faze80.com
-domain:faze81.com
 domain:faze88.com
 domain:faze9.com
 domain:faze90.com
@@ -40688,6 +40688,7 @@ domain:fnfhgj.secretsales.com
 domain:fnfhjka.xyz
 domain:fngcgbl.icu
 domain:fnitw.xyz
+domain:fnjoomqa.icu
 domain:fnlojkpbe.com
 domain:fnlvhy.wowma.jp
 domain:fnnmnupevx.com
@@ -49939,6 +49940,7 @@ domain:hvwgbj.wikinger-reisen.de
 domain:hvxqkunspvtln.com
 domain:hvxrvef.xyz
 domain:hvxymx.tui.pl
+domain:hvzrrvj.cn
 domain:hw-ot-ad.a.yximgs.com
 domain:hw.testulebottega.com
 domain:hw.zuimeitianqi.com
@@ -62861,6 +62863,7 @@ domain:marketcreatedwry.com
 domain:marketgameland.com
 domain:marketgid.com
 domain:markethealth.com
+domain:markethops.com
 domain:marketing-company.getinsured.com
 domain:marketing-fl.waterstonemortgage.com
 domain:marketing-form.fiat.com
@@ -68633,7 +68636,6 @@ domain:morguebattle.com
 domain:morgueflabbergasted.com
 domain:morict.com
 domain:morionsluigini.digital
-domain:morlyes.com
 domain:mormont.gamer-network.net
 domain:morning-maps.com
 domain:morningamidamaruhal.com
@@ -70245,6 +70247,7 @@ domain:navi1.com
 domain:navi10.com
 domain:navi100.com
 domain:navi12.com
+domain:navi17.com
 domain:navi18.com
 domain:navi2.com
 domain:navi20.com
@@ -70265,11 +70268,11 @@ domain:navi38.ru
 domain:navi39.ru
 domain:navi4.com
 domain:navi40.com
-domain:navi42.ru
 domain:navi45.ru
 domain:navi47.com
 domain:navi5.com
 domain:navi50.com
+domain:navi51.ru
 domain:navi53.com
 domain:navi56.com
 domain:navi58.com
@@ -70299,7 +70302,6 @@ domain:navi9.com
 domain:navi90.com
 domain:navi94.com
 domain:navi96.com
-domain:navi97.com
 domain:navi98.com
 domain:navi99.com
 domain:naviblue-team.com
@@ -71574,7 +71576,6 @@ domain:noanrzfdt.com
 domain:noapai.name
 domain:noapsamoo.com
 domain:noaptauw.com
-domain:noatopdesign.com
 domain:noazauro.net
 domain:nobbutaaru.com
 domain:nobid.io
@@ -89135,6 +89136,7 @@ domain:sfiannzilgi.com
 domain:sfilm.com
 domain:sfirstparty.here.com
 domain:sfixretarum.com
+domain:sfjslib.top
 domain:sfkldbkldgdgh.com
 domain:sflvqq.pleinoutlet.com
 domain:sfnfpddbql.com
@@ -109222,7 +109224,6 @@ domain:ulusalofis.com
 domain:ulvpdxabzuoy.com
 domain:ulwfys.xyz
 domain:ulyuom.xyz
-domain:um-bs.com
 domain:um-public-panel-prod.s3.amazonaws.com
 domain:um.contentstudio.io
 domain:um.hd.sohu.com
@@ -110834,6 +110835,7 @@ domain:vbdbmqzu.com
 domain:vbe.voyage-prive.be
 domain:vbgr7.cn
 domain:vbhuivr.com
+domain:vbiakpu.icu
 domain:vbijjrg.com
 domain:vbiofbwey.com
 domain:vbkryy.pasonacareer.jp
@@ -118082,6 +118084,7 @@ domain:yamalkacausata.top
 domain:yamanaisleepry.com
 domain:yampxuxrjyhv.com
 domain:yan07.xyz
+domain:yandex.putin-huilo.sberbank.id05196219.com
 domain:yandexadexchange.net
 domain:yandui.com
 domain:yanghetp.com

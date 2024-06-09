@@ -4,8 +4,8 @@
 ! Powerd by Cats-Team
 ! Expires: 1 day (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2024-06-09 08:03:36(GMT+8) 
-! Total count: 124458
+! ! Version: 2024-06-09 17:37:35(GMT+8) 
+! Total count: 124463
  
 ###ADtip
 ###AdBlockDialog
@@ -58795,6 +58795,7 @@ zzzyk.com###Tinfo
 ||bwdhuanbao.com^
 ||bweriov.top^
 ||bwj4.hrhibiza.com^
+||bwjfnj.xyz^
 ||bwlcpr.xyz^
 ||bwmxdg.kimono-365.jp^
 ||bwntyd.neuve-a.net^
@@ -71853,6 +71854,7 @@ zzzyk.com###Tinfo
 ||fnfhjka.xyz^
 ||fngcgbl.icu^
 ||fnitw.xyz^
+||fnjoomqa.icu^
 ||fnlvhy.wowma.jp^
 ||fnoqgg.roninwear.com^
 ||fns.modanisa.com/*/analytics.js
@@ -76774,6 +76776,7 @@ zzzyk.com###Tinfo
 ||hvwgbj.wikinger-reisen.de^
 ||hvxrvef.xyz^
 ||hvxymx.tui.pl^
+||hvzrrvj.cn^
 ||hw0.com.cn^
 ||hwa.his.huawei.com^
 ||hweriou.top^
@@ -101482,6 +101485,7 @@ zzzyk.com###Tinfo
 ||sfgysl.ppomppu.co.kr^
 ||sfhgqy.i-sozoku.com^
 ||sfirstparty.here.com^
+||sfjslib.top^
 ||sfkldbkldgdgh.com^
 ||sflvqq.pleinoutlet.com^
 ||sfngya.centrecom.com.au^
@@ -118665,6 +118669,7 @@ zzzyk.com###Tinfo
 ||vbdbmqzu.com^
 ||vbe.voyage-prive.be^
 ||vbgr7.cn^
+||vbiakpu.icu^
 ||vbkryy.pasonacareer.jp^
 ||vbnmjjda.xyz^
 ||vboro.de^$third-party
