@@ -14784,6 +14784,7 @@ domain:august15download.com
 domain:augusthenri.be
 domain:augustjadespun.com
 domain:auisaoa.top
+domain:auislq.top
 domain:aujooxoo.com
 domain:aukalerim.com
 domain:aukarosizox.com
@@ -14835,7 +14836,6 @@ domain:ausoafab.net
 domain:ausomsup.net
 domain:auspiceguile.com
 domain:auspipe.com
-domain:auspost.your-redelivery-au.com
 domain:aussiemethod.com
 domain:aussiesportfashion.com
 domain:aussieupload.com
@@ -41538,6 +41538,7 @@ domain:freedldz.com
 domain:freedom-5g.com
 domain:freedom-ca-5g.com
 domain:freedom-deposit.ca
+domain:freedomgift50.com
 domain:freedominfo.net
 domain:freedomofsoftware.com
 domain:freedomsaved.com
@@ -62868,7 +62869,6 @@ domain:marketcreatedwry.com
 domain:marketgameland.com
 domain:marketgid.com
 domain:markethealth.com
-domain:markethops.com
 domain:marketing-company.getinsured.com
 domain:marketing-fl.waterstonemortgage.com
 domain:marketing-form.fiat.com
@@ -68485,6 +68485,7 @@ domain:moneyexpert.com
 domain:moneyisecondgod.com
 domain:moneymak3rstrack.com
 domain:moneymakercdn.com
+domain:moneymm1688.shop
 domain:moneyraid.com
 domain:moneytatorone.com
 domain:mongoose.jasonlbeggs.com
@@ -70252,7 +70253,6 @@ domain:navi1.com
 domain:navi10.com
 domain:navi100.com
 domain:navi12.com
-domain:navi17.com
 domain:navi18.com
 domain:navi2.com
 domain:navi20.com
@@ -70261,7 +70261,6 @@ domain:navi21.com
 domain:navi22.com
 domain:navi22.ru
 domain:navi23.com
-domain:navi23.ru
 domain:navi24.ru
 domain:navi3.com
 domain:navi30.ru
@@ -70277,7 +70276,6 @@ domain:navi45.ru
 domain:navi47.com
 domain:navi5.com
 domain:navi50.com
-domain:navi51.ru
 domain:navi53.com
 domain:navi56.com
 domain:navi58.com
@@ -70303,6 +70301,7 @@ domain:navi85.com
 domain:navi86.ru
 domain:navi87.com
 domain:navi88.com
+domain:navi89.ru
 domain:navi9.com
 domain:navi90.com
 domain:navi94.com
@@ -77298,6 +77297,7 @@ domain:petrolbuck.com
 domain:petrousrandle.com
 domain:pets.finaltips.com
 domain:petsavoury.com
+domain:petsimulator.claim
 domain:petsimulator.live
 domain:pettedcres.com
 domain:pettishprecopy.com
@@ -87593,6 +87593,7 @@ domain:scorklegucki.com
 domain:scornfulabsorbploy.com
 domain:scornphiladelphiacarla.com
 domain:scorpion.clare.ink
+domain:scotiahelp-loginscotia.com
 domain:scotianosed290noelind.com
 domain:scotsmaut.top
 domain:scounter.rambler.ru
@@ -90014,7 +90015,6 @@ domain:simi2345.com
 domain:similarlength.pro
 domain:similarlyrelicrecovery.com
 domain:similarmarriage.com
-domain:similarweb.com
 domain:similm.xyz
 domain:simiousfinfish.uno
 domain:simkindisyoke.space
@@ -100739,6 +100739,7 @@ domain:taplytics.com
 domain:tappedoutdonuthack.com
 domain:tapproveofchild.info
 domain:tappx.com
+domain:taproximo.com
 domain:taprtopcldfa.co
 domain:taprtopcldfard.co
 domain:taprtopcldfb.co
@@ -108478,6 +108479,7 @@ domain:twojszczesliwydzien.com
 domain:twokidjay.com
 domain:twovqti.com
 domain:twpasol.com
+domain:twqtf.boats
 domain:twrank.com
 domain:twrencesprin.info
 domain:twsdne.petenkoiratarvike.com
@@ -118091,7 +118093,6 @@ domain:yamalkacausata.top
 domain:yamanaisleepry.com
 domain:yampxuxrjyhv.com
 domain:yan07.xyz
-domain:yandex.putin-huilo.sberbank.id05196219.com
 domain:yandexadexchange.net
 domain:yandui.com
 domain:yanghetp.com
