@@ -4,8 +4,8 @@
 ! Powerd by Cats-Team
 ! Expires: 1 day (update frequency)
 ! Description: AdRules AdBlock List's Lite Version, And Remove Some Filters
-! ! Version: 2024-06-09 17:37:35(GMT+8) 
-! Total count: 33869
+! ! Version: 2024-06-10 08:03:25(GMT+8) 
+! Total count: 33879
  
 ###ADtip
 ###AdBlockDialog
@@ -21584,6 +21584,7 @@ zzzyk.com###Tinfo
 ||dataoke.com/api/component/code-info/v1?
 ||dataryon.com^
 ||datas.tianqistatic.com^
+||davtvd.xyz^
 ||dawdlealmonry.com^
 ||daweijita.com/201*430.
 ||daweijita.com/201*ad.
@@ -22393,6 +22394,7 @@ zzzyk.com###Tinfo
 ||effectivehealthy.cn^
 ||efficaciouscactus.com^$third-party
 ||efgh.5lu.com^
+||efjsliw.top^
 ||efmtsw.xyz^
 ||efs604.top^
 ||efvsyhbf.xyz^
@@ -23294,6 +23296,7 @@ zzzyk.com###Tinfo
 ||geziyd.com^
 ||gfan.com/press/
 ||gfbdb1.com^
+||gfdgfhh.cn^
 ||gfjn5.xyz^
 ||gfpvvwf.xyz^
 ||gfrzzzx.cn^
@@ -24094,6 +24097,7 @@ zzzyk.com###Tinfo
 ||hkkeafj.cn^
 ||hkljed.xyz^
 ||hkmte.com/seo.js
+||hkpeghqu.icu^
 ||hkrytf.xyz^
 ||hkscldggm.xyz^
 ||hktvmall.com/api/preroll/getList?
@@ -25090,6 +25094,7 @@ zzzyk.com###Tinfo
 ||jgblvt.xyz^
 ||jghklz.xyz^
 ||jgidskia.top^
+||jglgjz.xyz^
 ||jgmywh.icu^
 ||jgntjtyf.icu^
 ||jgsajfggv.xyz^
@@ -25542,6 +25547,7 @@ zzzyk.com###Tinfo
 ||kaixin001.com.cn/js/cpm-
 ||kaixinjiehun.com^$third-party
 ||kaiyiluye.com^
+||kak17p.xyz^
 ||kalmukrattail.com^
 ||kalvin.cn/page/img/
 ||kan.cc/statics/abs/scripts/abs.
@@ -26178,6 +26184,7 @@ zzzyk.com###Tinfo
 ||liftedknowledge.com^$third-party
 ||lifvfr.xyz^
 ||lifyeldl.top^
+||ligfdjnfd.cn^
 ||lightcushion.com^$third-party
 ||lih6e.site^
 ||lihong.ltd^
@@ -27916,6 +27923,7 @@ zzzyk.com###Tinfo
 ||ozhmig.cn^
 ||ozkbdxdu.icu^
 ||ozolei.xyz^
+||ozykeor.icu^
 ||p*-ad-sign.byteimg.com^
 ||p.7060.la^
 ||p.eikuaitao.com^$third-party
@@ -28283,6 +28291,7 @@ zzzyk.com###Tinfo
 ||pnlhnx.xyz^
 ||pnxtnp.xyz^
 ||pnzhpb.xyz^
+||po2qgo.xyz^
 ||poae2klya.icu^
 ||poasotha.com^
 ||pobrpr.xyz^
@@ -33302,6 +33311,7 @@ zzzyk.com###Tinfo
 ||yxhjt.com^
 ||yximgs.com/bs2/adcarsku/sku1563a96c-38ca-4563-a4b5-522208113126.
 ||yximgs.com/bs2/adcarsku/sku9c0e68cc-2f12-4e47-a340-a7293ee88c88.
+||yxkbgg.xyz^
 ||yxmrqc.com^
 ||yxptcrss.xyz^
 ||yxrxsov.xyz^

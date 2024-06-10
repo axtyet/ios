@@ -4,8 +4,8 @@
 ! Powerd by Cats-Team
 ! Expires: 1 day (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2024-06-09 17:37:35(GMT+8) 
-! Total count: 124463
+! ! Version: 2024-06-10 08:03:25(GMT+8) 
+! Total count: 124474
  
 ###ADtip
 ###AdBlockDialog
@@ -12613,6 +12613,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||tanx.com/ex?i=$script,domain=dlkoo.com
 @@||taobao.com/go/app/tmall/login-api.php?
 @@||taobao.com^*&adgroupid=
+@@||taplytics.com^$domain=royalbank.com
 @@||target.microsoft.com/rest/$xmlhttprequest,domain=microsoft.com
 @@||targetimg1.com/webui/$script,domain=target.com
 @@||tatacliq.com^$cookie=/^AMCVS?_.*AdobeOrg/
@@ -66393,6 +66394,7 @@ zzzyk.com###Tinfo
 ||datvantage.com^$third-party
 ||daumcdn.net^*/awsa.js
 ||dav.davrontech.com^
+||davtvd.xyz^
 ||dawanda.com/_strck^
 ||dawanda.com/trck^
 ||dawanda.com/uo/trck.gif
@@ -69158,6 +69160,7 @@ zzzyk.com###Tinfo
 ||efgam.actonservice.com^
 ||efgh.5lu.com^
 ||efglbp.baur.de^
+||efjsliw.top^
 ||efm.verintsystemsinc.com^
 ||efmtsw.xyz^
 ||efplso.epost.go.kr^
@@ -73307,6 +73310,7 @@ zzzyk.com###Tinfo
 ||gf7t.cheques-cadeaux-culturels.fr^
 ||gfan.com/press/
 ||gfbdb1.com^
+||gfdgfhh.cn^
 ||gfeede.theminda.com^
 ||gfgcwf.vidaxl.lv^
 ||gfgywe.abril.com.br^
@@ -76195,6 +76199,7 @@ zzzyk.com###Tinfo
 ||hkkeafj.cn^
 ||hkljed.xyz^
 ||hkmte.com/seo.js
+||hkpeghqu.icu^
 ||hkrpg-log-upload-os.hoyoverse.com^
 ||hkrpg-log-upload.mihoyo.com^
 ||hkrytf.xyz^
@@ -80231,6 +80236,7 @@ zzzyk.com###Tinfo
 ||jgblvt.xyz^
 ||jghklz.xyz^
 ||jgidskia.top^
+||jglgjz.xyz^
 ||jgmywh.icu^
 ||jgntjtyf.icu^
 ||jgsajfggv.xyz^
@@ -81050,6 +81056,7 @@ zzzyk.com###Tinfo
 ||kaixinjiehun.com^$third-party
 ||kaiyiluye.com^
 ||kaizenplatform.net^$third-party
+||kak17p.xyz^
 ||kaladyaudiology.ericksonbuilt.com^
 ||kallerupstone.viessmann.dk^
 ||kalmukrattail.com^
@@ -82617,6 +82624,7 @@ zzzyk.com###Tinfo
 ||lifterpopup.com^$third-party
 ||lifvfr.xyz^
 ||lifyeldl.top^
+||ligfdjnfd.cn^
 ||lightboxcdn.com/static/identity.html
 ||lightcushion.com^$third-party
 ||lighterthinnerstronger.fiber-line.com^
@@ -93508,6 +93516,7 @@ zzzyk.com###Tinfo
 ||ozon.ru^$removeparam=partner
 ||ozone.ru/graphics/client-metrics/
 ||ozvlyz.justmusic.de^
+||ozykeor.icu^
 ||p*-ad-sign.byteimg.com^
 ||p-analytics.life^$third-party
 ||p-aw2-adapt-beacon.awsprodops.movetv.com^
@@ -95587,6 +95596,7 @@ zzzyk.com###Tinfo
 ||pny.net.penny.de^
 ||pnzhpb.xyz^
 ||po.ponant.com^
+||po2qgo.xyz^
 ||poae2klya.icu^
 ||poasotha.com^
 ||pobrpr.xyz^
@@ -123578,6 +123588,7 @@ zzzyk.com###Tinfo
 ||yximgs.com/bs2/adcarsku/sku1563a96c-38ca-4563-a4b5-522208113126.
 ||yximgs.com/bs2/adcarsku/sku9c0e68cc-2f12-4e47-a340-a7293ee88c88.
 ||yxiqqh.dealchecker.co.uk^
+||yxkbgg.xyz^
 ||yxkzip.brastemp.com.br^
 ||yxmrqc.com^
 ||yxptcrss.xyz^
