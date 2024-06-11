@@ -1,7 +1,7 @@
 /*************************************
 
 项目名称：iTunes-系列解锁合集
-更新日期：2024-06-07
+更新日期：2024-06-11
 脚本作者：chxm1023
 电报频道：https://t.me/chxm1023
 使用声明：⚠️仅供参考，🈲转载与售卖！
@@ -26,7 +26,9 @@ const ua = $request.headers['User-Agent'] || $request.headers['user-agent'];
 const bundle_id = chxm1023.receipt["bundle_id"] || chxm1023.receipt["Bundle_Id"];
 
 const list = {
-  'PhimCiaj': { cm: 'sjbla', hx: 'hxpda', id: "com.jiancent.calligraphymaster.lifetime", latest: "chxm1023" }, //练字大师
+  'PhotoMovie': { cm: 'sjbla', hx: 'hxpda', id: "com.mediaeditor.photomovie.year", latest: "chxm1023" }, //PhotoMovie-照片视频
+  'ShotOn': { cm: 'sjblb', hx: 'hxpda', id: "com.colin.shoton.forevervip", latest: "chxm1023" }, //ShotOn-用iPhone拍摄
+  'PhimCiaj': { cm: 'sjblb', hx: 'hxpda', id: "com.jiancent.calligraphymaster.lifetime", latest: "chxm1023" }, //练字大师
   'TimeCut': { cm: 'sjbla', hx: 'hxpda', id: "com.floatcamellia.hfrslowmotion.forevervip", latest: "chxm1023" },  //TimeCut
   'com.floatcamellia.motiok': { cm: 'sjbla', hx: 'hxpda', id: "com.floatcamellia.motiok.vipforever", latest: "chxm1023" },  //Hype_Text-AE特效片制作
   'POPOLockScreenWidgetable': { cm: 'sjbla', hx: 'hxpda', id: "com.widget.fightenegery.yearly", latest: "chxm1023" },  //多彩壁纸
