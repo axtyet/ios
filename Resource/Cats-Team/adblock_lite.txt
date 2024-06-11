@@ -4,8 +4,8 @@
 ! Powerd by Cats-Team
 ! Expires: 1 day (update frequency)
 ! Description: AdRules AdBlock List's Lite Version, And Remove Some Filters
-! ! Version: 2024-06-10 18:59:42(GMT+8) 
-! Total count: 33885
+! ! Version: 2024-06-11 08:03:12(GMT+8) 
+! Total count: 33893
  
 ###ADtip
 ###AdBlockDialog
@@ -9181,7 +9181,7 @@ element-plus.org##.toc-content > div[style="margin-top:16px;"]
 element-plus.org##aside > .page-content-main
 elhow.ru###b-info-wrapper
 elle.com.hk##.tpc-container
-elle.com.hk##article > div.block-default:has(> div.content-wrapper p > span:contains(Cosmart))
+elle.com.hk#?#article > div.block-default:has(> div.content-wrapper p > span:contains(Cosmart))
 embed.media,fembed.com,flashx.tv,gaobook.review,hxfile.co,mavplay.xyz,myyouporn.com,solarmovie.*,vaplayer.xyz,vizcloud.xyz,xstreamcdn.com#$#abort-on-property-read AaDetector
 embedrise.com#%#//scriptlet('prevent-window-open')
 embeducaster.com###impo_overlay
@@ -12757,6 +12757,8 @@ mmff30.com##a[href$="/ref.html"]
 mmff30.com##span[id$="_gg"]
 mmminigames.mail.ru#$#abort-current-inline-script addEventListener advRefreshInterval
 mmonly.cc###\32 vm_box
+mnews.tw##.ad-container-pc
+mnews.tw##.ad-container-pc-only
 mnogoto4ka.ru###sb-site > div[class][style*="z-index"][style*="999999"]
 mnw.cn##.mnw_685
 mnw.cn##.mnw_960
@@ -24251,6 +24253,7 @@ zzzyk.com###Tinfo
 ||hshmbx.xyz^
 ||hsi2i.fun^
 ||hslbahu.top^
+||hsoubnp.icu^
 ||hspdiom.cn^
 ||hsrgnac.cn^
 ||hssapp.shop^
@@ -25707,6 +25710,7 @@ zzzyk.com###Tinfo
 ||kjdbcjkmc.com^
 ||kjeqga.xyz^
 ||kjggk1.xyz^
+||kjipko.xyz^
 ||kjjjusb.xyz^
 ||kjrspnbf.xyz^
 ||kjubky.xyz^
@@ -28533,6 +28537,7 @@ zzzyk.com###Tinfo
 ||pzphmkf.xyz^
 ||pzpivx.xyz^
 ||pzqqstb.icu^
+||pztezl.xyz^
 ||pztjlr.xyz^
 ||pzwjonv.icu^
 ||pzykrcq.cn^
@@ -29094,6 +29099,7 @@ zzzyk.com###Tinfo
 ||restructureinvention.com^$third-party
 ||retinaesprent.com^
 ||retintsmillion.com^
+||retrefsf.cn^
 ||retrieval-bd.duote.com^
 ||retrievemint.com^$third-party
 ||rett.top^
@@ -29240,6 +29246,7 @@ zzzyk.com###Tinfo
 ||rppihz.xyz^
 ||rpyor0k.xyz^
 ||rqauutf.icu^
+||rqnefp.xyz^
 ||rqq.co/Webservices/jsParseLinks.aspx$script,third-party
 ||rqq.co/visitScript/$script,third-party
 ||rqrvfp.xyz^
@@ -32060,6 +32067,7 @@ zzzyk.com###Tinfo
 ||wewbnso.cn^
 ||wewlkq.com^
 ||wfiles.hcomic.net/indexSwiper/*_*x*_*_TC_gif.gif
+||wfjslie.top^
 ||wfndponfd.com^
 ||wfpjeul.cn^
 ||wfqgfaa.cn^
