@@ -1,0 +1,8 @@
+#!name=imgplay
+#!desc=imgplay
+
+[Script]
+imgplay = type=http-response, pattern=^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$, script-path=https://raw.githubusercontent.com/axtyet/Nebula/main/Resource/Yu9191/Script/imgplay.js, requires-body=true, max-size=-1, timeout=60
+
+[MITM]
+hostname = %APPEND% buy.itunes.apple.com
