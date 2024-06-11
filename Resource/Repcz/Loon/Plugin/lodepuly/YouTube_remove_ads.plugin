@@ -4,7 +4,7 @@
 #!author = Maasea VirgilClyne Choler DivineEngine app2smile
 #!homepage = https://gitlab.com/lodepuly/vpn_tool/-/tree/master/Tool/Loon/Plugin
 #!icon = https://gitlab.com/lodepuly/iconlibrary/-/raw/main/App_icon/120px/YouTube.png
-#!date = 2024-05-14 15:42:41
+#!date = 2024-06-11 21:59:22
 #!select = 隐藏上传按钮, true, false
 #!select = 隐藏选段按钮, true, false
 #!select = 字幕翻译语言, zh-Hans, zh-Hant, ja, ko, en, off
