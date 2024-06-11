@@ -1,4 +1,4 @@
-# 2024-06-08 17:50
+# 2024-06-12 07:00
 
 # > 0-9
 
@@ -597,6 +597,7 @@ DOMAIN-KEYWORD,ttvnw
 
 # > VPS IDC
 DOMAIN-SUFFIX,akile.io
+DOMAIN-SUFFIX,bytevirt.com
 DOMAIN-SUFFIX,cloudcone.com
 DOMAIN-SUFFIX,racknerd.com
 DOMAIN-SUFFIX,saltyfish.io
