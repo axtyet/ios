@@ -4,7 +4,7 @@
 #
 # Clash Verg Rev Version ≥ 1.6.2
 #
-# 最后更新时间: 2024-06-05 08:20
+# 最后更新时间: 2024-06-12 20:25
 #
 # ================
 
@@ -217,7 +217,3 @@ rules:
   - RULE-SET,Lan,DIRECT
   - GEOIP,CN,DIRECT
   - MATCH,兜底分流
-
-script:
-  shortcuts:
-    quic: network == 'udp' and dst_port == 443
