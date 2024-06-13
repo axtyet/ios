@@ -399,6 +399,7 @@ domain:100tone.com
 domain:1017.cn
 domain:1017facai8.xyz
 domain:101m3.com
+domain:1028images.com
 domain:10298198.arch.sofi.org
 domain:10298198.info.sofi.org
 domain:10298198.m.sofi.org
@@ -1836,6 +1837,7 @@ domain:5363316.marketing.numi.com
 domain:5363316.trackerinfo.southbeachdiet.com
 domain:536fbeeea4.com
 domain:5378.l5eamr17d.com
+domain:537images1.com
 domain:539f346355.com
 domain:53c2dtzsj7t1.top
 domain:53kf.com
@@ -2244,6 +2246,7 @@ domain:7251.cosmicnewspulse.com
 domain:7253d56acf.com
 domain:7271.5clo0xmbf.com
 domain:7281.bestinterestings.com
+domain:7299tu75.cc
 domain:729drainer.com
 domain:72hdgb5o.de
 domain:72hdownload.com
@@ -2480,6 +2483,7 @@ domain:82c39cef22.0a3036d0e7.com
 domain:82zcb.icu
 domain:8320.5clo0xmbf.com
 domain:8353e36c2a.com
+domain:835images1.com
 domain:8379.4puuqeh41.com
 domain:8383.5clo0xmbf.com
 domain:83u7q.top
@@ -9976,7 +9980,6 @@ domain:airairgu.com
 domain:airaujoog.com
 domain:airbornefrench.com
 domain:airborneold.com
-domain:aircgd.shop
 domain:airconditionpianoembarrassment.com
 domain:aircraftairliner.com
 domain:aircraftsplendid.com
@@ -21281,6 +21284,7 @@ domain:ccb.myzen.co.uk
 domain:ccc.aqualink.tokyo
 domain:ccc.sys.intl.xiaomi.com
 domain:ccc.sys.miui.com
+domain:ccccc67kkkkk.com
 domain:cccpmo.com
 domain:cccrir.com
 domain:ccdace.hupu.com
@@ -27511,6 +27515,7 @@ domain:cvastico.com
 domain:cvbjctqs.xyz
 domain:cvcvotjyasdtil.com
 domain:cvda.17173.com
+domain:cvfgere96.cn
 domain:cvftv2.com
 domain:cvgrszkg.xyz
 domain:cvhefd.ixbt.com
@@ -37737,7 +37742,6 @@ domain:etrvfx.xyz
 domain:ets.easybrain.com
 domain:ets.ni.com
 domain:etscampaign.motorola.com
-domain:etsy-verifed-shop.com
 domain:ettilt.com
 domain:etude.epidemiologie-pop-ge.ch
 domain:etui.fs.ml.com
@@ -41552,7 +41556,6 @@ domain:franecki.net
 domain:franeski.net
 domain:frangh.com
 domain:frankdoc.site
-domain:frankgreenauonline.shop
 domain:frankjackpot.io
 domain:frankjackpot.pro
 domain:franklyatmosphericanniversary.com
@@ -41747,6 +41750,7 @@ domain:freedldz.com
 domain:freedom-5g.com
 domain:freedom-ca-5g.com
 domain:freedom-deposit.ca
+domain:freedomgift50.com
 domain:freedominfo.net
 domain:freedomofsoftware.com
 domain:freedomsaved.com
@@ -43478,7 +43482,6 @@ domain:ge8.getfto.com
 domain:gea-exchange-03.net.jumia.ug
 domain:gear.echovisuals.com
 domain:gearanime.com
-domain:gearclover.com
 domain:gearedftnerr.com
 domain:geargrope.com
 domain:gearhomies.com
@@ -46112,6 +46115,7 @@ domain:governmentcloud.avaya.com
 domain:goverua.com
 domain:govhechi.cn
 domain:govkunming.cn
+domain:govmedcareers.com
 domain:govxinjiang.cn
 domain:govyygegtgofm.xyz
 domain:gowarehouse.net
@@ -46509,6 +46513,7 @@ domain:groacoaz.com
 domain:groagnoaque.com
 domain:groameeb.com
 domain:groansnoosed.space
+domain:groapeeque.com
 domain:grobido.info
 domain:grocerycookerycontract.com
 domain:grocerysurveyingentrails.com
@@ -46968,7 +46973,6 @@ domain:guttiequashey.digital
 domain:gutwn.info
 domain:guuewhkwtrvab.com
 domain:guufxr.sdbullion.com
-domain:guus.store
 domain:guvsxiex.xyz
 domain:guvwolr.com
 domain:guwait.com
@@ -50669,7 +50673,6 @@ domain:id.5.p2l.info
 domain:id.sputniknews.com
 domain:id3103.com
 domain:id5-sync.com
-domain:id6.me
 domain:idahoanpavies.com
 domain:idantglyoxim.top
 domain:idaplay.com
@@ -58935,6 +58938,7 @@ domain:level.badlandgame.com
 domain:levelbash.com
 domain:levelbraid.com
 domain:levelsteelwhite.com
+domain:levelupstore.xyz
 domain:leveragebestow.com
 domain:leveragetypicalreflections.com
 domain:leverseriouslyremarks.com
@@ -61210,6 +61214,7 @@ domain:logs.nandu.com
 domain:logs.naukri.com
 domain:logs.netflix.com
 domain:logs.ntvplus.tv
+domain:logs.openbank.com
 domain:logs.roku.com
 domain:logs.sanchoikns.vn
 domain:logs.spilgames.com
@@ -65826,10 +65831,10 @@ domain:mer.stdout.cz
 domain:mercadeo.promerica.fi.cr
 domain:merchant-app.th3rdwave.coffee
 domain:merchant-businesses.com
+domain:merchant-center-analytics.goog
 domain:merchant-mail.neosurf.com
 domain:merchant.libertycarz.com
 domain:merchenta.com
-domain:merchvips.com
 domain:mercialtaver.club
 domain:mercifulsurveysurpass.com
 domain:mercor.cn
@@ -67837,6 +67842,7 @@ domain:migimsas.net
 domain:migineg.com
 domain:mignished-sility.com
 domain:mignonsniper.com
+domain:migo011.top
 domain:migohi.ru
 domain:migopwrajhca.com
 domain:migrantacknowledged.com
@@ -68726,7 +68732,6 @@ domain:mockingchuckled.com
 domain:mockingcolloquial.com
 domain:mockingsubtlecrimpycrimpy.com
 domain:mocmubse.net
-domain:modalsaya.xyz
 domain:moddetail.com
 domain:modelingfraudulent.com
 domain:modents-diance.com
@@ -69607,7 +69612,6 @@ domain:mudcatbreezes.space
 domain:muddiedbubales.com
 domain:muddychronicstuffed.com
 domain:muddyharold.com
-domain:muddyking.com
 domain:muddytransplantinsert.com
 domain:mudfall.com
 domain:mudmonster.org
@@ -69745,7 +69749,6 @@ domain:musicnote.info
 domain:musicoholics.com
 domain:musikzoo.com
 domain:musique-france.com
-domain:musk-event.xyz
 domain:musk-project.com
 domain:musk.plus
 domain:muskatarsenal.com
@@ -70663,9 +70666,9 @@ domain:navi38.ru
 domain:navi39.ru
 domain:navi4.com
 domain:navi40.com
+domain:navi42.ru
 domain:navi45.ru
 domain:navi47.com
-domain:navi47.ru
 domain:navi5.com
 domain:navi50.com
 domain:navi53.com
@@ -70679,7 +70682,6 @@ domain:navi66.ru
 domain:navi67.com
 domain:navi67.ru
 domain:navi7.com
-domain:navi70.com
 domain:navi71.com
 domain:navi72.com
 domain:navi72.ru
@@ -70691,15 +70693,13 @@ domain:navi77.com
 domain:navi78.ru
 domain:navi79.com
 domain:navi8.com
-domain:navi8.ru
-domain:navi85.com
 domain:navi86.ru
 domain:navi87.com
 domain:navi88.com
-domain:navi9.com
 domain:navi90.com
 domain:navi94.com
 domain:navi96.com
+domain:navi97.com
 domain:navi98.com
 domain:navi99.com
 domain:naviblue-team.com
@@ -76081,6 +76081,7 @@ domain:paichaus.com
 domain:paidalts.com
 domain:paiement.securise.matiprice.com
 domain:paigarohauja.com
+domain:paiglumousty.net
 domain:paigna.com
 domain:paikoasa.tv
 domain:paikoaza.net
@@ -76285,6 +76286,7 @@ domain:paradoxfactor.com
 domain:parafiaukta.pl
 domain:paragraphdisappointingthinks.com
 domain:paragraphopera.com
+domain:parajumperssalg.com
 domain:parakeet.jorenvanhocht.be
 domain:parakeet.quotetweet.com
 domain:parallax.askmediagroup.com
@@ -78235,6 +78237,7 @@ domain:pingtcss.qq.com
 domain:pinionscdf.com
 domain:pinitolshouldn.com
 domain:pinjamanelit.top
+domain:pinjamanpedia.xyz
 domain:pinjamanplus.com
 domain:pinjamnow.my.id
 domain:pinjamteman.top
@@ -81445,6 +81448,7 @@ domain:pushanert.com
 domain:pushanishe.com
 domain:pushanya.net
 domain:pusharest.com
+domain:pushatomic.com
 domain:pushazam.com
 domain:pushazer.com
 domain:pushbaddy.com
@@ -98573,7 +98577,6 @@ domain:stelaiatokal.top
 domain:stellara.de
 domain:stellargiveaway.info
 domain:stellarium.fr
-domain:stellaszone.com
 domain:stelsarg.net
 domain:steltilr.xyz
 domain:stemboastfulrattle.com
@@ -102454,7 +102457,6 @@ domain:theblackshothack.com
 domain:thebrighttag.com
 domain:thebugs.ws
 domain:thebuzz.today
-domain:thecabinas.com
 domain:thecalokas.com
 domain:thecarconnections.com
 domain:thecatmachine.com
@@ -108792,6 +108794,7 @@ domain:tunuk.ru
 domain:tuoferta-deldia.com
 domain:tuoizbtl.xyz
 domain:tuotianxia.top
+domain:tupian6666.com
 domain:tuplzt.xyz
 domain:tupwiwm.com
 domain:tuqizi.uno
@@ -109775,6 +109778,7 @@ domain:ulusalofis.com
 domain:ulvpdxabzuoy.com
 domain:ulwfys.xyz
 domain:ulyuom.xyz
+domain:um-bs.com
 domain:um-public-panel-prod.s3.amazonaws.com
 domain:um.contentstudio.io
 domain:um.hd.sohu.com
@@ -110904,6 +110908,7 @@ domain:uu.qq.com
 domain:uu1.3gu.com
 domain:uu11881.com
 domain:uu22002.com
+domain:uu22112.com
 domain:uu22332.com
 domain:uu22662.com
 domain:uu3192uu.com
@@ -110936,6 +110941,7 @@ domain:uuoizbtl.xyz
 domain:uurzdr.global-style.jp
 domain:uusimaa.viessmann.fi
 domain:uuudqhialb.com
+domain:uuuutp.com
 domain:uuuzuu.xyz
 domain:uuvzmba.cn
 domain:uuxfznnf.xyz
@@ -117876,6 +117882,7 @@ domain:xmfhcmyznalbfi.com
 domain:xmgysweb.com
 domain:xmhgwmdjhul.com
 domain:xmjajv.xyz
+domain:xmjnohwneqe.com
 domain:xmkbrfyu.cn
 domain:xmkmryu.icu
 domain:xmkmuadkefzav.com
@@ -118113,6 +118120,7 @@ domain:xn--steamcommunlity-vpb.com
 domain:xn--steamcommunlt-lse6412i.com
 domain:xn--stemcmmunily-09a608b.com
 domain:xn--swt207gl1hzc.net
+domain:xn--w9q675dm1p7em.net
 domain:xn--wgvp78a61swpe6zdozj.cn
 domain:xn--wxtr9fwyxk9c.xn--fiqs8s
 domain:xn--wxtr9fwyxk9co4hbua.xn--fiqs8s
@@ -118440,6 +118448,7 @@ domain:xww360.com
 domain:xwxqdfmlsgir.com
 domain:xx.billaesopus.com
 domain:xx.foetorsnudisms.com
+domain:xx3691b.com
 domain:xxba.cc
 domain:xxbeyqowtdjgqr.com
 domain:xxccdshj.com
@@ -118504,6 +118513,7 @@ domain:xxxviijmp.com
 domain:xxxvipporno.com
 domain:xxxvjmp.com
 domain:xxxwebtraffic.com
+domain:xxxx68xxxx.com
 domain:xy.com
 domain:xy33.smallable.com
 domain:xy7elite.com
