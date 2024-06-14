@@ -4,8 +4,8 @@
 ! Powerd by Cats-Team
 ! Expires: 1 day (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2024-06-14 00:41:47(GMT+8) 
-! Total count: 123600
+! ! Version: 2024-06-14 08:03:28(GMT+8) 
+! Total count: 123609
  
 ###ADtip
 ###AdBlockDialog
@@ -56078,6 +56078,7 @@ zzzyk.com###Tinfo
 ||behavior.tongdun.net^
 ||behavioralengine.com^$third-party
 ||behe.com^$third-party
+||behvgsik.icu^
 ||beijing-air.com/images/a/j
 ||beijing.buzhi5.com^
 ||beijingbang.top/scholar/xljsci
@@ -58632,6 +58633,7 @@ zzzyk.com###Tinfo
 ||cfzhushou.com^*/King_Chance_Layer.js
 ||cgbswl.icu^
 ||cgctsw.mytour.vn^
+||cgczuu.xyz^
 ||cgdyw.net/xx/
 ||cgeimage.commutil.kr/jscomm/*/logger.js
 ||cgicol.amap.com^
@@ -61303,6 +61305,7 @@ zzzyk.com###Tinfo
 ||crobotb.com^
 ||crocetta.viessmann.it^
 ||crocodile.rapid-sale.co.uk^
+||crodfnyk.xyz^
 ||crossees.com^
 ||crosspixel.net^$third-party
 ||crosswalkmail.com^$third-party
@@ -68089,6 +68092,7 @@ zzzyk.com###Tinfo
 ||ellineretrk.com^
 ||ellingsen.cn^
 ||ellypsio.net.jumia.com.ng^
+||elmasistatistik.com.tr^$third-party
 ||elmir.ua/response/stats.php
 ||elog.tokyo/counter_access.php
 ||elogic-learning.actonservice.com^
@@ -80553,6 +80557,7 @@ zzzyk.com###Tinfo
 ||kshrsf.icu^
 ||kshuiz.top^
 ||kslbahd.top^
+||kspl48j.xyz^
 ||kspotson.de^
 ||ksqfwxu.cn^
 ||ksrgsc.xyz^
@@ -86202,6 +86207,7 @@ zzzyk.com###Tinfo
 ||mchtna.fashionplus.co.kr^
 ||mci1.co.kr^$third-party
 ||mckbpe.united-arrows.co.jp^
+||mckgmkh.icu^
 ||mckiey.thun.com^
 ||mcloudglobal.com^$third-party
 ||mclseww.top^
@@ -110634,6 +110640,7 @@ zzzyk.com###Tinfo
 ||tdf1.vente-unique.pt^
 ||tdhlmto.cn^
 ||tdhnxf.xyz^
+||tdhserg.cn^
 ||tdi.cartoonnetwork.com^
 ||tdid.m.qq.com^
 ||tdigcw.com^
@@ -116974,6 +116981,7 @@ zzzyk.com###Tinfo
 ||uff.puf-uff.live^
 ||ufgg55.xyz^
 ||ufile.cc/crod.js
+||ufjslit.top^
 ||uflfhl.mercci22.com^
 ||uflybplr.xyz^
 ||ufnbgh.meierq.com^
@@ -123465,6 +123473,7 @@ zzzyk.com###Tinfo
 ||zuqjug.nutrabay.com^
 ||zurjxe.armine.com^
 ||zusvfq.otorapor.com^
+||zutevd.xyz^
 ||zuugfj.cn^
 ||zuvbzl.xyz^
 ||zuzab.com^$third-party

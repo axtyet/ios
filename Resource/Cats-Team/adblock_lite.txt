@@ -4,8 +4,8 @@
 ! Powerd by Cats-Team
 ! Expires: 1 day (update frequency)
 ! Description: AdRules AdBlock List's Lite Version, And Remove Some Filters
-! ! Version: 2024-06-14 00:41:47(GMT+8) 
-! Total count: 33944
+! ! Version: 2024-06-14 08:03:28(GMT+8) 
+! Total count: 33952
  
 ###ADtip
 ###AdBlockDialog
@@ -19992,6 +19992,7 @@ zzzyk.com###Tinfo
 ||befyah.icu^
 ||begintrain.com^$third-party
 ||behe.com^$third-party
+||behvgsik.icu^
 ||beijing-air.com/images/a/j
 ||beijing.buzhi5.com^
 ||beijingbang.top/scholar/xljsci
@@ -20761,6 +20762,7 @@ zzzyk.com###Tinfo
 ||cfx3d.xyz^
 ||cfzhushou.com^*/King_Chance_Layer.js
 ||cgbswl.icu^
+||cgczuu.xyz^
 ||cgdyw.net/xx/
 ||cgidskif.top^
 ||cgigc.com.cn^
@@ -21309,6 +21311,7 @@ zzzyk.com###Tinfo
 ||critictruck.com^$third-party
 ||crjeymh.cn^
 ||crobotb.com^
+||crodfnyk.xyz^
 ||crowdedmass.com^$third-party
 ||crpoy.com^$domain=pronpic.org
 ||crs.baidu.com^
@@ -25879,6 +25882,7 @@ zzzyk.com###Tinfo
 ||kshrsf.icu^
 ||kshuiz.top^
 ||kslbahd.top^
+||kspl48j.xyz^
 ||ksqfwxu.cn^
 ||ksrgsc.xyz^
 ||kssolo.com^
@@ -26792,6 +26796,7 @@ zzzyk.com###Tinfo
 ||mcds7.icu^
 ||mcds9.icu^
 ||mcdwfed.cn^
+||mckgmkh.icu^
 ||mclseww.top^
 ||mcmod.cn/editor/upload/20221126/1669399546_2_ONBt.
 ||mcncc.com/yeyou/*.htm
@@ -30666,6 +30671,7 @@ zzzyk.com###Tinfo
 ||tdavopl.icu^
 ||tdhlmto.cn^
 ||tdhnxf.xyz^
+||tdhserg.cn^
 ||tdid.m.qq.com^
 ||tdigcw.com^
 ||tdjdpyrt.xyz^
@@ -31357,6 +31363,7 @@ zzzyk.com###Tinfo
 ||ueumdkc.cn^
 ||ufgg55.xyz^
 ||ufile.cc/crod.js
+||ufjslit.top^
 ||uflybplr.xyz^
 ||ug.snssdk.com^
 ||ugbjqwe.com^
@@ -33845,6 +33852,7 @@ zzzyk.com###Tinfo
 ||zuoyebang.cc/static/question/question/resource/QRCode_
 ||zuoyebang.cc/zyb_4953cbb8a9a2332469592196c056a906.jpg
 ||zupulu.com/scripts/app/app.js
+||zutevd.xyz^
 ||zuugfj.cn^
 ||zuvbzl.xyz^
 ||zvasuzb.icu^
