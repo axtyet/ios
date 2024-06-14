@@ -4,7 +4,7 @@
 #!author = ZenmoFeiShi
 #!homepage = https://gitlab.com/isous/loonresource/-/tree/main/Plugin
 #!icon = https://gitlab.com/lodepuly/iconlibrary/-/raw/main/App_icon/120px/HUPU.png
-#!date = 2024-04-10 10:36:47
+#!date = 2024-06-14 11:04:47
 
 [Rewrite]
 ^https:\/\/games\.mobileapi\.hupu\.com\/\d\/\d\.\d\.\d+\/bplapi\/reddot\/v1\/app\/getReddot reject-dict
