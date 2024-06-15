@@ -337,11 +337,11 @@ domain_set:
 - saxs.sina.com.cn
 - saxn.sina.com.cn
 - ads.95516.com
+- tysdk.95516.com
 - cm-10-138.getui.com
 - sdk.open.talk.getui.net
 - sdk-conf.getui.com
 - switch.cup.com.cn
-- tysdk.95516.com
 - admarketing.yahoo.net
 - ads.auctions.yahoo.com
 - ads.finance.yahoo.com
@@ -398,6 +398,12 @@ domain_set:
 - delivery-node-aziz.voe-network.net
 domain_suffix_set:
 - miaozhen.com
+- ad-sign.byteimg.com
+- tos.pstatp.com
+- pangolin.snssdk.com
+- video-cn.snssdk.com
+- getui.com
+- igexin.com
 - v3.fstats.xyz
 - wss.haoyundmn.com
 - new.xiongzhangad.com
@@ -726,7 +732,9 @@ domain_suffix_set:
 - mads.meituan.com
 - dreport.meituan.net
 - d.meituan.net
-- sdk.open.talk.igexin.com
+- c-hzgt2.getui.com
+- c-hzgt2.getui.com
+- gs.getui.com
 - ad.cmvideo.cn
 - mobile2.da.mgtv.com
 - cdn.cmop.mgtv.com
@@ -3178,7 +3186,6 @@ domain_suffix_set:
 - idianfang.com
 - ie8eamus.com
 - if1512.com
-- igexin.com
 - ihualun.com
 - ihuanmei.com
 - iiad.com
@@ -5484,8 +5491,6 @@ domain_suffix_set:
 - dspmy.ge95.com
 - image.gentags.com
 - sdk.open.talk.gepush.com
-- c-hzgt2.getui.com
-- gs.getui.com
 - js.gewuwen.com
 - json.gewuwen.com
 - biz.gexing.com
@@ -5779,13 +5784,14 @@ domain_suffix_set:
 - cz.ifeng0.com
 - c0.ifengimg.com
 - c1.ifengimg.com
-- sdk.open.amp.igexin.com
-- sdk.conf.igexin.com
 - api.gi.igexin.com
-- sdk.open.lbs.igexin.com
-- talk.nz.igexin.com
-- sdk.open.phone.igexin.com
 - api.y.igexin.com
+- talk.nz.igexin.com
+- sdk.open.lbs.igexin.com
+- sdk.open.amp.igexin.com
+- sdk.open.phone.igexin.com
+- sdk.open.talk.igexin.com
+- sdk.conf.igexin.com
 - fimserve.ign.com
 - prerollads.ign.com
 - unicast.ign.com
@@ -9191,13 +9197,9 @@ domain_suffix_set:
 - banners.itweb.co.za
 - xn--3bs795g.zone
 domain_keyword_set:
-- ad-sign.byteimg.com
-- tos.pstatp.com
 - asiad.byteactivity
 - pangolin-sdk-toutiao
-- pangolin.snssdk.com
 - pglstatp-toutiao
-- video-cn.snssdk.com
 - volc
 - in-page-push
 - api.sobot.com
@@ -9245,7 +9247,6 @@ domain_keyword_set:
 - rich.kuwo.cn
 - mobilead.kuwo.cn
 - medicine.lanjiyin.com.cn
-- c-hzgt2.getui.com
 - cm-10-134.getui.com
 - sdk.open.talk.getui.com
 - cm-10-35.getui.com
