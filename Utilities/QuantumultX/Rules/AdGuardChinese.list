@@ -197,6 +197,12 @@ HOST-SUFFIX,symaa.cn,REJECT
 HOST-SUFFIX,hbnygj.com,REJECT
 HOST-SUFFIX,https-filtering-check.adtidy.org,REJECT
 HOST-SUFFIX,cupfox.app,REJECT
+HOST-SUFFIX,dvgjx.cn,REJECT
+HOST-SUFFIX,ytqeavc.icu,REJECT
+HOST-SUFFIX,adzo.cn,REJECT
+HOST-SUFFIX,aeyyck.xyz,REJECT
+HOST-SUFFIX,poxdpj.xyz,REJECT
+HOST-SUFFIX,lnlkmr.xyz,REJECT
 HOST-SUFFIX,0322cfmtl.cc,REJECT
 HOST-SUFFIX,07dy.cc,REJECT
 HOST-SUFFIX,0940088.com,REJECT
@@ -211,7 +217,6 @@ HOST-SUFFIX,myreadcloud.com,REJECT
 HOST-SUFFIX,tjuspyk.icu,REJECT
 HOST-SUFFIX,zkrdzn.xyz,REJECT
 HOST-SUFFIX,zmbmoxij.icu,REJECT
-HOST-SUFFIX,d1zoi2q7y0e4d.cloudfront.net,REJECT
 HOST-SUFFIX,xx3691b.com,REJECT
 HOST-SUFFIX,1028images.com,REJECT
 HOST-SUFFIX,537images1.com,REJECT
@@ -243,6 +248,12 @@ HOST-SUFFIX,hevctt.xyz,REJECT
 HOST-SUFFIX,osanyc.xyz,REJECT
 HOST-SUFFIX,ofjslik.top,REJECT
 HOST-SUFFIX,faaqgje.icu,REJECT
+HOST-SUFFIX,pwxlbsie.icu,REJECT
+HOST-SUFFIX,bbqoa.top,REJECT
+HOST-SUFFIX,fogolakda.top,REJECT
+HOST-SUFFIX,szdpk.cn,REJECT
+HOST-SUFFIX,9216tp1.com,REJECT
+HOST-SUFFIX,xianliao.voto,REJECT
 HOST-SUFFIX,0op8kh.cn,REJECT
 HOST-SUFFIX,0oqt9i.cn,REJECT
 HOST-SUFFIX,0q5joc.cn,REJECT
@@ -5184,6 +5195,7 @@ HOST-SUFFIX,ads-6686.top,REJECT
 HOST-SUFFIX,adsage.com,REJECT
 HOST-SUFFIX,aixuntupian.oss-cn-hongkong.aliyuncs.com,REJECT
 HOST-SUFFIX,alimama.alicdn.com,REJECT
+HOST-SUFFIX,d1zoi2q7y0e4d.cloudfront.net,REJECT
 HOST-SUFFIX,alime-pic.oss-cn-hangzhou.aliyuncs.com,REJECT
 HOST-SUFFIX,atanx.alicdn.com,REJECT
 HOST-SUFFIX,baiducom.bj.bcebos.com,REJECT
