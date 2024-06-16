@@ -34318,6 +34318,7 @@ domain:drzgtli.com
 domain:ds-aksb-a.akamaihd.net
 domain:ds-recommender.styria.hr
 domain:ds.onet.pl
+domain:ds.ruanwengfa.com
 domain:ds.webprojectslab.com
 domain:ds1.kaijia.com
 domain:ds2.independer.nl
@@ -42434,6 +42435,7 @@ domain:fujifilmdb.fujifilmdiosynth.com
 domain:fujifood.hk
 domain:fujigar.com
 domain:fujincenter.com
+domain:fujnrh.xyz
 domain:fujxujid.com
 domain:fukkad.com
 domain:fukuoka-gaycafe.net.mydays.de
@@ -69614,6 +69616,7 @@ domain:mteme7li1d6r.vertexmarketingagency.com
 domain:mtest.fontself.com
 domain:mtga.setapp.com
 domain:mtgglobals.com
+domain:mtguwx.xyz
 domain:mtgzlnugxej.com
 domain:mthhhuq.cn
 domain:mthvjim.com
@@ -73216,6 +73219,7 @@ domain:oblivionwatcherrebellious.com
 domain:oblong-pool.pro
 domain:oblongcondition.com
 domain:oblongravenousgosh.com
+domain:obmphi.xyz
 domain:obnarium.com
 domain:obnoxiouspatrolassault.com
 domain:obnoxiousstackderide.com

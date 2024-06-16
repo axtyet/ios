@@ -4,8 +4,8 @@
 ! Powerd by Cats-Team
 ! Expires: 1 day (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2024-06-16 08:03:56(GMT+8) 
-! Total count: 123647
+! ! Version: 2024-06-16 12:16:09(GMT+8) 
+! Total count: 123651
  
 ###ADtip
 ###AdBlockDialog
@@ -66993,6 +66993,7 @@ zzzyk.com###Tinfo
 ||drzgtli.com^
 ||ds-aksb-a.akamaihd.net^
 ||ds.haaretz.co.il^
+||ds.ruanwengfa.com^
 ||ds.webprojectslab.com^
 ||ds1.kaijia.com^
 ||ds2.independer.nl^
@@ -71250,6 +71251,7 @@ zzzyk.com###Tinfo
 ||fujifood.hk^
 ||fujiladder.com^$third-party
 ||fujincenter.com^
+||fujnrh.xyz^
 ||fukuoka-gaycafe.net.mydays.de^
 ||fulibac.com/images/upload/ad/
 ||fulibl.com/wp-content/uploads/2016/06/320-230.jpg
@@ -89530,6 +89532,7 @@ zzzyk.com###Tinfo
 ||mteme7li1d6r.vertexmarketingagency.com^
 ||mtest.fontself.com^
 ||mtga.setapp.com^
+||mtguwx.xyz^
 ||mthhhuq.cn^
 ||mtienlx.top^
 ||mtime.cn/library/*/ECommerce/GoodsAndFeatureCtrl.js
@@ -91327,6 +91330,7 @@ zzzyk.com###Tinfo
 ||obhxvb.tmktools.ru^
 ||objectpartners.actonservice.com^
 ||obl74.xyz^
+||obmphi.xyz^
 ||obnrap.neimanmarcus.com^
 ||obooom.robinmaybag.com^
 ||obozrevatel.com/pixel.png

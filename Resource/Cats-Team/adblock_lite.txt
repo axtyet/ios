@@ -4,8 +4,8 @@
 ! Powerd by Cats-Team
 ! Expires: 1 day (update frequency)
 ! Description: AdRules AdBlock List's Lite Version, And Remove Some Filters
-! ! Version: 2024-06-16 08:03:56(GMT+8) 
-! Total count: 33979
+! ! Version: 2024-06-16 12:16:09(GMT+8) 
+! Total count: 33983
  
 ###ADtip
 ###AdBlockDialog
@@ -22129,6 +22129,7 @@ zzzyk.com###Tinfo
 ||dryden.cn^
 ||drydrum.com^$third-party
 ||drzgtli.com^
+||ds.ruanwengfa.com^
 ||ds1.kaijia.com^
 ||dsa22.com^
 ||dsbfpt.xyz^
@@ -23116,6 +23117,7 @@ zzzyk.com###Tinfo
 ||fujifood.hk^
 ||fujiladder.com^$third-party
 ||fujincenter.com^
+||fujnrh.xyz^
 ||fulibac.com/images/upload/ad/
 ||fulibl.com/wp-content/uploads/2016/06/320-230.jpg
 ||fulitech.com.cn^*/float.js
@@ -27220,6 +27222,7 @@ zzzyk.com###Tinfo
 ||mt4v4.com^
 ||mtawcy.xyz^
 ||mtddqjk.cn^
+||mtguwx.xyz^
 ||mthhhuq.cn^
 ||mtienlx.top^
 ||mtime.cn/library/*/ECommerce/GoodsAndFeatureCtrl.js
@@ -27750,6 +27753,7 @@ zzzyk.com###Tinfo
 ||obgbok.com^
 ||obgekjz.icu^
 ||obl74.xyz^
+||obmphi.xyz^
 ||obscenesidewalk.com^$third-party
 ||observantice.com^$third-party
 ||obturex.com^

@@ -4,8 +4,8 @@
 ! Powerd by Cats-Team
 ! Expires: 1 (update frequency)
 ! Description: The DNS Filters
-! Total count: 121462 
-! Update: 2024-06-16 08:03:57(GMT+8)
+! Total count: 121466 
+! Update: 2024-06-16 12:16:10(GMT+8)
 /^.+stat\.kugou\.com/
 /^admarvel\./
 /^admaster\./
@@ -34525,6 +34525,7 @@
 ||ds-aksb-a.akamaihd.net^
 ||ds-recommender.styria.hr^
 ||ds.onet.pl^
+||ds.ruanwengfa.com^
 ||ds.webprojectslab.com^
 ||ds1.kaijia.com^
 ||ds2.independer.nl^
@@ -42657,6 +42658,7 @@
 ||fujifood.hk^
 ||fujigar.com^
 ||fujincenter.com^
+||fujnrh.xyz^
 ||fujxujid.com^
 ||fukkad.com^
 ||fukuoka-gaycafe.net.mydays.de^
@@ -69908,6 +69910,7 @@
 ||mtest.fontself.com^
 ||mtga.setapp.com^
 ||mtgglobals.com^
+||mtguwx.xyz^
 ||mtgzlnugxej.com^
 ||mthhhuq.cn^
 ||mthvjim.com^
@@ -73512,6 +73515,7 @@
 ||oblong-pool.pro^
 ||oblongcondition.com^
 ||oblongravenousgosh.com^
+||obmphi.xyz^
 ||obnarium.com^
 ||obnoxiouspatrolassault.com^
 ||obnoxiousstackderide.com^
