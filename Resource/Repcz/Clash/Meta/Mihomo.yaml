@@ -4,7 +4,7 @@
 #
 # Mihomo Version ≥ 1.8.5
 #
-# 最后更新时间: 2024-06-13 22:35
+# 最后更新时间: 2024-06-16 20:30
 #
 # ================
 
@@ -149,12 +149,6 @@ proxy-groups:
 
 rule-providers:
 
-  # 局域网   
-  Lan: {<<: *c, path: ./rule-providers/Lan.list,  url: https://github.com/Repcz/Tool/raw/X/Clash/Rules/Lan.list}
-
-  # 下载服务
-  Download: {<<: *c, path: ./rule-providers/Download.list,  url: https://github.com/Repcz/Tool/raw/X/Clash/Rules/Download.list}
-      
   #广告拦截
   AD: {<<: *c, path: ./rule-providers/AD.list, url: https://github.com/Repcz/Tool/raw/X/Clash/Rules/Reject.list}
 
@@ -183,9 +177,6 @@ rule-providers:
   # AI平台
   AI: {<<: *c, path: ./rule-providers/AI.list,  url: https://github.com/Repcz/Tool/raw/X/Clash/Rules/AI.list}
 
-  # 中国大陆
-  ChinaDomain: {<<: *c, path: ./rule-providers/ChinaDomain.list,  url: https://github.com/Repcz/Tool/raw/X/Clash/Rules/ChinaDomain.list}
-
   # Emby
   Emby: {<<: *c, path: ./rule-providers/Emby.list,  url: https://github.com/Repcz/Tool/raw/X/Clash/Rules/Emby.list}
 
@@ -196,8 +187,6 @@ rule-providers:
   ProxyGFW: {<<: *c, path: ./rule-providers/ProxyGFW.list,  url: https://github.com/Repcz/Tool/raw/X/Clash/Rules/ProxyGFW.list}
  
 rules:
-  #- SCRIPT,quic,REJECT
-  #- RULE-SET,Download,DIRECT
   - RULE-SET,AD,广告拦截
   - RULE-SET,AI,AI
   - RULE-SET,Apple,苹果服务
@@ -213,7 +202,8 @@ rules:
   - RULE-SET,Emby,Emby
   - RULE-SET,ProxyMedia,国际媒体
   - RULE-SET,ProxyGFW,国外网站
-  - RULE-SET,ChinaDomain,DIRECT
-  - RULE-SET,Lan,DIRECT
+  - GEOSITE,cn,DIRECT
+  - GEOSITE,geolocation-!cn,国外网站
+  - GEOIP,lan,DIRECT
   - GEOIP,CN,DIRECT
   - MATCH,兜底分流

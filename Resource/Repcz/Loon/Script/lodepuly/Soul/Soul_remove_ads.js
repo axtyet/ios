@@ -1,7 +1,7 @@
 /*
 脚本引用：https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/Soul.js
 */
-//2024-06-12 23:04  感谢@可莉对去除开屏广告提供的帮助
+//2024-06-16 18:40  感谢@可莉对去除开屏广告提供的帮助
 const url = $request.url;
 const scriptEnvironment = typeof $task !== 'undefined' ? 'Surge' : (typeof $loon !== 'undefined' ? 'Loon' : (typeof $httpClient !== 'undefined' ? 'Qx' : 'Unknown'));
 
@@ -53,6 +53,10 @@ if (obj && obj.data && obj.data.coreCards && Array.isArray(obj.data.coreCards)) 
   });
 }
 
+if (url.includes("/homepage/diamond/position/info")) {
+    obj.data = obj.data.filter(item => item.code !== "PET_PLANET" && item.code !== "GIFT_WALL" && item.code !== "SHOP");
+}
+
 if (url.includes("/chatroom/chatClassifyRoomList")) {
   if (obj.data && obj.data.roomList) {
     obj.data.roomList = [];
@@ -71,3 +75,4 @@ if (url.includes("/post/recSquare/subTabs")) {
 }
 
 $done({ body: JSON.stringify(obj) });
+

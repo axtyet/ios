@@ -6,7 +6,7 @@ payload:
   #!icon=https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/author/NaiSi_01.png
   #!raw-url=https://github.com/fmz200/wool_scripts/raw/main/QuantumultX/filter/fenliu.list
   #!tg-group=https://t.me/lanjieguanggao
-  #!date=2024-06-16 00:10:00
+  #!date=2024-06-16 20:10:00
   #!support=约9392行
   #!proxy-select=reject
   #############################################
@@ -1538,6 +1538,9 @@ payload:
 
   # > 小利生活
   - DOMAIN-KEYWORD,mpos-pic.helipay.com
+
+  # > 晓晓优选
+  - DOMAIN-SUFFIX,api-htp.beizi.biz
 
   # > 新浪
   - DOMAIN-SUFFIX,beacon.sina.com.cn
