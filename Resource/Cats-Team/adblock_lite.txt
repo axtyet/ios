@@ -4,8 +4,8 @@
 ! Powerd by Cats-Team
 ! Expires: 1 day (update frequency)
 ! Description: AdRules AdBlock List's Lite Version, And Remove Some Filters
-! ! Version: 2024-06-15 08:03:21(GMT+8) 
-! Total count: 33964
+! ! Version: 2024-06-16 08:03:56(GMT+8) 
+! Total count: 33979
  
 ###ADtip
 ###AdBlockDialog
@@ -7661,6 +7661,7 @@ boke112.com,dzbhdm.net,mzh.ren,whsir.com##a[href*=".aliyun.com"]
 boke112.com,ruanyifeng.com##a[href^="http://t.cn/"]
 bol.com##section[data-group-name^="sponsored-products"]
 bol.com#$#hide-if-contains-visible-text /Gesponsord/ 'ul[class][data-test="products"] li[class]' 'li[class] span[class]'
+bole90.com###xy_toast_ad
 bombardir.ru#$#abort-on-property-read alert
 bombaytimes.com##a[onclick*="click"][rel="nofollow,noindex"]
 bombaytimes.com#?#div:-abp-has(> h4 > span:-abp-contains(Ad: ))
@@ -16685,6 +16686,8 @@ yes-news.com##.notification
 yesky.com###flayer
 yesky.com###gfapp1
 yesky.com##.abox
+yesky.com##.main_left_advertisement
+yesky.com##.rightGg
 yesky.com##div[class^="ad1"]
 yesky.com##div[class^="ad7"]
 yeyemo4.com,yeyemo5.com,yeyemo6.com,yeyemo7.com,yeyemo8.com,yeyemo9.com,yeyemo10.com##center > a[target="_blank"] > img
@@ -18360,6 +18363,7 @@ zzzyk.com###Tinfo
 ||91yun.co/download/
 ||920share.com/layer/layer.js
 ||920share.com/wp-content/uploads/*/911
+||9216tp1.com^
 ||922tp.com/wp-content/uploads/*0x
 ||92dp.com/home/showga?
 ||92f2m.top^
@@ -18898,12 +18902,14 @@ zzzyk.com###Tinfo
 ||adxxx.info^$domain=avgle.com
 ||adyun.com^$third-party
 ||adzdgr-wadd2-f1d.com^
+||adzo.cn^
 ||adzp.cn^
 ||aeaw.cn^
 ||aefmbeq.cn^
 ||aeletheacd.com^
 ||aerbgpn.xyz^
 ||aeucyo.xyz^
+||aeyyck.xyz^
 ||af29.com/banner/
 ||af31f.site^
 ||af9dc9.xyz^
@@ -19810,6 +19816,7 @@ zzzyk.com###Tinfo
 ||bbhktv.xyz^
 ||bbk5921.yncjsc.cn^$third-party
 ||bbphonix.xyz^
+||bbqoa.top^
 ||bbrnpj.xyz^
 ||bbs.a9vg.com/showit/img_show.php
 ||bbs.gmbbk.com^*.js
@@ -22199,6 +22206,7 @@ zzzyk.com###Tinfo
 ||dvbnmikxh.xyz^
 ||dvclhmt.cn^
 ||dvenkbn.icu^
+||dvgjx.cn^
 ||dvnqhdmze.xyz^
 ||dvnsdo.com^
 ||dvotlhs.cn^
@@ -22983,6 +22991,7 @@ zzzyk.com###Tinfo
 ||fo.zhangbaochang.top^
 ||foamyfood.com^$third-party
 ||fobshanghai.com/bbsad/
+||fogolakda.top^
 ||foirkrt.icu^
 ||foisml.com^
 ||foizico.cn^
@@ -26384,6 +26393,7 @@ zzzyk.com###Tinfo
 ||lnhsjob.com^$third-party
 ||lnifdlal.top^
 ||lniwe.xyz^
+||lnlkmr.xyz^
 ||lnpqqq.com^
 ||lnxkrd.xyz^
 ||lnxpdj.xyz^
@@ -28405,6 +28415,7 @@ zzzyk.com###Tinfo
 ||powderprofit.com^$third-party
 ||powedw.com^
 ||power.adhacker.online^$third-party
+||poxdpj.xyz^
 ||poxiao.com/template/default/images/12345.js
 ||poyang.com^
 ||pozrwj.icu^
@@ -28566,6 +28577,7 @@ zzzyk.com###Tinfo
 ||pwhtip.icu^
 ||pwnews.net/des/antiblock.js$script
 ||pwuxnr.cn^
+||pwxlbsie.icu^
 ||px.ucweb.com^
 ||pxrs6.cn^
 ||pxtjfmv.xyz^
@@ -30530,6 +30542,7 @@ zzzyk.com###Tinfo
 ||szbxw.cn^
 ||szbzp.cn^
 ||szdaqi88.com^
+||szdpk.cn^
 ||szfcol.com/images/wxright240.jpg
 ||szfcol.com/js/siteAd.js
 ||szfhl99.com^
@@ -32639,6 +32652,7 @@ zzzyk.com###Tinfo
 ||xhzmjs.com^
 ||xiacaidd.com/xiacai/ad/
 ||xiangwangdesh.com^
+||xianliao.voto^
 ||xianpowei.com^
 ||xianshuabao.com/ashx/pt.ashx?cmd=record&filter=&order=all&
 ||xianzhenyuan.cn/data/attachment^$image
@@ -33320,6 +33334,7 @@ zzzyk.com###Tinfo
 ||ytelc.com^$third-party
 ||ytezym.xyz^
 ||ytjzqde.xyz^
+||ytqeavc.icu^
 ||ytqlyw.xyz^
 ||ytse*.top/Static/Home/GongGao/img/
 ||ytvrtrya.xyz^

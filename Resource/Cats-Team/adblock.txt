@@ -4,8 +4,8 @@
 ! Powerd by Cats-Team
 ! Expires: 1 day (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2024-06-15 08:03:21(GMT+8) 
-! Total count: 123626
+! ! Version: 2024-06-16 08:03:56(GMT+8) 
+! Total count: 123647
  
 ###ADtip
 ###AdBlockDialog
@@ -2457,6 +2457,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 .elaine-asp.de/action/view/$image
 .eloqua.js
 .email.*/tr/op/$image
+.emlfiles4.com/cmpimg/t/$image
 .emltrk.com/
 .epicgames.com/O/
 .eventim.de/op/$image
@@ -6677,7 +6678,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /webtrack.js
 /webtracker.dll
 /webtracking.min.js
-/webtracking/*$~subdocument,domain=~wwwapps.ups.com
+/webtracking/*$~document,~subdocument,domain=~wwwapps.ups.com
 /webtraffic.js
 /webtraxs.js
 /webtrekk_mediaTracking.min.js
@@ -14576,6 +14577,7 @@ boke112.com,dzbhdm.net,mzh.ren,whsir.com##a[href*=".aliyun.com"]
 boke112.com,ruanyifeng.com##a[href^="http://t.cn/"]
 bol.com##section[data-group-name^="sponsored-products"]
 bol.com#$#hide-if-contains-visible-text /Gesponsord/ 'ul[class][data-test="products"] li[class]' 'li[class] span[class]'
+bole90.com###xy_toast_ad
 bolt.im/t/$image
 bombardir.ru#$#abort-on-property-read alert
 bombaytimes.com##a[onclick*="click"][rel="nofollow,noindex"]
@@ -43394,6 +43396,8 @@ yes-news.com##.notification
 yesky.com###flayer
 yesky.com###gfapp1
 yesky.com##.abox
+yesky.com##.main_left_advertisement
+yesky.com##.rightGg
 yesky.com##div[class^="ad1"]
 yesky.com##div[class^="ad7"]
 yeyemo4.com,yeyemo5.com,yeyemo6.com,yeyemo7.com,yeyemo8.com,yeyemo9.com,yeyemo10.com##center > a[target="_blank"] > img
@@ -44263,6 +44267,7 @@ zzzyk.com###Tinfo
 ||1baq2nvd6n7.www.keevowallet.com^
 ||1bctkn.xyz^
 ||1biqug.com/js/ajax.js
+||1bliq.io^
 ||1bpmtrvkqkj.pettoonies.com^
 ||1buu1.penyouw.com^
 ||1bw7etm93lf.www.woodbrass.com^
@@ -45480,6 +45485,7 @@ zzzyk.com###Tinfo
 ||91yun.co/download/
 ||920share.com/layer/layer.js
 ||920share.com/wp-content/uploads/*/911
+||9216tp1.com^
 ||922tp.com/wp-content/uploads/*0x
 ||92dp.com/home/showga?
 ||92f2m.top^
@@ -50350,6 +50356,7 @@ zzzyk.com###Tinfo
 ||adunite.com^$third-party
 ||adunity.com^$third-party
 ||adutp.com^$third-party
+||adv-analytics-collector.videograph.ai^
 ||adv-sv-show.focus.cn^
 ||adv-sv-stat.focus.cn^
 ||adv.drtuber.com^
@@ -50422,6 +50429,7 @@ zzzyk.com###Tinfo
 ||adyen.com/checkoutshopper/v2/analytics/log?
 ||adyun.com^$third-party
 ||adzdgr-wadd2-f1d.com^
+||adzo.cn^
 ||adzp.cn^
 ||ae-api.ximera.com/api/*/gtm
 ||ae-go.experian.com^
@@ -50450,6 +50458,7 @@ zzzyk.com###Tinfo
 ||aesus.so-net.ne.jp^
 ||aeuati.wedio.com^
 ||aeucyo.xyz^
+||aeyyck.xyz^
 ||af-z.jp^$third-party
 ||af.analytics.elx.cloud^$domain=arbetsformedlingen.se
 ||af.eficads.com^
@@ -53008,6 +53017,7 @@ zzzyk.com###Tinfo
 ||api.data-analytics.pokemon.com^
 ||api.digitalpiloten.org^
 ||api.dmcdn.net/all.js$domain=gotv.ctitv.com.tw
+||api.doctolib.fr/nr_insert_
 ||api.ea3w.com/hits.js
 ||api.earthly.dev/analytics|
 ||api.edkt.io/analytics
@@ -55734,6 +55744,7 @@ zzzyk.com###Tinfo
 ||bbk5921.yncjsc.cn^$third-party
 ||bbl.k.dk/tracking/
 ||bbphonix.xyz^
+||bbqoa.top^
 ||bbrnpj.xyz^
 ||bbs.a9vg.com/showit/img_show.php
 ||bbs.gmbbk.com^*.js
@@ -67129,6 +67140,7 @@ zzzyk.com###Tinfo
 ||dvczvm.cyfrowe.pl^
 ||dvenkbn.icu^
 ||dvghns.idealista.it^
+||dvgjx.cn^
 ||dvhcob.jtrip.co.jp^
 ||dvmira.keskisenkello.fi^
 ||dvnfo.com^$third-party
@@ -70667,6 +70679,7 @@ zzzyk.com###Tinfo
 ||focus.met.vgwort.de^
 ||fog.pixual.co^
 ||fogl1onf.com^$third-party
+||fogolakda.top^
 ||foirkrt.icu^
 ||foisml.com^
 ||foizico.cn^
@@ -81282,6 +81295,7 @@ zzzyk.com###Tinfo
 ||lemonde.fr/*?s=$xmlhttprequest,ping
 ||lemonde.fr/bucket/*/js/smartTag.bundle.js
 ||lemonde.fr/bucket/*/tagistan.
+||lemonde.fr^$ping
 ||lemonpi.io^
 ||lemur.prinsdalpizza.no^
 ||lemurov.net^$cookie=flat_r_mb
@@ -82778,6 +82792,7 @@ zzzyk.com###Tinfo
 ||lnk.welthee.com^
 ||lnk2.patpat.com^
 ||lnkd.in/li/track
+||lnlkmr.xyz^
 ||lnpqqq.com^
 ||lntvby.banggood.com^
 ||lnvmxk.familyset.jp^
@@ -94768,6 +94783,7 @@ zzzyk.com###Tinfo
 ||poweredbyeden.com/widget/tracker/
 ||powerrobotflower.com^
 ||powerup.rsaworks.com^
+||poxdpj.xyz^
 ||poxiao.com/template/default/images/12345.js
 ||poyang.com^
 ||poznamka.ru/ametrix.js
@@ -95523,11 +95539,13 @@ zzzyk.com###Tinfo
 ||pwrlkyotm.com^$third-party
 ||pwtftm.shingaku.mynavi.jp^
 ||pwuxnr.cn^
+||pwxlbsie.icu^
 ||px*.mediahills.ru^
 ||px-cdn.net/b/
 ||px-cdn.net^*/collector
 ||px-cloud.net/b/s
 ||px-intl.ucweb.com^
+||px.adfulplatform.com^
 ||px.derstandard.at^
 ||px.dmp.zaloapp.com^
 ||px.dynamicyield.com^
@@ -109286,6 +109304,7 @@ zzzyk.com###Tinfo
 ||szbxw.cn^
 ||szbzp.cn^
 ||szdaqi88.com^
+||szdpk.cn^
 ||szfcol.com/images/wxright240.jpg
 ||szfcol.com/js/siteAd.js
 ||szfhl99.com^
@@ -121443,6 +121462,7 @@ zzzyk.com###Tinfo
 ||xhzmjs.com^
 ||xiacaidd.com/xiacai/ad/
 ||xiangwangdesh.com^
+||xianliao.voto^
 ||xianpowei.com^
 ||xianshuabao.com/ashx/pt.ashx?cmd=record&filter=&order=all&
 ||xianzhenyuan.cn/data/attachment^$image
@@ -122596,6 +122616,7 @@ zzzyk.com###Tinfo
 ||ytjzqde.xyz^
 ||ytn.co.kr/_comm/ylog.php?
 ||ytouvy.arezzo.com.br^
+||ytqeavc.icu^
 ||ytqlyw.xyz^
 ||ytse*.top/Static/Home/GongGao/img/
 ||ytvrtrya.xyz^

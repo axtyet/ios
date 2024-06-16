@@ -197,6 +197,12 @@
 .hbnygj.com,REJECT
 .https-filtering-check.adtidy.org,REJECT
 .cupfox.app,REJECT
+.dvgjx.cn,REJECT
+.ytqeavc.icu,REJECT
+.adzo.cn,REJECT
+.aeyyck.xyz,REJECT
+.poxdpj.xyz,REJECT
+.lnlkmr.xyz,REJECT
 .0322cfmtl.cc,REJECT
 .07dy.cc,REJECT
 .0940088.com,REJECT
@@ -211,7 +217,6 @@
 .tjuspyk.icu,REJECT
 .zkrdzn.xyz,REJECT
 .zmbmoxij.icu,REJECT
-.d1zoi2q7y0e4d.cloudfront.net,REJECT
 .xx3691b.com,REJECT
 .1028images.com,REJECT
 .537images1.com,REJECT
@@ -243,6 +248,12 @@
 .osanyc.xyz,REJECT
 .ofjslik.top,REJECT
 .faaqgje.icu,REJECT
+.pwxlbsie.icu,REJECT
+.bbqoa.top,REJECT
+.fogolakda.top,REJECT
+.szdpk.cn,REJECT
+.9216tp1.com,REJECT
+.xianliao.voto,REJECT
 .0op8kh.cn,REJECT
 .0oqt9i.cn,REJECT
 .0q5joc.cn,REJECT
@@ -5184,6 +5195,7 @@
 .adsage.com,REJECT
 .aixuntupian.oss-cn-hongkong.aliyuncs.com,REJECT
 .alimama.alicdn.com,REJECT
+.d1zoi2q7y0e4d.cloudfront.net,REJECT
 .alime-pic.oss-cn-hangzhou.aliyuncs.com,REJECT
 .atanx.alicdn.com,REJECT
 .baiducom.bj.bcebos.com,REJECT
