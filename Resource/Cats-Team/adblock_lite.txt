@@ -4,8 +4,8 @@
 ! Powerd by Cats-Team
 ! Expires: 1 day (update frequency)
 ! Description: AdRules AdBlock List's Lite Version, And Remove Some Filters
-! ! Version: 2024-06-17 19:36:09(GMT+8) 
-! Total count: 33992
+! ! Version: 2024-06-17 20:31:42(GMT+8) 
+! Total count: 33990
  
 ###ADtip
 ###AdBlockDialog
@@ -1848,16 +1848,16 @@ $third-party,xmlhttprequest,domain=cocolamanhua.com|subhd.tv|subhdtw.com|xyg688.
 .com/vj2/$script,third-party
 .com/vodad.js
 .com/xz/*?token8=
-.com/z-*-*?123$third-party
 .com/zz/*2.txt$xmlhttprequest
 .com/zz/tcc2.js
 .com/zz/yd2.js
+.com:*/d/*?c=*$third-party
+.com:*/sc/*?n=$third-party
 .com:10446/*/get*.html
 .com:12289/$script,third-party
 .com:7891/stats$third-party
 .com:8001/*/*?*=$third-party
 .com:8003/d/*&n=$third-party
-.com:8003/sc/*?n=$third-party
 .com:8004/*/*?*=$third-party
 .com:8005/*&n=$third-party
 .com:8007/*/*?*=$third-party
@@ -2343,7 +2343,6 @@ $third-party,xmlhttprequest,domain=cocolamanhua.com|subhd.tv|subhdtw.com|xyg688.
 /dibu.adadadad
 /dibun5nodnbmp.js
 /disable-adblock.
-/dj*ll5c20ff.js
 /dm78ad/*
 /dngz.net\/g\d+.js/$domain=dngz.net
 /dongaogg/*
@@ -2813,8 +2812,6 @@ $third-party,xmlhttprequest,domain=cocolamanhua.com|subhd.tv|subhdtw.com|xyg688.
 /source/plugin/drk_ledadv/*
 /source/plugin/mama_tips/*
 /source/plugin/yw_alertlogin/*
-/static/*/KdLmbuThM.js?v=
-/static/*/Lqho7OKcg.js?v=
 /static/adsview/*
 /static/common/js/djlib_
 /static/images/ky888.gif
@@ -16585,8 +16582,6 @@ xxxxx520.com##.ripro_gg_wrap
 xydai.cn##.deanad4s
 xyg39.xyz###__top_header + script + div
 xyj321.com##.foot_alert_wrap
-xyz/kallss?
-xyz/stimulus?
 xz.ccoo.cn##.index_banner
 xz7.com##div[class^="AD_"]
 xzji.com##.speed
@@ -23449,6 +23444,7 @@ zzzyk.com###Tinfo
 ||glisteningsign.com^$third-party
 ||glittersh.com^
 ||glixaing.com^
+||gloaphoo.net^
 ||globalapi.ad.xiaomi.com^
 ||gloriousbeef.com^$third-party
 ||glossysense.com^$third-party
@@ -29315,6 +29311,7 @@ zzzyk.com###Tinfo
 ||rouman5.com/cps/*.gif
 ||rouman5.com/hlw.jpg
 ||rouqiuqq.cn^
+||rouwhapt.com^
 ||roxewwq.cn^
 ||roxfrv.xyz^
 ||rp9p0.xyz^
@@ -30852,6 +30849,7 @@ zzzyk.com###Tinfo
 ||thisav.video/v3/nb/
 ||thjwxz.xyz^
 ||thomastorch.com^$third-party
+||thoohizoogli.xyz^
 ||thpte.cn^
 ||threechurch.com^$third-party
 ||threetruck.com^$third-party
