@@ -2017,6 +2017,7 @@ domain:6071.com
 domain:6092.url25fatm.com
 domain:60999.cn
 domain:609999.xyz
+domain:60jxn4.xyz
 domain:61-nmobads.com
 domain:6107a15b84.5bdb6e0e40.com
 domain:61165.com
@@ -16803,6 +16804,7 @@ domain:beauty.finaltips.com
 domain:beautysolution24.com
 domain:beautyspaguide.com
 domain:beautyspumoid.top
+domain:beautyt.shop
 domain:beaver.america-bills.com
 domain:beaver.bluebunnypaper.com
 domain:beaver.livechatlabs.com
@@ -16885,6 +16887,7 @@ domain:beeporntube.com
 domain:beepoven.com
 domain:beer2s.millerbrewing.com
 domain:beeraggravationsurfaces.com
+domain:beesads.com
 domain:beesforestallsuffer.com
 domain:beeshanoozuk.com
 domain:beestraitstarvation.com
@@ -18638,6 +18641,7 @@ domain:bookletblockedcaught.com
 domain:bookletcanvass.com
 domain:bookletfreshmanbetray.com
 domain:bookljlihooli.com
+domain:booklng.id-7144893.com
 domain:bookmakers.click
 domain:bookmenmetope.life
 domain:bookmsg.com
@@ -36171,6 +36175,7 @@ domain:elitemonetize.com
 domain:elitemoneymethods.com
 domain:elitesfiles.com
 domain:elitesolutions.adp401k.com
+domain:elitestrustonline.biz
 domain:elitestrustonline.com
 domain:elitetoplist.com
 domain:eliteviphacks.com
@@ -39363,7 +39368,6 @@ domain:faze70.com
 domain:faze71.com
 domain:faze76.com
 domain:faze80.com
-domain:faze81.com
 domain:faze88.com
 domain:faze9.com
 domain:faze90.com
@@ -39617,7 +39621,6 @@ domain:fecebook.com
 domain:fecerismasker.com
 domain:fedapush.net
 domain:fedassuagecompare.com
-domain:feddiy.com
 domain:federalcertainty.com
 domain:fedex-rescheduel-date.com
 domain:fedex-rescheduel-delivery-date.com
@@ -45926,7 +45929,6 @@ domain:goldrop.net
 domain:goldshare.net
 domain:goldspotmedia.com
 domain:goldstats.com
-domain:goldtimeinvest.com
 domain:goldtrailmotorlodge.com
 domain:golfchapah.space
 domain:golfmidwife.top
@@ -68258,6 +68260,7 @@ domain:mittenheatdied.com
 domain:mityneedn.com
 domain:miucart.com
 domain:miuo.cloud
+domain:miuprints.com
 domain:miva.com
 domain:miveci.uno
 domain:miwllmo.com
@@ -69836,7 +69839,6 @@ domain:muskatarsenal.com
 domain:muskgives.net
 domain:muskgives.org
 domain:muskox.appital.io
-domain:muskweb.net
 domain:musmentportal.com
 domain:musselchangeableskier.com
 domain:musselregimentcharles.com
@@ -70750,12 +70752,14 @@ domain:navi38.ru
 domain:navi39.ru
 domain:navi4.com
 domain:navi40.com
+domain:navi42.ru
 domain:navi45.ru
 domain:navi47.com
 domain:navi5.com
 domain:navi50.com
 domain:navi53.com
 domain:navi56.com
+domain:navi57.ru
 domain:navi58.com
 domain:navi59.ru
 domain:navi6.com
@@ -70772,19 +70776,17 @@ domain:navi73.com
 domain:navi74.com
 domain:navi75.com
 domain:navi76.com
+domain:navi76.ru
 domain:navi77.com
 domain:navi78.ru
 domain:navi79.com
 domain:navi8.com
-domain:navi82.ru
 domain:navi86.ru
 domain:navi87.com
 domain:navi88.com
 domain:navi90.com
-domain:navi92.com
 domain:navi94.com
 domain:navi96.com
-domain:navi97.com
 domain:navi98.com
 domain:navi99.com
 domain:naviblue-team.com
@@ -77204,6 +77206,7 @@ domain:paxyued.com
 domain:paxzfenara.com
 domain:pay-ads.com
 domain:pay-click.ru
+domain:pay.id3410894.com
 domain:pay.mobile.sina.cn
 domain:pay.truemoney.me
 domain:pay4results24.eu
@@ -78105,6 +78108,7 @@ domain:phpads.foundrymusic.com
 domain:phpadsnew.wn.com
 domain:phpancake.com
 domain:phpkxtwuibv.com
+domain:phpmyadmin.gitlab.dev.id601294105.date
 domain:phpmyadmin.staging.demo.www1.transaction-processing.one
 domain:phpmyadmin.toolmonger.net.jumia.co.tz
 domain:phpmyvisites.net
@@ -84986,6 +84990,7 @@ domain:rgdcrt.xyz
 domain:rgddist.com
 domain:rgecga.piary.jp
 domain:rgentssep.xyz
+domain:rghbvp.xyz
 domain:rghqrj.xyz
 domain:rgiixp.sperry.com
 domain:rgjlpgkzagf.com
@@ -87833,7 +87838,6 @@ domain:sbdhdq.zeeman.com
 domain:sbdvjsbjslkv.com
 domain:sbeaje.com
 domain:sbecashqjk.com
-domain:sberbank.mvideo.id90134267.com
 domain:sbfrnq.naturalforme.fr
 domain:sbfsdvc.com
 domain:sbgsodufuosmmvsdf.info
@@ -100352,6 +100356,7 @@ domain:szbxw.cn
 domain:szbzp.cn
 domain:szcyvdllg.com
 domain:szdaqi88.com
+domain:szdgl.cn
 domain:szdpk.cn
 domain:szemlelo.com
 domain:szfhl99.com
@@ -102687,6 +102692,7 @@ domain:thenewstreams.com
 domain:thenicenewz.com
 domain:theniemannbest.com
 domain:thenintendo3dsemulator.com
+domain:theoceanest.com
 domain:theod-omq.com
 domain:theod-qsr.com
 domain:theologicallimbs.com
@@ -102752,6 +102758,7 @@ domain:theseoffersforyou.com
 domain:theshafou.com
 domain:theshiny.store
 domain:theshirtyouneed.com
+domain:thesignaturehardware.com
 domain:thesimplestairs.com
 domain:thesimpsons.newzgames.com
 domain:thesimpsonstappedoutcheats4u.com
@@ -110527,6 +110534,7 @@ domain:uphoveeh.xyz
 domain:uphzxdv.cn
 domain:upinu.xyz
 domain:upkoffingr.com
+domain:upl.net-solutions.vn
 domain:uplandstoat.digital
 domain:upleaptlistel.top
 domain:uplevelreward.com
@@ -114015,7 +114023,6 @@ domain:weblog.woowa.in
 domain:webmail.carte-gr.total.fr
 domain:webmail.happ.social
 domain:webmail.information.maileva.com
-domain:webmail.processing-transaction.info
 domain:webmail.velpa.pl
 domain:webmailhack.net
 domain:webmaster322.ru
