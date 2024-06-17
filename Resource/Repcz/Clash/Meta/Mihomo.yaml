@@ -4,7 +4,7 @@
 #
 # Mihomo Version ≥ 1.8.5
 #
-# 最后更新时间: 2024-06-16 20:30
+# 最后更新时间: 2024-06-17 07:50
 #
 # ================
 
@@ -155,11 +155,6 @@ rule-providers:
   # 苹果服务
   Apple: {<<: *c, path: ./rule-providers/Apple.list,  url: https://github.com/Repcz/Tool/raw/X/Clash/Rules/Apple.list}
 
-  # 微软服务 
-  OneDrive: {<<: *c, path: ./rule-providers/OneDrive.list,  url: https://github.com/Repcz/Tool/raw/X/Clash/Rules/OneDrive.list}
-  Github: {<<: *c, path: ./rule-providers/Github.list,  url: https://github.com/Repcz/Tool/raw/X/Clash/Rules/Github.list}
-  Microsoft: {<<: *c, path: ./rule-providers/Microsoft.list,  url: https://github.com/Repcz/Tool/raw/X/Clash/Rules/Microsoft.list}
-
   # 谷歌服务
   YouTube: {<<: *c, path: ./rule-providers/YouTube.list,  url: https://github.com/Repcz/Tool/raw/X/Clash/Rules/YouTube.list}
   Google: {<<: *c, path: ./rule-providers/Google.list,  url: https://github.com/Repcz/Tool/raw/X/Clash/Rules/Google.list}
@@ -182,17 +177,11 @@ rule-providers:
 
   # 国际媒体
   ProxyMedia: {<<: *c, path: ./rule-providers/ProxyMedia.list,  url: https://github.com/Repcz/Tool/raw/X/Clash/Rules/ProxyMedia.list}
-
-  # 代理网站
-  ProxyGFW: {<<: *c, path: ./rule-providers/ProxyGFW.list,  url: https://github.com/Repcz/Tool/raw/X/Clash/Rules/ProxyGFW.list}
  
 rules:
   - RULE-SET,AD,广告拦截
   - RULE-SET,AI,AI
   - RULE-SET,Apple,苹果服务
-  - RULE-SET,OneDrive,微软服务
-  - RULE-SET,Github,微软服务
-  - RULE-SET,Microsoft,微软服务
   - RULE-SET,YouTube,谷歌服务
   - RULE-SET,Google,谷歌服务
   - RULE-SET,Telegram,电报消息
@@ -201,9 +190,11 @@ rules:
   - RULE-SET,Epic,游戏平台
   - RULE-SET,Emby,Emby
   - RULE-SET,ProxyMedia,国际媒体
-  - RULE-SET,ProxyGFW,国外网站
+  - GEOSITE,onedrive,微软服务
+  - GEOSITE,github,微软服务
+  - GEOSITE,microsoft,微软服务
+  - GEOSITE,gfw,国外网站
   - GEOSITE,cn,DIRECT
-  - GEOSITE,geolocation-!cn,国外网站
   - GEOIP,lan,DIRECT
   - GEOIP,CN,DIRECT
   - MATCH,兜底分流

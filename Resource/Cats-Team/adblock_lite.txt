@@ -4,8 +4,8 @@
 ! Powerd by Cats-Team
 ! Expires: 1 day (update frequency)
 ! Description: AdRules AdBlock List's Lite Version, And Remove Some Filters
-! ! Version: 2024-06-16 12:16:09(GMT+8) 
-! Total count: 33983
+! ! Version: 2024-06-17 08:03:54(GMT+8) 
+! Total count: 33989
  
 ###ADtip
 ###AdBlockDialog
@@ -14916,6 +14916,7 @@ sohu.com##.left-bottom-float
 sohu.com##.lottery-box
 sohu.com##.middle-insert-ad
 sohu.com##.nice-img-clz
+sohu.com##.phone-scan
 sohu.com##.sidebar.right > div.extend-mod
 sohu.com##.sogouService
 sohu.com##.top-bill-wrapper[data-spm='a-tb'][data-spm-stop='init']
@@ -20742,6 +20743,7 @@ zzzyk.com###Tinfo
 ||cdntxt.com/t1/
 ||cdntxt.com/t2/
 ||cdolhlwq.xyz^
+||cdoshbf.top^
 ||cdrhjt.com^
 ||cdrvkdni.xyz^
 ||cdsa2.icu^
@@ -22626,6 +22628,7 @@ zzzyk.com###Tinfo
 ||etf88.com/swf/
 ||etherealquasar.com^$third-party
 ||etienlw.top^
+||etjui.cn^
 ||etkht.cn^
 ||etlanaberez.fun^
 ||etregh.fun^
@@ -27179,6 +27182,7 @@ zzzyk.com###Tinfo
 ||mqrupjsm.xyz^
 ||mqsjzm.cn^
 ||mqsnce.xyz^
+||mqwmgs.xyz^
 ||mqxnid.cn^
 ||mqznjujv.xyz^
 ||mr956.xyz^
@@ -28349,6 +28353,7 @@ zzzyk.com###Tinfo
 ||plotrabbit.com^$third-party
 ||pluckypocket.com^$third-party
 ||pluckyzone.com^$third-party
+||plzblz.xyz^
 ||pm.poqwua.cn^
 ||pmb*.tj.ali213.net/js/
 ||pmblrt.xyz^
@@ -29328,6 +29333,7 @@ zzzyk.com###Tinfo
 ||rrfccx.com^
 ||rrgapzw.cn^
 ||rrjc.com/home/seo/ad/
+||rrkouuz.icu^
 ||rrxddl.xyz^
 ||rryy99.com/statics/js/stat.js
 ||rrzxlt.xyz^

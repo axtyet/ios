@@ -4,8 +4,8 @@
 ! Powerd by Cats-Team
 ! Expires: 1 day (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2024-06-16 12:16:09(GMT+8) 
-! Total count: 123651
+! ! Version: 2024-06-17 08:03:54(GMT+8) 
+! Total count: 123657
  
 ###ADtip
 ###AdBlockDialog
@@ -41070,6 +41070,7 @@ sohu.com##.left-bottom-float
 sohu.com##.lottery-box
 sohu.com##.middle-insert-ad
 sohu.com##.nice-img-clz
+sohu.com##.phone-scan
 sohu.com##.sidebar.right > div.extend-mod
 sohu.com##.sogouService
 sohu.com##.top-bill-wrapper[data-spm='a-tb'][data-spm-stop='init']
@@ -58548,6 +58549,7 @@ zzzyk.com###Tinfo
 ||cdnwidget.com^
 ||cdolhlwq.xyz^
 ||cdon.*/assets/dist/assets-cdonAnalytics.js
+||cdoshbf.top^
 ||cdp.cifinancial.com^
 ||cdp.cloud.unity3d.com^
 ||cdp.vemt.com^$third-party
@@ -69174,6 +69176,7 @@ zzzyk.com###Tinfo
 ||ethtrader.de^$third-party
 ||ethyca.com^$third-party
 ||etienlw.top^
+||etjui.cn^
 ||etk.locusrobotics.com^
 ||etkht.cn^
 ||etl-xlmc-ssl.xunlei.com/api/stat^
@@ -89386,6 +89389,7 @@ zzzyk.com###Tinfo
 ||mqsnce.xyz^
 ||mquwyx.engelhorn.de^
 ||mqvyob.vidaxl.fi^
+||mqwmgs.xyz^
 ||mqwqas.marketbio.pl^
 ||mqxnid.cn^
 ||mqznjujv.xyz^
@@ -94564,6 +94568,7 @@ zzzyk.com###Tinfo
 ||plv.geocomply.com^
 ||plwfwc.teknozone.it^
 ||plyizb.latour-lith.nl^
+||plzblz.xyz^
 ||pm.boostintegrated.com^
 ||pm.dailykos.com^
 ||pm.eu.viatrisconnect.com^
@@ -97806,6 +97811,7 @@ zzzyk.com###Tinfo
 ||rrincc.auto-doc.it^
 ||rrjc.com/home/seo/ad/
 ||rrjzyj.lepage.fr^
+||rrkouuz.icu^
 ||rrss.abc.es^
 ||rrxddl.xyz^
 ||rrxldl.bol.de^
