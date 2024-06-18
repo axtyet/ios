@@ -4,8 +4,8 @@
 ! Powerd by Cats-Team
 ! Expires: 1 (update frequency)
 ! Description: The DNS Filters
-! Total count: 121670 
-! Update: 2024-06-18 16:00:05(GMT+8)
+! Total count: 121671 
+! Update: 2024-06-18 19:27:24(GMT+8)
 /^.+stat\.kugou\.com/
 /^admarvel\./
 /^admaster\./
@@ -40857,6 +40857,7 @@
 ||fizopp.duluthtrading.com^
 ||fizos.ru^
 ||fizzysquirtbikes.com^
+||fjbglfrv.com^
 ||fjctlnn.top^
 ||fjdfqy.com^
 ||fjdpdcdndc.com^
