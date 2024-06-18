@@ -4,8 +4,8 @@
 ! Powerd by Cats-Team
 ! Expires: 1 day (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2024-06-18 08:04:56(GMT+8) 
-! Total count: 124527
+! ! Version: 2024-06-18 16:00:04(GMT+8) 
+! Total count: 124534
  
 ###ADtip
 ###AdBlockDialog
@@ -2299,6 +2299,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 .cn/redbaiduct.com?s=$third-party
 .cn/sc/*?x=$script,third-party
 .cn/v/*.xmtl?$third-party
+.cn:*/d/*?c=*$third-party
+.cn:*/sc/*?n=$third-party
 .cn:*/vh5$third-party
 .cn:8001/*/*?*=$third-party
 .cn:8005/cc/*?is_not=
@@ -9162,7 +9164,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||assets.adobedtm.com/*-source.min.js$domain=samsung.com
 @@||assets.adobedtm.com/*/satelliteLib-*.js$domain=docs.nvidia.com
 @@||assets.adobedtm.com/*launch-*.min.js$domain=samsung.com
-@@||assets.adobedtm.com/extensions/*/AppMeasurement.min.js$domain=nbc.com|tatamotors.com
+@@||assets.adobedtm.com/extensions/*/AppMeasurement.min.js$domain=nbc.com|tatamotors.com|usanetwork.com
 @@||assets.customer.io/assets/track.js$domain=buffer.com
 @@||assets.espn.go.com/espn360/builds/nielsen/ggce*.swf
 @@||assets.giocdn.com/2.1/gio.js$domain=saicmg.com
@@ -43225,6 +43227,7 @@ vestivrn.ru#$#abort-on-property-read video.preroll
 vev.red,vidup.io#$#abort-current-inline-script window.__INITIAL_STATE__
 vgtime.com##.vgart_top
 vgtime.com##.vgart_top > img
+vgtimes.ru#$#json-prune 'data.0.attributes.bannerId'
 via.intercom.io/o$image
 vid.onlymu.site##.tips
 vidak.icu,pb.wtf,piratbit.*##a[href="//www.liveinternet.ru/click"]
@@ -63067,6 +63070,7 @@ zzzyk.com###Tinfo
 ||dajiazhao.com/login/reg.js
 ||dajkqqpz.top^
 ||dakawm.cc^
+||daksflkalq.top^
 ||daliantong.com.cn^
 ||daliantong.com.cn^$third-party
 ||dalipan.com/api/taobao
@@ -66574,6 +66578,7 @@ zzzyk.com###Tinfo
 ||dftoutiao.com/dfpcitv/pcitv?type=
 ||dftoutiao.com/jrdftt/static/javascript/ad/
 ||dftoutiao.com/ssp/
+||dfvmzx.xyz^
 ||dfw.bakerbrothersplumbing.com^
 ||dfxvkgz.xyz^
 ||dfxwdc.com^
@@ -71117,6 +71122,7 @@ zzzyk.com###Tinfo
 ||ffzz71.com^
 ||fg.daochengwowo.top^
 ||fg.yilianqing.com^
+||fgadsqdma.top^
 ||fgcxdr.cn^
 ||fgdnj.rrivanc.top^
 ||fgetmzx.icu^
@@ -95205,6 +95211,7 @@ zzzyk.com###Tinfo
 ||plausible.safing.io^
 ||plausible.sbw.org^
 ||plausible.scimago.es^
+||plausible.server.hakai.app^
 ||plausible.shadygrovepca.org^
 ||plausible.simplelogin.io^
 ||plausible.srijn.net^
@@ -118915,7 +118922,6 @@ zzzyk.com###Tinfo
 ||vgo.vegaooparty.com^
 ||vgo.vegaoopro.com^
 ||vgs-collect-keeper.apps.verygood.systems^
-||vgtimes.ru^$xmlhttprequest,header=x-yandex-req-id
 ||vgwort.de^$third-party
 ||vgzytn.xyz^
 ||vhans.siege-corp.com^
@@ -122712,6 +122718,7 @@ zzzyk.com###Tinfo
 ||xv98.com/js/daohang
 ||xv98.com/js/hengfu
 ||xvantage.ingrammicro.com^
+||xvbcjh.xyz^
 ||xvbjctqs.xyz^
 ||xvbnrh.xyz^
 ||xvgrszkg.xyz^

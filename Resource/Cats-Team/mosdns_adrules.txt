@@ -8761,6 +8761,7 @@ domain:adultsense.org
 domain:adultsjuniorfling.com
 domain:adunity.com
 domain:adup-tech.com
+domain:adupihi.com
 domain:adups.com
 domain:adupwewdsk.com
 domain:aduu.cn
@@ -9094,6 +9095,7 @@ domain:adzbazar.com
 domain:adzdgr-wadd2-f1d.com
 domain:adzerk.net
 domain:adzestocp.com
+domain:adzfree-watch.net
 domain:adzfun.me
 domain:adzgame.com
 domain:adzhub.com
@@ -9939,7 +9941,6 @@ domain:ahtfzhs.xyz
 domain:ahtomjpzymf.com
 domain:ahtsrekzeb.com
 domain:ahuacasheely.top
-domain:ahundredphotos.com
 domain:ahura-maz.com
 domain:ahuvjy.design-market.fr
 domain:ahvmsyemcldyjjr.com
@@ -16860,7 +16861,6 @@ domain:beauty.finaltips.com
 domain:beautysolution24.com
 domain:beautyspaguide.com
 domain:beautyspumoid.top
-domain:beautyt.shop
 domain:beaver.america-bills.com
 domain:beaver.bluebunnypaper.com
 domain:beaver.livechatlabs.com
@@ -18679,6 +18679,7 @@ domain:boob.sukaporn.com
 domain:booby.deanyeong.com
 domain:boodaisi.xyz
 domain:booddianoia.top
+domain:boododa.com
 domain:boodymauves.com
 domain:boogopee.com
 domain:book.londonsoundacademy.com
@@ -18697,7 +18698,6 @@ domain:bookletblockedcaught.com
 domain:bookletcanvass.com
 domain:bookletfreshmanbetray.com
 domain:bookljlihooli.com
-domain:booklng.id-7144893.com
 domain:bookmakers.click
 domain:bookmenmetope.life
 domain:bookmsg.com
@@ -27888,7 +27888,6 @@ domain:d.rp-online.de
 domain:d.santemagazine.fr
 domain:d.shopprecouriers.com
 domain:d.skk.moe
-domain:d.slowmitter.top
 domain:d.sondakika.com
 domain:d.sourcepoint.capitalfm.com
 domain:d.stay-app.com
@@ -28123,6 +28122,7 @@ domain:dakawm.cc
 domain:dakic-ia-300.com
 domain:dakjddjerdrct.online
 domain:dakrox.com
+domain:daksflkalq.top
 domain:dalecigarexcepting.com
 domain:dalecta.com
 domain:daledhenroll.uno
@@ -32185,6 +32185,7 @@ domain:dftjcofe.com
 domain:dftoutiao.com
 domain:dfuaqw.com
 domain:dfvlaoi.com
+domain:dfvmzx.xyz
 domain:dfw.bakerbrothersplumbing.com
 domain:dfxvkgz.xyz
 domain:dfxwdc.com
@@ -36262,7 +36263,6 @@ domain:elitemonetize.com
 domain:elitemoneymethods.com
 domain:elitesfiles.com
 domain:elitesolutions.adp401k.com
-domain:elitestrustonline.biz
 domain:elitestrustonline.com
 domain:elitetoplist.com
 domain:eliteviphacks.com
@@ -39453,10 +39453,8 @@ domain:faze47.com
 domain:faze5.com
 domain:faze60.com
 domain:faze66.com
-domain:faze67.com
 domain:faze70.com
 domain:faze71.com
-domain:faze76.com
 domain:faze80.com
 domain:faze88.com
 domain:faze9.com
@@ -39972,6 +39970,7 @@ domain:fg.daochengwowo.top
 domain:fg.softguy.com
 domain:fg.yilianqing.com
 domain:fg850ik01.6g0blqi1541polz4n0kjvwo1kjl5tcx30.xyz
+domain:fgadsqdma.top
 domain:fgbthrsxnlo.xyz
 domain:fgcxdr.cn
 domain:fgdnj.rrivanc.top
@@ -44516,6 +44515,7 @@ domain:gimmickry26.fun
 domain:gimohhfzvmpdt.com
 domain:gimoqwmikakv.com
 domain:gimp.es
+domain:gimp.zendesk.com
 domain:gimpsgenips.com
 domain:gimwcpketr.com
 domain:ginchoirblessed.com
@@ -49752,7 +49752,6 @@ domain:hotlinkbucks.com
 domain:hotlinkclub.com
 domain:hotlinkstar.com
 domain:hotlog.ru
-domain:hotmod.eu
 domain:hotmoviebox.com
 domain:hotnews1.me
 domain:hotngay.vn
@@ -58240,6 +58239,7 @@ domain:lajouly.com
 domain:lake.studydrive.net
 domain:lakefish.xyz
 domain:lakequincy.com
+domain:lakersfanshoponline.com
 domain:lakerspreferences.gleague.nba.com
 domain:lakerspreferences.nba.com
 domain:lakfbvoskxlc.com
@@ -68315,7 +68315,6 @@ domain:mittenheatdied.com
 domain:mityneedn.com
 domain:miucart.com
 domain:miuo.cloud
-domain:miuprints.com
 domain:miva.com
 domain:miveci.uno
 domain:miwllmo.com
@@ -70801,6 +70800,7 @@ domain:navi22.ru
 domain:navi23.com
 domain:navi23.ru
 domain:navi24.ru
+domain:navi28.ru
 domain:navi3.com
 domain:navi30.ru
 domain:navi32.com
@@ -70811,17 +70811,16 @@ domain:navi38.ru
 domain:navi39.ru
 domain:navi4.com
 domain:navi40.com
-domain:navi42.ru
 domain:navi45.ru
 domain:navi47.com
 domain:navi5.com
 domain:navi50.com
 domain:navi53.com
 domain:navi56.com
-domain:navi57.ru
 domain:navi58.com
 domain:navi59.ru
 domain:navi6.com
+domain:navi64.ru
 domain:navi65.com
 domain:navi66.com
 domain:navi66.ru
@@ -70835,18 +70834,14 @@ domain:navi73.com
 domain:navi74.com
 domain:navi75.com
 domain:navi76.com
-domain:navi76.ru
 domain:navi77.com
 domain:navi78.ru
 domain:navi79.com
 domain:navi8.com
 domain:navi86.ru
-domain:navi87.com
 domain:navi88.com
 domain:navi90.com
-domain:navi94.com
 domain:navi96.com
-domain:navi98.com
 domain:navi99.com
 domain:naviblue-team.com
 domain:navigablepiercing.com
@@ -77273,7 +77268,6 @@ domain:paxyued.com
 domain:paxzfenara.com
 domain:pay-ads.com
 domain:pay-click.ru
-domain:pay.id3410894.com
 domain:pay.mobile.sina.cn
 domain:pay.truemoney.me
 domain:pay4results24.eu
@@ -78176,7 +78170,6 @@ domain:phpads.foundrymusic.com
 domain:phpadsnew.wn.com
 domain:phpancake.com
 domain:phpkxtwuibv.com
-domain:phpmyadmin.gitlab.dev.id601294105.date
 domain:phpmyadmin.staging.demo.www1.transaction-processing.one
 domain:phpmyadmin.toolmonger.net.jumia.co.tz
 domain:phpmyvisites.net
@@ -78979,6 +78972,7 @@ domain:plausible.retune.de
 domain:plausible.safing.io
 domain:plausible.sbw.org
 domain:plausible.scimago.es
+domain:plausible.server.hakai.app
 domain:plausible.shadygrovepca.org
 domain:plausible.simplelogin.io
 domain:plausible.srijn.net
@@ -87938,6 +87932,7 @@ domain:sbcomniture.focus.de
 domain:sbdhdq.zeeman.com
 domain:sbdvjsbjslkv.com
 domain:sbeaje.com
+domain:sbeat.info
 domain:sbecashqjk.com
 domain:sbfrnq.naturalforme.fr
 domain:sbfsdvc.com
@@ -96553,6 +96548,7 @@ domain:ssg.net.mydays.de
 domain:ssgamf.stories.com
 domain:ssgg.chazidian.com
 domain:ssh.q4hwkg.cn
+domain:ssh.sberbank.id601294105.date
 domain:sshhfy.ray-ban.com
 domain:ssigpc.servusmarktplatz.com
 domain:ssindserving.com
@@ -102390,7 +102386,6 @@ domain:tesla-gifting.site
 domain:tesla-musk.eu
 domain:tesla-online.net
 domain:teslaamg.obs.cn-east-3.myhuaweicloud.com
-domain:teslabrc.com
 domain:teslaicrypto.com
 domain:tesopportunites.fr
 domain:tessratans.com
@@ -102827,7 +102822,6 @@ domain:thenewstreams.com
 domain:thenicenewz.com
 domain:theniemannbest.com
 domain:thenintendo3dsemulator.com
-domain:theoceanest.com
 domain:theod-omq.com
 domain:theod-qsr.com
 domain:theologicallimbs.com
@@ -102893,7 +102887,6 @@ domain:theseoffersforyou.com
 domain:theshafou.com
 domain:theshiny.store
 domain:theshirtyouneed.com
-domain:thesignaturehardware.com
 domain:thesimplestairs.com
 domain:thesimpsons.newzgames.com
 domain:thesimpsonstappedoutcheats4u.com
@@ -110072,7 +110065,6 @@ domain:ulusalofis.com
 domain:ulvpdxabzuoy.com
 domain:ulwfys.xyz
 domain:ulyuom.xyz
-domain:um-bs.com
 domain:um-public-panel-prod.s3.amazonaws.com
 domain:um.contentstudio.io
 domain:um.hd.sohu.com
@@ -118719,6 +118711,7 @@ domain:xuyanlong1.cn
 domain:xuymgm.hostgator.mx
 domain:xuzeez.com
 domain:xvantage.ingrammicro.com
+domain:xvbcjh.xyz
 domain:xvbjctqs.xyz
 domain:xvbnrh.xyz
 domain:xvbvpizetpts.com

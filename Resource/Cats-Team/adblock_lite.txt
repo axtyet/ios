@@ -4,8 +4,8 @@
 ! Powerd by Cats-Team
 ! Expires: 1 day (update frequency)
 ! Description: AdRules AdBlock List's Lite Version, And Remove Some Filters
-! ! Version: 2024-06-18 08:04:56(GMT+8) 
-! Total count: 33996
+! ! Version: 2024-06-18 16:00:04(GMT+8) 
+! Total count: 34002
  
 ###ADtip
 ###AdBlockDialog
@@ -1762,6 +1762,8 @@ $third-party,xmlhttprequest,domain=cocolamanhua.com|subhd.tv|subhdtw.com|xyg688.
 .cn/redbaiduct.com?s=$third-party
 .cn/sc/*?x=$script,third-party
 .cn/v/*.xmtl?$third-party
+.cn:*/d/*?c=*$third-party
+.cn:*/sc/*?n=$third-party
 .cn:*/vh5$third-party
 .cn:8001/*/*?*=$third-party
 .cn:8005/cc/*?is_not=
@@ -15858,6 +15860,7 @@ vestivrn.ru#$#abort-on-property-read video.preroll
 vev.red,vidup.io#$#abort-current-inline-script window.__INITIAL_STATE__
 vgtime.com##.vgart_top
 vgtime.com##.vgart_top > img
+vgtimes.ru#$#json-prune 'data.0.attributes.bannerId'
 vid.onlymu.site##.tips
 vide-greniers.org##A[class^="replacement_"]
 videobug.net,videofun.me,vidzur.com##.randid
@@ -21575,6 +21578,7 @@ zzzyk.com###Tinfo
 ||dajiazhao.com/login/reg.js
 ||dajkqqpz.top^
 ||dakawm.cc^
+||daksflkalq.top^
 ||daliantong.com.cn^
 ||daliantong.com.cn^$third-party
 ||dalipan.com/api/taobao
@@ -21784,6 +21788,7 @@ zzzyk.com###Tinfo
 ||dftoutiao.com/dfpcitv/pcitv?type=
 ||dftoutiao.com/jrdftt/static/javascript/ad/
 ||dftoutiao.com/ssp/
+||dfvmzx.xyz^
 ||dfxvkgz.xyz^
 ||dfxwdc.com^
 ||dg186.cn^
@@ -22873,6 +22878,7 @@ zzzyk.com###Tinfo
 ||ffzz71.com^
 ||fg.daochengwowo.top^
 ||fg.yilianqing.com^
+||fgadsqdma.top^
 ||fgcxdr.cn^
 ||fgetmzx.icu^
 ||fghghh.cn^
@@ -31799,7 +31805,6 @@ zzzyk.com###Tinfo
 ||vghnnh.xyz^
 ||vgijoh.com^
 ||vgjaxnuw.xyz^
-||vgtimes.ru^$xmlhttprequest,header=x-yandex-req-id
 ||vgzytn.xyz^
 ||vhgunzr.cn^
 ||vhhvldyuhm.xyz^
@@ -32931,6 +32936,7 @@ zzzyk.com###Tinfo
 ||xuzhi.net/uploadfile/poster/960x50.jpg
 ||xv98.com/js/daohang
 ||xv98.com/js/hengfu
+||xvbcjh.xyz^
 ||xvbjctqs.xyz^
 ||xvbnrh.xyz^
 ||xvgrszkg.xyz^
