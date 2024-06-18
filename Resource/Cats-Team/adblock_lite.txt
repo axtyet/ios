@@ -4,8 +4,8 @@
 ! Powerd by Cats-Team
 ! Expires: 1 day (update frequency)
 ! Description: AdRules AdBlock List's Lite Version, And Remove Some Filters
-! ! Version: 2024-06-17 20:31:42(GMT+8) 
-! Total count: 33990
+! ! Version: 2024-06-18 08:04:56(GMT+8) 
+! Total count: 33996
  
 ###ADtip
 ###AdBlockDialog
@@ -6698,7 +6698,7 @@ alibabacloud.com###carousel-whois
 alibabacloud.com##.b-alicloud-bottom
 alibabacloud.com##.hmod-alicloud-contact-sales-support
 alientube.co###adblockContainer
-aliexpress.com,aliexpress.us#$#hide-if-contains-visible-text /AD|Annonce|Anuncio|Anzeige|Reklama|Advertentie|Ad|Pub|Publicidad|Werbeanzeige|Rekl|ad|Reklam|Anúncio|광고|Ann|إعلان|מודעה/ 'div > div > a[target="_blank"]' 'div[class]'
+aliexpress.com,aliexpress.us#$#hide-if-contains-visible-text /AD|Annonce|Anuncio|Anzeige|Reklama|Advertentie|Ad|Pub|Publicidad|Werbeanzeige|Rekl|ad|Reklam|Anúncio|광고|Ann|إعلان|מודעה/ 'div>div.card--out-wrapper' 'div > div > div > a[target="_blank"] + div[class]'
 aliez.tv,aliez.me###adbtm
 aliez.tv,aliez.me###ads
 alions.pro##div[style^="position:fixed;inset:0px;z-index:2147483647;background:black;opacity:0.01"]
@@ -21311,6 +21311,7 @@ zzzyk.com###Tinfo
 ||creditcreature.com^$third-party
 ||creepingbrings.com^
 ||crf999.cn^
+||crfjxfoe.xyz^
 ||crhabkd.cn^
 ||crhyqq.com^
 ||criknudsr.com^
@@ -23953,6 +23954,7 @@ zzzyk.com###Tinfo
 ||hdfdsdaw.com^
 ||hdjthzg.cn^
 ||hdmoli.com/static/js/pop_promotion.js
+||hdoshbu.top^
 ||hdpdrandpd.xyz^
 ||hdsky.me/adv/
 ||hdslb.com/bfs/ad/
@@ -25644,6 +25646,7 @@ zzzyk.com###Tinfo
 ||kaoyan.com/school/final_class.html
 ||kaoyan.com/school/js/yz.school.packed.js
 ||kaoyan1v1.com/IAA/
+||kapvu.cn^
 ||kart2ks.icu^
 ||kasdwergv.com^
 ||kasiklz.cc^
@@ -25771,6 +25774,7 @@ zzzyk.com###Tinfo
 ||kjugr.xyz^
 ||kjuwxmi.xyz^
 ||kjvaqbyebqarl.top^
+||kkacrgx.icu^
 ||kkbbjtfp.xyz^
 ||kkeojk.xyz^
 ||kkisoo.com^
@@ -30380,6 +30384,7 @@ zzzyk.com###Tinfo
 ||stingyspoon.com^$third-party
 ||stlpnom.xyz^
 ||stmzzs.com^
+||stnew.xyz^
 ||stockingsleet.com^$third-party
 ||stockingsneeze.com^$third-party
 ||stockstar.com/*DUILIAN&t=
@@ -33301,6 +33306,7 @@ zzzyk.com###Tinfo
 ||ypffkbpq.xyz^
 ||ypgjkk.xyz^
 ||ypkxahje.xyz^
+||ypkxka.xyz^
 ||ypojie.com/wp-content/uploads/*.js
 ||yprdmnlo.xyz^
 ||yptqys.tianqistatic.com^

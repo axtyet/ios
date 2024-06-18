@@ -4,8 +4,8 @@
 ! Powerd by Cats-Team
 ! Expires: 1 day (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2024-06-17 20:31:42(GMT+8) 
-! Total count: 124514
+! ! Version: 2024-06-18 08:04:56(GMT+8) 
+! Total count: 124527
  
 ###ADtip
 ###AdBlockDialog
@@ -4279,7 +4279,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /frontend-jiucao/img/banner.jpg
 /frontend-jiucao/ps/*.gif
 /frontend-jiucao/ps/psCreat.js
-/frontend-metrics/*
+/frontend-metrics^
 /frontend-sentry-
 /fshow.php?id=$script,third-party
 /fsjghgwyegh_f.js
@@ -5347,6 +5347,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /pageview?t=
 /pageview?user_guid=
 /pageviews.gif?
+/pageviews.php?type=
 /pageviews?token=
 /parsely.js
 /particles/analytics.js
@@ -13491,7 +13492,7 @@ alibabacloud.com###carousel-whois
 alibabacloud.com##.b-alicloud-bottom
 alibabacloud.com##.hmod-alicloud-contact-sales-support
 alientube.co###adblockContainer
-aliexpress.com,aliexpress.us#$#hide-if-contains-visible-text /AD|Annonce|Anuncio|Anzeige|Reklama|Advertentie|Ad|Pub|Publicidad|Werbeanzeige|Rekl|ad|Reklam|Anúncio|광고|Ann|إعلان|מודעה/ 'div > div > a[target="_blank"]' 'div[class]'
+aliexpress.com,aliexpress.us#$#hide-if-contains-visible-text /AD|Annonce|Anuncio|Anzeige|Reklama|Advertentie|Ad|Pub|Publicidad|Werbeanzeige|Rekl|ad|Reklam|Anúncio|광고|Ann|إعلان|מודעה/ 'div>div.card--out-wrapper' 'div > div > div > a[target="_blank"] + div[class]'
 aliez.tv,aliez.me###adbtm
 aliez.tv,aliez.me###ads
 alions.pro##div[style^="position:fixed;inset:0px;z-index:2147483647;background:black;opacity:0.01"]
@@ -62055,6 +62056,7 @@ zzzyk.com###Tinfo
 ||crew.spektare.tv^
 ||crew.zubie.com^
 ||crf999.cn^
+||crfjxfoe.xyz^
 ||crhabkd.cn^
 ||crhyqq.com^
 ||cri.cn/js/a1.js
@@ -67332,8 +67334,12 @@ zzzyk.com###Tinfo
 ||dmm.aizhan.com^
 ||dmm.com/analytics/
 ||dmm.com/imp?
+||dmp-1.ru^$third-party
+||dmp-ai.ru^$third-party
+||dmp-one.ru^$third-party
 ||dmp.citiservi.es^
 ||dmp.eland-tech.com^
+||dmp.one^$third-party
 ||dmp.sbermarketing.ru^
 ||dmp.truoptik.com^
 ||dmpcdn.el-mundo.net^
@@ -70398,6 +70404,7 @@ zzzyk.com###Tinfo
 ||evupmg.olehenriksen.com^
 ||evyy.net^$third-party
 ||ew1.reg.bigdata.ssp.samsung.com^
+||ew3.io^
 ||ew3.io^$third-party
 ||ewaline.su/stats.js
 ||ewalxb.epicsports.com^
@@ -75299,6 +75306,7 @@ zzzyk.com###Tinfo
 ||hdmtools.com^
 ||hdmz.co/site/user_geo
 ||hdnagl.womensecret.com^
+||hdoshbu.top^
 ||hdpdrandpd.xyz^
 ||hdsky.me/adv/
 ||hdslb.com/bfs/ad/
@@ -80781,6 +80789,7 @@ zzzyk.com###Tinfo
 ||kaoyan.com/school/js/yz.school.packed.js
 ||kaoyan1v1.com/IAA/
 ||kapi-office.yiche.com/apm_collect
+||kapvu.cn^
 ||karelcapek.co.jp/Scripts/tracker.js
 ||karelia.info/counter/
 ||kariyer.net^$cookie=jobviewcount
@@ -81089,6 +81098,7 @@ zzzyk.com###Tinfo
 ||kjxmcn.eset.com^
 ||kjxztu.biz-journal.jp^
 ||kk-resources.com/ks.js
+||kkacrgx.icu^
 ||kkam.com/rest/high/api/cogitoergosum^
 ||kkbbjtfp.xyz^
 ||kkcmcp.printemps.com^
@@ -84613,6 +84623,7 @@ zzzyk.com###Tinfo
 ||lyft.com/api/track
 ||lygjgzc.com^
 ||lyngro.com^$third-party
+||lyngsat.com/system/loadclick.js
 ||lynjbq.sizeofficial.nl^
 ||lynx.inovo.io^
 ||lynx.lumy.network^
@@ -109270,6 +109281,7 @@ zzzyk.com###Tinfo
 ||stms.53.com^
 ||stms.newline53.com^
 ||stmzzs.com^
+||stnew.xyz^
 ||stnt.express-scripts.com^
 ||stnt.sky.at^
 ||stnt.sky.de^
@@ -123417,6 +123429,7 @@ zzzyk.com###Tinfo
 ||ypgjkk.xyz^
 ||ypkado.clicrbs.com.br^
 ||ypkxahje.xyz^
+||ypkxka.xyz^
 ||yplzrm.rue21.com^
 ||ypndvx.stepstone.fr^
 ||ypojie.com/wp-content/uploads/*.js
