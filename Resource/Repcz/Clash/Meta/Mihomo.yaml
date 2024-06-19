@@ -102,7 +102,7 @@ proxy-providers:
   Subscribe: {<<: *p, path: ./proxy-providers/Sub.yaml, url: http://your-service-provider}
     # 在此将"http://your-service-provider"替换为你的机场订阅，推荐使用 base64 或者 node list
     # Sub-Store生成的链接,可以直接替换上述 url 引号中的部分,具体见 Sub-Store 教程         
-               
+
 proxy-groups:
 
   #分流分组
