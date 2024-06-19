@@ -2,6 +2,7 @@ no_resolve: true
 domain_set:
 domain_suffix_set:
 - 00px.net
+- 1bliq.io
 - 1cros.net
 - 2cnt.net
 - 2l6ddsmnm.de
@@ -114,7 +115,9 @@ domain_suffix_set:
 - epsilondelta.co
 - eqy.link
 - etop.ro
+- eu-1-id5-sync.com
 - everesttech.net
+- ew3.io
 - experianmatch.info
 - ezodn.com
 - ezstat.ru
@@ -371,6 +374,7 @@ domain_suffix_set:
 - wlt-jupiter.de
 - wmgroup.us
 - woodpeckerlog.com
+- xanalytics.vip
 - yardianalytics.com
 - yndhi.com
 - yottlyscript.com
@@ -1168,6 +1172,7 @@ domain_suffix_set:
 - gondolagnome.com
 - gorgeousedge.com
 - gorgeousground.com
+- gracefulmilk.com
 - gracefulsock.com
 - grainmass.com
 - grandfatherguitar.com
@@ -1511,6 +1516,7 @@ domain_suffix_set:
 - obscenesidewalk.com
 - observantice.com
 - oldfashionedoffer.com
+- omgthink.com
 - omniscientfeeling.com
 - omniscientspark.com
 - onlywoofs.com
@@ -1658,6 +1664,7 @@ domain_suffix_set:
 - puffypaste.com
 - puffypull.com
 - puffypurpose.com
+- pulsatingmeadow.com
 - pumpedpancake.com
 - pumpedpurpose.com
 - punyplant.com
@@ -1671,6 +1678,7 @@ domain_suffix_set:
 - quaintcan.com
 - quaintlake.com
 - quantumlagoon.com
+- quantumshine.com
 - quarterbean.com
 - queenskart.com
 - questionableobservation.com
@@ -2304,6 +2312,7 @@ domain_suffix_set:
 - voyagepotato.com
 - vq1qi.pw
 - waggishpig.com
+- waitingnumber.com
 - wakefulcook.com
 - wantingwindow.com
 - warmafterthought.com
@@ -2390,6 +2399,7 @@ domain_suffix_set:
 - a.hcaptcha.com
 - a.mobify.com
 - a.opumo.net
+- a.vturb.net
 - activity-flow.vtex.com
 - activity.wisepops.com
 - ad.aloodo.com
@@ -2397,6 +2407,7 @@ domain_suffix_set:
 - adfox.yandex.ru
 - adlog.com.com
 - ads-trk.vidible.tv
+- adv-analytics-collector.videograph.ai
 - affiliate-api.raptive.com
 - affiliates.minglematch.com
 - akatracking.esearchvision.com
@@ -2585,6 +2596,7 @@ domain_suffix_set:
 - bee.tc.easebar.com
 - behavior.tongdun.net
 - bento.agoda.com
+- bi.heyloyalty.com
 - bi.medscape.com
 - bmrg.reflected.net
 - bonfire.spklw.com
@@ -2628,6 +2640,7 @@ domain_suffix_set:
 - client-logger.salemove.com
 - clouderrorreporting.googleapis.com
 - cloudfront-labs.amazonaws.com
+- cloudmetrics.xenforo.com
 - cltgtstor001.blob.core.windows.net
 - cnt.3dmy.net
 - cnt.mastorage.net
@@ -3049,6 +3062,7 @@ domain_suffix_set:
 - pl.connatix.com
 - pla.fwdcdn.com
 - platform.iteratehq.com
+- plausible.server.hakai.app
 - play.adtonos.com
 - player-metrics.instaread.co
 - pm.boostintegrated.com
@@ -3172,6 +3186,7 @@ domain_suffix_set:
 - stats.datahjaelp.net
 - stats.edicy.com
 - stats.esecured.net
+- stats.flixhq.live
 - stats.fomo.com
 - stats.gifs.com
 - stats.heyoya.com
@@ -3553,6 +3568,7 @@ domain_suffix_set:
 - d2j1fszo1axgmp.cloudfront.net
 - d2j74sjmqqyf26.cloudfront.net
 - d2kdl5wcwrtj90.cloudfront.net
+- d2lxqodqbpy7c2.cloudfront.net
 - d2nxi61n77zqpl.cloudfront.net
 - d2o67tzzxkqap2.cloudfront.net
 - d2oh4tlt9mrke9.cloudfront.net
@@ -3622,6 +3638,17 @@ domain_suffix_set:
 - duu8lzqdm8tsz.cloudfront.net
 - dy2xcjk8s1dbz.cloudfront.net
 - dzgwautxzdtn9.cloudfront.net
+- anal.sataniskwijt.be
+- analytics.code.dccouncil.gov
+- count.vidsrc.pro
+- goat.hepicgamerz.com
+- goat.nhimmeo.cf
+- goat.skeetstats.xyz
+- goat.tailspace.net
+- st.mapleranks.com
+- stats.afrocave.com
+- stats.boringproxy.io
+- stats.how.wtf
 - am-vid-events.taboola.com
 - convsgmp.taboola.com
 - la-sync.taboola.com
@@ -3951,6 +3978,7 @@ domain_suffix_set:
 - log.popin.cc
 - log000.goo.ne.jp
 - logger.torimochi-ad.net
+- metrics.streaks.jp
 - omt.shinobi.jp
 - panda.kasika.io
 - ping.paidy.com
@@ -4609,6 +4637,7 @@ domain_suffix_set:
 - slipstream.skyscanner.net
 - smetrics.couponcabin.com
 - smetrics.ralphlauren.com
+- sofire.terabox.app
 - sp.cargurus.co.uk
 - sp.ecosia.org
 - sp.welcometothejungle.com
@@ -4739,9 +4768,11 @@ domain_suffix_set:
 - tracking.shopstyle.com
 - tracking.unrealengine.com
 - trackr.vivenu.com
+- trck.coomeet.com
 - trcksplt.miro.com
 - treatment.grammarly.com
 - tredir.go.com
+- trends.privacywall.org
 - trk.decido.io
 - trk.tirto.id
 - trx3.famousfix.com
@@ -39156,6 +39187,7 @@ domain_suffix_set:
 - bmly.impots.gouv.fr
 - cdtm.cdiscount.com
 - compteur.developpez.com
+- datalayer.orange.fr
 - dd.leboncoin.fr
 - e.legalstart.fr
 - events-logs.doctolib.com
@@ -39166,6 +39198,7 @@ domain_suffix_set:
 - insights.decathlon.net
 - kwgs.letudiant.fr
 - logstash-3.radio-canada.ca
+- metrics-broker.prod.p.tf1.fr
 - ocular.dealabs.com
 - p.pagesjaunes.fr
 - pixel.dugwood.com
@@ -39380,6 +39413,7 @@ domain_suffix_set:
 - stats.splinder.com
 - stats.stylight.it
 - stats.suedtirolerjobs.it
+- t.mediaset.it
 - tla.traderlink.com
 - track.tesiteca.it
 - tracker.stileo.it
@@ -39397,7 +39431,6 @@ domain_suffix_set:
 - beacon.watch.impress.co.jp
 - beat.yourtv.jp
 - count.upc.rakuten.co.jp
-- counter.wikiwiki.jp
 - d-log.asahi.co.jp
 - d-log.bs-asahi.tv
 - d-log.tv-asahi.co.jp
@@ -39562,6 +39595,7 @@ domain_suffix_set:
 - geo.emol.cl
 - hits.antena3.com
 - horizon-track.globo.com
+- logs.openbank.com
 - mega.promodescuentos.com
 - ocular.promodescuentos.com
 - pixel.europapress.net
