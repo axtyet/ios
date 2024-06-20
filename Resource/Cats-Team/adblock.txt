@@ -4,8 +4,8 @@
 ! Powerd by Cats-Team
 ! Expires: 1 day (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2024-06-20 16:27:57(GMT+8) 
-! Total count: 124601
+! ! Version: 2024-06-20 20:31:18(GMT+8) 
+! Total count: 124604
  
 ###ADtip
 ###AdBlockDialog
@@ -43174,6 +43174,7 @@ vansky.com##.top-ad-link
 vardembed.xyz,videovard.sx###MyDickIsFat
 vardembed.xyz,videovard.sx###NotReallyYouHaveSmallOne
 vardembed.xyz,videovard.sx#$#json-prune ads_mode
+variety.com#%#//scriptlet('set-attr', 'iframe[data-lazy-src]:not([src^="http"])', 'src', '[data-lazy-src]')
 vdianying.cc##div[style^="display:block !important;"]
 veeva-email.mallinckrodt.com$image
 veeva.alkermes.com$image
@@ -53283,6 +53284,7 @@ zzzyk.com###Tinfo
 ||analytics.snidigital.com^
 ||analytics.soluforce.com^
 ||analytics.sona-mira.co.jp^
+||analytics.sonjj.com^
 ||analytics.southpointcasino.com^
 ||analytics.spankbang.com^
 ||analytics.spark.co.nz^
@@ -71069,6 +71071,7 @@ zzzyk.com###Tinfo
 ||fearlessfaucet.com^$third-party
 ||featherstage.com^$third-party
 ||feathr.co^$third-party
+||feature-flag-edge.live.clickbus.net^
 ||featured.bradyid.com^
 ||febcyv.joshi-spa.jp^
 ||fec1.optimhome.com^
