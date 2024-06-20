@@ -1965,7 +1965,6 @@ domain:5d8dd0486a.com
 domain:5dc5879f6a.1ab287b306.com
 domain:5deca62174.9dfbbf28ec.com
 domain:5e00.pandasuite.io
-domain:5e23859408.7868d5c036.com
 domain:5e6ef8e03b.com
 domain:5eef1ed9ac.com
 domain:5egk.com
@@ -2365,6 +2364,7 @@ domain:780bcb6370.679aa5fd02.com
 domain:7811.cosmicnewspulse.com
 domain:78359c0779.com
 domain:78387c2566.com
+domain:7868d5c036.com
 domain:7871.5clo0xmbf.com
 domain:788111.com
 domain:78847f3987.20211144a8.com
@@ -10044,7 +10044,6 @@ domain:airairgu.com
 domain:airaujoog.com
 domain:airbornefrench.com
 domain:airborneold.com
-domain:aircgd.shop
 domain:airconditionpianoembarrassment.com
 domain:aircraftairliner.com
 domain:aircraftsplendid.com
@@ -11956,7 +11955,6 @@ domain:anceteventur.info
 domain:anchoicstage.com
 domain:ancientconspicuousuniverse.com
 domain:ancientsend.com
-domain:anclice.com
 domain:ancree.fr
 domain:ancxeftgyu.top
 domain:ancznewozw.com
@@ -14900,6 +14898,7 @@ domain:au-go.experian.com
 domain:au-partners.ingrammicro.com
 domain:au.interface.com
 domain:au.mywd.com
+domain:au1.qualtrics.com
 domain:au2m8.com
 domain:au6w0.xyz
 domain:au737.com
@@ -21414,6 +21413,7 @@ domain:ccrkpsu.com
 domain:ccsagacheats.com
 domain:ccsshn137.shop
 domain:cctrkom.creditcards.com
+domain:cctuhqghljzdrv.com
 domain:ccudl.com
 domain:ccwxma.xyz
 domain:cczqyvuy812jdy.com
@@ -21546,7 +21546,6 @@ domain:cdn.jquery-cdn.cc
 domain:cdn.jquery-uim.download
 domain:cdn.kadxin.net
 domain:cdn.kaizenplatform.net
-domain:cdn.karpatzi.com
 domain:cdn.lr-ingest.io
 domain:cdn.manga9.co
 domain:cdn.moji002.com
@@ -28117,6 +28116,7 @@ domain:dairyworkjourney.com
 domain:daistii.com
 domain:daisycontroversy.com
 domain:daiteshu.net
+domain:daithithapta.net
 domain:daiwheew.com
 domain:daiwofei2019.top
 domain:daizoode.com
@@ -28168,6 +28168,7 @@ domain:dan.danimillions.com
 domain:dana123.com
 domain:danaineirrupt.top
 domain:danaineuveas.com
+domain:danainstan.xyz
 domain:danapintar.club
 domain:danban.com
 domain:danbo.org
@@ -33894,6 +33895,7 @@ domain:dough1.com
 domain:douglasjamestraining.com
 domain:douglaug.net
 domain:douhooke.net
+domain:doujs01.xyz
 domain:doukoula.com
 domain:doumob.com
 domain:doumuleet.net
@@ -35864,6 +35866,7 @@ domain:eensoans.com
 domain:eentent.streampiay.me
 domain:eephaunou.com
 domain:eephaush.com
+domain:eephoawaum.com
 domain:eepoawhe.xyz
 domain:eepsoumt.com
 domain:eepsukso.com
@@ -37178,6 +37181,7 @@ domain:enguis.com
 domain:engwsq.xyz
 domain:enhad.xyz
 domain:enhalosecurer.digital
+domain:enhalosubsea.com
 domain:enhancedweapon.com
 domain:enhanceinterestinghasten.com
 domain:enhancenephew.com
@@ -55944,6 +55948,7 @@ domain:js.adspro.it
 domain:js.aiservice.vn
 domain:js.allporncomic.com
 domain:js.betburdaaffiliates.com
+domain:js.bigcomics.win
 domain:js.bju888.com
 domain:js.cmoa.pro
 domain:js.duotegame.com
@@ -56532,7 +56537,6 @@ domain:kacupu.ru
 domain:kaddafi.hk
 domain:kadggriffshoyv.com
 domain:kadlec.psjhealth.org
-domain:kaemingkchristmas.com
 domain:kaezakkjt.com
 domain:kaffnet.com
 domain:kafib.ru
@@ -56629,6 +56633,7 @@ domain:karonty.com
 domain:karoon.xyz
 domain:karoup.com
 domain:karpasbeamer.com
+domain:karpatzi.com
 domain:karponews.com
 domain:kart2ks.icu
 domain:kartik.devishetty.com
@@ -60892,7 +60897,6 @@ domain:lnymd.com
 domain:lnzjlr.xyz
 domain:lnzqmaqzjlnnw.top
 domain:lo8ve6ygour3pea4cee.com
-domain:load.365analytics.xyz
 domain:load.preparedmember.com
 domain:load.try-games.com
 domain:loader-cdn.azureedge.net
@@ -69907,7 +69911,6 @@ domain:musicnote.info
 domain:musicoholics.com
 domain:musikzoo.com
 domain:musique-france.com
-domain:musk-event.xyz
 domain:musk-project.com
 domain:musk.plus
 domain:muskatarsenal.com
@@ -70809,7 +70812,6 @@ domain:navi1.com
 domain:navi10.com
 domain:navi100.com
 domain:navi12.com
-domain:navi17.ru
 domain:navi18.com
 domain:navi2.com
 domain:navi20.com
@@ -70822,7 +70824,6 @@ domain:navi23.ru
 domain:navi24.ru
 domain:navi3.com
 domain:navi30.ru
-domain:navi31.ru
 domain:navi32.com
 domain:navi33.com
 domain:navi35.com
@@ -70831,6 +70832,7 @@ domain:navi38.ru
 domain:navi39.ru
 domain:navi4.com
 domain:navi40.com
+domain:navi42.ru
 domain:navi45.ru
 domain:navi47.com
 domain:navi5.com
@@ -70840,7 +70842,7 @@ domain:navi56.com
 domain:navi58.com
 domain:navi59.ru
 domain:navi6.com
-domain:navi62.ru
+domain:navi63.ru
 domain:navi65.com
 domain:navi66.com
 domain:navi66.ru
@@ -71909,6 +71911,7 @@ domain:ninzatool.pw
 domain:nip1.com
 domain:nip10.com
 domain:nip12.com
+domain:nip15.com
 domain:nip2.com
 domain:nip23.com
 domain:nip24.com
@@ -73093,6 +73096,7 @@ domain:oakchokerfumes.com
 domain:oakenboubous.com
 domain:oaklesy.com
 domain:oakmostlyaccounting.com
+domain:oakrirtorsy.xyz
 domain:oaksafta.com
 domain:oaksandtheircle.info
 domain:oal2.destinia.co.uk
@@ -76088,6 +76092,7 @@ domain:packsss.com
 domain:paclitor.com
 domain:pacoaniy.net
 domain:pacontainer.s3.amazonaws.com
+domain:pacquetpusher.com
 domain:pacyhacks.com
 domain:paddlediscovery.com
 domain:paddleniecehandicraft.com
@@ -77295,7 +77300,6 @@ domain:pay-ads.com
 domain:pay-click.ru
 domain:pay.mobile.sina.cn
 domain:pay.truemoney.me
-domain:pay.www.ozon.id19845672.info
 domain:pay4results24.eu
 domain:payae8moon9.com
 domain:paybackmodified.com
@@ -78423,7 +78427,6 @@ domain:pinionscdf.com
 domain:pinitolshouldn.com
 domain:pinjamanelit.top
 domain:pinjamanplus.com
-domain:pinjamanrupiah.xyz
 domain:pinjamnow.my.id
 domain:pinjamteman.top
 domain:pinjamuang.top
@@ -81122,6 +81125,7 @@ domain:psoackaw.net
 domain:psoaftob.xyz
 domain:psoageeb.com
 domain:psoageph.com
+domain:psoansumt.net
 domain:psoanufi.com
 domain:psoasusteech.net
 domain:psockapa.net
@@ -82774,6 +82778,7 @@ domain:quiz.survifu.com
 domain:quizlookup.com
 domain:quizmastersnag.com
 domain:quizmastersnappy.com
+domain:quizna.xyz
 domain:quizsupportedchapel.com
 domain:quiztoolbox.com
 domain:quizzicalzephyr.com
@@ -82905,6 +82910,7 @@ domain:qxjohabnsheyt.com
 domain:qxkous.sweet-mommy.com
 domain:qxlwpaxlwg.com
 domain:qxmsmlkjwqz.com
+domain:qxowtod.cn
 domain:qxpwiqydg.com
 domain:qxqtycvrm.com
 domain:qxrbu.com
@@ -84280,6 +84286,7 @@ domain:rejectionbackache.com
 domain:rejectionfundetc.com
 domain:rejoinedproof.com
 domain:rejoinedshake.com
+domain:rejowhourox.com
 domain:rejslaq.com
 domain:rek.rybizak.cz
 domain:rek5.savefrom.net
@@ -84627,6 +84634,7 @@ domain:requirespig.com
 domain:requirestwine.com
 domain:requisiteconjure.com
 domain:requotehocker.com
+domain:reqyfuijl.com
 domain:rereddit.com
 domain:reroplittrewheck.pro
 domain:rerosefarts.com
@@ -89227,6 +89235,7 @@ domain:seegraufah.com
 domain:seehaucu.net
 domain:seek.intel.com
 domain:seek.uwa.edu.au
+domain:seekmymatch.com
 domain:seekoflol.com
 domain:seemingverticallyheartbreak.com
 domain:seemoraldisobey.com
@@ -89477,6 +89486,7 @@ domain:sensualsheilas.com
 domain:sensualtestresume.com
 domain:sentbarn.com
 domain:sentdysfunctional.com
+domain:sentees.com
 domain:sentencefigurederide.com
 domain:sentenceinformedveil.com
 domain:sentientfog.com
@@ -101416,6 +101426,7 @@ domain:tallyhofaggot.top
 domain:tallysaturatesnare.com
 domain:talouktaboutrice.info
 domain:talsauve.com
+domain:talsindustrateb.info
 domain:tam.volkswagen.com
 domain:tamed-exotics.com
 domain:tamedbc.roska.fr
@@ -112446,6 +112457,7 @@ domain:villepariis.fr
 domain:vilpujzmyhu.com
 domain:vimpatace.digital
 domain:vimuw.ru
+domain:vincentagrafes.top
 domain:vindexmesode.com
 domain:vindicosuite.com
 domain:vindictushack.us
@@ -115262,6 +115274,7 @@ domain:wknaczrxjrj.com
 domain:wkoeoaavammkr.top
 domain:wkoeoaavammqv.top
 domain:wkoeoaavamqek.top
+domain:wkoocuweg.com
 domain:wkpewkejefefhm.com
 domain:wkpfgjbmd.com
 domain:wkpjgh.toysrus.pt
@@ -115824,6 +115837,7 @@ domain:wronol.com
 domain:wrontonshatbona.com
 domain:wrotad.com
 domain:wroteeasel.com
+domain:wrothycreep.top
 domain:wrotus.com
 domain:wrpsouf.cn
 domain:wrqtcoxjw.com
@@ -119842,6 +119856,7 @@ domain:yrepmy.jochen-schweizer.de
 domain:yretx.cn
 domain:yrhdmalrfr.com
 domain:yrhnw7h63.com
+domain:yrincelewasgiw.info
 domain:yrinpvfw.com
 domain:yrlkeazcacxwaj.com
 domain:yrqwnc.cn
