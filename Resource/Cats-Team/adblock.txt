@@ -4,8 +4,8 @@
 ! Powerd by Cats-Team
 ! Expires: 1 day (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2024-06-20 20:31:18(GMT+8) 
-! Total count: 124604
+! ! Version: 2024-06-21 08:03:32(GMT+8) 
+! Total count: 124620
  
 ###ADtip
 ###AdBlockDialog
@@ -44788,6 +44788,7 @@ zzzyk.com###Tinfo
 ||104.com.tw/log/
 ||105app.com/report/?
 ||105app.com^$third-party
+||107.167.16.14^
 ||109.123.233.251^
 ||109.169.66.161^$third-party,domain=~adult-site.ip
 ||109218er.xyz^
@@ -45488,6 +45489,7 @@ zzzyk.com###Tinfo
 ||3dmgame.com/page/img/shangcheng
 ||3dmgame.com/page/js/indexalert_ad.
 ||3dmgame.com/page/js/push_browser.js
+||3dmgame.com/static/image/common/pc_tg3dm.
 ||3dmgame.com/sw/zjworld/js/index.
 ||3dmgame.com/templets/common/show_js/show_js.js
 ||3dmgame.com/templets/index/gimg/
@@ -46143,6 +46145,7 @@ zzzyk.com###Tinfo
 ||88448.com/images/appkai980x100.gif
 ||8861198.com^
 ||8861202.com^
+||8878tp.com^
 ||888aa111bb.com^
 ||888aa222bb.com^
 ||888bb555ww.com^
@@ -59066,7 +59069,10 @@ zzzyk.com###Tinfo
 ||ccb.com.cn/V5/images5/left0.gif
 ||ccb.com.cn/V5/images5/right0.gif
 ||ccc.aqualink.tokyo^
+||ccccc66kkkkk.com^
 ||ccccc67kkkkk.com^
+||ccccc78kkkkk.com^
+||ccccc88kkkkk.com^
 ||cccpmo.com^$third-party
 ||ccdflm.limberry.de^
 ||ccdm*/Scripts/ccMedia.js
@@ -61862,6 +61868,7 @@ zzzyk.com###Tinfo
 ||counter.scribblelive.com^
 ||counter.sibnet.ru^
 ||counter.sina.com.cn^
+||counter.smotrim.ru^
 ||counter.snackly.co^
 ||counter.subtitlebee.com^
 ||counter.tengrinews.kz^
@@ -75771,6 +75778,7 @@ zzzyk.com###Tinfo
 ||hit.acstat.com^
 ||hit.api.useinsider.com^
 ||hit.c97.org^
+||hit.cnbce.com^
 ||hit.darmoweliczniki.pl^
 ||hit.demirorenteknoloji.com^
 ||hit.gemius.pl^
@@ -80080,6 +80088,7 @@ zzzyk.com###Tinfo
 ||jinhonghao.cn^
 ||jinhua.com.cn/ad_pic/
 ||jinju.glerny.space^
+||jinman4.com/ad/
 ||jins.com/*/ga.js
 ||jinti.com^*/aspx/*gg
 ||jintonghua.com^
@@ -80927,6 +80936,7 @@ zzzyk.com###Tinfo
 ||kdhmzv.oculosmeninaflor.com.br^
 ||kdjdpyrt.xyz^
 ||kdlsdk.neverfullydressed.co.uk^
+||kdoshbd.top^
 ||kdou.com/ad_js.php?adid=
 ||kdpic.pchome.com.tw^
 ||kdqlbm.cn^
@@ -92073,6 +92083,7 @@ zzzyk.com###Tinfo
 ||nz-go.experian.com^
 ||nz04com.com/aabdd/
 ||nzbusiness.vodafone.co.nz^
+||nzhzzd.xyz^
 ||nzlrfdv.xyz^
 ||nzmkzl.mytheresa.com^
 ||nzpages.co.nz/modules/common/track.js
@@ -96335,6 +96346,7 @@ zzzyk.com###Tinfo
 ||putphc.zuhre.com.tr^
 ||puutarha.net/ffsw-pushcrew.js
 ||puutarha.net/statb.asp
+||puwkcqp.icu^
 ||puy2.cn^
 ||puzzle.spiriteq.com^
 ||puzzlingproperty.com^$third-party
@@ -97174,6 +97186,7 @@ zzzyk.com###Tinfo
 ||qzalsk.xyz^
 ||qzcxtm.mango.com^
 ||qzda.cc^
+||qzehwg.xyz^
 ||qzfxcf.coastal.com^
 ||qziuwzn.cn^
 ||qzl8.destinia.fi^
@@ -101437,6 +101450,7 @@ zzzyk.com###Tinfo
 ||sgeth7.icu^
 ||sgforex.americanexpress.com^
 ||sgg.southcn.com^
+||sggu.cn^
 ||sgidskib.top^
 ||sgk.xyz/static/js/pc.js
 ||sglahyea.xyz^
@@ -101681,6 +101695,7 @@ zzzyk.com###Tinfo
 ||shinystat.com^$third-party
 ||shinystat.it^$third-party
 ||shipostrich.com^
+||shipping.jp/raa/rd.js
 ||shippinginsights.com^$third-party
 ||shipsmarter.idrivelogistics.com^
 ||shirtsidewalk.com^$third-party
@@ -119515,6 +119530,7 @@ zzzyk.com###Tinfo
 ||vsqyaz.sweetwater.com^
 ||vst.sibnet.ru^
 ||vstat.borderlessbd.com^
+||vstat.rtr-vesti.ru^
 ||vstat.v.blog.sohu.com^
 ||vstats.me^
 ||vsthouse.ru/a-detector/

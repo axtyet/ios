@@ -4,8 +4,8 @@
 ! Powerd by Cats-Team
 ! Expires: 1 day (update frequency)
 ! Description: AdRules AdBlock List's Lite Version, And Remove Some Filters
-! ! Version: 2024-06-20 20:31:18(GMT+8) 
-! Total count: 34048
+! ! Version: 2024-06-21 08:03:32(GMT+8) 
+! Total count: 34060
  
 ###ADtip
 ###AdBlockDialog
@@ -17262,6 +17262,7 @@ zzzyk.com###Tinfo
 ||1024wanzhai.$popup,third-party
 ||1028images.com^
 ||102tv.cn/js/main.js
+||107.167.16.14^
 ||109218er.xyz^
 ||10fang.com/static/skin/tfy/layer/layer.js
 ||11.96131.com.cn^
@@ -17755,6 +17756,7 @@ zzzyk.com###Tinfo
 ||3dmgame.com/page/img/shangcheng
 ||3dmgame.com/page/js/indexalert_ad.
 ||3dmgame.com/page/js/push_browser.js
+||3dmgame.com/static/image/common/pc_tg3dm.
 ||3dmgame.com/sw/zjworld/js/index.
 ||3dmgame.com/templets/common/show_js/show_js.js
 ||3dmgame.com/templets/index/gimg/
@@ -18271,6 +18273,7 @@ zzzyk.com###Tinfo
 ||88448.com/images/appkai980x100.gif
 ||8861198.com^
 ||8861202.com^
+||8878tp.com^
 ||888aa111bb.com^
 ||888aa222bb.com^
 ||888bb555ww.com^
@@ -20659,7 +20662,10 @@ zzzyk.com###Tinfo
 ||ccav5.com/static/js/floatImgAd.js
 ||ccb.com.cn/V5/images5/left0.gif
 ||ccb.com.cn/V5/images5/right0.gif
+||ccccc66kkkkk.com^
 ||ccccc67kkkkk.com^
+||ccccc78kkkkk.com^
+||ccccc88kkkkk.com^
 ||ccdm*/Scripts/ccMedia.js
 ||ccement.com/index/index/fetchAd
 ||ccement.com/js/ccement_new/open.js
@@ -25276,6 +25282,7 @@ zzzyk.com###Tinfo
 ||jinhaitun888.xyz^
 ||jinhonghao.cn^
 ||jinhua.com.cn/ad_pic/
+||jinman4.com/ad/
 ||jinti.com^*/aspx/*gg
 ||jintonghua.com^
 ||jinyici.com/qq.js
@@ -25714,6 +25721,7 @@ zzzyk.com###Tinfo
 ||kdgjsf.com^
 ||kdh095.cn^
 ||kdjdpyrt.xyz^
+||kdoshbd.top^
 ||kdou.com/ad_js.php?adid=
 ||kdpic.pchome.com.tw^
 ||kdqlbm.cn^
@@ -27766,6 +27774,7 @@ zzzyk.com###Tinfo
 ||nyt5j.cyou^
 ||nyvgbt.xyz^
 ||nz04com.com/aabdd/
+||nzhzzd.xyz^
 ||nzlrfdv.xyz^
 ||nzporf.xyz^
 ||nzrlx6wc.icu^
@@ -28603,6 +28612,7 @@ zzzyk.com###Tinfo
 ||putaoys.com/static/js/acb1.js
 ||putonghua520.com/skins/10ym/3jin.gif
 ||putonghua520.com/skins/10ym/baicai.gif
+||puwkcqp.icu^
 ||puy2.cn^
 ||puzzlingproperty.com^$third-party
 ||pv.cheshi.com^
@@ -29045,6 +29055,7 @@ zzzyk.com###Tinfo
 ||qyzyd.top^
 ||qzalsk.xyz^
 ||qzda.cc^
+||qzehwg.xyz^
 ||qziuwzn.cn^
 ||qznjujv.xyz^
 ||qzone.la/Scripts/m.js
@@ -29762,6 +29773,7 @@ zzzyk.com###Tinfo
 ||sgegie.fun^
 ||sgeth7.icu^
 ||sgg.southcn.com^
+||sggu.cn^
 ||sgidskib.top^
 ||sgk.xyz/static/js/pc.js
 ||sglahyea.xyz^

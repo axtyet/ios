@@ -2579,6 +2579,7 @@ domain:8861198.com
 domain:8861202.com
 domain:8866786.com
 domain:8869bc0716.e9522e84dc.com
+domain:8878tp.com
 domain:888.tv.sohu.com
 domain:888aa111bb.com
 domain:888aa222bb.com
@@ -13739,6 +13740,7 @@ domain:appresthinters.top
 domain:approach.wise1-golf.com
 domain:approachconducted.com
 domain:approachproperachieve.com
+domain:appropriate-bag.pro
 domain:appropriateloathefewer.com
 domain:appropriatepurse.com
 domain:approvedhacks.com
@@ -21372,7 +21374,10 @@ domain:ccb.myzen.co.uk
 domain:ccc.aqualink.tokyo
 domain:ccc.sys.intl.xiaomi.com
 domain:ccc.sys.miui.com
+domain:ccccc66kkkkk.com
 domain:ccccc67kkkkk.com
+domain:ccccc78kkkkk.com
+domain:ccccc88kkkkk.com
 domain:cccpmo.com
 domain:cccrir.com
 domain:ccdace.hupu.com
@@ -25940,6 +25945,7 @@ domain:counter.sberbank.ru
 domain:counter.scribblelive.com
 domain:counter.search.bg
 domain:counter.sibnet.ru
+domain:counter.smotrim.ru
 domain:counter.snackly.co
 domain:counter.sparklit.com
 domain:counter.subtitlebee.com
@@ -27397,6 +27403,7 @@ domain:cuevana.fm
 domain:cuevastrck.com
 domain:cuferxmtvifnu.com
 domain:cufroa.aboutyou.be
+domain:cufultahaur.com
 domain:cugeeksy.net
 domain:cuhlsl.info
 domain:cui.m.1688.com
@@ -36834,6 +36841,7 @@ domain:emiciststrk.com
 domain:emigrantblunder.com
 domain:emigrantfirearmcaliber.com
 domain:emigrantmovements.com
+domain:emigreehurty.top
 domain:emigrenanas.com
 domain:emily.tncrun.net
 domain:emilyz.top
@@ -47050,6 +47058,7 @@ domain:guestssum.com
 domain:guftaujug.com
 domain:gug.ku6cdn.com
 domain:gugelo.ru
+domain:gugletkvarner.top
 domain:gugu.l-me.ink
 domain:guhyqz.hawesko.de
 domain:guiaconsumidor.com
@@ -49091,6 +49100,7 @@ domain:hit.acstat.com
 domain:hit.api.useinsider.com
 domain:hit.c97.org
 domain:hit.clickaider.com
+domain:hit.cnbce.com
 domain:hit.darmoweliczniki.pl
 domain:hit.demirorenteknoloji.com
 domain:hit.interia.pl
@@ -51250,6 +51260,7 @@ domain:il.5.p2l.info
 domain:il8r.com
 domain:ilade.xyz
 domain:ilaterdeallyig.info
+domain:ilaterdeallyighab.info
 domain:ilathetchit.com
 domain:ilawitrototlet.com
 domain:ilbanner.com
@@ -54406,6 +54417,7 @@ domain:itheatmora.com
 domain:itheatmoran.com
 domain:ithergrouter.website
 domain:ithoughtsustache.info
+domain:iththinleldedallov.info
 domain:itienlo.top
 domain:itineraryborn.com
 domain:itinerarymonarchy.com
@@ -56741,6 +56753,7 @@ domain:kdmjvnk.com
 domain:kdmmm.cn
 domain:kdnutwrx.com
 domain:kdokgcf.com
+domain:kdoshbd.top
 domain:kdosimp.com
 domain:kdpic.pchome.com.tw
 domain:kdpnmlygyagyx.com
@@ -57372,9 +57385,6 @@ domain:kmpxq.cn
 domain:kmqghr.bristolshop.be
 domain:kmqhmn.helen-marlen.com
 domain:kmrilock.com
-domain:kms-full.com
-domain:kmspico.io
-domain:kmspico.ws
 domain:kmwatson.events.data.microsoft.com
 domain:kmwatsonc.events.data.microsoft.com
 domain:kmwclt.xyz
@@ -72980,6 +72990,7 @@ domain:nzaza.com
 domain:nzfhloo.com
 domain:nzgldfeqvocgb.com
 domain:nzhfk.com
+domain:nzhzzd.xyz
 domain:nzilixqaxocl.com
 domain:nzimmoadxfa.com
 domain:nzlebmxoebtff.com
@@ -81774,6 +81785,7 @@ domain:putrr16.com
 domain:putrr18.com
 domain:putrr7.com
 domain:putwandering.com
+domain:puwkcqp.icu
 domain:puwpush.com
 domain:puy2.cn
 domain:puyjjq.com
@@ -82968,6 +82980,7 @@ domain:qzcjehp.com
 domain:qzcxtm.mango.com
 domain:qzdmvwewzxzzze.com
 domain:qzeavzrfaoqn.com
+domain:qzehwg.xyz
 domain:qzesmjv.com
 domain:qzfxcf.coastal.com
 domain:qziuwzn.cn
@@ -83475,6 +83488,7 @@ domain:rcblfd.xyz
 domain:rcblkkhfvrxyn.com
 domain:rcckzzmtst.rcckzmtst.cfd
 domain:rccnyh.airportrentalcars.com
+domain:rcdjkdesdn.com
 domain:rce.ee
 domain:rceqisfutv.com
 domain:rcerrohatfad.com
@@ -85509,6 +85523,7 @@ domain:rmp4.destinia.uy
 domain:rmpad.imtt.qq.com
 domain:rmrtgsheui.com
 domain:rmtag.com
+domain:rmtckjzct.com
 domain:rmuuspy.com
 domain:rmvvawqobqvaq.top
 domain:rmvvawqobqvmv.top
@@ -89867,6 +89882,7 @@ domain:sgforex.americanexpress.com
 domain:sgfsdvc.com
 domain:sgftrrs.com
 domain:sgg.southcn.com
+domain:sggu.cn
 domain:sghehllds.com
 domain:sgidskib.top
 domain:sgihava.com
@@ -113065,6 +113081,7 @@ domain:vsqyaz.sweetwater.com
 domain:vst.sibnet.ru
 domain:vstat.borderlessbd.com
 domain:vstat.my.tv.sohu.com
+domain:vstat.rtr-vesti.ru
 domain:vstat.v.blog.sohu.com
 domain:vstats.me
 domain:vstqvcbljb.com
@@ -115846,6 +115863,7 @@ domain:wrothycreep.top
 domain:wrotus.com
 domain:wrpsouf.cn
 domain:wrqtcoxjw.com
+domain:wrrlidnlerx.com
 domain:wrtjojn.xyz
 domain:wruaqpkuwa.com
 domain:wrufer.com
