@@ -1,7 +1,7 @@
 /*************************************
 
 项目名称：iTunes-系列解锁合集
-更新日期：2024-06-23
+更新日期：2024-06-24
 脚本作者：chxm1023
 电报频道：https://t.me/chxm1023
 使用声明：⚠️仅供参考，🈲转载与售卖！
@@ -117,9 +117,9 @@ const list = {
   'one%20sec': { cm: 'sjbla', hx: 'hxpda', version: "275", id: "wtf.riedel.one_sec.pro.annual.individual", latest: "chxm1023" },  //one sec
   'com.skysoft.pencilsketch': { cm: 'sjbla', hx: 'hxpda', version: "183", id: "com.skysoft.pencilsketch.subscription.yearly", latest: "chxm1023" },  //铅笔画(需试用)
   'com.instagridpost.rsigp': { cm: 'sjbla', hx: 'hxpda', version: "1", id: "com.GridPost.oneyearplus", latest: "chxm1023" },  //九宫格切图
-  'com.skysoft.picsqueen': { cm: 'sjbla', hx: 'hxpda', version: "40", id: "com.skysoft.picsqueen.subscription.yearly", latest: "chxm1023" },  //PicsQueen
-  'com.skysoft.removalfree': { cm: 'sjbla', hx: 'hxpda', version: "706", id: "com.skysoft.removalfree.subscription.yearly", latest: "chxm1023" },  //图片消除
-  'com.skysoft.facecartoon': { cm: 'sjbla', hx: 'hxpda', version: "87", id: "com.skysoft.facecartoon.subscription.yearly", latest: "chxm1023" },  //卡通头像
+  'com.skysoft.picsqueen': { cm: 'sjbla', hx: 'hxpda', version: "40", id: "com.skysoft.picsqueen.subscription.yearly", latest: "chxm1023" },  //PicsQueen-AI绘图
+  'com.skysoft.removalfree': { cm: 'sjbla', hx: 'hxpda', id: "com.skysoft.removalfree.subscription.yearly3", latest: "chxm1023" },  //图片消除
+  'com.skysoft.facecartoon': { cm: 'sjbla', hx: 'hxpda', version: "87", id: "com.skysoft.facecartoon.subscription.yearly", latest: "chxm1023" },  //我的卡通头像
   'Jennie%20AI': { cm: 'sjbla', hx: 'hxpda', version: "50", id: "com.skysoft.text2img.vip.yearly", latest: "chxm1023" },  //Jennie AI制作图片
   'Face%20Replace': { cm: 'sjblb', hx: 'hxpda', version: "284", id: "com.skysoft.faceswap.subscription.unlimitedaccess", latest: "chxm1023" },  //FaceReplace(未完成)
   'MGhostLens': { cm: 'sjbla', hx: 'hxpda', version: "3.3991", id: "com.ghostlens.premium1month", latest: "chxm1023" },  //魔鬼相机
