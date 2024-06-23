@@ -4,8 +4,8 @@
 ! Powerd by Cats-Team
 ! Expires: 1 day (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2024-06-22 08:03:08(GMT+8) 
-! Total count: 124651
+! ! Version: 2024-06-23 08:03:35(GMT+8) 
+! Total count: 124657
  
 ###ADtip
 ###AdBlockDialog
@@ -7785,9 +7785,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 4kporn.xxx,cambro.tv,mangovideo.club###kt_player > a[href][target="_blank"]
 4kporn.xxx,cambro.tv,mangovideo.club#$#abort-current-inline-script crakPopInParams; abort-on-property-read onload
 4pda.to#$#hide-if-matches-xpath './/a[@target="_blank"]/img[@alt="" and @title=""]/parent::a/ancestor::*[@id and @class][1]'; hide-if-matches-xpath './/a[@href][@title][@target="_blank"]/img[@itemprop]/parent::a[@href]'; hide-if-matches-xpath './/a[@href][@target="_blank"]/img[@title and @border]/ancestor::*[2]'; hide-if-matches-xpath './/*[@id and @class]/article[@class="post" and @itemscope]/ancestor-or-self::*[1]';
-4players.de#%#//scriptlet('remove-attr', 'onclick', 'a[onclick*="Buy"]')
-4players.de#%#//scriptlet('remove-attr', 'onclick', 'a[onclick*="send4PEvent"]')
-4players.de#@#.AdSense
 4spaces.org,fuliba.net,fuliba2023.net,uliba.net,ypojie.com##.widget_ui_orbui
 4tuning.ro#@#.adsbygoogle
 500.com###live_top_ad
@@ -10884,6 +10881,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||guinnessworldrecords.jp/ezais/analytics$~third-party
 @@||guokr.com/apis/flowingboard/item/m_article
 @@||guokr.com/apis/flowingboard/item/m_home_
+@@||gva.et-gv.fr^$script,domain=culture.gouv.fr
 @@||gymnasedeburier.ch/themes/segment/js/$~third-party
 @@||h-cast.jp^$script,domain=bookoffonline.co.jp
 @@||h.imedia.cz/js/cmp2/scmp.js$domain=seznam.cz
@@ -42408,6 +42406,7 @@ thinbug.com###inktokad
 thinkphp.cn##.a6
 thmz.com###floatdivids
 thor.neolab.ubilab.me$image
+thwiki.cc###a-carousel
 thwiki.cc##.on-right > .swiper-container
 tianhaohz.com##span[style="display: block; clear: both; overflow: hidden;"]
 tianqi.com##.xcx_erweima
@@ -45630,7 +45629,6 @@ zzzyk.com###Tinfo
 ||4p68.com^
 ||4paradigm.com^$domain=sina.com.cn
 ||4pda.ru/stat/
-||4players.de/javascript/awstats_misc_tracker.js
 ||4pna.com/clientscript/kr_scripts/rbs_scripts/rbs_banner_sender.min.js
 ||4po6iqp9.cn^
 ||4seeresults.com^
@@ -57403,6 +57401,7 @@ zzzyk.com###Tinfo
 ||blau-subdomain.b.information.blau.de^
 ||blava.viessmann.sk^
 ||blavity.black.news^
+||blciqbk.icu^
 ||bldr.mkt.samsung.com^
 ||ble.ubm-licensing.com^
 ||bleachmx.fr/wp-content/plugins/yeptmixnsykgrb/bjns-fcknj.js
@@ -67652,6 +67651,7 @@ zzzyk.com###Tinfo
 ||doubtfulrainstorm.com^$third-party
 ||douguo.net/upload/post/d/
 ||doujs01.xyz^
+||doujs02.xyz^
 ||doupe.zive.cz/Client.Scripts/jquery.onp.sociallocker.1.7.6.js$script
 ||doupocangqiong1.com/js/ptwap.js
 ||doutula.com/img/upupoo/
@@ -68746,6 +68746,7 @@ zzzyk.com###Tinfo
 ||ednqjm.magnanni.com^
 ||edococounter.de^$third-party
 ||edong.link^
+||edoshbw.top^
 ||edpsmart.edpcomunicacao.com.br^
 ||edriving.actonservice.com^
 ||edrone.me/trace?
@@ -76070,6 +76071,7 @@ zzzyk.com###Tinfo
 ||hongmao39.top^
 ||hongteng.xyz^
 ||hongyingbbs.com/jj/
+||honknl.xyz^
 ||honorablehydrant.com^$third-party
 ||honorableland.com^$third-party
 ||hontont.com^
@@ -82263,7 +82265,6 @@ zzzyk.com###Tinfo
 ||lewis.gct.com^
 ||lewqiiy.xyz^
 ||lexip.4pcdn.de^
-||lexip.4players.de^
 ||lexity.com^$third-party
 ||lexology.com/pd.js
 ||lexvek.gap.ae^
@@ -92437,6 +92438,7 @@ zzzyk.com###Tinfo
 ||ok.ru/web-api/pixel?
 ||ok.ru^$cookie=mtrc
 ||ok8867s.com^
+||okagcw.xyz^
 ||okbd2ou.icu^
 ||okbmf.com/imgad/
 ||okbmf.com^*950_120
@@ -93388,6 +93390,7 @@ zzzyk.com###Tinfo
 ||oyyqan.hejoscar.dk^
 ||oyysbc.xyz^
 ||ozdoir.meundies.com^
+||ozdq.cn^
 ||ozhmig.cn^
 ||ozkbdxdu.icu^
 ||ozkkuy.fabianafilippi.com^
@@ -93485,6 +93488,7 @@ zzzyk.com###Tinfo
 ||p0y.cn^$image,domain=~ipinyou.com.cn
 ||p0y.cn^$third-party
 ||p1-feedback.byteimg.com^
+||p1.360soucha.com^
 ||p1.chinakaoyan.com^
 ||p1.danskebank.co.uk^
 ||p1.danskebank.dk^
@@ -94979,7 +94983,6 @@ zzzyk.com###Tinfo
 ||pixel-tracker.com^
 ||pixel.1und1.de^
 ||pixel.4pcdn.de^
-||pixel.4players.de^
 ||pixel.ad^$third-party
 ||pixel.advertising.com^
 ||pixel.ampry.com^
@@ -99652,6 +99655,7 @@ zzzyk.com###Tinfo
 ||saec-metrics.base.be^
 ||saec-metrics.telenet.be^
 ||saegissolutions.actonservice.com^
+||saeo.cn^
 ||safdirect.actonservice.com^
 ||safe-click.net^$third-party
 ||safe-iplay.com/logger
@@ -111142,6 +111146,7 @@ zzzyk.com###Tinfo
 ||tally.bizanalyst.in^
 ||talpa-analytics.$third-party
 ||talpa-analytics.com^$third-party
+||talyrt.xyz^
 ||tam.volkswagen.com^
 ||tamedbc.roska.fr^
 ||tamedia.com.tw^$third-party
@@ -119569,6 +119574,7 @@ zzzyk.com###Tinfo
 ||vtex.com.br/rc/rc.js
 ||vteximg.com.br/scripts/track.js
 ||vteximg.com.br/scripts/vtex.tagmanager.helper.js
+||vtlyrj.xyz^
 ||vtneexam.quantresear.ch^
 ||vtnmxx.xyz^
 ||vtodss.livenation.com^

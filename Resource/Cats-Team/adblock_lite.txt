@@ -4,8 +4,8 @@
 ! Powerd by Cats-Team
 ! Expires: 1 day (update frequency)
 ! Description: AdRules AdBlock List's Lite Version, And Remove Some Filters
-! ! Version: 2024-06-22 08:03:08(GMT+8) 
-! Total count: 34078
+! ! Version: 2024-06-23 08:03:35(GMT+8) 
+! Total count: 34089
  
 ###ADtip
 ###AdBlockDialog
@@ -15339,6 +15339,7 @@ thienhatruyen2.com#$#abort-current-inline-script $ pc-popup-2
 thinbug.com###inktokad
 thinkphp.cn##.a6
 thmz.com###floatdivids
+thwiki.cc###a-carousel
 thwiki.cc##.on-right > .swiper-container
 tianhaohz.com##span[style="display: block; clear: both; overflow: hidden;"]
 tianqi.com##.xcx_erweima
@@ -20195,6 +20196,7 @@ zzzyk.com###Tinfo
 ||bkxuprh.cn^
 ||bkzmtp.xyz^
 ||bl.emotionalworld.cn^
+||blciqbk.icu^
 ||bleachmx.fr/wp-content/plugins/yeptmixnsykgrb/bjns-fcknj.js
 ||blesspizzas.com^$third-party
 ||bleumzr.icu^
@@ -22094,6 +22096,7 @@ zzzyk.com###Tinfo
 ||doubtfulrainstorm.com^$third-party
 ||douguo.net/upload/post/d/
 ||doujs01.xyz^
+||doujs02.xyz^
 ||doupe.zive.cz/Client.Scripts/jquery.onp.sociallocker.1.7.6.js$script
 ||doupocangqiong1.com/js/ptwap.js
 ||doutula.com/img/upupoo/
@@ -22452,6 +22455,7 @@ zzzyk.com###Tinfo
 ||edler.cn^
 ||edmontonchina.*/pic/
 ||edong.link^
+||edoshbw.top^
 ||edssnet.changchunets.com^
 ||edu-30130.sz.gfp.tencent-cloud.com^*.gif
 ||edu.jiukang.org^
@@ -24273,6 +24277,7 @@ zzzyk.com###Tinfo
 ||hongmao39.top^
 ||hongteng.xyz^
 ||hongyingbbs.com/jj/
+||honknl.xyz^
 ||honorablehydrant.com^$third-party
 ||honorableland.com^$third-party
 ||hontont.com^
@@ -27886,6 +27891,7 @@ zzzyk.com###Tinfo
 ||ojvpigx.xyz^
 ||ok-11-cai.cc^
 ||ok8867s.com^
+||okagcw.xyz^
 ||okbd2ou.icu^
 ||okbmf.com/imgad/
 ||okbmf.com^*950_120
@@ -28060,6 +28066,7 @@ zzzyk.com###Tinfo
 ||oyuwkbk.top^
 ||oyxp.xyz^
 ||oyysbc.xyz^
+||ozdq.cn^
 ||ozhmig.cn^
 ||ozkbdxdu.icu^
 ||ozolei.xyz^
@@ -28084,6 +28091,7 @@ zzzyk.com###Tinfo
 ||p0y.cn^
 ||p0y.cn^$image,domain=~ipinyou.com.cn
 ||p1-feedback.byteimg.com^
+||p1.360soucha.com^
 ||p1.chinakaoyan.com^
 ||p1.qxzsw.com^
 ||p1.zhongyoo.com^
@@ -29551,6 +29559,7 @@ zzzyk.com###Tinfo
 ||sacredperpetratorbasketball.com^
 ||sacvmb.icu^
 ||sadloaf.com^$third-party
+||saeo.cn^
 ||safe524.xyz^$third-party
 ||safelinking.biz/adblock-detector.htm$subdocument
 ||saffronrefuge.com^$third-party
@@ -30723,6 +30732,7 @@ zzzyk.com###Tinfo
 ||takjttz.cn^
 ||talentedsteel.com^$third-party
 ||talkfx.*/showTKImg?
+||talyrt.xyz^
 ||tamedia.com.tw^$third-party
 ||tangibleteam.com^$third-party
 ||tangk.top^
@@ -32013,6 +32023,7 @@ zzzyk.com###Tinfo
 ||vsthouse.ru/a-detector/
 ||vswswlz.icu^
 ||vszzzj.xyz^
+||vtlyrj.xyz^
 ||vtnmxx.xyz^
 ||vttqld.xyz^
 ||vtvnnl.xyz^
