@@ -54,6 +54,9 @@ domain_set:
 - toots-a.akamaihd.net
 - videoads-cloud.rovio.com
 - video-ads-module.ad-tech.nbcuni.com
+- ad.jia.360.cn
+- ad.life.360.cn
+- ad.iot.360.cn
 - ad.51wnl-cq.com
 - adextra.51wnl-cq.com
 - log.51wnl-cq.com
@@ -412,6 +415,7 @@ domain_suffix_set:
 - clotfun.mobi
 - clotfun.online
 - cloudmobi.net
+- cmgadx.com
 - comscore.com
 - cpmstar.com
 - cpx.to
@@ -786,6 +790,7 @@ domain_suffix_set:
 - cpro.baidu.com
 - pos.baidu.com
 - pangolin-sdk-toutiao.com
+- pangolin-sdk-toutiao1.com
 - pangolin-sdk-toutiao-b.com
 - iad.appboy.com
 - iad-03.appboy.com

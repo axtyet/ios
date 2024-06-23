@@ -157,6 +157,7 @@ HOST-SUFFIX,ce33m7.com,REJECT
 HOST-SUFFIX,clotfun.mobi,REJECT
 HOST-SUFFIX,clotfun.online,REJECT
 HOST-SUFFIX,cloudmobi.net,REJECT
+HOST-SUFFIX,cmgadx.com,REJECT
 HOST-SUFFIX,comscore.com,REJECT
 HOST-SUFFIX,cpmstar.com,REJECT
 HOST-SUFFIX,cpx.to,REJECT
@@ -579,6 +580,11 @@ HOST,videoads-cloud.rovio.com,REJECT
 HOST,video-ads-module.ad-tech.nbcuni.com,REJECT
 
 # (0~9)
+# > 360
+HOST,ad.jia.360.cn,REJECT
+HOST,ad.life.360.cn,REJECT
+HOST,ad.iot.360.cn,REJECT
+
 # > 51wnl
 HOST,ad.51wnl-cq.com,REJECT
 HOST,adextra.51wnl-cq.com,REJECT
@@ -638,6 +644,7 @@ IP-CIDR,124.192.153.42/32,REJECT
 # ------
 # > ByteDance
 HOST-SUFFIX,pangolin-sdk-toutiao.com,REJECT
+HOST-SUFFIX,pangolin-sdk-toutiao1.com,REJECT
 HOST-SUFFIX,pangolin-sdk-toutiao-b.com,REJECT
 HOST,ad.toutiao.com,REJECT
 HOST,dsp.toutiao.com,REJECT
