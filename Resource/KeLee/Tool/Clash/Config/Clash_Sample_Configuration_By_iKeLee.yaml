@@ -1,5 +1,5 @@
 # mihomo 配置
-# 日期：2024-06-13 13:44:18
+# 日期：2024-06-24 23:01:01
 # 配置作者：https://t.me/iKeLee
 # 适用版本：所有使用 mihomo 核心的程序
 port: 7890
@@ -7,8 +7,6 @@ socks-port: 7891
 mixed-port: 7892
 redir-port: 7893
 tproxy-port: 7894
-# mixed-port: 7890
-# tproxy-port: 7891
 
 unified-delay: true
 geodata-mode: false
