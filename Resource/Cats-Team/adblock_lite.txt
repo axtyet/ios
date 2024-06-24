@@ -4,8 +4,8 @@
 ! Powerd by Cats-Team
 ! Expires: 1 day (update frequency)
 ! Description: AdRules AdBlock List's Lite Version, And Remove Some Filters
-! ! Version: 2024-06-23 08:03:35(GMT+8) 
-! Total count: 34089
+! ! Version: 2024-06-24 08:04:46(GMT+8) 
+! Total count: 34095
  
 ###ADtip
 ###AdBlockDialog
@@ -19599,6 +19599,7 @@ zzzyk.com###Tinfo
 ||awoudsoo.xyz^
 ||awunkse72.shop^
 ||awuvcq.xyz^
+||awyuge.xyz^
 ||awyyzx.com^
 ||awzbijw.com^$third-party
 ||awzddev.cn^
@@ -20155,6 +20156,7 @@ zzzyk.com###Tinfo
 ||birgga.top^
 ||birglucy.xyz^
 ||birjkhm.cn^
+||birtw.cn^
 ||bis8j.com^
 ||bitauto.com/bglog.gif?
 ||bitauto.com/js/sense*.js
@@ -21713,6 +21715,7 @@ zzzyk.com###Tinfo
 ||ddkh59.com^
 ||ddllhqj.xyz^
 ||ddlvpmt.xyz^
+||ddnzpr.xyz^
 ||ddqkqq.com^
 ||ddqmlfu.icu^
 ||ddshu.net/a_d_code/
@@ -23033,6 +23036,7 @@ zzzyk.com###Tinfo
 ||fmgmh.com/template/wap/default/js/lunbo.js
 ||fmhua.com/template/*/images/g_js/*.html
 ||fmild.xyz^
+||fmjjvb.xyz^
 ||fmre1.com^
 ||fmssoj.icu^
 ||fmvbyji.cn^
@@ -31487,6 +31491,7 @@ zzzyk.com###Tinfo
 ||uejdsw.com^
 ||uejnmjdpd.xyz^
 ||uekmhvbb.xyz^
+||uessnah.icu^
 ||ueumdkc.cn^
 ||ufgg55.xyz^
 ||ufile.cc/crod.js
@@ -33157,6 +33162,7 @@ zzzyk.com###Tinfo
 ||ycc90.xyz^
 ||yccz.net/xml/
 ||ycdywl.com^
+||ycgfdf.cn^
 ||ycgkol.icu^
 ||ycgmnpp.icu^
 ||ycgy8888.com^

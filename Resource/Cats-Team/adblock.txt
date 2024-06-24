@@ -4,8 +4,8 @@
 ! Powerd by Cats-Team
 ! Expires: 1 day (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2024-06-23 08:03:35(GMT+8) 
-! Total count: 124657
+! ! Version: 2024-06-24 08:04:46(GMT+8) 
+! Total count: 124673
  
 ###ADtip
 ###AdBlockDialog
@@ -3888,6 +3888,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /common/tracker.js
 /common/tracking/webtrekk
 /common_access/usercheck.php?muid=$xmlhttprequest
+/complianz/v1/track$xmlhttprequest
 /comscore-min.js
 /comscore?
 /comscore_beacon/*
@@ -5786,6 +5787,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /scribd_events?
 /script.js|$~third-party,domain=beaumontenterprise.com|chron.com|ctinsider.com|ctpost.com|darientimes.com|expressnews.com|fairfieldcitizenonline.com|fuelfix.com|greenwichtime.com|hearstmediact.com|hearstmediatx.com|houstonchronicle.com|lmtonline.com|middletownpress.com|milfordmirror.com|mrt.com|myplainview.com|mysanantonio.com|ncadvertiser.com|newmilfordspectrum.com|newstimes.com|nhregister.com|ourmidland.com|registercitizen.com|seattlepi.com|sfchronicle.com|sfgate.com|sheltonherald.com|stamfordadvocate.com|thehour.com|theintelligencer.com|theridgefieldpress.com|timesunion.com|trumbulltimes.com|westport-news.com|wiltonbulletin.com|yourconroenews.com
 /script.tagged-events.outbound-links.js
+/script.tagged-events.pageview-props.js
 /script/pixel.js
 /scriptAnalytics.js
 /scriptonline.js?uin=
@@ -6123,6 +6125,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /supercookie.js
 /svr/*.aspx?placeid=$third-party
 /svr/popwin.aspx?$third-party
+/svs.gif?
 /sw/analytics.js
 /swa_t.gif?
 /swatag.js
@@ -55880,6 +55883,7 @@ zzzyk.com###Tinfo
 ||awuapj.landwatch.com^
 ||awunkse72.shop^
 ||awuvcq.xyz^
+||awyuge.xyz^
 ||awyyzx.com^
 ||awzbijw.com^$third-party
 ||awzddev.cn^
@@ -57291,6 +57295,7 @@ zzzyk.com###Tinfo
 ||birgga.top^
 ||birglucy.xyz^
 ||birjkhm.cn^
+||birtw.cn^
 ||bis8j.com^
 ||bisko.mall.tv^
 ||bismetrics.experian.com^
@@ -63067,6 +63072,7 @@ zzzyk.com###Tinfo
 ||dacounter.com^$third-party
 ||dada.dadawm.cc^
 ||dada8828.com/js/aaa/
+||dadalytics.it^
 ||dadatuwz.com^$third-party
 ||dadawm.cc^
 ||dadbj.cn^
@@ -66253,6 +66259,7 @@ zzzyk.com###Tinfo
 ||ddlvpmt.xyz^
 ||ddm.io^$third-party
 ||ddmfrg.modivo.bg^
+||ddnzpr.xyz^
 ||ddome-tag.blablacar.com^
 ||ddqkqq.com^
 ||ddqmlfu.icu^
@@ -70509,6 +70516,7 @@ zzzyk.com###Tinfo
 ||exbujk.glamood.com^
 ||exc.ns.nl^
 ||excelhome.net/js/banner-
+||excess.duolingo.com/batch
 ||exchange.carte-gr.total.fr^
 ||exchange.happ.social^
 ||excite.ie/?click_in=
@@ -71536,6 +71544,7 @@ zzzyk.com###Tinfo
 ||fmhy.net^$third-party
 ||fmild.xyz^
 ||fmjgtp.dentalspeed.com^
+||fmjjvb.xyz^
 ||fmnetwork.nl/tracking/
 ||fmnetwork.nl^$third-party
 ||fmpjka.moroccanoil.com^
@@ -72414,6 +72423,7 @@ zzzyk.com###Tinfo
 ||gak.webtoons.com^
 ||gala.met.vgwort.de^
 ||galacg.me/wp-content/uploads/*750x
+||galada.it/omnitag/
 ||galaxiemedia.fr^$third-party
 ||galaxymedia.xyz/app/images/banner.gif
 ||galleries.bz/Webservices/jsParseLinks.aspx$script,third-party
@@ -76324,6 +76334,7 @@ zzzyk.com###Tinfo
 ||hstats*.hepsiburada.com^
 ||hstats.askmiso.com^
 ||hstats.hepsiburada.com^
+||hstatstest.hepsiburada.com^
 ||hstbrt.xyz^
 ||hstrck.com^$third-party
 ||hsutav.icu^
@@ -85250,6 +85261,7 @@ zzzyk.com###Tinfo
 ||maper.info^$third-party
 ||mapi-log.qoo*.jp^
 ||mapixl.com/scripts/pixlv*.min.js
+||mapixl.com^
 ||maploco.com^$third-party
 ||mapmyuser.com^$third-party
 ||mapp.biryanibykilo.com^
@@ -89432,6 +89444,7 @@ zzzyk.com###Tinfo
 ||mgidskix.top^
 ||mgivkqk.cn^
 ||mgixgn.wittchen.com^
+||mgln.ai^
 ||mgmanager.gr^$cookie=VisitorGUID
 ||mgmanager.gr^$cookie=VisitorState
 ||mgmlcdn.com/stats/
@@ -95009,6 +95022,7 @@ zzzyk.com###Tinfo
 ||pixel.cpex.cz^
 ||pixel.digitalspy.co.uk^
 ||pixel.dmdi.pl^
+||pixel.driveniq.com^
 ||pixel.dugwood.com^
 ||pixel.europapress.net^
 ||pixel.ex.co^
@@ -117986,6 +118000,7 @@ zzzyk.com###Tinfo
 ||uel.remitly.io/*/events
 ||uep.gaijin.net^
 ||ues.kicker.de^
+||uessnah.icu^
 ||uestat.video.qiyi.com^
 ||ueumdkc.cn^
 ||ueuqui.esprit.nl^
@@ -123104,6 +123119,7 @@ zzzyk.com###Tinfo
 ||yccz.net/xml/
 ||ycdywl.com^
 ||ycembr.net-a-porter.com^
+||ycgfdf.cn^
 ||ycgkol.icu^
 ||ycgmnpp.icu^
 ||ycgy8888.com^
