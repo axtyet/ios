@@ -1,5 +1,5 @@
 # mihomo 配置
-# 日期：2024-06-24 23:01:01
+# 日期：2024-06-26 15:31:03
 # 配置作者：https://t.me/iKeLee
 # 适用版本：所有使用 mihomo 核心的程序
 port: 7890
@@ -28,10 +28,10 @@ external-controller: 0.0.0.0:9090
 # external-ui-url: 'https://github.com/MetaCubeX/metacubexd/archive/refs/heads/gh-pages.zip'
 
 geox-url:
-  geoip: 'https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/geoip.dat'
-  geosite: 'https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/geosite.dat'
+  # geoip: 'https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/geoip.dat'
+  # geosite: 'https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/geosite.dat'
   mmdb: 'https://gitlab.com/Masaiki/GeoIP2-CN/-/raw/release/Country.mmdb'
-  asn: 'https://github.com/xishang0128/geoip/releases/download/latest/GeoLite2-ASN.mmdb'
+  asn: 'https://gitlab.com/Loon0x00/loon_data/-/raw/main/geo/GeoLite2-ASN.mmdb'
 
 profile:
   store-selected: true
@@ -88,13 +88,13 @@ proxy-providers:
   机场名称1:
     url: '机场1的订阅URL'
     <<: *NodeParam
-    path: './proxy_provider/机场名称1.yaml'
+    path: './proxy_providers/机场名称1.yaml'
     override:
       additional-prefix: "[机场名称1] " # 为订阅节点添加机场名称前缀
   机场名称2:
     url: '机场2的订阅URL'
     <<: *NodeParam
-    path: './proxy_provider/机场名称2.yaml'
+    path: './proxy_providers/机场名称2.yaml'
     override:
       additional-prefix: "[机场名称2] " # 为订阅节点添加机场名称前缀
 
@@ -119,7 +119,7 @@ FallBack: &FallBack {type: fallback, interval: 6, lazy: true, url: 'http://cp.cl
 # 锚点 - 负载均衡参数 [每 6 秒一次惰性健康检查，时延超过 2 秒判定为失败，失败 3 次则自动触发健康检查]
 LoadBalance: &LoadBalance {type: load-balance, interval: 6, lazy: true, url: 'http://cp.cloudflare.com', disable-udp: false, strategy: consistent-hashing, timeout: 2000, max-failed-times: 3, hidden: true, include-all-providers: true}
 # 锚点 - 规则参数 [每小时更新一次订阅规则，更新规则时使用直连策略]
-RuleSet: &RuleSet {type: http, behavior: classical, interval: 3600, format: yaml, proxy: DIRECT}
+RuleProviders: &RuleProviders {type: http, behavior: classical, interval: 3600, format: yaml, proxy: DIRECT}
 
 # 策略组
 proxy-groups: 
@@ -184,113 +184,113 @@ proxy-groups:
 # 订阅规则
 rule-providers:
   Lan:
-    <<: *RuleSet
-    path: './RuleSet/Lan.yaml'
+    <<: *RuleProviders
+    path: './rules/Lan.yaml'
     url: 'https://gitlab.com/lodepuly/proxy_tool_resources/-/raw/master/rule/Clash/Lan/Lan.yaml'
 
   Direct:
-    <<: *RuleSet
-    path: './RuleSet/Direct.yaml'
+    <<: *RuleProviders
+    path: './rules/Direct.yaml'
     url: 'https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Clash/Rule/Direct.yaml'
 
   Proxy:
-    <<: *RuleSet
-    path: './RuleSet/Proxy.yaml'
+    <<: *RuleProviders
+    path: './rules/Proxy.yaml'
     url: 'https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Clash/Rule/Proxy.yaml'
 
   ChinaDownloadCDN:
-    <<: *RuleSet
-    path: './RuleSet/ChinaDownloadCDN.yaml'
+    <<: *RuleProviders
+    path: './rules/ChinaDownloadCDN.yaml'
     url: 'https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Clash/Rule/ChinaDownloadCDN.yaml'
 
   InternationalDownloadCDN:
-    <<: *RuleSet
-    path: './RuleSet/InternationalDownloadCDN.yaml'
+    <<: *RuleProviders
+    path: './rules/InternationalDownloadCDN.yaml'
     url: 'https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Clash/Rule/InternationalDownloadCDN.yaml'
 
   AI:
-    <<: *RuleSet
-    path: './RuleSet/AI.yaml'
+    <<: *RuleProviders
+    path: './rules/AI.yaml'
     url: 'https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Clash/Rule/AI.yaml'
 
   TikTok:
-    <<: *RuleSet
-    path: './RuleSet/TikTok.yaml'
+    <<: *RuleProviders
+    path: './rules/TikTok.yaml'
     url: 'https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Clash/Rule/TikTok.yaml'
 
   Game:
-    <<: *RuleSet
-    path: './RuleSet/Game.yaml'
+    <<: *RuleProviders
+    path: './rules/Game.yaml'
     url: 'https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Clash/Rule/Game.yaml'
 
   1Password:
-    <<: *RuleSet
-    path: './RuleSet/1PasswordUS.yaml'
+    <<: *RuleProviders
+    path: './rules/1PasswordUS.yaml'
     url: 'https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Clash/Rule/1PasswordUS.yaml'
 
   Steam:
-    <<: *RuleSet
-    path: './RuleSet/Steam.yaml'
+    <<: *RuleProviders
+    path: './rules/Steam.yaml'
     url: 'https://gitlab.com/lodepuly/proxy_tool_resources/-/raw/master/rule/Clash/Steam/Steam.yaml'
 
   Netflix:
-    <<: *RuleSet
-    path: './RuleSet/Netflix.yaml'
+    <<: *RuleProviders
+    path: './rules/Netflix.yaml'
     url: 'https://gitlab.com/lodepuly/proxy_tool_resources/-/raw/master/rule/Clash/Netflix/Netflix.yaml'
 
   Emby:
-    <<: *RuleSet
-    path: './RuleSet/Emby.yaml'
+    <<: *RuleProviders
+    path: './rules/Emby.yaml'
     url: 'https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Clash/Rule/EmbyServer.yaml'
 
   iCloudChina:
-    <<: *RuleSet
-    path: './RuleSet/iCloudChina.yaml'
+    <<: *RuleProviders
+    path: './rules/iCloudChina.yaml'
     url: 'https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Clash/Rule/iCloudChina.yaml'
 
   ApplePushNotificationService:
-    <<: *RuleSet
-    path: './RuleSet/ApplePushNotificationService.yaml'
+    <<: *RuleProviders
+    path: './rules/ApplePushNotificationService.yaml'
     url: 'https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Clash/Rule/ApplePushNotificationService.yaml'
 
   AppleSoftwareUpdates:
-    <<: *RuleSet
-    path: './RuleSet/AppleSoftwareUpdates.yaml'
+    <<: *RuleProviders
+    path: './rules/AppleSoftwareUpdates.yaml'
     url: 'https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Clash/Rule/AppleSoftwareUpdates.yaml'
 
   AppleID:
-    <<: *RuleSet
-    path: './RuleSet/AppleID.yaml'
+    <<: *RuleProviders
+    path: './rules/AppleID.yaml'
     url: 'https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Clash/Rule/AppleID.yaml'
 
   AppStore:
-    <<: *RuleSet
-    path: './RuleSet/AppStore.yaml'
+    <<: *RuleProviders
+    path: './rules/AppStore.yaml'
     url: 'https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Clash/Rule/AppStore.yaml'
 
   TestFlight:
-    <<: *RuleSet
-    path: './RuleSet/TestFlight.yaml'
+    <<: *RuleProviders
+    path: './rules/TestFlight.yaml'
     url: 'https://gitlab.com/lodepuly/proxy_tool_resources/-/raw/master/rule/Clash/TestFlight/TestFlight.yaml'
 
   Microsoft:
-    <<: *RuleSet
-    path: './RuleSet/Microsoft.yaml'
+    <<: *RuleProviders
+    path: './rules/Microsoft.yaml'
     url: 'https://gitlab.com/lodepuly/proxy_tool_resources/-/raw/master/rule/Clash/Microsoft/Microsoft.yaml'
 
   Google:
-    <<: *RuleSet
-    path: './RuleSet/Google.yaml'
+    <<: *RuleProviders
+    path: './rules/Google.yaml'
     url: 'https://gitlab.com/lodepuly/proxy_tool_resources/-/raw/master/rule/Clash/Google/Google.yaml'
 
   Telegram:
-    <<: *RuleSet
-    path: './RuleSet/Telegram.yaml'
+    <<: *RuleProviders
+    path: './rules/Telegram.yaml'
     url: 'https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Clash/Rule/Telegram.yaml'
 
   ESET_China:
-    <<: *RuleSet
-    path: './RuleSet/ESET_China.yaml'
+    <<: *RuleProviders
+    path: './rules/ESET_China.yaml'
     url: 'https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Clash/Rule/ESET_China.yaml'
 
 # 规则指向
