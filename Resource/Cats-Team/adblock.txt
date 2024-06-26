@@ -4,8 +4,8 @@
 ! Powerd by Cats-Team
 ! Expires: 1 day (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2024-06-26 08:03:18(GMT+8) 
-! Total count: 123314
+! ! Version: 2024-06-26 11:35:35(GMT+8) 
+! Total count: 123315
  
 ###ADtip
 ###AdBlockDialog
@@ -83173,6 +83173,7 @@ zzzyk.com###Tinfo
 ||lxoemc.paginebianche.it^
 ||lxoemc.siviaggia.it^
 ||lxoemc.tuttocitta.it^
+||lxryhx.xyz^
 ||lxsway.alltforforaldrar.se^
 ||lxsway.blogg.se^
 ||lxsway.brollopstorget.se^
