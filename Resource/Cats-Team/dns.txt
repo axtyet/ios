@@ -4,8 +4,8 @@
 ! Powerd by Cats-Team
 ! Expires: 1 (update frequency)
 ! Description: The DNS Filters
-! Total count: 122227 
-! Update: 2024-06-27 08:04:50(GMT+8)
+! Total count: 122232 
+! Update: 2024-06-27 12:11:43(GMT+8)
 /^.+stat\.kugou\.com/
 /^admarvel\./
 /^admaster\./
@@ -3451,6 +3451,7 @@
 ||a15c5009bcbe272.com^
 ||a166994a16.com^
 ||a168888.top^
+||a1bw2cup.top^
 ||a1c99093b6.com^
 ||a1hacks.com^
 ||a1hosting.online^
@@ -43166,6 +43167,7 @@
 ||fwhhcpj.xyz^
 ||fwilmdact.com^
 ||fwiomxrwew.com^
+||fwlrv.cn^
 ||fwmbjrl.cn^
 ||fwmqki.eckerle.de^
 ||fwmrm.net^
@@ -101290,6 +101292,7 @@
 ||szdaqi88.com^
 ||szdgl.cn^
 ||szdpk.cn^
+||szdtf.cn^
 ||szdxw.cn^
 ||szdzn.cn^
 ||szemlelo.com^
@@ -110258,6 +110261,7 @@
 ||tyhlwigp.com^
 ||tyhwheveeshngi.xyz^
 ||tyingentered.com^
+||tyisloi.top^
 ||tykor.net^
 ||tylcpcikj.com^
 ||tylfgkf.com^
@@ -120792,6 +120796,7 @@
 ||ytlhsmwu.com^
 ||ytndjaefvan.xyz^
 ||ytnkdhmtdubhk.com^
+||ytoeyxz.icu^
 ||ytoworkwi.org^
 ||ytqeavc.icu^
 ||ytqlyw.xyz^

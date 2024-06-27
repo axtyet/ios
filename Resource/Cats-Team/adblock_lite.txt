@@ -4,8 +4,8 @@
 ! Powerd by Cats-Team
 ! Expires: 1 day (update frequency)
 ! Description: AdRules AdBlock List's Lite Version, And Remove Some Filters
-! ! Version: 2024-06-27 08:04:49(GMT+8) 
-! Total count: 34130
+! ! Version: 2024-06-27 12:11:42(GMT+8) 
+! Total count: 34140
  
 ###ADtip
 ###AdBlockDialog
@@ -17277,7 +17277,7 @@ zzzyk.com###Tinfo
 ||1024wanzhai.$popup,third-party
 ||1028images.com^
 ||102tv.cn/js/main.js
-||107.167.16.14^
+||107.167.16.*.gif
 ||109218er.xyz^
 ||10fang.com/static/skin/tfy/layer/layer.js
 ||11.96131.com.cn^
@@ -18112,7 +18112,7 @@ zzzyk.com###Tinfo
 ||66wz.com/data/attachment/portal/
 ||66wz.com/eap/
 ||66zhuang.com/public_2017/js/count-gou.js
-||67.21.92.163^
+||67.21.92.*.gif
 ||670t5x.cn^
 ||6789.net^$third-party
 ||68710266.com^
@@ -18608,6 +18608,7 @@ zzzyk.com###Tinfo
 ||a1.zhanzhang.net^
 ||a168888.top^
 ||a1714.com^$popup
+||a1bw2cup.top^
 ||a2.b310.com^
 ||a2.xinhuanet.com^
 ||a2put.chinaz.com^
@@ -22508,6 +22509,7 @@ zzzyk.com###Tinfo
 ||effectivehealthy.cn^
 ||efficaciouscactus.com^$third-party
 ||efgh.5lu.com^
+||efhis.cn^
 ||efjsliw.top^
 ||efmtsw.xyz^
 ||efs604.top^
@@ -23239,6 +23241,7 @@ zzzyk.com###Tinfo
 ||fwepd.xyz^
 ||fwffa.cn^
 ||fwhhcpj.xyz^
+||fwlrv.cn^
 ||fwmbjrl.cn^
 ||fwsir.com/static/cpt/
 ||fwwang.cn/templets/fw/js/art
@@ -23506,6 +23509,7 @@ zzzyk.com###Tinfo
 ||gjkame6.com^
 ||gjmqqq.com^
 ||gjwind.com/xxmh.gif
+||gjwxy.cn^
 ||gk1.582582.com^
 ||gk1.zjbiz.net^
 ||gk99.com/static/js/a-d-sys.js
@@ -26310,6 +26314,7 @@ zzzyk.com###Tinfo
 ||lhmgoik.icu^
 ||lhotajl.icu^
 ||lhtnuop.xyz^
+||lhtzfn.xyz^
 ||lhy1.xyz^
 ||lhzxbp.xyz^
 ||lianaiyx.com/d/js/cst/
@@ -30531,6 +30536,7 @@ zzzyk.com###Tinfo
 ||strivesidewalk.com^$third-party
 ||strivesquirrel.com^$third-party
 ||structurerod.com^$third-party
+||stsesc.xyz^
 ||studylabs.cn^
 ||stulip.org/static/js/header.js
 ||stunthedge.com^
@@ -30672,6 +30678,7 @@ zzzyk.com###Tinfo
 ||szdaqi88.com^
 ||szdgl.cn^
 ||szdpk.cn^
+||szdtf.cn^
 ||szdxw.cn^
 ||szdzn.cn^
 ||szfcol.com/images/wxright240.jpg
@@ -31395,6 +31402,7 @@ zzzyk.com###Tinfo
 ||tydouke.com^
 ||tydzfldt.xyz^
 ||tyed6.top^
+||tyisloi.top^
 ||tymahuxv.xyz^
 ||tymh2022.xyz^
 ||tyodot.icu^
@@ -31509,6 +31517,7 @@ zzzyk.com###Tinfo
 ||udn.com/upf/2014_sales/testpage/Bannerimage/*x*_*.jpg
 ||udn.com^*/ad/
 ||udnfunlife.com/mall/cus/cat/OutWebAd.do
+||udoshbt.top^
 ||udpdmeb.cn^
 ||udsahkln.xyz^
 ||udxhzqg.cn^
@@ -33484,6 +33493,7 @@ zzzyk.com###Tinfo
 ||ytelc.com^$third-party
 ||ytezym.xyz^
 ||ytjzqde.xyz^
+||ytoeyxz.icu^
 ||ytqeavc.icu^
 ||ytqlyw.xyz^
 ||ytse*.top/Static/Home/GongGao/img/

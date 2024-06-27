@@ -4,8 +4,8 @@
 ! Powerd by Cats-Team
 ! Expires: 1 day (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2024-06-27 08:04:49(GMT+8) 
-! Total count: 123322
+! ! Version: 2024-06-27 12:11:42(GMT+8) 
+! Total count: 123332
  
 ###ADtip
 ###AdBlockDialog
@@ -43152,7 +43152,7 @@ zzzyk.com###Tinfo
 ||104.com.tw/log/
 ||105app.com/report/?
 ||105app.com^$third-party
-||107.167.16.14^
+||107.167.16.*.gif
 ||109.123.233.251^
 ||109.169.66.161^$third-party,domain=~adult-site.ip
 ||109218er.xyz^
@@ -44282,7 +44282,7 @@ zzzyk.com###Tinfo
 ||66wz.com/data/attachment/portal/
 ||66wz.com/eap/
 ||66zhuang.com/public_2017/js/count-gou.js
-||67.21.92.163^
+||67.21.92.*.gif
 ||67.228.151.70^$third-party
 ||670t5x.cn^
 ||671c.pandasuite.io^
@@ -45498,6 +45498,7 @@ zzzyk.com###Tinfo
 ||a19609.actonservice.com^
 ||a19612.actonservice.com^
 ||a19615.actonservice.com^
+||a1bw2cup.top^
 ||a1webstrategy.com^
 ||a1webstrategy.com^$third-party
 ||a2.avomeen.com^
@@ -67270,6 +67271,7 @@ zzzyk.com###Tinfo
 ||efgam.actonservice.com^
 ||efgh.5lu.com^
 ||efglbp.baur.de^
+||efhis.cn^
 ||efjsliw.top^
 ||efm.verintsystemsinc.com^
 ||efmtsw.xyz^
@@ -70685,6 +70687,7 @@ zzzyk.com###Tinfo
 ||fwepd.xyz^
 ||fwffa.cn^
 ||fwhhcpj.xyz^
+||fwlrv.cn^
 ||fwmbjrl.cn^
 ||fwmqki.eckerle.de^
 ||fwmrm.net^$cookie=_fwex_doubleclick.net_IDE
@@ -71642,6 +71645,7 @@ zzzyk.com###Tinfo
 ||gjtclx.strefatenisa.com.pl^
 ||gjtrack.uc.cn^
 ||gjwind.com/xxmh.gif
+||gjwxy.cn^
 ||gk.gkservices.com^
 ||gk.sina.cn^
 ||gk1.582582.com^
@@ -80824,6 +80828,7 @@ zzzyk.com###Tinfo
 ||lhp-mortgage.loanzify.com^
 ||lhrzel.enterprise.com.tr^
 ||lhtnuop.xyz^
+||lhtzfn.xyz^
 ||lhy1.xyz^
 ||lhzbdvm.com^
 ||lhzulh.tribeamrapali.com^
@@ -108192,6 +108197,7 @@ zzzyk.com###Tinfo
 ||sts.papyrs.com^
 ||sts.tour-europe.org^
 ||stscs.ditzo.nl^
+||stsesc.xyz^
 ||stsoclk.sumatratonicshop.online^
 ||stt.bupa.com.au^
 ||stt.cpaaustralia.com.au^
@@ -108871,6 +108877,7 @@ zzzyk.com###Tinfo
 ||szdaqi88.com^
 ||szdgl.cn^
 ||szdpk.cn^
+||szdtf.cn^
 ||szdxw.cn^
 ||szdzn.cn^
 ||szfcol.com/images/wxright240.jpg
@@ -116369,6 +116376,7 @@ zzzyk.com###Tinfo
 ||tydouke.com^
 ||tydzfldt.xyz^
 ||tyed6.top^
+||tyisloi.top^
 ||tymahuxv.xyz^
 ||tymh2022.xyz^
 ||tynt.com^$third-party
@@ -116609,6 +116617,7 @@ zzzyk.com###Tinfo
 ||udn.com^*/ad/
 ||udnfunlife.com/mall/cus/cat/OutWebAd.do
 ||udonjl.coopdeli.jp^
+||udoshbt.top^
 ||udpdmeb.cn^
 ||udr9.livera.nl^
 ||udrnks.vedder-vedder.com^
@@ -122290,6 +122299,7 @@ zzzyk.com###Tinfo
 ||ythingy.com^
 ||ytjzqde.xyz^
 ||ytn.co.kr/_comm/ylog.php?
+||ytoeyxz.icu^
 ||ytouvy.arezzo.com.br^
 ||ytqeavc.icu^
 ||ytqlyw.xyz^
