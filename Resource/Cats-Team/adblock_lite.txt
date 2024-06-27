@@ -4,8 +4,8 @@
 ! Powerd by Cats-Team
 ! Expires: 1 day (update frequency)
 ! Description: AdRules AdBlock List's Lite Version, And Remove Some Filters
-! ! Version: 2024-06-27 12:11:42(GMT+8) 
-! Total count: 34140
+! ! Version: 2024-06-27 14:00:49(GMT+8) 
+! Total count: 34142
  
 ###ADtip
 ###AdBlockDialog
@@ -6142,6 +6142,7 @@ $third-party,xmlhttprequest,domain=cocolamanhua.com|subhd.tv|subhdtw.com|xyg688.
 @@||smsonline.cloud^$generichide
 @@||smtcaw.com^$generichide
 @@||snesfun.com/js/ads.js$script
+@@||sobot.com^
 @@||soft8ware.com^$generichide
 @@||softwarebrother.com^$generichide
 @@||sogou.com/adpub/cfg/sendmsg.
@@ -6196,7 +6197,7 @@ $third-party,xmlhttprequest,domain=cocolamanhua.com|subhd.tv|subhdtw.com|xyg688.
 @@||straight-world.de/js/ads.js$script
 @@||stream4free.eu/modules/mod_jpayday/js/doubleclick.js$script,domain=stream4free.eu
 @@||streaming-foot.me/js/adblock.js$script
-@@||stripe.com$domain=pay.openai.com
+@@||stripe.com^$domain=pay.openai.com
 @@||studioclassroom.com/ad/
 @@||sudupan.com^*/*.gif
 @@||sumeronline.com^$generichide
@@ -6333,6 +6334,7 @@ $third-party,xmlhttprequest,domain=cocolamanhua.com|subhd.tv|subhdtw.com|xyg688.
 @@||wallpapermania.eu/assets/js/ads.js$xmlhttprequest
 @@||wallpapershacker.com/js/adsbygoogle.js$script
 @@||wamiz.com/css/ads.css
+@@||wan.douyu.com^
 @@||wancaibb.com/share/js/share.min.js
 @@||wandhi.com^$generichide
 @@||ware.shop.jd.com^$genericblock,generichide

@@ -4,8 +4,8 @@
 ! Powerd by Cats-Team
 ! Expires: 1 day (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2024-06-27 12:11:42(GMT+8) 
-! Total count: 123332
+! ! Version: 2024-06-27 14:00:49(GMT+8) 
+! Total count: 123334
  
 ###ADtip
 ###AdBlockDialog
@@ -12409,6 +12409,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||snesfun.com/js/ads.js$script
 @@||snva.jp/javascripts/reco/$script,domain=store.charle.co.jp
 @@||snyk.io^$cookie=ajs_anonymous_id
+@@||sobot.com^
 @@||soft8ware.com^$generichide
 @@||software.seek.intel.com^$document
 @@||softwarebrother.com^$generichide
@@ -12562,8 +12563,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||stream.adunity.com^$xmlhttprequest,domain=b1tv.ro
 @@||stream4free.eu/modules/mod_jpayday/js/doubleclick.js$script,domain=stream4free.eu
 @@||streaming-foot.me/js/adblock.js$script
-@@||stripe.com$domain=pay.openai.com
 @@||stripe.com/*?*referrer=$removeparam
+@@||stripe.com^$domain=pay.openai.com
 @@||studioclassroom.com/ad/
 @@||stylished.de/js/vendors/emos2.js$domain=stylished.de
 @@||sudupan.com^*/*.gif
@@ -12922,6 +12923,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||walmartimages.com/webanalytics/omniture/omniture.jsp$domain=walmart.com
 @@||walmartimages.com/webanalytics/wmStat/wmStat.jsp$domain=walmart.com
 @@||wamiz.com/css/ads.css
+@@||wan.douyu.com^
 @@||wancaibb.com/share/js/share.min.js
 @@||wandhi.com^$generichide
 @@||ware.shop.jd.com^$genericblock,generichide

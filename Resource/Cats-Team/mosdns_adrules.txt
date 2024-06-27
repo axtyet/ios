@@ -13891,7 +13891,6 @@ domain:apromoweb.com
 domain:aps.hearstnp.com
 domain:apsalar.com
 domain:apsatnlfylz.com
-domain:apsehick.date
 domain:apsidalmungoos.top
 domain:apsidesslurry.space
 domain:apsmediaagency.com
@@ -14106,7 +14105,6 @@ domain:arhymalojnzo.com
 domain:aria.inhaabit.com
 domain:arianatainos.com
 domain:ariapawners.space
-domain:ariatwear.online
 domain:aridplaincol.com
 domain:aries-nbl.com
 domain:aries.mzres.com
@@ -16836,6 +16834,7 @@ domain:beacon-api.aliyuncs.com
 domain:beacon-fullpage-predictor.goguardian.com
 domain:beacon.adelphic.com
 domain:beacon.affil.walmart.com
+domain:beacon.apsehick.date
 domain:beacon.carfax.com
 domain:beacon.cdn.qq.com
 domain:beacon.cdnma.com
@@ -36457,6 +36456,7 @@ domain:elongatedmiddle.com
 domain:elongives.biz
 domain:elonreptiloid.com
 domain:elonspace.org
+domain:elonweb.org
 domain:elooksjustli.one
 domain:elooksjustlikea.info
 domain:elopatchwork.com
@@ -42077,6 +42077,7 @@ domain:freedldz.com
 domain:freedom-5g.com
 domain:freedom-ca-5g.com
 domain:freedom-deposit.ca
+domain:freedomgift50.com
 domain:freedominfo.net
 domain:freedomofsoftware.com
 domain:freedomsaved.com
@@ -45011,7 +45012,6 @@ domain:globaltrack.com
 domain:globaltraffico.com
 domain:globalwebads.com
 domain:globalwebindex.net
-domain:globe.sxlph.site
 domain:globe7.com
 domain:globeofnews.com
 domain:globeshyso.com
@@ -48601,6 +48601,7 @@ domain:heartyten.com
 domain:heaterpealarouse.com
 domain:heaterrobotscompute.com
 domain:heatertried.com
+domain:heates.info
 domain:heatherfallonphotography.com
 domain:heathertravelledpast.com
 domain:heatmap.emma.tools
@@ -51422,7 +51423,6 @@ domain:ikmhndd.com
 domain:ikneio.aquantindia.com
 domain:iknhgj.com
 domain:iknwqdpo.xyz
-domain:ikoee.com
 domain:ikonatozee.top
 domain:ikouthaupi.com
 domain:ikrail.com
@@ -71108,6 +71108,7 @@ domain:navfja.answear.hu
 domain:navi1.com
 domain:navi10.com
 domain:navi100.com
+domain:navi11.ru
 domain:navi12.com
 domain:navi18.com
 domain:navi2.com
@@ -71129,6 +71130,7 @@ domain:navi38.ru
 domain:navi39.ru
 domain:navi4.com
 domain:navi40.com
+domain:navi42.ru
 domain:navi45.ru
 domain:navi5.com
 domain:navi50.com
@@ -71147,6 +71149,7 @@ domain:navi71.com
 domain:navi72.com
 domain:navi72.ru
 domain:navi73.com
+domain:navi73.ru
 domain:navi74.com
 domain:navi75.com
 domain:navi76.com
@@ -71154,11 +71157,14 @@ domain:navi77.com
 domain:navi78.ru
 domain:navi79.com
 domain:navi8.com
+domain:navi85.ru
 domain:navi86.ru
 domain:navi87.com
 domain:navi88.com
 domain:navi90.com
+domain:navi94.com
 domain:navi96.com
+domain:navi97.com
 domain:navi99.com
 domain:naviblue-team.com
 domain:navigablepiercing.com
@@ -71554,6 +71560,7 @@ domain:netflix-membership.com
 domain:netflix-memberships.com
 domain:netflix-updateinfo.com
 domain:netflix.apple-green.net
+domain:netflix.update-payment1.com
 domain:netflix4all.com
 domain:netflix4u.com
 domain:netflixaccount.org
@@ -71582,7 +71589,6 @@ domain:netshelter.net
 domain:netsponsors.com
 domain:netstam.com
 domain:netstat.yunnan.cn
-domain:netsugar.shop
 domain:nettlyphosis.com
 domain:nettv.corio.com
 domain:netund.com
@@ -72221,7 +72227,6 @@ domain:nip57.com
 domain:nip69.com
 domain:nip8.com
 domain:nip84.com
-domain:nip88.com
 domain:nip9.com
 domain:nipmucktwicer.com
 domain:nipperathymy.life
@@ -110882,6 +110887,7 @@ domain:unique-skins.net
 domain:uniquecaptcha.com
 domain:uniquehack.com
 domain:uniquehacks.org
+domain:uniqueshirt.shop
 domain:unireceive.com
 domain:uniregistry.com
 domain:uniswaps.website
@@ -114182,6 +114188,7 @@ domain:watchitallnow.com
 domain:watchitonline.info
 domain:watchmanyachtmatch.com
 domain:watchmarinerflint.com
+domain:watchmark.shop
 domain:watchmovieonlinefull.com
 domain:watchmovieonlinestreaming.com
 domain:watchmovies.just4umedia.com
