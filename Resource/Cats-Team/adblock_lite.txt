@@ -4,8 +4,8 @@
 ! Powerd by Cats-Team
 ! Expires: 1 day (update frequency)
 ! Description: AdRules AdBlock List's Lite Version, And Remove Some Filters
-! ! Version: 2024-06-27 14:00:49(GMT+8) 
-! Total count: 34142
+! ! Version: 2024-06-28 08:03:30(GMT+8) 
+! Total count: 34160
  
 ###ADtip
 ###AdBlockDialog
@@ -2298,6 +2298,7 @@ $third-party,xmlhttprequest,domain=cocolamanhua.com|subhd.tv|subhdtw.com|xyg688.
 /center?advId=
 /ceshi127722.
 /cf.aspx?action=cycadget&
+/cjs/cprt.js$domain=dailygh.com|xgcartoon.com
 /clicktotal/ClickTotal.js
 /clientscript/vbulletin_userpost.js$script,domain=64.237.43.94|46.166.167.16|semprot.com
 /clientscript/vbulletin_userpost_script.js$domain=64.237.43.94|46.166.167.16|semprot.com
@@ -6838,6 +6839,7 @@ apkmirror.com##script:contains(canRunAds = false)
 apkmirror.com#@#.adsbygoogle
 apkpure.net,apkpure.com##DIV.js-ad-slot
 apowersoft.cn##.activity-poster
+app.n26.com#@#.bl > .gg
 appchina.com###yyh-bottom
 appinn.com###ranshownow
 appinn.com###sidebar > .widget:first-child
@@ -8532,6 +8534,8 @@ daily.zhihu.com##.Daily
 daily.zhihu.com##.active
 dailybitcoins.org#@#.ad-img
 dailydoge.org#@#.adsbygoogle
+dailygh.com###video_fade
+dailygh.com##.div_removeable
 dailylol.com##div > aside[class] > span[class*="mdeyheadline-"]
 dailylol.com##div[class] > div[id] > div[class][id][role]
 dailymail.co.uk###billBoard
@@ -9012,6 +9016,7 @@ dzbhdm.net##a[href="https://www.dzbhdm.com"] > img
 dzbhdm.net##a[href="https://www.dzbhdm.com/"] > img
 dzbhdm.net##a[href^="https://www.dzbhdm.com/news/"] > img[src^="https://www.dzbhdm.com/"]
 dzbhdm.net##img[width="950"]
+dzen.ru#$#debug; hide-if-has-and-matches-style 'div[style]' 'div ^^sh^^ div'
 dzfoot.com##.messageB
 dziennikwschodni.pl#@#.adholder
 dzwww.com##.popular
@@ -9711,6 +9716,8 @@ fssp.gov.ru#$#abort-on-property-read tingle
 fstore.biz#@##adblockinfo
 fsylr.com##.plus_r
 ft.com,ftchinese.com##.bn-ph
+ftchinese.com#%#//scriptlet('prevent-setTimeout', '.offsetHeight')
+ftchinese.com#@#.AdsBox
 ftlwiki.com###top-banner-advert
 ftpnova.eu###Av
 ftuapps.dev##[style*="cursor: no-drop;"]
@@ -10397,6 +10404,8 @@ he-games.com###he_bottom_ad
 hea.cn###top_slides_box
 health.tvbs.com.tw##.ad_desktop_top
 health.tvbs.com.tw##.ed-hidden.ed-xl-block
+health.tvbs.com.tw##.fromEditor > section.ed-px-5.ed-lg-hidden
+health.tvbs.com.tw##.h-full > div.flex-wrap > div.max-w-full > div.px-5.lg\:hidden:has(> div > div.flex.justify-center)
 health.tvbs.com.tw##.hidden .justify-center:has(> div[id^="health_pc_read_"])
 health.tvbs.com.tw##div[data-testid="ad-container"]
 healthylives.tw###contentBox > div[style^="width:336px;height: 280px;"]
@@ -11031,9 +11040,9 @@ inforesist.org#$#abort-on-property-read alert
 informator.ua,kriminal.tv,4studio.com.ua,112ua.tv,newsoneua.tv,gorodkiev.com.ua,volynpost.com,uanews.org.ua,dialogs.org.ua,technoportal.com.ua,pingvin.pro,fakty.ua,cikavosti.com,versii.if.ua#$#abort-on-property-read weekCallbacks
 inmywordz.com,ants.tw##.acca-block
 instacart.ca,instacart.com#$#hide-if-matches-xpath './/*[@class]/span[contains(@style,"display:")][2]/ancestor::div[@id="Featured Items"]'
-instacart.ca,instacart.com#$#race start; hide-if-contains-visible-text '/S(\\s)*p(\\s)*o(\\s)*n(\\s)*s(\\s)*o(\\s)*r(\\s)*e(\\s)*d/' 'div#item_details>div>div' 'div#item_details>div>div div>h2~div'; hide-if-has-and-matches-style 'img[alt*="Sponsored"]' 'div#item_details>div>div' 'div#item_details>div>div div>h2+div'; hide-if-has-and-matches-style 'img[alt*="spons"]' 'div#item_details>div>div' 'div#item_details>div>div div>h2+div'; hide-if-has-and-matches-style 'img[src*="sponsored"]' 'div#item_details>div>div' 'div#item_details>div>div div>h2+div'; hide-if-has-and-matches-style 'img[src*="sored_"]' 'div#item_details>div>div' 'div#item_details>div>div div>h2+div'; hide-if-has-and-matches-style 'img[alt*="spaahnserd"]' 'div#item_details>div>div' 'div#item_details>div>div div>h2+div'; hide-if-has-and-matches-style 'img[alt*="spawhnserd"]' 'div#item_details>div>div' 'div#item_details>div>div div>h2+div'; race stop;
-instacart.ca,instacart.com#$#race start; hide-if-contains-visible-text /./ section 'section ^^sh^^ section ^^sh^^ article>div+*'; hide-if-contains-visible-text /./ section 'section ^^sh^^ article>div+div[aria-hidden]>span'; hide-if-has-and-matches-style 'img[alt="Sponsored"]' div 'div * ^^sh^^ * ^^sh^^ * div[aria-hidden]'; hide-if-contains-visible-text '/S(\\s)*p(\\s)*o(\\s)*n(\\s)*s(\\s)*o(\\s)*r(\\s)*e(\\s)*d/' div 'div ^^sh^^ div ^^sh^^ * div[aria-hidden]'; hide-if-has-and-matches-style 'img[alt*="Sponsored"]' span[id] 'span[id] * ^^sh^^ * ^^sh^^ * div[aria-hidden]'; hide-if-has-and-matches-style 'img[alt*="spons"]' article[id] 'article[id] *'; hide-if-has-and-matches-style 'img[src*="sponsored"]' article[id] 'article[id] *'; hide-if-has-and-matches-style 'img[src*="sored_"]' article[id] 'article[id] *'; hide-if-has-and-matches-style 'img[alt*="spaahnserd"]' article[id] 'article[id] *'; hide-if-has-and-matches-style 'img[alt*="spawhnserd"]' article[id] 'article[id] *'; race stop;
-instacart.ca,instacart.com#$#race start; hide-if-has-and-matches-style 'img[alt="Sponsored"]' '#store-wrapper li' '#store-wrapper li div[aria-label="Product"] * ^^sh^^ section ^^sh^^ *'; hide-if-has-and-matches-style 'img[alt="Sponsored"]' '#store-wrapper li' '#store-wrapper li div[aria-label="Product"] * ^^sh^^ *'; hide-if-has-and-matches-style 'section[style]' 'li' 'li div[aria-label="Product"] * ^^sh^^ div ^^sh^^ *'; hide-if-has-and-matches-style 'section[style]' 'div[aria-label="Product"]' 'div[aria-label="Product"] * ^^sh^^ article ^^sh^^ *'; hide-if-has-and-matches-style 'img[alt="Sponsored"]' div[aria-label="Product"] 'div[aria-label="Product"] * ^^sh^^ * ^^sh^^ *'; hide-if-contains-visible-text '/S(\\s)*p(\\s)*o(\\s)*n(\\s)*s(\\s)*o(\\s)*r(\\s)*e(\\s)*d/' 'div[aria-label="Product"]' 'div[aria-label="Product"] * ^^sh^^ * ^^sh^^ *'; hide-if-contains-visible-text '/S(\\s)*p(\\s)*o(\\s)*n(\\s)*s(\\s)*o(\\s)*r(\\s)*e(\\s)*d/' 'div[aria-label="Product"]' 'div[aria-label="Product"] * ^^sh^^ article>div'; hide-if-contains-visible-text '/S(\\s)*p(\\s)*o(\\s)*n(\\s)*s(\\s)*o(\\s)*r(\\s)*e(\\s)*d/' 'div[aria-label="Product"]' 'div[aria-label="Product"] article>div'; hide-if-contains-visible-text '/S(\\s)*p(\\s)*o(\\s)*n(\\s)*s(\\s)*o(\\s)*r(\\s)*e(\\s)*d/' 'div[aria-label="Product"]' 'div[aria-label="Product"] div[style]>div[style]'; hide-if-contains-visible-text '/S(\\s)*p(\\s)*o(\\s)*n(\\s)*s(\\s)*o(\\s)*r(\\s)*e(\\s)*d/' 'div>li[data-testid]' 'div[aria-label="Product"] div[style]>span'; hide-if-contains-visible-text '/S(\\s)*p(\\s)*o(\\s)*n(\\s)*s(\\s)*o(\\s)*r(\\s)*e(\\s)*d/' li div[aria-label="Product"] 'div[aria-label="Product"] aside[style] div>span'; hide-if-has-and-matches-style 'img[alt*="Sponsored"]' div[aria-label="Product"] 'div[aria-label="Product"] *'; hide-if-has-and-matches-style 'img[alt*="spons"]' 'div[class]' 'div[class] * div[aria-label="Product"]'; hide-if-has-and-matches-style 'img[src*="sponsored"]' 'div[class]' 'div[class] * div[aria-label="Product"]'; hide-if-has-and-matches-style 'img[alt*="spaahnserd"]' 'div[class]' 'div[class] * div[aria-label="Product"]'; hide-if-has-and-matches-style 'img[alt*="spawhnserd"]' 'div[class]' 'div[class] * div[aria-label="Product"]'; race stop;
+instacart.ca,instacart.com#$#race start; hide-if-contains-visible-text '/S(\\s)*p(\\s)*o(\\s)*n(\\s)*s(\\s)*o(\\s)*r(\\s)*e(\\s)*d/' 'div#item_details>div>div' 'div#item_details>div>div div>h2~div'; hide-if-has-and-matches-style 'img[alt*="Sponsored"]' 'div#item_details>div>div' 'div#item_details>div>div div>h2+div'; hide-if-has-and-matches-style 'img[alt*="spons"]' 'div#item_details>div>div' 'div#item_details>div>div div>h2+div'; hide-if-has-and-matches-style 'img[src*="sponsored"]' 'div#item_details>div>div' 'div#item_details>div>div div>h2+div'; hide-if-has-and-matches-style 'img[src*="sored_"]' 'div#item_details>div>div' 'div#item_details>div>div div>h2+div'; hide-if-has-and-matches-style 'img[alt*="spaahnserd"]' 'div#item_details>div>div' 'div#item_details>div>div div>h2+div'; hide-if-has-and-matches-style 'img[alt*="spawnserd"]' 'div#item_details>div>div' 'div#item_details>div>div div>h2+div'; race stop;
+instacart.ca,instacart.com#$#race start; hide-if-contains-visible-text /./ section 'section ^^sh^^ section ^^sh^^ article>div+*'; hide-if-contains-visible-text /./ section 'section ^^sh^^ article>div+div[aria-hidden]>span'; hide-if-has-and-matches-style 'img[alt="Sponsored"]' div 'div * ^^sh^^ * ^^sh^^ * div[aria-hidden]'; hide-if-contains-visible-text '/S(\\s)*p(\\s)*o(\\s)*n(\\s)*s(\\s)*o(\\s)*r(\\s)*e(\\s)*d/' div 'div ^^sh^^ div ^^sh^^ * div[aria-hidden]'; hide-if-has-and-matches-style 'img[alt*="Sponsored"]' span[id] 'span[id] * ^^sh^^ * ^^sh^^ * div[aria-hidden]'; hide-if-has-and-matches-style 'img[alt*="spons"]' article[id] 'article[id] *'; hide-if-has-and-matches-style 'img[src*="sponsored"]' article[id] 'article[id] *'; hide-if-has-and-matches-style 'img[src*="sored_"]' article[id] 'article[id] *'; hide-if-has-and-matches-style 'img[alt*="spaahnserd"]' article[id] 'article[id] *'; hide-if-has-and-matches-style 'img[alt*="spawnserd"]' article[id] 'article[id] *'; race stop;
+instacart.ca,instacart.com#$#race start; hide-if-has-and-matches-style 'img[alt="Sponsored"]' '#store-wrapper li' '#store-wrapper li div[aria-label="Product"] * ^^sh^^ section ^^sh^^ *'; hide-if-has-and-matches-style 'img[alt="Sponsored"]' '#store-wrapper li' '#store-wrapper li div[aria-label="Product"] * ^^sh^^ *'; hide-if-has-and-matches-style 'section[style]' 'li' 'li div[aria-label="Product"] * ^^sh^^ div ^^sh^^ *'; hide-if-has-and-matches-style 'section[style]' 'div[aria-label="Product"]' 'div[aria-label="Product"] * ^^sh^^ article ^^sh^^ *'; hide-if-has-and-matches-style 'img[alt="Sponsored"]' div[aria-label="Product"] 'div[aria-label="Product"] * ^^sh^^ * ^^sh^^ *'; hide-if-contains-visible-text '/S(\\s)*p(\\s)*o(\\s)*n(\\s)*s(\\s)*o(\\s)*r(\\s)*e(\\s)*d/' 'div[aria-label="Product"]' 'div[aria-label="Product"] * ^^sh^^ * ^^sh^^ *'; hide-if-contains-visible-text '/S(\\s)*p(\\s)*o(\\s)*n(\\s)*s(\\s)*o(\\s)*r(\\s)*e(\\s)*d/' 'div[aria-label="Product"]' 'div[aria-label="Product"] * ^^sh^^ article>div'; hide-if-contains-visible-text '/S(\\s)*p(\\s)*o(\\s)*n(\\s)*s(\\s)*o(\\s)*r(\\s)*e(\\s)*d/' 'div[aria-label="Product"]' 'div[aria-label="Product"] article>div'; hide-if-contains-visible-text '/S(\\s)*p(\\s)*o(\\s)*n(\\s)*s(\\s)*o(\\s)*r(\\s)*e(\\s)*d/' 'div[aria-label="Product"]' 'div[aria-label="Product"] div[style]>div[style]'; hide-if-contains-visible-text '/S(\\s)*p(\\s)*o(\\s)*n(\\s)*s(\\s)*o(\\s)*r(\\s)*e(\\s)*d/' 'div>li[data-testid]' 'div[aria-label="Product"] div[style]>span'; hide-if-contains-visible-text '/S(\\s)*p(\\s)*o(\\s)*n(\\s)*s(\\s)*o(\\s)*r(\\s)*e(\\s)*d/' li div[aria-label="Product"] 'div[aria-label="Product"] aside[style] div>span'; hide-if-has-and-matches-style 'img[alt*="Sponsored"]' div[aria-label="Product"] 'div[aria-label="Product"] *'; hide-if-has-and-matches-style 'img[alt*="spons"]' 'div[class]' 'div[class] * div[aria-label="Product"]'; hide-if-has-and-matches-style 'img[src*="sponsored"]' 'div[class]' 'div[class] * div[aria-label="Product"]'; hide-if-has-and-matches-style 'img[alt*="spaahnserd"]' 'div[class]' 'div[class] * div[aria-label="Product"]'; hide-if-has-and-matches-style 'img[alt*="spawnserd"]' 'div[class]' 'div[class] * div[aria-label="Product"]'; race stop;
 instacart.com#$#hide-if-matches-xpath './/img[@alt="Sponsored"][contains(@src,".svg")]/parent::div[1]'; hide-if-matches-xpath './/div[@class]/span/preceding::img[contains(@src,"image_display_banner")][contains(@alt,"Silk")][not(@type)][not(@srcset)]/ancestor-or-self::section[1]'
 instacart.com,instacart.ca#$#abort-on-property-write window.ADBLOCK_DETECTED
 instagram.com#$#json-prune data.xdt_injected_story_units.ad_media_items
@@ -12114,8 +12123,8 @@ live.bilibili.com##.container-wrapper[style="height:446px;min-width:1280px"]
 live.bilibili.com##div.pointer:contains(下载客户端)
 live.gtcaster.com###bbb
 live.gtcaster.com##[id^="adc"]
+live.thapcam11.net#$#simulate-mouse-event '#modalasd$continue,delay=300'
 live.win007.com###notify > a[target="_blank"]
-live2.thapcam9.net#$#simulate-mouse-event '#modalasd$continue,delay=300'
 liveball.cc,liveball.uno#$#abort-on-property-read ABNS
 liveforums.ru#$#abort-on-property-read tnAdditionalParams
 liveru.sx#$#abort-on-property-read window.b5bb198737
@@ -12472,8 +12481,10 @@ m.youku.com##.hdwrap
 m.youku.com##.recommend
 m.youku.com##body > [style="width: 100px; height: 100px; position: fixed; top: auto; right: 0px; bottom: 0px; left: auto; z-index: 188;"]:not([class]):not([id])
 m.youku.com,v.youku.com#%#//scriptlet('set-constant', 'Object.prototype._adData', 'emptyObj')
+m.youtube.com##.video-ads.ytp-ad-module
 m.youtube.com#$#simulate-mouse-event 'span.ytp-ad-preview-container$delay=0'
 m.youtube.com,music.youtube.com#$#json-prune 'adPlacements adSlots playerAds ssdaiAdsConfig adPlacementRenderer playerResponse.playerConfig.ssapConfig';
+m.youtube.com,music.youtube.com#$#json-prune 'adSlots.0.adSlotRenderer adSlots.1.adSlotRenderer playerAds.0.playerLegacyDesktopWatchAdsRenderer' 'adPlacements.0.adPlacementRenderer';
 m.youtube.com,music.youtube.com#$#override-property-read Object.prototype.adPlacements undefined
 m.youtube.com,music.youtube.com#$#override-property-read Object.prototype.adSlots undefined
 m.youtube.com,music.youtube.com#$#override-property-read ytInitialPlayerResponse.playerConfig.ssapConfig undefined
@@ -13682,7 +13693,6 @@ pharmnet.com.cn##.ad9502
 phimdinhcao.net,phimlongtieng.net,phimdinhcao.com#$#abort-on-property-read localStorage
 phimgichill.net#$#abort-current-inline-script jQuery popurl
 phimgichill.net,hhhay.tv,hh3dhay.pro,truyengihotnha.com,truyengihotnha.net,3dchill.shop,animevietsub.dev#$#abort-current-inline-script eval $._Eu
-phimhdcc.net,motchill.plus#$#abort-current-inline-script document.addEventListener linksToOpen
 phimmoi4s.com#$#json-prune ads;abort-current-inline-script setTimeout click_time
 phimtho.net#$#abort-current-inline-script $ p0pUpRandom
 phimtuoitho.tv#$#abort-current-inline-script document.documentElement break;case
@@ -15350,7 +15360,6 @@ thinbug.com###inktokad
 thinkphp.cn##.a6
 thmz.com###floatdivids
 thwiki.cc###a-carousel
-thwiki.cc##.on-right > .swiper-container
 tianhaohz.com##span[style="display: block; clear: both; overflow: hidden;"]
 tianqi.com##.xcx_erweima
 tianshif.com###comment-ad
@@ -15979,6 +15988,7 @@ vostfr-vf.com##.fixe
 vostfr-vf.com##A[href="/100Mbs.html"]
 vostfr-vf.com##A[href^="http://api.adlure.net/partner/click/"]
 vostfree.com,vostfree.cx#$#abort-on-property-write _pop
+vphimhdc.com,motchill.plus#$#abort-current-inline-script document.addEventListener linksToOpen
 vprognoze.ru#$#abort-on-property-read bannersBillboard
 vpsdx.cn,vpsdx.com##.span4 > a > img
 vpsdx.com##.container-fluid > .gsfha3 > .gsfha3
@@ -16479,6 +16489,7 @@ xgan.cn##.bottom_fixed
 xgan.cn##.container center > a[target="_blank"] > img
 xgan.cn##a[href^="https://www.jspp9.xyz"]
 xgan.cn##body > center > a[target="_blank"][rel="nofollow"]
+xgcartoon.com,dailygh.com###video-top-ad
 xgrb.cn##.d_2016_ggw
 xgroovy.com#$#abort-on-property-write exoAdSubId; abort-on-property-write AdProvider;
 xgroovy.com#$#hide-if-matches-xpath './/div[@class and @style]/div[@class][@id]/div[@class]/ancestor-or-self::div[@class][contains(@style,"order")][1]'; hide-if-matches-xpath './/a[@real-href][@onmouseup]//div[@style]/ancestor::div[@class][2]';
@@ -16673,6 +16684,7 @@ yahoo.com#?#.stream-item:-abp-has(>div>div>div>span:-abp-contains(即日熱搜))
 yahoo.com#?#.wafer-beacon:-abp-has(a[data-ylk*=":ad;"])
 yam.com##.axdBox
 yamol.tw##.panel[style="text-align:left;width:100%;padding:0px;background-color:white"]
+yanaifei.net#$?#.swiper-wrapper > .swiper-slide:has(> .banner[href^="https://"][target="_blank"]) { remove: true; }
 yandex.by,yandex.fr,yandex.kz,~telephony.yandex.ru,yandex.ru,yandex.ua,yandex.uz##[class*="mg-grid__"]>div[class*=_status_success]
 yandex.com#$#hide-if-contains ad li.serp-item 'li.serp-item div.label'
 yandex.com.tr#$#hide-if-contains reklam li.serp-item 'li.serp-item div.label'
@@ -23028,6 +23040,7 @@ zzzyk.com###Tinfo
 ||fkhxlz.xyz^
 ||fkjsjwbs.xyz^
 ||fklgndklbngg.com^
+||fkxs.net/tops/
 ||fl6n.com/adtop/
 ||flagshipism.com^
 ||flakyfeast.com^$third-party
@@ -23517,6 +23530,7 @@ zzzyk.com###Tinfo
 ||gk99.com/static/js/a-d-sys.js
 ||gkjmev3.com^
 ||gkktjf.top^
+||gklox.cn^
 ||gknybkl.cn^
 ||gkswas.xyz^
 ||gkutca.xyz^
@@ -26933,6 +26947,7 @@ zzzyk.com###Tinfo
 ||mdiygc.xyz^
 ||mdjdpyrt.xyz^
 ||mdkjefq.cn^
+||mdoshbx.top^
 ||mdqhyxe.cn^
 ||mdqpkdne.xyz^
 ||mdsahkln.xyz^
@@ -27112,7 +27127,6 @@ zzzyk.com###Tinfo
 ||miscreantmoon.com^$third-party
 ||misjgy.xyz^
 ||missav.com/pop?url=
-||missav.com/static/img/partners/
 ||missevan.com^$domain=jijidown.com
 ||missyuan.com/sy/
 ||mistyhorizon.com^$third-party
@@ -28414,6 +28428,7 @@ zzzyk.com###Tinfo
 ||pizzasnut.com^$third-party
 ||pj3f7.xyz^
 ||pjcn.org^$third-party
+||pjdthz.xyz^
 ||pjogndc8ixoidna.360doc.cn^
 ||pjoo8.com^
 ||pjsbuhl.icu^
@@ -29387,6 +29402,7 @@ zzzyk.com###Tinfo
 ||rmbvzh.xyz^
 ||rmduuv.icu^
 ||rmhfrtnd.com^$third-party
+||rmioswx.icu^
 ||rmipoz.com/dp.js
 ||rmnsdh.xyz^
 ||rmws8.com^
@@ -31255,6 +31271,7 @@ zzzyk.com###Tinfo
 ||truthfulsensor.com^
 ||truvidplayer.com^$domain=technews.tw
 ||truxalsl.com^
+||trvxbd.xyz^
 ||trxs123.com/skin/default/js/jque.js
 ||trymask.com/api/$third-party
 ||ts166.net^
@@ -32050,6 +32067,7 @@ zzzyk.com###Tinfo
 ||vpzohx.xyz^
 ||vq1qi.pw^$third-party
 ||vqbzpv.xyz^
+||vqlwoy.xyz^
 ||vrank.org/go/adblock_detect$subdocument
 ||vrdxznr.xyz^
 ||vreephay.com^
