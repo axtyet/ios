@@ -175,6 +175,8 @@ if (typeof $response == "undefined") {
     'Yosum':{ name: 'Premium', id: 'terrykuo.co.yosum.premiummembership'},
     'iplayTV':{ name: 'com.ll.btplayer.12', id: 'com.ll.btplayer.12'},
     'TQBrowser':{ name: 'pro', id: 'com.tk.client.lifetime'},
+    'nasctl':{ name: 'pro', id: 'nasctl_pro'},
+    'Sleepo':{ name: 'pro', id: 'sleepo_premium_lifetime_free'},
 
 
     //以下内容来自卑鄙的Baby（@Yu9191）
