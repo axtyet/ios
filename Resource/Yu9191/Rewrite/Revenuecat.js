@@ -63,6 +63,7 @@ if (typeof $response == "undefined") {
   var UA = $request.headers['user-agent'];
   const app = '1';
   const UAMappings = {
+    'Super%20AI%20Chat':{ name: 'premium', id: 'chatbot_v4_1999_1y'},
     'MusicPutty':{ name: 'pro_version', id: 'mp_3599_1y'},//6.24
     'Linearity':{ name: 'pro', id: 'linearity_curve_pro_yearly_launch_offer'},
     'iplayTV':{ name: 'com.ll.btplayer.12', id: 'com.ll.btplayer.12'},//6.21
