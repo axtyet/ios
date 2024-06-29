@@ -4,8 +4,8 @@
 ! Powerd by Cats-Team
 ! Expires: 1 day (update frequency)
 ! Description: AdRules AdBlock List's Lite Version, And Remove Some Filters
-! ! Version: 2024-06-29 13:21:42(GMT+8) 
-! Total count: 34177
+! ! Version: 2024-06-29 13:58:52(GMT+8) 
+! Total count: 34181
  
 ###ADtip
 ###AdBlockDialog
@@ -16415,6 +16415,7 @@ www.sogou.com##.tgad-box + div
 www.toptruyenx.pro#$#abort-current-inline-script Promise instance
 www.toptruyenx.pro#$#abort-current-inline-script setTimeout open
 www.wangjing.cn##.content > div[style*="980px;"]
+www.wdbay.com##[class][classname]
 www.wenshushu.cn##A[href^='https://wenshushu.cn/ad/']
 www.wenxuecity.com###leftside
 www.wenxuecity.com###rightside
@@ -25985,6 +25986,7 @@ zzzyk.com###Tinfo
 ||koolearn.com/www/subject/script/subject_form.js
 ||koolearn.com/zt/poster_js/$domain=~www.koolearn.com
 ||kopde.xyz^
+||kopvx.cn^
 ||koqjok.xyz^
 ||koqsxdpx.xyz^
 ||kostool.cn/screenshot/
@@ -27509,6 +27511,7 @@ zzzyk.com###Tinfo
 ||n2.hk/apps/car_feed/tb/*/banner.html
 ||n2.hk/promo/
 ||n2faw.site^
+||n2wqmr4lmaummar.xyz^
 ||n3567.com^
 ||n3xpjc.xyz^
 ||n522rv1.cn^
@@ -30708,6 +30711,7 @@ zzzyk.com###Tinfo
 ||szbxw.cn^
 ||szbzp.cn^
 ||szdaqi88.com^
+||szddm.cn^
 ||szdgl.cn^
 ||szdpk.cn^
 ||szdtf.cn^

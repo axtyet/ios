@@ -4,8 +4,8 @@
 ! Powerd by Cats-Team
 ! Expires: 1 day (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2024-06-29 13:21:42(GMT+8) 
-! Total count: 123384
+! ! Version: 2024-06-29 13:58:52(GMT+8) 
+! Total count: 123388
  
 ###ADtip
 ###AdBlockDialog
@@ -42224,6 +42224,7 @@ www.toptruyenx.pro#$#abort-current-inline-script Promise instance
 www.toptruyenx.pro#$#abort-current-inline-script setTimeout open
 www.verify.lash.ru$image
 www.wangjing.cn##.content > div[style*="980px;"]
+www.wdbay.com##[class][classname]
 www.wenshushu.cn##A[href^='https://wenshushu.cn/ad/']
 www.wenxuecity.com###leftside
 www.wenxuecity.com###rightside
@@ -79904,6 +79905,7 @@ zzzyk.com###Tinfo
 ||kopde.xyz^
 ||kopsil.com^$third-party
 ||kopun.tuk-tuk.help^
+||kopvx.cn^
 ||koqjok.xyz^
 ||koqsxdpx.xyz^
 ||koronapay.com/*/metrika_rus.js
@@ -89505,6 +89507,7 @@ zzzyk.com###Tinfo
 ||n2.hk/promo/
 ||n26-trusted.n26.com^
 ||n2faw.site^
+||n2wqmr4lmaummar.xyz^
 ||n3567.com^
 ||n367tqpdxce0.quine.sh^
 ||n3xpjc.xyz^
@@ -108922,6 +108925,7 @@ zzzyk.com###Tinfo
 ||szbxw.cn^
 ||szbzp.cn^
 ||szdaqi88.com^
+||szddm.cn^
 ||szdgl.cn^
 ||szdpk.cn^
 ||szdtf.cn^
