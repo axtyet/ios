@@ -1998,6 +1998,7 @@ domain:5fm.985fm.ca
 domain:5g-update.com
 domain:5gg17gm.com
 domain:5ggj5cp.com
+domain:5gxs.org
 domain:5h3oyhv838.com
 domain:5i68sbhin.com
 domain:5ibanma.com
@@ -16636,6 +16637,7 @@ domain:bbworld.blackboard.com
 domain:bbwqcs.vidaxl.ee
 domain:bbwzzwremrrmr.top
 domain:bbwzzwremrvkl.top
+domain:bbxyxt.xyz
 domain:bbybqq.levi.co.id
 domain:bbyfsfo.cn
 domain:bbyjgkkdihiyxy.com

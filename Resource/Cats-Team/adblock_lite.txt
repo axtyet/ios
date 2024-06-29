@@ -4,8 +4,8 @@
 ! Powerd by Cats-Team
 ! Expires: 1 day (update frequency)
 ! Description: AdRules AdBlock List's Lite Version, And Remove Some Filters
-! ! Version: 2024-06-29 07:23:04(GMT+8) 
-! Total count: 34168
+! ! Version: 2024-06-29 08:03:08(GMT+8) 
+! Total count: 34175
  
 ###ADtip
 ###AdBlockDialog
@@ -18053,6 +18053,7 @@ zzzyk.com###Tinfo
 ||5fz.cc/t/aimg/tao
 ||5gg17gm.com^
 ||5ggj5cp.com^
+||5gxs.org^
 ||5ibanma.com^
 ||5icool.org/uploadfile/poster/
 ||5idoy8p7.live^
@@ -18860,6 +18861,7 @@ zzzyk.com###Tinfo
 ||adfstat.yandex.ru^
 ||adgarden.market^$domain=factfeed.com|mdrntoday.com|travelroo.com
 ||adhdsb.cn^
+||adhvz.cn^
 ||adi*.cnool.net^
 ||adimg.liba.com^
 ||aditibelen.com^
@@ -19896,6 +19898,7 @@ zzzyk.com###Tinfo
 ||bbsbaba.com/js/2.js
 ||bbtta91.shop^
 ||bbttf26.shop^
+||bbxyxt.xyz^
 ||bbyfsfo.cn^
 ||bc.qunar.com^
 ||bc.vc/js/bcvc_go.js$script,third-party
@@ -25841,6 +25844,7 @@ zzzyk.com###Tinfo
 ||kfpnqug.cn^
 ||kfqizu.cn^
 ||kfvjdvjzhddhc.com^
+||kfycmiu.icu^
 ||kfyg.xyz^
 ||kgcyvd.com^
 ||kgdyoh.icu^
@@ -26241,6 +26245,7 @@ zzzyk.com###Tinfo
 ||ldjhlqr.cn^
 ||ldjnbn.xyz^
 ||ldmnq.com^$third-party,badfilter
+||ldoshbl.top^
 ||ldvdwlt.xyz^
 ||ldvnehc.xyz^
 ||ldxinb.xyz^
@@ -28802,6 +28807,7 @@ zzzyk.com###Tinfo
 ||qdzilh.cn^
 ||qdzyspjx.com^
 ||qedvcu.com^
+||qeedaa.xyz^
 ||qejjhnq.cn^
 ||qescaen.com^
 ||qetskupch581.shop^
@@ -33050,6 +33056,7 @@ zzzyk.com###Tinfo
 ||xrkadslmgg.xyz^
 ||xrkyqq.com^
 ||xrllybr.xyz^
+||xrmfjzqo.xyz^
 ||xrrhwgj.xyz^
 ||xrrxodz.xyz^
 ||xryrylt.cn^

@@ -4,8 +4,8 @@
 ! Powerd by Cats-Team
 ! Expires: 1 day (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2024-06-29 07:23:04(GMT+8) 
-! Total count: 123374
+! ! Version: 2024-06-29 08:03:08(GMT+8) 
+! Total count: 123381
  
 ###ADtip
 ###AdBlockDialog
@@ -44208,6 +44208,7 @@ zzzyk.com###Tinfo
 ||5fz.cc/t/aimg/tao
 ||5gg17gm.com^
 ||5ggj5cp.com^
+||5gxs.org^
 ||5ibanma.com^
 ||5icool.org/uploadfile/poster/
 ||5idoy8p7.live^
@@ -49186,6 +49187,7 @@ zzzyk.com###Tinfo
 ||adhegmenttrk.com^
 ||adhslx.com^$third-party
 ||adhudg.nec-lavie.jp^
+||adhvz.cn^
 ||adi*.cnool.net^
 ||adi.ni.com^
 ||adimg.liba.com^
@@ -55004,6 +55006,7 @@ zzzyk.com###Tinfo
 ||bbvms.com/zone/js/zonestats.js
 ||bbworld.blackboard.com^
 ||bbwqcs.vidaxl.ee^
+||bbxyxt.xyz^
 ||bbybqq.levi.co.id^
 ||bbyfsfo.cn^
 ||bc.ad.daum.net^
@@ -79560,6 +79563,7 @@ zzzyk.com###Tinfo
 ||kfqizu.cn^
 ||kftfhp.furusato-tax.jp^
 ||kfvjdvjzhddhc.com^
+||kfycmiu.icu^
 ||kfyg.xyz^
 ||kfzteile24.de/*_tracking.js
 ||kgbokc.masrefacciones.mx^
@@ -80539,6 +80543,7 @@ zzzyk.com###Tinfo
 ||ldmnq.com^$third-party,badfilter
 ||ldnlyap.com^
 ||ldorlv.seiban.co.jp^
+||ldoshbl.top^
 ||ldqtdd.peing.net^
 ||ldv.midoplay.com^
 ||ldvalc.manzara.cz^
@@ -95208,6 +95213,7 @@ zzzyk.com###Tinfo
 ||qdzyspjx.com^
 ||qedlai.restplatzboerse.com^
 ||qedvcu.com^
+||qeedaa.xyz^
 ||qejjhnq.cn^
 ||qejrwy.lazienkaplus.pl^
 ||qerpks.rollei.de^
@@ -121469,6 +121475,7 @@ zzzyk.com###Tinfo
 ||xrkadslmgg.xyz^
 ||xrkyqq.com^
 ||xrllybr.xyz^
+||xrmfjzqo.xyz^
 ||xrnyhc.arumdri.co.kr^
 ||xrnyhc.jokwangilbo.com^
 ||xrnyhc.welltimes.co.kr^
