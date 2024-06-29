@@ -4,8 +4,8 @@
 ! Powerd by Cats-Team
 ! Expires: 1 day (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2024-06-29 08:03:08(GMT+8) 
-! Total count: 123381
+! ! Version: 2024-06-29 13:21:42(GMT+8) 
+! Total count: 123384
  
 ###ADtip
 ###AdBlockDialog
@@ -6252,6 +6252,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /tongji.js
 /top-10-tracker.min.js
 /toplytics.js
+/tops/fmt.js?v=
 /touchclarity/logging.js
 /tourl.html?url=
 /tps/noexpire/*
@@ -96288,6 +96289,7 @@ zzzyk.com###Tinfo
 ||recruit.go.apprenticeshipcommunity.com.au^
 ||recruitics.com^$third-party
 ||recruiting.dukekunshan.edu.cn^
+||recs-api.conde.digital^
 ||recs.atgsvcs.com^
 ||recs.richrelevance.com/rrserver/api/engage/trackExperienceEvent?
 ||recs.richrelevance.com/rrserver/tracking?
@@ -118310,6 +118312,7 @@ zzzyk.com###Tinfo
 ||vulture.downzeroky.com^
 ||vulture.lagosdesaliencia.com^
 ||vupload.duowan.com^
+||vupsnx.xyz^
 ||vutjnt.xyz^
 ||vuukle.com/bq-publish?
 ||vuukle.com/getGeo
