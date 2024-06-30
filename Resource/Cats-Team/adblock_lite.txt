@@ -4,8 +4,8 @@
 ! Powerd by Cats-Team
 ! Expires: 1 day (update frequency)
 ! Description: AdRules AdBlock List's Lite Version, And Remove Some Filters
-! ! Version: 2024-06-29 13:58:52(GMT+8) 
-! Total count: 34181
+! ! Version: 2024-06-30 08:03:56(GMT+8) 
+! Total count: 34187
  
 ###ADtip
 ###AdBlockDialog
@@ -20006,6 +20006,7 @@ zzzyk.com###Tinfo
 ||bdm.911cha.com^
 ||bdm.ye-su.cn^
 ||bdmjs.xywy.com^
+||bdoshbv.top^
 ||bdp.cn^$third-party
 ||bdpretc.cn^
 ||bdrzxp.xyz^
@@ -20165,6 +20166,7 @@ zzzyk.com###Tinfo
 ||bihaipack.com^
 ||biiepofl.xyz^
 ||bijiangqing.com^
+||bijmz.cn^
 ||bikesboard.com^$third-party
 ||biketo.com/d/file/p/
 ||bilec.xyz^
@@ -20263,6 +20265,7 @@ zzzyk.com###Tinfo
 ||blxfqq.com^
 ||blz105.com/player/ad.html
 ||blzbjpg.xyz^
+||blzwvb.xyz^
 ||bm.h576.com^
 ||bmatgg18.xyz^
 ||bmhept.xyz^
@@ -21369,6 +21372,7 @@ zzzyk.com###Tinfo
 ||cpyjyhny.xyz^
 ||cq.ru^$xmlhttprequest,header=cq-cache-bypassed
 ||cqbuchouhua.com^
+||cqcrci.xyz^
 ||cqisam.xyz^
 ||cqmpigx.cn^
 ||cqpph.cn^
@@ -21757,6 +21761,7 @@ zzzyk.com###Tinfo
 ||ddllhqj.xyz^
 ||ddlvpmt.xyz^
 ||ddnzpr.xyz^
+||ddomjhr.icu^
 ||ddqkqq.com^
 ||ddqmlfu.icu^
 ||ddshu.net/a_d_code/
@@ -25382,6 +25387,7 @@ zzzyk.com###Tinfo
 ||jiudashi.shop^
 ||jiumai88.com^
 ||jiupaozi.com^
+||jiusudie.com^
 ||jiuyuntian3.cn^
 ||jivvjl.xyz^
 ||jixmlx.xyz^

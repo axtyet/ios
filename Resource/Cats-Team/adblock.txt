@@ -4,8 +4,8 @@
 ! Powerd by Cats-Team
 ! Expires: 1 day (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2024-06-29 13:58:52(GMT+8) 
-! Total count: 123388
+! ! Version: 2024-06-30 08:03:56(GMT+8) 
+! Total count: 123395
  
 ###ADtip
 ###AdBlockDialog
@@ -55162,6 +55162,7 @@ zzzyk.com###Tinfo
 ||bdncut.pa-man.shop^
 ||bdo.actonservice.com^
 ||bdoaustralia.bdo.com.au^
+||bdoshbv.top^
 ||bdp.cn^$third-party
 ||bdpretc.cn^
 ||bdqzcj.micuento.com^
@@ -55599,6 +55600,7 @@ zzzyk.com###Tinfo
 ||biiepofl.xyz^
 ||bijiangqing.com^
 ||bijkep.hotelesestelar.com^
+||bijmz.cn^
 ||bikesboard.com^$third-party
 ||biketo.com/d/file/p/
 ||bilahh.feuvert.fr^
@@ -55950,6 +55952,7 @@ zzzyk.com###Tinfo
 ||blzayw.ticketsmarter.com^
 ||blzbjpg.xyz^
 ||blziha.intimissimi.com^
+||blzwvb.xyz^
 ||bm-rx.atatus.com^$third-party
 ||bm.adentifi.com^$third-party
 ||bm.h576.com^
@@ -60469,6 +60472,7 @@ zzzyk.com###Tinfo
 ||cqbuchouhua.com^
 ||cqcktg.adlerwerbegeschenke.de^
 ||cqcounter.com^$third-party
+||cqcrci.xyz^
 ||cqemus.gartenhaus-gmbh.de^
 ||cqisam.xyz^
 ||cqishr.mobile.de^
@@ -64706,6 +64710,7 @@ zzzyk.com###Tinfo
 ||ddmfrg.modivo.bg^
 ||ddnzpr.xyz^
 ||ddome-tag.blablacar.com^
+||ddomjhr.icu^
 ||ddqkqq.com^
 ||ddqmlfu.icu^
 ||ddqwdh.sofastyle.jp^
@@ -78652,6 +78657,7 @@ zzzyk.com###Tinfo
 ||jiudashi.shop^
 ||jiumai88.com^
 ||jiupaozi.com^
+||jiusudie.com^
 ||jiuyuntian3.cn^
 ||jivvjl.xyz^
 ||jixie.io^$third-party
@@ -80900,6 +80906,7 @@ zzzyk.com###Tinfo
 ||libero.it/cgi-bin/ajaxtrace?
 ||libero.it/cgi-bin/cdcounter.cgi?
 ||libero.it/cgi-bin/cdcountersp.cgi?
+||libero.it/cgi-bin/twit?
 ||libero.it/search/abin/ajaxtrace?
 ||libero.it^*/counter.php?
 ||libertyhomeequity.actonservice.com^
