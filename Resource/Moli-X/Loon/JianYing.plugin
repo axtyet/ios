@@ -1,0 +1,20 @@
+#!name=剪映
+#!desc=剪映解锁会员
+#!openUrl = 
+#!author = 莫离
+#!homepage = https://github.com/Moli-X/Resources/raw/main/Loon/JianYing.plugin
+#!icon = https://github.com/Moli-X/Resources/raw/main/Icon/Image/JianYing.png
+#!edit = https://github.com/Moli-X/Resources/edit/main/Loon/JianYing.plugin
+
+
+# 原链接:https://raw.githubusercontent.com/yqc007/QuantumultX/master/VideoFusionVipCrack.js
+# 应用版本：9.8.2
+
+[Script]
+
+# > 剪映解锁会员
+http-request ^https?:\/\/commerce-api-.*\.faceu\.mobi\/commerce\/v1\/(subscription\/user_info|purchase\/draft_unlock|effect\/check_effects) script-path=https://github.com/Moli-X/Resources/raw/main/Script/JianYing.js, timeout=60 ,tag=VideoFusionVipCrack_11
+
+[MITM]
+
+hostname = api*.faceu.mobi,api3-lq.faceu.mobi,commerce-api-lf.faceu.mobi,commerce-api-lq.faceu.mobi,lv-api-lq.ulikecam.com,lv-api-hl.ulikecam.com
