@@ -10219,7 +10219,6 @@ domain:akilifox.com
 domain:akinrevenueexcited.com
 domain:akisinn.info
 domain:akisinn.me
-domain:akjamv.shop
 domain:akjasjanwhif.com
 domain:akjdbjkcbacj.com
 domain:akjotpoxwp.com
@@ -13836,7 +13835,6 @@ domain:apromoweb.com
 domain:aps.hearstnp.com
 domain:apsalar.com
 domain:apsatnlfylz.com
-domain:apsehick.date
 domain:apsidalmungoos.top
 domain:apsmediaagency.com
 domain:apsoacou.xyz
@@ -16769,6 +16767,7 @@ domain:beacon-api.aliyuncs.com
 domain:beacon-fullpage-predictor.goguardian.com
 domain:beacon.adelphic.com
 domain:beacon.affil.walmart.com
+domain:beacon.apsehick.date
 domain:beacon.carfax.com
 domain:beacon.cdn.qq.com
 domain:beacon.cdnma.com
@@ -21420,6 +21419,7 @@ domain:cdhfvrug.xyz
 domain:cdhvrrlyrawrxqd.xyz
 domain:cdiklrgwisnu.com
 domain:cdilwuhbgy.com
+domain:cdipsumf.top
 domain:cdjhcf.hometogo.es
 domain:cdkcaxxjyyb.xyz
 domain:cdkke.xyz
@@ -33104,6 +33104,7 @@ domain:dizzyrebozo.website
 domain:dizzyshe.pro
 domain:dj-updates.com
 domain:dj09j5u.cn
+domain:dj2550.com
 domain:djadoc.com
 domain:djahkee.xyz
 domain:djaxadserver.com
@@ -48106,6 +48107,7 @@ domain:hdc.maxli.cn
 domain:hde1.repentignychevrolet.com
 domain:hdfoweey.com
 domain:hdicsm.autoscout24.be
+domain:hdipsumu.top
 domain:hdj.baidu.com
 domain:hdjfeed.top
 domain:hdjthzg.cn
@@ -56815,7 +56817,6 @@ domain:killerrubacknowledge.com
 domain:killingscramblego.com
 domain:killssource.com
 domain:killstudyingoperative.com
-domain:killtee.com
 domain:kilometrealcoholhello.com
 domain:kilomniadst.info
 domain:kilpie.florastore.com
@@ -70525,6 +70526,7 @@ domain:navi38.ru
 domain:navi39.ru
 domain:navi4.com
 domain:navi40.com
+domain:navi42.ru
 domain:navi45.ru
 domain:navi5.com
 domain:navi50.com
@@ -108885,6 +108887,7 @@ domain:tw-go.experian.com
 domain:tw.cx
 domain:tw.mywd.com
 domain:tw.spiriteq.com
+domain:twamjb.cn
 domain:twaonhcjwoaouj.com
 domain:twazizo.ru
 domain:twazzyoidwlfe.com
