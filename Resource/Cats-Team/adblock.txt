@@ -4,8 +4,8 @@
 ! Powerd by Cats-Team
 ! Expires: 1 day (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2024-06-30 08:03:56(GMT+8) 
-! Total count: 123395
+! ! Version: 2024-07-01 08:03:54(GMT+8) 
+! Total count: 123421
  
 ###ADtip
 ###AdBlockDialog
@@ -2441,7 +2441,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 .cz/*/js/a.js|$script,domain=ahaonline.cz|info.cz|onetv.cz
 .cz/*/js/a.js|$script,domain=auto.cz|autorevue.cz|maminka.cz|reflex.cz|blesk.cz|dama.cz|e15.cz|mojezdravi.cz|zeny.cz|zive.cz
 .dajiahao*.top/getCodeDomain/
-.de/bi/d*$domain=merkur.de|hna.de|serienjunkies.de
+.de/bi/d*$domain=merkur.de|hna.de|serienjunkies.de|fr.de|ovb-online.de|mangfall24.de|wasserburg24.de|bgland24.de|innsalzach24.de|rosenheim24.de|chiemgau24.de
 .de/l.gif?
 .de/pt.gif?type=
 .delivery-status.com/open?
@@ -12450,6 +12450,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||sponsorads.de/script.php$script,domain=wetter3.de
 @@||sport.be.msn.com/javascripts/tracking/metriweb/spring.js
 @@||sport.be/javascripts/tracking/metriweb/spring.js
+@@||sport.virgilio.it/js/web-vitals-evnt.25/web-vitals.attribution.js$script,domain=sport.virgilio.it
 @@||sportdeutschland.vidibuscloud.net/themes/sportdeutschland-623/javascripts/lib/my_ad_integration.js$script
 @@||sports.ru^*/adfox.$xmlhttprequest
 @@||sportsgrid.com/decor/javascript/magnify_stats.js
@@ -12557,6 +12558,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||stats.statbroadcast.com/interface/webservice/event/$~third-party
 @@||stats.wnba.com/templates/angular/tables/events/$~third-party
 @@||staty.portalradiowy.pl/wstats/$script,third-party
+@@||stcaimcu.com/data/attachment/common/cf/stc_logo_
 @@||steamcn.com/source/plugin/steamcn_gift/template/images/*steam.png
 @@||steamstatic.com/steam/apps/$image,domain=store.steampowered.com
 @@||stippleit.com/stipple.js$domain=photos.toofab.com
@@ -12661,6 +12663,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||technews.tw^$generichide,badfilter
 @@||technical-service.net/api?$domain=n-tv.de|vip.de|rtl.de
 @@||technical-service.net^$xmlhttprequest,domain=n-tv.de|rtl.de|vip.de
+@@||tecnologia.libero.it/js/dist.1/web-vitals.attribution.js$script,domain=tecnologia.libero.it
 @@||teenvogue.com/js/eventTracker.js
 @@||teknogods.com/advert.js$script
 @@||teleboy.ch/assets/js/werbung.ad.dc2.adtech.de.addyn.js$xmlhttprequest,domain=teleboy.ch
@@ -31964,6 +31967,12 @@ fategrandorder.info##.sidebar_acr.side_inline
 faxingw.cn##.detailadv
 faxingw.cn##.detailgc
 faxingw.cn##.indadv1
+faz.net#%#//scriptlet('set-local-storage-item', 'com.adobe.reactor.core.visitorTracking.pagesViewed', '$remove$')
+faz.net#%#//scriptlet('set-local-storage-item', 'com.adobe.reactor.core.visitorTracking.sessionCount', '$remove$')
+faz.net#%#//scriptlet('set-session-storage-item', 'com.adobe.reactor.core.visitorTracking.landingPage', '$remove$')
+faz.net#%#//scriptlet('set-session-storage-item', 'com.adobe.reactor.core.visitorTracking.landingTime', '$remove$')
+faz.net#%#//scriptlet('set-session-storage-item', 'com.adobe.reactor.core.visitorTracking.pagesViewed', '$remove$')
+faz.net#%#//scriptlet('set-session-storage-item', 'com.adobe.reactor.core.visitorTracking.trafficSource', '$remove$')
 fctvhd.com##.mw-adblock
 fcw45.com##.bottom-adv
 fcw45.com##div[id^="layui-layer"]
@@ -44292,6 +44301,7 @@ zzzyk.com###Tinfo
 ||666bbb333bbb.com^
 ||666bbb888www.com^
 ||666ppp222ppp.com^
+||666ppp888ppp.com^
 ||6677648.reddoorz.com^
 ||6696q.com^
 ||6699fa.cn/imagestb/
@@ -48479,6 +48489,7 @@ zzzyk.com###Tinfo
 ||academics.academicsuperstore.com^
 ||acadian-asset.actonservice.com^
 ||acahelp.center^
+||acast.com/api/stats
 ||acbp0020171456.page.tl^
 ||acc-hd.de^$third-party
 ||acc-link-ccontact.focuscura.com^
@@ -48559,6 +48570,7 @@ zzzyk.com###Tinfo
 ||acl.stayfriends.de^
 ||aclog.itmedia.co.jp^
 ||aclordi.actonservice.com^
+||aclsx.cn^
 ||acode.b2b.cn/JS/
 ||acodes.b2b.cn^
 ||acookie.*.gif?
@@ -52281,6 +52293,7 @@ zzzyk.com###Tinfo
 ||api.iris.tv/update
 ||api.iterable.com^
 ||api.iterative.ly^
+||api.job*.ch/public/statistic/teaser/hit
 ||api.keen.io/*/projects/$domain=faceit.com
 ||api.kwaizt.com^
 ||api.leadpages.io/analytics/$domain=~my.leadpages.net
@@ -60577,6 +60590,7 @@ zzzyk.com###Tinfo
 ||critictruck.com^$third-party
 ||crittercism.com/api/
 ||crjeymh.cn^
+||crlsxny.xyz^
 ||crm-analytics.imweb.ru^
 ||crm-analytics.imweb.ru^$third-party
 ||crm-vwg.com/tracker/
@@ -64463,6 +64477,7 @@ zzzyk.com###Tinfo
 ||datafiletechnologies.actonservice.com^
 ||datafront.co^$third-party
 ||dataguru.cn/site_
+||datahub-srgssr.ch/tracking/
 ||datalayer.orange.fr^
 ||datalytics.utair.io^$ping
 ||datam.com^$third-party
@@ -69481,6 +69496,7 @@ zzzyk.com###Tinfo
 ||faz.net/api/collect
 ||faz.net/l.gif?
 ||faz.net/placingservice/count
+||faz.net^$cookie=adobe_pageViewCount
 ||fazphz.theiconic.com.au^
 ||fb.echovisuals.com^
 ||fb.ru/misc/js/global/tracker.js
@@ -74057,6 +74073,7 @@ zzzyk.com###Tinfo
 ||hentaicounter.com^$third-party
 ||hentaistream.com^$popup
 ||henwilkson.com^
+||hepsiburada.com/api/track
 ||hepsiburada.com/webcontent/
 ||heraldandtimeslabs.com/sugar.js
 ||herbgreencolumn.com^
@@ -74150,6 +74167,7 @@ zzzyk.com###Tinfo
 ||hgjxp.cn^
 ||hgkzl.cn^
 ||hglm.com^
+||hgngrf.xyz^
 ||hgpbhuj.cn^
 ||hgpdoa.cn^
 ||hgprha.mizalle.com^
@@ -74845,6 +74863,7 @@ zzzyk.com###Tinfo
 ||htqfxh.vuch.cz^
 ||htqyy.com/kiees/
 ||htrace.wetvinfo.com^
+||htrurb.xyz^
 ||htseca.top^
 ||httdev.it/e/c?
 ||httpcn.com/Images/banner
@@ -93734,6 +93753,7 @@ zzzyk.com###Tinfo
 ||pklujb.xyz^
 ||pkmvjx.my-store.ch^
 ||pknrnj.xyz^
+||pks-analytics.raenonx.cc^
 ||pktbag.flighthub.com^
 ||pktytp.membershop.lv^
 ||pkvs.com/public/300/
@@ -95398,6 +95418,7 @@ zzzyk.com###Tinfo
 ||qjxys.cn^
 ||qk6.org/file/script/
 ||qkhhjm.autoscout24.nl^
+||qkikkg.xyz^
 ||qksapp.net/gif/
 ||qksbin.nocturne.com.tr^
 ||qkscga.xyz^
@@ -95953,6 +95974,7 @@ zzzyk.com###Tinfo
 ||radiozet.pl/extension/stats/design/standard/javascript/Stats.js
 ||radish-cake.xyz^
 ||raenonx.cc/api/analytics
+||raenonx.cc/api/usage
 ||raidlight.com/*/index.php?controller=statistics
 ||rail.bankofamerica.com^$script,~third-party,xmlhttprequest
 ||railwayrainstorm.com^$third-party
@@ -105837,6 +105859,7 @@ zzzyk.com###Tinfo
 ||ssense.com/58Asv359/init.js
 ||ssestherssa.com^
 ||sseudorassb.com^
+||ssevt.com^
 ||ssevt.com^$third-party
 ||ssfllp.actonservice.com^
 ||ssgamf.stories.com^
@@ -111416,6 +111439,7 @@ zzzyk.com###Tinfo
 ||tms.betwayarabia.com^
 ||tms.betwaysatta.com^
 ||tms.betwaysatta1.com^
+||tms.danzz.ch^
 ||tms.delta.com/privacy/$image
 ||tms.delta.com^
 ||tms.dmp.wi-fi.ru^
@@ -117545,6 +117569,7 @@ zzzyk.com###Tinfo
 ||vast.doublemax.net/adserver/vast.xml$script,xmlhttprequest,other,redirect=noopvast-2.0
 ||vastervik.innngot.space^
 ||vatrack.hinet.net^
+||vatzxd.xyz^
 ||vaxgyly.cn^
 ||vaxjo.rawww.space^
 ||vazhno.ru/cdn-cgi/apps/head/*.js
@@ -117762,6 +117787,7 @@ zzzyk.com###Tinfo
 ||vgo.vegaooparty.com^
 ||vgo.vegaoopro.com^
 ||vgs-collect-keeper.apps.verygood.systems^
+||vgwort.de^$cookie=srp
 ||vgwort.de^$third-party
 ||vgzytn.xyz^
 ||vhans.siege-corp.com^
@@ -121313,6 +121339,7 @@ zzzyk.com###Tinfo
 ||xkd*.com/layer/layer.js
 ||xkddvf.gigantti.fi^
 ||xkdlqq.com^
+||xkesqbp.icu^
 ||xkfigjh.cn^
 ||xkgtxj.edomator.pl^
 ||xkidkt.edenbrothers.com^
@@ -122157,6 +122184,7 @@ zzzyk.com###Tinfo
 ||ynzhby.com^
 ||ynztzh.com^$third-party
 ||yo.inbots.online^
+||yoast-schema-graph.com^$third-party
 ||yoc.younited-credit.com^
 ||yoda.kwd.inkuai.com^
 ||yofprpv.cn^
@@ -122835,7 +122863,6 @@ zzzyk.com###Tinfo
 ||zf4.top^
 ||zfcdirf.icu^
 ||zfcoin.cn^
-||zfctrack.net^
 ||zfcumb.xyz^
 ||zfehvv.buzz^
 ||zfehvv.xyz^
@@ -122904,7 +122931,6 @@ zzzyk.com###Tinfo
 ||zhaofuli.*/data/content
 ||zhaozongqq.com^
 ||zhaweifeng.com^
-||zhctrack.net^
 ||zhcxvk.qvc.com^
 ||zhduni.rizap.jp^
 ||zhemaijs.net^
