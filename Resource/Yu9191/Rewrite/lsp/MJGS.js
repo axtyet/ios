@@ -8,4 +8,4 @@ https:\/\/(mfjk|gnjk|buyaoda).+\.com\/(playerinfo|api\/get_advert|api\/home\/pop
 https?:\/\/(mfjk|gnjk|buyaoda).+\.com\/api\/(comic|video|short_movie_info|novel|gallery|audio) url script-request-header https://raw.githubusercontent.com/Yu9191/Rewrite/main/lsp/mjgshd.js
 
 [mitm]
-hostname = gnjk.eapep.com, mfjk.eapep.com, buyaoda.*.com
+hostname = gnjk.*.com, mfjk.*.com, buyaoda.*.com
